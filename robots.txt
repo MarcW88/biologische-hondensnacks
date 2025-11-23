@@ -1,12 +1,59 @@
+# Robots.txt for biologische-hondensnacks.nl
+# Updated: 2024-11-23
+
+# Allow all bots to crawl the entire site
 User-agent: *
 Allow: /
 
-# Sitemap
+# Disallow temporary or development files
+Disallow: /temp/
+Disallow: /dev/
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /*.tmp$
+Disallow: /*.log$
+
+# Disallow duplicate content or search parameters
+Disallow: /*?*
+Disallow: /search?
+Disallow: /*&*
+
+# Allow important directories
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /blog/
+Allow: /natuurlijke-hondensnacks/
+Allow: /hondensnacks-voor-puppy/
+Allow: /hondensnacks-voor-training/
+Allow: /gezonde-kauwsnacks/
+Allow: /graanvrije-hondensnacks/
+
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 2
+
+# Block aggressive crawlers
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Sitemap location
 Sitemap: https://biologische-hondensnacks.nl/sitemap.xml
 
-# Disallow admin or private directories (if any in future)
-# Disallow: /admin/
-# Disallow: /private/
-
-# Allow all search engines to crawl the site
-# Crawl-delay: 1
+# Host directive (preferred domain)
+Host: https://biologische-hondensnacks.nl
