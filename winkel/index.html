@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biologische Hondensnacks Winkel | Alle Natuurlijke Snacks Online</title>
+    <meta name="description" content="Ontdek onze volledige collectie biologische hondensnacks. Filter op merk, leeftijd, ingrediënten en meer. Gratis verzending vanaf €20 via bol.com.">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="shop-styles.css">
+    
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Biologische Hondensnacks Winkel",
+        "description": "Volledige collectie natuurlijke en biologische hondensnacks",
+        "url": "https://biologische-hondensnacks.nl/winkel/"
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="../">🐕 Biologische Hondensnacks</a>
+                </div>
+                
+                <nav class="nav">
+                    <a href="../">Home</a>
+                    <a href="../natuurlijke-hondensnacks/">Natuurlijk</a>
+                    <a href="../beste-hondensnacks-2024/">Top 10</a>
+                    <a href="#" class="active">Winkel</a>
+                    <a href="../blog/">Blog</a>
+                    <a href="../over-ons/">Over Ons</a>
+                </nav>
+                
+                <div class="header-actions">
+                    <button class="mobile-menu-toggle">☰</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="../">Home</a> > <span>Winkel</span>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="shop-hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>🛍️ Biologische Hondensnacks Winkel</h1>
+                <p>Ontdek onze volledige collectie van <strong>100+ natuurlijke en biologische hondensnacks</strong>. Alle producten direct leverbaar via bol.com met gratis verzending vanaf €20.</p>
+                
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">100+</span>
+                        <span class="stat-label">Producten</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">4.8★</span>
+                        <span class="stat-label">Gemiddelde Score</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">24h</span>
+                        <span class="stat-label">Snelle Levering</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop Container -->
+    <div class="shop-container">
+        <div class="container">
+            <div class="shop-layout">
+                
+                <!-- Filters Sidebar -->
+                <aside class="filters-sidebar">
+                    <div class="filters-header">
+                        <h3>🔍 Filters</h3>
+                        <button class="clear-filters" onclick="clearAllFilters()">Wis alles</button>
+                    </div>
+                    
+                    <!-- Search -->
+                    <div class="filter-section">
+                        <label class="filter-title">Zoeken</label>
+                        <input type="text" id="searchInput" placeholder="Zoek producten..." class="search-input">
+                    </div>
+                    
+                    <!-- Categories -->
+                    <div class="filter-section">
+                        <label class="filter-title">🏷️ Categorie</label>
+                        <div class="filter-options">
+                            <label class="filter-option">
+                                <input type="checkbox" value="training" onchange="applyFilters()">
+                                <span>Training Snacks</span>
+                                <span class="count">(24)</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" value="kauwsnacks" onchange="applyFilters()">
+                                <span>Kauwsnacks</span>
+                                <span class="count">(18)</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" value="puppy" onchange="applyFilters()">
+                                <span>Puppy Snacks</span>
+                                <span class="count">(15)</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" value="dental" onchange="applyFilters()">
+                                <span>Dental Care</span>
+                                <span class="count">(12)</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" value="hypoallergeen" onchange="applyFilters()">
+                                <span>Hypoallergeen</span>
+                                <span class="count">(20)</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <!-- Brand -->
+                    <div class="filter-section">
+                        <label class="filter-title">🏭 Merk</label>
+                        <div class="filter-options">
+                            <label class="filter-option">
+                                <input type="checkbox" value="yarrah" onchange="applyFilters()">
+                                <span>Yarrah</span>
+                                <span class="count">(16)</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" value="lily-kitchen" onchange="applyFilters()">
+                                <span>Lily's Kitchen</span>
+                                <span class="count">(12)</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" value="green-petfood" onchange="applyFilters()">
+                                <span>Green Petfood</span>
+                                <span class="count">(10)</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" value="zuke" onchange="applyFilters()">
+                                <span>Zuke's</span>
+                                <span class="count">(8)</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <!-- Age -->
+                    <div class="filter-section">
+                        <label class="filter-title">🐕 Leeftijd</label>
+                        <div class="filter-options">
+                            <label class="filter-option">
+                                <input type="checkbox" value="puppy" onchange="applyFilters()">
+                                <span>Puppy (2-12 maanden)</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" value="adult" onchange="applyFilters()">
+                                <span>Volwassen (1-7 jaar)</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" value="senior" onchange="applyFilters()">
+                                <span>Senior (7+ jaar)</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <!-- Size -->
+                    <div class="filter-section">
+                        <label class="filter-title">📏 Hondengrootte</label>
+                        <div class="filter-options">
+                            <label class="filter-option">
+                                <input type="checkbox" value="small" onchange="applyFilters()">
+                                <span>Klein (tot 10kg)</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" value="medium" onchange="applyFilters()">
+                                <span>Middel (10-25kg)</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" value="large" onchange="applyFilters()">
+                                <span>Groot (25kg+)</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <!-- Price Range -->
+                    <div class="filter-section">
+                        <label class="filter-title">💰 Prijsrange</label>
+                        <div class="price-range">
+                            <input type="range" id="priceRange" min="0" max="50" value="50" oninput="updatePriceFilter(this.value)">
+                            <div class="price-labels">
+                                <span>€0</span>
+                                <span id="maxPrice">€50</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Special Features -->
+                    <div class="filter-section">
+                        <label class="filter-title">✨ Eigenschappen</label>
+                        <div class="filter-options">
+                            <label class="filter-option">
+                                <input type="checkbox" value="biologisch" onchange="applyFilters()">
+                                <span>🌱 Biologisch</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" value="graanvrij" onchange="applyFilters()">
+                                <span>🌾 Graanvrij</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" value="glutenvrij" onchange="applyFilters()">
+                                <span>🚫 Glutenvrij</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" value="natuurlijk" onchange="applyFilters()">
+                                <span>🍃 100% Natuurlijk</span>
+                            </label>
+                        </div>
+                    </div>
+                </aside>
+                
+                <!-- Products Area -->
+                <main class="products-area">
+                    <!-- Results Header -->
+                    <div class="results-header">
+                        <div class="results-info">
+                            <span class="results-count" id="resultsCount">127 producten</span>
+                            <span class="results-text">gevonden</span>
+                        </div>
+                        
+                        <div class="sort-controls">
+                            <label for="sortSelect">Sorteer op:</label>
+                            <select id="sortSelect" onchange="sortProducts()">
+                                <option value="popular">Populairste</option>
+                                <option value="price-low">Prijs: laag naar hoog</option>
+                                <option value="price-high">Prijs: hoog naar laag</option>
+                                <option value="rating">Beste beoordelingen</option>
+                                <option value="newest">Nieuwste eerst</option>
+                                <option value="name">Naam A-Z</option>
+                            </select>
+                        </div>
+                        
+                        <div class="view-toggle">
+                            <button class="view-btn active" data-view="grid" onclick="toggleView('grid')">⊞</button>
+                            <button class="view-btn" data-view="list" onclick="toggleView('list')">☰</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Active Filters -->
+                    <div class="active-filters" id="activeFilters" style="display: none;">
+                        <span>Actieve filters:</span>
+                        <div class="filter-tags" id="filterTags"></div>
+                    </div>
+                    
+                    <!-- Products Grid -->
+                    <div class="products-grid" id="productsGrid">
+                        <!-- Products will be loaded here by JavaScript -->
+                    </div>
+                    
+                    <!-- Load More -->
+                    <div class="load-more-container" id="loadMoreContainer">
+                        <button class="load-more-btn" onclick="loadMoreProducts()">
+                            Laad meer producten
+                        </button>
+                    </div>
+                    
+                    <!-- Empty State -->
+                    <div class="empty-state" id="emptyState" style="display: none;">
+                        <div class="empty-content">
+                            <span class="empty-icon">🔍</span>
+                            <h3>Geen producten gevonden</h3>
+                            <p>Probeer je filters aan te passen of zoek op een ander begrip.</p>
+                            <button class="btn-primary" onclick="clearAllFilters()">Wis alle filters</button>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+
+    <!-- Trust Section -->
+    <section class="trust-section">
+        <div class="container">
+            <div class="trust-items">
+                <div class="trust-item">
+                    <span class="trust-icon">🚚</span>
+                    <div class="trust-content">
+                        <h4>Gratis Verzending</h4>
+                        <p>Vanaf €20 via bol.com</p>
+                    </div>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-icon">⭐</span>
+                    <div class="trust-content">
+                        <h4>4.8/5 Sterren</h4>
+                        <p>1200+ tevreden klanten</p>
+                    </div>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-icon">🌱</span>
+                    <div class="trust-content">
+                        <h4>100% Biologisch</h4>
+                        <p>SKAL gecertificeerd</p>
+                    </div>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-icon">↩️</span>
+                    <div class="trust-content">
+                        <h4>30 Dagen Retour</h4>
+                        <p>Niet tevreden? Geld terug</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        🐕 Biologische Hondensnacks
+                    </div>
+                    <p>De beste biologische en natuurlijke hondensnacks van Nederland. Speciaal geselecteerd voor de gezondheid van je hond.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Populaire Categorieën</h4>
+                    <ul>
+                        <li><a href="../natuurlijke-hondensnacks/">Natuurlijke Snacks</a></li>
+                        <li><a href="../hondensnacks-voor-puppy/">Puppy Snacks</a></li>
+                        <li><a href="../gezonde-kauwsnacks/">Kauwsnacks</a></li>
+                        <li><a href="../graanvrije-hondensnacks/">Graanvrije Snacks</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="../over-ons/">Over Ons</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#faq">Veelgestelde Vragen</a></li>
+                        <li><a href="#verzending">Verzending & Retour</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Blijf op de hoogte</h4>
+                    <p>Ontvang tips en aanbiedingen voor je hond</p>
+                    <div class="newsletter">
+                        <input type="email" placeholder="Je e-mailadres">
+                        <button>Aanmelden</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Biologische Hondensnacks. Alle rechten voorbehouden.</p>
+                <div class="footer-links">
+                    <a href="#privacy">Privacy</a>
+                    <a href="#voorwaarden">Voorwaarden</a>
+                    <a href="#cookies">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../js/main.js"></script>
+    <script src="shop.js"></script>
+</body>
+</html>

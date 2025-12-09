@@ -1,0 +1,1597 @@
+[
+  {
+    "id": 1,
+    "name": "Yarrah Biologische Kip & Rund Trainingssnacks",
+    "brand": "Yarrah",
+    "price": 8.95,
+    "originalPrice": null,
+    "pricePerUnit": "€4.48 per 100g",
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop",
+    "rating": 4.8,
+    "reviewCount": 156,
+    "description": "100% biologische trainingssnacks met kip en rund. Perfect voor training en beloning van je hond.",
+    "category": "training",
+    "age": [
+      "puppy",
+      "adult"
+    ],
+    "size": [
+      "small",
+      "medium",
+      "large"
+    ],
+    "features": [
+      "biologisch",
+      "natuurlijk",
+      "graanvrij"
+    ],
+    "weight": "200g",
+    "ingredients": "Biologische kip (40%), biologisch rundvlees (20%), biologische rijst, biologische groenten",
+    "badges": [
+      "bestseller",
+      "bio"
+    ],
+    "bolUrl": "https://www.bol.com/nl/nl/p/yarrah-biologische-trainingssnacks-kip-rund/9200000087654321/",
+    "inStock": true,
+    "fastDelivery": true
+  },
+  {
+    "id": 2,
+    "name": "Yarrah Biologische Vis Trainingssnacks",
+    "brand": "Yarrah",
+    "price": 9.45,
+    "originalPrice": null,
+    "pricePerUnit": "€4.73 per 100g",
+    "image": "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=400&h=300&fit=crop",
+    "rating": 4.6,
+    "reviewCount": 89,
+    "description": "Biologische trainingssnacks met vis voor honden met een gevoelige maag.",
+    "category": "training",
+    "age": [
+      "adult",
+      "senior"
+    ],
+    "size": [
+      "small",
+      "medium"
+    ],
+    "features": [
+      "biologisch",
+      "hypoallergeen",
+      "graanvrij"
+    ],
+    "weight": "200g",
+    "ingredients": "Biologische vis (45%), biologische aardappel, biologische erwten",
+    "badges": [
+      "bio",
+      "hypoallergeen"
+    ],
+    "bolUrl": "https://www.bol.com/nl/nl/p/yarrah-biologische-vis-trainingssnacks/9200000087654322/",
+    "inStock": true,
+    "fastDelivery": true
+  },
+  {
+    "id": 3,
+    "name": "Lily's Kitchen Puppy Training Treats",
+    "brand": "Lily's Kitchen",
+    "price": 6.49,
+    "originalPrice": 7.99,
+    "pricePerUnit": "€6.49 per 100g",
+    "image": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=400&h=300&fit=crop",
+    "rating": 4.7,
+    "reviewCount": 234,
+    "description": "Natuurlijke puppy trainingssnacks met kip en zoete aardappel. Speciaal ontwikkeld voor puppy's.",
+    "category": "puppy",
+    "age": [
+      "puppy"
+    ],
+    "size": [
+      "small",
+      "medium"
+    ],
+    "features": [
+      "natuurlijk",
+      "graanvrij",
+      "puppy-formule"
+    ],
+    "weight": "100g",
+    "ingredients": "Kip (30%), zoete aardappel, erwten, kippenvlees gedroogd",
+    "badges": [
+      "new",
+      "sale",
+      "puppy"
+    ],
+    "bolUrl": "https://www.bol.com/nl/nl/p/lilys-kitchen-puppy-training-treats/9200000087654323/",
+    "inStock": true,
+    "fastDelivery": true
+  },
+  {
+    "id": 4,
+    "name": "Lily's Kitchen Dental Chews Mint & Parsley",
+    "brand": "Lily's Kitchen",
+    "price": 12.95,
+    "originalPrice": null,
+    "pricePerUnit": "€2.59 per stuk",
+    "image": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=400&h=300&fit=crop",
+    "rating": 4.5,
+    "reviewCount": 167,
+    "description": "Natuurlijke kauwsnacks met munt en peterselie voor frisse adem en gezonde tanden.",
+    "category": "dental",
+    "age": [
+      "adult",
+      "senior"
+    ],
+    "size": [
+      "medium",
+      "large"
+    ],
+    "features": [
+      "natuurlijk",
+      "dental-care",
+      "frisse-adem"
+    ],
+    "weight": "5 stuks",
+    "ingredients": "Kip, munt, peterselie, zoete aardappel, glycerine",
+    "badges": [
+      "dental"
+    ],
+    "bolUrl": "https://www.bol.com/nl/nl/p/lilys-kitchen-dental-chews-mint-parsley/9200000087654324/",
+    "inStock": true,
+    "fastDelivery": false
+  },
+  {
+    "id": 5,
+    "name": "Green Petfood InsectDog Hypoallergeen Snacks",
+    "brand": "Green Petfood",
+    "price": 11.95,
+    "originalPrice": null,
+    "pricePerUnit": "€5.98 per 100g",
+    "image": "https://images.unsplash.com/photo-1574158622682-e40e69881006?w=400&h=300&fit=crop",
+    "rating": 4.4,
+    "reviewCount": 98,
+    "description": "Innovatieve hypoallergene snacks met insectenproteïne. Duurzaam en gezond voor je hond.",
+    "category": "hypoallergeen",
+    "age": [
+      "adult"
+    ],
+    "size": [
+      "small",
+      "medium",
+      "large"
+    ],
+    "features": [
+      "hypoallergeen",
+      "duurzaam",
+      "insecten-proteïne",
+      "graanvrij"
+    ],
+    "weight": "200g",
+    "ingredients": "Insectenproteïne (40%), aardappel, erwten, lijnzaad",
+    "badges": [
+      "eco",
+      "hypoallergeen"
+    ],
+    "bolUrl": "https://www.bol.com/nl/nl/p/green-petfood-insectdog-hypoallergeen/9200000087654325/",
+    "inStock": true,
+    "fastDelivery": true
+  },
+  {
+    "id": 6,
+    "name": "Zuke's Mini Naturals Zalm Training Treats",
+    "brand": "Zuke's",
+    "price": 9.95,
+    "originalPrice": null,
+    "pricePerUnit": "€5.85 per 100g",
+    "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&h=300&fit=crop",
+    "rating": 4.9,
+    "reviewCount": 312,
+    "description": "Mini trainingssnacks met echte zalm. Ideaal voor frequente beloningen tijdens training.",
+    "category": "training",
+    "age": [
+      "puppy",
+      "adult"
+    ],
+    "size": [
+      "small",
+      "medium"
+    ],
+    "features": [
+      "natuurlijk",
+      "glutenvrij",
+      "mini-formaat"
+    ],
+    "weight": "170g",
+    "ingredients": "Zalm, aardappel, glycerine, tapioca",
+    "badges": [
+      "bestseller",
+      "training"
+    ],
+    "bolUrl": "https://www.bol.com/nl/nl/p/zukes-mini-naturals-zalm-training/9200000087654326/",
+    "inStock": false,
+    "fastDelivery": false
+  },
+  {
+    "id": 7,
+    "name": "Zuke's Puppy Naturals Kalkoen & Zoete Aardappel",
+    "brand": "Zuke's",
+    "price": 8.75,
+    "originalPrice": null,
+    "pricePerUnit": "€5.15 per 100g",
+    "image": "https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=400&h=300&fit=crop",
+    "rating": 4.7,
+    "reviewCount": 189,
+    "description": "Zachte puppy snacks met kalkoen en zoete aardappel. Perfect voor jonge honden.",
+    "category": "puppy",
+    "age": [
+      "puppy"
+    ],
+    "size": [
+      "small"
+    ],
+    "features": [
+      "puppy-formule",
+      "zacht",
+      "natuurlijk"
+    ],
+    "weight": "170g",
+    "ingredients": "Kalkoen, zoete aardappel, erwten, lijnzaad",
+    "badges": [
+      "puppy",
+      "soft"
+    ],
+    "bolUrl": "https://www.bol.com/nl/nl/p/zukes-puppy-naturals-kalkoen/9200000087654327/",
+    "inStock": true,
+    "fastDelivery": true
+  },
+  {
+    "id": 8,
+    "name": "Wellness Core Pure Rewards Kip Freeze-Dried",
+    "brand": "Wellness",
+    "price": 14.95,
+    "originalPrice": 16.95,
+    "pricePerUnit": "€29.90 per 100g",
+    "image": "https://images.unsplash.com/photo-1517849845537-4d257902454a?w=400&h=300&fit=crop",
+    "rating": 4.8,
+    "reviewCount": 145,
+    "description": "Premium freeze-dried kip snacks. 100% pure kip, geen toevoegingen.",
+    "category": "training",
+    "age": [
+      "adult",
+      "senior"
+    ],
+    "size": [
+      "small",
+      "medium",
+      "large"
+    ],
+    "features": [
+      "freeze-dried",
+      "100%-vlees",
+      "premium"
+    ],
+    "weight": "50g",
+    "ingredients": "Kip (100%)",
+    "badges": [
+      "premium",
+      "sale"
+    ],
+    "bolUrl": "https://www.bol.com/nl/nl/p/wellness-core-pure-rewards-kip/9200000087654328/",
+    "inStock": true,
+    "fastDelivery": true
+  },
+  {
+    "id": 9,
+    "name": "Blue Buffalo Wilderness Zalm Bites",
+    "brand": "Blue Buffalo",
+    "price": 7.95,
+    "originalPrice": null,
+    "pricePerUnit": "€7.95 per 100g",
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop",
+    "rating": 4.6,
+    "reviewCount": 203,
+    "description": "Wilderness zalm bites met echte zalm als eerste ingrediënt. Graanvrij en natuurlijk.",
+    "category": "training",
+    "age": [
+      "adult"
+    ],
+    "size": [
+      "medium",
+      "large"
+    ],
+    "features": [
+      "graanvrij",
+      "wilderness",
+      "zalm"
+    ],
+    "weight": "100g",
+    "ingredients": "Zalm, aardappel, erwten, lijnzaad, blauwe bessen",
+    "badges": [
+      "wilderness"
+    ],
+    "bolUrl": "https://www.bol.com/nl/nl/p/blue-buffalo-wilderness-zalm-bites/9200000087654329/",
+    "inStock": true,
+    "fastDelivery": true
+  },
+  {
+    "id": 10,
+    "name": "Benebone Wishbone Bacon Flavor",
+    "brand": "Benebone",
+    "price": 16.95,
+    "originalPrice": null,
+    "pricePerUnit": "€16.95 per stuk",
+    "image": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=400&h=300&fit=crop",
+    "rating": 4.7,
+    "reviewCount": 278,
+    "description": "Duurzame kauwsnack met bacon smaak. Speciaal ontworpen voor krachtige kauwen.",
+    "category": "kauwsnacks",
+    "age": [
+      "adult",
+      "senior"
+    ],
+    "size": [
+      "medium",
+      "large"
+    ],
+    "features": [
+      "duurzaam",
+      "bacon-smaak",
+      "krachtig-kauwen"
+    ],
+    "weight": "1 stuk",
+    "ingredients": "Nylon, bacon aroma",
+    "badges": [
+      "durable"
+    ],
+    "bolUrl": "https://www.bol.com/nl/nl/p/benebone-wishbone-bacon-flavor/9200000087654330/",
+    "inStock": true,
+    "fastDelivery": false
+  },
+  {
+    "id": 11,
+    "name": "Green Petfood Senior Care Treats Kip",
+    "brand": "Green Petfood",
+    "price": 14.78,
+    "originalPrice": null,
+    "pricePerUnit": "€56.30 per 100g",
+    "image": "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=400&h=300&fit=crop",
+    "rating": 4.5,
+    "reviewCount": 248,
+    "description": "Hypoallergene snacks van Green Petfood voor honden met voedselgevoeligheden.",
+    "category": "hypoallergeen",
+    "age": [
+      "puppy",
+      "adult",
+      "senior"
+    ],
+    "size": [
+      "small"
+    ],
+    "features": [
+      "duurzaam"
+    ],
+    "weight": "250g",
+    "ingredients": "Eend, aardappel, erwten, lijnzaad",
+    "badges": [
+      "bestseller"
+    ],
+    "bolUrl": "https://www.bol.com/nl/nl/p/green-petfood-senior-care-treats/9200000087654330/",
+    "inStock": true,
+    "fastDelivery": false
+  },
+  {
+    "id": 12,
+    "name": "Lily's Kitchen Puppy Soft Bites Lam",
+    "brand": "Lily's Kitchen",
+    "price": 14.52,
+    "originalPrice": null,
+    "pricePerUnit": "€51.02 per 100g",
+    "image": "https://images.unsplash.com/photo-1517849845537-4d257902454a?w=400&h=300&fit=crop",
+    "rating": 4.3,
+    "reviewCount": 46,
+    "description": "Dental care snacks van Lily's Kitchen voor gezonde tanden en frisse adem.",
+    "category": "dental",
+    "age": [
+      "puppy",
+      "adult"
+    ],
+    "size": [
+      "small",
+      "medium",
+      "large"
+    ],
+    "features": [
+      "glutenvrij",
+      "hypoallergeen",
+      "graanvrij"
+    ],
+    "weight": "100g",
+    "ingredients": "Kip, munt, peterselie, calcium",
+    "badges": [
+      "bestseller",
+      "bio"
+    ],
+    "bolUrl": "https://www.bol.com/nl/nl/p/lily-s-kitchen-puppy-soft-bites/9200000087654331/",
+    "inStock": true,
+    "fastDelivery": true
+  },
+  {
+    "id": 13,
+    "name": "Yarrah Organic Training Rewards Lam",
+    "brand": "Yarrah",
+    "price": 17.07,
+    "originalPrice": null,
+    "pricePerUnit": "€56.95 per 100g",
+    "image": "https://images.unsplash.com/photo-1517849845537-4d257902454a?w=400&h=300&fit=crop",
+    "rating": 4.5,
+    "reviewCount": 24,
+    "description": "Hypoallergene snacks van Yarrah voor honden met voedselgevoeligheden.",
+    "category": "hypoallergeen",
+    "age": [
+      "adult"
+    ],
+    "size": [
+      "medium",
+      "large"
+    ],
+    "features": [
+      "hypoallergeen",
+      "biologisch"
+    ],
+    "weight": "250g",
+    "ingredients": "Eend, aardappel, erwten, lijnzaad",
+    "badges": [
+      "bestseller"
+    ],
+    "bolUrl": "https://www.bol.com/nl/nl/p/yarrah-organic-training-rewards/9200000087654332/",
+    "inStock": false,
+    "fastDelivery": true
+  },
+  {
+    "id": 14,
+    "name": "Benebone Large Breed Chews Eend",
+    "brand": "Benebone",
+    "price": 16.94,
+    "originalPrice": null,
+    "pricePerUnit": "€53.62 per 100g",
+    "image": "https://images.unsplash.com/photo-1517849845537-4d257902454a?w=400&h=300&fit=crop",
+    "rating": 4,
+    "reviewCount": 241,
+    "description": "Dental care snacks van Benebone voor gezonde tanden en frisse adem.",
+    "category": "dental",
+    "age": [
+      "puppy",
+      "adult"
+    ],
+    "size": [
+      "medium",
+      "large"
+    ],
+    "features": [
+      "hypoallergeen"
+    ],
+    "weight": "100g",
+    "ingredients": "Kip, munt, peterselie, calcium",
+    "badges": [
+      "new"
+    ],
+    "bolUrl": "https://www.bol.com/nl/nl/p/benebone-large-breed-chews/9200000087654333/",
+    "inStock": true,
+    "fastDelivery": false
+  },
+  {
+    "id": 15,
+    "name": "Lily's Kitchen Freeze-Dried Treats Mix",
+    "brand": "Lily's Kitchen",
+    "price": 8.64,
+    "originalPrice": 10.37,
+    "pricePerUnit": "€50.27 per 100g",
+    "image": "https://images.unsplash.com/photo-1574158622682-e40e69881006?w=400&h=300&fit=crop",
+    "rating": 4,
+    "reviewCount": 312,
+    "description": "Speciaal ontwikkelde puppy snacks van Lily's Kitchen voor jonge honden.",
+    "category": "puppy",
+    "age": [
+      "adult"
+    ],
+    "size": [
+      "small"
+    ],
+    "features": [
+      "graanvrij"
+    ],
+    "weight": "200g",
+    "ingredients": "Kip, zoete aardappel, erwten, lijnzaad",
+    "badges": [
+      "bio",
+      "sale"
+    ],
+    "bolUrl": "https://www.bol.com/nl/nl/p/lily-s-kitchen-freeze-dried-treats/9200000087654334/",
+    "inStock": true,
+    "fastDelivery": true
+  },
+  {
+    "id": 16,
+    "name": "Kong Freeze-Dried Treats Zalm",
+    "brand": "Kong",
+    "price": 16.9,
+    "originalPrice": null,
+    "pricePerUnit": "€50.73 per 100g",
+    "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&h=300&fit=crop",
+    "rating": 4.1,
+    "reviewCount": 74,
+    "description": "Duurzame kauwsnacks van Kong voor gezonde tanden en langdurig kauwplezier.",
+    "category": "kauwsnacks",
+    "age": [
+      "puppy",
+      "adult"
+    ],
+    "size": [
+      "medium"
+    ],
+    "features": [
+      "glutenvrij"
+    ],
+    "weight": "1 stuk",
+    "ingredients": "Runderhuid, glycerine, natuurlijke aroma's",
+    "badges": [],
+    "bolUrl": "https://www.bol.com/nl/nl/p/kong-freeze-dried-treats/9200000087654335/",
+    "inStock": true,
+    "fastDelivery": false
+  },
+  {
+    "id": 17,
+    "name": "Green Petfood Freeze-Dried Treats Zalm",
+    "brand": "Green Petfood",
+    "price": 13.62,
+    "originalPrice": null,
+    "pricePerUnit": "€52.12 per 100g",
+    "image": "https://images.unsplash.com/photo-1517849845537-4d257902454a?w=400&h=300&fit=crop",
+    "rating": 4.9,
+    "reviewCount": 256,
+    "description": "Hoogwaardige trainingssnacks van Green Petfood. Perfect voor training en beloning.",
+    "category": "training",
+    "age": [
+      "puppy",
+      "adult"
+    ],
+    "size": [
+      "small"
+    ],
+    "features": [
+      "biologisch"
+    ],
+    "weight": "250g",
+    "ingredients": "Kip, rijst, groenten, vitaminen",
+    "badges": [
+      "bio"
+    ],
+    "bolUrl": "https://www.bol.com/nl/nl/p/green-petfood-freeze-dried-treats/9200000087654336/",
+    "inStock": true,
+    "fastDelivery": true
+  },
+  {
+    "id": 18,
+    "name": "Yarrah Hypoallergenic Snacks Zalm",
+    "brand": "Yarrah",
+    "price": 12.02,
+    "originalPrice": null,
+    "pricePerUnit": "€53.82 per 100g",
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop",
+    "rating": 4.3,
+    "reviewCount": 162,
+    "description": "Duurzame kauwsnacks van Yarrah voor gezonde tanden en langdurig kauwplezier.",
+    "category": "kauwsnacks",
+    "age": [
+      "puppy",
+      "adult"
+    ],
+    "size": [
+      "medium",
+      "large"
+    ],
+    "features": [
+      "natuurlijk",
+      "hypoallergeen"
+    ],
+    "weight": "3 stuks",
+    "ingredients": "Runderhuid, glycerine, natuurlijke aroma's",
+    "badges": [],
+    "bolUrl": "https://www.bol.com/nl/nl/p/yarrah-hypoallergenic-snacks/9200000087654337/",
+    "inStock": true,
+    "fastDelivery": false
+  },
+  {
+    "id": 19,
+    "name": "Benebone Grain-Free Bites Lam",
+    "brand": "Benebone",
+    "price": 12.18,
+    "originalPrice": null,
+    "pricePerUnit": "€50.82 per 100g",
+    "image": "https://images.unsplash.com/photo-1517849845537-4d257902454a?w=400&h=300&fit=crop",
+    "rating": 4.6,
+    "reviewCount": 114,
+    "description": "Speciaal ontwikkelde puppy snacks van Benebone voor jonge honden.",
+    "category": "puppy",
+    "age": [
+      "puppy",
+      "adult"
+    ],
+    "size": [
+      "medium",
+      "large"
+    ],
+    "features": [
+      "biologisch",
+      "natuurlijk",
+      "glutenvrij"
+    ],
+    "weight": "50g",
+    "ingredients": "Kip, zoete aardappel, erwten, lijnzaad",
+    "badges": [],
+    "bolUrl": "https://www.bol.com/nl/nl/p/benebone-grain-free-bites/9200000087654338/",
+    "inStock": true,
+    "fastDelivery": true
+  },
+  {
+    "id": 20,
+    "name": "Kong Puppy Soft Bites Vis",
+    "brand": "Kong",
+    "price": 8.03,
+    "originalPrice": null,
+    "pricePerUnit": "€53.72 per 100g",
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop",
+    "rating": 5,
+    "reviewCount": 264,
+    "description": "Speciaal ontwikkelde puppy snacks van Kong voor jonge honden.",
+    "category": "puppy",
+    "age": [
+      "senior"
+    ],
+    "size": [
+      "medium"
+    ],
+    "features": [
+      "duurzaam",
+      "glutenvrij"
+    ],
+    "weight": "200g",
+    "ingredients": "Kip, zoete aardappel, erwten, lijnzaad",
+    "badges": [
+      "new",
+      "bio"
+    ],
+    "bolUrl": "https://www.bol.com/nl/nl/p/kong-puppy-soft-bites/9200000087654339/",
+    "inStock": false,
+    "fastDelivery": true
+  },
+  {
+    "id": 21,
+    "name": "Nylabone Premium Training Treats Rund",
+    "brand": "Nylabone",
+    "price": 12.71,
+    "originalPrice": 15.25,
+    "pricePerUnit": "€54.52 per 100g",
+    "image": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=400&h=300&fit=crop",
+    "rating": 4.4,
+    "reviewCount": 64,
+    "description": "Duurzame kauwsnacks van Nylabone voor gezonde tanden en langdurig kauwplezier.",
+    "category": "kauwsnacks",
+    "age": [
+      "puppy"
+    ],
+    "size": [
+      "small",
+      "medium"
+    ],
+    "features": [
+      "biologisch",
+      "natuurlijk",
+      "hypoallergeen"
+    ],
+    "weight": "1 stuk",
+    "ingredients": "Runderhuid, glycerine, natuurlijke aroma's",
+    "badges": [
+      "bio",
+      "sale"
+    ],
+    "bolUrl": "https://www.bol.com/nl/nl/p/nylabone-premium-training-treats/9200000087654340/",
+    "inStock": true,
+    "fastDelivery": false
+  },
+  {
+    "id": 22,
+    "name": "Green Petfood Hypoallergenic Snacks Rund",
+    "brand": "Green Petfood",
+    "price": 9.11,
+    "originalPrice": null,
+    "pricePerUnit": "€52.89 per 100g",
+    "image": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=400&h=300&fit=crop",
+    "rating": 4.5,
+    "reviewCount": 201,
+    "description": "Duurzame kauwsnacks van Green Petfood voor gezonde tanden en langdurig kauwplezier.",
+    "category": "kauwsnacks",
+    "age": [
+      "puppy"
+    ],
+    "size": [
+      "medium",
+      "large"
+    ],
+    "features": [
+      "biologisch",
+      "natuurlijk",
+      "graanvrij"
+    ],
+    "weight": "1 stuk",
+    "ingredients": "Runderhuid, glycerine, natuurlijke aroma's",
+    "badges": [],
+    "bolUrl": "https://www.bol.com/nl/nl/p/green-petfood-hypoallergenic-snacks/9200000087654341/",
+    "inStock": true,
+    "fastDelivery": true
+  },
+  {
+    "id": 23,
+    "name": "Wellness Premium Training Treats Eend",
+    "brand": "Wellness",
+    "price": 11.2,
+    "originalPrice": null,
+    "pricePerUnit": "€53.56 per 100g",
+    "image": "https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=400&h=300&fit=crop",
+    "rating": 4.1,
+    "reviewCount": 229,
+    "description": "Hypoallergene snacks van Wellness voor honden met voedselgevoeligheden.",
+    "category": "hypoallergeen",
+    "age": [
+      "puppy"
+    ],
+    "size": [
+      "small",
+      "medium"
+    ],
+    "features": [
+      "glutenvrij",
+      "graanvrij"
+    ],
+    "weight": "3 stuks",
+    "ingredients": "Eend, aardappel, erwten, lijnzaad",
+    "badges": [
+      "new"
+    ],
+    "bolUrl": "https://www.bol.com/nl/nl/p/wellness-premium-training-treats/9200000087654342/",
+    "inStock": true,
+    "fastDelivery": false
+  },
+  {
+    "id": 24,
+    "name": "Kong Natural Dental Chews Kip",
+    "brand": "Kong",
+    "price": 7.11,
+    "originalPrice": null,
+    "pricePerUnit": "€52.75 per 100g",
+    "image": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=400&h=300&fit=crop",
+    "rating": 4.9,
+    "reviewCount": 294,
+    "description": "Dental care snacks van Kong voor gezonde tanden en frisse adem.",
+    "category": "dental",
+    "age": [
+      "puppy"
+    ],
+    "size": [
+      "small",
+      "medium",
+      "large"
+    ],
+    "features": [
+      "hypoallergeen",
+      "graanvrij",
+      "glutenvrij"
+    ],
+    "weight": "1 stuk",
+    "ingredients": "Kip, munt, peterselie, calcium",
+    "badges": [],
+    "bolUrl": "https://www.bol.com/nl/nl/p/kong-natural-dental-chews/9200000087654343/",
+    "inStock": true,
+    "fastDelivery": true
+  },
+  {
+    "id": 25,
+    "name": "Wellness Organic Training Rewards Kalkoen",
+    "brand": "Wellness",
+    "price": 14.45,
+    "originalPrice": null,
+    "pricePerUnit": "€53.11 per 100g",
+    "image": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=400&h=300&fit=crop",
+    "rating": 4.9,
+    "reviewCount": 229,
+    "description": "Speciaal ontwikkelde puppy snacks van Wellness voor jonge honden.",
+    "category": "puppy",
+    "age": [
+      "adult"
+    ],
+    "size": [
+      "medium"
+    ],
+    "features": [
+      "hypoallergeen"
+    ],
+    "weight": "300g",
+    "ingredients": "Kip, zoete aardappel, erwten, lijnzaad",
+    "badges": [
+      "bio"
+    ],
+    "bolUrl": "https://www.bol.com/nl/nl/p/wellness-organic-training-rewards/9200000087654344/",
+    "inStock": true,
+    "fastDelivery": true
+  },
+  {
+    "id": 26,
+    "name": "Zuke's Hypoallergenic Snacks Rund",
+    "brand": "Zuke's",
+    "price": 6.02,
+    "originalPrice": null,
+    "pricePerUnit": "€51.34 per 100g",
+    "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&h=300&fit=crop",
+    "rating": 4.2,
+    "reviewCount": 200,
+    "description": "Dental care snacks van Zuke's voor gezonde tanden en frisse adem.",
+    "category": "dental",
+    "age": [
+      "adult"
+    ],
+    "size": [
+      "medium"
+    ],
+    "features": [
+      "natuurlijk",
+      "glutenvrij",
+      "biologisch"
+    ],
+    "weight": "500g",
+    "ingredients": "Kip, munt, peterselie, calcium",
+    "badges": [],
+    "bolUrl": "https://www.bol.com/nl/nl/p/zuke-s-hypoallergenic-snacks/9200000087654345/",
+    "inStock": true,
+    "fastDelivery": true
+  },
+  {
+    "id": 27,
+    "name": "Yarrah Hypoallergenic Snacks Eend",
+    "brand": "Yarrah",
+    "price": 16.28,
+    "originalPrice": null,
+    "pricePerUnit": "€50.87 per 100g",
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop",
+    "rating": 4.9,
+    "reviewCount": 309,
+    "description": "Speciaal ontwikkelde puppy snacks van Yarrah voor jonge honden.",
+    "category": "puppy",
+    "age": [
+      "puppy",
+      "adult",
+      "senior"
+    ],
+    "size": [
+      "medium",
+      "large"
+    ],
+    "features": [
+      "hypoallergeen",
+      "duurzaam"
+    ],
+    "weight": "500g",
+    "ingredients": "Kip, zoete aardappel, erwten, lijnzaad",
+    "badges": [],
+    "bolUrl": "https://www.bol.com/nl/nl/p/yarrah-hypoallergenic-snacks/9200000087654346/",
+    "inStock": true,
+    "fastDelivery": false
+  },
+  {
+    "id": 28,
+    "name": "Blue Buffalo Freeze-Dried Treats Kalkoen",
+    "brand": "Blue Buffalo",
+    "price": 13.68,
+    "originalPrice": 16.42,
+    "pricePerUnit": "€55.49 per 100g",
+    "image": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=400&h=300&fit=crop",
+    "rating": 4.8,
+    "reviewCount": 88,
+    "description": "Dental care snacks van Blue Buffalo voor gezonde tanden en frisse adem.",
+    "category": "dental",
+    "age": [
+      "puppy",
+      "adult"
+    ],
+    "size": [
+      "large"
+    ],
+    "features": [
+      "natuurlijk"
+    ],
+    "weight": "150g",
+    "ingredients": "Kip, munt, peterselie, calcium",
+    "badges": [
+      "bio",
+      "sale"
+    ],
+    "bolUrl": "https://www.bol.com/nl/nl/p/blue-buffalo-freeze-dried-treats/9200000087654347/",
+    "inStock": false,
+    "fastDelivery": true
+  },
+  {
+    "id": 29,
+    "name": "Green Petfood Premium Training Treats Mix",
+    "brand": "Green Petfood",
+    "price": 12.95,
+    "originalPrice": null,
+    "pricePerUnit": "€51.39 per 100g",
+    "image": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=400&h=300&fit=crop",
+    "rating": 4.9,
+    "reviewCount": 249,
+    "description": "Hoogwaardige trainingssnacks van Green Petfood. Perfect voor training en beloning.",
+    "category": "training",
+    "age": [
+      "adult",
+      "senior"
+    ],
+    "size": [
+      "small"
+    ],
+    "features": [
+      "biologisch"
+    ],
+    "weight": "50g",
+    "ingredients": "Kip, rijst, groenten, vitaminen",
+    "badges": [],
+    "bolUrl": "https://www.bol.com/nl/nl/p/green-petfood-premium-training-treats/9200000087654348/",
+    "inStock": true,
+    "fastDelivery": true
+  },
+  {
+    "id": 30,
+    "name": "Nylabone Grain-Free Bites Lam",
+    "brand": "Nylabone",
+    "price": 8.62,
+    "originalPrice": null,
+    "pricePerUnit": "€54.18 per 100g",
+    "image": "https://images.unsplash.com/photo-1517849845537-4d257902454a?w=400&h=300&fit=crop",
+    "rating": 4.7,
+    "reviewCount": 181,
+    "description": "Hypoallergene snacks van Nylabone voor honden met voedselgevoeligheden.",
+    "category": "hypoallergeen",
+    "age": [
+      "puppy"
+    ],
+    "size": [
+      "small",
+      "medium",
+      "large"
+    ],
+    "features": [
+      "graanvrij",
+      "natuurlijk"
+    ],
+    "weight": "50g",
+    "ingredients": "Eend, aardappel, erwten, lijnzaad",
+    "badges": [
+      "bio"
+    ],
+    "bolUrl": "https://www.bol.com/nl/nl/p/nylabone-grain-free-bites/9200000087654349/",
+    "inStock": true,
+    "fastDelivery": true
+  },
+  {
+    "id": 31,
+    "name": "Zuke's Grain-Free Bites Zalm",
+    "brand": "Zuke's",
+    "price": 19.05,
+    "originalPrice": 22.86,
+    "pricePerUnit": "€55.58 per 100g",
+    "image": "https://images.unsplash.com/photo-1517849845537-4d257902454a?w=400&h=300&fit=crop",
+    "rating": 4.8,
+    "reviewCount": 227,
+    "description": "Dental care snacks van Zuke's voor gezonde tanden en frisse adem.",
+    "category": "dental",
+    "age": [
+      "adult",
+      "senior"
+    ],
+    "size": [
+      "medium"
+    ],
+    "features": [
+      "glutenvrij",
+      "biologisch"
+    ],
+    "weight": "500g",
+    "ingredients": "Kip, munt, peterselie, calcium",
+    "badges": [
+      "sale"
+    ],
+    "bolUrl": "https://www.bol.com/nl/nl/p/zuke-s-grain-free-bites/9200000087654350/",
+    "inStock": false,
+    "fastDelivery": true
+  },
+  {
+    "id": 32,
+    "name": "Green Petfood Puppy Soft Bites Rund",
+    "brand": "Green Petfood",
+    "price": 12.43,
+    "originalPrice": null,
+    "pricePerUnit": "€54.66 per 100g",
+    "image": "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=400&h=300&fit=crop",
+    "rating": 4.9,
+    "reviewCount": 285,
+    "description": "Speciaal ontwikkelde puppy snacks van Green Petfood voor jonge honden.",
+    "category": "puppy",
+    "age": [
+      "senior"
+    ],
+    "size": [
+      "small"
+    ],
+    "features": [
+      "glutenvrij",
+      "hypoallergeen",
+      "biologisch"
+    ],
+    "weight": "300g",
+    "ingredients": "Kip, zoete aardappel, erwten, lijnzaad",
+    "badges": [],
+    "bolUrl": "https://www.bol.com/nl/nl/p/green-petfood-puppy-soft-bites/9200000087654351/",
+    "inStock": true,
+    "fastDelivery": true
+  },
+  {
+    "id": 33,
+    "name": "Benebone Puppy Soft Bites Mix",
+    "brand": "Benebone",
+    "price": 15.23,
+    "originalPrice": null,
+    "pricePerUnit": "€52.37 per 100g",
+    "image": "https://images.unsplash.com/photo-1517849845537-4d257902454a?w=400&h=300&fit=crop",
+    "rating": 4.2,
+    "reviewCount": 51,
+    "description": "Hoogwaardige trainingssnacks van Benebone. Perfect voor training en beloning.",
+    "category": "training",
+    "age": [
+      "puppy"
+    ],
+    "size": [
+      "small",
+      "medium"
+    ],
+    "features": [
+      "graanvrij"
+    ],
+    "weight": "5 stuks",
+    "ingredients": "Kip, rijst, groenten, vitaminen",
+    "badges": [
+      "bio"
+    ],
+    "bolUrl": "https://www.bol.com/nl/nl/p/benebone-puppy-soft-bites/9200000087654352/",
+    "inStock": true,
+    "fastDelivery": false
+  },
+  {
+    "id": 34,
+    "name": "Benebone Hypoallergenic Snacks Kip",
+    "brand": "Benebone",
+    "price": 18.43,
+    "originalPrice": null,
+    "pricePerUnit": "€56.57 per 100g",
+    "image": "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=400&h=300&fit=crop",
+    "rating": 4.3,
+    "reviewCount": 150,
+    "description": "Dental care snacks van Benebone voor gezonde tanden en frisse adem.",
+    "category": "dental",
+    "age": [
+      "puppy"
+    ],
+    "size": [
+      "small",
+      "medium",
+      "large"
+    ],
+    "features": [
+      "biologisch",
+      "graanvrij"
+    ],
+    "weight": "300g",
+    "ingredients": "Kip, munt, peterselie, calcium",
+    "badges": [],
+    "bolUrl": "https://www.bol.com/nl/nl/p/benebone-hypoallergenic-snacks/9200000087654353/",
+    "inStock": true,
+    "fastDelivery": true
+  },
+  {
+    "id": 35,
+    "name": "Zuke's Hypoallergenic Snacks Zalm",
+    "brand": "Zuke's",
+    "price": 9.8,
+    "originalPrice": null,
+    "pricePerUnit": "€50.12 per 100g",
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop",
+    "rating": 4.3,
+    "reviewCount": 29,
+    "description": "Hoogwaardige trainingssnacks van Zuke's. Perfect voor training en beloning.",
+    "category": "training",
+    "age": [
+      "adult"
+    ],
+    "size": [
+      "medium",
+      "large"
+    ],
+    "features": [
+      "natuurlijk"
+    ],
+    "weight": "5 stuks",
+    "ingredients": "Kip, rijst, groenten, vitaminen",
+    "badges": [],
+    "bolUrl": "https://www.bol.com/nl/nl/p/zuke-s-hypoallergenic-snacks/9200000087654354/",
+    "inStock": true,
+    "fastDelivery": true
+  },
+  {
+    "id": 36,
+    "name": "Benebone Puppy Soft Bites Kip",
+    "brand": "Benebone",
+    "price": 17.08,
+    "originalPrice": null,
+    "pricePerUnit": "€54.05 per 100g",
+    "image": "https://images.unsplash.com/photo-1574158622682-e40e69881006?w=400&h=300&fit=crop",
+    "rating": 4.1,
+    "reviewCount": 319,
+    "description": "Hypoallergene snacks van Benebone voor honden met voedselgevoeligheden.",
+    "category": "hypoallergeen",
+    "age": [
+      "adult"
+    ],
+    "size": [
+      "small"
+    ],
+    "features": [
+      "graanvrij"
+    ],
+    "weight": "3 stuks",
+    "ingredients": "Eend, aardappel, erwten, lijnzaad",
+    "badges": [],
+    "bolUrl": "https://www.bol.com/nl/nl/p/benebone-puppy-soft-bites/9200000087654355/",
+    "inStock": true,
+    "fastDelivery": true
+  },
+  {
+    "id": 37,
+    "name": "Yarrah Premium Training Treats Rund",
+    "brand": "Yarrah",
+    "price": 5.14,
+    "originalPrice": null,
+    "pricePerUnit": "€51.57 per 100g",
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop",
+    "rating": 5,
+    "reviewCount": 297,
+    "description": "Duurzame kauwsnacks van Yarrah voor gezonde tanden en langdurig kauwplezier.",
+    "category": "kauwsnacks",
+    "age": [
+      "adult",
+      "senior"
+    ],
+    "size": [
+      "medium"
+    ],
+    "features": [
+      "biologisch",
+      "hypoallergeen",
+      "natuurlijk"
+    ],
+    "weight": "5 stuks",
+    "ingredients": "Runderhuid, glycerine, natuurlijke aroma's",
+    "badges": [],
+    "bolUrl": "https://www.bol.com/nl/nl/p/yarrah-premium-training-treats/9200000087654356/",
+    "inStock": true,
+    "fastDelivery": false
+  },
+  {
+    "id": 38,
+    "name": "Lily's Kitchen Large Breed Chews Vis",
+    "brand": "Lily's Kitchen",
+    "price": 9.56,
+    "originalPrice": null,
+    "pricePerUnit": "€52.95 per 100g",
+    "image": "https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=400&h=300&fit=crop",
+    "rating": 4.4,
+    "reviewCount": 55,
+    "description": "Duurzame kauwsnacks van Lily's Kitchen voor gezonde tanden en langdurig kauwplezier.",
+    "category": "kauwsnacks",
+    "age": [
+      "adult",
+      "senior"
+    ],
+    "size": [
+      "medium",
+      "large"
+    ],
+    "features": [
+      "hypoallergeen",
+      "biologisch"
+    ],
+    "weight": "300g",
+    "ingredients": "Runderhuid, glycerine, natuurlijke aroma's",
+    "badges": [],
+    "bolUrl": "https://www.bol.com/nl/nl/p/lily-s-kitchen-large-breed-chews/9200000087654357/",
+    "inStock": true,
+    "fastDelivery": false
+  },
+  {
+    "id": 39,
+    "name": "Nylabone Grain-Free Bites Vis",
+    "brand": "Nylabone",
+    "price": 14.78,
+    "originalPrice": null,
+    "pricePerUnit": "€57.21 per 100g",
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop",
+    "rating": 4.3,
+    "reviewCount": 136,
+    "description": "Dental care snacks van Nylabone voor gezonde tanden en frisse adem.",
+    "category": "dental",
+    "age": [
+      "puppy",
+      "adult",
+      "senior"
+    ],
+    "size": [
+      "small",
+      "medium"
+    ],
+    "features": [
+      "graanvrij",
+      "duurzaam"
+    ],
+    "weight": "50g",
+    "ingredients": "Kip, munt, peterselie, calcium",
+    "badges": [
+      "bio"
+    ],
+    "bolUrl": "https://www.bol.com/nl/nl/p/nylabone-grain-free-bites/9200000087654358/",
+    "inStock": true,
+    "fastDelivery": true
+  },
+  {
+    "id": 40,
+    "name": "Green Petfood Large Breed Chews Zalm",
+    "brand": "Green Petfood",
+    "price": 8.07,
+    "originalPrice": null,
+    "pricePerUnit": "€53.30 per 100g",
+    "image": "https://images.unsplash.com/photo-1574158622682-e40e69881006?w=400&h=300&fit=crop",
+    "rating": 4.8,
+    "reviewCount": 294,
+    "description": "Duurzame kauwsnacks van Green Petfood voor gezonde tanden en langdurig kauwplezier.",
+    "category": "kauwsnacks",
+    "age": [
+      "puppy",
+      "adult",
+      "senior"
+    ],
+    "size": [
+      "small",
+      "medium"
+    ],
+    "features": [
+      "biologisch",
+      "duurzaam",
+      "natuurlijk"
+    ],
+    "weight": "300g",
+    "ingredients": "Runderhuid, glycerine, natuurlijke aroma's",
+    "badges": [
+      "bio"
+    ],
+    "bolUrl": "https://www.bol.com/nl/nl/p/green-petfood-large-breed-chews/9200000087654359/",
+    "inStock": true,
+    "fastDelivery": false
+  },
+  {
+    "id": 41,
+    "name": "Blue Buffalo Puppy Soft Bites Eend",
+    "brand": "Blue Buffalo",
+    "price": 9.02,
+    "originalPrice": null,
+    "pricePerUnit": "€50.64 per 100g",
+    "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&h=300&fit=crop",
+    "rating": 5,
+    "reviewCount": 175,
+    "description": "Dental care snacks van Blue Buffalo voor gezonde tanden en frisse adem.",
+    "category": "dental",
+    "age": [
+      "adult",
+      "senior"
+    ],
+    "size": [
+      "medium",
+      "large"
+    ],
+    "features": [
+      "hypoallergeen",
+      "duurzaam"
+    ],
+    "weight": "5 stuks",
+    "ingredients": "Kip, munt, peterselie, calcium",
+    "badges": [],
+    "bolUrl": "https://www.bol.com/nl/nl/p/blue-buffalo-puppy-soft-bites/9200000087654360/",
+    "inStock": true,
+    "fastDelivery": false
+  },
+  {
+    "id": 42,
+    "name": "Nylabone Puppy Soft Bites Kalkoen",
+    "brand": "Nylabone",
+    "price": 15.98,
+    "originalPrice": null,
+    "pricePerUnit": "€55.39 per 100g",
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop",
+    "rating": 4.4,
+    "reviewCount": 294,
+    "description": "Hoogwaardige trainingssnacks van Nylabone. Perfect voor training en beloning.",
+    "category": "training",
+    "age": [
+      "puppy",
+      "adult"
+    ],
+    "size": [
+      "small"
+    ],
+    "features": [
+      "natuurlijk"
+    ],
+    "weight": "1 stuk",
+    "ingredients": "Kip, rijst, groenten, vitaminen",
+    "badges": [
+      "bio"
+    ],
+    "bolUrl": "https://www.bol.com/nl/nl/p/nylabone-puppy-soft-bites/9200000087654361/",
+    "inStock": true,
+    "fastDelivery": false
+  },
+  {
+    "id": 43,
+    "name": "Zuke's Organic Training Rewards Kip",
+    "brand": "Zuke's",
+    "price": 11.35,
+    "originalPrice": null,
+    "pricePerUnit": "€50.53 per 100g",
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop",
+    "rating": 4.8,
+    "reviewCount": 277,
+    "description": "Hypoallergene snacks van Zuke's voor honden met voedselgevoeligheden.",
+    "category": "hypoallergeen",
+    "age": [
+      "adult"
+    ],
+    "size": [
+      "small",
+      "medium"
+    ],
+    "features": [
+      "graanvrij",
+      "duurzaam"
+    ],
+    "weight": "250g",
+    "ingredients": "Eend, aardappel, erwten, lijnzaad",
+    "badges": [],
+    "bolUrl": "https://www.bol.com/nl/nl/p/zuke-s-organic-training-rewards/9200000087654362/",
+    "inStock": true,
+    "fastDelivery": false
+  },
+  {
+    "id": 44,
+    "name": "Yarrah Freeze-Dried Treats Vis",
+    "brand": "Yarrah",
+    "price": 13.39,
+    "originalPrice": null,
+    "pricePerUnit": "€55.96 per 100g",
+    "image": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=400&h=300&fit=crop",
+    "rating": 5,
+    "reviewCount": 280,
+    "description": "Hoogwaardige trainingssnacks van Yarrah. Perfect voor training en beloning.",
+    "category": "training",
+    "age": [
+      "puppy"
+    ],
+    "size": [
+      "medium"
+    ],
+    "features": [
+      "glutenvrij"
+    ],
+    "weight": "150g",
+    "ingredients": "Kip, rijst, groenten, vitaminen",
+    "badges": [],
+    "bolUrl": "https://www.bol.com/nl/nl/p/yarrah-freeze-dried-treats/9200000087654363/",
+    "inStock": true,
+    "fastDelivery": true
+  },
+  {
+    "id": 45,
+    "name": "Blue Buffalo Grain-Free Bites Zalm",
+    "brand": "Blue Buffalo",
+    "price": 6.58,
+    "originalPrice": 7.9,
+    "pricePerUnit": "€51.55 per 100g",
+    "image": "https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=400&h=300&fit=crop",
+    "rating": 5,
+    "reviewCount": 76,
+    "description": "Hypoallergene snacks van Blue Buffalo voor honden met voedselgevoeligheden.",
+    "category": "hypoallergeen",
+    "age": [
+      "puppy",
+      "adult"
+    ],
+    "size": [
+      "medium"
+    ],
+    "features": [
+      "biologisch",
+      "natuurlijk",
+      "graanvrij"
+    ],
+    "weight": "100g",
+    "ingredients": "Eend, aardappel, erwten, lijnzaad",
+    "badges": [
+      "bio",
+      "sale"
+    ],
+    "bolUrl": "https://www.bol.com/nl/nl/p/blue-buffalo-grain-free-bites/9200000087654364/",
+    "inStock": true,
+    "fastDelivery": true
+  },
+  {
+    "id": 46,
+    "name": "Benebone Puppy Soft Bites Vis",
+    "brand": "Benebone",
+    "price": 19.02,
+    "originalPrice": null,
+    "pricePerUnit": "€50.07 per 100g",
+    "image": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=400&h=300&fit=crop",
+    "rating": 4.8,
+    "reviewCount": 284,
+    "description": "Duurzame kauwsnacks van Benebone voor gezonde tanden en langdurig kauwplezier.",
+    "category": "kauwsnacks",
+    "age": [
+      "adult"
+    ],
+    "size": [
+      "large"
+    ],
+    "features": [
+      "biologisch"
+    ],
+    "weight": "500g",
+    "ingredients": "Runderhuid, glycerine, natuurlijke aroma's",
+    "badges": [],
+    "bolUrl": "https://www.bol.com/nl/nl/p/benebone-puppy-soft-bites/9200000087654365/",
+    "inStock": false,
+    "fastDelivery": true
+  },
+  {
+    "id": 47,
+    "name": "Benebone Freeze-Dried Treats Eend",
+    "brand": "Benebone",
+    "price": 5.35,
+    "originalPrice": null,
+    "pricePerUnit": "€52.58 per 100g",
+    "image": "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=400&h=300&fit=crop",
+    "rating": 4.6,
+    "reviewCount": 232,
+    "description": "Hypoallergene snacks van Benebone voor honden met voedselgevoeligheden.",
+    "category": "hypoallergeen",
+    "age": [
+      "puppy"
+    ],
+    "size": [
+      "small"
+    ],
+    "features": [
+      "hypoallergeen",
+      "glutenvrij",
+      "graanvrij"
+    ],
+    "weight": "200g",
+    "ingredients": "Eend, aardappel, erwten, lijnzaad",
+    "badges": [],
+    "bolUrl": "https://www.bol.com/nl/nl/p/benebone-freeze-dried-treats/9200000087654366/",
+    "inStock": false,
+    "fastDelivery": false
+  },
+  {
+    "id": 48,
+    "name": "Blue Buffalo Organic Training Rewards Mix",
+    "brand": "Blue Buffalo",
+    "price": 5.58,
+    "originalPrice": null,
+    "pricePerUnit": "€52.73 per 100g",
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop",
+    "rating": 4.4,
+    "reviewCount": 75,
+    "description": "Hypoallergene snacks van Blue Buffalo voor honden met voedselgevoeligheden.",
+    "category": "hypoallergeen",
+    "age": [
+      "adult"
+    ],
+    "size": [
+      "medium",
+      "large"
+    ],
+    "features": [
+      "biologisch",
+      "graanvrij",
+      "natuurlijk"
+    ],
+    "weight": "1 stuk",
+    "ingredients": "Eend, aardappel, erwten, lijnzaad",
+    "badges": [],
+    "bolUrl": "https://www.bol.com/nl/nl/p/blue-buffalo-organic-training-rewards/9200000087654367/",
+    "inStock": true,
+    "fastDelivery": true
+  },
+  {
+    "id": 49,
+    "name": "Blue Buffalo Grain-Free Bites Zalm",
+    "brand": "Blue Buffalo",
+    "price": 15.79,
+    "originalPrice": null,
+    "pricePerUnit": "€52.91 per 100g",
+    "image": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=400&h=300&fit=crop",
+    "rating": 4.1,
+    "reviewCount": 167,
+    "description": "Hypoallergene snacks van Blue Buffalo voor honden met voedselgevoeligheden.",
+    "category": "hypoallergeen",
+    "age": [
+      "puppy",
+      "adult",
+      "senior"
+    ],
+    "size": [
+      "small"
+    ],
+    "features": [
+      "biologisch"
+    ],
+    "weight": "1 stuk",
+    "ingredients": "Eend, aardappel, erwten, lijnzaad",
+    "badges": [],
+    "bolUrl": "https://www.bol.com/nl/nl/p/blue-buffalo-grain-free-bites/9200000087654368/",
+    "inStock": true,
+    "fastDelivery": true
+  },
+  {
+    "id": 50,
+    "name": "Benebone Hypoallergenic Snacks Kip",
+    "brand": "Benebone",
+    "price": 17.52,
+    "originalPrice": null,
+    "pricePerUnit": "€56.59 per 100g",
+    "image": "https://images.unsplash.com/photo-1574158622682-e40e69881006?w=400&h=300&fit=crop",
+    "rating": 4.6,
+    "reviewCount": 162,
+    "description": "Dental care snacks van Benebone voor gezonde tanden en frisse adem.",
+    "category": "dental",
+    "age": [
+      "puppy",
+      "adult",
+      "senior"
+    ],
+    "size": [
+      "small"
+    ],
+    "features": [
+      "graanvrij"
+    ],
+    "weight": "500g",
+    "ingredients": "Kip, munt, peterselie, calcium",
+    "badges": [],
+    "bolUrl": "https://www.bol.com/nl/nl/p/benebone-hypoallergenic-snacks/9200000087654369/",
+    "inStock": false,
+    "fastDelivery": true
+  }
+]
