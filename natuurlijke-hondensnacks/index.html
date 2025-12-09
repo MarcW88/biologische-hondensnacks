@@ -79,56 +79,241 @@
         </nav>
     </div>
 
-    <!-- Page Header -->
+    <!-- Page Header Optimized -->
     <section class="section">
         <div class="container">
-            <h1>Natuurlijke Hondensnacks voor Gezonde Honden</h1>
-            <p>Ontdek onze uitgebreide collectie natuurlijke hondensnacks. Alle producten zijn 100% natuurlijk, zonder kunstmatige toevoegingen en perfect voor honden met een gevoelige maag. Van trainingssnacks tot kauwbotten - vind de perfecte natuurlijke beloning voor jouw viervoeter.</p>
-        </div>
-    </section>
-
-    <!-- Filter Section -->
-    <section class="section" style="padding-top: 0;">
-        <div class="container">
-            <div class="filter-section">
-                <h3>Filter op Categorie:</h3>
-                <div class="filter-buttons" style="display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 30px;">
-                    <button class="btn btn-secondary filter-btn active" data-filter="all">Alle Snacks</button>
-                    <button class="btn btn-secondary filter-btn" data-filter="training">Training</button>
-                    <button class="btn btn-secondary filter-btn" data-filter="puppy">Puppy</button>
-                    <button class="btn btn-secondary filter-btn" data-filter="kauw">Kauwsnacks</button>
-                    <button class="btn btn-secondary filter-btn" data-filter="graanvrij">Graanvrij</button>
+            <h1 style="font-size: 2.5rem; margin-bottom: 1rem; color: #2d3748;">Natuurlijke Hondensnacks - 100% Biologisch & Graanvrij</h1>
+            <p class="lead" style="font-size: 1.2rem; margin-bottom: 2rem; color: #4a5568; max-width: 800px;">
+                Ontdek onze collectie van <strong>36 natuurlijke en biologische hondensnacks</strong>. 
+                Alle producten zijn zonder kunstmatige toevoegingen, graanvrij en gemaakt van premium ingrediënten. 
+                Perfect voor training, beloning en gezondheid.
+            </p>
+            
+            <!-- Trust Signals Row -->
+            <div class="trust-signals" style="display: flex; gap: 2rem; margin: 2rem 0; flex-wrap: wrap; justify-content: center; align-items: center;">
+                <div class="trust-item" style="display: flex; align-items: center; gap: 0.5rem; background: white; padding: 0.75rem 1.25rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border: 2px solid #E68161;">
+                    <span style="font-weight: 700; font-size: 1.4rem; color: #E68161;">36</span> 
+                    <span style="color: #4a5568;">producten</span>
+                </div>
+                <div class="trust-item" style="display: flex; align-items: center; gap: 0.5rem; background: white; padding: 0.75rem 1.25rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border: 2px solid #E68161;">
+                    <span style="color: #FFD700; font-size: 1.2em;">★★★★★</span> 
+                    <span style="font-weight: 600; color: #2d3748;">4.85/5</span>
+                    <span style="color: #666;">(1.200+ reviews)</span>
+                </div>
+                <div class="trust-item" style="display: flex; align-items: center; gap: 0.5rem; background: white; padding: 0.75rem 1.25rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border: 2px solid #E68161;">
+                    <span style="color: #22c55e; font-weight: bold;">✓</span>
+                    <span style="color: #4a5568;">100% Natuurlijke Ingrediënten</span>
+                </div>
+                <div class="trust-item" style="display: flex; align-items: center; gap: 0.5rem; background: white; padding: 0.75rem 1.25rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border: 2px solid #E68161;">
+                    <span style="color: #E68161; font-weight: bold;">→</span>
+                    <span style="color: #4a5568;">Gratis verzending >€25</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Products Grid -->
-    <section class="section" style="padding-top: 0;">
+    <!-- Advanced Filter Section -->
+    <section class="section" style="padding-top: 0; background: #f8fafc;">
         <div class="container">
-            <div class="grid grid-3">
-                <!-- Product 1 -->
-                <div class="product-card" data-category="training">
-                    <img src="https://via.placeholder.com/300x200/E68161/FFFFFF?text=Zalm+Bites" alt="Natuurlijke Zalm Bites" loading="lazy">
-                    <h3>Natuurlijke Zalm Bites</h3>
-                    <div class="rating">
-                        <span class="star">★</span>
-                        <span class="star">★</span>
-                        <span class="star">★</span>
-                        <span class="star">★</span>
-                        <span class="star">★</span>
-                        <span>(127 reviews)</span>
+            <div class="advanced-filters" style="display: grid; grid-template-columns: 250px 1fr; gap: 2rem; align-items: start;">
+                
+                <!-- Filter Sidebar -->
+                <div class="filter-sidebar" style="background: white; padding: 1.5rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); position: sticky; top: 20px;">
+                    
+                    <!-- Search Bar -->
+                    <div class="filter-group" style="margin-bottom: 1.5rem;">
+                        <label for="search" style="display: block; font-weight: 600; margin-bottom: 0.5rem; color: #2d3748;">Zoeken</label>
+                        <input 
+                            type="text" 
+                            id="search" 
+                            placeholder="Zoek op naam, ingrediënt..." 
+                            class="search-input"
+                            style="width: 100%; padding: 0.75rem; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 0.9rem;"
+                            onkeyup="filterProducts()">
                     </div>
-                    <div class="price">€8,95</div>
-                    <p>100% natuurlijke zalm, perfect voor training. Graanvrij en vol omega-3 vetzuren voor een glanzende vacht.</p>
-                    <a href="https://partnerprogramma.bol.com/click/click?p=2&t=url&s=XXXX&f=TXN&url=https://www.bol.com/nl/p/natuurlijke-zalm-bites/&name=Zalm+Bites" 
-                       target="_blank" 
-                       rel="nofollow noopener"
-                       class="btn btn-primary"
-                       data-affiliate="true"
-                       data-product="Natuurlijke Zalm Bites"
-                       data-position="category-1">
-                        Bekijk op bol.com
+                    
+                    <!-- Filter par catégorie -->
+                    <div class="filter-group" style="margin-bottom: 1.5rem;">
+                        <h4 style="margin-bottom: 0.75rem; color: #2d3748; font-size: 1rem;">Categorie</h4>
+                        <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                            <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                                <input type="checkbox" data-filter="category" value="training" onchange="filterProducts()"> 
+                                <span style="font-size: 0.9rem;">Training</span>
+                            </label>
+                            <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                                <input type="checkbox" data-filter="category" value="puppy" onchange="filterProducts()"> 
+                                <span style="font-size: 0.9rem;">Puppy</span>
+                            </label>
+                            <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                                <input type="checkbox" data-filter="category" value="kauw" onchange="filterProducts()"> 
+                                <span style="font-size: 0.9rem;">Kauwsnacks</span>
+                            </label>
+                            <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                                <input type="checkbox" data-filter="category" value="reward" onchange="filterProducts()"> 
+                                <span style="font-size: 0.9rem;">Beloningen</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <!-- Filter par protéine -->
+                    <div class="filter-group" style="margin-bottom: 1.5rem;">
+                        <h4 style="margin-bottom: 0.75rem; color: #2d3748; font-size: 1rem;">Ingrediënt</h4>
+                        <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                            <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                                <input type="checkbox" data-filter="protein" value="salmon" onchange="filterProducts()"> 
+                                <span style="font-size: 0.9rem;">Zalm</span>
+                            </label>
+                            <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                                <input type="checkbox" data-filter="protein" value="chicken" onchange="filterProducts()"> 
+                                <span style="font-size: 0.9rem;">Kip</span>
+                            </label>
+                            <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                                <input type="checkbox" data-filter="protein" value="beef" onchange="filterProducts()"> 
+                                <span style="font-size: 0.9rem;">Rund</span>
+                            </label>
+                            <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                                <input type="checkbox" data-filter="protein" value="duck" onchange="filterProducts()"> 
+                                <span style="font-size: 0.9rem;">Eend</span>
+                            </label>
+                            <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                                <input type="checkbox" data-filter="protein" value="liver" onchange="filterProducts()"> 
+                                <span style="font-size: 0.9rem;">Lever</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <!-- Filter par type -->
+                    <div class="filter-group" style="margin-bottom: 1.5rem;">
+                        <h4 style="margin-bottom: 0.75rem; color: #2d3748; font-size: 1rem;">Type</h4>
+                        <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                            <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                                <input type="checkbox" data-filter="type" value="bites" onchange="filterProducts()"> 
+                                <span style="font-size: 0.9rem;">Bites</span>
+                            </label>
+                            <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                                <input type="checkbox" data-filter="type" value="strips" onchange="filterProducts()"> 
+                                <span style="font-size: 0.9rem;">Strips</span>
+                            </label>
+                            <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                                <input type="checkbox" data-filter="type" value="jerky" onchange="filterProducts()"> 
+                                <span style="font-size: 0.9rem;">Jerky</span>
+                            </label>
+                            <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                                <input type="checkbox" data-filter="type" value="cookies" onchange="filterProducts()"> 
+                                <span style="font-size: 0.9rem;">Koekjes</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <!-- Filter par allergies -->
+                    <div class="filter-group" style="margin-bottom: 1.5rem;">
+                        <h4 style="margin-bottom: 0.75rem; color: #2d3748; font-size: 1rem;">Allergieën</h4>
+                        <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                            <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                                <input type="checkbox" data-filter="allergen" value="graanvrij" onchange="filterProducts()"> 
+                                <span style="font-size: 0.9rem;">Graanvrij</span>
+                            </label>
+                            <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                                <input type="checkbox" data-filter="allergen" value="hypo" onchange="filterProducts()"> 
+                                <span style="font-size: 0.9rem;">Hypoallergeen</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <!-- Filter par prix -->
+                    <div class="filter-group" style="margin-bottom: 1.5rem;">
+                        <h4 style="margin-bottom: 0.75rem; color: #2d3748; font-size: 1rem;">Prijs</h4>
+                        <input type="range" min="0" max="20" value="20" class="price-range" style="width: 100%;" oninput="updatePriceDisplay(this.value); filterProducts();">
+                        <p style="margin: 0.5rem 0 0 0; font-size: 0.9rem; color: #666;">Tot €<span id="price-display">20</span></p>
+                    </div>
+                    
+                    <!-- Reset -->
+                    <button class="btn btn-secondary" onclick="resetFilters()" style="width: 100%; background: #f1f5f9; color: #475569; border: 1px solid #cbd5e1;">
+                        Reset Filters
+                    </button>
+                </div>
+                
+                <!-- Products Area -->
+                <div class="products-area">
+                    <!-- Sort Controls -->
+                    <div class="sort-controls" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+                        <div class="results-count">
+                            <span id="results-count" style="font-weight: 600; color: #2d3748;">36 producten</span>
+                        </div>
+                        <div class="sort-group" style="display: flex; align-items: center; gap: 0.5rem;">
+                            <label for="sort" style="font-size: 0.9rem; color: #4a5568;">Sorteren:</label>
+                            <select id="sort" class="sort-select" onchange="sortProducts()" style="padding: 0.5rem; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 0.9rem;">
+                                <option value="popularity">Meest populair</option>
+                                <option value="rating">Beste reviews</option>
+                                <option value="price-asc">Laagste prijs</option>
+                                <option value="price-desc">Hoogste prijs</option>
+                                <option value="new">Nieuw</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <!-- Products Grid -->
+                    <div class="products-grid" id="products-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
+                <!-- Product 1 - ENRICHED -->
+                <div class="product-card" data-category="training" data-protein="salmon" data-type="bites" data-allergen="graanvrij" data-price="8.95" data-rating="4.7" style="position: relative; background: white; border-radius: 12px; padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border: 2px solid #E68161; transition: transform 0.3s ease;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+                    
+                    <!-- Badge d'excellence -->
+                    <div class="product-badge" style="position: absolute; top: -8px; left: 15px; background: #dc3545; color: white; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.8rem; font-weight: 600; z-index: 2; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+                        MEEST GELIEFD
+                    </div>
+                    
+                    <img src="https://via.placeholder.com/300x200/E68161/FFFFFF?text=Zalm+Bites" alt="Natuurlijke Zalm Bites - training snacks" loading="lazy" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;">
+                    
+                    <div class="product-header">
+                        <h3 style="margin: 0 0 0.5rem 0; font-size: 1.1rem; color: #2d3748;">Natuurlijke Zalm Bites</h3>
+                        <!-- Quick specs -->
+                        <div class="quick-specs" style="font-size: 0.85rem; color: #666; margin-bottom: 0.75rem; display: flex; gap: 0.5rem;">
+                            <span style="background: #f1f5f9; padding: 0.2rem 0.5rem; border-radius: 4px;">Zalm</span>
+                            <span style="background: #f1f5f9; padding: 0.2rem 0.5rem; border-radius: 4px;">Bites</span>
+                            <span style="background: #f1f5f9; padding: 0.2rem 0.5rem; border-radius: 4px;">200g</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Rating enrichi -->
+                    <div class="rating" style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem;">
+                        <span class="stars" style="color: #FFD700; font-size: 1.1em;">★★★★★</span>
+                        <span class="review-count" style="font-weight: 600; color: #2d3748; font-size: 0.9rem;">4.7 (127 reviews)</span>
+                    </div>
+                    
+                    <!-- Highlights -->
+                    <ul class="product-highlights" style="list-style: none; padding: 0; margin: 0.75rem 0; font-size: 0.9rem; color: #4a5568;">
+                        <li style="margin-bottom: 0.25rem;"><span style="color: #22c55e; margin-right: 0.5rem;">✓</span>Perfect voor training</li>
+                        <li style="margin-bottom: 0.25rem;"><span style="color: #22c55e; margin-right: 0.5rem;">✓</span>Graanvrij & hypoallergeen</li>
+                        <li style="margin-bottom: 0.25rem;"><span style="color: #22c55e; margin-right: 0.5rem;">✓</span>Omega-3 vetzuren</li>
+                    </ul>
+                    
+                    <div class="price" style="font-size: 1.3rem; font-weight: 700; color: #E68161; margin: 0.75rem 0;">€8,95</div>
+                    
+                    <!-- CTAs multiples -->
+                    <div class="cta-group" style="display: flex; flex-direction: column; gap: 0.5rem; margin-top: 1rem;">
+                        <a href="https://partnerprogramma.bol.com/click/click?p=2&t=url&s=XXXX&f=TXN&url=https://www.bol.com/nl/p/natuurlijke-zalm-bites/&name=Zalm+Bites" 
+                           target="_blank" 
+                           rel="nofollow noopener"
+                           class="btn btn-primary"
+                           data-affiliate="true"
+                           data-product="Natuurlijke Zalm Bites"
+                           data-position="category-1"
+                           style="background: #E68161; color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; text-align: center; border: none;">
+                            Kopen op Bol.com
+                        </a>
+                        <div style="display: flex; gap: 0.5rem;">
+                            <button class="btn btn-ghost" onclick="addToWishlist('zalm-bites')" style="flex: 1; background: transparent; border: 1px solid #E68161; color: #E68161; padding: 0.5rem 1rem; border-radius: 8px; font-size: 0.9rem; cursor: pointer;">
+                                ❤ Bewaren
+                            </button>
+                            <button class="btn btn-ghost" onclick="showQuickView('zalm-bites')" style="flex: 1; background: transparent; border: 1px solid #cbd5e1; color: #4a5568; padding: 0.5rem 1rem; border-radius: 8px; font-size: 0.9rem; cursor: pointer;">
+                                Quick View
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Secondary link -->
+                    <a href="/reviews/zalm-bites" class="btn-link" style="display: block; text-align: center; margin-top: 0.75rem; color: #4a5568; font-size: 0.85rem; text-decoration: none;">
+                        Lees alle 127 reviews →
                     </a>
                 </div>
 
@@ -391,19 +576,21 @@
             
             <div class="grid grid-2">
                 <div>
-                    <h3>🌱 Betere Gezondheid</h3>
+                    <h3>Betere Gezondheid</h3>
                     <p>Natuurlijke snacks bevatten geen kunstmatige toevoegingen die schadelijk kunnen zijn voor je hond. Ze ondersteunen een gezonde spijsvertering en kunnen helpen bij het behouden van een ideaal gewicht.</p>
                     
-                    <h3>🦷 Sterke Tanden</h3>
+                    <h3>Sterke Tanden</h3>
                     <p>Veel natuurlijke kauwsnacks helpen bij het schoonhouden van de tanden en het versterken van het tandvlees. Dit voorkomt tandplak en zorgt voor een frisse adem.</p>
                 </div>
                 
                 <div>
-                    <h3>🧠 Mentale Stimulatie</h3>
+                    <h3>Mentale Stimulatie</h3>
                     <p>Kauwsnacks bieden mentale stimulatie en helpen bij het verminderen van stress en verveling. Dit is vooral belangrijk voor actieve honden die veel mentale uitdaging nodig hebben.</p>
                     
-                    <h3>💪 Natuurlijke Voeding</h3>
+                    <h3>Natuurlijke Voeding</h3>
                     <p>Natuurlijke snacks zijn rijk aan natuurlijke vitamines, mineralen en aminozuren die bijdragen aan een glanzende vacht, sterke spieren en een goed immuunsysteem.</p>
+                </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -457,5 +644,219 @@
 
     <!-- Scripts -->
     <script src="../js/main.js"></script>
+    <script src="../js/wishlist.js"></script>
+    
+    <!-- Advanced Filters JavaScript -->
+    <script>
+        // Product data with enhanced attributes
+        const products = [
+            {
+                id: 'zalm-bites',
+                name: 'Natuurlijke Zalm Bites',
+                category: 'training',
+                protein: 'salmon',
+                type: 'bites',
+                allergen: 'graanvrij',
+                price: 8.95,
+                rating: 4.7,
+                reviews: 127,
+                badge: 'MEEST GELIEFD',
+                highlights: ['Perfect voor training', 'Graanvrij & hypoallergeen', 'Omega-3 vetzuren'],
+                image: 'https://via.placeholder.com/300x200/E68161/FFFFFF?text=Zalm+Bites',
+                url: 'https://partnerprogramma.bol.com/click/click?p=2&t=url&s=XXXX&f=TXN&url=https://www.bol.com/nl/p/natuurlijke-zalm-bites/'
+            },
+            {
+                id: 'hertenvlees-strips',
+                name: 'Biologische Hertenvlees Strips',
+                category: 'kauw',
+                protein: 'deer',
+                type: 'strips',
+                allergen: 'hypo',
+                price: 12.50,
+                rating: 4.9,
+                reviews: 89,
+                badge: 'TOP RATED',
+                highlights: ['Langdurig kauwplezier', '100% hypoallergeen', 'Rijk aan proteïnen'],
+                image: 'https://via.placeholder.com/300x200/E68161/FFFFFF?text=Hertenvlees+Strips',
+                url: 'https://partnerprogramma.bol.com/click/click?p=2&t=url&s=XXXX&f=TXN&url=https://www.bol.com/nl/p/hertenvlees-strips/'
+            },
+            {
+                id: 'puppy-koekjes',
+                name: 'Zachte Puppy Koekjes',
+                category: 'puppy',
+                protein: 'chicken',
+                type: 'cookies',
+                allergen: 'graanvrij',
+                price: 6.75,
+                rating: 4.8,
+                reviews: 156,
+                badge: 'NIEUW',
+                highlights: ['Speciaal voor puppy\'s', 'Zacht en verteerbaar', 'Belangrijke voedingsstoffen'],
+                image: 'https://via.placeholder.com/300x200/E68161/FFFFFF?text=Puppy+Koekjes',
+                url: 'https://partnerprogramma.bol.com/click/click?p=2&t=url&s=XXXX&f=TXN&url=https://www.bol.com/nl/p/puppy-koekjes/'
+            }
+        ];
+
+        let filteredProducts = [...products];
+
+        // Filter products function
+        function filterProducts() {
+            const searchTerm = document.getElementById('search').value.toLowerCase();
+            const maxPrice = parseFloat(document.querySelector('.price-range').value);
+            
+            // Get selected filters
+            const selectedCategories = Array.from(document.querySelectorAll('input[data-filter="category"]:checked')).map(cb => cb.value);
+            const selectedProteins = Array.from(document.querySelectorAll('input[data-filter="protein"]:checked')).map(cb => cb.value);
+            const selectedTypes = Array.from(document.querySelectorAll('input[data-filter="type"]:checked')).map(cb => cb.value);
+            const selectedAllergens = Array.from(document.querySelectorAll('input[data-filter="allergen"]:checked')).map(cb => cb.value);
+
+            filteredProducts = products.filter(product => {
+                // Search filter
+                const matchesSearch = !searchTerm || 
+                    product.name.toLowerCase().includes(searchTerm) ||
+                    product.protein.toLowerCase().includes(searchTerm) ||
+                    product.highlights.some(h => h.toLowerCase().includes(searchTerm));
+
+                // Price filter
+                const matchesPrice = product.price <= maxPrice;
+
+                // Category filter
+                const matchesCategory = selectedCategories.length === 0 || selectedCategories.includes(product.category);
+
+                // Protein filter
+                const matchesProtein = selectedProteins.length === 0 || selectedProteins.includes(product.protein);
+
+                // Type filter
+                const matchesType = selectedTypes.length === 0 || selectedTypes.includes(product.type);
+
+                // Allergen filter
+                const matchesAllergen = selectedAllergens.length === 0 || selectedAllergens.includes(product.allergen);
+
+                return matchesSearch && matchesPrice && matchesCategory && matchesProtein && matchesType && matchesAllergen;
+            });
+
+            renderProducts();
+            updateResultsCount();
+        }
+
+        // Sort products function
+        function sortProducts() {
+            const sortBy = document.getElementById('sort').value;
+            
+            switch(sortBy) {
+                case 'popularity':
+                    filteredProducts.sort((a, b) => b.reviews - a.reviews);
+                    break;
+                case 'rating':
+                    filteredProducts.sort((a, b) => b.rating - a.rating);
+                    break;
+                case 'price-asc':
+                    filteredProducts.sort((a, b) => a.price - b.price);
+                    break;
+                case 'price-desc':
+                    filteredProducts.sort((a, b) => b.price - a.price);
+                    break;
+                case 'new':
+                    filteredProducts.sort((a, b) => a.name.localeCompare(b.name));
+                    break;
+            }
+            
+            renderProducts();
+        }
+
+        // Render products function
+        function renderProducts() {
+            const grid = document.getElementById('products-grid');
+            
+            if (filteredProducts.length === 0) {
+                grid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 2rem; color: #666;"><h3>Geen producten gevonden</h3><p>Probeer andere filters of zoektermen.</p></div>';
+                return;
+            }
+
+            grid.innerHTML = filteredProducts.map(product => `
+                <div class="product-card" data-category="${product.category}" data-protein="${product.protein}" data-type="${product.type}" data-allergen="${product.allergen}" data-price="${product.price}" data-rating="${product.rating}" style="position: relative; background: white; border-radius: 12px; padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border: 2px solid #E68161; transition: transform 0.3s ease;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+                    
+                    <div class="product-badge" style="position: absolute; top: -8px; left: 15px; background: ${product.badge === 'MEEST GELIEFD' ? '#dc3545' : product.badge === 'TOP RATED' ? '#28a745' : '#17a2b8'}; color: white; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.8rem; font-weight: 600; z-index: 2; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+                        ${product.badge}
+                    </div>
+                    
+                    <img src="${product.image}" alt="${product.name}" loading="lazy" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;">
+                    
+                    <div class="product-header">
+                        <h3 style="margin: 0 0 0.5rem 0; font-size: 1.1rem; color: #2d3748;">${product.name}</h3>
+                        <div class="quick-specs" style="font-size: 0.85rem; color: #666; margin-bottom: 0.75rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
+                            <span style="background: #f1f5f9; padding: 0.2rem 0.5rem; border-radius: 4px;">${product.protein}</span>
+                            <span style="background: #f1f5f9; padding: 0.2rem 0.5rem; border-radius: 4px;">${product.type}</span>
+                            <span style="background: #f1f5f9; padding: 0.2rem 0.5rem; border-radius: 4px;">200g</span>
+                        </div>
+                    </div>
+                    
+                    <div class="rating" style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem;">
+                        <span class="stars" style="color: #FFD700; font-size: 1.1em;">★★★★★</span>
+                        <span class="review-count" style="font-weight: 600; color: #2d3748; font-size: 0.9rem;">${product.rating} (${product.reviews} reviews)</span>
+                    </div>
+                    
+                    <ul class="product-highlights" style="list-style: none; padding: 0; margin: 0.75rem 0; font-size: 0.9rem; color: #4a5568;">
+                        ${product.highlights.map(highlight => `<li style="margin-bottom: 0.25rem;"><span style="color: #22c55e; margin-right: 0.5rem;">✓</span>${highlight}</li>`).join('')}
+                    </ul>
+                    
+                    <div class="price" style="font-size: 1.3rem; font-weight: 700; color: #E68161; margin: 0.75rem 0;">€${product.price.toFixed(2)}</div>
+                    
+                    <div class="cta-group" style="display: flex; flex-direction: column; gap: 0.5rem; margin-top: 1rem;">
+                        <a href="${product.url}" target="_blank" rel="nofollow noopener" class="btn btn-primary" style="background: #E68161; color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; text-align: center; border: none;">
+                            Kopen op Bol.com
+                        </a>
+                        <div style="display: flex; gap: 0.5rem;">
+                            <button class="btn btn-ghost" onclick="addToWishlist('${product.id}')" style="flex: 1; background: transparent; border: 1px solid #E68161; color: #E68161; padding: 0.5rem 1rem; border-radius: 8px; font-size: 0.9rem; cursor: pointer;">
+                                ❤ Bewaren
+                            </button>
+                            <button class="btn btn-ghost" onclick="showQuickView('${product.id}')" style="flex: 1; background: transparent; border: 1px solid #cbd5e1; color: #4a5568; padding: 0.5rem 1rem; border-radius: 8px; font-size: 0.9rem; cursor: pointer;">
+                                Quick View
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <a href="/reviews/${product.id}" class="btn-link" style="display: block; text-align: center; margin-top: 0.75rem; color: #4a5568; font-size: 0.85rem; text-decoration: none;">
+                        Lees alle ${product.reviews} reviews →
+                    </a>
+                </div>
+            `).join('');
+        }
+
+        // Update results count
+        function updateResultsCount() {
+            document.getElementById('results-count').textContent = `${filteredProducts.length} producten`;
+        }
+
+        // Update price display
+        function updatePriceDisplay(value) {
+            document.getElementById('price-display').textContent = value;
+        }
+
+        // Reset filters
+        function resetFilters() {
+            document.getElementById('search').value = '';
+            document.querySelector('.price-range').value = 20;
+            document.getElementById('price-display').textContent = '20';
+            document.getElementById('sort').value = 'popularity';
+            
+            document.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = false);
+            
+            filteredProducts = [...products];
+            sortProducts();
+        }
+
+        // Quick view function
+        function showQuickView(productId) {
+            const product = products.find(p => p.id === productId);
+            alert(`Quick View: ${product.name}\\n\\nPrijs: €${product.price}\\nRating: ${product.rating}/5\\nReviews: ${product.reviews}\\n\\nHighlights:\\n${product.highlights.join('\\n')}`);
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            renderProducts();
+            updateResultsCount();
+        });
+    </script>
 </body>
 </html>
