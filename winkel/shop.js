@@ -427,9 +427,14 @@ function renderProducts() {
             </div>
             
             <div class="product-actions">
-                <a href="${product.bolUrl}" target="_blank" rel="noopener" class="btn-primary" onclick="trackClick('${product.id}', '${product.name}')">
-                    🛒 Bestel bij bol.com
-                </a>
+                <div class="product-buttons">
+                    <a href="../produits/${generateSlug(product.name)}.html" class="btn-secondary btn-details">
+                        👁️ Details bekijken
+                    </a>
+                    <a href="${product.bolUrl}" target="_blank" rel="noopener" class="btn-primary" onclick="trackClick('${product.id}', '${product.name}')">
+                        🛒 Bestel bij bol.com
+                    </a>
+                </div>
                 <button class="btn-secondary" onclick="toggleWishlist(${product.id})" title="Toevoegen aan verlanglijst">
                     ❤️
                 </button>
@@ -515,6 +520,15 @@ function showNotification(message, type = 'info') {
     setTimeout(() => {
         notification.remove();
     }, 3000);
+}
+
+// Générer un slug pour les URLs
+function generateSlug(name) {
+    return name
+        .toLowerCase()
+        .replace(/[^a-z0-9\s]/g, '')
+        .replace(/\s+/g, '-')
+        .substring(0, 60);
 }
 
 // Générer des termes de recherche pour chaque produit
