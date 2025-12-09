@@ -281,21 +281,60 @@
             </div>
             
             <div class="quiz-container" style="max-width: 700px; margin: 0 auto; background: white; padding: 2.5rem; border-radius: 20px; box-shadow: 0 12px 40px rgba(0,0,0,0.15); color: #2d3748;">
-                <!-- Question 1 visible par défaut -->
-                <div class="quiz-question active" style="text-align: center;">
+                
+                <!-- Question 1: Age -->
+                <div class="quiz-question" id="question-1" style="text-align: center;">
                     <h3 style="margin-bottom: 2rem; font-size: 1.4rem; color: #2d3748;">Hoe oud is jouw hond?</h3>
                     <div class="options" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem;">
-                        <button class="option" data-value="puppy" style="padding: 1.5rem 1rem; border: 2px solid #e5e7eb; border-radius: 12px; background: white; cursor: pointer; transition: all 0.3s ease; text-align: center;" onmouseover="this.style.borderColor='#E68161'; this.style.background='#fef7f0'; this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='#e5e7eb'; this.style.background='white'; this.style.transform='translateY(0)'">
+                        <button class="option" data-value="puppy" onclick="selectOption(1, 'puppy')" style="padding: 1.5rem 1rem; border: 2px solid #e5e7eb; border-radius: 12px; background: white; cursor: pointer; transition: all 0.3s ease; text-align: center;">
                             <strong style="display: block; margin-bottom: 0.5rem; font-size: 1.1rem; color: #2d3748;">Puppy</strong>
                             <span style="font-size: 0.9rem; color: #666;">0-12 maanden</span>
                         </button>
-                        <button class="option" data-value="adult" style="padding: 1.5rem 1rem; border: 2px solid #e5e7eb; border-radius: 12px; background: white; cursor: pointer; transition: all 0.3s ease; text-align: center;" onmouseover="this.style.borderColor='#E68161'; this.style.background='#fef7f0'; this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='#e5e7eb'; this.style.background='white'; this.style.transform='translateY(0)'">
+                        <button class="option" data-value="adult" onclick="selectOption(1, 'adult')" style="padding: 1.5rem 1rem; border: 2px solid #e5e7eb; border-radius: 12px; background: white; cursor: pointer; transition: all 0.3s ease; text-align: center;">
                             <strong style="display: block; margin-bottom: 0.5rem; font-size: 1.1rem; color: #2d3748;">Volwassen</strong>
                             <span style="font-size: 0.9rem; color: #666;">1-7 jaar</span>
                         </button>
-                        <button class="option" data-value="senior" style="padding: 1.5rem 1rem; border: 2px solid #e5e7eb; border-radius: 12px; background: white; cursor: pointer; transition: all 0.3s ease; text-align: center;" onmouseover="this.style.borderColor='#E68161'; this.style.background='#fef7f0'; this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='#e5e7eb'; this.style.background='white'; this.style.transform='translateY(0)'">
+                        <button class="option" data-value="senior" onclick="selectOption(1, 'senior')" style="padding: 1.5rem 1rem; border: 2px solid #e5e7eb; border-radius: 12px; background: white; cursor: pointer; transition: all 0.3s ease; text-align: center;">
                             <strong style="display: block; margin-bottom: 0.5rem; font-size: 1.1rem; color: #2d3748;">Senior</strong>
                             <span style="font-size: 0.9rem; color: #666;">7+ jaar</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Question 2: Purpose -->
+                <div class="quiz-question" id="question-2" style="text-align: center; display: none;">
+                    <h3 style="margin-bottom: 2rem; font-size: 1.4rem; color: #2d3748;">Waarvoor gebruik je de snacks?</h3>
+                    <div class="options" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem;">
+                        <button class="option" data-value="training" onclick="selectOption(2, 'training')" style="padding: 1.5rem 1rem; border: 2px solid #e5e7eb; border-radius: 12px; background: white; cursor: pointer; transition: all 0.3s ease; text-align: center;">
+                            <strong style="display: block; margin-bottom: 0.5rem; font-size: 1.1rem; color: #2d3748;">Training</strong>
+                            <span style="font-size: 0.9rem; color: #666;">Gehoorzaamheid & tricks</span>
+                        </button>
+                        <button class="option" data-value="reward" onclick="selectOption(2, 'reward')" style="padding: 1.5rem 1rem; border: 2px solid #e5e7eb; border-radius: 12px; background: white; cursor: pointer; transition: all 0.3s ease; text-align: center;">
+                            <strong style="display: block; margin-bottom: 0.5rem; font-size: 1.1rem; color: #2d3748;">Beloning</strong>
+                            <span style="font-size: 0.9rem; color: #666;">Verwennen & tussendoortje</span>
+                        </button>
+                        <button class="option" data-value="health" onclick="selectOption(2, 'health')" style="padding: 1.5rem 1rem; border: 2px solid #e5e7eb; border-radius: 12px; background: white; cursor: pointer; transition: all 0.3s ease; text-align: center;">
+                            <strong style="display: block; margin-bottom: 0.5rem; font-size: 1.1rem; color: #2d3748;">Gezondheid</strong>
+                            <span style="font-size: 0.9rem; color: #666;">Allergieën & gevoelige maag</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Question 3: Size -->
+                <div class="quiz-question" id="question-3" style="text-align: center; display: none;">
+                    <h3 style="margin-bottom: 2rem; font-size: 1.4rem; color: #2d3748;">Hoe groot is jouw hond?</h3>
+                    <div class="options" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem;">
+                        <button class="option" data-value="small" onclick="selectOption(3, 'small')" style="padding: 1.5rem 1rem; border: 2px solid #e5e7eb; border-radius: 12px; background: white; cursor: pointer; transition: all 0.3s ease; text-align: center;">
+                            <strong style="display: block; margin-bottom: 0.5rem; font-size: 1.1rem; color: #2d3748;">Klein</strong>
+                            <span style="font-size: 0.9rem; color: #666;">&lt;10kg</span>
+                        </button>
+                        <button class="option" data-value="medium" onclick="selectOption(3, 'medium')" style="padding: 1.5rem 1rem; border: 2px solid #e5e7eb; border-radius: 12px; background: white; cursor: pointer; transition: all 0.3s ease; text-align: center;">
+                            <strong style="display: block; margin-bottom: 0.5rem; font-size: 1.1rem; color: #2d3748;">Gemiddeld</strong>
+                            <span style="font-size: 0.9rem; color: #666;">10-25kg</span>
+                        </button>
+                        <button class="option" data-value="large" onclick="selectOption(3, 'large')" style="padding: 1.5rem 1rem; border: 2px solid #e5e7eb; border-radius: 12px; background: white; cursor: pointer; transition: all 0.3s ease; text-align: center;">
+                            <strong style="display: block; margin-bottom: 0.5rem; font-size: 1.1rem; color: #2d3748;">Groot</strong>
+                            <span style="font-size: 0.9rem; color: #666;">&gt;25kg</span>
                         </button>
                     </div>
                 </div>
@@ -652,7 +691,7 @@
                         <li style="margin-bottom: 0.5rem;"><a href="/blog/" style="color: #d1d5db; text-decoration: none;">Blog & tips</a></li>
                         <li style="margin-bottom: 0.5rem;"><a href="/contact/" style="color: #d1d5db; text-decoration: none;">Contact</a></li>
                         <li style="margin-bottom: 0.5rem;"><a href="/veelgestelde-vragen/" style="color: #d1d5db; text-decoration: none;">FAQ</a></li>
-                        <li style="margin-bottom: 0.5rem;"><a href="/beste-hondensnacks-2024/" style="color: #d1d5db; text-decoration: none;">Top 10 beste</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="/beste-hondensnacks-2026/" style="color: #d1d5db; text-decoration: none;">Top 10 beste</a></li>
                     </ul>
                 </div>
                 
@@ -688,10 +727,181 @@
                     <strong>Disclaimer:</strong> De informatie op deze website is alleen bedoeld voor algemene doeleinden en vervangt geen professioneel veterinair advies. 
                     Raadpleeg altijd je dierenarts voor specifieke voedings- en gezondheidsadvies voor je hond.
                 </p>
-                <p style="margin: 0; color: #9ca3af; font-size: 0.9rem;">&copy; 2024 Biologische hondensnacks. Alle rechten voorbehouden. | Gemaakt voor honden en hun baasjes</p>
+                <p style="margin: 0; color: #9ca3af; font-size: 0.9rem;">&copy; 2026 Biologische hondensnacks. Alle rechten voorbehouden. | Gemaakt voor honden en hun baasjes</p>
             </div>
         </div>
     </footer>
+
+    <!-- Quiz JavaScript -->
+    <script>
+        let quizAnswers = {};
+        let currentQuestion = 1;
+        
+        function selectOption(questionNum, value) {
+            quizAnswers[questionNum] = value;
+            
+            // Update progress
+            updateProgress(questionNum);
+            
+            // Show next question or results
+            if (questionNum < 3) {
+                showNextQuestion(questionNum + 1);
+            } else {
+                showResults();
+            }
+        }
+        
+        function updateProgress(questionNum) {
+            const progressFill = document.querySelector('.progress-fill');
+            const progressText = document.querySelector('.quiz-progress span');
+            
+            const percentage = (questionNum / 3) * 100;
+            progressFill.style.width = percentage + '%';
+            progressText.textContent = `Vraag ${questionNum} van 3`;
+        }
+        
+        function showNextQuestion(questionNum) {
+            // Hide current question
+            document.getElementById(`question-${questionNum - 1}`).style.display = 'none';
+            
+            // Show next question
+            document.getElementById(`question-${questionNum}`).style.display = 'block';
+            currentQuestion = questionNum;
+        }
+        
+        function showResults() {
+            // Hide last question
+            document.getElementById('question-3').style.display = 'none';
+            
+            // Update progress to 100%
+            document.querySelector('.progress-fill').style.width = '100%';
+            document.querySelector('.quiz-progress span').textContent = 'Voltooid!';
+            
+            // Get recommendation
+            const recommendation = getRecommendation();
+            
+            // Show result
+            const resultDiv = document.querySelector('.quiz-result');
+            const productDiv = document.querySelector('.recommended-product');
+            
+            productDiv.innerHTML = `
+                <div style="display: flex; gap: 1rem; align-items: center; text-align: left;">
+                    <img src="${recommendation.image}" alt="${recommendation.name}" style="width: 80px; height: 80px; border-radius: 8px; object-fit: cover;">
+                    <div style="flex: 1;">
+                        <h4 style="margin: 0 0 0.5rem 0; color: #2d3748;">${recommendation.name}</h4>
+                        <p style="margin: 0 0 0.5rem 0; color: #666; font-size: 0.9rem;">${recommendation.description}</p>
+                        <div style="display: flex; align-items: center; gap: 1rem;">
+                            <span style="font-size: 1.2rem; font-weight: 700; color: #E68161;">${recommendation.price}</span>
+                            <span style="color: #FFD700;">★★★★★</span>
+                            <span style="font-size: 0.9rem; color: #666;">${recommendation.rating}</span>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            // Update CTA link
+            document.querySelector('.quiz-result .btn-primary').href = recommendation.winkelUrl;
+            
+            resultDiv.style.display = 'block';
+        }
+        
+        function getRecommendation() {
+            const age = quizAnswers[1];
+            const purpose = quizAnswers[2];
+            const size = quizAnswers[3];
+            
+            // Recommendation logic based on answers
+            if (age === 'puppy') {
+                return {
+                    name: 'Zachte Puppy Koekjes',
+                    description: 'Perfect voor jonge honden, extra zacht en veilig',
+                    price: '€6,75',
+                    rating: '4.8/5 (156 reviews)',
+                    image: 'https://via.placeholder.com/80x80/FFB6C1/FFFFFF?text=Puppy',
+                    winkelUrl: '/winkel/zachte-puppy-koekjes'
+                };
+            } else if (purpose === 'training') {
+                return {
+                    name: 'Mini Training Bites',
+                    description: 'Zeer kleine snacks perfect voor training sessies',
+                    price: '€5,95',
+                    rating: '4.9/5 (234 reviews)',
+                    image: 'https://via.placeholder.com/80x80/3b82f6/FFFFFF?text=Mini',
+                    winkelUrl: '/winkel/mini-training-bites'
+                };
+            } else if (purpose === 'health') {
+                return {
+                    name: 'Biologische Hertenvlees Strips',
+                    description: 'Hypoallergeen, perfect voor gevoelige magen',
+                    price: '€12,50',
+                    rating: '4.9/5 (89 reviews)',
+                    image: 'https://via.placeholder.com/80x80/22c55e/FFFFFF?text=Hert',
+                    winkelUrl: '/winkel/hertenvlees-strips'
+                };
+            } else if (size === 'large') {
+                return {
+                    name: 'Grote Kauwsticks',
+                    description: 'Duurzame kauwsnacks voor grote honden',
+                    price: '€15,95',
+                    rating: '4.7/5 (167 reviews)',
+                    image: 'https://via.placeholder.com/80x80/8b5cf6/FFFFFF?text=Groot',
+                    winkelUrl: '/winkel/grote-kauwsticks'
+                };
+            } else {
+                // Default recommendation
+                return {
+                    name: 'Natuurlijke Zalm Bites',
+                    description: 'Populairste keuze, geschikt voor alle honden',
+                    price: '€8,95',
+                    rating: '4.7/5 (127 reviews)',
+                    image: 'https://via.placeholder.com/80x80/E68161/FFFFFF?text=Zalm',
+                    winkelUrl: '/winkel/natuurlijke-zalm-bites'
+                };
+            }
+        }
+        
+        function restartQuiz() {
+            quizAnswers = {};
+            currentQuestion = 1;
+            
+            // Hide result
+            document.querySelector('.quiz-result').style.display = 'none';
+            
+            // Show first question
+            document.getElementById('question-1').style.display = 'block';
+            document.getElementById('question-2').style.display = 'none';
+            document.getElementById('question-3').style.display = 'none';
+            
+            // Reset progress
+            document.querySelector('.progress-fill').style.width = '33%';
+            document.querySelector('.quiz-progress span').textContent = 'Vraag 1 van 3';
+            
+            // Reset button styles
+            document.querySelectorAll('.option').forEach(btn => {
+                btn.style.borderColor = '#e5e7eb';
+                btn.style.background = 'white';
+            });
+        }
+        
+        // Add hover effects
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('.option').forEach(btn => {
+                btn.addEventListener('mouseenter', function() {
+                    this.style.borderColor = '#E68161';
+                    this.style.background = '#fef7f0';
+                    this.style.transform = 'translateY(-2px)';
+                });
+                
+                btn.addEventListener('mouseleave', function() {
+                    if (!this.classList.contains('selected')) {
+                        this.style.borderColor = '#e5e7eb';
+                        this.style.background = 'white';
+                        this.style.transform = 'translateY(0)';
+                    }
+                });
+            });
+        });
+    </script>
 
     <!-- Scripts -->
     <script src="js/main.js"></script>
