@@ -3,19 +3,42 @@
    Inspiré de DogChef
    ======================================== */
 
-/* CSS Variables - DogChef Color Palette */
+/* CSS Variables - CHARTE GRAPHIQUE COHÉRENTE */
 :root {
-  /* Colors */
-  --primary-orange: #E68161;
-  --primary-dark: #1F2121;
-  --background-cream: #FCFCF9;
-  --text-dark: #134252;
-  --border-light: #E0E0E0;
+  /* PALETTE PRINCIPALE (3 couleurs max) */
+  --primary: #E68161;           /* Orange - CTAs, prix, éléments importants */
+  --secondary: #3b82f6;         /* Bleu - Badges informatifs, accents */
+  --neutral: #2d3748;           /* Gris foncé - Textes, bordures */
+  
+  /* COULEURS SYSTÈME (usage spécifique uniquement) */
+  --success: #22c55e;           /* Vert - Succès/validation uniquement */
+  --error: #dc3545;             /* Rouge - Erreurs/urgence uniquement */
+  
+  /* COULEURS DE BASE */
   --white: #FFFFFF;
-  --gray-light: #F5F5F5;
-  --gray-medium: #CCCCCC;
-  --success: #28A745;
-  --warning: #FFC107;
+  --gray-50: #f9fafb;
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-300: #d1d5db;
+  --gray-400: #9ca3af;
+  --gray-500: #6b7280;
+  --gray-600: #4b5563;
+  --gray-700: #374151;
+  --gray-800: #1f2937;
+  --gray-900: #111827;
+  
+  /* COULEURS DÉRIVÉES (générées automatiquement) */
+  --primary-50: #fef7f4;
+  --primary-100: #fdeee8;
+  --primary-500: #E68161;       /* Couleur principale */
+  --primary-600: #d67347;       /* Hover state */
+  --primary-700: #c5632e;       /* Active state */
+  
+  --secondary-50: #eff6ff;
+  --secondary-100: #dbeafe;
+  --secondary-500: #3b82f6;     /* Couleur secondaire */
+  --secondary-600: #2563eb;     /* Hover state */
+  --secondary-700: #1d4ed8;     /* Active state */
   
   /* Typography */
   --font-primary: 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -93,13 +116,13 @@ p {
 }
 
 a {
-  color: var(--primary-orange);
+  color: var(--primary);
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #D87050;
+  color: var(--primary-600);
 }
 
 /* Container */
@@ -130,12 +153,12 @@ a:hover {
 }
 
 .btn-primary {
-  background: var(--primary-orange);
+  background: var(--primary);
   color: var(--white);
 }
 
 .btn-primary:hover {
-  background: #D87050;
+  background: var(--primary-600);
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
   color: var(--white);
@@ -143,12 +166,12 @@ a:hover {
 
 .btn-secondary {
   background: transparent;
-  color: var(--primary-orange);
-  border: 2px solid var(--primary-orange);
+  color: var(--primary);
+  border: 2px solid var(--primary);
 }
 
 .btn-secondary:hover {
-  background: var(--primary-orange);
+  background: var(--primary);
   color: var(--white);
 }
 
@@ -200,7 +223,7 @@ a:hover {
 .product-card .price {
   font-size: 18px;
   font-weight: var(--font-weight-bold);
-  color: var(--primary-orange);
+  color: var(--primary);
   margin-bottom: var(--spacing-sm);
 }
 
@@ -245,7 +268,7 @@ a:hover {
 .logo {
   font-size: 24px;
   font-weight: var(--font-weight-bold);
-  color: var(--primary-orange);
+  color: var(--primary);
 }
 
 .nav {
@@ -261,18 +284,18 @@ a:hover {
 }
 
 .nav a {
-  color: var(--text-dark);
+  color: var(--neutral);
   text-decoration: none;
   font-weight: var(--font-weight-medium);
   transition: color 0.3s ease;
 }
 
 .nav a:hover {
-  color: var(--primary-orange);
+  color: var(--primary);
 }
 
 .nav-shop {
-  background: var(--primary-orange) !important;
+  background: var(--primary) !important;
   color: white !important;
   padding: 8px 16px !important;
   border-radius: 20px !important;
@@ -281,7 +304,7 @@ a:hover {
 }
 
 .nav-shop:hover {
-  background: #d67347 !important;
+  background: var(--primary-600) !important;
   transform: translateY(-2px) !important;
   box-shadow: 0 4px 12px rgba(230, 129, 97, 0.3) !important;
 }
