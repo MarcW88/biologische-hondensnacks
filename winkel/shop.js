@@ -1422,11 +1422,23 @@ function renderProducts() {
     const productsGrid = document.getElementById('productsGrid');
     console.log('📋 Products grid found:', !!productsGrid);
     
+    if (!productsGrid) {
+        console.error('❌ Products grid element not found!');
+        return;
+    }
+    
     const startIndex = (currentPage - 1) * productsPerPage;
     const endIndex = startIndex + productsPerPage;
     const productsToShow = filteredProducts.slice(0, endIndex);
     console.log('📊 Products to show:', productsToShow.length, 'from', filteredProducts.length, 'total');
     
+    if (productsToShow.length === 0) {
+        console.warn('⚠️ No products to show!');
+        productsGrid.innerHTML = '<p>Geen producten gevonden.</p>';
+        return;
+    }
+    
+    console.log('🔨 Generating HTML for', productsToShow.length, 'products...');
     productsGrid.innerHTML = productsToShow.map(product => `
         <div class="product-card" data-product-id="${product.id}">
             <img src="${product.image}" alt="${product.name}" class="product-image" loading="lazy">
@@ -1465,6 +1477,9 @@ function renderProducts() {
             ${!product.inStock ? '<div class="out-of-stock">Tijdelijk uitverkocht</div>' : ''}
         </div>
     `).join('');
+    
+    console.log('✅ HTML generated and inserted into DOM');
+    console.log('📏 Final HTML length:', productsGrid.innerHTML.length);
     
     // Update load more button
     updateLoadMoreButton();
