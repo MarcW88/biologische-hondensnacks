@@ -2,6 +2,25 @@
    BIOLOGISCHE HONDENSNACKS - SHOP STYLES
    ======================================== */
 
+/* Variables CSS pour le shop */
+:root {
+    --primary-orange: #E68161;
+    --primary-orange-dark: #d67347;
+    --text-dark: #2d3748;
+    --gray-light: #f8fafc;
+    --border-light: #e2e8f0;
+    --border-radius: 8px;
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 1.5rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 3rem;
+    --font-size-small: 0.875rem;
+    --font-size-h1: 2rem;
+    --font-weight-medium: 500;
+    --font-weight-bold: 600;
+}
+
 /* Breadcrumb */
 .breadcrumb {
     background: var(--gray-light);
