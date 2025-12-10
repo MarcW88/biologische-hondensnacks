@@ -710,5 +710,37 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
+    // Add event listeners for filter checkboxes
+    document.querySelectorAll('.filter-option input[type="checkbox"]').forEach(checkbox => {
+        checkbox.addEventListener('change', function() {
+            const filterType = this.getAttribute('data-filter-type');
+            const filterValue = this.getAttribute('data-filter-value');
+            
+            if (this.checked) {
+                if (!activeFilters[filterType].includes(filterValue)) {
+                    activeFilters[filterType].push(filterValue);
+                }
+            } else {
+                activeFilters[filterType] = activeFilters[filterType].filter(v => v !== filterValue);
+            }
+            
+            applyFilters();
+        });
+    });
+    
+    // Add event listener for price range
+    const priceRange = document.getElementById('priceRange');
+    if (priceRange) {
+        priceRange.addEventListener('input', function() {
+            updatePriceFilter(this.value);
+        });
+    }
+    
+    // Add event listener for clear filters button
+    const clearFiltersBtn = document.getElementById('clearFilters');
+    if (clearFiltersBtn) {
+        clearFiltersBtn.addEventListener('click', clearAllFilters);
+    }
+    
     console.log('Shop initialized with', allProducts.length, 'products');
 });

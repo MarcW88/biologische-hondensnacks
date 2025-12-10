@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellness Core Pure Rewards Kip Freeze-Dried | Wellness | Biologische Hondensnacks</title>
+    <meta name="description" content="Premium freeze-dried kip snacks. 100% pure kip, geen toevoegingen. ✓ Wellness ✓ €14.95 ✓ Gratis verzending vanaf €20 via bol.com">
+    <meta name="keywords" content="Wellness Core Pure Rewards Kip Freeze-Dried, Wellness, training, freeze-dried, 100%-vlees, premium, biologische hondensnacks, natuurlijke hondensnacks, bol.com">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Wellness Core Pure Rewards Kip Freeze-Dried | Wellness">
+    <meta property="og:description" content="Premium freeze-dried kip snacks. 100% pure kip, geen toevoegingen.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1517849845537-4d257902454a?w=400&h=300&fit=crop">
+    <meta property="og:type" content="product">
+    <meta property="og:url" content="https://biologische-hondensnacks.nl/produits/wellness-core-pure-rewards-kip-freezedried.html">
+    
+    <!-- Product Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Wellness Core Pure Rewards Kip Freeze-Dried",
+        "brand": {
+            "@type": "Brand",
+            "name": "Wellness"
+        },
+        "description": "Premium freeze-dried kip snacks. 100% pure kip, geen toevoegingen.",
+        "image": "https://images.unsplash.com/photo-1517849845537-4d257902454a?w=400&h=300&fit=crop",
+        "offers": {
+            "@type": "Offer",
+            "price": "14.95",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+                "@type": "Organization",
+                "name": "bol.com"
+            }
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "145"
+        },
+        "category": "Training Snacks"
+    }
+    </script>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="product-page.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="../" style="color: #E68161; font-weight: bold;">Biologische Hondensnacks</a>
+                </div>
+                
+                <nav class="nav">
+                    <ul>
+                        <li><a href="../">Home</a></li>
+                        <li><a href="../natuurlijke-hondensnacks/">Natuurlijke snacks</a></li>
+                        <li><a href="../beste-hondensnacks-2024/">Top 10 Beste</a></li>
+                        <li><a href="../winkel/">🛍️ Winkel</a></li>
+                        <li><a href="../blog/">Blog</a></li>
+                        <li><a href="../over-ons/">Over Ons</a></li>
+                    </ul>
+                </nav>
+                
+                <button class="mobile-menu-toggle">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="../">Home</a> > 
+            <a href="../winkel/">Winkel</a> > 
+            <a href="../winkel/?category=training">Training Snacks</a> > 
+            <span>Wellness Core Pure Rewards Kip Freeze-Dried</span>
+        </div>
+    </div>
+
+    <!-- Product Page -->
+    <main class="product-page">
+        <div class="container">
+            <div class="product-layout">
+                
+                <!-- Product Images -->
+                <div class="product-images">
+                    <div class="main-image">
+                        <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?w=400&h=300&fit=crop" alt="Wellness Core Pure Rewards Kip Freeze-Dried" id="mainImage">
+                        <div class="product-badges">
+        <span class="badge badge-premium">premium</span><span class="badge badge-sale">Aanbieding</span>
+    </div>
+                    </div>
+                    
+                    <!-- Thumbnail gallery (placeholder for multiple images) -->
+                    <div class="image-thumbnails">
+                        <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?w=400&h=300&fit=crop" alt="Wellness Core Pure Rewards Kip Freeze-Dried" class="thumbnail active" onclick="changeMainImage(this.src)">
+                        <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?w=400&h=300&fit=crop?variant=2" alt="Wellness Core Pure Rewards Kip Freeze-Dried variant" class="thumbnail" onclick="changeMainImage(this.src)">
+                        <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?w=400&h=300&fit=crop?variant=3" alt="Wellness Core Pure Rewards Kip Freeze-Dried packaging" class="thumbnail" onclick="changeMainImage(this.src)">
+                    </div>
+                </div>
+                
+                <!-- Product Info -->
+                <div class="product-info">
+                    <div class="product-header">
+                        <div class="brand">Wellness</div>
+                        <h1>Wellness Core Pure Rewards Kip Freeze-Dried</h1>
+                        
+                        <div class="rating-section">
+                            <div class="stars">★★★★☆</div>
+                            <span class="rating-text">4.8/5 (145 reviews)</span>
+                        </div>
+                    </div>
+                    
+                    <div class="price-section">
+                        <div class="price-main">
+                            <span class="price-original">€16.95</span>
+                            <span class="price-current">€14.95</span>
+                        </div>
+                        <div class="price-per-unit">€29.90 per 100g</div>
+                        <div class="savings">Bespaar €2.00</div>
+                    </div>
+                    
+                    <div class="product-description">
+                        <h3>Productbeschrijving</h3>
+                        <p>Premium freeze-dried kip snacks. 100% pure kip, geen toevoegingen.</p>
+                    </div>
+                    
+                    <div class="product-features">
+                        <h3>Eigenschappen</h3>
+                        <div class="features-grid">
+                            
+                                <div class="feature-item">
+                                    <span class="feature-icon">✓</span>
+                                    <span class="feature-text">freeze-dried</span>
+                                </div>
+                            
+                                <div class="feature-item">
+                                    <span class="feature-icon">✓</span>
+                                    <span class="feature-text">100%-vlees</span>
+                                </div>
+                            
+                                <div class="feature-item">
+                                    <span class="feature-icon">✓</span>
+                                    <span class="feature-text">premium</span>
+                                </div>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="product-specs">
+                        <h3>Specificaties</h3>
+                        <div class="specs-table">
+                            <div class="spec-row">
+                                <span class="spec-label">Merk:</span>
+                                <span class="spec-value">Wellness</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">Gewicht:</span>
+                                <span class="spec-value">50g</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">Geschikt voor:</span>
+                                <span class="spec-value">Volwassen, Senior</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">Hondengrootte:</span>
+                                <span class="spec-value">Klein, Middel, Groot</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">Ingrediënten:</span>
+                                <span class="spec-value">Kip (100%)</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Purchase Section -->
+                    <div class="purchase-section">
+                        <div class="stock-info">
+                            <span class="in-stock">✓ Op voorraad</span>
+                            <span class="fast-delivery">🚚 Morgen in huis</span>
+                        </div>
+                        
+                        <div class="purchase-actions">
+                            <a href="https://www.bol.com/nl/nl/p/wellness-core-pure-rewards-kip/9200000087654328/" target="_blank" rel="noopener" class="btn-primary btn-large" onclick="trackPurchaseClick('8', 'Wellness Core Pure Rewards Kip Freeze-Dried')">
+                                🛒 Bestel nu bij bol.com
+                            </a>
+                            
+                            <div class="secondary-actions">
+                                <button class="btn-secondary" onclick="addToWishlist(8)">
+                                    ❤️ Toevoegen aan verlanglijst
+                                </button>
+                                <button class="btn-secondary" onclick="shareProduct()">
+                                    📤 Delen
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="trust-badges">
+                            <div class="trust-item">
+                                <span>🚚</span>
+                                <span>Gratis verzending vanaf €20</span>
+                            </div>
+                            <div class="trust-item">
+                                <span>↩️</span>
+                                <span>30 dagen retourrecht</span>
+                            </div>
+                            <div class="trust-item">
+                                <span>⭐</span>
+                                <span>4.8/5 klanttevredenheid</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product-description-extended" style="background: #f8fafc; padding: 2rem; margin: 2rem 0; border-radius: 8px; line-height: 1.6;">
+    <h2>Waarom Wellness Core Pure Rewards Kip Freeze-Dried perfect is voor je puppy</h2>
+    <p>Deze zachte puppy snacks zijn speciaal ontwikkeld voor jonge honden van 8 weken tot 12 maanden. De extra zachte textuur is ideaal voor melktanden en de gevoelige spijsvertering van puppy's. Net zoals we uitleggen in onze <a href="../hondensnacks-voor-puppy/" style="color: #E68161; text-decoration: underline;">complete gids voor puppy snacks</a>, is het belangrijk om snacks te kiezen die de hersenontwikkeling ondersteunen.</p>
+    
+    <p>Deze premium snacks bevatten essentiële voedingsstoffen zoals DHA voor gezonde hersenontwikkeling en zijn gemakkelijk verteerbaar. De kleine formaat maakt ze perfect voor training en beloning tijdens de cruciale socialisatiefase. Zoals beschreven in onze <a href="../blog/hondensnacks-voor-puppys-complete-gids/" style="color: #E68161; text-decoration: underline;">puppy voeding expert gids</a>, hebben jonge honden andere voedingsbehoeften dan volwassen honden.</p>
+    
+    <p>Voor de beste resultaten combineer je deze snacks met een gevarieerd dieet van <a href="../natuurlijke-hondensnacks/" style="color: #E68161; text-decoration: underline;">natuurlijke hondensnacks</a>. Ontdek meer over de voordelen van biologische voeding in ons artikel over <a href="../blog/waarom-biologische-snacks-beter-zijn/" style="color: #E68161; text-decoration: underline;">waarom biologische snacks beter zijn</a> voor je puppy's gezondheid en ontwikkeling.</p>
+</div>
+
+            
+            <!-- Related Products -->
+            <section class="related-products">
+                <h2>Gerelateerde producten</h2>
+                <div class="products-grid">
+                    
+        <div class="product-card">
+            <a href="yarrah-freezedried-treats-vis.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=400&h=300&fit=crop" alt="Yarrah Freeze-Dried Treats Vis" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Yarrah</div>
+                    <h3 class="product-name">Yarrah Freeze-Dried Treats Vis</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-text">5</span>
+                    </div>
+                    <div class="product-price">€13.39</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="zukes-mini-naturals-zalm-training-treats.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&h=300&fit=crop" alt="Zuke's Mini Naturals Zalm Training Treats" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Zuke's</div>
+                    <h3 class="product-name">Zuke's Mini Naturals Zalm Training Treats</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-text">4.9</span>
+                    </div>
+                    <div class="product-price">€9.95</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="green-petfood-freezedried-treats-zalm.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?w=400&h=300&fit=crop" alt="Green Petfood Freeze-Dried Treats Zalm" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Green Petfood</div>
+                    <h3 class="product-name">Green Petfood Freeze-Dried Treats Zalm</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-text">4.9</span>
+                    </div>
+                    <div class="product-price">€13.62</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="wellness-organic-training-rewards-kalkoen.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=400&h=300&fit=crop" alt="Wellness Organic Training Rewards Kalkoen" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Wellness</div>
+                    <h3 class="product-name">Wellness Organic Training Rewards Kalkoen</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-text">4.9</span>
+                    </div>
+                    <div class="product-price">€14.45</div>
+                </div>
+            </a>
+        </div>
+    
+                </div>
+            </section>
+            
+            <!-- Reviews Section -->
+            <section class="reviews-section">
+                <h2>Klantbeoordelingen</h2>
+                <div class="reviews-summary">
+                    <div class="rating-overview">
+                        <div class="rating-large">4.8</div>
+                        <div class="stars-large">★★★★☆</div>
+                        <div class="review-count">145 beoordelingen</div>
+                    </div>
+                </div>
+                
+                <div class="sample-reviews">
+                    
+        <div class="review-item">
+            <div class="review-header">
+                <span class="reviewer-name">Sandra M.</span>
+                <div class="review-rating">★★★★★</div>
+                <span class="review-date">2 weken geleden</span>
+            </div>
+            <p class="review-text">Mijn hond is er dol op! Gezonde ingrediënten en hij vindt ze heerlijk.</p>
+        </div>
+    
+        <div class="review-item">
+            <div class="review-header">
+                <span class="reviewer-name">Peter K.</span>
+                <div class="review-rating">★★★★</div>
+                <span class="review-date">1 maand geleden</span>
+            </div>
+            <p class="review-text">Goede kwaliteit snacks. Mijn hond reageert er goed op tijdens training.</p>
+        </div>
+    
+        <div class="review-item">
+            <div class="review-header">
+                <span class="reviewer-name">Lisa V.</span>
+                <div class="review-rating">★★★★★</div>
+                <span class="review-date">3 weken geleden</span>
+            </div>
+            <p class="review-text">Eindelijk snacks waar mijn gevoelige hond geen last van heeft. Aanrader!</p>
+        </div>
+    
+                </div>
+                
+                <div class="reviews-cta">
+                    <p>Meer reviews lezen? Bekijk alle beoordelingen op bol.com</p>
+                    <a href="https://www.bol.com/nl/nl/p/wellness-core-pure-rewards-kip/9200000087654328/#reviews" target="_blank" class="btn-secondary">
+                        Alle reviews bekijken
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+        <!-- Footer -->
+    <footer class="footer" style="background: #1f2937; color: white;">
+        <div class="container">
+            <div class="footer-content" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; padding: 3rem 0;">
+                <div>
+                    <h3 style="color: #e2e8f0; margin-bottom: 1rem;">Biologische hondensnacks</h3>
+                    <p style="margin-bottom: 1.5rem; color: #d1d5db;">De beste natuurlijke en biologische snacks voor jouw hond. Graanvrij, gezond en heerlijk.</p>
+                    
+                    <!-- Newsletter Signup -->
+                    <div style="background: #374151; padding: 1.5rem; border-radius: 8px; margin-bottom: 1.5rem;">
+                        <h4 style="margin-bottom: 1rem; font-size: 1rem;">Wekelijkse tips & aanbiedingen</h4>
+                        <form style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem;">
+                            <input type="email" placeholder="je@email.nl" required style="flex: 1; padding: 0.8rem; border: none; border-radius: 4px; background: white; color: #333;">
+                            <button type="submit" style="background: #2d3748; color: white; border: none; padding: 0.8rem 1.2rem; border-radius: 4px; cursor: pointer; font-weight: 600; white-space: nowrap;">Aanmelden</button>
+                        </form>
+                        <p style="font-size: 0.7rem; color: #9ca3af; margin: 0;">Geen spam, uitschrijven altijd mogelijk</p>
+                    </div>
+                    
+                    <!-- Social Media -->
+                    <div>
+                        <h4 style="margin-bottom: 1rem; font-size: 1rem;">Volg ons</h4>
+                        <div style="display: flex; gap: 1rem;">
+                            <a href="#" style="background: #4a5568; color: white; padding: 0.8rem; border-radius: 4px; text-decoration: none; display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; font-size: 1.2rem;">f</a>
+                            <a href="#" style="background: #718096; color: white; padding: 0.8rem; border-radius: 4px; text-decoration: none; display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; font-size: 1.2rem;">ig</a>
+                            <a href="#" style="background: #a0aec0; color: white; padding: 0.8rem; border-radius: 4px; text-decoration: none; display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; font-size: 1.2rem;">yt</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 style="margin-bottom: 1rem;">Populaire categorieën</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 0.5rem;"><a href="../natuurlijke-hondensnacks/" style="color: #d1d5db; text-decoration: none;">Natuurlijke snacks</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="../hondensnacks-voor-puppy/" style="color: #d1d5db; text-decoration: none;">Puppy snacks</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="../hondensnacks-voor-training/" style="color: #d1d5db; text-decoration: none;">Training snacks</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="../gezonde-kauwsnacks/" style="color: #d1d5db; text-decoration: none;">Kauwsnacks</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="../graanvrije-hondensnacks/" style="color: #d1d5db; text-decoration: none;">Graanvrije snacks</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 style="margin-bottom: 1rem;">Support & info</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 0.5rem;"><a href="../over-ons/" style="color: #d1d5db; text-decoration: none;">Over ons</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="../blog/" style="color: #d1d5db; text-decoration: none;">Blog & tips</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="../contact/" style="color: #d1d5db; text-decoration: none;">Contact</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="../veelgestelde-vragen/" style="color: #d1d5db; text-decoration: none;">FAQ</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="../beste-hondensnacks-2026/" style="color: #d1d5db; text-decoration: none;">Top 10 beste</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 style="margin-bottom: 1rem;">Vertrouwen & veiligheid</h3>
+                    
+                    <!-- Trust Badges -->
+                    <div style="margin-bottom: 1.5rem;">
+                        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem;">
+                            <span style="background: #4a5568; color: white; padding: 0.3rem 0.8rem; border-radius: 4px; font-size: 0.8rem;">Bol.com partner</span>
+                            <span style="background: #718096; color: white; padding: 0.3rem 0.8rem; border-radius: 4px; font-size: 0.8rem;">veilig betalen</span>
+                        </div>
+                        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                            <span style="background: #a0aec0; color: white; padding: 0.3rem 0.8rem; border-radius: 4px; font-size: 0.8rem;">SKAL bio</span>
+                            <span style="background: #2d3748; color: white; padding: 0.3rem 0.8rem; border-radius: 4px; font-size: 0.8rem;">4.8/5 reviews</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Legal Links -->
+                    <div>
+                        <h4 style="margin-bottom: 0.5rem; font-size: 0.9rem; color: #9ca3af;">Juridisch</h4>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="margin-bottom: 0.3rem;"><a href="../privacy-policy/" style="color: #9ca3af; text-decoration: none; font-size: 0.8rem;">Privacy policy</a></li>
+                            <li style="margin-bottom: 0.3rem;"><a href="../algemene-voorwaarden/" style="color: #9ca3af; text-decoration: none; font-size: 0.8rem;">Algemene voorwaarden</a></li>
+                            <li style="margin-bottom: 0.3rem;"><a href="../disclaimer/" style="color: #9ca3af; text-decoration: none; font-size: 0.8rem;">Disclaimer</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom" style="border-top: 1px solid #374151; padding: 1.5rem 0; text-align: center;">
+                <p style="margin: 0 0 1rem 0; color: #9ca3af; font-size: 0.8rem;">
+                    <strong>Disclaimer:</strong> De informatie op deze website is alleen bedoeld voor algemene doeleinden en vervangt geen professioneel veterinair advies. 
+                    Raadpleeg altijd je dierenarts voor specifieke voedings- en gezondheidsadvies voor je hond.
+                </p>
+                <p style="margin: 0; color: #9ca3af; font-size: 0.9rem;">&copy; 2026 Biologische hondensnacks. Alle rechten voorbehouden. | Gemaakt voor honden en hun baasjes</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../js/main.js"></script>
+    <script src="product-page.js"></script>
+</body>
+</html>

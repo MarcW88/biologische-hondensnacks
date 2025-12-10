@@ -1,0 +1,534 @@
+/* ========================================
+   BIOLOGISCHE HONDENSNACKS - DESIGN SYSTEM
+   Inspiré de DogChef
+   ======================================== */
+
+/* CSS Variables - PALETTE UNIFIÉE BIOLOGISCHE HONDENSNACKS */
+:root {
+  /* PALETTE PRINCIPALE (Orange + Neutres) */
+  --primary-orange: #E68161;    /* Orange principal - CTAs, prix, éléments importants */
+  --primary-orange-light: #f4a582; /* Orange clair - hover, backgrounds */
+  --primary-orange-dark: #d67347;  /* Orange foncé - active states */
+  
+  /* COULEURS NEUTRES (Gris sophistiqués) */
+  --neutral-dark: #2d3748;      /* Gris foncé - Textes principaux */
+  --neutral-medium: #4a5568;    /* Gris moyen - Textes secondaires */
+  --neutral-light: #64748b;     /* Gris clair - Textes tertiaires */
+  
+  /* COULEURS SYSTÈME (usage spécifique uniquement) */
+  --success: #22c55e;           /* Vert - Succès/validation uniquement */
+  --warning: #f59e0b;           /* Jaune - Avertissements uniquement */
+  --error: #dc3545;             /* Rouge - Erreurs/urgence uniquement */
+  
+  /* COULEURS DE BASE */
+  --white: #FFFFFF;
+  --gray-50: #f9fafb;
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-300: #d1d5db;
+  --gray-400: #9ca3af;
+  --gray-500: #6b7280;
+  --gray-600: #4b5563;
+  --gray-700: #374151;
+  --gray-800: #1f2937;
+  --gray-900: #111827;
+  
+  /* COULEURS DÉRIVÉES (générées automatiquement) */
+  --primary-50: #fef7f4;
+  --primary-100: #fdeee8;
+  --primary-500: #E68161;       /* Couleur principale */
+  --primary-600: #d67347;       /* Hover state */
+  --primary-700: #c5632e;       /* Active state */
+  
+  --secondary-50: #eff6ff;
+  --secondary-100: #dbeafe;
+  --secondary-500: #3b82f6;     /* Couleur secondaire */
+  --secondary-600: #2563eb;     /* Hover state */
+  --secondary-700: #1d4ed8;     /* Active state */
+  
+  /* Typography */
+  --font-primary: 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 600;
+  
+  --font-size-h1: 30px;
+  --font-size-h2: 24px;
+  --font-size-h3: 20px;
+  --font-size-body: 14px;
+  --font-size-small: 13px;
+  
+  /* Spacing */
+  --spacing-xs: 8px;
+  --spacing-sm: 16px;
+  --spacing-md: 24px;
+  --spacing-lg: 32px;
+  --spacing-xl: 48px;
+  
+  /* Layout */
+  --container-max-width: 1280px;
+  --border-radius: 8px;
+  --border-radius-lg: 12px;
+  
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.12);
+  --shadow-lg: 0 8px 24px rgba(0,0,0,0.16);
+}
+
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-body);
+  line-height: 1.6;
+  color: var(--text-dark);
+  background-color: var(--background-cream);
+}
+
+/* Typography */
+h1 {
+  font-size: var(--font-size-h1);
+  font-weight: var(--font-weight-bold);
+  line-height: 1.2;
+  margin-bottom: var(--spacing-md);
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-bold);
+  line-height: 1.3;
+  margin-bottom: var(--spacing-sm);
+}
+
+h3 {
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.4;
+  margin-bottom: var(--spacing-sm);
+}
+
+p {
+  margin-bottom: var(--spacing-sm);
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--primary-600);
+}
+
+/* Container */
+.container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 0 var(--spacing-sm);
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0 var(--spacing-md);
+  }
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: var(--border-radius);
+  font-weight: var(--font-weight-bold);
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  font-size: var(--font-size-body);
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: var(--white);
+}
+
+.btn-primary:hover {
+  background: var(--primary-600);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  color: var(--white);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+}
+
+.btn-secondary:hover {
+  background: var(--primary);
+  color: var(--white);
+}
+
+.btn-large {
+  padding: 16px 32px;
+  font-size: 16px;
+}
+
+/* Cards */
+.card {
+  background: var(--white);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-sm);
+  padding: var(--spacing-md);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.product-card {
+  background: var(--white);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-sm);
+  padding: var(--spacing-md);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  margin-bottom: var(--spacing-sm);
+}
+
+.product-card h3 {
+  margin-bottom: var(--spacing-xs);
+}
+
+.product-card .price {
+  font-size: 18px;
+  font-weight: var(--font-weight-bold);
+  color: var(--primary);
+  margin-bottom: var(--spacing-sm);
+}
+
+.product-card .rating {
+  margin-bottom: var(--spacing-sm);
+}
+
+/* Grid System */
+.grid {
+  display: grid;
+  gap: var(--spacing-md);
+}
+
+.grid-2 {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.grid-3 {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.grid-4 {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+/* Header */
+.header {
+  background: var(--white);
+  box-shadow: var(--shadow-sm);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-sm) 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: var(--font-weight-bold);
+  color: var(--primary);
+}
+
+.nav {
+  display: none;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: var(--spacing-md);
+  margin: 0;
+  padding: 0;
+}
+
+.nav a {
+  color: var(--neutral);
+  text-decoration: none;
+  font-weight: var(--font-weight-medium);
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: var(--primary);
+}
+
+.nav-shop {
+  background: var(--primary-orange) !important;
+  color: white !important;
+  padding: 8px 16px !important;
+  border-radius: 20px !important;
+  font-weight: var(--font-weight-bold) !important;
+  transition: all 0.3s ease !important;
+}
+
+.nav-shop:hover {
+  background: var(--primary-orange-dark) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 12px rgba(230, 129, 97, 0.3) !important;
+}
+
+@media (min-width: 768px) {
+  .nav {
+    display: block;
+  }
+}
+
+/* Mobile Menu */
+.mobile-menu-toggle {
+  display: block;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .mobile-menu-toggle {
+    display: none;
+  }
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, var(--primary-orange) 0%, #D87050 100%);
+  color: var(--white);
+  padding: var(--spacing-xl) 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: var(--spacing-sm);
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: var(--spacing-lg);
+  opacity: 0.9;
+}
+
+@media (min-width: 768px) {
+  .hero h1 {
+    font-size: 48px;
+  }
+}
+
+/* Sections */
+.section {
+  padding: var(--spacing-xl) 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+/* Footer */
+.footer {
+  background: var(--primary-dark);
+  color: var(--white);
+  padding: var(--spacing-xl) 0 var(--spacing-md);
+}
+
+.footer-content {
+  display: grid;
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-lg);
+}
+
+.footer h3 {
+  margin-bottom: var(--spacing-sm);
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer ul li {
+  margin-bottom: var(--spacing-xs);
+}
+
+.footer a {
+  color: #CCCCCC;
+}
+
+.footer a:hover {
+  color: var(--white);
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  padding-top: var(--spacing-sm);
+  text-align: center;
+  font-size: var(--font-size-small);
+  color: #CCCCCC;
+}
+
+@media (min-width: 768px) {
+  .footer-content {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Affiliate Disclaimer */
+.affiliate-disclaimer {
+  background: var(--gray-light);
+  padding: var(--spacing-sm);
+  border-radius: var(--border-radius);
+  margin: var(--spacing-md) 0;
+  border-left: 4px solid var(--primary-orange);
+}
+
+.affiliate-disclaimer p {
+  margin: 0;
+  font-size: var(--font-size-small);
+  color: #666;
+}
+
+/* Rating Stars */
+.rating {
+  display: flex;
+  gap: 2px;
+  justify-content: center;
+}
+
+.star {
+  color: #FFD700;
+  font-size: 16px;
+}
+
+.star.empty {
+  color: var(--gray-medium);
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  padding: var(--spacing-sm) 0;
+  font-size: var(--font-size-small);
+}
+
+.breadcrumb a {
+  color: #666;
+}
+
+.breadcrumb span {
+  margin: 0 8px;
+  color: #999;
+}
+
+/* Utility Classes */
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+.mb-sm { margin-bottom: var(--spacing-sm); }
+.mb-md { margin-bottom: var(--spacing-md); }
+.mb-lg { margin-bottom: var(--spacing-lg); }
+
+.mt-sm { margin-top: var(--spacing-sm); }
+.mt-md { margin-top: var(--spacing-md); }
+.mt-lg { margin-top: var(--spacing-lg); }
+
+.hidden { display: none; }
+
+/* Responsive Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Loading States */
+.loading {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 0.6s ease-out;
+}
+
+/* ========================================
+   CLASSES UTILITAIRES PALETTE UNIFIÉE
+   ======================================== */
+
+/* Couleurs de texte */
+.text-primary { color: var(--primary-orange) !important; }
+.text-neutral-dark { color: var(--neutral-dark) !important; }
+.text-neutral-medium { color: var(--neutral-medium) !important; }
+.text-neutral-light { color: var(--neutral-light) !important; }
+.text-success { color: var(--success) !important; }
+.text-warning { color: var(--warning) !important; }
+.text-error { color: var(--error) !important; }
+
+/* Couleurs de fond */
+.bg-primary { background-color: var(--primary-orange) !important; }
+.bg-primary-light { background-color: var(--primary-orange-light) !important; }
+.bg-success { background-color: var(--success) !important; }
+.bg-warning { background-color: var(--warning) !important; }
+.bg-error { background-color: var(--error) !important; }
+
+/* Couleurs de bordure */
+.border-primary { border-color: var(--primary-orange) !important; }
+.border-success { border-color: var(--success) !important; }
+.border-warning { border-color: var(--warning) !important; }
+.border-error { border-color: var(--error) !important; }
+
+/* Print Styles */
+@media print {
+  .header, .footer, .btn { display: none; }
+  body { background: white; color: black; }
+}
