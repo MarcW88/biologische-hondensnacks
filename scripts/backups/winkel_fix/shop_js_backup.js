@@ -1420,64 +1420,12 @@ function toggleView(view) {
 function renderProducts() {
     console.log('🎨 Rendering products...');
     const productsGrid = document.getElementById('productsGrid');
+    console.log('📋 Products grid found:', !!productsGrid);
     
     if (!productsGrid) {
         console.error('❌ Products grid element not found!');
         return;
     }
-    
-    const startIndex = (currentPage - 1) * productsPerPage;
-    const endIndex = startIndex + productsPerPage;
-    const productsToShow = filteredProducts.slice(0, endIndex);
-    
-    if (productsToShow.length === 0) {
-        console.warn('⚠️ No products to show!');
-        productsGrid.innerHTML = '<p>Geen producten gevonden.</p>';
-        return;
-    }
-    
-    productsGrid.innerHTML = productsToShow.map(product => `
-        <div class="product-card" data-product-id="${product.id}">
-            <img src="${product.image}" alt="${product.name}" class="product-image" loading="lazy">
-            
-            <div class="product-info">
-                <div class="product-brand">${product.brand}</div>
-                <h3 class="product-name">${product.name}</h3>
-                <p class="product-description">${product.description}</p>
-                
-                <div class="product-features">
-                    ${product.features.slice(0, 3).map(feature => `<span class="feature-tag">${feature}</span>`).join('')}
-                </div>
-                
-                <div class="product-rating">
-                    <span class="stars">${generateStars(product.rating)}</span>
-                    <span class="rating-text">${product.rating} (${product.reviews || 0} reviews)</span>
-                </div>
-                
-                <div class="product-price">
-                    <span class="price-current">€${product.price.toFixed(2)}</span>
-                    <span class="price-per-unit">${product.weight}</span>
-                </div>
-            </div>
-            
-            <div class="product-actions">
-                <div class="product-buttons">
-                    <a href="${product.url}" class="btn-secondary btn-details">
-                        👁️ Details bekijken
-                    </a>
-                    <a href="https://www.bol.com/nl/s/?searchtext=${encodeURIComponent(product.name)}" target="_blank" rel="noopener" class="btn-primary">
-                        🛒 Bestel bij bol.com
-                    </a>
-                </div>
-            </div>
-            
-            ${!product.inStock ? '<div class="out-of-stock">Tijdelijk uitverkocht</div>' : ''}
-        </div>
-    `).join('');
-    
-    // Update load more button
-    updateLoadMoreButton();
-}
     
     const startIndex = (currentPage - 1) * productsPerPage;
     const endIndex = startIndex + productsPerPage;
@@ -1783,10 +1731,15 @@ document.head.appendChild(style);
 document.addEventListener('DOMContentLoaded', function() {
     console.log('🚀 Shop initialization starting...');
     console.log('📦 Total products:', allProducts.length);
+    console.log('🔍 First product:', allProducts[0]);
     
-    // Initialize with real products
+    // Initialize with real products (already defined above)
     filteredProducts = [...allProducts];
     console.log('✅ Filtered products initialized:', filteredProducts.length);
+    
+    // Check if productsGrid exists
+    const productsGrid = document.getElementById('productsGrid');
+    console.log('📋 Products grid element:', productsGrid);
     
     // Render initial products
     renderProducts();
@@ -1801,11 +1754,23 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // Add event listeners for filter checkboxes
-    document.querySelectorAll('.filter-option input[type="checkbox"]').forEach(checkbox => {
+    
+    // DEBUG: Log filter initialization
+    console.log('🔧 Initializing filters...');
+    console.log('📋 Filter checkboxes found:', document.querySelectorAll('.filter-option input[type="checkbox"]').length);
+    
+    // Add event listeners for filter checkboxes with debug
+    document.querySelectorAll('.filter-option input[type="checkbox"]').forEach((checkbox, index) => {
+        console.log(`🔘 Filter ${index}:`, {
+            type: checkbox.getAttribute('data-filter-type'),
+            value: checkbox.getAttribute('data-filter-value')
+        });
+        
         checkbox.addEventListener('change', function() {
             const filterType = this.getAttribute('data-filter-type');
             const filterValue = this.getAttribute('data-filter-value');
+            
+            console.log('🎯 Filter changed:', { filterType, filterValue, checked: this.checked });
             
             if (this.checked) {
                 if (!activeFilters[filterType].includes(filterValue)) {
@@ -1815,38 +1780,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 activeFilters[filterType] = activeFilters[filterType].filter(v => v !== filterValue);
             }
             
+            console.log('📊 Active filters:', activeFilters);
             applyFilters();
-        });
-    });
-    
-    // Add event listener for price range
-    const priceRange = document.getElementById('priceRange');
-    if (priceRange) {
-        priceRange.addEventListener('input', function() {
-            updatePriceFilter(this.value);
-        });
-    }
-});
-    }
-    
-    
-    // Add event listeners for filter checkboxes
-    document.querySelectorAll('.filter-option input[type="checkbox"]').forEach(checkbox => {
-        checkbox.addEventListener('change', function() {
-            const filterType = this.getAttribute('data-filter-type');
-            const filterValue = this.getAttribute('data-filter-value');
-            
-            if (this.checked) {
-                if (!activeFilters[filterType].includes(filterValue)) {
-                    activeFilters[filterType].push(filterValue);
-                }
-            } else {
-                activeFilters[filterType] = activeFilters[filterType].filter(v => v !== filterValue);
-            }
-            
-            applyFilters();
-        });
-    });
         });
     });
     });
