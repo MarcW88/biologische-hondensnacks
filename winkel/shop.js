@@ -1754,11 +1754,23 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // Add event listeners for filter checkboxes
-    document.querySelectorAll('.filter-option input[type="checkbox"]').forEach(checkbox => {
+    
+    // DEBUG: Log filter initialization
+    console.log('🔧 Initializing filters...');
+    console.log('📋 Filter checkboxes found:', document.querySelectorAll('.filter-option input[type="checkbox"]').length);
+    
+    // Add event listeners for filter checkboxes with debug
+    document.querySelectorAll('.filter-option input[type="checkbox"]').forEach((checkbox, index) => {
+        console.log(`🔘 Filter ${index}:`, {
+            type: checkbox.getAttribute('data-filter-type'),
+            value: checkbox.getAttribute('data-filter-value')
+        });
+        
         checkbox.addEventListener('change', function() {
             const filterType = this.getAttribute('data-filter-type');
             const filterValue = this.getAttribute('data-filter-value');
+            
+            console.log('🎯 Filter changed:', { filterType, filterValue, checked: this.checked });
             
             if (this.checked) {
                 if (!activeFilters[filterType].includes(filterValue)) {
@@ -1768,8 +1780,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 activeFilters[filterType] = activeFilters[filterType].filter(v => v !== filterValue);
             }
             
+            console.log('📊 Active filters:', activeFilters);
             applyFilters();
         });
+    });
     });
     
     // Add event listener for price range
