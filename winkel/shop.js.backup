@@ -4,7 +4,7 @@
 
 // Product data (will be populated from the Excel catalog)
 let allProducts = [];
-let filteredProducts = [];
+let filteredProducts = [...allProducts];
 let currentPage = 1;
 const productsPerPage = 12;
 let activeFilters = {
