@@ -1209,7 +1209,7 @@ function applyFilters() {
         }
         
         // Brand filter
-        if (activeFilters.brands.length > 0 && !activeFilters.brands.includes(product.brand.toLowerCase().replace(/[^a-z0-9]/g, '-'))) {
+        if (activeFilters.brands.length > 0 && !activeFilters.brands.includes(product.brand)) {
             return false;
         }
         
@@ -1418,17 +1418,17 @@ function toggleView(view) {
 
 // Render products
 function renderProducts() {
+    console.log('🎨 Rendering products...');
     const productsGrid = document.getElementById('productsGrid');
+    console.log('📋 Products grid found:', !!productsGrid);
+    
     const startIndex = (currentPage - 1) * productsPerPage;
     const endIndex = startIndex + productsPerPage;
     const productsToShow = filteredProducts.slice(0, endIndex);
+    console.log('📊 Products to show:', productsToShow.length, 'from', filteredProducts.length, 'total');
     
     productsGrid.innerHTML = productsToShow.map(product => `
         <div class="product-card" data-product-id="${product.id}">
-            <div class="product-badges">
-                ${product.badges.map(badge => `<span class="product-badge badge-${badge}">${getBadgeLabel(badge)}</span>`).join('')}
-            </div>
-            
             <img src="${product.image}" alt="${product.name}" class="product-image" loading="lazy">
             
             <div class="product-info">
@@ -1437,37 +1437,32 @@ function renderProducts() {
                 <p class="product-description">${product.description}</p>
                 
                 <div class="product-features">
-                    ${product.features.slice(0, 3).map(feature => `<span class="feature-tag">${getFeatureIcon(feature)} ${getFilterLabel(feature)}</span>`).join('')}
+                    ${product.features.slice(0, 3).map(feature => `<span class="feature-tag">${feature}</span>`).join('')}
                 </div>
                 
                 <div class="product-rating">
                     <span class="stars">${generateStars(product.rating)}</span>
-                    <span class="rating-text">${product.rating} (${product.reviewCount})</span>
+                    <span class="rating-text">${product.rating} (${product.reviews || 0} reviews)</span>
                 </div>
                 
                 <div class="product-price">
                     <span class="price-current">€${product.price.toFixed(2)}</span>
-                    ${product.originalPrice ? `<span class="price-original">€${product.originalPrice.toFixed(2)}</span>` : ''}
-                    <span class="price-per-unit">${product.pricePerUnit}</span>
+                    <span class="price-per-unit">${product.weight}</span>
                 </div>
             </div>
             
             <div class="product-actions">
                 <div class="product-buttons">
-                    <a href="../produits/${generateSlug(product.name)}.html" class="btn-secondary btn-details">
+                    <a href="${product.url}" class="btn-secondary btn-details">
                         👁️ Details bekijken
                     </a>
-                    <a href="${product.bolUrl}" target="_blank" rel="noopener" class="btn-primary" onclick="trackClick('${product.id}', '${product.name}')">
+                    <a href="https://www.bol.com/nl/s/?searchtext=${encodeURIComponent(product.name)}" target="_blank" rel="noopener" class="btn-primary">
                         🛒 Bestel bij bol.com
                     </a>
                 </div>
-                <button class="btn-secondary" onclick="toggleWishlist(${product.id})" title="Toevoegen aan verlanglijst">
-                    ❤️
-                </button>
             </div>
             
             ${!product.inStock ? '<div class="out-of-stock">Tijdelijk uitverkocht</div>' : ''}
-            ${product.fastDelivery ? '<div class="fast-delivery">🚚 Morgen in huis</div>' : ''}
         </div>
     `).join('');
     
@@ -1719,8 +1714,17 @@ document.head.appendChild(style);
 
 // Initialize shop when DOM is loaded
 document.addEventListener('DOMContentLoaded', function() {
+    console.log('🚀 Shop initialization starting...');
+    console.log('📦 Total products:', allProducts.length);
+    console.log('🔍 First product:', allProducts[0]);
+    
     // Initialize with real products (already defined above)
     filteredProducts = [...allProducts];
+    console.log('✅ Filtered products initialized:', filteredProducts.length);
+    
+    // Check if productsGrid exists
+    const productsGrid = document.getElementById('productsGrid');
+    console.log('📋 Products grid element:', productsGrid);
     
     // Render initial products
     renderProducts();
