@@ -301,7 +301,7 @@ a:hover {
 }
 
 .nav-shop {
-  background: var(--primary) !important;
+  background: var(--primary-orange) !important;
   color: white !important;
   padding: 8px 16px !important;
   border-radius: 20px !important;
@@ -310,7 +310,7 @@ a:hover {
 }
 
 .nav-shop:hover {
-  background: var(--primary-600) !important;
+  background: var(--primary-orange-dark) !important;
   transform: translateY(-2px) !important;
   box-shadow: 0 4px 12px rgba(230, 129, 97, 0.3) !important;
 }
