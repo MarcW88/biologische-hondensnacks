@@ -200,9 +200,36 @@ def update_shop_js(products):
 """
         js_products = js_products.rstrip(',\n') + "\n];"
         
-        # Replace the allProducts array
-        pattern = r'const allProducts = \[.*?\];'
-        new_content = re.sub(pattern, js_products, content, flags=re.DOTALL)
+        # Replace the allProducts array - more flexible pattern
+        patterns = [
+            r'const allProducts = \[.*?\];',
+            r'// Product data from real catalog\s*const allProducts = \[.*?\];',
+            r'let allProducts = \[\];'
+        ]
+        
+        new_content = content
+        replaced = False
+        
+        for pattern in patterns:
+            if re.search(pattern, content, re.DOTALL):
+                new_content = re.sub(pattern, js_products, content, flags=re.DOTALL)
+                replaced = True
+                break
+        
+        if not replaced:
+            print("⚠️ Could not find allProducts array to replace")
+            # Try to insert after the comment
+            insert_point = content.find('// Product data from real catalog')
+            if insert_point != -1:
+                # Find the end of the current allProducts definition
+                end_point = content.find('];', insert_point)
+                if end_point != -1:
+                    new_content = content[:insert_point] + js_products + content[end_point + 2:]
+                    replaced = True
+        
+        if not replaced:
+            print("❌ Failed to replace allProducts array")
+            return False
         
         # Update filteredProducts
         new_content = re.sub(

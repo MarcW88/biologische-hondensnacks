@@ -2,8 +2,94 @@
    BIOLOGISCHE HONDENSNACKS - SHOP FUNCTIONALITY
    ======================================== */
 
-// Product data (will be populated from the Excel catalog)
-let allProducts = [];
+// Product data from real catalog
+const allProducts = [
+    {
+        id: 1,
+        name: "Chewpi Kauwstaaf (20+ kg) - Extra Large",
+        brand: "Chewpi",
+        category: "kauwsnacks",
+        price: 15.99,
+        image: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop",
+        description: "Chewpi Kauwstaaf (20+ kg) - Extra Large van Chewpi. 100% natuurlijk, Belgisch",
+        weight: "120 g",
+        age: ["alle leeftijden"],
+        size: ["groot"],
+        features: ["natuurlijk"],
+        inStock: true,
+        rating: 4.5,
+        reviews: 25,
+        url: "../produits/chewpi-kauwstaaf-20-kg-extra-large.html"
+    },
+    {
+        id: 2,
+        name: "Chewpi Kauwstaaf (<5 kg) - Small 4-pack",
+        brand: "Chewpi",
+        category: "kauwsnacks",
+        price: 15.99,
+        image: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop",
+        description: "Chewpi Kauwstaaf (<5 kg) - Small 4-pack van Chewpi. Voor kleine honden (<5kg)",
+        weight: "120 g",
+        age: ["alle leeftijden"],
+        size: ["klein"],
+        features: ["natuurlijk"],
+        inStock: true,
+        rating: 4.5,
+        reviews: 25,
+        url: "../produits/chewpi-kauwstaaf-5-kg-small-4-pack.html"
+    },
+    {
+        id: 3,
+        name: "Landman Eendfilet Gedroogd",
+        brand: "Landman Hoevelaken",
+        category: "natuurlijk",
+        price: 21.50,
+        image: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=400&h=300&fit=crop",
+        description: "Landman Eendfilet Gedroogd van Landman Hoevelaken. 100% natuurlijk, hypoallergeen",
+        weight: "400 g",
+        age: ["alle leeftijden"],
+        size: ["alle maten"],
+        features: ["natuurlijk", "hypoallergeen"],
+        inStock: true,
+        rating: 4.5,
+        reviews: 25,
+        url: "../produits/landman-eendfilet-gedroogd.html"
+    },
+    {
+        id: 4,
+        name: "HobbyFirst Canex Trainers Konijn",
+        brand: "Hobbyfirst",
+        category: "training",
+        price: 18.00,
+        image: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop",
+        description: "HobbyFirst Canex Trainers Konijn van Hobbyfirst. Pure Trainers, supplement",
+        weight: "250 g",
+        age: ["puppy"],
+        size: ["alle maten"],
+        features: ["premium"],
+        inStock: true,
+        rating: 4.5,
+        reviews: 25,
+        url: "../produits/hobbyfirst-canex-trainers-konijn.html"
+    },
+    {
+        id: 5,
+        name: "Softies Eend",
+        brand: "Bellobox",
+        category: "training",
+        price: 8.50,
+        image: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=400&h=300&fit=crop",
+        description: "Softies Eend van Bellobox. Ideaal voor training",
+        weight: "100 g",
+        age: ["alle leeftijden"],
+        size: ["alle maten"],
+        features: ["premium"],
+        inStock: true,
+        rating: 4.5,
+        reviews: 25,
+        url: "../produits/softies-eend.html"
+    }
+];
 let filteredProducts = [...allProducts];
 let currentPage = 1;
 const productsPerPage = 12;
