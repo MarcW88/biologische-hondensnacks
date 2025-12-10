@@ -10,7 +10,7 @@ const allProducts = [
         brand: "Chewpi",
         category: "kauwsnacks",
         price: 15.99,
-        image: "../images/Chewpi Kauwstaaf (20+ kg) - Extra Large.jpg",
+        image: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop",
         description: "Chewpi Kauwstaaf (20+ kg) - Extra Large van Chewpi. 100% natuurlijk, Belgisch",
         weight: "120 g",
         age: ["alle leeftijden"],

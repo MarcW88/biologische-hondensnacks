@@ -10,7 +10,7 @@ const allProducts = [
         brand: "Chewpi",
         category: "kauwsnacks",
         price: 15.99,
-        image: "../images/Chewpi Kauwstaaf (20+ kg) - Extra Large.jpg",
+        image: "../images/Chewpi Kauwstaaf (20+ kg) - Extra Large.jpg?v=1765399009",
         description: "Chewpi Kauwstaaf (20+ kg) - Extra Large van Chewpi. 100% natuurlijk, Belgisch",
         weight: "120 g",
         age: ["alle leeftijden"],
@@ -27,7 +27,7 @@ const allProducts = [
         brand: "Chewpi",
         category: "kauwsnacks",
         price: 15.99,
-        image: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop",
+        image: "../images/Chewpi Kauwstaaf (<5 kg) - Small 4-pack .jpg?v=1765399009",
         description: "Chewpi Kauwstaaf (<5 kg) - Small 4-pack van Chewpi. Voor kleine honden (<5kg)",
         weight: "120 g",
         age: ["alle leeftijden"],
@@ -44,7 +44,7 @@ const allProducts = [
         brand: "Chewpi",
         category: "kauwsnacks",
         price: 17.99,
-        image: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop",
+        image: "../images/Chewpi Kauwstaaf (5-10kg) - Medium 3-pack .jpg?v=1765399009",
         description: "Chewpi Kauwstaaf (5-10kg) - Medium 3-pack van Chewpi. Himalaya traditie",
         weight: "180 g",
         age: ["alle leeftijden"],
@@ -61,7 +61,7 @@ const allProducts = [
         brand: "Chewpi",
         category: "kauwsnacks",
         price: 19.99,
-        image: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop",
+        image: "../images/Chewpi Kauwstaaf (10-20kg) - Large 2-pack .jpg?v=1765399009",
         description: "Chewpi Kauwstaaf (10-20kg) - Large 2-pack van Chewpi. Voor middelgrote honden",
         weight: "240 g",
         age: ["alle leeftijden"],
@@ -78,7 +78,7 @@ const allProducts = [
         brand: "Landman Hoevelaken",
         category: "natuurlijk",
         price: 21.5,
-        image: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=400&h=300&fit=crop",
+        image: "../images/Landman Eendfilet Gedroogd .jpg?v=1765399009",
         description: "Landman Eendfilet Gedroogd van Landman Hoevelaken. 100% natuurlijk, hypoallergeen",
         weight: "400 g",
         age: ["alle leeftijden"],
@@ -95,7 +95,7 @@ const allProducts = [
         brand: "Hobbyfirst",
         category: "training",
         price: 18.0,
-        image: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop",
+        image: "../images/HobbyFirst Canex Trainers Konijn .jpg?v=1765399009",
         description: "HobbyFirst Canex Trainers Konijn van Hobbyfirst. Pure Trainers, supplement",
         weight: "250 g",
         age: ["puppy"],
@@ -112,7 +112,7 @@ const allProducts = [
         brand: "Bellobox",
         category: "natuurlijk",
         price: 8.5,
-        image: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=400&h=300&fit=crop",
+        image: "../images/Softies Eend .jpg?v=1765399009",
         description: "Softies Eend van Bellobox. Ideaal voor training",
         weight: "100 g",
         age: ["alle leeftijden"],
@@ -129,7 +129,7 @@ const allProducts = [
         brand: "BROK shop",
         category: "natuurlijk",
         price: 25.0,
-        image: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop",
+        image: "../images/BROK Verjaardag Snackpakket .jpg?v=1765399009",
         description: "BROK Verjaardag Snackpakket van BROK shop. Runder, Buffelhuid mix",
         weight: "300 g",
         age: ["alle leeftijden"],
@@ -146,7 +146,7 @@ const allProducts = [
         brand: "Petstyle Living",
         category: "natuurlijk",
         price: 25.95,
-        image: "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=400&h=300&fit=crop",
+        image: "../images/Petstyle Living Sticks Kip 100 stuks .jpg?v=1765399009",
         description: "Petstyle Living Sticks Kip 100 stuks van Petstyle Living. Best-seller (969 reviews)",
         weight: "n.b.",
         age: ["alle leeftijden"],
@@ -163,7 +163,7 @@ const allProducts = [
         brand: "Petstyle Living",
         category: "natuurlijk",
         price: 25.95,
-        image: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=400&h=300&fit=crop",
+        image: "../images/Petstyle Living Sticks Eend 100 stuks .jpg?v=1765399009",
         description: "Petstyle Living Sticks Eend 100 stuks van Petstyle Living. Populair (969 reviews)",
         weight: "n.b.",
         age: ["alle leeftijden"],
@@ -180,7 +180,7 @@ const allProducts = [
         brand: "Petstyle Living",
         category: "natuurlijk",
         price: 25.95,
-        image: "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=400&h=300&fit=crop",
+        image: "../images/Petstyle Living Sticks Kip & Rund 100 stuks .jpg?v=1765399009",
         description: "Petstyle Living Sticks Kip & Rund 100 stuks van Petstyle Living. Mixed (969 reviews)",
         weight: "n.b.",
         age: ["alle leeftijden"],
@@ -197,7 +197,7 @@ const allProducts = [
         brand: "Petstyle Living",
         category: "natuurlijk",
         price: 29.95,
-        image: "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=400&h=300&fit=crop",
+        image: "../images/Petstyle Living Kipfilet .jpg?v=1765399009",
         description: "Petstyle Living Kipfilet van Petstyle Living. Puur kipfilet",
         weight: "1000 g",
         age: ["alle leeftijden"],
@@ -333,7 +333,7 @@ const allProducts = [
         brand: "123diepvriesvoer.nl",
         category: "natuurlijk",
         price: 14.99,
-        image: "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=400&h=300&fit=crop",
+        image: "../images/Biologische-Hertenvlees-Strips .jpg?v=1765399009",
         description: "Gedroogde Kippenpoten 1kg van 123diepvriesvoer.nl. 100% natuurlijk, glutenvrij",
         weight: "1000 g",
         age: ["alle leeftijden"],
@@ -1420,12 +1420,64 @@ function toggleView(view) {
 function renderProducts() {
     console.log('🎨 Rendering products...');
     const productsGrid = document.getElementById('productsGrid');
-    console.log('📋 Products grid found:', !!productsGrid);
     
     if (!productsGrid) {
         console.error('❌ Products grid element not found!');
         return;
     }
+    
+    const startIndex = (currentPage - 1) * productsPerPage;
+    const endIndex = startIndex + productsPerPage;
+    const productsToShow = filteredProducts.slice(0, endIndex);
+    
+    if (productsToShow.length === 0) {
+        console.warn('⚠️ No products to show!');
+        productsGrid.innerHTML = '<p>Geen producten gevonden.</p>';
+        return;
+    }
+    
+    productsGrid.innerHTML = productsToShow.map(product => `
+        <div class="product-card" data-product-id="${product.id}">
+            <img src="${product.image}" alt="${product.name}" class="product-image" loading="lazy">
+            
+            <div class="product-info">
+                <div class="product-brand">${product.brand}</div>
+                <h3 class="product-name">${product.name}</h3>
+                <p class="product-description">${product.description}</p>
+                
+                <div class="product-features">
+                    ${product.features.slice(0, 3).map(feature => `<span class="feature-tag">${feature}</span>`).join('')}
+                </div>
+                
+                <div class="product-rating">
+                    <span class="stars">${generateStars(product.rating)}</span>
+                    <span class="rating-text">${product.rating} (${product.reviews || 0} reviews)</span>
+                </div>
+                
+                <div class="product-price">
+                    <span class="price-current">€${product.price.toFixed(2)}</span>
+                    <span class="price-per-unit">${product.weight}</span>
+                </div>
+            </div>
+            
+            <div class="product-actions">
+                <div class="product-buttons">
+                    <a href="${product.url}" class="btn-secondary btn-details">
+                        👁️ Details bekijken
+                    </a>
+                    <a href="https://www.bol.com/nl/s/?searchtext=${encodeURIComponent(product.name)}" target="_blank" rel="noopener" class="btn-primary">
+                        🛒 Bestel bij bol.com
+                    </a>
+                </div>
+            </div>
+            
+            ${!product.inStock ? '<div class="out-of-stock">Tijdelijk uitverkocht</div>' : ''}
+        </div>
+    `).join('');
+    
+    // Update load more button
+    updateLoadMoreButton();
+}
     
     const startIndex = (currentPage - 1) * productsPerPage;
     const endIndex = startIndex + productsPerPage;
@@ -1731,15 +1783,10 @@ document.head.appendChild(style);
 document.addEventListener('DOMContentLoaded', function() {
     console.log('🚀 Shop initialization starting...');
     console.log('📦 Total products:', allProducts.length);
-    console.log('🔍 First product:', allProducts[0]);
     
-    // Initialize with real products (already defined above)
+    // Initialize with real products
     filteredProducts = [...allProducts];
     console.log('✅ Filtered products initialized:', filteredProducts.length);
-    
-    // Check if productsGrid exists
-    const productsGrid = document.getElementById('productsGrid');
-    console.log('📋 Products grid element:', productsGrid);
     
     // Render initial products
     renderProducts();
@@ -1770,6 +1817,38 @@ document.addEventListener('DOMContentLoaded', function() {
             
             applyFilters();
         });
+    });
+    
+    // Add event listener for price range
+    const priceRange = document.getElementById('priceRange');
+    if (priceRange) {
+        priceRange.addEventListener('input', function() {
+            updatePriceFilter(this.value);
+        });
+    }
+});
+    }
+    
+    
+    // Add event listeners for filter checkboxes
+    document.querySelectorAll('.filter-option input[type="checkbox"]').forEach(checkbox => {
+        checkbox.addEventListener('change', function() {
+            const filterType = this.getAttribute('data-filter-type');
+            const filterValue = this.getAttribute('data-filter-value');
+            
+            if (this.checked) {
+                if (!activeFilters[filterType].includes(filterValue)) {
+                    activeFilters[filterType].push(filterValue);
+                }
+            } else {
+                activeFilters[filterType] = activeFilters[filterType].filter(v => v !== filterValue);
+            }
+            
+            applyFilters();
+        });
+    });
+        });
+    });
     });
     
     // Add event listener for price range
