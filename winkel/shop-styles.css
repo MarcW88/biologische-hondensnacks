@@ -304,9 +304,21 @@
 /* Products Grid */
 .products-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: var(--spacing-md);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
     margin-bottom: var(--spacing-xl);
+}
+
+@media (max-width: 1024px) {
+    .products-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 640px) {
+    .products-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 .products-grid.list-view {
