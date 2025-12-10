@@ -19,10 +19,150 @@
     <!-- Styles -->
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="product-page.css">
+    
+    <style>
+    /* Enhanced product page styles */
+    .price-section {
+        background: linear-gradient(135deg, #E68161 0%, #d67347 100%);
+        color: white;
+        padding: 1.5rem;
+        border-radius: 12px;
+        margin-bottom: 2rem;
+        box-shadow: 0 4px 15px rgba(230, 129, 97, 0.3);
+    }
+    
+    .price-main {
+        display: flex;
+        align-items: baseline;
+        gap: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .price-current {
+        font-size: 2.5rem;
+        font-weight: 800;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+    
+    .price-per-unit {
+        font-size: 1.1rem;
+        opacity: 0.9;
+        font-weight: 500;
+    }
+    
+    .price-highlight {
+        background: rgba(255,255,255,0.2);
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        font-size: 0.9rem;
+        font-weight: 600;
+        margin-top: 0.5rem;
+        display: inline-block;
+    }
+    
+    .specs-table {
+        display: grid;
+        gap: 0.75rem;
+        margin-bottom: 2rem;
+    }
+    
+    .spec-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        background: #f8fafc;
+        border-radius: 8px;
+        border-left: 4px solid #E68161;
+    }
+    
+    .benefits-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 0.5rem;
+        list-style: none;
+        padding: 0;
+        margin: 1rem 0;
+    }
+    
+    .benefits-list li {
+        padding: 0.75rem;
+        background: #f0f9ff;
+        border-radius: 8px;
+        border-left: 3px solid #0ea5e9;
+        font-weight: 500;
+    }
+    
+    .trust-badges {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+    
+    .trust-item {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 0.75rem;
+        background: #f8fafc;
+        border-radius: 8px;
+        font-weight: 500;
+    }
+    
+    .related-products .products-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1.5rem;
+        margin-top: 1.5rem;
+    }
+    
+    .related-products .product-card {
+        background: white;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        transition: all 0.3s ease;
+    }
+    
+    .related-products .product-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    }
+    
+    .related-products .product-image {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+    
+    .related-products .product-info {
+        padding: 1rem;
+    }
+    
+    .related-products .product-brand {
+        font-size: 0.875rem;
+        color: #E68161;
+        font-weight: 600;
+        margin-bottom: 0.25rem;
+    }
+    
+    .related-products .product-name {
+        font-size: 0.95rem;
+        font-weight: 600;
+        color: #1f2937;
+        margin: 0 0 0.5rem 0;
+        line-height: 1.3;
+    }
+    
+    .related-products .product-price {
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: #E68161;
+    }
+    </style>
 </head>
 <body>
-    <!-- Header -->
-        <header class="header">
+    <header class="header">
         <div class="container">
             <div class="header-content">
                 <div class="logo">
@@ -64,31 +204,41 @@
                 <div class="price-section">
                     <div class="price-main">
                         <span class="price-current">€10,71</span>
+                        <span class="price-per-unit">410 g</span>
                     </div>
-                    <div class="price-per-unit">410 g</div>
+                    <div class="price-highlight">
+                        ⭐ Premium kwaliteit voor je hond
+                    </div>
                 </div>
                 
                 <div class="product-description">
-                    <h3>Product details</h3>
+                    <h3>Voordelen</h3>
+                    <ul class="benefits-list">
+                        <li>🌱 Duurzaam geproduceerd</li><li>🦷 Ondersteunt tandgezondheid</li><li>🧠 Mentale stimulatie</li><li>🚫 Geen kunstmatige toevoegingen</li><li>🌿 100% natuurlijke ingrediënten</li><li>💪 Versterkt kauwspieren</li>
+                    </ul>
+                </div>
+                
+                <div class="product-description">
+                    <h3>Product specificaties</h3>
                     <div class="specs-table">
                         <div class="spec-row">
-                            <span class="spec-label">Gewicht:</span>
+                            <span class="spec-label">Gewicht</span>
                             <span class="spec-value">410 g</span>
                         </div>
                         <div class="spec-row">
-                            <span class="spec-label">Aantal:</span>
+                            <span class="spec-label">Aantal stuks</span>
                             <span class="spec-value">1</span>
                         </div>
                         <div class="spec-row">
-                            <span class="spec-label">Doelgroep:</span>
+                            <span class="spec-label">Doelgroep</span>
                             <span class="spec-value">Elke levensfase</span>
                         </div>
                         <div class="spec-row">
-                            <span class="spec-label">Type:</span>
+                            <span class="spec-label">Type snack</span>
                             <span class="spec-value">Buffelhoorn</span>
                         </div>
                         <div class="spec-row">
-                            <span class="spec-label">Bijzonderheden:</span>
+                            <span class="spec-label">Bijzonderheden</span>
                             <span class="spec-value">Stevige, langdurig</span>
                         </div>
                     </div>
@@ -96,22 +246,26 @@
                 
                 <div class="purchase-section">
                     <div class="stock-info">
-                        <span class="in-stock">✓ Op voorraad</span>
-                        <span class="fast-delivery">🚚 Snelle levering</span>
+                        <span class="in-stock">✓ Beschikbaar bij partners</span>
+                        <span class="fast-delivery">🚚 Snelle levering mogelijk</span>
                     </div>
                     <div class="purchase-actions">
                         <a href="https://www.bol.com/nl/s/?searchtext=Flamingo+Buffelhoorn+L+400g" target="_blank" class="btn-primary btn-large">
-                            🛒 Koop bij Bol.com
+                            🛒 Bekijk bij Bol.com
                         </a>
                     </div>
                     <div class="trust-badges">
                         <div class="trust-item">
                             <span>🔒</span>
-                            <span>Veilig betalen</span>
+                            <span>Veilig betalen bij onze partners</span>
                         </div>
                         <div class="trust-item">
-                            <span>📦</span>
-                            <span>Gratis verzending vanaf €20</span>
+                            <span>⭐</span>
+                            <span>Beoordeeld door hondenliefhebbers</span>
+                        </div>
+                        <div class="trust-item">
+                            <span>🏆</span>
+                            <span>Premium kwaliteit gegarandeerd</span>
                         </div>
                     </div>
                 </div>
@@ -119,13 +273,11 @@
         </div>
 
         <!-- Product Description -->
-        <div class="product-description-extended" style="background: #f8fafc; padding: 2rem; margin: 2rem 0; border-radius: 8px; line-height: 1.6;">
+        <div class="product-description-extended" style="background: #f8fafc; padding: 2rem; margin: 2rem 0; border-radius: 12px; line-height: 1.6;">
             <h2>Waarom kiezen voor Flamingo Buffelhoorn L 400g?</h2>
-            <p>Deze premium buffelhoorn van Flamingo is speciaal ontwikkeld voor honden die het beste verdienen. Stevige, langdurig maken dit product tot een uitstekende keuze voor je trouwe viervoeter.</p>
+            <p>Puur natuur voor je hond! Deze buffelhoorn van Flamingo bevatten alleen natuurlijke ingrediënten. Met 410 g aan gezonde voeding, perfect voor elke levensfase. Stevige, langdurig garanderen een product zonder kunstmatige toevoegingen.</p>
             
-            <p>Met een gewicht van 410 g en geschikt voor elke levensfase, biedt dit product de perfecte balans tussen smaak en voeding. Zoals we uitleggen in onze <a href="../natuurlijke-hondensnacks/" style="color: #E68161; text-decoration: underline;">natuurlijke hondensnacks gids</a>, is kwaliteit essentieel voor je hond's gezondheid.</p>
-            
-            <p>Voor meer informatie over de beste hondensnacks en expert aanbevelingen, bekijk onze <a href="../top-10-beste-hondensnacks-van-2026/" style="color: #E68161; text-decoration: underline;">top 10 beste hondensnacks van 2026</a> en ontdek waarom natuurlijke ingrediënten zo belangrijk zijn in ons artikel over <a href="../biologische-voeding/" style="color: #E68161; text-decoration: underline;">biologische voeding</a>.</p>
+            <p>Voor meer informatie over de beste hondensnacks en expert aanbevelingen, bekijk onze <a href="../beste-hondensnacks-2026/" style="color: #E68161; text-decoration: underline;">top 10 beste hondensnacks van 2026</a> en ontdek waarom natuurlijke ingrediënten zo belangrijk zijn in ons artikel over <a href="../natuurlijke-hondensnacks/" style="color: #E68161; text-decoration: underline;">natuurlijke hondensnacks</a>.</p>
         </div>
 
         <!-- Related Products -->
@@ -133,12 +285,44 @@
             <h2>Gerelateerde producten</h2>
             <div class="products-grid">
                 <div class="product-card">
-                    <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop" alt="Andere snack">
-                    <div class="product-info">
-                        <h3>Andere premium snacks</h3>
-                        <p>Ontdek meer natuurlijke snacks</p>
-                        <a href="../winkel/" class="btn btn-secondary">Bekijk alle producten</a>
-                    </div>
+                    <a href="chewpi-kauwstaaf-20-kg-extra-large.html" class="product-link">
+                        <img src="../images/Chewpi Kauwstaaf (20+ kg) - Extra Large.jpg" alt="Chewpi Kauwstaaf (20+ kg) - Extra Large" class="product-image">
+                        <div class="product-info">
+                            <div class="product-brand">Chewpi</div>
+                            <h3 class="product-name">Chewpi Kauwstaaf (20+ kg) - Extra Large</h3>
+                            <div class="product-price">€15,99</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="chewpi-kauwstaaf-5-kg-small-4-pack.html" class="product-link">
+                        <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=200&h=150&fit=crop" alt="Chewpi Kauwstaaf (<5 kg) - Small 4-pack" class="product-image">
+                        <div class="product-info">
+                            <div class="product-brand">Chewpi</div>
+                            <h3 class="product-name">Chewpi Kauwstaaf (<5 kg) - Small 4-pack</h3>
+                            <div class="product-price">€15,99</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="chewpi-kauwstaaf-5-10kg-medium-3-pack.html" class="product-link">
+                        <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=200&h=150&fit=crop" alt="Chewpi Kauwstaaf (5-10kg) - Medium 3-pack" class="product-image">
+                        <div class="product-info">
+                            <div class="product-brand">Chewpi</div>
+                            <h3 class="product-name">Chewpi Kauwstaaf (5-10kg) - Medium 3-pack</h3>
+                            <div class="product-price">€17,99</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="chewpi-kauwstaaf-10-20kg-large-2-pack.html" class="product-link">
+                        <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=200&h=150&fit=crop" alt="Chewpi Kauwstaaf (10-20kg) - Large 2-pack" class="product-image">
+                        <div class="product-info">
+                            <div class="product-brand">Chewpi</div>
+                            <h3 class="product-name">Chewpi Kauwstaaf (10-20kg) - Large 2-pack</h3>
+                            <div class="product-price">€19,99</div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </section>
