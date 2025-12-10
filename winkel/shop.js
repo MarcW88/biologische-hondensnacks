@@ -1157,121 +1157,7 @@ let activeFilters = {
     maxPrice: 50
 };
 
-// Sample product data (to be replaced with actual catalog data)
-const sampleProducts = [
-    {
-        id: 1,
-        name: "Yarrah Biologische Kip & Rund Trainingssnacks",
-        brand: "Yarrah",
-        price: 8.95,
-        originalPrice: null,
-        pricePerUnit: "€4.48 per 100g",
-        image: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop",
-        rating: 4.8,
-        reviewCount: 156,
-        description: "100% biologische trainingssnacks met kip en rund. Perfect voor training en beloning.",
-        category: "training",
-        age: ["puppy", "adult"],
-        size: ["small", "medium", "large"],
-        features: ["biologisch", "natuurlijk", "graanvrij"],
-        badges: ["bestseller", "bio"],
-        bolUrl: "https://www.bol.com/nl/p/yarrah-biologische-trainingssnacks/123456789/",
-        inStock: true,
-        fastDelivery: true
-    },
-    {
-        id: 2,
-        name: "Lily's Kitchen Puppy Training Treats",
-        brand: "Lily's Kitchen",
-        price: 6.49,
-        originalPrice: 7.99,
-        pricePerUnit: "€6.49 per 100g",
-        image: "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=400&h=300&fit=crop",
-        rating: 4.6,
-        reviewCount: 89,
-        description: "Natuurlijke puppy trainingssnacks met kip en zoete aardappel.",
-        category: "puppy",
-        age: ["puppy"],
-        size: ["small", "medium"],
-        features: ["natuurlijk", "graanvrij"],
-        badges: ["new", "sale"],
-        bolUrl: "https://www.bol.com/nl/p/lilys-kitchen-puppy-treats/123456790/",
-        inStock: true,
-        fastDelivery: true
-    },
-    {
-        id: 3,
-        name: "Green Petfood Dental Care Sticks",
-        brand: "Green Petfood",
-        price: 12.95,
-        originalPrice: null,
-        pricePerUnit: "€2.59 per stuk",
-        image: "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=400&h=300&fit=crop",
-        rating: 4.7,
-        reviewCount: 234,
-        description: "Duurzame kauwsticks voor gezonde tanden en tandvlees. Met insectenproteïne.",
-        category: "dental",
-        age: ["adult", "senior"],
-        size: ["medium", "large"],
-        features: ["natuurlijk", "duurzaam"],
-        badges: ["bio"],
-        bolUrl: "https://www.bol.com/nl/p/green-petfood-dental-sticks/123456791/",
-        inStock: true,
-        fastDelivery: false
-    },
-    {
-        id: 4,
-        name: "Zuke's Mini Naturals Zalm Training Treats",
-        brand: "Zuke's",
-        price: 9.95,
-        originalPrice: null,
-        pricePerUnit: "€9.95 per 170g",
-        image: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=400&h=300&fit=crop",
-        rating: 4.9,
-        reviewCount: 312,
-        description: "Mini trainingssnacks met echte zalm. Ideaal voor frequente beloningen.",
-        category: "training",
-        age: ["puppy", "adult"],
-        size: ["small", "medium"],
-        features: ["natuurlijk", "glutenvrij"],
-        badges: ["bestseller"],
-        bolUrl: "https://www.bol.com/nl/p/zukes-mini-naturals-zalm/123456792/",
-        inStock: false,
-        fastDelivery: false
-    }
-];
-
-// Initialize shop
-document.addEventListener('DOMContentLoaded', async function() {
-    console.log('🛍️ Initialisation de la boutique...');
-    
-    try {
-        // Charger les produits depuis le catalogue
-        const response = await fetch('products-catalog.json');
-        allProducts = await response.json();
-        
-        console.log(`✅ ${allProducts.length} produits chargés depuis le catalogue`);
-        
-        // Enrichir les données
-        allProducts = allProducts.map(product => ({
-            ...product,
-            searchTerms: generateSearchTerms(product)
-        }));
-        
-    } catch (error) {
-        console.error('Erreur chargement catalogue:', error);
-        console.log('📝 Utilisation des données de démonstration');
-        allProducts = [...sampleProducts];
-    }
-    
-    filteredProducts = [...allProducts];
-    renderProducts();
-    updateResultsCount();
-    setupEventListeners();
-    
-    // Mettre à jour les compteurs de filtres
-    updateFilterCounts();
-});
+// Products are already defined above in allProducts array
 
 // Setup event listeners
 function setupEventListeners() {
@@ -1833,8 +1719,7 @@ document.head.appendChild(style);
 
 // Initialize shop when DOM is loaded
 document.addEventListener('DOMContentLoaded', function() {
-    // Initialize with sample products
-    allProducts = sampleProducts;
+    // Initialize with real products (already defined above)
     filteredProducts = [...allProducts];
     
     // Render initial products
