@@ -956,24 +956,41 @@
         function selectOption(questionNum, value) {
             quizAnswers[questionNum] = value;
             
-            // Update progress
-            updateProgress(questionNum);
+            // Visual feedback for selected option
+            const currentOptions = document.querySelectorAll(`#question-${questionNum} .option`);
+            currentOptions.forEach(btn => {
+                btn.style.borderColor = '#e5e7eb';
+                btn.style.background = 'white';
+                btn.classList.remove('selected');
+            });
             
-            // Show next question or results
-            if (questionNum < 3) {
-                showNextQuestion(questionNum + 1);
-            } else {
-                showResults();
+            // Highlight selected option
+            const selectedBtn = document.querySelector(`#question-${questionNum} .option[data-value="${value}"]`);
+            if (selectedBtn) {
+                selectedBtn.style.borderColor = '#E68161';
+                selectedBtn.style.background = '#fef7f0';
+                selectedBtn.classList.add('selected');
             }
+            
+            // Small delay for visual feedback, then proceed
+            setTimeout(() => {
+                if (questionNum < 3) {
+                    showNextQuestion(questionNum + 1);
+                } else {
+                    showResults();
+                }
+            }, 300);
         }
         
         function updateProgress(questionNum) {
             const progressFill = document.querySelector('.progress-fill');
             const progressText = document.querySelector('.quiz-progress span');
             
-            const percentage = (questionNum / 3) * 100;
-            progressFill.style.width = percentage + '%';
-            progressText.textContent = `Vraag ${questionNum} van 3`;
+            if (progressFill && progressText) {
+                const percentage = (questionNum / 3) * 100;
+                progressFill.style.width = percentage + '%';
+                progressText.textContent = `Vraag ${questionNum} van 3`;
+            }
         }
         
         function showNextQuestion(questionNum) {
@@ -985,6 +1002,9 @@
             if (nextQuestion) {
                 nextQuestion.style.display = 'block';
                 currentQuestion = questionNum;
+                
+                // Update progress
+                updateProgress(questionNum);
             }
         }
         

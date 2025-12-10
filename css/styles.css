@@ -3,15 +3,21 @@
    Inspiré de DogChef
    ======================================== */
 
-/* CSS Variables - CHARTE GRAPHIQUE COHÉRENTE */
+/* CSS Variables - PALETTE UNIFIÉE BIOLOGISCHE HONDENSNACKS */
 :root {
-  /* PALETTE PRINCIPALE (3 couleurs max) */
-  --primary: #E68161;           /* Orange - CTAs, prix, éléments importants */
-  --secondary: #3b82f6;         /* Bleu - Badges informatifs, accents */
-  --neutral: #2d3748;           /* Gris foncé - Textes, bordures */
+  /* PALETTE PRINCIPALE (Orange + Neutres) */
+  --primary-orange: #E68161;    /* Orange principal - CTAs, prix, éléments importants */
+  --primary-orange-light: #f4a582; /* Orange clair - hover, backgrounds */
+  --primary-orange-dark: #d67347;  /* Orange foncé - active states */
+  
+  /* COULEURS NEUTRES (Gris sophistiqués) */
+  --neutral-dark: #2d3748;      /* Gris foncé - Textes principaux */
+  --neutral-medium: #4a5568;    /* Gris moyen - Textes secondaires */
+  --neutral-light: #64748b;     /* Gris clair - Textes tertiaires */
   
   /* COULEURS SYSTÈME (usage spécifique uniquement) */
   --success: #22c55e;           /* Vert - Succès/validation uniquement */
+  --warning: #f59e0b;           /* Jaune - Avertissements uniquement */
   --error: #dc3545;             /* Rouge - Erreurs/urgence uniquement */
   
   /* COULEURS DE BASE */
@@ -494,6 +500,32 @@ img {
 .fade-in {
   animation: fadeIn 0.6s ease-out;
 }
+
+/* ========================================
+   CLASSES UTILITAIRES PALETTE UNIFIÉE
+   ======================================== */
+
+/* Couleurs de texte */
+.text-primary { color: var(--primary-orange) !important; }
+.text-neutral-dark { color: var(--neutral-dark) !important; }
+.text-neutral-medium { color: var(--neutral-medium) !important; }
+.text-neutral-light { color: var(--neutral-light) !important; }
+.text-success { color: var(--success) !important; }
+.text-warning { color: var(--warning) !important; }
+.text-error { color: var(--error) !important; }
+
+/* Couleurs de fond */
+.bg-primary { background-color: var(--primary-orange) !important; }
+.bg-primary-light { background-color: var(--primary-orange-light) !important; }
+.bg-success { background-color: var(--success) !important; }
+.bg-warning { background-color: var(--warning) !important; }
+.bg-error { background-color: var(--error) !important; }
+
+/* Couleurs de bordure */
+.border-primary { border-color: var(--primary-orange) !important; }
+.border-success { border-color: var(--success) !important; }
+.border-warning { border-color: var(--warning) !important; }
+.border-error { border-color: var(--error) !important; }
 
 /* Print Styles */
 @media print {
