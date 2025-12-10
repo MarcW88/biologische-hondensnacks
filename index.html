@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="nl-NL">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biologische Hondensnacks | 100% Natuurlijke & Gezonde Snacks voor Honden</title>
-    <meta name="description" content="Ontdek de beste biologische hondensnacks van Nederland. Natuurlijk, graanvrij en gezond. Vergelijk alle producten en vind de perfecte snack voor jouw hond. Gratis verzending vanaf €25.">
+    <meta name="description" content="Ontdek de beste biologische hondensnacks van Nederland. Natuurlijk, graanvrij en gezond. Vergelijk alle producten en vind de perfecte snack voor jouw hond.">
     <meta name="keywords" content="biologische hondensnacks, natuurlijke hondensnacks, gezonde hondensnacks, graanvrije hondensnacks, beste hondensnacks, hondensnacks voor training">
     
     <!-- Open Graph -->
@@ -14,7 +14,10 @@
     <meta property="og:url" content="https://biologische-hondensnacks.nl">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐕</text></svg>">
+    
+    <!-- Hreflang -->
+    <link rel="alternate" hreflang="nl-NL" href="https://biologische-hondensnacks.nl/">
     
     <!-- Preconnect to external domains -->
     <link rel="preconnect" href="https://www.bol.com">
@@ -45,7 +48,7 @@
         <div class="container">
             <div class="header-content">
                 <div class="logo">
-                    <a href="/">🐕 Biologische Hondensnacks</a>
+                    <a href="/">Biologische Hondensnacks</a>
                 </div>
                 
                 <nav class="nav">
@@ -54,9 +57,9 @@
                         <li><a href="/natuurlijke-hondensnacks/">Natuurlijke Snacks</a></li>
                         <li><a href="/beste-hondensnacks-2026/">Top 10 Beste</a></li>
                         <li><a href="/hondensnacks-voor-puppy/">Puppy Snacks</a></li>
-                        <li><a href="/winkel/" class="nav-shop">🛍️ Winkel</a></li>
                         <li><a href="/blog/">Blog</a></li>
                         <li><a href="/over-ons/">Over Ons</a></li>
+                        <li><a href="/winkel/" class="nav-shop">Winkel</a></li>
                     </ul>
                 </nav>
                 
@@ -68,14 +71,14 @@
     <!-- Hero Section -->
     <section class="hero" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1583337130417-3346a1be7dee?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80') center/cover; color: white; padding: 80px 0;">
         <div class="container">
-            <div class="hero-content" style="text-align: center; max-width: 800px; margin: 0 auto;">
+            <div class="hero-content" style="text-align: left; max-width: 800px; margin: 0;">
                 <h1 style="font-size: 3rem; margin-bottom: 1rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">
-                    Biologische Hondensnacks - De Beste Natuurlijke Snacks voor Jouw Hond
+                    Biologische hondensnacks de beste natuurlijke snacks voor jouw hond
                 </h1>
                 <p style="font-size: 1.3rem; margin-bottom: 1.5rem; text-shadow: 1px 1px 2px rgba(0,0,0,0.5);">Meer dan 10.000 hondenbaasjes vertrouwen op onze <strong>natuurlijke hondensnacks</strong>. Perfect voor training, beloning en gezondheid. Ontdek waarom onze <strong>biologische hondensnacks</strong> de favoriet zijn van zowel kleine als grote honden.</p>
                 
                 <!-- Trust Badges Reorganized -->
-                <div class="trust-badges" style="display: flex; justify-content: center; gap: 1.5rem; margin-bottom: 2rem; flex-wrap: wrap;">
+                <div class="trust-badges" style="display: flex; justify-content: flex-start; gap: 1.5rem; margin-bottom: 2rem; flex-wrap: wrap;">
                     <div class="trust-badge" style="background: rgba(255,255,255,0.95); color: #2d3748; padding: 0.75rem 1.25rem; border-radius: 12px; font-size: 0.95rem; font-weight: 600; border: 2px solid #E68161; display: flex; align-items: center; gap: 0.5rem;">
                         <span class="check" style="color: #22c55e; font-weight: bold;">✓</span>
                         100% Natuurlijke Ingrediënten
@@ -83,10 +86,6 @@
                     <div class="trust-badge" style="background: rgba(255,255,255,0.95); color: #2d3748; padding: 0.75rem 1.25rem; border-radius: 12px; font-size: 0.95rem; font-weight: 600; border: 2px solid #E68161; display: flex; align-items: center; gap: 0.5rem;">
                         <span class="stars" style="color: #FFD700; font-size: 1.1em;">★★★★★</span>
                         4.85/5 (1.200+ reviews)
-                    </div>
-                    <div class="trust-badge" style="background: rgba(255,255,255,0.95); color: #2d3748; padding: 0.75rem 1.25rem; border-radius: 12px; font-size: 0.95rem; font-weight: 600; border: 2px solid #E68161; display: flex; align-items: center; gap: 0.5rem;">
-                        <span class="shipping" style="color: #E68161; font-weight: bold;">→</span>
-                        Gratis verzending vanaf €25
                     </div>
                 </div>
                 
@@ -842,8 +841,11 @@
             document.getElementById(`question-${questionNum - 1}`).style.display = 'none';
             
             // Show next question
-            document.getElementById(`question-${questionNum}`).style.display = 'block';
-            currentQuestion = questionNum;
+            const nextQuestion = document.getElementById(`question-${questionNum}`);
+            if (nextQuestion) {
+                nextQuestion.style.display = 'block';
+                currentQuestion = questionNum;
+            }
         }
         
         function showResults() {
