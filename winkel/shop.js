@@ -690,3 +690,25 @@ style.textContent = `
     }
 `;
 document.head.appendChild(style);
+
+// Initialize shop when DOM is loaded
+document.addEventListener('DOMContentLoaded', function() {
+    // Initialize with sample products
+    allProducts = sampleProducts;
+    filteredProducts = [...allProducts];
+    
+    // Render initial products
+    renderProducts();
+    updateResultsCount();
+    
+    // Add event listeners for search
+    const searchInput = document.getElementById('searchInput');
+    if (searchInput) {
+        searchInput.addEventListener('input', function() {
+            activeFilters.search = this.value.toLowerCase();
+            applyFilters();
+        });
+    }
+    
+    console.log('Shop initialized with', allProducts.length, 'products');
+});
