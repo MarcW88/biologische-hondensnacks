@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Over Ons | Biologische Hondensnacks - Experts in Natuurlijke Hondenvoeding</title>
+    <meta name="description" content="Leer meer over Biologische Hondensnacks. Wij zijn gepassioneerd over natuurlijke en gezonde hondenvoeding. Ontdek onze missie en expertise.">
+    
+    <link rel="canonical" href="https://biologische-hondensnacks.nl/over-ons/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo"><a href="../" style="color: #E68161;  text-decoration: none;">Biologische Hondensnacks</a>
+                </div>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/natuurlijke-hondensnacks/">Natuurlijke snacks</a></li>
+                        <li><a href="/beste-hondensnacks-2026/">Top 10 Beste</a></li>
+                        <li><a href="/hondensnacks-voor-puppy/">Puppy Snacks</a></li>
+                        <li><a href="/blog/">Blog</a></li>
+                        <li><a href="/over-ons/" class="active">Over Ons</a></li>
+                        <li><a href="/winkel/" class="nav-shop">Winkel</a></li>
+                    </ul>
+                </nav>
+                <button class="mobile-menu-toggle">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <nav class="breadcrumb">
+            <a href="/">Home</a>
+            <span>/</span>
+            <span>Over Ons</span>
+        </nav>
+    </div>
+
+    <section class="section">
+        <div class="container">
+            <h1>Over biologische hondensnacks</h1>
+            
+            <div class="grid grid-2" style="align-items: center; margin-bottom: 3rem;">
+                <div>
+                    <h2>Onze Missie</h2>
+                    <p>We begrijpen dat het kiezen van de juiste snacks voor je hond overweldigend kan zijn. Met zoveel opties op de markt, tegenstrijdige informatie op verpakkingen en marketingpraat in webshops - hoe weet je wat echt goed is voor je hond?</p>
+                    
+                    <p>Daarom hebben we Biologische Hondensnacks opgericht: een plek waar je als hondenbaasje eerlijke, onafhankelijke informatie vindt over natuurlijke snacks - zonder marketingpraat, maar wel met praktijkervaring.</p>
+                </div>
+                <div>
+                    <img src="https://via.placeholder.com/500x400/E68161/FFFFFF?text=Over+Ons" alt="Over biologische hondensnacks" loading="lazy">
+                </div>
+            </div>
+
+            <!-- Wie zit er achter? -->
+            <div style="background: #f8fafc; padding: 2rem; border-radius: 12px; margin: 3rem 0; border-left: 4px solid #E68161;">
+                <h2>Wie zit er achter Biologische Hondensnacks?</h2>
+                <p>Biologische Hondensnacks is ontstaan uit iets heel eenvoudigs: een hond met een gevoelige maag en een baasje dat gek werd van alle tegenstrijdige informatie op verpakkingen en webshops.</p>
+                
+                <p>Wij zijn geen dierenartsen of voedingsdeskundigen, maar wel kritische hondenbaasjes die zich jarenlang hebben verdiept in ingrediëntenlijsten, klantreviews en praktijkervaring. Vanuit die zoektocht is dit platform ontstaan.</p>
+                
+                <p>Ons doel? Andere hondenliefhebbers helpen om door de jungle van snack-opties te navigeren, zonder dat je zelf uren hoeft te spenderen aan het ontcijferen van etiketten en het vergelijken van reviews.</p>
+            </div>
+
+            <h2>Wat ons uniek maakt</h2>
+            <div class="grid grid-3">
+                <div class="card text-center">
+                    <h3>Hoe we testen</h3>
+                    <p>We vergelijken ingrediënten, analyseren reviews van andere hondenbaasjes en testen waar mogelijk in de praktijk voordat we iets aanbevelen.</p>
+                </div>
+                <div class="card text-center">
+                    <h3>Altijd natuurlijke basis</h3>
+                    <p>We geven alleen aandacht aan snacks die passen binnen een natuurlijke of biologische levensstijl voor honden - geen kunstmatige troep.</p>
+                </div>
+                <div class="card text-center">
+                    <h3>Heldere affiliate uitleg</h3>
+                    <p>We verdienen via affiliate links, maar keuren producten ook af als ze niet aan onze criteria voldoen. Eerlijkheid boven commissie.</p>
+                </div>
+            </div>
+
+            <div class="section" style="background: white; padding: 2rem; border-radius: 12px; margin: 3rem 0; border: 1px solid #e2e8f0;">
+                <h2>Onze expertise (zonder poespas)</h2>
+                <p>We zijn geen dierenartsen of wetenschappers. Wat we wél zijn: kritische hondenbaasjes die zich jarenlang hebben verdiept in natuurlijke voeding, etiketten en praktijkervaring.</p>
+                
+                <p>Voor medische vragen of voedingsadviezen op maat verwijzen we altijd naar een dierenarts. Waar nodig laten we onze <a href="/blog/" style="color: #E68161; text-decoration: underline;">gidsen en vergelijkingen</a> nakijken door een deskundige, zodat de informatie up-to-date en verantwoord blijft.</p>
+                
+                <h3>Zo beoordelen wij producten</h3>
+                <ul style="margin-left: 1rem; ">
+                    <li><strong>Ingrediëntenlijst:</strong> Eerst kijken we naar de eerste 3-5 ingrediënten. Vlees voorop, geen vage "dierlijke bijproducten".</li>
+                    <li><strong>Toevoegingen:</strong> We vermijden snacks met kunstmatige kleurstoffen, smaakstoffen en twijfelachtige E-nummers.</li>
+                    <li><strong>Praktijkervaring:</strong> We letten op hoe honden reageren: verteerbaarheid, ontlasting, energie en vacht.</li>
+                    <li><strong>Feedback van baasjes:</strong> Reviews en ervaringen van andere hondenliefhebbers wegen mee in onze beoordeling.</li>
+                    <li><strong>Prijs-kwaliteit:</strong> We zoeken naar eerlijke prijzen voor goede kwaliteit - geen dure marketing, wel goede ingrediënten.</li>
+                </ul>
+                
+                <div style="background: #fef7f0; padding: 1.5rem; border-radius: 8px; margin-top: 1.5rem; border-left: 4px solid #E68161;">
+                    <p style="margin: 0;  color: #64748b;">
+                        <strong style="color: #E68161;">💡 Belangrijk:</strong> We testen niet in laboratoria en doen geen wetenschappelijk onderzoek. Onze aanbevelingen zijn gebaseerd op ingrediëntenanalyse, praktijkervaring en feedback van hondenbaasjes zoals jij.
+                    </p>
+                </div>
+            </div>
+
+            <h2>Contact & Samenwerking</h2>
+            <p>Heb je vragen over onze aanbevelingen of wil je meer weten over een specifiek product? We horen graag van je! Je kunt contact met ons opnemen via:</p>
+            
+            <div style="background: #f5f5f5; padding: 1.5rem; border-radius: 8px; margin: 1rem 0;">
+                <p><strong>Email:</strong> info@biologische-hondensnacks.nl</p>
+                <p><strong>Voor productaanvragen:</strong> producten@biologische-hondensnacks.nl</p>
+                <p><strong>Voor partnerships:</strong> partnerships@biologische-hondensnacks.nl</p>
+            </div>
+
+            <div class="affiliate-disclaimer" style="background: #f0f9ff; padding: 1.5rem; border-radius: 8px; border-left: 4px solid #E68161;">
+                <p><small><strong>Transparantie over affiliate links:</strong> Biologische Hondensnacks is een affiliate website. Dat betekent dat we soms een kleine commissie ontvangen als je via onze links iets koopt. Dit kost jou niets extra's, maar helpt ons om de site en de inhoud te blijven verbeteren. We adviseren alleen producten die we zelf zouden geven aan onze eigen honden.</small></p>
+            </div>
+        </div>
+    </section>
+
+        <!-- Footer -->
+    <footer class="footer" style="background: #1f2937; color: white;">
+        <div class="container">
+            <div class="footer-content" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; padding: 3rem 0;">
+                <div>
+                    <h3 style="color: #e2e8f0; margin-bottom: 1rem;">Biologische hondensnacks</h3>
+                    <p style="margin-bottom: 1.5rem; color: #d1d5db;">De beste natuurlijke en biologische snacks voor jouw hond. Graanvrij, gezond en heerlijk.</p>
+                    
+                    <!-- Newsletter Signup -->
+                    <div style="background: #374151; padding: 1.5rem; border-radius: 8px; margin-bottom: 1.5rem;">
+                        <h4 style="margin-bottom: 1rem; ">Wekelijkse tips & aanbiedingen</h4>
+                        <form style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem;">
+                            <input type="email" placeholder="je@email.nl" required style="flex: 1; padding: 0.8rem; border: none; border-radius: 4px; background: white; color: #333;">
+                            <button type="submit" style="background: #2d3748; color: white; border: none; padding: 0.8rem 1.2rem; border-radius: 4px; cursor: pointer;  white-space: nowrap;">Aanmelden</button>
+                        </form>
+                        <p style=" color: #9ca3af; margin: 0;">Geen spam, uitschrijven altijd mogelijk</p>
+                    </div>
+                    
+                    <!-- Social Media -->
+                    <div>
+                        <h4 style="margin-bottom: 1rem; ">Volg ons</h4>
+                        <div style="display: flex; gap: 1rem;">
+                            <a href="#" style="background: #4a5568; color: white; padding: 0.8rem; border-radius: 4px; text-decoration: none; display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; ">f</a>
+                            <a href="#" style="background: #718096; color: white; padding: 0.8rem; border-radius: 4px; text-decoration: none; display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; ">ig</a>
+                            <a href="#" style="background: #a0aec0; color: white; padding: 0.8rem; border-radius: 4px; text-decoration: none; display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; ">yt</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 style="margin-bottom: 1rem;">Populaire categorieën</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 0.5rem;"><a href="natuurlijke-hondensnacks/" style="color: #d1d5db; text-decoration: none;">Natuurlijke snacks</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="hondensnacks-voor-puppy/" style="color: #d1d5db; text-decoration: none;">Puppy snacks</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="hondensnacks-voor-training/" style="color: #d1d5db; text-decoration: none;">Training snacks</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="gezonde-kauwsnacks/" style="color: #d1d5db; text-decoration: none;">Kauwsnacks</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="graanvrije-hondensnacks/" style="color: #d1d5db; text-decoration: none;">Graanvrije snacks</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 style="margin-bottom: 1rem;">Support & info</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 0.5rem;"><a href="over-ons/" style="color: #d1d5db; text-decoration: none;">Over ons</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="blog/" style="color: #d1d5db; text-decoration: none;">Blog & tips</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="contact/" style="color: #d1d5db; text-decoration: none;">Contact</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="veelgestelde-vragen/" style="color: #d1d5db; text-decoration: none;">FAQ</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="beste-hondensnacks-2026/" style="color: #d1d5db; text-decoration: none;">Top 10 beste</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 style="margin-bottom: 1rem;">Vertrouwen & veiligheid</h3>
+                    
+                    <!-- Trust Badges -->
+                    <div style="margin-bottom: 1.5rem;">
+                        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem;">
+                            <span style="background: #4a5568; color: white; padding: 0.3rem 0.8rem; border-radius: 4px; ">Bol.com partner</span>
+                            <span style="background: #718096; color: white; padding: 0.3rem 0.8rem; border-radius: 4px; ">veilig betalen</span>
+                        </div>
+                        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                            <span style="background: #a0aec0; color: white; padding: 0.3rem 0.8rem; border-radius: 4px; ">SKAL bio</span>
+                            <span style="background: #2d3748; color: white; padding: 0.3rem 0.8rem; border-radius: 4px; ">4.8/5 reviews</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Legal Links -->
+                    <div>
+                        <h4 style="margin-bottom: 0.5rem;  color: #9ca3af;">Juridisch</h4>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="margin-bottom: 0.3rem;"><a href="privacy-policy/" style="color: #9ca3af; text-decoration: none; ">Privacy policy</a></li>
+                            <li style="margin-bottom: 0.3rem;"><a href="algemene-voorwaarden/" style="color: #9ca3af; text-decoration: none; ">Algemene voorwaarden</a></li>
+                            <li style="margin-bottom: 0.3rem;"><a href="disclaimer/" style="color: #9ca3af; text-decoration: none; ">Disclaimer</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom" style="border-top: 1px solid #374151; padding: 1.5rem 0; text-align: center;">
+                <p style="margin: 0 0 1rem 0; color: #9ca3af; ">
+                    <strong>Disclaimer:</strong> De informatie op deze website is alleen bedoeld voor algemene doeleinden en vervangt geen professioneel veterinair advies. 
+                    Raadpleeg altijd je dierenarts voor specifieke voedings- en gezondheidsadvies voor je hond.
+                </p>
+                <p style="margin: 0; color: #9ca3af; ">&copy; 2026 Biologische hondensnacks. Alle rechten voorbehouden. | Gemaakt voor honden en hun baasjes</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
