@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alle Producten | Biologische Hondensnacks</title>
+    <meta name="description" content="Bekijk alle 50 biologische hondensnacks. Van training snacks tot kauwsnacks - alles voor je hond.">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="../" style="color: #E68161; font-weight: bold;">Biologische Hondensnacks</a>
+                </div>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="../">Home</a></li>
+                        <li><a href="../winkel/">🛍️ Winkel</a></li>
+                        <li><a href="../blog/">Blog</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <main class="container">
+        <h1>Alle Producten (50)</h1>
+        <div class="products-grid">
+            
+        <div class="product-card">
+            <a href="yarrah-biologische-kip-rund-trainingssnacks.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop" alt="Yarrah Biologische Kip & Rund Trainingssnacks" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Yarrah</div>
+                    <h3 class="product-name">Yarrah Biologische Kip & Rund Trainingssnacks</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-text">4.8</span>
+                    </div>
+                    <div class="product-price">€8.95</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="yarrah-biologische-vis-trainingssnacks.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=400&h=300&fit=crop" alt="Yarrah Biologische Vis Trainingssnacks" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Yarrah</div>
+                    <h3 class="product-name">Yarrah Biologische Vis Trainingssnacks</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-text">4.6</span>
+                    </div>
+                    <div class="product-price">€9.45</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="lilys-kitchen-puppy-training-treats.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=400&h=300&fit=crop" alt="Lily's Kitchen Puppy training Treats" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Lily's Kitchen</div>
+                    <h3 class="product-name">Lily's Kitchen Puppy training Treats</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-text">4.7</span>
+                    </div>
+                    <div class="product-price">€6.49</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="lilys-kitchen-dental-chews-mint-parsley.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=400&h=300&fit=crop" alt="Lily's Kitchen Dental Chews Mint & Parsley" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Lily's Kitchen</div>
+                    <h3 class="product-name">Lily's Kitchen Dental Chews Mint & Parsley</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-text">4.5</span>
+                    </div>
+                    <div class="product-price">€12.95</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="green-petfood-insectdog-hypoallergeen-snacks.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1574158622682-e40e69881006?w=400&h=300&fit=crop" alt="Green Petfood InsectDog Hypoallergeen Snacks" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Green Petfood</div>
+                    <h3 class="product-name">Green Petfood InsectDog Hypoallergeen Snacks</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★</span>
+                        <span class="rating-text">4.4</span>
+                    </div>
+                    <div class="product-price">€11.95</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="zukes-mini-naturals-zalm-training-treats.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&h=300&fit=crop" alt="Zuke's Mini Naturals Zalm Training Treats" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Zuke's</div>
+                    <h3 class="product-name">Zuke's Mini Naturals Zalm Training Treats</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-text">4.9</span>
+                    </div>
+                    <div class="product-price">€9.95</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="zukes-puppy-naturals-kalkoen-zoete-aardappel.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=400&h=300&fit=crop" alt="Zuke's Puppy Naturals Kalkoen & Zoete Aardappel" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Zuke's</div>
+                    <h3 class="product-name">Zuke's Puppy Naturals Kalkoen & Zoete Aardappel</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-text">4.7</span>
+                    </div>
+                    <div class="product-price">€8.75</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="wellness-core-pure-rewards-kip-freezedried.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?w=400&h=300&fit=crop" alt="Wellness Core Pure Rewards Kip Freeze-Dried" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Wellness</div>
+                    <h3 class="product-name">Wellness Core Pure Rewards Kip Freeze-Dried</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-text">4.8</span>
+                    </div>
+                    <div class="product-price">€14.95</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="blue-buffalo-wilderness-zalm-bites.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop" alt="Blue Buffalo Wilderness Zalm Bites" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Blue Buffalo</div>
+                    <h3 class="product-name">Blue Buffalo Wilderness Zalm Bites</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-text">4.6</span>
+                    </div>
+                    <div class="product-price">€7.95</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="benebone-wishbone-bacon-flavor.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=400&h=300&fit=crop" alt="Benebone Wishbone Bacon Flavor" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Benebone</div>
+                    <h3 class="product-name">Benebone Wishbone Bacon Flavor</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-text">4.7</span>
+                    </div>
+                    <div class="product-price">€16.95</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="green-petfood-senior-care-treats-kip.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=400&h=300&fit=crop" alt="Green Petfood Senior Care Treats Kip" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Green Petfood</div>
+                    <h3 class="product-name">Green Petfood Senior Care Treats Kip</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-text">4.5</span>
+                    </div>
+                    <div class="product-price">€14.78</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="lilys-kitchen-puppy-soft-bites-lam.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?w=400&h=300&fit=crop" alt="Lily's Kitchen Puppy Soft Bites Lam" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Lily's Kitchen</div>
+                    <h3 class="product-name">Lily's Kitchen Puppy Soft Bites Lam</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★</span>
+                        <span class="rating-text">4.3</span>
+                    </div>
+                    <div class="product-price">€14.52</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="yarrah-organic-training-rewards-lam.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?w=400&h=300&fit=crop" alt="Yarrah Organic Training Rewards Lam" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Yarrah</div>
+                    <h3 class="product-name">Yarrah Organic Training Rewards Lam</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-text">4.5</span>
+                    </div>
+                    <div class="product-price">€17.07</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="benebone-large-breed-chews-eend.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?w=400&h=300&fit=crop" alt="Benebone Large Breed Chews Eend" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Benebone</div>
+                    <h3 class="product-name">Benebone Large Breed Chews Eend</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★</span>
+                        <span class="rating-text">4</span>
+                    </div>
+                    <div class="product-price">€16.94</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="lilys-kitchen-freezedried-treats-mix.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1574158622682-e40e69881006?w=400&h=300&fit=crop" alt="Lily's Kitchen Freeze-Dried Treats Mix" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Lily's Kitchen</div>
+                    <h3 class="product-name">Lily's Kitchen Freeze-Dried Treats Mix</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★</span>
+                        <span class="rating-text">4</span>
+                    </div>
+                    <div class="product-price">€8.64</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="kong-freezedried-treats-zalm.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&h=300&fit=crop" alt="Kong Freeze-Dried Treats Zalm" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Kong</div>
+                    <h3 class="product-name">Kong Freeze-Dried Treats Zalm</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★</span>
+                        <span class="rating-text">4.1</span>
+                    </div>
+                    <div class="product-price">€16.90</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="green-petfood-freezedried-treats-zalm.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?w=400&h=300&fit=crop" alt="Green Petfood Freeze-Dried Treats Zalm" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Green Petfood</div>
+                    <h3 class="product-name">Green Petfood Freeze-Dried Treats Zalm</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-text">4.9</span>
+                    </div>
+                    <div class="product-price">€13.62</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="yarrah-hypoallergenic-snacks-zalm.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop" alt="Yarrah Hypoallergenic Snacks Zalm" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Yarrah</div>
+                    <h3 class="product-name">Yarrah Hypoallergenic Snacks Zalm</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★</span>
+                        <span class="rating-text">4.3</span>
+                    </div>
+                    <div class="product-price">€12.02</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="benebone-grainfree-bites-lam.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?w=400&h=300&fit=crop" alt="Benebone Grain-Free Bites Lam" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Benebone</div>
+                    <h3 class="product-name">Benebone Grain-Free Bites Lam</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-text">4.6</span>
+                    </div>
+                    <div class="product-price">€12.18</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="kong-puppy-soft-bites-vis.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop" alt="Kong Puppy Soft Bites Vis" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Kong</div>
+                    <h3 class="product-name">Kong Puppy Soft Bites Vis</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-text">5</span>
+                    </div>
+                    <div class="product-price">€8.03</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="nylabone-premium-training-treats-rund.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=400&h=300&fit=crop" alt="Nylabone Premium Training Treats Rund" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Nylabone</div>
+                    <h3 class="product-name">Nylabone Premium Training Treats Rund</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★</span>
+                        <span class="rating-text">4.4</span>
+                    </div>
+                    <div class="product-price">€12.71</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="green-petfood-hypoallergenic-snacks-rund.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=400&h=300&fit=crop" alt="Green Petfood Hypoallergenic Snacks Rund" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Green Petfood</div>
+                    <h3 class="product-name">Green Petfood Hypoallergenic Snacks Rund</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-text">4.5</span>
+                    </div>
+                    <div class="product-price">€9.11</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="wellness-premium-training-treats-eend.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=400&h=300&fit=crop" alt="Wellness Premium Training Treats Eend" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Wellness</div>
+                    <h3 class="product-name">Wellness Premium Training Treats Eend</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★</span>
+                        <span class="rating-text">4.1</span>
+                    </div>
+                    <div class="product-price">€11.20</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="kong-natural-dental-chews-kip.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=400&h=300&fit=crop" alt="Kong Natural Dental Chews Kip" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Kong</div>
+                    <h3 class="product-name">Kong Natural Dental Chews Kip</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-text">4.9</span>
+                    </div>
+                    <div class="product-price">€7.11</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="wellness-organic-training-rewards-kalkoen.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=400&h=300&fit=crop" alt="Wellness Organic Training Rewards Kalkoen" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Wellness</div>
+                    <h3 class="product-name">Wellness Organic Training Rewards Kalkoen</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-text">4.9</span>
+                    </div>
+                    <div class="product-price">€14.45</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="zukes-hypoallergenic-snacks-rund.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&h=300&fit=crop" alt="Zuke's Hypoallergenic Snacks Rund" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Zuke's</div>
+                    <h3 class="product-name">Zuke's Hypoallergenic Snacks Rund</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★</span>
+                        <span class="rating-text">4.2</span>
+                    </div>
+                    <div class="product-price">€6.02</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="yarrah-hypoallergenic-snacks-eend.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop" alt="Yarrah Hypoallergenic Snacks Eend" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Yarrah</div>
+                    <h3 class="product-name">Yarrah Hypoallergenic Snacks Eend</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-text">4.9</span>
+                    </div>
+                    <div class="product-price">€16.28</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="blue-buffalo-freezedried-treats-kalkoen.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=400&h=300&fit=crop" alt="Blue Buffalo Freeze-Dried Treats Kalkoen" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Blue Buffalo</div>
+                    <h3 class="product-name">Blue Buffalo Freeze-Dried Treats Kalkoen</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-text">4.8</span>
+                    </div>
+                    <div class="product-price">€13.68</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="green-petfood-premium-training-treats-mix.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=400&h=300&fit=crop" alt="Green Petfood Premium Training Treats Mix" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Green Petfood</div>
+                    <h3 class="product-name">Green Petfood Premium Training Treats Mix</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-text">4.9</span>
+                    </div>
+                    <div class="product-price">€12.95</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="nylabone-grainfree-bites-lam.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?w=400&h=300&fit=crop" alt="Nylabone Grain-Free Bites Lam" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Nylabone</div>
+                    <h3 class="product-name">Nylabone Grain-Free Bites Lam</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-text">4.7</span>
+                    </div>
+                    <div class="product-price">€8.62</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="zukes-grainfree-bites-zalm.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?w=400&h=300&fit=crop" alt="Zuke's Grain-Free Bites Zalm" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Zuke's</div>
+                    <h3 class="product-name">Zuke's Grain-Free Bites Zalm</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-text">4.8</span>
+                    </div>
+                    <div class="product-price">€19.05</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="green-petfood-puppy-soft-bites-rund.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=400&h=300&fit=crop" alt="Green Petfood Puppy Soft Bites Rund" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Green Petfood</div>
+                    <h3 class="product-name">Green Petfood Puppy Soft Bites Rund</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-text">4.9</span>
+                    </div>
+                    <div class="product-price">€12.43</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="benebone-puppy-soft-bites-mix.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?w=400&h=300&fit=crop" alt="Benebone Puppy Soft Bites Mix" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Benebone</div>
+                    <h3 class="product-name">Benebone Puppy Soft Bites Mix</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★</span>
+                        <span class="rating-text">4.2</span>
+                    </div>
+                    <div class="product-price">€15.23</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="benebone-hypoallergenic-snacks-kip.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=400&h=300&fit=crop" alt="Benebone Hypoallergenic Snacks Kip" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Benebone</div>
+                    <h3 class="product-name">Benebone Hypoallergenic Snacks Kip</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★</span>
+                        <span class="rating-text">4.3</span>
+                    </div>
+                    <div class="product-price">€18.43</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="zukes-hypoallergenic-snacks-zalm.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop" alt="Zuke's Hypoallergenic Snacks Zalm" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Zuke's</div>
+                    <h3 class="product-name">Zuke's Hypoallergenic Snacks Zalm</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★</span>
+                        <span class="rating-text">4.3</span>
+                    </div>
+                    <div class="product-price">€9.80</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="benebone-puppy-soft-bites-kip.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1574158622682-e40e69881006?w=400&h=300&fit=crop" alt="Benebone Puppy Soft Bites Kip" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Benebone</div>
+                    <h3 class="product-name">Benebone Puppy Soft Bites Kip</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★</span>
+                        <span class="rating-text">4.1</span>
+                    </div>
+                    <div class="product-price">€17.08</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="yarrah-premium-training-treats-rund.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop" alt="Yarrah Premium Training Treats Rund" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Yarrah</div>
+                    <h3 class="product-name">Yarrah Premium Training Treats Rund</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-text">5</span>
+                    </div>
+                    <div class="product-price">€5.14</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="lilys-kitchen-large-breed-chews-vis.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=400&h=300&fit=crop" alt="Lily's Kitchen Large Breed Chews Vis" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Lily's Kitchen</div>
+                    <h3 class="product-name">Lily's Kitchen Large Breed Chews Vis</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★</span>
+                        <span class="rating-text">4.4</span>
+                    </div>
+                    <div class="product-price">€9.56</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="nylabone-grainfree-bites-vis.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop" alt="Nylabone Grain-Free Bites Vis" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Nylabone</div>
+                    <h3 class="product-name">Nylabone Grain-Free Bites Vis</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★</span>
+                        <span class="rating-text">4.3</span>
+                    </div>
+                    <div class="product-price">€14.78</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="green-petfood-large-breed-chews-zalm.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1574158622682-e40e69881006?w=400&h=300&fit=crop" alt="Green Petfood Large Breed Chews Zalm" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Green Petfood</div>
+                    <h3 class="product-name">Green Petfood Large Breed Chews Zalm</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-text">4.8</span>
+                    </div>
+                    <div class="product-price">€8.07</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="blue-buffalo-puppy-soft-bites-eend.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&h=300&fit=crop" alt="Blue Buffalo Puppy Soft Bites Eend" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Blue Buffalo</div>
+                    <h3 class="product-name">Blue Buffalo Puppy Soft Bites Eend</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-text">5</span>
+                    </div>
+                    <div class="product-price">€9.02</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="nylabone-puppy-soft-bites-kalkoen.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop" alt="Nylabone Puppy Soft Bites Kalkoen" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Nylabone</div>
+                    <h3 class="product-name">Nylabone Puppy Soft Bites Kalkoen</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★</span>
+                        <span class="rating-text">4.4</span>
+                    </div>
+                    <div class="product-price">€15.98</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="zukes-organic-training-rewards-kip.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop" alt="Zuke's Organic Training Rewards Kip" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Zuke's</div>
+                    <h3 class="product-name">Zuke's Organic Training Rewards Kip</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-text">4.8</span>
+                    </div>
+                    <div class="product-price">€11.35</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="yarrah-freezedried-treats-vis.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=400&h=300&fit=crop" alt="Yarrah Freeze-Dried Treats Vis" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Yarrah</div>
+                    <h3 class="product-name">Yarrah Freeze-Dried Treats Vis</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-text">5</span>
+                    </div>
+                    <div class="product-price">€13.39</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="blue-buffalo-grainfree-bites-zalm.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=400&h=300&fit=crop" alt="Blue Buffalo Grain-Free Bites Zalm" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Blue Buffalo</div>
+                    <h3 class="product-name">Blue Buffalo Grain-Free Bites Zalm</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-text">5</span>
+                    </div>
+                    <div class="product-price">€6.58</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="benebone-puppy-soft-bites-vis.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=400&h=300&fit=crop" alt="Benebone Puppy Soft Bites Vis" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Benebone</div>
+                    <h3 class="product-name">Benebone Puppy Soft Bites Vis</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-text">4.8</span>
+                    </div>
+                    <div class="product-price">€19.02</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="benebone-freezedried-treats-eend.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=400&h=300&fit=crop" alt="Benebone Freeze-Dried Treats Eend" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Benebone</div>
+                    <h3 class="product-name">Benebone Freeze-Dried Treats Eend</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-text">4.6</span>
+                    </div>
+                    <div class="product-price">€5.35</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="blue-buffalo-organic-training-rewards-mix.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop" alt="Blue Buffalo Organic Training Rewards Mix" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Blue Buffalo</div>
+                    <h3 class="product-name">Blue Buffalo Organic Training Rewards Mix</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★</span>
+                        <span class="rating-text">4.4</span>
+                    </div>
+                    <div class="product-price">€5.58</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="blue-buffalo-grainfree-bites-zalm.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=400&h=300&fit=crop" alt="Blue Buffalo Grain-Free Bites Zalm" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Blue Buffalo</div>
+                    <h3 class="product-name">Blue Buffalo Grain-Free Bites Zalm</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★</span>
+                        <span class="rating-text">4.1</span>
+                    </div>
+                    <div class="product-price">€15.79</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="product-card">
+            <a href="benebone-hypoallergenic-snacks-kip.html" class="product-link">
+                <img src="https://images.unsplash.com/photo-1574158622682-e40e69881006?w=400&h=300&fit=crop" alt="Benebone Hypoallergenic Snacks Kip" class="product-image">
+                <div class="product-info">
+                    <div class="product-brand">Benebone</div>
+                    <h3 class="product-name">Benebone Hypoallergenic Snacks Kip</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-text">4.6</span>
+                    </div>
+                    <div class="product-price">€17.52</div>
+                </div>
+            </a>
+        </div>
+    
+        </div>
+    </main>
+</body>
+</html>

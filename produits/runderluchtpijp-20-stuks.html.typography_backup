@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Runderluchtpijp 20 stuks | Biologische Hondensnacks</title>
+    <meta name="description" content="Runderluchtpijp 20 stuks van Topdiervoeding.nl. 30cm lang, reinigt tanden. Bestel nu online!">
+    <link rel="canonical" href="https://biologische-hondensnacks.nl/produits/runderluchtpijp-20-stuks.html">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Runderluchtpijp 20 stuks">
+    <meta property="og:description" content="30cm lang, reinigt tanden">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop">
+    <meta property="og:url" content="https://biologische-hondensnacks.nl/produits/runderluchtpijp-20-stuks.html">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="product-page.css">
+    
+    <style>
+    /* Enhanced product page styles */
+    .price-section {
+        background: linear-gradient(135deg, #E68161 0%, #d67347 100%);
+        color: white;
+        padding: 1.5rem;
+        border-radius: 12px;
+        margin-bottom: 2rem;
+        box-shadow: 0 4px 15px rgba(230, 129, 97, 0.3);
+    }
+    
+    .price-main {
+        display: flex;
+        align-items: baseline;
+        gap: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .price-current {
+        font-size: 2.5rem;
+        font-weight: 800;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+    
+    .price-per-unit {
+        font-size: 1.1rem;
+        opacity: 0.9;
+        font-weight: 500;
+    }
+    
+    .price-highlight {
+        background: rgba(255,255,255,0.2);
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        font-size: 0.9rem;
+        font-weight: 600;
+        margin-top: 0.5rem;
+        display: inline-block;
+    }
+    
+    .specs-table {
+        display: grid;
+        gap: 0.75rem;
+        margin-bottom: 2rem;
+    }
+    
+    .spec-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        background: #f8fafc;
+        border-radius: 8px;
+        border-left: 4px solid #E68161;
+    }
+    
+    .benefits-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 0.5rem;
+        list-style: none;
+        padding: 0;
+        margin: 1rem 0;
+    }
+    
+    .benefits-list li {
+        padding: 0.75rem;
+        background: #f0f9ff;
+        border-radius: 8px;
+        border-left: 3px solid #0ea5e9;
+        font-weight: 500;
+    }
+    
+    .trust-badges {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+    
+    .trust-item {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 0.75rem;
+        background: #f8fafc;
+        border-radius: 8px;
+        font-weight: 500;
+    }
+    
+    .related-products .products-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1.5rem;
+        margin-top: 1.5rem;
+    }
+    
+    .related-products .product-card {
+        background: white;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        transition: all 0.3s ease;
+    }
+    
+    .related-products .product-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    }
+    
+    .related-products .product-image {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+    
+    .related-products .product-info {
+        padding: 1rem;
+    }
+    
+    .related-products .product-brand {
+        font-size: 0.875rem;
+        color: #E68161;
+        font-weight: 600;
+        margin-bottom: 0.25rem;
+    }
+    
+    .related-products .product-name {
+        font-size: 0.95rem;
+        font-weight: 600;
+        color: #1f2937;
+        margin: 0 0 0.5rem 0;
+        line-height: 1.3;
+    }
+    
+    .related-products .product-price {
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: #E68161;
+    }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="../" style="color: #E68161; font-weight: bold; text-decoration: none;">Biologische Hondensnacks</a>
+                </div>
+                
+                <nav class="nav">
+                    <ul>
+                        <li><a href="../">Home</a></li>
+                        <li><a href="../natuurlijke-hondensnacks/">Natuurlijke snacks</a></li>
+                        <li><a href="../beste-hondensnacks-2026/">Top 10 Beste</a></li>
+                        <li><a href="../hondensnacks-voor-puppy/">Puppy Snacks</a></li>
+                        <li><a href="../blog/">Blog</a></li>
+                        <li><a href="../over-ons/">Over Ons</a></li>
+                        <li><a href="../winkel/" class="nav-shop">Winkel</a></li>
+                    </ul>
+                </nav>
+                
+                <button class="mobile-menu-toggle">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Product Details -->
+    <main class="container product-page">
+        <div class="product-layout">
+            <div class="product-images">
+                <div class="main-image">
+                    <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop" alt="Runderluchtpijp 20 stuks">
+                </div>
+            </div>
+            
+            <div class="product-info">
+                <div class="product-header">
+                    <div class="brand">Topdiervoeding.nl</div>
+                    <h1>Runderluchtpijp 20 stuks</h1>
+                </div>
+                
+                <div class="price-section">
+                    <div class="price-main">
+                        <span class="price-current">€39,99</span>
+                        <span class="price-per-unit">3000 g</span>
+                    </div>
+                    <div class="price-highlight">
+                        ⭐ Premium kwaliteit voor je hond
+                    </div>
+                </div>
+                
+                <div class="product-description">
+                    <h3>Voordelen</h3>
+                    <ul class="benefits-list">
+                        <li>✨ Premium kwaliteit</li><li>❤️ Stress vermindering</li><li>⚡ Energieboost</li><li>🛡️ Immuunsysteem ondersteuning</li>
+                    </ul>
+                </div>
+                
+                <div class="product-description">
+                    <h3>Product specificaties</h3>
+                    <div class="specs-table">
+                        <div class="spec-row">
+                            <span class="spec-label">Gewicht</span>
+                            <span class="spec-value">3000 g</span>
+                        </div>
+                        <div class="spec-row">
+                            <span class="spec-label">Aantal stuks</span>
+                            <span class="spec-value">20</span>
+                        </div>
+                        <div class="spec-row">
+                            <span class="spec-label">Doelgroep</span>
+                            <span class="spec-value">Elke levensfase</span>
+                        </div>
+                        <div class="spec-row">
+                            <span class="spec-label">Type snack</span>
+                            <span class="spec-value">Luchtpijp</span>
+                        </div>
+                        <div class="spec-row">
+                            <span class="spec-label">Bijzonderheden</span>
+                            <span class="spec-value">30cm lang, reinigt tanden</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="purchase-section">
+                    <div class="stock-info">
+                        <span class="in-stock">✓ Beschikbaar bij partners</span>
+                        <span class="fast-delivery">🚚 Snelle levering mogelijk</span>
+                    </div>
+                    <div class="purchase-actions">
+                        <a href="https://www.bol.com/nl/s/?searchtext=Runderluchtpijp+20+stuks" target="_blank" class="btn-primary btn-large">
+                            🛒 Bekijk bij Bol.com
+                        </a>
+                    </div>
+                    <div class="trust-badges">
+                        <div class="trust-item">
+                            <span>🔒</span>
+                            <span>Veilig betalen bij onze partners</span>
+                        </div>
+                        <div class="trust-item">
+                            <span>⭐</span>
+                            <span>Beoordeeld door hondenliefhebbers</span>
+                        </div>
+                        <div class="trust-item">
+                            <span>🏆</span>
+                            <span>Premium kwaliteit gegarandeerd</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product Description -->
+        <div class="product-description-extended" style="background: #f8fafc; padding: 2rem; margin: 2rem 0; border-radius: 12px; line-height: 1.6;">
+            <h2>Waarom kiezen voor Runderluchtpijp 20 stuks?</h2>
+            <p>Puur natuur voor je hond! Deze luchtpijp van Topdiervoeding.nl bevatten alleen natuurlijke ingrediënten. Met 3000 g aan gezonde voeding, perfect voor elke levensfase. 30cm lang, reinigt tanden garanderen een product zonder kunstmatige toevoegingen.</p>
+            
+            <p>Voor meer informatie over de beste hondensnacks en expert aanbevelingen, bekijk onze <a href="../beste-hondensnacks-2026/" style="color: #E68161; text-decoration: underline;">top 10 beste hondensnacks van 2026</a> en ontdek waarom natuurlijke ingrediënten zo belangrijk zijn in ons artikel over <a href="../natuurlijke-hondensnacks/" style="color: #E68161; text-decoration: underline;">natuurlijke hondensnacks</a>.</p>
+        </div>
+
+        <!-- Related Products -->
+        <section class="related-products">
+            <h2>Gerelateerde producten</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <a href="hertengewei-xxl-400-450g.html" class="product-link">
+                        \1../images/natuurlijke-zalm-bites.jpg\2>
+                        <div class="product-info">
+                            <div class="product-brand">Topdiervoeding.nl</div>
+                            <h3 class="product-name">Hertengewei XXL (400-450g)</h3>
+                            <div class="product-price">€48,99</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="hertengewei-l-200-250g.html" class="product-link">
+                        \1../images/natuurlijke-zalm-bites.jpg\2>
+                        <div class="product-info">
+                            <div class="product-brand">Topdiervoeding.nl</div>
+                            <h3 class="product-name">Hertengewei L (200-250g)</h3>
+                            <div class="product-price">€27,99</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="hertengewei-m-150-180g.html" class="product-link">
+                        \1../images/natuurlijke-zalm-bites.jpg\2>
+                        <div class="product-info">
+                            <div class="product-brand">Topdiervoeding.nl</div>
+                            <h3 class="product-name">Hertengewei M (150-180g)</h3>
+                            <div class="product-price">€23,99</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="hertengewei-xxl-360-400g.html" class="product-link">
+                        \1../images/natuurlijke-zalm-bites.jpg\2>
+                        <div class="product-info">
+                            <div class="product-brand">Topdiervoeding.nl</div>
+                            <h3 class="product-name">Hertengewei XXL (360-400g)</h3>
+                            <div class="product-price">€42,99</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" style="background: #2d3748; color: white; padding: 3rem 0 2rem 0; margin-top: 4rem;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-bottom: 2rem;">
+                <div>
+                    <h4 style="margin-bottom: 1rem; font-size: 1.1rem; color: #e68161;">Biologische Hondensnacks</h4>
+                    <p style="margin-bottom: 1rem; color: #a0aec0; font-size: 0.9rem; line-height: 1.6;">
+                        Wij bieden de beste biologische en natuurlijke hondensnacks voor jouw trouwe viervoeter. 
+                        Kwaliteit en gezondheid staan bij ons voorop.
+                    </p>
+                </div>
+                
+                <div>
+                    <h4 style="margin-bottom: 0.5rem; font-size: 0.9rem; color: #9ca3af;">Navigatie</h4>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 0.3rem;"><a href="../" style="color: #9ca3af; text-decoration: none; font-size: 0.8rem;">Home</a></li>
+                        <li style="margin-bottom: 0.3rem;"><a href="../winkel/" style="color: #9ca3af; text-decoration: none; font-size: 0.8rem;">Winkel</a></li>
+                        <li style="margin-bottom: 0.3rem;"><a href="../blog/" style="color: #9ca3af; text-decoration: none; font-size: 0.8rem;">Blog</a></li>
+                        <li style="margin-bottom: 0.3rem;"><a href="../over-ons/" style="color: #9ca3af; text-decoration: none; font-size: 0.8rem;">Over ons</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 style="margin-bottom: 0.5rem; font-size: 0.9rem; color: #9ca3af;">Juridisch</h4>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 0.3rem;"><a href="privacy-policy/" style="color: #9ca3af; text-decoration: none; font-size: 0.8rem;">Privacy policy</a></li>
+                        <li style="margin-bottom: 0.3rem;"><a href="algemene-voorwaarden/" style="color: #9ca3af; text-decoration: none; font-size: 0.8rem;">Algemene voorwaarden</a></li>
+                        <li style="margin-bottom: 0.3rem;"><a href="disclaimer/" style="color: #9ca3af; text-decoration: none; font-size: 0.8rem;">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom" style="border-top: 1px solid #374151; padding: 1.5rem 0; text-align: center;">
+                <p style="margin: 0 0 1rem 0; color: #9ca3af; font-size: 0.8rem;">
+                    <strong>Disclaimer:</strong> De informatie op deze website is alleen bedoeld voor algemene doeleinden en vervangt geen professioneel veterinair advies. 
+                    Raadpleeg altijd je dierenarts voor specifieke voedings- en gezondheidsadvies voor je hond.
+                </p>
+                <p style="margin: 0; color: #9ca3af; font-size: 0.9rem;">&copy; 2026 Biologische hondensnacks. Alle rechten voorbehouden. | Gemaakt voor honden en hun baasjes</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
