@@ -1287,16 +1287,4 @@
 }
 
 /* Ensure grid consistency */
-.products-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 1.5rem;
-    align-items: stretch; /* All cards same height */
-}
-
-@media (max-width: 768px) {
-    .products-grid {
-        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-        gap: 1rem;
-    }
-}
+/* Supprimé: définition en double qui écrasait les 3 colonnes */
