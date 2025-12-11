@@ -75,11 +75,11 @@
     <section class="hero" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1583337130417-3346a1be7dee?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80') center/cover; color: white; padding: 80px 0;">
         <div class="container">
             <div class="hero-content" style="text-align: center; max-width: 900px; margin: 0 auto;">
-                <div class="hero-text-block" style="background: rgba(255,255,255,0.95); color: #2d3748; padding: 3rem 2.5rem; border-radius: 20px; margin-bottom: 2rem; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
-                    <h1 style=" margin-bottom: 1.5rem;   color: #1a202c;">
+                <div class="hero-text-block" style="padding: 2rem 1rem; margin-bottom: 2rem;">
+                    <h1 style="font-size: 3.2rem; margin-bottom: 1.5rem; font-weight: 700; line-height: 1.2; color: #ffffff; text-shadow: 0 2px 10px rgba(0,0,0,0.3);">
                         De meest vertrouwde biologische hondensnacks van Nederland
                     </h1>
-                    <p style=" margin-bottom: 0;  color: #4a5568;">
+                    <p style="font-size: 1.4rem; margin-bottom: 0; line-height: 1.5; color: #fef7f0; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">
                         Meer dan 10.000 hondenbaasjes kiezen voor onze natuurlijke, hypoallergene en graanvrije snacks. Getest, veilig en onweerstaanbaar lekker.
                     </p>
                 </div>
@@ -936,201 +936,10 @@
         </div>
     </footer>
 
-    <!-- Quiz JavaScript -->
-    <script>
-        let quizAnswers = {};
-        let currentQuestion = 1;
-        
-        function selectOption(questionNum, value) {
-            quizAnswers[questionNum] = value;
-            
-            // Visual feedback for selected option
-            const currentOptions = document.querySelectorAll(`#question-${questionNum} .option`);
-            currentOptions.forEach(btn => {
-                btn.style.borderColor = '#e5e7eb';
-                btn.style.background = 'white';
-                btn.classList.remove('selected');
-            });
-            
-            // Highlight selected option
-            const selectedBtn = document.querySelector(`#question-${questionNum} .option[data-value="${value}"]`);
-            if (selectedBtn) {
-                selectedBtn.style.borderColor = '#E68161';
-                selectedBtn.style.background = '#fef7f0';
-                selectedBtn.classList.add('selected');
-            }
-            
-            // Small delay for visual feedback, then proceed
-            setTimeout(() => {
-                if (questionNum < 3) {
-                    showNextQuestion(questionNum + 1);
-                } else {
-                    showResults();
-                }
-            }, 300);
-        }
-        
-        function updateProgress(questionNum) {
-            const progressFill = document.querySelector('.progress-fill');
-            const progressText = document.querySelector('.quiz-progress span');
-            
-            if (progressFill && progressText) {
-                const percentage = (questionNum / 3) * 100;
-                progressFill.style.width = percentage + '%';
-                progressText.textContent = `Vraag ${questionNum} van 3`;
-            }
-        }
-        
-        function showNextQuestion(questionNum) {
-            // Hide current question
-            document.getElementById(`question-${questionNum - 1}`).style.display = 'none';
-            
-            // Show next question
-            const nextQuestion = document.getElementById(`question-${questionNum}`);
-            if (nextQuestion) {
-                nextQuestion.style.display = 'block';
-                currentQuestion = questionNum;
-                
-                // Update progress
-                updateProgress(questionNum);
-            }
-        }
-        
-        function showResults() {
-            // Hide last question
-            document.getElementById('question-3').style.display = 'none';
-            
-            // Update progress to 100%
-            document.querySelector('.progress-fill').style.width = '100%';
-            document.querySelector('.quiz-progress span').textContent = 'Voltooid!';
-            
-            // Get recommendation
-            const recommendation = getRecommendation();
-            
-            // Show result
-            const resultDiv = document.querySelector('.quiz-result');
-            const productDiv = document.querySelector('.recommended-product');
-            
-            productDiv.innerHTML = `
-                <div style="display: flex; gap: 1rem; align-items: center; text-align: left;">
-                    <img src="${recommendation.image}" alt="${recommendation.name}" style="width: 80px; height: 80px; border-radius: 8px; object-fit: cover;">
-                    <div style="flex: 1;">
-                        <h4 style="margin: 0 0 0.5rem 0; color: #2d3748;">${recommendation.name}</h4>
-                        <p style="margin: 0 0 0.5rem 0; color: #666; ">${recommendation.description}</p>
-                        <div style="display: flex; align-items: center; gap: 1rem;">
-                            <span style="  color: #E68161;">${recommendation.price}</span>
-                            <span style="color: #FFD700;">★★★★★</span>
-                            <span style=" color: #666;">${recommendation.rating}</span>
-                        </div>
-                    </div>
-                </div>
-            `;
-            
-            // Update CTA link
-            document.querySelector('.quiz-result .btn-primary').href = recommendation.winkelUrl;
-            
-            resultDiv.style.display = 'block';
-        }
-        
-        function getRecommendation() {
-            const age = quizAnswers[1];
-            const purpose = quizAnswers[2];
-            const size = quizAnswers[3];
-            
-            // Recommendation logic based on answers
-            if (age === 'puppy') {
-                return {
-                    name: 'Zachte Puppy Koekjes',
-                    description: 'Perfect voor jonge honden, extra zacht en veilig',
-                    price: '€6,75',
-                    rating: '4.8/5 (156 reviews)',
-                    image: 'https://via.placeholder.com/80x80/FFB6C1/FFFFFF?text=Puppy',
-                    winkelUrl: '/winkel/zachte-puppy-koekjes'
-                };
-            } else if (purpose === 'training') {
-                return {
-                    name: 'Mini Training Bites',
-                    description: 'Zeer kleine snacks perfect voor training sessies',
-                    price: '€5,95',
-                    rating: '4.9/5 (234 reviews)',
-                    image: 'https://via.placeholder.com/80x80/3b82f6/FFFFFF?text=Mini',
-                    winkelUrl: '/winkel/mini-training-bites'
-                };
-            } else if (purpose === 'health') {
-                return {
-                    name: 'Biologische Hertenvlees Strips',
-                    description: 'Hypoallergeen, perfect voor gevoelige magen',
-                    price: '€12,50',
-                    rating: '4.9/5 (89 reviews)',
-                    image: 'https://via.placeholder.com/80x80/22c55e/FFFFFF?text=Hert',
-                    winkelUrl: '/winkel/hertenvlees-strips'
-                };
-            } else if (size === 'large') {
-                return {
-                    name: 'Grote Kauwsticks',
-                    description: 'Duurzame kauwsnacks voor grote honden',
-                    price: '€15,95',
-                    rating: '4.7/5 (167 reviews)',
-                    image: 'https://via.placeholder.com/80x80/8b5cf6/FFFFFF?text=Groot',
-                    winkelUrl: '/winkel/grote-kauwsticks'
-                };
-            } else {
-                // Default recommendation
-                return {
-                    name: 'Natuurlijke Zalm Bites',
-                    description: 'Populairste keuze, geschikt voor alle honden',
-                    price: '€8,95',
-                    rating: '4.7/5 (127 reviews)',
-                    image: 'https://via.placeholder.com/80x80/E68161/FFFFFF?text=Zalm',
-                    winkelUrl: '/winkel/natuurlijke-zalm-bites'
-                };
-            }
-        }
-        
-        function restartQuiz() {
-            quizAnswers = {};
-            currentQuestion = 1;
-            
-            // Hide result
-            document.querySelector('.quiz-result').style.display = 'none';
-            
-            // Show first question
-            document.getElementById('question-1').style.display = 'block';
-            document.getElementById('question-2').style.display = 'none';
-            document.getElementById('question-3').style.display = 'none';
-            
-            // Reset progress
-            document.querySelector('.progress-fill').style.width = '33%';
-            document.querySelector('.quiz-progress span').textContent = 'Vraag 1 van 3';
-            
-            // Reset button styles
-            document.querySelectorAll('.option').forEach(btn => {
-                btn.style.borderColor = '#e5e7eb';
-                btn.style.background = 'white';
-            });
-        }
-        
-        // Add hover effects
-        document.addEventListener('DOMContentLoaded', function() {
-            document.querySelectorAll('.option').forEach(btn => {
-                btn.addEventListener('mouseenter', function() {
-                    this.style.borderColor = '#E68161';
-                    this.style.background = '#fef7f0';
-                    this.style.transform = 'translateY(-2px)';
-                });
-                
-                btn.addEventListener('mouseleave', function() {
-                    if (!this.classList.contains('selected')) {
-                        this.style.borderColor = '#e5e7eb';
-                        this.style.background = 'white';
-                        this.style.transform = 'translateY(0)';
-                    }
-                });
-            });
-        });
-    </script>
+    <!-- Quiz JavaScript: Moved to js/quiz.js for better debugging -->
 
     <!-- Scripts -->
+    <script src="js/quiz.js"></script>
     <script src="js/main.js"></script>
     <script src="js/wishlist.js"></script>
 </body>
