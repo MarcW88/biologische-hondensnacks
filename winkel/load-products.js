@@ -5,19 +5,31 @@
 // Charger les produits depuis le catalogue JSON
 async function loadProductsFromCatalog() {
     try {
+        // PRIORITÉ: Si pagination config existe, utiliser directement ces produits
+        if (window.PAGINATION_CONFIG) {
+            console.log(`📄 Page ${window.PAGINATION_CONFIG.currentPage}/${window.PAGINATION_CONFIG.totalPages}`);
+            console.log(`📦 ${window.PAGINATION_CONFIG.products.length} produits sur cette page`);
+            
+            // Utiliser les produits de la page courante (déjà dans le HTML)
+            const paginatedProducts = window.PAGINATION_CONFIG.products;
+            
+            // Enrichir les données
+            return paginatedProducts.map(product => ({
+                ...product,
+                searchTerms: generateSearchTerms(product),
+                isNew: isNewProduct(product),
+                isPopular: product.reviewCount > 200,
+                isBestseller: product.badges && product.badges.includes('bestseller'),
+                bolUrl: ensureBolUrl(product.bolUrl, product),
+                deliveryInfo: getDeliveryInfo(product)
+            }));
+        }
+        
+        // Sinon charger depuis le JSON (fallback pour dev local)
         const response = await fetch('products-catalog.json');
         const products = await response.json();
         
         console.log(`📦 ${products.length} produits chargés depuis le catalogue`);
-
-// Pagination support
-if (window.PAGINATION_CONFIG) {
-  console.log(`📄 Page ${window.PAGINATION_CONFIG.currentPage}/${window.PAGINATION_CONFIG.totalPages}`);
-  // Utiliser les produits de la page courante
-  const paginatedProducts = window.PAGINATION_CONFIG.products;
-  allProducts = paginatedProducts;
-}
-
         
         // Enrichir les données avec des informations calculées
         return products.map(product => ({
@@ -35,11 +47,9 @@ if (window.PAGINATION_CONFIG) {
         }));
         
     } catch (error) {
-        console.error('Erreur lors du chargement du catalogue:', error);
-        
-        // Fallback vers les données de démonstration
-        console.log('📝 Utilisation des données de démonstration...');
-        return getFallbackProducts();
+        console.error('❌ Erreur lors du chargement du catalogue:', error);
+        console.log('⚠️ Vérifiez que products-catalog.json existe et est valide');
+        return []; // Retourner tableau vide au lieu de fallback
     }
 }
 
