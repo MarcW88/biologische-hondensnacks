@@ -9,15 +9,6 @@ async function loadProductsFromCatalog() {
         const products = await response.json();
         
         console.log(`📦 ${products.length} produits chargés depuis le catalogue`);
-
-// Pagination support
-if (window.PAGINATION_CONFIG) {
-  console.log(`📄 Page ${window.PAGINATION_CONFIG.currentPage}/${window.PAGINATION_CONFIG.totalPages}`);
-  // Utiliser les produits de la page courante
-  const paginatedProducts = window.PAGINATION_CONFIG.products;
-  allProducts = paginatedProducts;
-}
-
         
         // Enrichir les données avec des informations calculées
         return products.map(product => ({
