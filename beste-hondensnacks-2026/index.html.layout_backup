@@ -511,7 +511,7 @@
      </p>
     </div>
     <!-- Product #3 -->
-    <div class="product-review mb-lg" id="top-3" style="position: relative; background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); border: 2px solid #e5e7eb; margin-bottom: 3rem;">
+    <div class="product-review mb-lg" id="top-3">
      <div class="grid grid-2" style="align-items: center;">
       <div>
        <img alt="Gevriesdroogde Rund Brokjes" src="../images/Gevriesdroogde Rund Brokjes.jpg" style="width: 100%; max-width: 500px; height: auto; border-radius: 12px; margin-bottom: 1.5rem; display: block;"/>
