@@ -379,6 +379,9 @@
         </p>
        </div>
       </div>
+      <div>
+       <img alt="Natuurlijke Zalm Bites - Beste trainingssnack 2026" loading="lazy" src="https://via.placeholder.com/400x300/E68161/FFFFFF?text=Zalm+Bites" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"/>
+      </div>
      </div>
      <p class="mt-md" style="margin-top: 1.5rem; color: #4a5568;">
       De Natuurlijke Zalm Bites staan terecht op nummer 1. Deze snacks zijn gemaakt van
@@ -426,6 +429,9 @@
     <!-- Product #2 -->
     <div class="product-review mb-lg" id="top-2">
      <div class="grid grid-2" style="align-items: center;">
+      <div>
+       <img alt="Biologische Hertenvlees Strips" loading="lazy" src="https://via.placeholder.com/400x300/E68161/FFFFFF?text=Hertenvlees"/>
+      </div>
       <div>
        <img alt="Hertenvlees Strips" src="../images/Biologische Hertenvlees Strips-2.jpg" style="width: 100%; max-width: 500px; height: auto; border-radius: 12px; margin-bottom: 1.5rem; display: block;"/>
        <h2>
@@ -549,6 +555,9 @@
         Bekijk op bol.com
        </a>
       </div>
+      <div>
+       <img alt="Gevriesdroogde Rund Brokjes" loading="lazy" src="https://via.placeholder.com/400x300/E68161/FFFFFF?text=Rund+Brokjes"/>
+      </div>
      </div>
      <p class="mt-md">
       Het gevriesdroogproces zorgt ervoor dat alle natuurlijke voedingsstoffen behouden blijven terwijl de intense smaak van rund volledig tot zijn recht komt.
@@ -604,6 +613,9 @@
         Kopen op Bol.com
        </a>
       </div>
+      <div>
+       <img alt="Zachte Kip &amp; Rijst Koekjes" loading="lazy" src="https://via.placeholder.com/400x300/E68161/FFFFFF?text=Kip+Rijst" style="border-radius: 8px;"/>
+      </div>
      </div>
     </div>
     <!-- Product #5 -->
@@ -612,6 +624,9 @@
       BESTE PRIJS-KWALITEIT
      </div>
      <div class="grid grid-2" style="align-items: center;">
+      <div>
+       <img alt="Eend &amp; Zoete Aardappel Strips" loading="lazy" src="https://via.placeholder.com/400x300/E68161/FFFFFF?text=Eend+Strips" style="border-radius: 8px;"/>
+      </div>
       <div>
        <img alt="Eend &amp; Zoete Aardappel Strips" src="../images/Eend &amp; Zoete Aardappel Strips.jpg" style="width: 100%; max-width: 500px; height: auto; border-radius: 12px; margin-bottom: 1.5rem; display: block;"/>
        <h2 style="margin-top: 1rem;">
@@ -734,11 +749,17 @@
         Kopen op Bol.com
        </a>
       </div>
+      <div>
+       <img alt="Biologische Lam &amp; Quinoa Bites" loading="lazy" src="https://via.placeholder.com/400x300/E68161/FFFFFF?text=Lam+Quinoa" style="border-radius: 8px;"/>
+      </div>
      </div>
     </div>
     <!-- Product #7 -->
     <div class="product-review mb-lg" id="top-7" style="background: white; padding: 1.5rem; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.1); border: 2px solid #f1f5f9;">
      <div class="grid grid-2" style="align-items: center;">
+      <div>
+       <img alt="Natuurlijke Kauwbotten Mix" loading="lazy" src="https://via.placeholder.com/400x300/E68161/FFFFFF?text=Kauwbotten" style="border-radius: 8px;"/>
+      </div>
       <div>
        <img alt="Natuurlijke Kauwbotten Mix" src="../images/ Natuurlijke Kauwbotten Mix.jpg" style="width: 100%; max-width: 500px; height: auto; border-radius: 12px; margin-bottom: 1.5rem; display: block;"/>
        <h2>
@@ -832,11 +853,17 @@
         Kopen op Bol.com
        </a>
       </div>
+      <div>
+       <img alt="Vis &amp; Zoete Aardappel Jerky" loading="lazy" src="https://via.placeholder.com/400x300/E68161/FFFFFF?text=Vis+Jerky" style="border-radius: 8px;"/>
+      </div>
      </div>
     </div>
     <!-- Product #9 -->
     <div class="product-review mb-lg" id="top-9" style="background: white; padding: 1.5rem; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.1); border: 2px solid #f1f5f9;">
      <div class="grid grid-2" style="align-items: center;">
+      <div>
+       <img alt="Gedroogde Lever Training Bites" loading="lazy" src="https://via.placeholder.com/400x300/E68161/FFFFFF?text=Lever+Bites" style="border-radius: 8px;"/>
+      </div>
       <div>
        <img alt="Gedroogde Lever Training Bites" src="../images/Gedroogde Lever Training Bites .jpg" style="width: 100%; max-width: 500px; height: auto; border-radius: 12px; margin-bottom: 1.5rem; display: block;"/>
        <h2>
@@ -929,6 +956,9 @@
        <a class="btn btn-primary" href="#" style="background: #E68161; padding: 0.75rem 1.5rem;">
         Kopen op Bol.com
        </a>
+      </div>
+      <div>
+       <img alt="Biologische Groente Chips" loading="lazy" src="https://via.placeholder.com/400x300/E68161/FFFFFF?text=Groente+Chips" style="border-radius: 8px;"/>
       </div>
      </div>
     </div>
