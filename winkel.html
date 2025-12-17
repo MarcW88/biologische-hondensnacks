@@ -106,7 +106,7 @@
    </div>
   </div>
   <!-- Hero Section avec gradient moderne -->
-  <section class="hero" style="background: linear-gradient(135deg, rgba(210, 105, 30, 0.95), rgba(139, 69, 19, 0.9)), url('Images/background_homepage.jpg') center/cover; min-height: 500px; display: flex; align-items: center; color: white; position: relative;">
+  <section class="hero" style="background: linear-gradient(135deg, rgba(230, 129, 97, 0.92), rgba(214, 111, 80, 0.88)), url('https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=1600&q=80') center/cover; min-height: 500px; display: flex; align-items: center; color: white; position: relative;">
    <div class="container" style="text-align: center; position: relative; z-index: 2;">
     <div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); border-radius: 20px; padding: 3rem 2rem; max-width: 800px; margin: 0 auto; border: 1px solid rgba(255,255,255,0.2);">
      <h1 style="font-size: 3.5rem; margin-bottom: 1rem; font-weight: 700; background: linear-gradient(45deg, #fff, #f0f0f0); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-shadow: none;">
@@ -124,14 +124,14 @@
      </div>
      <!-- Quick filters stylés -->
      <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; margin-bottom: 2rem;">
-      <button class="quick-filter" onclick="quickFilter('puppy')" style="background: rgba(255,255,255,0.25); border: 2px solid rgba(255,255,255,0.6); color: white; padding: 0.8rem 1.5rem; border-radius: 25px; cursor: pointer; backdrop-filter: blur(15px); font-weight: 600; transition: all 0.3s ease;">
-       Voor Puppy's
+      <button class="quick-filter" onclick="quickFilterSnack('Yak Kaas')" style="background: rgba(255,255,255,0.25); border: 2px solid rgba(255,255,255,0.6); color: white; padding: 0.8rem 1.5rem; border-radius: 25px; cursor: pointer; backdrop-filter: blur(15px); font-weight: 600; transition: all 0.3s ease;">
+       Yak Kaas
       </button>
-      <button class="quick-filter" onclick="quickFilter('budget')" style="background: rgba(255,255,255,0.25); border: 2px solid rgba(255,255,255,0.6); color: white; padding: 0.8rem 1.5rem; border-radius: 25px; cursor: pointer; backdrop-filter: blur(15px); font-weight: 600; transition: all 0.3s ease;">
+      <button class="quick-filter" onclick="quickFilterSnack('Trainers')" style="background: rgba(255,255,255,0.25); border: 2px solid rgba(255,255,255,0.6); color: white; padding: 0.8rem 1.5rem; border-radius: 25px; cursor: pointer; backdrop-filter: blur(15px); font-weight: 600; transition: all 0.3s ease;">
        Trainingssnacks
       </button>
-      <button class="quick-filter" onclick="quickFilter('groot')" style="background: rgba(255,255,255,0.25); border: 2px solid rgba(255,255,255,0.6); color: white; padding: 0.8rem 1.5rem; border-radius: 25px; cursor: pointer; backdrop-filter: blur(15px); font-weight: 600; transition: all 0.3s ease;">
-       Natuurlijk
+      <button class="quick-filter" onclick="quickFilterSnack('Konijn')" style="background: rgba(255,255,255,0.25); border: 2px solid rgba(255,255,255,0.6); color: white; padding: 0.8rem 1.5rem; border-radius: 25px; cursor: pointer; backdrop-filter: blur(15px); font-weight: 600; transition: all 0.3s ease;">
+       Konijn Oren
       </button>
      </div>
      <!-- Trust badges modernisés -->
@@ -164,37 +164,36 @@
       <option value="">
        Alle types
       </option>
-      <option value="Cafetière percolateur">
-       Percolators (56)
-      </option>
-      <option value="Cafetière électrique">
-       Elektrisch (2)
-      </option>
-      <option value="Accessoire (joints et filtres)">
-       Accessoires (4)
-      </option>
+      <option value="Yak Kaas">Yak Kaas</option>
+      <option value="Trainers">Trainers</option>
+      <option value="Assortiment">Assortiment</option>
+      <option value="Konijn">Konijn Oren</option>
+      <option value="Gewei">Gewei</option>
+      <option value="Kophuid">Kophuid</option>
+      <option value="Sticks">Gedraaide Sticks</option>
+      <option value="Filet">Filet</option>
      </select>
-     <select id="filter-inductie" onchange="applyFilters()" style="padding: 0.8rem; border: 2px solid #e0e0e0; border-radius: 8px; background: white;">
+     <select id="filter-doelgroep" onchange="applyFilters()" style="padding: 0.8rem; border: 2px solid #e0e0e0; border-radius: 8px; background: white;">
       <option value="">
-       Alle inductie
+       Alle levensfases
       </option>
-      <option value="Oui">
-       Inductiegeschikt
-      </option>
-      <option value="Non">
-       Niet inductie
-      </option>
+      <option value="Puppy">Puppy (1-12 mnd)</option>
+      <option value="Junior">Junior (1-2 jaar)</option>
+      <option value="Adult">Adult (2-8 jaar)</option>
+      <option value="Elke">Elke levensfase</option>
      </select>
      <select id="filter-merk" onchange="applyFilters()" style="padding: 0.8rem; border: 2px solid #e0e0e0; border-radius: 8px; background: white;">
       <option value="">
        Alle merken
       </option>
-      <option value="Bialetti">
-       Bialetti
-      </option>
-      <option value="Alessi">
-       Alessi
-      </option>
+      <option value="Petstyle Living">Petstyle Living</option>
+      <option value="Topdiervoeding.nl">Topdiervoeding.nl</option>
+      <option value="Chewpi">Chewpi</option>
+      <option value="Boomy">Boomy</option>
+      <option value="snackmeester">Snackmeester</option>
+      <option value="BROK">BROK shop</option>
+      <option value="Lifetime">Lifetime Petfood</option>
+      <option value="Versvleeshonden">Versvleeshonden.nl</option>
      </select>
      <div style="display: flex; align-items: center; gap: 0.5rem;">
       <input id="filter-prijs" max="150" min="0" onchange="applyFilters()" style="width: 120px;" type="range" value="150"/>
@@ -563,19 +562,19 @@
     // Filtres
     function applyFilters() {
         const type = document.getElementById('filter-type').value;
-        const inductie = document.getElementById('filter-inductie').value;
+        const doelgroep = document.getElementById('filter-doelgroep').value;
         const merk = document.getElementById('filter-merk').value;
         const maxPrijs = document.getElementById('filter-prijs').value;
         
         document.getElementById('prijs-display').textContent = `€0-${maxPrijs}`;
         
         filteredProducts = allProducts.filter(product => {
-            const matchType = !type || product.type === type;
-            const matchInductie = !inductie || product.inductie === inductie;
-            const matchMerk = !merk || product.merk === merk;
+            const matchType = !type || (product.type && product.type.includes(type));
+            const matchDoelgroep = !doelgroep || (product.doelgroep && product.doelgroep.includes(doelgroep));
+            const matchMerk = !merk || (product.merk && product.merk.includes(merk));
             const matchPrijs = product.price <= maxPrijs;
             
-            return matchType && matchInductie && matchMerk && matchPrijs;
+            return matchType && matchDoelgroep && matchMerk && matchPrijs;
         });
         
         currentPage = 1;
@@ -583,14 +582,8 @@
         updatePagination();
     }
     
-    function quickFilter(type) {
-        if (type === 'inductie') {
-            document.getElementById('filter-inductie').value = 'Oui';
-        } else if (type === 'budget') {
-            document.getElementById('filter-prijs').value = '50';
-        } else if (type === 'groot') {
-            // Filtrer sur capacité 6+ - nécessiterait un filtre capacité
-        }
+    function quickFilterSnack(type) {
+        document.getElementById('filter-type').value = type;
         applyFilters();
     }
     
@@ -607,7 +600,7 @@
     
     function clearFilters() {
         document.getElementById('filter-type').value = '';
-        document.getElementById('filter-inductie').value = '';
+        document.getElementById('filter-doelgroep').value = '';
         document.getElementById('filter-merk').value = '';
         document.getElementById('filter-prijs').value = '150';
         document.getElementById('sort-select').value = 'populair';
