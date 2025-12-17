@@ -328,6 +328,18 @@ def create_shop_listing_page(products, page_num, total_pages):
     end_idx = start_idx + PRODUCTS_PER_PAGE
     page_products = products[start_idx:end_idx]
     
+    # Déterminer les chemins relatifs selon la profondeur
+    if page_num == 1:
+        path_prefix = '../'  # /winkel/ -> /
+        css_path = '../css/styles.css'
+        shop_css_path = 'shop-styles.css'
+        favicon_path = '../favicon.ico'
+    else:
+        path_prefix = '../../'  # /winkel/page/X/ -> /
+        css_path = '../../css/styles.css'
+        shop_css_path = '../../shop-styles.css'
+        favicon_path = '../../favicon.ico'
+    
     # Générer les product cards
     products_html = ''
     for product in page_products:
@@ -336,9 +348,9 @@ def create_shop_listing_page(products, page_num, total_pages):
         
         products_html += f'''
         <div class="product-card">
-            <a href="../produits/{product['slug']}.html" class="product-link">
+            <a href="{path_prefix}produits/{product['slug']}.html" class="product-link">
                 <div class="product-image-wrapper">
-                    <img src="../{image_path}" alt="{product['name']}" class="product-image" loading="lazy">
+                    <img src="{path_prefix}{image_path}" alt="{product['name']}" class="product-image" loading="lazy">
                 </div>
                 <div class="product-content">
                     <span class="product-brand">{product['brand']}</span>
@@ -349,7 +361,7 @@ def create_shop_listing_page(products, page_num, total_pages):
                 </div>
             </a>
             <div class="product-actions">
-                <a href="../produits/{product['slug']}.html" class="btn-secondary btn-small">
+                <a href="{path_prefix}produits/{product['slug']}.html" class="btn-secondary btn-small">
                     👁️ Details
                 </a>
                 <a href="https://www.bol.com/nl/s/?searchtext={product['name'].replace(' ', '+')}" 
@@ -361,12 +373,17 @@ def create_shop_listing_page(products, page_num, total_pages):
             </div>
         </div>'''
     
-    # Générer la pagination
+    # Générer la pagination avec les bons chemins
     pagination_html = '<div class="pagination">'
     
     # Previous
     if page_num > 1:
-        prev_url = '' if page_num == 2 else f'page/{page_num - 1}/'
+        if page_num == 2:
+            # De la page 2 vers la page 1
+            prev_url = '../'  # Page 1 est à /winkel/
+        else:
+            # De la page 3+ vers page précédente
+            prev_url = f'../{page_num - 1}/'
         pagination_html += f'<a href="{prev_url}" class="pagination-btn">← Vorige</a>'
     
     # Numbers
@@ -374,12 +391,24 @@ def create_shop_listing_page(products, page_num, total_pages):
         if i == page_num:
             pagination_html += f'<span class="pagination-number active">{i}</span>'
         else:
-            page_url = '' if i == 1 else f'page/{i}/'
+            if page_num == 1:
+                # Depuis page 1
+                page_url = f'page/{i}/' if i > 1 else ''
+            else:
+                # Depuis page 2+
+                if i == 1:
+                    page_url = '../'  # Retour à /winkel/
+                else:
+                    page_url = f'../{i}/'
             pagination_html += f'<a href="{page_url}" class="pagination-number">{i}</a>'
     
     # Next
     if page_num < total_pages:
-        pagination_html += f'<a href="page/{page_num + 1}/" class="pagination-btn">Volgende →</a>'
+        if page_num == 1:
+            next_url = f'page/{page_num + 1}/'
+        else:
+            next_url = f'../{page_num + 1}/'
+        pagination_html += f'<a href="{next_url}" class="pagination-btn">Volgende →</a>'
     
     pagination_html += '</div>'
     
@@ -398,26 +427,26 @@ def create_shop_listing_page(products, page_num, total_pages):
     <link rel="canonical" href="https://biologische-hondensnacks.nl/winkel/{'page/' + str(page_num) + '/' if page_num > 1 else ''}">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="icon" type="image/x-icon" href="{favicon_path}">
     
     <!-- Styles -->
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="shop-styles.css">
+    <link rel="stylesheet" href="{css_path}">
+    <link rel="stylesheet" href="{shop_css_path}">
 </head>
 <body>
     <!-- Header -->
     <header class="header">
         <div class="container">
             <div class="header-content">
-                <a href="../" class="logo">
+                <a href="{path_prefix}" class="logo">
                     <span class="logo-icon">🐕</span>
                     <span class="logo-text">Biologische Hondensnacks</span>
                 </a>
                 <nav class="nav">
-                    <a href="../">Home</a>
-                    <a href="../winkel/">Shop</a>
-                    <a href="../over-ons/">Over Ons</a>
-                    <a href="../contact/">Contact</a>
+                    <a href="{path_prefix}">Home</a>
+                    <a href="{path_prefix}winkel/">Shop</a>
+                    <a href="{path_prefix}over-ons/">Over Ons</a>
+                    <a href="{path_prefix}contact/">Contact</a>
                 </nav>
             </div>
         </div>
@@ -472,10 +501,10 @@ def create_shop_listing_page(products, page_num, total_pages):
                 <div>
                     <h3>Links</h3>
                     <ul>
-                        <li><a href="../">Home</a></li>
-                        <li><a href="../winkel/">Shop</a></li>
-                        <li><a href="../over-ons/">Over Ons</a></li>
-                        <li><a href="../contact/">Contact</a></li>
+                        <li><a href="{path_prefix}">Home</a></li>
+                        <li><a href="{path_prefix}winkel/">Shop</a></li>
+                        <li><a href="{path_prefix}over-ons/">Over Ons</a></li>
+                        <li><a href="{path_prefix}contact/">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -483,7 +512,7 @@ def create_shop_listing_page(products, page_num, total_pages):
         </div>
     </footer>
 
-    <script src="../js/main.js"></script>
+    <script src="{path_prefix}js/main.js"></script>
 </body>
 </html>'''
     
