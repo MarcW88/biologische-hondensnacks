@@ -16,8 +16,34 @@ let activeFilters = {
     priceRange: { min: 0, max: 100 }
 };
 
-// Product data - 67 produits avec images correctes
-const allProducts = [
+// Product data - Charge depuis window.PAGINATION_CONFIG si disponible
+let allProducts = [];
+
+// PRIORITÉ: Utiliser window.PAGINATION_CONFIG si disponible (pagination)
+if (typeof window !== 'undefined' && window.PAGINATION_CONFIG && window.PAGINATION_CONFIG.products) {
+    console.log('📄 Utilisation de PAGINATION_CONFIG');
+    allProducts = window.PAGINATION_CONFIG.products.map(p => ({
+        id: p.id,
+        name: p.name,
+        brand: p.brand,
+        category: p.category || 'kauwsnacks',
+        price: p.price,
+        image: p.image,
+        description: p.description,
+        weight: p.weight,
+        age: p.age || ["alle leeftijden"],
+        size: p.size || ["alle maten"],
+        features: p.features || ["natuurlijk"],
+        inStock: p.inStock !== false,
+        rating: p.rating || 4.5,
+        reviews: p.reviewCount || 25,
+        url: p.productUrl || p.url  // Utiliser productUrl en priorité
+    }));
+    console.log(`✅ ${allProducts.length} produits chargés depuis PAGINATION_CONFIG`);
+} else {
+    // FALLBACK: Liste hard-codée pour développement local
+    console.log('📦 Utilisation de la liste hard-codée');
+    allProducts = [
     {
         id: 1,
         name: "Chewpi Kauwstaaf (20+ kg) - Extra Large",
@@ -257,8 +283,9 @@ for (let i = 13; i <= 67; i++) {
     });
 }
 
-// Combiner tous les produits
-allProducts.push(...additionalProducts);
+    // Combiner tous les produits
+    allProducts.push(...additionalProducts);
+}
 
 // Utility Functions
 function generateStars(rating) {
