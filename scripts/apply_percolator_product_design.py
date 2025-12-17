@@ -1,12 +1,29 @@
-<!DOCTYPE html>
+#!/usr/bin/env python3
+"""
+APPLY PERCOLATOR PRODUCT DESIGN
+Applique la structure et le design des pages produit d'italiaanse-percolator
+aux pages produit de biologische-hondensnacks (garde le contenu)
+"""
+
+from pathlib import Path
+from bs4 import BeautifulSoup
+import re
+
+BASE_DIR = Path('/Users/marc/Desktop/biologische-hondensnacks')
+PRODUITS_DIR = BASE_DIR / 'produits'
+
+def create_product_page_html(product_data):
+    """Crée une page produit avec la structure d'italiaanse-percolator"""
+    
+    html = f'''<!DOCTYPE html>
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BROK Stevige Kauwers 2kg - BROK shop | Biologische Hondensnacks</title>
-    <meta name="description" content="Geef je trouwe viervoeter iets om naar uit te kijken met de BROK Stevige Kauwers! Deze premium hondensnacks van het merk BROK shop zijn speciaal ontwo">
+    <title>{product_data['name']} - {product_data['brand']} | Biologische Hondensnacks</title>
+    <meta name="description" content="{product_data['description'][:150]}">
     <link rel="stylesheet" href="../css/styles.css">
-    <link rel="canonical" href="https://biologische-hondensnacks.nl/produits/brok-stevige-kauwers-2kg.html">
+    <link rel="canonical" href="https://biologische-hondensnacks.nl/produits/{product_data['slug']}.html">
     
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="../favicon.ico">
@@ -18,29 +35,29 @@
 
     <!-- Structured Data -->
     <script type="application/ld+json">
-    {
+    {{
     "@context": "https://schema.org/",
     "@type": "Product",
-    "name": "BROK Stevige Kauwers 2kg",
-    "description": "Geef je trouwe viervoeter iets om naar uit te kijken met de BROK Stevige Kauwers! Deze premium hondensnacks van het merk BROK shop zijn speciaal ontworpen voor de sterke kauwers onder ons. Met 2kg aan",
-    "brand": {
+    "name": "{product_data['name']}",
+    "description": "{product_data['description'][:200]}",
+    "brand": {{
         "@type": "Brand",
-        "name": "BROK shop"
-    },
-    "category": "Hondensnack",
-    "image": "https://biologische-hondensnacks.nl../images/BROK Verjaardag Snackpakket .jpg",
-    "url": "https://biologische-hondensnacks.nl/produits/brok-stevige-kauwers-2kg.html",
-    "offers": {
+        "name": "{product_data['brand']}"
+    }},
+    "category": "{product_data.get('type', 'Hondensnack')}",
+    "image": "https://biologische-hondensnacks.nl{product_data['image']}",
+    "url": "https://biologische-hondensnacks.nl/produits/{product_data['slug']}.html",
+    "offers": {{
         "@type": "Offer",
-        "price": "31.50",
+        "price": "{product_data['price']}",
         "priceCurrency": "EUR",
         "availability": "https://schema.org/InStock",
-        "seller": {
+        "seller": {{
             "@type": "Organization",
             "name": "Biologische Hondensnacks"
-        }
-    }
-}
+        }}
+    }}
+}}
     </script>
 </head>
 <body>
@@ -67,40 +84,36 @@
         <nav style="margin-bottom: 2rem; font-size: 0.9rem; color: #666;">
             <a href="../index.html" style="color: #666; text-decoration: none;">Home</a> > 
             <a href="../winkel.html" style="color: #666; text-decoration: none;">Winkel</a> > 
-            <span style="color: #E68161; font-weight: 600;">BROK Stevige Kauwers 2kg</span>
+            <span style="color: #E68161; font-weight: 600;">{product_data['name']}</span>
         </nav>
 
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin-bottom: 3rem;">
             <!-- Image produit -->
             <div>
-                <img src="../images/BROK Verjaardag Snackpakket .jpg" alt="BROK Stevige Kauwers 2kg" 
+                <img src="{product_data['image']}" alt="{product_data['name']}" 
                      style="width: 100%; border-radius: 12px; box-shadow: 0 8px 25px rgba(0,0,0,0.15);"
                      onerror="this.src='../images/placeholder.jpg'">
             </div>
 
             <!-- Infos produit -->
             <div>
-                <h1 style="font-size: 2.2rem; margin-bottom: 1rem; line-height: 1.2;">BROK Stevige Kauwers 2kg</h1>
+                <h1 style="font-size: 2.2rem; margin-bottom: 1rem; line-height: 1.2;">{product_data['name']}</h1>
                 
                 <!-- Brand badge -->
                 <div style="display: inline-block; background: #f8f9fa; color: #E68161; padding: 0.5rem 1rem; border-radius: 8px; font-weight: 600; margin-bottom: 1.5rem;">
-                    BROK shop
+                    {product_data['brand']}
                 </div>
 
                 <!-- Prix -->
                 <div style="font-size: 2.5rem; font-weight: bold; color: #E68161; margin-bottom: 2rem;">
-                    €31.50
+                    €{product_data['price']}
                 </div>
 
                 <!-- Description -->
                 <div style="margin-bottom: 2rem;">
                     <h3 style="font-size: 1.2rem; margin-bottom: 1rem;">Productbeschrijving</h3>
                     <p style="color: #666; line-height: 1.6; font-size: 1rem;">
-                        Geef je trouwe viervoeter iets om naar uit te kijken met de BROK Stevige Kauwers! Deze premium hondensnacks van het merk BROK shop zijn speciaal ontworpen voor de sterke kauwers onder ons. Met 2kg aan overheerlijke, gevarieerde lekkernijen heeft je hond iets om echt zijn tanden in te zetten. 
-
-De BROK Stevige Kauwers zijn een gezonde keuze voor je hond. Ze zitten barstensvol eiwitten en zijn gemaakt van 100% natuurlijke ingrediënten. Dus geen zorgen over ongezonde vulstoffen of kunstmatige toevoegingen. Bovendien helpen ze bij het reinigen van de tanden van je hond, wat bijdraagt aan een goede mondhygiëne.
-
-Urenlang kauwplezier en een gezonde traktatie in één, dat is wat de BROK Stevige Kauwers je hond bieden. Verwen je hond vandaag nog met deze smakelijke snacks en zie hoe hij geniet van elke heerlijke hap. BROK shop, waar de gezondheid en het geluk van je hond op nummer één staan!
+                        {product_data['description']}
                     </p>
                 </div>
 
@@ -108,16 +121,16 @@ Urenlang kauwplezier en een gezonde traktatie in één, dat is wat de BROK Stevi
                 <div style="margin-bottom: 2rem;">
                     <h3 style="font-size: 1.2rem; margin-bottom: 1rem;">Specificaties</h3>
                     <ul style="list-style: none; padding: 0;">
-                        <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee; display: flex; justify-content: space-between;"><span style="font-weight: 600;">Merk:</span><span> BROK shop</span></li>
-                        <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee; display: flex; justify-content: space-between;"><span style="font-weight: 600;">Type:</span><span> Hondensnack</span></li>
-                        <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee; display: flex; justify-content: space-between;"><span style="font-weight: 600;">Gewicht:</span><span> N/A</span></li>
-                        <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee; display: flex; justify-content: space-between;"><span style="font-weight: 600;">Doelgroep:</span><span> Alle honden</span></li>
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee; display: flex; justify-content: space-between;"><span style="font-weight: 600;">Merk:</span><span> {product_data['brand']}</span></li>
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee; display: flex; justify-content: space-between;"><span style="font-weight: 600;">Type:</span><span> {product_data.get('type', 'Hondensnack')}</span></li>
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee; display: flex; justify-content: space-between;"><span style="font-weight: 600;">Gewicht:</span><span> {product_data.get('gewicht', 'N/A')}</span></li>
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee; display: flex; justify-content: space-between;"><span style="font-weight: 600;">Doelgroep:</span><span> {product_data.get('doelgroep', 'Alle honden')}</span></li>
                     </ul>
                 </div>
 
                 <!-- CTA Button -->
                 <div style="margin-bottom: 2rem;">
-                    <a href="https://www.bol.com/nl/s/?searchtext=BROK+Stevige+Kauwers+2kg" target="_blank" rel="nofollow" 
+                    <a href="https://www.bol.com/nl/s/?searchtext={product_data['name'].replace(' ', '+')}" target="_blank" rel="nofollow" 
                        style="display: inline-block; background: linear-gradient(135deg, #E68161, #D66F50); color: white; padding: 1rem 2rem; text-decoration: none; border-radius: 8px; font-size: 1.1rem; font-weight: 600; box-shadow: 0 4px 15px rgba(230, 129, 97, 0.3); transition: all 0.3s ease;">
                         Koop nu op Bol.com →
                     </a>
@@ -143,9 +156,9 @@ Urenlang kauwplezier en een gezonde traktatie in één, dat is wat de BROK Stevi
 
         <!-- SEO Content Section -->
         <div style="background: white; padding: 2rem; border-radius: 12px; margin-top: 2rem;">
-            <h2 style="font-size: 1.8rem; margin-bottom: 1.5rem;">Waarom kiezen voor BROK Stevige Kauwers 2kg?</h2>
+            <h2 style="font-size: 1.8rem; margin-bottom: 1.5rem;">Waarom kiezen voor {product_data['name']}?</h2>
             <p style="color: #666; line-height: 1.8; font-size: 1rem; margin-bottom: 1.5rem;">
-                De BROK Stevige Kauwers 2kg van BROK shop is een uitstekende keuze voor hondenliefhebbers die op zoek zijn naar hoogwaardige, natuurlijke snacks. Deze snack combineert smaak en gezondheid, perfect voor honden van alle leeftijden.
+                De {product_data['name']} van {product_data['brand']} is een uitstekende keuze voor hondenliefhebbers die op zoek zijn naar hoogwaardige, natuurlijke snacks. Deze snack combineert smaak en gezondheid, perfect voor honden van alle leeftijden.
             </p>
             <h3 style="font-size: 1.4rem; margin-bottom: 1rem;">Voordelen van natuurlijke hondensnacks</h3>
             <ul style="color: #666; line-height: 1.8; padding-left: 1.5rem;">
@@ -199,4 +212,131 @@ Urenlang kauwplezier en een gezonde traktatie in één, dat is wat de BROK Stevi
 
     <script src="../js/main.js"></script>
 </body>
-</html>
+</html>'''
+    
+    return html
+
+def extract_product_data(html_file):
+    """Extrait les données d'un produit depuis son HTML actuel"""
+    with open(html_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    soup = BeautifulSoup(content, 'html.parser')
+    
+    # Extraire données du schema.org
+    script = soup.find('script', type='application/ld+json')
+    data = {
+        'name': 'Produit',
+        'brand': '',
+        'description': '',
+        'price': '0',
+        'type': 'Hondensnack',
+        'gewicht': 'N/A',
+        'doelgroep': 'Alle honden',
+        'image': '../images/placeholder.jpg',
+        'slug': html_file.stem
+    }
+    
+    if script:
+        import json
+        try:
+            schema = json.loads(script.string)
+            data['name'] = schema.get('name', data['name'])
+            if 'brand' in schema and isinstance(schema['brand'], dict):
+                data['brand'] = schema['brand'].get('name', '')
+            data['description'] = schema.get('description', '')
+            if 'offers' in schema:
+                data['price'] = str(schema['offers'].get('price', '0'))
+        except:
+            pass
+    
+    # Extraire données du HTML
+    h1 = soup.find('h1')
+    if h1:
+        data['name'] = h1.get_text(strip=True)
+    
+    # Prix
+    price_elem = soup.find(class_='price-current') or soup.find(class_='product-price')
+    if price_elem:
+        price_text = price_elem.get_text(strip=True)
+        match = re.search(r'€?\s*(\d+[.,]\d+)', price_text)
+        if match:
+            data['price'] = match.group(1).replace(',', '.')
+    
+    # Brand
+    brand_elem = soup.find(class_='brand') or soup.find(class_='product-brand')
+    if brand_elem:
+        data['brand'] = brand_elem.get_text(strip=True)
+    
+    # Description
+    desc_elem = soup.find(class_='product-description')
+    if desc_elem:
+        paragraphs = desc_elem.find_all('p')
+        if paragraphs:
+            data['description'] = ' '.join([p.get_text(strip=True) for p in paragraphs])
+    
+    # Image
+    img = soup.find('img', alt=True)
+    if img and 'src' in img.attrs:
+        data['image'] = img['src']
+    
+    return data
+
+def process_all_products():
+    """Traite toutes les pages produit"""
+    count = 0
+    errors = []
+    
+    for html_file in PRODUITS_DIR.glob('*.html'):
+        if html_file.name == 'index.html':
+            continue
+            
+        try:
+            # Extraire données
+            product_data = extract_product_data(html_file)
+            
+            # Générer nouveau HTML
+            new_html = create_product_page_html(product_data)
+            
+            # Sauvegarder
+            with open(html_file, 'w', encoding='utf-8') as f:
+                f.write(new_html)
+            
+            count += 1
+            if count % 10 == 0:
+                print(f"  ✅ {count} produits traités...")
+                
+        except Exception as e:
+            errors.append(f"{html_file.name}: {e}")
+    
+    return count, errors
+
+def main():
+    print("🎨 APPLICATION DESIGN PAGES PRODUIT (PERCOLATOR STYLE)")
+    print("=" * 60)
+    print("Structure: italiaanse-percolator")
+    print("Contenu: biologische-hondensnacks")
+    print()
+    
+    print("📝 Traitement des pages produit...")
+    count, errors = process_all_products()
+    
+    print()
+    print("=" * 60)
+    print(f"✅ {count} pages produit mises à jour!")
+    
+    if errors:
+        print(f"\n⚠️  {len(errors)} erreurs:")
+        for error in errors[:5]:
+            print(f"  - {error}")
+    
+    print("\nStructure appliquée:")
+    print("  - Grid 2 colonnes (image + infos)")
+    print("  - Breadcrumb compact")
+    print("  - Prix en €E68161")
+    print("  - CTA Bol.com avec gradient")
+    print("  - Trust badges")
+    print("  - Section SEO en bas")
+
+if __name__ == '__main__':
+    main()
