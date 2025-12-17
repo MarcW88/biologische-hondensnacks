@@ -314,9 +314,9 @@ function renderProducts() {
         return;
     }
     
-    const startIndex = (currentPage - 1) * productsPerPage;
-    const endIndex = startIndex + productsPerPage;
-    const productsToShow = filteredProducts.slice(0, endIndex);
+    // Afficher TOUS les produits disponibles
+    // window.PAGINATION_CONFIG contient déjà les bons produits pour chaque page
+    const productsToShow = filteredProducts;
     
     if (productsToShow.length === 0) {
         productsGrid.innerHTML = '<p>Geen producten gevonden.</p>';
