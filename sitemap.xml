@@ -56,7 +56,27 @@
         <priority>0.7</priority>
     </url>
     
+    <!-- New category hubs -->
+    <url>
+        <loc>https://biologische-hondensnacks.nl/hypoallergene-hondensnacks/</loc>
+        <lastmod>2026-02-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://biologische-hondensnacks.nl/kauwsnacks-tandverzorging/</loc>
+        <lastmod>2026-02-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
     <!-- Blog articles -->
+    <url>
+        <loc>https://biologische-hondensnacks.nl/blog/hoeveel-hondensnacks-per-dag/</loc>
+        <lastmod>2026-02-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
     <url>
         <loc>https://biologische-hondensnacks.nl/blog/waarom-biologische-snacks-beter-zijn/</loc>
         <lastmod>2024-11-23</lastmod>
