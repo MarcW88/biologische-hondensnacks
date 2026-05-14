@@ -8,8 +8,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/honden-kauwspeelgoed-touwspeelgoed-hond-tandverzorging-hond-met-piepfunctie-15-x-10-x-4-cm-meerkleurig/9300000285204981/",
     brand: "Merkloos / Sans marque",
     description: "Vermaak uw trouwe viervoeter urenlang met dit interactieve honden kauwspeelgoed. Dit speelgoed is speciaal ontworpen om te voldoen aan de natuurlijke kauwbehoefte van uw hond en helpt tegelijkertijd b",
-    slug: "honden-kauwspeelgoed---touwspeelgoed-hond---tandverzorging-hond---met-piepfunctie---15-x-10-x-4-cm---meerkleurig",
-    pageUrl: 'produits/honden-kauwspeelgoed---touwspeelgoed-hond---tandverzorging-hond---met-piepfunctie---15-x-10-x-4-cm---meerkleurig.html'
+    slug: "honden-kauwspeelgoed-touwspeelgoed-hond-tandverzorging-hond-met-piepfunctie-15-x-10-x-4-cm-meerkleurig",
+    pageUrl: 'produits/honden-kauwspeelgoed-touwspeelgoed-hond-tandverzorging-hond-met-piepfunctie-15-x-10-x-4-cm-meerkleurig.html'
   },
   {
     id: 2,
@@ -19,8 +19,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/hond-bijtring-knuffel-huisdier-kauwspeelgoed-tandjes-ondersteuning-piepend-dierengeluid-34-cm-lengte-groen/9300000269967050/",
     brand: "Merkloos / Sans marque",
     description: "Verwen uw trouwe viervoeter met dit vrolijke en interactieve bijtring knuffelspeeltje, speciaal ontworpen om urenlang speelplezier te garanderen en tegelijkertijd de mondgezondheid van uw hond te onde",
-    slug: "hond-bijtring-knuffel---huisdier-kauwspeelgoed---tandjes-ondersteuning---piepend-dierengeluid---34-cm-lengte---groen",
-    pageUrl: 'produits/hond-bijtring-knuffel---huisdier-kauwspeelgoed---tandjes-ondersteuning---piepend-dierengeluid---34-cm-lengte---groen.html'
+    slug: "hond-bijtring-knuffel-huisdier-kauwspeelgoed-tandjes-ondersteuning-piepend-dierengeluid-34-cm-lengte-groen",
+    pageUrl: 'produits/hond-bijtring-knuffel-huisdier-kauwspeelgoed-tandjes-ondersteuning-piepend-dierengeluid-34-cm-lengte-groen.html'
   },
   {
     id: 3,
@@ -30,8 +30,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/hondenspeelgoed-schoenvorm-kauwspeelgoed-hond-verveling-verminderen-duurzaam-canvas-materiaal-26-cm-lengte-geel/9300000271656225/",
     brand: "Merkloos / Sans marque",
     description: "Verrijk het leven van uw trouwe viervoeter met dit unieke en duurzame hondenspeelgoed, speciaal ontworpen om verveling tegen te gaan en overtollige energie te kanaliseren. Dit speelse schoenvormige sp",
-    slug: "hondenspeelgoed-schoenvorm---kauwspeelgoed-hond---verveling-verminderen---duurzaam-canvas-materiaal---26-cm-lengte---geel",
-    pageUrl: 'produits/hondenspeelgoed-schoenvorm---kauwspeelgoed-hond---verveling-verminderen---duurzaam-canvas-materiaal---26-cm-lengte---geel.html'
+    slug: "hondenspeelgoed-schoenvorm-kauwspeelgoed-hond-verveling-verminderen-duurzaam-canvas-materiaal-26-cm-lengte-geel",
+    pageUrl: 'produits/hondenspeelgoed-schoenvorm-kauwspeelgoed-hond-verveling-verminderen-duurzaam-canvas-materiaal-26-cm-lengte-geel.html'
   },
   {
     id: 4,
@@ -41,8 +41,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/hondenspeelgoed-jute-kauwspeelgoed-hond-actieve-hond-duurzaam-materiaal-16-x-15-x-8-cm-natuurlijk/9300000285203904/",
     brand: "Merkloos / Sans marque",
     description: "Vermaak uw trouwe viervoeter met dit stevige hondenspeelgoed van jute. Speciaal ontworpen om de natuurlijke kauwbehoefte van uw hond te bevredigen en verveling tegen te gaan. Dit speelgoed is ideaal v",
-    slug: "hondenspeelgoed-jute---kauwspeelgoed-hond---actieve-hond---duurzaam-materiaal---16-x-15-x-8-cm---natuurlijk",
-    pageUrl: 'produits/hondenspeelgoed-jute---kauwspeelgoed-hond---actieve-hond---duurzaam-materiaal---16-x-15-x-8-cm---natuurlijk.html'
+    slug: "hondenspeelgoed-jute-kauwspeelgoed-hond-actieve-hond-duurzaam-materiaal-16-x-15-x-8-cm-natuurlijk",
+    pageUrl: 'produits/hondenspeelgoed-jute-kauwspeelgoed-hond-actieve-hond-duurzaam-materiaal-16-x-15-x-8-cm-natuurlijk.html'
   },
   {
     id: 5,
@@ -52,8 +52,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/eenden-trainers-hondensnack-2kg-100-natuurlijk-gedroogd-training/9300000187176533/",
     brand: "Merkloos / Sans marque",
     description: "<p>Maak elke trainingssessie een feest met onze <strong>eenden trainers</strong>. Deze heerlijke en voedzame snacks zijn speciaal ontworpen om je hond te belonen en te motiveren, terwijl ze tegelijker",
-    slug: "eenden-trainers---hondensnack---2kg---100-natuurlijk---gedroogd---training",
-    pageUrl: 'produits/eenden-trainers---hondensnack---2kg---100-natuurlijk---gedroogd---training.html'
+    slug: "eenden-trainers-hondensnack-2kg-100-natuurlijk-gedroogd-training",
+    pageUrl: 'produits/eenden-trainers-hondensnack-2kg-100-natuurlijk-gedroogd-training.html'
   },
   {
     id: 6,
@@ -74,8 +74,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/yourdog-glen-of-imaal-terrier-senior/9300000020614607/",
     brand: "Yourdog",
     description: "<p>Yourdog Glen of imaal terri\u00ebr zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren dit met zorgvuldig geselect",
-    slug: "hondenvoer-yourdog---glen-of-imaal-terri\u00ebr-senior---buffel-en-kip-3kg",
-    pageUrl: 'produits/hondenvoer-yourdog---glen-of-imaal-terriër-senior---buffel-en-kip-3kg.html'
+    slug: "hondenvoer-yourdog-glen-of-imaal-terri\u00ebr-senior-buffel-en-kip-3kg",
+    pageUrl: 'produits/hondenvoer-yourdog-glen-of-imaal-terriër-senior-buffel-en-kip-3kg.html'
   },
   {
     id: 8,
@@ -96,8 +96,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/carnilove-salmon-turkey-puppies-large-breed-1-5-kg-1-stuks/9300000032850173/",
     brand: "Carnilove",
     description: "Carnilove Salmon / Turkey Puppies 1,5 kg Carnilove Salmon / Turkey Puppies 1,5 kg is graanvrij, kwalitatief hoogwaardig hondenvoer voor jonge honden van grote rassen met zalm en kalkoen, aansluitend b",
-    slug: "carnilove-salmon--turkey-puppies-large-breed---15-kg---1-stuks",
-    pageUrl: 'produits/carnilove-salmon--turkey-puppies-large-breed---15-kg---1-stuks.html'
+    slug: "carnilove-salmon--turkey-puppies-large-breed-15-kg-1-stuks",
+    pageUrl: 'produits/carnilove-salmon--turkey-puppies-large-breed-15-kg-1-stuks.html'
   },
   {
     id: 10,
@@ -118,8 +118,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/puur-fit-top-quality-hondenvoer-alle-rassen-zalm-12-kilo/9200000074711859/",
     brand: "Puur Fit",
     description: "Puur Fit alle leeftijden zalm is een top kwaliteit hondenbrok, die ook nog eens graanvrij is. het bevat 34.4% zalm, waarvan ruim de helft verse zalm ( 58%). Het feit dat Puur Fit Top Quality graanvrij",
-    slug: "puur-fit-top-quality---hondenvoer---alle-rassen-zalm-12-kilo",
-    pageUrl: 'produits/puur-fit-top-quality---hondenvoer---alle-rassen-zalm-12-kilo.html'
+    slug: "puur-fit-top-quality-hondenvoer-alle-rassen-zalm-12-kilo",
+    pageUrl: 'produits/puur-fit-top-quality-hondenvoer-alle-rassen-zalm-12-kilo.html'
   },
   {
     id: 12,
@@ -129,8 +129,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/just4animals-paardenmix-gedroogd-250-g-voor-honden/9300000172975389/",
     brand: "Just4Animals",
     description: "<p>deze snack/ kauwartikelen , vermijden allergieen .</p> <p>spijtig van het paard maar op deze manier gaat niets verloren en is je hond ook nog blij.</p> <p>100% natuurlijk gezond en lekker - glutenv",
-    slug: "just4animals---paardenmix-gedroogd-250-g-voor-honden---ideaal-voor-honden-met-allergie---puur-en-gezond-als-snack-of-aanvullende-voeding",
-    pageUrl: 'produits/just4animals---paardenmix-gedroogd-250-g-voor-honden---ideaal-voor-honden-met-allergie---puur-en-gezond-als-snack-of-aanvullende-voeding.html'
+    slug: "just4animals-paardenmix-gedroogd-250-g-voor-honden-ideaal-voor-honden-met-allergie-puur-en-gezond-als-snack-of-aanvullende-voeding",
+    pageUrl: 'produits/just4animals-paardenmix-gedroogd-250-g-voor-honden-ideaal-voor-honden-met-allergie-puur-en-gezond-als-snack-of-aanvullende-voeding.html'
   },
   {
     id: 13,
@@ -140,8 +140,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/woef-woef-snacks-hondensnacks-wildzwijn-strips-verwensnacks-gedroogd-vlees-wild-zwijn-vanaf-3-maanden-geen-toevoegingen-1-10-kg/9300000129010434/",
     brand: "Woef Woef Snacks",
     description: "<h3>Wildzwijn Strips \u2013 Natuurlijke Kauwsnacks voor Honden & Puppy\u2019s</h3> <p>Zet je schobbejakkie alvast op scherp met onze onweerstaanbare Wildzwijn Strips! Onze Wildzwijn strips zijn makkelijk te kau",
-    slug: "woef-woef-snacks-hondensnacks-wildzwijn-strips---100-kg---verwensnacks---gedroogd-vlees---wild-zwijn---vanaf-3-maanden---geen-toevoegingen",
-    pageUrl: 'produits/woef-woef-snacks-hondensnacks-wildzwijn-strips---100-kg---verwensnacks---gedroogd-vlees---wild-zwijn---vanaf-3-maanden---geen-toevoegingen.html'
+    slug: "woef-woef-snacks-hondensnacks-wildzwijn-strips-100-kg-verwensnacks-gedroogd-vlees-wild-zwijn-vanaf-3-maanden-geen-toevoegingen",
+    pageUrl: 'produits/woef-woef-snacks-hondensnacks-wildzwijn-strips-100-kg-verwensnacks-gedroogd-vlees-wild-zwijn-vanaf-3-maanden-geen-toevoegingen.html'
   },
   {
     id: 14,
@@ -151,8 +151,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/bioresonantie-hondenbrokken-11-kg-puppy-allergic-grain-free/9300000075759687/",
     brand: "Bioresonantie",
     description: "Bioresonantie Puppy Hypo Allergic Grain-Free<br />Speciaal ontwikkeld voor puppy's en jonge honden met een voedselallergie. <br /><br />Samenstelling:<br />Groenten, vis en visbijproducten, plantaardi",
-    slug: "bioresonantie-hondenbrokken---11-kg---puppy-allergic-grain-free",
-    pageUrl: 'produits/bioresonantie-hondenbrokken---11-kg---puppy-allergic-grain-free.html'
+    slug: "bioresonantie-hondenbrokken-11-kg-puppy-allergic-grain-free",
+    pageUrl: 'produits/bioresonantie-hondenbrokken-11-kg-puppy-allergic-grain-free.html'
   },
   {
     id: 15,
@@ -162,8 +162,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/renske-renske-chhurpi-kauwkluif/9300000008768186/",
     brand: "Renske",
     description: "<p><strong>Renske Chhurpi Kauwkluif XS 27 gr</strong><br />De Renske Chhurpi Kauwkluif XS 27 gr is een natuurlijke hondensnack van kaas, gebaseerd op een recept uit de Himalaya zonder gluten en granen",
-    slug: "renske-chhurpi-kauwkluif-melk---hondensnacks---xs-geschikt-voor-alle-rassen-en-leeftijden",
-    pageUrl: 'produits/renske-chhurpi-kauwkluif-melk---hondensnacks---xs-geschikt-voor-alle-rassen-en-leeftijden.html'
+    slug: "renske-chhurpi-kauwkluif-melk-hondensnacks-xs-geschikt-voor-alle-rassen-en-leeftijden",
+    pageUrl: 'produits/renske-chhurpi-kauwkluif-melk-hondensnacks-xs-geschikt-voor-alle-rassen-en-leeftijden.html'
   },
   {
     id: 16,
@@ -173,8 +173,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/wit-bot-met-kip-20cm-1-stuks-hondensnacks-kauwsnacks-kip-kauwbot-hondenbot-gedroogd/9300000019671925/",
     brand: "Landman Hoevelaken",
     description: "<p>Het <strong>Landman Kauwbot met Kip (20 cm)</strong> is een stevige, hoogwaardige kauwsnack gemaakt van duurzame runderhuid, zorgvuldig omwikkeld met een smakelijke laag echte kip. Dit extra grote ",
-    slug: "landman-kauwbot-met-kip---20cm---hondensnacks---hondensnoepjes---kauwstaaf-hond",
-    pageUrl: 'produits/landman-kauwbot-met-kip---20cm---hondensnacks---hondensnoepjes---kauwstaaf-hond.html'
+    slug: "landman-kauwbot-met-kip-20cm-hondensnacks-hondensnoepjes-kauwstaaf-hond",
+    pageUrl: 'produits/landman-kauwbot-met-kip-20cm-hondensnacks-hondensnoepjes-kauwstaaf-hond.html'
   },
   {
     id: 17,
@@ -184,8 +184,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/vitalstyle-maag-darm-hondenbrokken-12-kg/9300000187552841/",
     brand: "VITALstyle",
     description: "<p><strong>Alles over Maag & Darmen hondenbrokken</strong></p> <p>VITALstyle Maag & Darmen is een 100% natuurlijke hondenbrok, speciaal ontwikkeld voor honden met een gevoelige spijsvertering. Deze co",
-    slug: "vitalstyle-maag--darmen---geperste-hondenbrokken---voor-honden-met-een-gevoelige-spijsvertering---met-oa-heemswortel--prebiotica---12-kg",
-    pageUrl: 'produits/vitalstyle-maag--darmen---geperste-hondenbrokken---voor-honden-met-een-gevoelige-spijsvertering---met-oa-heemswortel--prebiotica---12-kg.html'
+    slug: "vitalstyle-maag--darmen-geperste-hondenbrokken-voor-honden-met-een-gevoelige-spijsvertering-met-oa-heemswortel--prebiotica-12-kg",
+    pageUrl: 'produits/vitalstyle-maag--darmen-geperste-hondenbrokken-voor-honden-met-een-gevoelige-spijsvertering-met-oa-heemswortel--prebiotica-12-kg.html'
   },
   {
     id: 18,
@@ -195,8 +195,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/edgard-cooper-hondenvoer-droog-adult-small-zalm-700-gr/9300000259212204/",
     brand: "Edgard & Cooper",
     description: "Edgard & Cooper Hondenvoer Droog Adult Small ZalmEdgard & Cooper Hondenvoer Droog Adult Small Zalm is bereid met uitsluitend verse zalm en bevatten geen vismeel. Zo krijgt jouw hond eiwitten van topkw",
-    slug: "edgardcooper-small-adult-dog-zalm---hondenvoer---700-g",
-    pageUrl: 'produits/edgardcooper-small-adult-dog-zalm---hondenvoer---700-g.html'
+    slug: "edgardcooper-small-adult-dog-zalm-hondenvoer-700-g",
+    pageUrl: 'produits/edgardcooper-small-adult-dog-zalm-hondenvoer-700-g.html'
   },
   {
     id: 19,
@@ -217,8 +217,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/fokker-dog-special-fit-3-hondenvoer-2-5-kg/9300000083406194/",
     brand: "Fokker",
     description: "<p>Fokker Special-Fit 3 is een High Premium hondenvoeding voor volwassen honden vanaf 1 jaar. Deze kwaliteitsvoeding bevat de beste ingredi\u00ebnten en de  juiste samenstelling en is toegespitst op specif",
-    slug: "fokker-dog-special-fit-3---hondenvoer---25-kg",
-    pageUrl: 'produits/fokker-dog-special-fit-3---hondenvoer---25-kg.html'
+    slug: "fokker-dog-special-fit-3-hondenvoer-25-kg",
+    pageUrl: 'produits/fokker-dog-special-fit-3-hondenvoer-25-kg.html'
   },
   {
     id: 21,
@@ -228,8 +228,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/lily-s-kitchen-dog-adult-lamb-shepherd-s-pie-7-kg/9300000008461652/",
     brand: "Lily's Kitchen",
     description: "<p><strong>Lily's Kitchen Boerenschotel met Lam</strong></p> <p>Wij zijn Lily's Kitchen, vernoemd naar de geliefde borderterri\u00ebr Lily. Bij Lily's Kitchen geloven we dat huisdieren het allerbeste verdi",
-    slug: "lilys-kitchen---hondenvoer---droogvoer---boerenschotel-met-lam---7-kg",
-    pageUrl: 'produits/lilys-kitchen---hondenvoer---droogvoer---boerenschotel-met-lam---7-kg.html'
+    slug: "lilys-kitchen-hondenvoer-droogvoer-boerenschotel-met-lam-7-kg",
+    pageUrl: 'produits/lilys-kitchen-hondenvoer-droogvoer-boerenschotel-met-lam-7-kg.html'
   },
   {
     id: 22,
@@ -239,8 +239,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/acana-singles-grass-fed-lamb-dog/9200000075911356/",
     brand: "Acana",
     description: "<h3>Heerlijke brokken voor jouw viervoeter</h3> <br /> <p>Jij wilt natuurlijk het beste geven aan je hond! ACANA Singles Grass-Fed Lamb is speciaal voor de kieskeurige eters met een gevoelige maag. De",
-    slug: "acana-singles-grass-fed-lamb-lamappel---hondenvoer---6-kg",
-    pageUrl: 'produits/acana-singles-grass-fed-lamb-lamappel---hondenvoer---6-kg.html'
+    slug: "acana-singles-grass-fed-lamb-lamappel-hondenvoer-6-kg",
+    pageUrl: 'produits/acana-singles-grass-fed-lamb-lamappel-hondenvoer-6-kg.html'
   },
   {
     id: 23,
@@ -261,8 +261,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/yourdog-middenslag-schnauzer-volwassen/9300000020615058/",
     brand: "Yourdog",
     description: "<p>Yourdog Middenslag schnauzer zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren dit met zorgvuldig geselecte",
-    slug: "yourdog-hondenvoer---middenslag-schnauzer---buffel-en-kippenvlees-3kg",
-    pageUrl: 'produits/yourdog-hondenvoer---middenslag-schnauzer---buffel-en-kippenvlees-3kg.html'
+    slug: "yourdog-hondenvoer-middenslag-schnauzer-buffel-en-kippenvlees-3kg",
+    pageUrl: 'produits/yourdog-hondenvoer-middenslag-schnauzer-buffel-en-kippenvlees-3kg.html'
   },
   {
     id: 25,
@@ -272,8 +272,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/beessies-donut-hondenmand-hondenkussen-120-cm-wasbare-hoes-gebroken-wit-hond-kussen-mand/9300000101261877/",
     brand: "KUSSIES",
     description: "<p> In 34 kleuren! Tijdelijk met <strong>GRATIS</strong> beloningstasje en sticker voor aan je riem!<br /><br />LET OP: de eerste afbeelding is geen indicatie van de afmeting van dit kussen. Zie daarv",
-    slug: "kussies-kussen-120-cm-met-wasbare-hoes---gebroken-wit---hondenkussen-speelkussen-kind---donut-zitzak-ronde-hondenmand-loungekussen-harige-witte",
-    pageUrl: 'produits/kussies-kussen-120-cm-met-wasbare-hoes---gebroken-wit---hondenkussen-speelkussen-kind---donut-zitzak-ronde-hondenmand-loungekussen-harige-witte.html'
+    slug: "kussies-kussen-120-cm-met-wasbare-hoes-gebroken-wit-hondenkussen-speelkussen-kind-donut-zitzak-ronde-hondenmand-loungekussen-harige-witte",
+    pageUrl: 'produits/kussies-kussen-120-cm-met-wasbare-hoes-gebroken-wit-hondenkussen-speelkussen-kind-donut-zitzak-ronde-hondenmand-loungekussen-harige-witte.html'
   },
   {
     id: 26,
@@ -283,8 +283,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/beessies-donut-hondenmand-hondenkussen-120-cm-wasbare-hoes-donker-rood-hond-kussen-mand/9300000033118034/",
     brand: "KUSSIES",
     description: "<p> In 34 kleuren! Tijdelijk met <strong>GRATIS</strong> beloningstasje en sticker voor aan je riem!<br /><br />LET OP: de eerste afbeelding is geen indicatie van de afmeting van dit kussen. Zie daarv",
-    slug: "kussies-kussen-120-cm-met-wasbare-hoes---donkerrood---hondenkussen-kinder-speelkussen---donut-zitzak-rond-hondenmand-zitkussen-rood-rode-donkerrode",
-    pageUrl: 'produits/kussies-kussen-120-cm-met-wasbare-hoes---donkerrood---hondenkussen-kinder-speelkussen---donut-zitzak-rond-hondenmand-zitkussen-rood-rode-donkerrode.html'
+    slug: "kussies-kussen-120-cm-met-wasbare-hoes-donkerrood-hondenkussen-kinder-speelkussen-donut-zitzak-rond-hondenmand-zitkussen-rood-rode-donkerrode",
+    pageUrl: 'produits/kussies-kussen-120-cm-met-wasbare-hoes-donkerrood-hondenkussen-kinder-speelkussen-donut-zitzak-rond-hondenmand-zitkussen-rood-rode-donkerrode.html'
   },
   {
     id: 27,
@@ -305,8 +305,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/hofman-animal-care-flostouw-hondenspeeltje-trektouw-hond-stevig-hondenspeelgoed-hondentouw-van-katoen-voetballen/9300000250415971/",
     brand: "Hofman Animal Care",
     description: "<p><strong>Supersterk katoenen flostouw dat veilig kauwplezier biedt en tegelijkertijd het gebit van je hond gezond houdt!</strong></p> <p>Dit supersterke flostouw, volledig gemaakt van katoen, biedt ",
-    slug: "hofman-animal-care-flostouw---hondenspeeltje---trektouw-hond---stevig-hondenspeelgoed--hondentouw-van-katoen---voetballen",
-    pageUrl: 'produits/hofman-animal-care-flostouw---hondenspeeltje---trektouw-hond---stevig-hondenspeelgoed--hondentouw-van-katoen---voetballen.html'
+    slug: "hofman-animal-care-flostouw-hondenspeeltje-trektouw-hond-stevig-hondenspeelgoed--hondentouw-van-katoen-voetballen",
+    pageUrl: 'produits/hofman-animal-care-flostouw-hondenspeeltje-trektouw-hond-stevig-hondenspeelgoed--hondentouw-van-katoen-voetballen.html'
   },
   {
     id: 29,
@@ -316,8 +316,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/mascow-2-in-1-slowfeeder-met-likmat-voerbak-voerbak-voor-honden-hondenvoerbak-drinkbak-hond-roze/9300000162143731/",
     brand: "Mascow",
     description: "<h3><strong>Mascow 2-in-1 Slowfeeder incl. Likmat</strong></h3> <p>De Mascow slowfeeder is het perfecte hulpmiddel dat je gebruikt, wanneer jouw hond zijn of haar eten (te) snel naar binnen werkt. Het",
-    slug: "mascow-2-in-1-slowfeeder-met-likmat---voerbak---voerbak-voor-honden---hondenvoerbak---drinkbak-hond---roze",
-    pageUrl: 'produits/mascow-2-in-1-slowfeeder-met-likmat---voerbak---voerbak-voor-honden---hondenvoerbak---drinkbak-hond---roze.html'
+    slug: "mascow-2-in-1-slowfeeder-met-likmat-voerbak-voerbak-voor-honden-hondenvoerbak-drinkbak-hond-roze",
+    pageUrl: 'produits/mascow-2-in-1-slowfeeder-met-likmat-voerbak-voerbak-voor-honden-hondenvoerbak-drinkbak-hond-roze.html'
   },
   {
     id: 30,
@@ -338,8 +338,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/timo-sticks-100-g-hondensnacks-eend/9300000132632261/",
     brand: "Timo",
     description: "<h3>Lekker kauwen op deze natuurlijke snack</h3> <p>Wanneer je je hond wilt belonen, dan wil je hem natuurlijk voorzien van een snack die niet alleen lekker, maar ook gezond is. Laat je hond bijvoorbe",
-    slug: "timo-sticks-100-g---hondensnacks---eend",
-    pageUrl: 'produits/timo-sticks-100-g---hondensnacks---eend.html'
+    slug: "timo-sticks-100-g-hondensnacks-eend",
+    pageUrl: 'produits/timo-sticks-100-g-hondensnacks-eend.html'
   },
   {
     id: 32,
@@ -371,8 +371,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/paardenbotten-met-pezen-hondenkluif-langdurig-kauwplezier-luchtgedroogd-grote-rassen/9300000269794988/",
     brand: "Merkloos / Sans marque",
     description: "Ontdek de ultieme kauwervaring voor uw trouwe viervoeter met deze premium paardenbotten, verrijkt met heerlijke pezen. Speciaal geselecteerd voor honden die langdurig en intensief kauwplezier waardere",
-    slug: "paardenbotten-met-pezen---hondenkluif---langdurig-kauwplezier---luchtgedroogd---grote-rassen",
-    pageUrl: 'produits/paardenbotten-met-pezen---hondenkluif---langdurig-kauwplezier---luchtgedroogd---grote-rassen.html'
+    slug: "paardenbotten-met-pezen-hondenkluif-langdurig-kauwplezier-luchtgedroogd-grote-rassen",
+    pageUrl: 'produits/paardenbotten-met-pezen-hondenkluif-langdurig-kauwplezier-luchtgedroogd-grote-rassen.html'
   },
   {
     id: 35,
@@ -382,8 +382,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/hondenkauwspeeltje-ring-speelgoed-voor-honden-tandverzorging-spel-duurzaam-natuurlijk-rubber-12-5-x-4-cm-blauw/9300000269551376/",
     brand: "Merkloos / Sans marque",
     description: "Verrijk het leven van uw trouwe viervoeter met dit robuuste en veelzijdige hondenkauwspeeltje, ontworpen om zowel vermaak als voordelen voor de gebitsgezondheid te bieden. Dit interactieve speeltje is",
-    slug: "hondenkauwspeeltje-ring---speelgoed-voor-honden---tandverzorging-spel---duurzaam-natuurlijk-rubber---125-x-4-cm---blauw",
-    pageUrl: 'produits/hondenkauwspeeltje-ring---speelgoed-voor-honden---tandverzorging-spel---duurzaam-natuurlijk-rubber---125-x-4-cm---blauw.html'
+    slug: "hondenkauwspeeltje-ring-speelgoed-voor-honden-tandverzorging-spel-duurzaam-natuurlijk-rubber-125-x-4-cm-blauw",
+    pageUrl: 'produits/hondenkauwspeeltje-ring-speelgoed-voor-honden-tandverzorging-spel-duurzaam-natuurlijk-rubber-125-x-4-cm-blauw.html'
   },
   {
     id: 36,
@@ -393,8 +393,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/honden-speeltje-kauwspeeltje-pieper-tandverzorging-stress-niet-giftig-natuurrubber-16-x-4-5-x-3-cm/9300000269799557/",
     brand: "Merkloos / Sans marque",
     description: "Verrijk de speeltijd van uw hond met dit interactieve en duurzame speeltje, ontworpen voor eindeloos plezier en mentale stimulatie. Dit speeltje is speciaal gemaakt om de natuurlijke jachtinstincten v",
-    slug: "honden-speeltje---kauwspeeltje-pieper---tandverzorging-stress---niet-giftig-natuurrubber---16-x-45-x-3-cm",
-    pageUrl: 'produits/honden-speeltje---kauwspeeltje-pieper---tandverzorging-stress---niet-giftig-natuurrubber---16-x-45-x-3-cm.html'
+    slug: "honden-speeltje-kauwspeeltje-pieper-tandverzorging-stress-niet-giftig-natuurrubber-16-x-45-x-3-cm",
+    pageUrl: 'produits/honden-speeltje-kauwspeeltje-pieper-tandverzorging-stress-niet-giftig-natuurrubber-16-x-45-x-3-cm.html'
   },
   {
     id: 37,
@@ -404,8 +404,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/8-delige-hondenspeelgoed-set-voor-puppy-s-en-kleine-honden-duurzaam-en-knarsend/9300000255346185/",
     brand: "Merkloos / Sans marque",
     description: "Ontdek deze veelzijdige 8-delige hondenspeelgoed set, perfect afgestemd op de behoeften van kleine honden en puppy's. De set bevat zowel duurzaam kauwspeelgoed als leuke piepspeeltjes om verveling teg",
-    slug: "8-delige-hondenspeelgoed-set-voor-puppys-en-kleine-honden---duurzaam-en-knarsend",
-    pageUrl: 'produits/8-delige-hondenspeelgoed-set-voor-puppys-en-kleine-honden---duurzaam-en-knarsend.html'
+    slug: "8-delige-hondenspeelgoed-set-voor-puppys-en-kleine-honden-duurzaam-en-knarsend",
+    pageUrl: 'produits/8-delige-hondenspeelgoed-set-voor-puppys-en-kleine-honden-duurzaam-en-knarsend.html'
   },
   {
     id: 38,
@@ -415,8 +415,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/hondenspeeltjes-piepend-apporteertouw-kauwspeelgoed-interactief-spel-zachte-pluche-vulling-42x35x10cm-groene-wasbeer/9300000270074240/",
     brand: "Merkloos / Sans marque",
     description: "Verrijk de speelervaring van uw trouwe viervoeter met dit unieke piepende hondenspeeltje, ontworpen om urenlang vermaak te bieden en tegelijkertijd de natuurlijke speelinstincten te stimuleren. Dit sp",
-    slug: "hondenspeeltjes-piepend---apporteertouw-kauwspeelgoed---interactief-spel---zachte-pluche-vulling---42x35x10cm---groene-wasbeer",
-    pageUrl: 'produits/hondenspeeltjes-piepend---apporteertouw-kauwspeelgoed---interactief-spel---zachte-pluche-vulling---42x35x10cm---groene-wasbeer.html'
+    slug: "hondenspeeltjes-piepend-apporteertouw-kauwspeelgoed-interactief-spel-zachte-pluche-vulling-42x35x10cm-groene-wasbeer",
+    pageUrl: 'produits/hondenspeeltjes-piepend-apporteertouw-kauwspeelgoed-interactief-spel-zachte-pluche-vulling-42x35x10cm-groene-wasbeer.html'
   },
   {
     id: 39,
@@ -426,8 +426,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/huisdier-speelgoed-interactieve-slang-spelen-met-huisdieren-slimme-sensor-modus-rood/9300000269592837/",
     brand: "Merkloos / Sans marque",
     description: "Laat je huisdier de tijd van zijn leven hebben met dit fascinerende speelgoed dat beweging en interactie stimuleert. Dit innovatieve speeltje is ontworpen om de natuurlijke jachtinstincten van je kat ",
-    slug: "huisdier-speelgoed---interactieve-slang---spelen-met-huisdieren---slimme-sensor-modus---rood",
-    pageUrl: 'produits/huisdier-speelgoed---interactieve-slang---spelen-met-huisdieren---slimme-sensor-modus---rood.html'
+    slug: "huisdier-speelgoed-interactieve-slang-spelen-met-huisdieren-slimme-sensor-modus-rood",
+    pageUrl: 'produits/huisdier-speelgoed-interactieve-slang-spelen-met-huisdieren-slimme-sensor-modus-rood.html'
   },
   {
     id: 40,
@@ -437,8 +437,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/duurzaam-en-veilig-kauwspeelgoed-voor-honden-alternatief-voor-houten-stokken/9300000269072425/",
     brand: "Merkloos / Sans marque",
     description: "Ontdek dit veilige en duurzame kauwspeelgoed voor honden, een perfect alternatief voor echte houten stokken. Het speelgoed bootst de smaak en structuur van een natuurlijke tak na, maar splintert niet ",
-    slug: "duurzaam-en-veilig-kauwspeelgoed-voor-honden---alternatief-voor-houten-stokken",
-    pageUrl: 'produits/duurzaam-en-veilig-kauwspeelgoed-voor-honden---alternatief-voor-houten-stokken.html'
+    slug: "duurzaam-en-veilig-kauwspeelgoed-voor-honden-alternatief-voor-houten-stokken",
+    pageUrl: 'produits/duurzaam-en-veilig-kauwspeelgoed-voor-honden-alternatief-voor-houten-stokken.html'
   },
   {
     id: 41,
@@ -448,8 +448,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/natuurlijke-kippensushi-hondensnacks-1-kg/9300000249850309/",
     brand: "Merkloos / Sans marque",
     description: "Geef je trouwe viervoeter de beste traktatie met deze natuurlijke kippensushi hondensnacks van 1 kg. Deze smakelijke en eiwitrijke snacks zijn perfect voor honden die genieten van gezonde lekkernijen.",
-    slug: "natuurlijke-kippensushi-hondensnacks---1-kg",
-    pageUrl: 'produits/natuurlijke-kippensushi-hondensnacks---1-kg.html'
+    slug: "natuurlijke-kippensushi-hondensnacks-1-kg",
+    pageUrl: 'produits/natuurlijke-kippensushi-hondensnacks-1-kg.html'
   },
   {
     id: 42,
@@ -470,8 +470,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/gezonde-snacks-voor-honden-ondersteunt-gewrichten-en-heupen-met-glucosamine-kurkuma-en-meer-60-stuks/9300000249956012/",
     brand: "Merkloos / Sans marque",
     description: "Verbeter het welzijn van uw hond met onze speciaal ontwikkelde snacks, ideaal voor de ondersteuning van botten, gewrichten en heupen. Deze pouw snacks zijn samengesteld met natuurlijke ingredi\u00ebnten zo",
-    slug: "gezonde-snacks-voor-honden---ondersteunt-gewrichten-en-heupen-met-glucosamine-kurkuma-en-meer--60-stuks",
-    pageUrl: 'produits/gezonde-snacks-voor-honden---ondersteunt-gewrichten-en-heupen-met-glucosamine-kurkuma-en-meer--60-stuks.html'
+    slug: "gezonde-snacks-voor-honden-ondersteunt-gewrichten-en-heupen-met-glucosamine-kurkuma-en-meer--60-stuks",
+    pageUrl: 'produits/gezonde-snacks-voor-honden-ondersteunt-gewrichten-en-heupen-met-glucosamine-kurkuma-en-meer--60-stuks.html'
   },
   {
     id: 44,
@@ -481,8 +481,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/honden-trainingsring-bijtring-hond-buiten-spelen-drijvend-ontwerp-18-5-cm-diameter-geel/9300000269458757/",
     brand: "Merkloos / Sans marque",
     description: "Verrijk de speeltijd van uw trouwe viervoeter met deze veelzijdige honden trainingsring, speciaal ontworpen voor eindeloos plezier en effectieve training, zowel op het land als in het water. Deze ring",
-    slug: "honden-trainingsring---bijtring-hond---buiten-spelen---drijvend-ontwerp---185-cm-diameter---geel",
-    pageUrl: 'produits/honden-trainingsring---bijtring-hond---buiten-spelen---drijvend-ontwerp---185-cm-diameter---geel.html'
+    slug: "honden-trainingsring-bijtring-hond-buiten-spelen-drijvend-ontwerp-185-cm-diameter-geel",
+    pageUrl: 'produits/honden-trainingsring-bijtring-hond-buiten-spelen-drijvend-ontwerp-185-cm-diameter-geel.html'
   },
   {
     id: 45,
@@ -492,8 +492,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/honden-speelgoed-kauwspeelgoed-sterke-bijters-duurzaam-nylon-materiaal-12x11x17cm-lila/9300000271525595/",
     brand: "Merkloos / Sans marque",
     description: "Geef uw trouwe viervoeter het ultieme kauwavontuur met dit robuuste speelgoed, speciaal ontworpen voor krachtige kaken. Dit speelgoed is de perfecte oplossing voor honden die graag stevig kauwen en hu",
-    slug: "honden-speelgoed---kauwspeelgoed---sterke-bijters---duurzaam-nylon-materiaal---12x11x17cm---lila",
-    pageUrl: 'produits/honden-speelgoed---kauwspeelgoed---sterke-bijters---duurzaam-nylon-materiaal---12x11x17cm---lila.html'
+    slug: "honden-speelgoed-kauwspeelgoed-sterke-bijters-duurzaam-nylon-materiaal-12x11x17cm-lila",
+    pageUrl: 'produits/honden-speelgoed-kauwspeelgoed-sterke-bijters-duurzaam-nylon-materiaal-12x11x17cm-lila.html'
   },
   {
     id: 46,
@@ -514,8 +514,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/district-70-squid-zacht-hondenspeelgoed-met-pieper-in-octopusvorm-taupe-13-x-20-cm/9300000246454231/",
     brand: "District 70",
     description: "<p><strong>District 70 SQUID \u2013 Zacht Hondenspeelgoed met Pieper in Octopusvorm</strong></p> <p>Op zoek naar het perfecte speeltje voor jouw hond? Maak kennis met de <strong>District 70 SQUID,</strong>",
-    slug: "district-70-squid--zacht-hondenspeelgoed-met-pieper-in-octopusvorm---taupe---13-x-20-cm",
-    pageUrl: 'produits/district-70-squid--zacht-hondenspeelgoed-met-pieper-in-octopusvorm---taupe---13-x-20-cm.html'
+    slug: "district-70-squid--zacht-hondenspeelgoed-met-pieper-in-octopusvorm-taupe-13-x-20-cm",
+    pageUrl: 'produits/district-70-squid--zacht-hondenspeelgoed-met-pieper-in-octopusvorm-taupe-13-x-20-cm.html'
   },
   {
     id: 48,
@@ -547,8 +547,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/gutsy-chicken-munchies-medium-large-adult-hondenvoeding-2kg-duurzaam-gezond-hypoallergeen/9300000116296922/",
     brand: "Gutsy",
     description: "<h3>Waarom Gutsy?</h3> <ul> <li>Graanvrij (zoete aardappel als gezonde vervanger)</li> <li>Hoog in prote\u00efne </li> <li>Hypoallergeen</li> <li>Natuurlijke ingredi\u00ebnten </li> <li>Verteerbaarheidscore van",
-    slug: "gutsy-chicken-munchies-mediumlarge-adult---hondenvoeding---2kg---duurzaam---gezond---hypoallergeen",
-    pageUrl: 'produits/gutsy-chicken-munchies-mediumlarge-adult---hondenvoeding---2kg---duurzaam---gezond---hypoallergeen.html'
+    slug: "gutsy-chicken-munchies-mediumlarge-adult-hondenvoeding-2kg-duurzaam-gezond-hypoallergeen",
+    pageUrl: 'produits/gutsy-chicken-munchies-mediumlarge-adult-hondenvoeding-2kg-duurzaam-gezond-hypoallergeen.html'
   },
   {
     id: 51,
@@ -569,8 +569,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/royal-canin-medium-adult-7-hondenvoer-10-kg/9200000045406825/",
     brand: "Royal Canin",
     description: "ROYAL CANIN\u00ae Medium Adult 7+ is een complete en uitgebalanceerde voeding voor honden van 7 jaar en ouder die speciaal is ontwikkeld om te voldoen aan de specifieke behoeften van je middelgrote hond en",
-    slug: "royal-canin-medium-adult-7---10-kg---hondenvoer",
-    pageUrl: 'produits/royal-canin-medium-adult-7---10-kg---hondenvoer.html'
+    slug: "royal-canin-medium-adult-7-10-kg-hondenvoer",
+    pageUrl: 'produits/royal-canin-medium-adult-7-10-kg-hondenvoer.html'
   },
   {
     id: 53,
@@ -602,8 +602,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/topdiervoeding-runderlong-trainers-2-kg-vers-gedroogde-hondensnack/9300000229485609/",
     brand: "Topdiervoeding.nl",
     description: "<p>Beloon je hond tijdens het trainen met deze heerlijke Topdiervoeding Runderlong Trainers. De blokjes bestaan uit gedroogde Runderlong en worden <strong>wekelijks vers aangeleverd</strong>, waardoor",
-    slug: "runderlong-trainers---2-kg---vers-gedroogde-hondensnack",
-    pageUrl: 'produits/runderlong-trainers---2-kg---vers-gedroogde-hondensnack.html'
+    slug: "runderlong-trainers-2-kg-vers-gedroogde-hondensnack",
+    pageUrl: 'produits/runderlong-trainers-2-kg-vers-gedroogde-hondensnack.html'
   },
   {
     id: 56,
@@ -657,8 +657,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/boil-broth-bottenbouillon-poeder-voor-honden-hert-120-gram-goed-voor-3-l/9300000285976822/",
     brand: "Boil & broth",
     description: "Boil & Broth Bottenbouillon Hert Onze Boil & Broth Bone Broth Powder Hert is een heerlijke bottenbouillon op basis van hertenvlees, een perfecte keuze voor honden die op zoek zijn naar een smakelijke ",
-    slug: "boil--broth-bottenbouillon-poeder-voor-honden---hert---120-gram---goed-voor-3-l",
-    pageUrl: 'produits/boil--broth-bottenbouillon-poeder-voor-honden---hert---120-gram---goed-voor-3-l.html'
+    slug: "boil--broth-bottenbouillon-poeder-voor-honden-hert-120-gram-goed-voor-3-l",
+    pageUrl: 'produits/boil--broth-bottenbouillon-poeder-voor-honden-hert-120-gram-goed-voor-3-l.html'
   },
   {
     id: 61,
@@ -679,8 +679,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/kussies-kussen-70-cm-met-wasbare-hoes-creme-wit-hondenkussen-kinder-speelkussen-donut-zitzak-rond-hondenmand-loungekussen-pluche-witte-beige/9300000164734055/",
     brand: "KUSSIES",
     description: "<p> In 34 kleuren! Tijdelijk met <strong>GRATIS</strong> beloningstasje voor aan je riem en sticker!<br /><br />Heerlijk zachte en comfortabele honden- of kattenmand met afneembare en wasbare hoes. Jo",
-    slug: "kussies-kussen-70-cm-met-wasbare-hoes---creme-wit---hondenkussen-kinder-speelkussen---donut-zitzak-rond-hondenmand-loungekussen-pluche-witte-beige",
-    pageUrl: 'produits/kussies-kussen-70-cm-met-wasbare-hoes---creme-wit---hondenkussen-kinder-speelkussen---donut-zitzak-rond-hondenmand-loungekussen-pluche-witte-beige.html'
+    slug: "kussies-kussen-70-cm-met-wasbare-hoes-creme-wit-hondenkussen-kinder-speelkussen-donut-zitzak-rond-hondenmand-loungekussen-pluche-witte-beige",
+    pageUrl: 'produits/kussies-kussen-70-cm-met-wasbare-hoes-creme-wit-hondenkussen-kinder-speelkussen-donut-zitzak-rond-hondenmand-loungekussen-pluche-witte-beige.html'
   },
   {
     id: 63,
@@ -690,8 +690,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/rieba-likmat-honden-katten-18x11-3cm-hondenlikmat-slowfeeder-hond-anti-schrok-voermat-silicone-zuignappen-bot-rood/9300000231575342/",
     brand: "Rieba\u00ae",
     description: "<p><strong>Rieba\u00ae Likmat Hond \u2013 Het Ideale Voermatje voor Gelukkige, Ontspannen Honden</strong></p> <p>Wil jij jouw hond op een leuke \u00e9n gezonde manier laten eten? Met de <strong>Rieba\u00ae</strong> <stro",
-    slug: "rieba-likmat-honden--katten--18x113cm---hondenlikmat---slowfeeder-hond--anti-schrok-voermat--silicone-zuignappen--bot---rood",
-    pageUrl: 'produits/rieba-likmat-honden--katten--18x113cm---hondenlikmat---slowfeeder-hond--anti-schrok-voermat--silicone-zuignappen--bot---rood.html'
+    slug: "rieba-likmat-honden--katten--18x113cm-hondenlikmat-slowfeeder-hond--anti-schrok-voermat--silicone-zuignappen--bot-rood",
+    pageUrl: 'produits/rieba-likmat-honden--katten--18x113cm-hondenlikmat-slowfeeder-hond--anti-schrok-voermat--silicone-zuignappen--bot-rood.html'
   },
   {
     id: 64,
@@ -701,8 +701,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/3pcs-pet-training-frisbee-interactief-chew-en-throw-speelgoed-voor-middelgrote-en-grote-honden-random-kleur/9300000243362921/",
     brand: "Merkloos / Sans marque",
     description: "<h3>Productbeschrijving: Dieren Trainingsfrisbee</h3> <p>Ontdek de perfecte combinatie van plezier en gezondheid met onze <strong>hondentrainingsfrisbee</strong>. Gemaakt van natuurlijke materialen, b",
-    slug: "3pcs-pet-training-frisbee---interactief-chew-en-throw-speelgoed-voor-middelgrote-en-grote-honden---random-kleur",
-    pageUrl: 'produits/3pcs-pet-training-frisbee---interactief-chew-en-throw-speelgoed-voor-middelgrote-en-grote-honden---random-kleur.html'
+    slug: "3pcs-pet-training-frisbee-interactief-chew-en-throw-speelgoed-voor-middelgrote-en-grote-honden-random-kleur",
+    pageUrl: 'produits/3pcs-pet-training-frisbee-interactief-chew-en-throw-speelgoed-voor-middelgrote-en-grote-honden-random-kleur.html'
   },
   {
     id: 65,
@@ -712,8 +712,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/longziming-carrot-dog-toy-chew-toy-for-dogs-rubber-dog-chew-toy-quietschend-en-knisperend-milchgeschmack-milieuvriendelijk-gummi-voor-alle-hondenrassen-1-stuk/9300000271984872/",
     brand: "longziming",
     description: "<h3>1 stuk Carrot Dog Toy van milieuvriendelijk rubber, met quietsch- en knisperpapier-effect, melkgeur en getextureerde oppervlakte \u2013 ideaal als kauwspeeltuin voor kleine, middelgrote en grote honden",
-    slug: "longziming--carrot-dog-toy---chew-toy-for-dogs---rubber-dog-chew-toy---quietschend-en-knisperend---milchgeschmack---milieuvriendelijk-gummi---voor-alle-hondenrassen---1-stuk",
-    pageUrl: 'produits/longziming--carrot-dog-toy---chew-toy-for-dogs---rubber-dog-chew-toy---quietschend-en-knisperend---milchgeschmack---milieuvriendelijk-gummi---voor-alle-hondenrassen---1-stuk.html'
+    slug: "longziming--carrot-dog-toy-chew-toy-for-dogs-rubber-dog-chew-toy-quietschend-en-knisperend-milchgeschmack-milieuvriendelijk-gummi-voor-alle-hondenrassen-1-stuk",
+    pageUrl: 'produits/longziming--carrot-dog-toy-chew-toy-for-dogs-rubber-dog-chew-toy-quietschend-en-knisperend-milchgeschmack-milieuvriendelijk-gummi-voor-alle-hondenrassen-1-stuk.html'
   },
   {
     id: 66,
@@ -723,8 +723,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/dental-ears-kauwplezier-hond-30-stuks-large/9300000003039202/",
     brand: "Dental Ears",
     description: "De Dental Ears zijn een verantwoordelijke en smakelijke traktatie voor honden <p>Dental Ears stillen de natuurlijke kauwbehoefte van uw hond. Daarnaast reinigen ze ook het gebit en dragen ze bij aan g",
-    slug: "dental-ears-kauwplezier-hond-30-stuks---large",
-    pageUrl: 'produits/dental-ears-kauwplezier-hond-30-stuks---large.html'
+    slug: "dental-ears-kauwplezier-hond-30-stuks-large",
+    pageUrl: 'produits/dental-ears-kauwplezier-hond-30-stuks-large.html'
   },
   {
     id: 67,
@@ -767,8 +767,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/benson-honden-voerbak-waterbak-rvs-25-x-20-x-6-cm/9300000048364943/",
     brand: "Benson",
     description: "<p><strong>De perfecte voerbak voor jouw hond:<br /></strong> Een hondenvoerbak is natuurlijk noodzakelijk voor je huisdier. Met een diameter van 25 centimeter biedt deze Benson hondenvoerbak voldoend",
-    slug: "benson-rvs-hondenvoerbak---groot-formaat---eenvoudig-schoon-te-maken---25-cm-diameter",
-    pageUrl: 'produits/benson-rvs-hondenvoerbak---groot-formaat---eenvoudig-schoon-te-maken---25-cm-diameter.html'
+    slug: "benson-rvs-hondenvoerbak-groot-formaat-eenvoudig-schoon-te-maken-25-cm-diameter",
+    pageUrl: 'produits/benson-rvs-hondenvoerbak-groot-formaat-eenvoudig-schoon-te-maken-25-cm-diameter.html'
   },
   {
     id: 71,
@@ -778,8 +778,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/husse-ocean-care-zalm-rijst-hypoallergeen-hondenvoer-voor-volwassen-honden-5-x-150g-proefpakket/9300000171510605/",
     brand: "Husse",
     description: "<p>LET OP! De nieuwe naam van Husse Ocean Care is Hypoallergenic Skin & Coat</p> <p> </p> <p>Zalm & Rijst is een complete voeding. Het is vrij van kleurstoffen, conserveermiddelen en gluten. Zalm & Ri",
-    slug: "husse-ocean-care---zalm--rijst---hypoallergeen-hondenvoer-voor-volwassen-honden---5-x-100g-proefpakket",
-    pageUrl: 'produits/husse-ocean-care---zalm--rijst---hypoallergeen-hondenvoer-voor-volwassen-honden---5-x-100g-proefpakket.html'
+    slug: "husse-ocean-care-zalm--rijst-hypoallergeen-hondenvoer-voor-volwassen-honden-5-x-100g-proefpakket",
+    pageUrl: 'produits/husse-ocean-care-zalm--rijst-hypoallergeen-hondenvoer-voor-volwassen-honden-5-x-100g-proefpakket.html'
   },
   {
     id: 72,
@@ -789,8 +789,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/pro-plan-small-mini-adult-9-age-defence-honden-droogvoer-kip-3-kg/9200000051357063/",
     brand: "Pro Plan",
     description: "<p><strong>Pro Plan Small & Mini Adult 9+ (Senior) Age Defence - Honden Droogvoer - Kip - 3 kg</strong></p> <p>PURINA PRO PLAN Age Defence hondenvoer recepten rijk aan Kip bieden gerichte voordelen, z",
-    slug: "pro-plan-small--mini-adult-9-senior-age-defence---honden-droogvoer---kip---3-kg",
-    pageUrl: 'produits/pro-plan-small--mini-adult-9-senior-age-defence---honden-droogvoer---kip---3-kg.html'
+    slug: "pro-plan-small--mini-adult-9-senior-age-defence-honden-droogvoer-kip-3-kg",
+    pageUrl: 'produits/pro-plan-small--mini-adult-9-senior-age-defence-honden-droogvoer-kip-3-kg.html'
   },
   {
     id: 73,
@@ -800,8 +800,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/nature-s-protection-microzeogen-life-long-msg-system-hond-voedingssupplement-poeder/9300000250614340/",
     brand: "Nature's Protection",
     description: "TAURO PRO LINE PN MicroZeoGen voedingssuppl. kat en hond m <p> <strong>100% Natuurlijk voedingssupplement met Calcium \u2013 250g</strong></p> <ul> <li>Versterkt het immuunsysteem van <strong>puppy\u2019s, kitt",
-    slug: "natures-protection--microzeogen-life-long-msg-system---hond-voedingssupplement---poeder",
-    pageUrl: 'produits/natures-protection--microzeogen-life-long-msg-system---hond-voedingssupplement---poeder.html'
+    slug: "natures-protection--microzeogen-life-long-msg-system-hond-voedingssupplement-poeder",
+    pageUrl: 'produits/natures-protection--microzeogen-life-long-msg-system-hond-voedingssupplement-poeder.html'
   },
   {
     id: 74,
@@ -844,8 +844,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/runderluchtpijp-30cm-natuurlijke-hondensnacks-bellobox/9300000248600893/",
     brand: "bellobox",
     description: "Runderluchtpijp 30cm, gedroogd en verpakt per 2 stuks. De luchtpijp is middelhard en vanwege zijn formaat geschikt voor honden vanaf een medium formaat.",
-    slug: "runderluchtpijp-30cm-2x---natuurlijke-hondensnacks---bellobox",
-    pageUrl: 'produits/runderluchtpijp-30cm-2x---natuurlijke-hondensnacks---bellobox.html'
+    slug: "runderluchtpijp-30cm-2x-natuurlijke-hondensnacks-bellobox",
+    pageUrl: 'produits/runderluchtpijp-30cm-2x-natuurlijke-hondensnacks-bellobox.html'
   },
   {
     id: 78,
@@ -866,8 +866,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/qwisple-runderstaart-gedroogde-hondensnacks-1000-gr/9300000175708106/",
     brand: "Qwisple",
     description: "<p><strong>Qwisple\u00ae Runderstaart</strong> hondensnacks als dagelijkse beloning of een gezond tussendoortje voor je hond. Gedroogde staart van runderen voor een lang kauwplezier, geproduceerd zonder to",
-    slug: "qwisple-runderstaart---hondensnacks-gedroogd-rund---1000-gr",
-    pageUrl: 'produits/qwisple-runderstaart---hondensnacks-gedroogd-rund---1000-gr.html'
+    slug: "qwisple-runderstaart-hondensnacks-gedroogd-rund-1000-gr",
+    pageUrl: 'produits/qwisple-runderstaart-hondensnacks-gedroogd-rund-1000-gr.html'
   },
   {
     id: 80,
@@ -899,8 +899,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/wellness-core-grain-free-95-400-g-hondenvoer-12-x-rund-broccoli/9300000130611791/",
     brand: "Wellness Core",
     description: "<h3>Heerlijk vlees boordevol eiwitten</h3> <p>Je wilt je hond natuurlijk het beste van het beste vlees aanbieden. Grain Free 95% van Wellness Core is een <b>natuurlijke en complete voeding</b> voor vo",
-    slug: "wellness-core-grain-free-95-400-g---hondenvoer---12-x-rundbroccoli",
-    pageUrl: 'produits/wellness-core-grain-free-95-400-g---hondenvoer---12-x-rundbroccoli.html'
+    slug: "wellness-core-grain-free-95-400-g-hondenvoer-12-x-rundbroccoli",
+    pageUrl: 'produits/wellness-core-grain-free-95-400-g-hondenvoer-12-x-rundbroccoli.html'
   },
   {
     id: 83,
@@ -910,8 +910,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/3x100-gr-pawfect-small-bars/9300000123463794/",
     brand: "Pawfect",
     description: "<p><strong>Pawfect Chew Small Bars 100 gram </strong><br />De Pawfect Chew Small Bars kauwstaven van 100 gram zijn geheel natuurlijke, glutenvrije hondensnacks gemaakt van hoogwaardige kaas van de yak",
-    slug: "pawfect-chew-bars---hondensnacks---3-x-100-g-small",
-    pageUrl: 'produits/pawfect-chew-bars---hondensnacks---3-x-100-g-small.html'
+    slug: "pawfect-chew-bars-hondensnacks-3-x-100-g-small",
+    pageUrl: 'produits/pawfect-chew-bars-hondensnacks-3-x-100-g-small.html'
   },
   {
     id: 84,
@@ -921,8 +921,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/runderpens-1-kg-100-natuurlijk-hypoallergeen-glutenvrij-gezonde-kauwsnack-voor-honden-lutopets/9300000242255225/",
     brand: "lutopets",
     description: "<p> </p> <h3>Lutopets Runderpens \u2013 100% natuurlijke kauwsnack voor honden</h3> <p>Lutopets Runderpens is een smakelijke en voedzame hondensnack die perfect aansluit bij de natuurlijke kauwbehoefte van",
-    slug: "runderpens-1-kg---100-natuurlijk---hypoallergeen--glutenvrij---gezonde-kauwsnack-voor-honden---lutopets",
-    pageUrl: 'produits/runderpens-1-kg---100-natuurlijk---hypoallergeen--glutenvrij---gezonde-kauwsnack-voor-honden---lutopets.html'
+    slug: "runderpens-1-kg-100-natuurlijk-hypoallergeen--glutenvrij-gezonde-kauwsnack-voor-honden-lutopets",
+    pageUrl: 'produits/runderpens-1-kg-100-natuurlijk-hypoallergeen--glutenvrij-gezonde-kauwsnack-voor-honden-lutopets.html'
   },
   {
     id: 85,
@@ -932,8 +932,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/woef-woef-snacks-hondensnacks-lams-trainers-0-40-kg-trainingssnacks-hondensnoepjes-gedroogd-vlees-lam-alle-honden-en-alle-leeftijden-vanaf-2-maanden-geen-toevoegingen/9300000225739394/",
     brand: "Woef Woef Snacks",
     description: "<p>Verkrijgbaar in 400g, 1kg & 2kg.</p> <h3>Lamstrainers \u2013 De Smakelijke Trainingsbeloning voor Slimme Honden</h3> <p>Op zoek naar een verrukkelijke beloning om jouw hond commando\u2019s te leren? Met de p",
-    slug: "woef-woef-snacks-hondensnacks-lams-trainers-040-kg---trainingssnacks-hondensnoepjes---gedroogd-vlees---lam---alle-honden-en-alle-leeftijden-vanaf-2-maanden---geen-toevoegingen",
-    pageUrl: 'produits/woef-woef-snacks-hondensnacks-lams-trainers-040-kg---trainingssnacks-hondensnoepjes---gedroogd-vlees---lam---alle-honden-en-alle-leeftijden-vanaf-2-maanden---geen-toevoegingen.html'
+    slug: "woef-woef-snacks-hondensnacks-lams-trainers-040-kg-trainingssnacks-hondensnoepjes-gedroogd-vlees-lam-alle-honden-en-alle-leeftijden-vanaf-2-maanden-geen-toevoegingen",
+    pageUrl: 'produits/woef-woef-snacks-hondensnacks-lams-trainers-040-kg-trainingssnacks-hondensnoepjes-gedroogd-vlees-lam-alle-honden-en-alle-leeftijden-vanaf-2-maanden-geen-toevoegingen.html'
   },
   {
     id: 86,
@@ -943,8 +943,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/yourdog-karstherder-volwassen/9300000020615006/",
     brand: "Yourdog",
     description: "<p>Yourdog Karstherder zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren dit met zorgvuldig geselecteerde groe",
-    slug: "hondenvoer-yourdog---karstherder-3kg---buffel--kip-glucosamine-zonder-kunstmatige-toevoegingen",
-    pageUrl: 'produits/hondenvoer-yourdog---karstherder-3kg---buffel--kip-glucosamine-zonder-kunstmatige-toevoegingen.html'
+    slug: "hondenvoer-yourdog-karstherder-3kg-buffel--kip-glucosamine-zonder-kunstmatige-toevoegingen",
+    pageUrl: 'produits/hondenvoer-yourdog-karstherder-3kg-buffel--kip-glucosamine-zonder-kunstmatige-toevoegingen.html'
   },
   {
     id: 87,
@@ -954,8 +954,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/healthy-dog-hondenvoer-puppy-5-kg/9200000094159418/",
     brand: "Healthy Dog",
     description: "Natuurlijke, tarwe glutenvrije, complete voeding voor iedere pup van alle rassen!<br /><br />Makkelijk verteerbaar door de hoogwaardige grondstoffen. Lager Calcium gehalte om spierverkramping tegen te",
-    slug: "healthy-dog---hondenvoer---puppy-5-kg",
-    pageUrl: 'produits/healthy-dog---hondenvoer---puppy-5-kg.html'
+    slug: "healthy-dog-hondenvoer-puppy-5-kg",
+    pageUrl: 'produits/healthy-dog-hondenvoer-puppy-5-kg.html'
   },
   {
     id: 88,
@@ -1020,8 +1020,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/2x-perfect-fit-kattenbrokken-senior-7-kip-1-4kg/9300000188101561/",
     brand: "Perfect Fit",
     description: "<p><strong>PERFECT FIT Senior Kattenbrokken Kip. </strong>Naast de unieke Perfect Fit Total 5 formule, die in alle kattenbrokken van Perfect Fit terugkomt, bevat ons Senior 7+ product 3 additionele ge",
-    slug: "2x-perfect-fit-kattenbrokken---senior-7---kip---14kg",
-    pageUrl: 'produits/2x-perfect-fit-kattenbrokken---senior-7---kip---14kg.html'
+    slug: "2x-perfect-fit-kattenbrokken-senior-7-kip-14kg",
+    pageUrl: 'produits/2x-perfect-fit-kattenbrokken-senior-7-kip-14kg.html'
   },
   {
     id: 94,
@@ -1031,8 +1031,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/2x-perfect-fit-kattenbrokken-senior-7-kip-750g/9300000187950827/",
     brand: "Perfect Fit",
     description: "<p><strong>PERFECT FIT Senior Kattenbrokken Kip. </strong>Naast de unieke Perfect Fit Total 5 formule, die in alle kattenbrokken van Perfect Fit terugkomt, bevat ons Senior 7+ product 3 additionele ge",
-    slug: "2x-perfect-fit-kattenbrokken---senior-7---kip---750g",
-    pageUrl: 'produits/2x-perfect-fit-kattenbrokken---senior-7---kip---750g.html'
+    slug: "2x-perfect-fit-kattenbrokken-senior-7-kip-750g",
+    pageUrl: 'produits/2x-perfect-fit-kattenbrokken-senior-7-kip-750g.html'
   },
   {
     id: 95,
@@ -1042,8 +1042,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/oswalt-gedroogde-komkommer-250-gram-knaagdiersnack/9300000178800006/",
     brand: "Oswalt",
     description: "<p>De gedroogde komkommer is een smakelijke en voedzame traktatie die geschikt is voor een breed scala aan huisdieren, waaronder knaagdieren, reptielen, honden, paarden en vogels. Deze traktatie wordt",
-    slug: "oswalt-gedroogde-komkommer---250-gram---knaagdiersnack",
-    pageUrl: 'produits/oswalt-gedroogde-komkommer---250-gram---knaagdiersnack.html'
+    slug: "oswalt-gedroogde-komkommer-250-gram-knaagdiersnack",
+    pageUrl: 'produits/oswalt-gedroogde-komkommer-250-gram-knaagdiersnack.html'
   },
   {
     id: 96,
@@ -1053,8 +1053,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/snuffle-ball-toy-6-8-bite-resistant-dog-treat-puzzle-ball-speelgoed-voor-honden/9300000243183717/",
     brand: "Merkloos / Sans marque",
     description: "<h3>Productbeschrijving</h3> <p>Ontdek de perfecte combinatie van spel en training met onze <strong>Snuffelbal voor Honden</strong>. Dit innovatieve product is ontworpen met het welzijn van uw huisdie",
-    slug: "snuffle-ball-toy---68-bite-resistant---dog-treat-puzzle-ball---speelgoed-voor-honden",
-    pageUrl: 'produits/snuffle-ball-toy---68-bite-resistant---dog-treat-puzzle-ball---speelgoed-voor-honden.html'
+    slug: "snuffle-ball-toy-68-bite-resistant-dog-treat-puzzle-ball-speelgoed-voor-honden",
+    pageUrl: 'produits/snuffle-ball-toy-68-bite-resistant-dog-treat-puzzle-ball-speelgoed-voor-honden.html'
   },
   {
     id: 97,
@@ -1086,8 +1086,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/mr-poop-green-navullling-poepzakjes-16-rolletjes-groen-motief/9300000037993287/",
     brand: "Mr. Poop",
     description: "<p>Ga je op stap met je viervoeter? Zorg dat je altijd een Mr. Poop op zak hebt. Deze poepzakjes zijn stevig en makkelijk te gebruiken. De Mr. Poop Houders verhogen het gebruiksgemak nog meer. Je hebt",
-    slug: "mr-poop-green-poepzakjes---navulling-poepzakjes-16-rolletjes---biologisch-afbreekbaar---groen",
-    pageUrl: 'produits/mr-poop-green-poepzakjes---navulling-poepzakjes-16-rolletjes---biologisch-afbreekbaar---groen.html'
+    slug: "mr-poop-green-poepzakjes-navulling-poepzakjes-16-rolletjes-biologisch-afbreekbaar-groen",
+    pageUrl: 'produits/mr-poop-green-poepzakjes-navulling-poepzakjes-16-rolletjes-biologisch-afbreekbaar-groen.html'
   },
   {
     id: 100,
@@ -1097,8 +1097,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/gewrichtstabletten-voor-honden-met-groenlipmossel-msm-glucosamine-en-chondroitine-180-stuks-natuurlijke-gewrichtsgezondheid/9300000250116904/",
     brand: "Merkloos / Sans marque",
     description: "Onze gewrichtstabletten voor honden zijn een smakelijke en natuurlijke manier om de gewrichtsgezondheid van je viervoeter te ondersteunen. Met hoogwaardige ingredi\u00ebnten zoals groenlipmossel, MSM, gluc",
-    slug: "gewrichtstabletten-voor-honden-met-groenlipmossel-msm-glucosamine-en-chondro\u00eftine---180-stuks---natuurlijke-gewrichtsgezondheid",
-    pageUrl: 'produits/gewrichtstabletten-voor-honden-met-groenlipmossel-msm-glucosamine-en-chondroïtine---180-stuks---natuurlijke-gewrichtsgezondheid.html'
+    slug: "gewrichtstabletten-voor-honden-met-groenlipmossel-msm-glucosamine-en-chondro\u00eftine-180-stuks-natuurlijke-gewrichtsgezondheid",
+    pageUrl: 'produits/gewrichtstabletten-voor-honden-met-groenlipmossel-msm-glucosamine-en-chondroïtine-180-stuks-natuurlijke-gewrichtsgezondheid.html'
   },
   {
     id: 101,
@@ -1108,8 +1108,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/1-kg-lily-s-kitchen-salmon-supper-salmon-sweet-potato-peas-dill-hondenvoer/9300000113238795/",
     brand: "Lily's Kitchen",
     description: "<p>Lily's Kitchen Salmon Supper Salmon / Sweet Potato / Peas / Dill is een heerlijk compleet hondenvoer, graanvrij en met vers bereide zalm aangevuld met groenten, fruit en essenti\u00eble mineralen. Dit v",
-    slug: "lilys-kitchen---salmon-supper-salmon--sweet-potato--peas--dill-hondenvoer",
-    pageUrl: 'produits/lilys-kitchen---salmon-supper-salmon--sweet-potato--peas--dill-hondenvoer.html'
+    slug: "lilys-kitchen-salmon-supper-salmon--sweet-potato--peas--dill-hondenvoer",
+    pageUrl: 'produits/lilys-kitchen-salmon-supper-salmon--sweet-potato--peas--dill-hondenvoer.html'
   },
   {
     id: 102,
@@ -1119,8 +1119,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/edgard-cooper-hondenvoer-droog-hert-eend-medium-3-x-1-kg-voordeelverpakking/9300000262201849/",
     brand: "Edgard & Cooper",
     description: "Edgard & Cooper Hondenvoer Droog Hert & Eend MediumEdgard & Cooper Hondenvoer Droog Hert & Eend Medium is een unieke bron van hoogwaardige eiwitten. Het hypoallergene recept is ideaal voor honden met ",
-    slug: "edgard--cooper-hondenvoer-droog-hert--eend-medium---3-x-1-kg---voordeelverpakking",
-    pageUrl: 'produits/edgard--cooper-hondenvoer-droog-hert--eend-medium---3-x-1-kg---voordeelverpakking.html'
+    slug: "edgard--cooper-hondenvoer-droog-hert--eend-medium-3-x-1-kg-voordeelverpakking",
+    pageUrl: 'produits/edgard--cooper-hondenvoer-droog-hert--eend-medium-3-x-1-kg-voordeelverpakking.html'
   },
   {
     id: 103,
@@ -1141,8 +1141,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/cenaturio-geperste-wafelbrokken-hondensnack-750-gram-een-lekkere-snack-beloning-voor-uw-hond-gebitsreinigende-functie-de-voeding-wat-een-dier-nodig-heeft-om-fit-en-gezond-te-blijven/9300000029093998/",
     brand: "Cenaturio",
     description: "<ul> <li><strong>Volledig hondenvoer, maar kan ook als snack gegeven worden</strong></li> <li><strong>Goede gebitsreinigende functie</strong></li> <li><strong>Wordt ook gebruikt om honden die het eten",
-    slug: "cenaturio-geperste-wafelbrokken---hondensnack---750-gram---een-lekkere-snackbeloning-voor-uw-hond---gebitsreinigende-functie---de-voeding-wat-een-dier-nodig-heeft-om-fit-en-gezond-te-blijven",
-    pageUrl: 'produits/cenaturio-geperste-wafelbrokken---hondensnack---750-gram---een-lekkere-snackbeloning-voor-uw-hond---gebitsreinigende-functie---de-voeding-wat-een-dier-nodig-heeft-om-fit-en-gezond-te-blijven.html'
+    slug: "cenaturio-geperste-wafelbrokken-hondensnack-750-gram-een-lekkere-snackbeloning-voor-uw-hond-gebitsreinigende-functie-de-voeding-wat-een-dier-nodig-heeft-om-fit-en-gezond-te-blijven",
+    pageUrl: 'produits/cenaturio-geperste-wafelbrokken-hondensnack-750-gram-een-lekkere-snackbeloning-voor-uw-hond-gebitsreinigende-functie-de-voeding-wat-een-dier-nodig-heeft-om-fit-en-gezond-te-blijven.html'
   },
   {
     id: 105,
@@ -1163,8 +1163,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/rogz-grinz-treat-ball-small-hondenspeelgoed-blauw-s/9200000107095743/",
     brand: "Rogz for Dogs",
     description: "<p><b>Let op:</b> geen enkel speeltje is onverwoestbaar. Wij geven dan ook <b>geen sloopgarantie</b> op speelgoed. Laat speelgoed nooit zonder toezicht liggen. </p> <h3>Mentale en fysieke uitdaging me",
-    slug: "rogz-grinz-treat-ball-small---hondenspeelgoed---blauw-s",
-    pageUrl: 'produits/rogz-grinz-treat-ball-small---hondenspeelgoed---blauw-s.html'
+    slug: "rogz-grinz-treat-ball-small-hondenspeelgoed-blauw-s",
+    pageUrl: 'produits/rogz-grinz-treat-ball-small-hondenspeelgoed-blauw-s.html'
   },
   {
     id: 107,
@@ -1174,8 +1174,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/timo-hertengewei-hondensnack-kauwsnack-20-g-mini/9300000230459854/",
     brand: "Timo",
     description: "<h3>Een natuurlijke traktatie waar je hond blij van wordt</h3> <p>Geef je hond een verantwoorde en smakelijke beloning met de Timo Hertengewei hondensnack. Deze natuurlijke kauwsnack is gemaakt van du",
-    slug: "timo-hertengewei---hondensnack---10x4x3-cm-20-g-mini-easy",
-    pageUrl: 'produits/timo-hertengewei---hondensnack---10x4x3-cm-20-g-mini-easy.html'
+    slug: "timo-hertengewei-hondensnack-10x4x3-cm-20-g-mini-easy",
+    pageUrl: 'produits/timo-hertengewei-hondensnack-10x4x3-cm-20-g-mini-easy.html'
   },
   {
     id: 108,
@@ -1207,8 +1207,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/panzi-regular-hondenvoer-voor-volwassen-honden-hondenbrokken-met-rund-rijst-smaak-10kg/9300000158788069/",
     brand: "panzi pet Fit Active Burstin' out",
     description: "<p>Complete en uitgebalanceerde voeding, voor honden met een gemiddelde activiteit. Dit ge\u00ebxtrudeerde droogvoer bevat alle essenti\u00eble voedingsstoffen, vitamines en mineralen die jouw hond nodig heeft ",
-    slug: "panzi-regular---hondenvoer-voor-volwassen-honden---hondenbrokken-met-rundrijst-smaak---10kg",
-    pageUrl: 'produits/panzi-regular---hondenvoer-voor-volwassen-honden---hondenbrokken-met-rundrijst-smaak---10kg.html'
+    slug: "panzi-regular-hondenvoer-voor-volwassen-honden-hondenbrokken-met-rundrijst-smaak-10kg",
+    pageUrl: 'produits/panzi-regular-hondenvoer-voor-volwassen-honden-hondenbrokken-met-rundrijst-smaak-10kg.html'
   },
   {
     id: 111,
@@ -1229,8 +1229,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/yoekl-kauwstaven-met-eend-kip-20cm-eendstaaf-6-stuks/9300000177844871/",
     brand: "YOEKL",
     description: "<p>YOEKL Kauwstaven met Eend bieden uw hond een verrukkelijke en unieke smaakervaring. Gemaakt met echte stukjes eend, zullen deze kauwstaven een favoriete traktatie worden voor uw trouwe viervoeter.<",
-    slug: "yoekl-kauwstaven-met-eend-20cm---6-stuks---hondensnacks---hondensnoepjes---hondensnacks-gedroogd",
-    pageUrl: 'produits/yoekl-kauwstaven-met-eend-20cm---6-stuks---hondensnacks---hondensnoepjes---hondensnacks-gedroogd.html'
+    slug: "yoekl-kauwstaven-met-eend-20cm-6-stuks-hondensnacks-hondensnoepjes-hondensnacks-gedroogd",
+    pageUrl: 'produits/yoekl-kauwstaven-met-eend-20cm-6-stuks-hondensnacks-hondensnoepjes-hondensnacks-gedroogd.html'
   },
   {
     id: 113,
@@ -1240,8 +1240,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/lifetime-petfood-paardenbeen-voordeel-hondensnacks-1-stuks/9200000132821741/",
     brand: "Lifetime Petfood",
     description: "Lifetime Petfood Paardenbeen is een natuurlijk gedroogde hondensnack. Dit Paardenbeen kan gegeven worden als beloning of als tussendoortje en is een ware lekkernij voor je hond.<br />Lifetime Petfood ",
-    slug: "lifetime-petfood-paardenbeen---voordeel-hondensnacks---1-stuks",
-    pageUrl: 'produits/lifetime-petfood-paardenbeen---voordeel-hondensnacks---1-stuks.html'
+    slug: "lifetime-petfood-paardenbeen-voordeel-hondensnacks-1-stuks",
+    pageUrl: 'produits/lifetime-petfood-paardenbeen-voordeel-hondensnacks-1-stuks.html'
   },
   {
     id: 114,
@@ -1262,8 +1262,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/ruddle-adult-small-breed-grainfree-gevogelte-kruiden-hondenvoer-8-kg/9300000241349813/",
     brand: "Ruddle",
     description: "Vitaliteit in elke brok <p>Ruddle Adult Small Breed Grainfree met gevogelte en kruiden is ontwikkeld voor volwassen honden van kleine rassen (t/m 10 kg), tussen de 1 en 8 jaar. Deze complete, graanvri",
-    slug: "ruddle-adult-small-breed-grainfree-gevogeltekruiden---hondenvoer---8-kg",
-    pageUrl: 'produits/ruddle-adult-small-breed-grainfree-gevogeltekruiden---hondenvoer---8-kg.html'
+    slug: "ruddle-adult-small-breed-grainfree-gevogeltekruiden-hondenvoer-8-kg",
+    pageUrl: 'produits/ruddle-adult-small-breed-grainfree-gevogeltekruiden-hondenvoer-8-kg.html'
   },
   {
     id: 116,
@@ -1284,8 +1284,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/yourdog-gonczy-polski-volwassen/9300000020614594/",
     brand: "Yourdog",
     description: "<p>Yourdog Gonczy polski zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren dit met zorgvuldig geselecteerde gr",
-    slug: "hondenvoer-yourdog---buffel-en-kip---3kg-gezonde-voeding-met-groenten-fruit-en-kruiden",
-    pageUrl: 'produits/hondenvoer-yourdog---buffel-en-kip---3kg-gezonde-voeding-met-groenten-fruit-en-kruiden.html'
+    slug: "hondenvoer-yourdog-buffel-en-kip-3kg-gezonde-voeding-met-groenten-fruit-en-kruiden",
+    pageUrl: 'produits/hondenvoer-yourdog-buffel-en-kip-3kg-gezonde-voeding-met-groenten-fruit-en-kruiden.html'
   },
   {
     id: 118,
@@ -1295,8 +1295,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/topmast-gerookte-kalfsluchtpijp-xl-kauwsnack-natuurlijke-snack-25-cm-grootverpakking-3-x-1-kg/9300000141175001/",
     brand: "Topmast",
     description: "<p>Topmast Gerookte Kalfsluchtpijp XL - Kauwsnack - Natuurlijke snack -25 CM - grootverpakking 3 x 1 KG</p> <p> </p> <p></p> <p>Kalfsluchtpijp gerookt XL</p> <br /> <p>Gezonde traktatie voor uw hond.<",
-    slug: "topmast-gerookte-kalfsluchtpijp-xl---kauwsnack---natuurlijke-snack--25-cm---grootverpakking-3-x-1-kg",
-    pageUrl: 'produits/topmast-gerookte-kalfsluchtpijp-xl---kauwsnack---natuurlijke-snack--25-cm---grootverpakking-3-x-1-kg.html'
+    slug: "topmast-gerookte-kalfsluchtpijp-xl-kauwsnack-natuurlijke-snack--25-cm-grootverpakking-3-x-1-kg",
+    pageUrl: 'produits/topmast-gerookte-kalfsluchtpijp-xl-kauwsnack-natuurlijke-snack--25-cm-grootverpakking-3-x-1-kg.html'
   },
   {
     id: 119,
@@ -1317,8 +1317,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/de-boon-natuurlijke-honden-snack-varken-serrano-hambot-zak-a-1-stuk/9300000138552880/",
     brand: "de Boon",
     description: "<p>Dit serrano hambot is een heerlijke traktatie voor uw trouwe viervoeter. 100% natuurlijk, glutenvrij, premium kwaliteit en zonder toevoegingsmiddelen. Ook staat er op iedere verpakking een kauwleve",
-    slug: "de-boon---natuurlijke-honden-snack---varken-serrano-hambot---zak-a-1-stuk",
-    pageUrl: 'produits/de-boon---natuurlijke-honden-snack---varken-serrano-hambot---zak-a-1-stuk.html'
+    slug: "de-boon-natuurlijke-honden-snack-varken-serrano-hambot-zak-a-1-stuk",
+    pageUrl: 'produits/de-boon-natuurlijke-honden-snack-varken-serrano-hambot-zak-a-1-stuk.html'
   },
   {
     id: 121,
@@ -1328,8 +1328,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/bot-van-paardenhuid-17cm/9300000033663123/",
     brand: "Landman",
     description: "<strong>Landman Kauwbot van Paardenhuid (17cm)</strong> <p>Hypoallergene kauwsnack van 100% paard \u2013 ideaal voor honden met voedselallergie\u00ebn</p> <p>Het <strong>Landman Kauwbot van Paardenhuid (17cm)</",
-    slug: "landman-kauwbot-van-paardenhuid-17cm---hondensnacks---hondensnoepjes---hondenbot",
-    pageUrl: 'produits/landman-kauwbot-van-paardenhuid-17cm---hondensnacks---hondensnoepjes---hondenbot.html'
+    slug: "landman-kauwbot-van-paardenhuid-17cm-hondensnacks-hondensnoepjes-hondenbot",
+    pageUrl: 'produits/landman-kauwbot-van-paardenhuid-17cm-hondensnacks-hondensnoepjes-hondenbot.html'
   },
   {
     id: 122,
@@ -1372,8 +1372,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/vt-goods-hondenspeelgoed-kauwspeelgoed-voor-puppy-s-duurzaam-touwspeelgoed-blauw-interactief-hondenspeelgoed-geschikt-voor-kleine-honden/9300000275438827/",
     brand: "Merkloos / Sans marque",
     description: "<p>Geef jouw trouwe viervoeter het beste met dit 7 stuks hondenspeelgoed, speciaal ontworpen voor puppy\u2019s en kleine tot middelgrote honden. Dit onverwoestbare kauwspeelgoed biedt niet alleen urenlang ",
-    slug: "vt-goods---hondenspeelgoed---kauwspeelgoed-voor-puppys---duurzaam-touwspeelgoed---blauw---interactief-hondenspeelgoed---geschikt-voor-kleine-honden",
-    pageUrl: 'produits/vt-goods---hondenspeelgoed---kauwspeelgoed-voor-puppys---duurzaam-touwspeelgoed---blauw---interactief-hondenspeelgoed---geschikt-voor-kleine-honden.html'
+    slug: "vt-goods-hondenspeelgoed-kauwspeelgoed-voor-puppys-duurzaam-touwspeelgoed-blauw-interactief-hondenspeelgoed-geschikt-voor-kleine-honden",
+    pageUrl: 'produits/vt-goods-hondenspeelgoed-kauwspeelgoed-voor-puppys-duurzaam-touwspeelgoed-blauw-interactief-hondenspeelgoed-geschikt-voor-kleine-honden.html'
   },
   {
     id: 126,
@@ -1383,8 +1383,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/trektouw-kokosvezel-met-koffiehout-voor-honden-xxl-5-stuks/9300000198542758/",
     brand: "Boris&Lotje",
     description: "<p><strong>De Koffiehout & Kokosvezel Kauwstaaf van Boris&Lotje</strong><br />Een perfecte combinatie van natuurlijke materialen voor ultiem kauwplezier en gebitsverzorging. De Koffiehout & Kokosvezel",
-    slug: "trektouw-kokosvezel-met-koffiehout-voor-honden---xxl-5-stuks",
-    pageUrl: 'produits/trektouw-kokosvezel-met-koffiehout-voor-honden---xxl-5-stuks.html'
+    slug: "trektouw-kokosvezel-met-koffiehout-voor-honden-xxl-5-stuks",
+    pageUrl: 'produits/trektouw-kokosvezel-met-koffiehout-voor-honden-xxl-5-stuks.html'
   },
   {
     id: 127,
@@ -1394,8 +1394,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/nobleza-hondenspeelgoed-speeltouw-katoen-met-pluche-bot-groen/9300000148502378/",
     brand: "Nobleza",
     description: "<p><strong>Het perfecte speeltouw voor honden! Het touw is 25 cm lang. Gemaakt van katoen, supersterk, 100 % natuurlijk materiaal en voorzien van verschillende dikte draden voor goede flos eigenschapp",
-    slug: "nobleza-hondenspeelgoed-speeltouw---flostouw-hond---puppy-speelgoed---piepspeelgoed---groen",
-    pageUrl: 'produits/nobleza-hondenspeelgoed-speeltouw---flostouw-hond---puppy-speelgoed---piepspeelgoed---groen.html'
+    slug: "nobleza-hondenspeelgoed-speeltouw-flostouw-hond-puppy-speelgoed-piepspeelgoed-groen",
+    pageUrl: 'produits/nobleza-hondenspeelgoed-speeltouw-flostouw-hond-puppy-speelgoed-piepspeelgoed-groen.html'
   },
   {
     id: 128,
@@ -1405,8 +1405,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/snuffelmat-voor-honden-voedselsnuffelmat-snuffelmat-voor-puppy-trainingsmat-voor-langzame-voeding-bevordert-natuurlijk-foerageergedrag-en-stressverlichting-geel-blauw-roze-rood/9300000266625642/",
     brand: "OBOSOE",
     description: "Snuffelmat voor honden: Dit is een unieke trainingsmat waarmee uw hond snoepjes of droogvoer kan vinden die in de mat verstopt liggen. Onderzoek toont aan dat 10 minuten snuffelen gelijk staat aan ong",
-    slug: "snuffelmat-voor-honden---voedselsnuffelmat---snuffelmat-voor-puppy---trainingsmat-voor-langzame-voeding---bevordert-natuurlijk-foerageergedrag-en-stressverlichting---geel-blauw-roze-rood",
-    pageUrl: 'produits/snuffelmat-voor-honden---voedselsnuffelmat---snuffelmat-voor-puppy---trainingsmat-voor-langzame-voeding---bevordert-natuurlijk-foerageergedrag-en-stressverlichting---geel-blauw-roze-rood.html'
+    slug: "snuffelmat-voor-honden-voedselsnuffelmat-snuffelmat-voor-puppy-trainingsmat-voor-langzame-voeding-bevordert-natuurlijk-foerageergedrag-en-stressverlichting-geel-blauw-roze-rood",
+    pageUrl: 'produits/snuffelmat-voor-honden-voedselsnuffelmat-snuffelmat-voor-puppy-trainingsmat-voor-langzame-voeding-bevordert-natuurlijk-foerageergedrag-en-stressverlichting-geel-blauw-roze-rood.html'
   },
   {
     id: 129,
@@ -1460,8 +1460,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/hondenvoerbak-kattenvoerbak-voerton-hond-voerbak-kat-dubbele-voerbak-met-houten-standaard-geschikt-voor-voer-en-water-geschikt-voor-katten-en-middelgrote-honden-keramiek-roze/9300000274342417/",
     brand: "Merkloos / Sans marque",
     description: "<p>\u3010Stevige standaard | Anti-kantelontwerp\u3011<br />Voorzien van een hoogwaardige houten standaard die zorgt voor een stabiele ondersteuning van de dubbele voerbakconstructie, waardoor verschuiven en omk",
-    slug: "hondenvoerbak---kattenvoerbak---voerton-hond---voerbak-kat---dubbele-voerbak---met-houten-standaard---geschikt-voor-voer-en-water---geschikt-voor-katten-en-middelgrote-honden---keramiek---roze",
-    pageUrl: 'produits/hondenvoerbak---kattenvoerbak---voerton-hond---voerbak-kat---dubbele-voerbak---met-houten-standaard---geschikt-voor-voer-en-water---geschikt-voor-katten-en-middelgrote-honden---keramiek---roze.html'
+    slug: "hondenvoerbak-kattenvoerbak-voerton-hond-voerbak-kat-dubbele-voerbak-met-houten-standaard-geschikt-voor-voer-en-water-geschikt-voor-katten-en-middelgrote-honden-keramiek-roze",
+    pageUrl: 'produits/hondenvoerbak-kattenvoerbak-voerton-hond-voerbak-kat-dubbele-voerbak-met-houten-standaard-geschikt-voor-voer-en-water-geschikt-voor-katten-en-middelgrote-honden-keramiek-roze.html'
   },
   {
     id: 134,
@@ -1493,8 +1493,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/animalking-konijnenoren-hond-konijnenoren-met-haar-konijnenoren-met-vacht-hondensnacks-gedroogd-500-gram/9300000227930995/",
     brand: "animalking",
     description: "<p><strong>Gedroogde konijnenoren met haar zijn een natuurlijke en gezonde hondensnack, ideaal als beloning of tussendoortje. Deze snack is rijk aan eiwitten en laag in vet, waardoor het geschikt is v",
-    slug: "animalking-konijnenoren-hond---konijnenoren-met-haar---konijnenoren-met-vacht---hondensnacks-gedroogd---500-gram",
-    pageUrl: 'produits/animalking-konijnenoren-hond---konijnenoren-met-haar---konijnenoren-met-vacht---hondensnacks-gedroogd---500-gram.html'
+    slug: "animalking-konijnenoren-hond-konijnenoren-met-haar-konijnenoren-met-vacht-hondensnacks-gedroogd-500-gram",
+    pageUrl: 'produits/animalking-konijnenoren-hond-konijnenoren-met-haar-konijnenoren-met-vacht-hondensnacks-gedroogd-500-gram.html'
   },
   {
     id: 137,
@@ -1504,8 +1504,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/yourdog-oostenrijkse-gladharige-brak-volwassen/9300000020615193/",
     brand: "Yourdog",
     description: "<p>Yourdog Oostenrijkse gladharige brak zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren dit met zorgvuldig g",
-    slug: "hondenvoer-yourdog---buffel-en-kip-met-venkel-tomaat-en-cranberry---3kg-voor-oostenrijkse-gladharige-brak",
-    pageUrl: 'produits/hondenvoer-yourdog---buffel-en-kip-met-venkel-tomaat-en-cranberry---3kg-voor-oostenrijkse-gladharige-brak.html'
+    slug: "hondenvoer-yourdog-buffel-en-kip-met-venkel-tomaat-en-cranberry-3kg-voor-oostenrijkse-gladharige-brak",
+    pageUrl: 'produits/hondenvoer-yourdog-buffel-en-kip-met-venkel-tomaat-en-cranberry-3kg-voor-oostenrijkse-gladharige-brak.html'
   },
   {
     id: 138,
@@ -1515,8 +1515,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/landman-zachte-kauwstaaf-met-kip-hondensnacks-hondensnoepjes-kauwsnacks-kauwstaaf-hond/9300000240597271/",
     brand: "Landman",
     description: "<p>Verwen je hond met een extra zachte en smaakvolle kauwsnack: de <strong>Landman Zachte Kauwstaaf met Kip</strong> combineert een flexibele, licht kauwbare textuur met heerlijke kipfiletsmaak. Door ",
-    slug: "landman-zachte-kauwstaaf-met-kip-100gr---hondensnacks---hondensnoepjes---kauwsnacks---kauwstaaf-hond",
-    pageUrl: 'produits/landman-zachte-kauwstaaf-met-kip-100gr---hondensnacks---hondensnoepjes---kauwsnacks---kauwstaaf-hond.html'
+    slug: "landman-zachte-kauwstaaf-met-kip-100gr-hondensnacks-hondensnoepjes-kauwsnacks-kauwstaaf-hond",
+    pageUrl: 'produits/landman-zachte-kauwstaaf-met-kip-100gr-hondensnacks-hondensnoepjes-kauwsnacks-kauwstaaf-hond.html'
   },
   {
     id: 139,
@@ -1526,8 +1526,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/renske-chhurpi-golddust-heal-spier-en-gewricht-xl-123-gr/9300000150553227/",
     brand: "Renske",
     description: "<h3>Renske Chhurpi Golddust Heal, recept uit de Himalaya</h3> <br /> <p>Ontdek de Renske Chhurpi Golddust Heal: een eeuwenoud recept uit de Himalaya, nu in een gezonde en heerlijke hondensnack! Deze n",
-    slug: "renske-chhurpi-golddust-heal---spier-en-gewricht-melk---hondensnacks---xl",
-    pageUrl: 'produits/renske-chhurpi-golddust-heal---spier-en-gewricht-melk---hondensnacks---xl.html'
+    slug: "renske-chhurpi-golddust-heal-spier-en-gewricht-melk-hondensnacks-xl",
+    pageUrl: 'produits/renske-chhurpi-golddust-heal-spier-en-gewricht-melk-hondensnacks-xl.html'
   },
   {
     id: 140,
@@ -1537,8 +1537,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/budget-pet-deals-hondensnacks-paardenhuid-5-00-kg-kauwsnack-gedroogd-geen-toevoegingen/9300000187176405/",
     brand: "Budget Pet Deals",
     description: "<p>Geef je hond een smakelijke en gezonde traktatie met onze <strong>premium paardenhuid kauwsnacks</strong>. Deze snacks zijn perfect voor honden die graag kauwen en bevorderen tegelijkertijd hun wel",
-    slug: "budget-pet-deals-hondensnacks---paardenhuid---500-kg---kauwsnack---gedroogd---geen-toevoegingen",
-    pageUrl: 'produits/budget-pet-deals-hondensnacks---paardenhuid---500-kg---kauwsnack---gedroogd---geen-toevoegingen.html'
+    slug: "budget-pet-deals-hondensnacks-paardenhuid-500-kg-kauwsnack-gedroogd-geen-toevoegingen",
+    pageUrl: 'produits/budget-pet-deals-hondensnacks-paardenhuid-500-kg-kauwsnack-gedroogd-geen-toevoegingen.html'
   },
   {
     id: 141,
@@ -1548,8 +1548,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/beeztees-kauwstaafjes-hondensnack-4-6-mm-100st/9300000063238776/",
     brand: "Beeztees",
     description: "Kauwsnacks zijn niet alleen heel erg lekker, maar zijn ook nog eens heel functioneel. Kauwen op de Beeztees Kauwstaafjes zorgt er namelijk voor dat de tanden van jouw hond op een natuurlijke manier wo",
-    slug: "beeztees-kauwstaafjes---hondensnack---4-6-mm---100st",
-    pageUrl: 'produits/beeztees-kauwstaafjes---hondensnack---4-6-mm---100st.html'
+    slug: "beeztees-kauwstaafjes-hondensnack-4-6-mm-100st",
+    pageUrl: 'produits/beeztees-kauwstaafjes-hondensnack-4-6-mm-100st.html'
   },
   {
     id: 142,
@@ -1559,8 +1559,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/vetline-hertenbot-met-vacht-natuurlijk-kauwplezier-voor-honden-1-stuk/9300000234108062/",
     brand: "VETLINE",
     description: "<p>Verwen je hond met ons hertenbot met vacht, een puur en natuurlijk kauwplezier van 100% hert.<br /> <br /> Door het vachtje biedt het bot niet alleen extra smaak, maar stimuleert het ook het natuur",
-    slug: "vetline---hertenbot-met-vacht--natuurlijk-kauwplezier-voor-honden-100-hert---1-stuk",
-    pageUrl: 'produits/vetline---hertenbot-met-vacht--natuurlijk-kauwplezier-voor-honden-100-hert---1-stuk.html'
+    slug: "vetline-hertenbot-met-vacht--natuurlijk-kauwplezier-voor-honden-100-hert-1-stuk",
+    pageUrl: 'produits/vetline-hertenbot-met-vacht--natuurlijk-kauwplezier-voor-honden-100-hert-1-stuk.html'
   },
   {
     id: 143,
@@ -1581,8 +1581,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/gebr-de-boon-natuurlijke-hondensnack-kalfspezen-15-cm/9200000120294585/",
     brand: "De Boon Snacks",
     description: "<h3>Gebr. De Boon Natuurlijke Hondensnack - Kalfspezen - 15 cm</h3> <p>De natuurlijke snack kalfspezen (15 cm) van Gebr. de Boon is een goede kauwsnack, geschikt voor elk type hond. Het kauwen is goed",
-    slug: "gebr-de-boon-natuurlijke-hondensnack---kalfspezen---15-cm",
-    pageUrl: 'produits/gebr-de-boon-natuurlijke-hondensnack---kalfspezen---15-cm.html'
+    slug: "gebr-de-boon-natuurlijke-hondensnack-kalfspezen-15-cm",
+    pageUrl: 'produits/gebr-de-boon-natuurlijke-hondensnack-kalfspezen-15-cm.html'
   },
   {
     id: 145,
@@ -1592,8 +1592,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/renske-vers-vlees-kerst-limited-edition-hondenvoer-395-gr/9200000021012746/",
     brand: "Renske",
     description: "Renske Vers Kerstdiner is een uniek product. Een maaltijd die niet alleen is afgestemd op het welzijn van Uw hond, maar ook op de naderende feestdagen. Renske maakt Kerstmis tot een waar feest voor je",
-    slug: "renske-vers-vlees---kerst-limited-edition---hondenvoer---395-gr---10-stuks",
-    pageUrl: 'produits/renske-vers-vlees---kerst-limited-edition---hondenvoer---395-gr---10-stuks.html'
+    slug: "renske-vers-vlees-kerst-limited-edition-hondenvoer-395-gr-10-stuks",
+    pageUrl: 'produits/renske-vers-vlees-kerst-limited-edition-hondenvoer-395-gr-10-stuks.html'
   },
   {
     id: 146,
@@ -1647,8 +1647,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/edgard-cooper-bar-lamb-30-gr/9300000172020573/",
     brand: "Edgard & Cooper",
     description: "<p>Een Keep it Up Reep geeft je hond een voedzame energieboost tot aan het avondeten.</p> <p>Ideaal voor elk hongertje: tijdens het spelen thuis of onderweg. Met een gevulde maag en opgeladen poten zi",
-    slug: "edgard--cooper-bar-30-g---hondensnacks---lam",
-    pageUrl: 'produits/edgard--cooper-bar-30-g---hondensnacks---lam.html'
+    slug: "edgard--cooper-bar-30-g-hondensnacks-lam",
+    pageUrl: 'produits/edgard--cooper-bar-30-g-hondensnacks-lam.html'
   },
   {
     id: 151,
@@ -1680,8 +1680,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/yourdog-entlebucher-sennenhond-volwassen/9300000020614369/",
     brand: "Yourdog",
     description: "<p>Yourdog Entlebucher sennenhond zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren dit met zorgvuldig geselec",
-    slug: "hondenvoer-yourdog---entlebucher-sennenhond---buffel-en-kip-3kg-zonder-kunstmatige-toevoegingen",
-    pageUrl: 'produits/hondenvoer-yourdog---entlebucher-sennenhond---buffel-en-kip-3kg-zonder-kunstmatige-toevoegingen.html'
+    slug: "hondenvoer-yourdog-entlebucher-sennenhond-buffel-en-kip-3kg-zonder-kunstmatige-toevoegingen",
+    pageUrl: 'produits/hondenvoer-yourdog-entlebucher-sennenhond-buffel-en-kip-3kg-zonder-kunstmatige-toevoegingen.html'
   },
   {
     id: 154,
@@ -1691,8 +1691,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/timo-rund-kauwbotjes-small-hondensnacks-6-x-per-stuk/9200000108825296/",
     brand: "Timo",
     description: "<h3>Lekker kauwen</h3><p>Wist je dat <b>kauwen</b> van ontzettend groot belang is bij je trouwe viervoeter? Ze vinden het niet alleen lekker maar het draagt ook bij aan een gezonde gebitsverzorging. H",
-    slug: "timo-rund-kauwbotjes-15-cm---hondensnacks---6-x-per-stuk",
-    pageUrl: 'produits/timo-rund-kauwbotjes-15-cm---hondensnacks---6-x-per-stuk.html'
+    slug: "timo-rund-kauwbotjes-15-cm-hondensnacks-6-x-per-stuk",
+    pageUrl: 'produits/timo-rund-kauwbotjes-15-cm-hondensnacks-6-x-per-stuk.html'
   },
   {
     id: 155,
@@ -1713,8 +1713,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/budget-pet-deals-hondensnacks-herten-trainers-5-00-kg-hondensnoepjes-trainingssnoepjes/9300000187176450/",
     brand: "Budget Pet Deals",
     description: "<p>Maak de trainingssessies van je hond speciaal met onze <strong>premium herten trainers</strong>. Deze heerlijke en gezonde snacks zijn ontworpen om je hond te verwennen en te belonen op een verantw",
-    slug: "budget-pet-deals-hondensnacks---herten-trainers---500-kg---hondensnoepjes---trainingssnoepjes",
-    pageUrl: 'produits/budget-pet-deals-hondensnacks---herten-trainers---500-kg---hondensnoepjes---trainingssnoepjes.html'
+    slug: "budget-pet-deals-hondensnacks-herten-trainers-500-kg-hondensnoepjes-trainingssnoepjes",
+    pageUrl: 'produits/budget-pet-deals-hondensnacks-herten-trainers-500-kg-hondensnoepjes-trainingssnoepjes.html'
   },
   {
     id: 157,
@@ -1735,8 +1735,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/boris-lotje-5-pack-hondenbot-kauwstaaf-100-natuurlijk-koffiehout-medium-15-17cm-5-stuks/9300000196439925/",
     brand: "Boris & Lotje",
     description: "<p>De koffiehout kauwstaaf van <strong>Boris&Lotje</strong> is een unieke, natuurlijke kauwsnack die speciaal is ontworpen voor honden die graag kauwen. Dit duurzame hondenbot is ideaal voor honden va",
-    slug: "boris--lotje-5-pack-hondenbot-kauwstaaf-100-natuurlijk-koffiehout---medium-15-17cm-5-stuks",
-    pageUrl: 'produits/boris--lotje-5-pack-hondenbot-kauwstaaf-100-natuurlijk-koffiehout---medium-15-17cm-5-stuks.html'
+    slug: "boris--lotje-5-pack-hondenbot-kauwstaaf-100-natuurlijk-koffiehout-medium-15-17cm-5-stuks",
+    pageUrl: 'produits/boris--lotje-5-pack-hondenbot-kauwstaaf-100-natuurlijk-koffiehout-medium-15-17cm-5-stuks.html'
   },
   {
     id: 159,
@@ -1746,8 +1746,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/edgard-cooper-kuipje-vers-vlees-hondenvoer-wild-eend-150-gr/9200000110232072/",
     brand: "Edgard & Cooper",
     description: "\" <p> <strong>Geef eten dat goed voelt</strong> </p> <br /> <p> Goed eten is top voor lichaam en geest. Niks beter dan lekker Honden Natvoer met groenten en fruit. Zeker als het gemaakt is met een har",
-    slug: "edgard--cooper-kuipje-honden-natvoer-hondenvoer-wild---eend-150-gr",
-    pageUrl: 'produits/edgard--cooper-kuipje-honden-natvoer-hondenvoer-wild---eend-150-gr.html'
+    slug: "edgard--cooper-kuipje-honden-natvoer-hondenvoer-wild-eend-150-gr",
+    pageUrl: 'produits/edgard--cooper-kuipje-honden-natvoer-hondenvoer-wild-eend-150-gr.html'
   },
   {
     id: 160,
@@ -1757,8 +1757,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/rogz-africa-exotic-protein-hondensnack-ostrich-100-gram/9300000260451431/",
     brand: "Rogz for Dogs",
     description: "<p>De Rogz Africa Exotic hondensnacks zijn premium, functionele snacks met unieke Afrikaanse eiwitbronnen zoals struisvogel en zebra. Deze halfzachte, smakelijke snacks zijn hypoallergeen, graanvrij e",
-    slug: "rogz-africa-exotic-protein---hondensnack---ostrich---100-gram",
-    pageUrl: 'produits/rogz-africa-exotic-protein---hondensnack---ostrich---100-gram.html'
+    slug: "rogz-africa-exotic-protein-hondensnack-ostrich-100-gram",
+    pageUrl: 'produits/rogz-africa-exotic-protein-hondensnack-ostrich-100-gram.html'
   },
   {
     id: 161,
@@ -1768,8 +1768,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/perfect-fit-kattenbrokken-adult-kip-2-8kg/9300000189395278/",
     brand: "Perfect Fit",
     description: "<p><strong>PERFECT FIT Kattenbrokken Kip ondersteunt de gezondheid van jouw geliefde kat. </strong>Naast de unieke Perfect Fit Total 5 formule, die in alle kattenbrokken van Perfect Fit terugkomt, bev",
-    slug: "perfect-fit-kattenbrokken---adult---kip---28kg",
-    pageUrl: 'produits/perfect-fit-kattenbrokken---adult---kip---28kg.html'
+    slug: "perfect-fit-kattenbrokken-adult-kip-28kg",
+    pageUrl: 'produits/perfect-fit-kattenbrokken-adult-kip-28kg.html'
   },
   {
     id: 162,
@@ -1779,8 +1779,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/kussies-kussen-100-cm-met-wasbare-hoes-mandala-donkerblauw-wit-hondenkussen-speelkussen-kind-donut-zitzak-rond-hondenmand-loungekussen-jongen/9300000164734022/",
     brand: "KUSSIES",
     description: "<p> In 34 kleuren! Tijdelijk met <strong>GRATIS</strong> beloningstasje en sticker voor aan je riem!<br /><br />LET OP: de eerste afbeelding is geen indicatie van de afmeting van dit kussen. Zie daarv",
-    slug: "kussies-kussen-100-cm-met-wasbare-hoes---mandala-donkerblauw-wit---hondenkussen-speelkussen-kind---donut-zitzak-rond-hondenmand-loungekussen-jongen",
-    pageUrl: 'produits/kussies-kussen-100-cm-met-wasbare-hoes---mandala-donkerblauw-wit---hondenkussen-speelkussen-kind---donut-zitzak-rond-hondenmand-loungekussen-jongen.html'
+    slug: "kussies-kussen-100-cm-met-wasbare-hoes-mandala-donkerblauw-wit-hondenkussen-speelkussen-kind-donut-zitzak-rond-hondenmand-loungekussen-jongen",
+    pageUrl: 'produits/kussies-kussen-100-cm-met-wasbare-hoes-mandala-donkerblauw-wit-hondenkussen-speelkussen-kind-donut-zitzak-rond-hondenmand-loungekussen-jongen.html'
   },
   {
     id: 163,
@@ -1790,8 +1790,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/hond-ballen-speelgoed-rubber-bouncy-fetch-bal-met-bell-geluidslicht-voor-honden-pet-puppy-activiteiten/9300000237405749/",
     brand: "Merkloos / Sans marque",
     description: "<h3>Ontdek het Perfecte Kauwspeelgoed voor Uw Hond!</h3> <p>Geef uw hond het beste met onze premium <strong>gloeiende klokballen</strong>. Dit innovatieve kauwspeelgoed is ontworpen met de behoeften v",
-    slug: "hond-ballen-speelgoed---rubber-bouncy-fetch-bal-met-bell-geluidslicht-voor-honden---pet-puppy-activiteiten",
-    pageUrl: 'produits/hond-ballen-speelgoed---rubber-bouncy-fetch-bal-met-bell-geluidslicht-voor-honden---pet-puppy-activiteiten.html'
+    slug: "hond-ballen-speelgoed-rubber-bouncy-fetch-bal-met-bell-geluidslicht-voor-honden-pet-puppy-activiteiten",
+    pageUrl: 'produits/hond-ballen-speelgoed-rubber-bouncy-fetch-bal-met-bell-geluidslicht-voor-honden-pet-puppy-activiteiten.html'
   },
   {
     id: 164,
@@ -1801,8 +1801,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/nivard-hondenknuffel-met-hartslag-knuffel-met-hartslag-heartbeat-knuffel-beige/9300000170137101/",
     brand: "Merkloos / Sans marque",
     description: "<p><strong>Laat jouw harige vrienden genieten van onvoorwaardelijke liefde en warmte met de Nivard Honden Knuffel - waar speelsheid en troost samenkomen in een zachte omhelzing voor de trouwste metgez",
-    slug: "nivard-hondenknuffel-met-hartslag---knuffel-met-hartslag---heartbeat-knuffel---beige",
-    pageUrl: 'produits/nivard-hondenknuffel-met-hartslag---knuffel-met-hartslag---heartbeat-knuffel---beige.html'
+    slug: "nivard-hondenknuffel-met-hartslag-knuffel-met-hartslag-heartbeat-knuffel-beige",
+    pageUrl: 'produits/nivard-hondenknuffel-met-hartslag-knuffel-met-hartslag-heartbeat-knuffel-beige.html'
   },
   {
     id: 165,
@@ -1812,8 +1812,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/hondenpuzzel-interactieve-hondenpuzzel-intelligentie-hondespeelgoed-honden-slim-eetlust-dieren-dierenpuzzel/9300000240216454/",
     brand: "Merkloos / Sans marque",
     description: "<p><strong>Geef je hond een leuke mentale uitdaging \u00e9n een smakelijke beloning met onze interactieve hondenpuzzel. Perfect om intelligentie te stimuleren en verveling te doorbreken!</strong></p> <p><s",
-    slug: "hondenpuzzel---interactieve-hondenpuzzel---intelligentie---hondespeelgoed---honden---slim---eetlust---dieren---dierenpuzzel",
-    pageUrl: 'produits/hondenpuzzel---interactieve-hondenpuzzel---intelligentie---hondespeelgoed---honden---slim---eetlust---dieren---dierenpuzzel.html'
+    slug: "hondenpuzzel-interactieve-hondenpuzzel-intelligentie-hondespeelgoed-honden-slim-eetlust-dieren-dierenpuzzel",
+    pageUrl: 'produits/hondenpuzzel-interactieve-hondenpuzzel-intelligentie-hondespeelgoed-honden-slim-eetlust-dieren-dierenpuzzel.html'
   },
   {
     id: 166,
@@ -1834,8 +1834,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/dog-slow-feeder-dog-licking-bowl-dog-licking-toy-geschikt-voor-grote-en-middelgrote-kleine-honden-geschikt-voor-vloeistofvoeding/9300000262442581/",
     brand: "OBOSOE",
     description: "<ul> <li>Geschikt voor alle honden: Professioneel ontworpen voor het verwerken van alle vloeibare snacks, of het nu rijk is aan zelfgemaakte botsoep, roomyoghurt, ideaal voor oudere honden, nieuwe pup",
-    slug: "dog-slow-feeder---dog-licking-bowl---dog-licking-toy---geschikt-voor-grote-en-middelgrote-kleine-honden---geschikt-voor-vloeistofvoeding-blauw",
-    pageUrl: 'produits/dog-slow-feeder---dog-licking-bowl---dog-licking-toy---geschikt-voor-grote-en-middelgrote-kleine-honden---geschikt-voor-vloeistofvoeding-blauw.html'
+    slug: "dog-slow-feeder-dog-licking-bowl-dog-licking-toy-geschikt-voor-grote-en-middelgrote-kleine-honden-geschikt-voor-vloeistofvoeding-blauw",
+    pageUrl: 'produits/dog-slow-feeder-dog-licking-bowl-dog-licking-toy-geschikt-voor-grote-en-middelgrote-kleine-honden-geschikt-voor-vloeistofvoeding-blauw.html'
   },
   {
     id: 168,
@@ -1845,8 +1845,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/slinger-pebble-lichtgewicht-bal-aan-touw-voor-honden-ideaal-voor-apporteren-en-trekspel-beco-pets-oranje/9300000164596079/",
     brand: "BecoPets",
     description: "<p>De Beco Slinger Pebble is een veerkrachtig natuurlijk rubberen ei dat gemakkelijk vast te houden is voor je hond en het recyclede touw zorgt voor extra gooiafstand. Ideaal voor een potje apporteren",
-    slug: "slinger-pebble---lichtgewicht-bal-aan-touw-voor-honden---ideaal-voor-apporteren-en-trekspel---beco-pets---oranje",
-    pageUrl: 'produits/slinger-pebble---lichtgewicht-bal-aan-touw-voor-honden---ideaal-voor-apporteren-en-trekspel---beco-pets---oranje.html'
+    slug: "slinger-pebble-lichtgewicht-bal-aan-touw-voor-honden-ideaal-voor-apporteren-en-trekspel-beco-pets-oranje",
+    pageUrl: 'produits/slinger-pebble-lichtgewicht-bal-aan-touw-voor-honden-ideaal-voor-apporteren-en-trekspel-beco-pets-oranje.html'
   },
   {
     id: 169,
@@ -1856,8 +1856,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/hondenspeelgoed-neushoorn-kauwspeelgoed-pieper-hond-bezig-houden-duurzaam-katoen-materiaal-15x8x17-cm-grijs/9300000270953050/",
     brand: "Merkloos / Sans marque",
     description: "Is uw trouwe viervoeter op zoek naar een nieuwe favoriete metgezel die zowel stevig als vermakelijk is? Dit pluche hondenspeeltje, vormgegeven als een robuuste neushoorn, biedt de perfecte oplossing o",
-    slug: "hondenspeelgoed-neushoorn---kauwspeelgoed-pieper---hond-bezig-houden---duurzaam-katoen-materiaal---15x8x17-cm---grijs",
-    pageUrl: 'produits/hondenspeelgoed-neushoorn---kauwspeelgoed-pieper---hond-bezig-houden---duurzaam-katoen-materiaal---15x8x17-cm---grijs.html'
+    slug: "hondenspeelgoed-neushoorn-kauwspeelgoed-pieper-hond-bezig-houden-duurzaam-katoen-materiaal-15x8x17-cm-grijs",
+    pageUrl: 'produits/hondenspeelgoed-neushoorn-kauwspeelgoed-pieper-hond-bezig-houden-duurzaam-katoen-materiaal-15x8x17-cm-grijs.html'
   },
   {
     id: 170,
@@ -1900,8 +1900,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/dr-pol-hondenvoer-glutenvrij-kip-bevat-prebiotica-hondenbrokken-10-kg/9300000232542649/",
     brand: "Dr. Pol",
     description: "<p><strong>Voor volwassen honden die gebaat zijn bij voedzame eenvoud en pure ingredi\u00ebnten, is er Dr. Pol Adult Kip. Deze uitgebalanceerde maaltijd bevat 34% kip (waarvan 14% vers), verrijkt met prebi",
-    slug: "dr-pol-hondenvoer-glutenvrij---kip---bevat-prebiotica---hondenbrokken---10-kg",
-    pageUrl: 'produits/dr-pol-hondenvoer-glutenvrij---kip---bevat-prebiotica---hondenbrokken---10-kg.html'
+    slug: "dr-pol-hondenvoer-glutenvrij-kip-bevat-prebiotica-hondenbrokken-10-kg",
+    pageUrl: 'produits/dr-pol-hondenvoer-glutenvrij-kip-bevat-prebiotica-hondenbrokken-10-kg.html'
   },
   {
     id: 174,
@@ -1911,8 +1911,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/wooof-lam-en-aardappel-krokante-hondenbrokken-36kg-graanvrij-hondenvoer-gevoeldige-honden-36kg/9300000273641472/",
     brand: "Wooof",
     description: "<p><strong>Heeft jouw hond een gevoelige maag of reageert hij slecht op granen? WOOOF Lam & Aardappel Hondenvoer Krokant is een 100% graanvrije, complete dagelijkse brok voor volwassen honden. Met lam",
-    slug: "wooof-lam-en-aardappel-krokante-hondenbrokken-36kg---graanvrij---hondenvoer-gevoeldige-honden---36kg",
-    pageUrl: 'produits/wooof-lam-en-aardappel-krokante-hondenbrokken-36kg---graanvrij---hondenvoer-gevoeldige-honden---36kg.html'
+    slug: "wooof-lam-en-aardappel-krokante-hondenbrokken-36kg-graanvrij-hondenvoer-gevoeldige-honden-36kg",
+    pageUrl: 'produits/wooof-lam-en-aardappel-krokante-hondenbrokken-36kg-graanvrij-hondenvoer-gevoeldige-honden-36kg.html'
   },
   {
     id: 175,
@@ -1944,8 +1944,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/aanbieding-3x-best-buddy-freez-dry-garnaal-hondensnack-kattensnack-beloningssnack-100-garnaal-gevriesdroogd/9300000231742889/",
     brand: "Best buddy Pets",
     description: "<p>De <strong>gevriesdroogde garnalen van BestBuddy Pets</strong> zijn een pure en smaakvolle traktatie waar honden en katten dol op zijn. Zodra je de verpakking opent, zul je merken hoe aantrekkelijk",
-    slug: "freez-dry-garnaal---glutenvrij---mono-prote\u00efne---best-buddy-pets",
-    pageUrl: 'produits/freez-dry-garnaal---glutenvrij---mono-proteïne---best-buddy-pets.html'
+    slug: "freez-dry-garnaal-glutenvrij-mono-prote\u00efne-best-buddy-pets",
+    pageUrl: 'produits/freez-dry-garnaal-glutenvrij-mono-proteïne-best-buddy-pets.html'
   },
   {
     id: 178,
@@ -1955,8 +1955,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/eendfilet-900-gram-voordeelpak-hondensnack-kauwsnack-hondenbot-gedroogd/9300000057515960/",
     brand: "Landman",
     description: "Landman Hondensnack Eendenfilet 900 gramPlakken gedroogde filet van eend.Eend 94%, ma\u00efszetmeel 3%, erwteneiwit 2%, plantaardige glycerine 1%Ruw eiwit 50%, ruw vet 3%, ruwe celstof 4%, ruwe as 3%, voch",
-    slug: "landman-eendfilet-gedroogd-900-gram---natuurlijke-hondensnacks---hondensnoepjes---hondensnacks-gedroogd---hondensnacks---hypoallergeen",
-    pageUrl: 'produits/landman-eendfilet-gedroogd-900-gram---natuurlijke-hondensnacks---hondensnoepjes---hondensnacks-gedroogd---hondensnacks---hypoallergeen.html'
+    slug: "landman-eendfilet-gedroogd-900-gram-natuurlijke-hondensnacks-hondensnoepjes-hondensnacks-gedroogd-hondensnacks-hypoallergeen",
+    pageUrl: 'produits/landman-eendfilet-gedroogd-900-gram-natuurlijke-hondensnacks-hondensnoepjes-hondensnacks-gedroogd-hondensnacks-hypoallergeen.html'
   },
   {
     id: 179,
@@ -1966,8 +1966,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/puur-fit-cubes-hondensnack-rund-400-gr/9300000192418839/",
     brand: "Puur Fit",
     description: "<p>Puur Fit Cubes zijn de perfecte beloning voor jouw hond. Deze smakelijke cubes zijn gemaakt van 100% natuurlijke ingredi\u00ebnten en bevatten geen kunstmatige toevoegingen, waardoor ze een verantwoorde",
-    slug: "puur-fit-cubes---hondensnack---rund-400-gr",
-    pageUrl: 'produits/puur-fit-cubes---hondensnack---rund-400-gr.html'
+    slug: "puur-fit-cubes-hondensnack-rund-400-gr",
+    pageUrl: 'produits/puur-fit-cubes-hondensnack-rund-400-gr.html'
   },
   {
     id: 180,
@@ -1977,8 +1977,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/vitalstyle-pre-probiotics-spieren-gewrichten-honden-supplementen-ondersteunt-kraakbeen-en-spieren-met-prebiotica-probiotica-poeder-200-g/9300000233607704/",
     brand: "VITALstyle",
     description: "<h3>D\u00e9 ondersteuning voor de spieren en gewrichten van honden</h3> <p>Pre- & Probiotics Spieren & Gewrichten is een aanvullend dieetvoeder voor honden van alle leeftijden. Het draagt bij aan het behou",
-    slug: "vitalstyle-pre---probiotics-spieren--gewrichten---honden-supplementen---ondersteunt-kraakbeen-en-spieren---met-prebiotica--probiotica---poeder---200-g",
-    pageUrl: 'produits/vitalstyle-pre---probiotics-spieren--gewrichten---honden-supplementen---ondersteunt-kraakbeen-en-spieren---met-prebiotica--probiotica---poeder---200-g.html'
+    slug: "vitalstyle-pre-probiotics-spieren--gewrichten-honden-supplementen-ondersteunt-kraakbeen-en-spieren-met-prebiotica--probiotica-poeder-200-g",
+    pageUrl: 'produits/vitalstyle-pre-probiotics-spieren--gewrichten-honden-supplementen-ondersteunt-kraakbeen-en-spieren-met-prebiotica--probiotica-poeder-200-g.html'
   },
   {
     id: 181,
@@ -1988,8 +1988,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/oswalt-yak-kaas-xl-3-stuks-200gr-per-stuk-hondensnack-kauwstaaf/9300000197208240/",
     brand: "Oswalt",
     description: "<p><strong>Oswalt Yak Kaas Hondensnack: De Ultieme Gezonde Traktatie</strong></p> <p>Verwen je hond met een natuurlijke en voedzame traktatie die zowel smakelijk als gezond is. Onze Yak kaas hondensna",
-    slug: "oswalt-yak-kaas-xl---3-stuks---200gr-per-stuk---hondensnack---kauwstaaf",
-    pageUrl: 'produits/oswalt-yak-kaas-xl---3-stuks---200gr-per-stuk---hondensnack---kauwstaaf.html'
+    slug: "oswalt-yak-kaas-xl-3-stuks-200gr-per-stuk-hondensnack-kauwstaaf",
+    pageUrl: 'produits/oswalt-yak-kaas-xl-3-stuks-200gr-per-stuk-hondensnack-kauwstaaf.html'
   },
   {
     id: 182,
@@ -1999,8 +1999,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/mac-s-hondenvoer-natvoer-blik-mono-sensitive-lam-6-x-400g/9300000008357201/",
     brand: "MAC's",
     description: "<ul> <li>Maar liefs 70% vleesaandeel</li> <li>Speciaal voor honden met gevoelige darmpjes of allergie\u00ebn</li> <li>Enkelvoudig eiwit: slechts \u00e9\u00e9n dierlijke eiwitbron</li> <li>Mac\u2019s wordt bereid met hoog",
-    slug: "macs-hondenvoer-natvoer-blik---mono-sensitive-lam---6-x-400g",
-    pageUrl: 'produits/macs-hondenvoer-natvoer-blik---mono-sensitive-lam---6-x-400g.html'
+    slug: "macs-hondenvoer-natvoer-blik-mono-sensitive-lam-6-x-400g",
+    pageUrl: 'produits/macs-hondenvoer-natvoer-blik-mono-sensitive-lam-6-x-400g.html'
   },
   {
     id: 183,
@@ -2021,8 +2021,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/yourdog-steirische-ruwharig-brak-volwassen/9300000020615559/",
     brand: "Yourdog",
     description: "<p>Yourdog Steirische ruwharig brak zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren dit met zorgvuldig gesel",
-    slug: "hondenvoer-yourdog---steirische-ruwharig-brak---buffel-en-kip-3kg-hypoallergeen-met-groenten-en-fruit",
-    pageUrl: 'produits/hondenvoer-yourdog---steirische-ruwharig-brak---buffel-en-kip-3kg-hypoallergeen-met-groenten-en-fruit.html'
+    slug: "hondenvoer-yourdog-steirische-ruwharig-brak-buffel-en-kip-3kg-hypoallergeen-met-groenten-en-fruit",
+    pageUrl: 'produits/hondenvoer-yourdog-steirische-ruwharig-brak-buffel-en-kip-3kg-hypoallergeen-met-groenten-en-fruit.html'
   },
   {
     id: 185,
@@ -2043,8 +2043,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/vegdog-chevvies-xl-vegan-kauwsnack-bbq-smaak-hypoallergeen-200g-voor-middelgrote-grote-honden/9300000272041498/",
     brand: "VegDog",
     description: "VEGDOG CHEVVIES XL - Vegan BBQ Kauwsnack voor Langdurig Kauwplezier <p><strong>VEGDOG CHEVVIES XL</strong> zijn extra grote vegan kauwsticks voor honden die graag langdurig kauwen. Met een <strong>nat",
-    slug: "vegdog-chevvies-xl---vegan-kauwsnack---bbq-smaak---hypoallergeen---200g---voor-middelgrote--grote-honden",
-    pageUrl: 'produits/vegdog-chevvies-xl---vegan-kauwsnack---bbq-smaak---hypoallergeen---200g---voor-middelgrote--grote-honden.html'
+    slug: "vegdog-chevvies-xl-vegan-kauwsnack-bbq-smaak-hypoallergeen-200g-voor-middelgrote--grote-honden",
+    pageUrl: 'produits/vegdog-chevvies-xl-vegan-kauwsnack-bbq-smaak-hypoallergeen-200g-voor-middelgrote--grote-honden.html'
   },
   {
     id: 187,
@@ -2065,8 +2065,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/nylabone-durachew-bone-wolf-m-hondenspeelgoed-2-x-wit/9200000108603617/",
     brand: "Nylabone",
     description: "Voor de echte fanatieke kauwers <p>Honden hebben een sterk gebit waarmee ze goed kunnen kauwen. Een kauwsnack gemaakt van natuurlijk materiaal eten ze vaak snel op, zo hebben ze er maar kort plezier v",
-    slug: "nylabone-durachew-bone-wolf-m---hondenspeelgoed---2-x-wit",
-    pageUrl: 'produits/nylabone-durachew-bone-wolf-m---hondenspeelgoed---2-x-wit.html'
+    slug: "nylabone-durachew-bone-wolf-m-hondenspeelgoed-2-x-wit",
+    pageUrl: 'produits/nylabone-durachew-bone-wolf-m-hondenspeelgoed-2-x-wit.html'
   },
   {
     id: 189,
@@ -2076,8 +2076,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/boris-lotje-deluxe-hondenpakket-xxl-natuurlijk-kauwen-en-spelen-honden-speelgoed-hondensnacks/9300000231764966/",
     brand: "Boris & Lotje",
     description: "<p>Dit duurzame basispakket bevat stevige en veilige kauw- en speelproducten, speciaal voor nieuwsgierige honden. Ideaal voor natuurlijke speelmomenten en langdurig kauwplezier. Laat je hond op een ve",
-    slug: "boris--lotje-deluxe-hondenpakket-xxl---natuurlijk-kauwen-en-spelen---honden-speelgoed---hondensnacks",
-    pageUrl: 'produits/boris--lotje-deluxe-hondenpakket-xxl---natuurlijk-kauwen-en-spelen---honden-speelgoed---hondensnacks.html'
+    slug: "boris--lotje-deluxe-hondenpakket-xxl-natuurlijk-kauwen-en-spelen-honden-speelgoed-hondensnacks",
+    pageUrl: 'produits/boris--lotje-deluxe-hondenpakket-xxl-natuurlijk-kauwen-en-spelen-honden-speelgoed-hondensnacks.html'
   },
   {
     id: 190,
@@ -2087,8 +2087,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/zachte-ademende-hondenmuilkorf-voorkomt-bijten-en-kauwen-met-drinkopening-voor-kleine-middelgrote-en-grote-honden-zwart-maat-s-1-stuk/9300000259387572/",
     brand: "Merkloos / Sans marque",
     description: "Zachte Ademende Honden Muilkorf - Voor kleine, middelgrote en grote honden Zachte Ademende Honden Muilkorf - Veilig en Comfortabel voor Uw Hond De Perfecte Muilkorf voor Veiligheid en Comfort tijdens ",
-    slug: "zachte-ademende-hondenmuilkorf---voorkomt-bijten-en-kauwen---met-drinkopening-voor-kleine-middelgrote-en-grote-honden---zwart---maat-s---1-stuk",
-    pageUrl: 'produits/zachte-ademende-hondenmuilkorf---voorkomt-bijten-en-kauwen---met-drinkopening-voor-kleine-middelgrote-en-grote-honden---zwart---maat-s---1-stuk.html'
+    slug: "zachte-ademende-hondenmuilkorf-voorkomt-bijten-en-kauwen-met-drinkopening-voor-kleine-middelgrote-en-grote-honden-zwart-maat-s-1-stuk",
+    pageUrl: 'produits/zachte-ademende-hondenmuilkorf-voorkomt-bijten-en-kauwen-met-drinkopening-voor-kleine-middelgrote-en-grote-honden-zwart-maat-s-1-stuk.html'
   },
   {
     id: 191,
@@ -2098,8 +2098,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/vedic-honden-beloningstasje-bruin-beloningszakje-trainingszakje-hondensnoepjes-poepzakjeshouder-18x13cm/9300000067723805/",
     brand: "VEDIC",
     description: "<p><strong>Als je de deur uitgaat met je hond wil je graag snoepjes mee om hem te belonen. Ook heb je meestal hondenpoepzakjes of iets anders met je mee. Dit wil je natuurlijk niet telkens vast houden",
-    slug: "vedic---beloningstasje-voor-honden-bruin---beloningszakje---hondensnoepjes-tasje---poepzakjeshouder---18x13cm",
-    pageUrl: 'produits/vedic---beloningstasje-voor-honden-bruin---beloningszakje---hondensnoepjes-tasje---poepzakjeshouder---18x13cm.html'
+    slug: "vedic-beloningstasje-voor-honden-bruin-beloningszakje-hondensnoepjes-tasje-poepzakjeshouder-18x13cm",
+    pageUrl: 'produits/vedic-beloningstasje-voor-honden-bruin-beloningszakje-hondensnoepjes-tasje-poepzakjeshouder-18x13cm.html'
   },
   {
     id: 192,
@@ -2109,8 +2109,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/halloween-halsband-hond-kleurrijke-honden-halsband-ook-voor-kleine-hond-puppy-paars-pompoenen-pumpkin-pooch-parade-paw-my-god-maat-l/9300000160880694/",
     brand: "Paw My God!",
     description: "<p>Trick or treat! Je kleine vriendje zal er nauwelijks eng uitzien in deze Halloween outfit ... Dat weerhoudt je er vast niet van om hem te verwennen!</p> <h3>Pumpkin Pooch Parade Halsband</h3> <p>De",
-    slug: "halloween-halsband-hond---zachte-honden-halsband---ook-voor-kleine-hond--puppy---paars---pompoenen---pumpkin-pooch-parade---paw-my-god---maat-l",
-    pageUrl: 'produits/halloween-halsband-hond---zachte-honden-halsband---ook-voor-kleine-hond--puppy---paars---pompoenen---pumpkin-pooch-parade---paw-my-god---maat-l.html'
+    slug: "halloween-halsband-hond-zachte-honden-halsband-ook-voor-kleine-hond--puppy-paars-pompoenen-pumpkin-pooch-parade-paw-my-god-maat-l",
+    pageUrl: 'produits/halloween-halsband-hond-zachte-honden-halsband-ook-voor-kleine-hond--puppy-paars-pompoenen-pumpkin-pooch-parade-paw-my-god-maat-l.html'
   },
   {
     id: 193,
@@ -2120,8 +2120,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/famanu-hondenpoepzakjes-biologisch-afbreekbaar-40-rollen-poepzakjes-voor-honden-lekvrij-hondenzak-poep-draagbaar-dikke-hondenzakken-hondenaccessoires-met-poepzakdispenser-33-x/9300000255408719/",
     brand: "Famanu",
     description: "Over dit artikel <ul> <li>Een handig hulpmiddel voor langdurige schoonmaak: bevat 40 rollen, 15 zakken per rol, in totaal 600 vuilniszakken voor organisch afval. Een voldoende aantal vuilniszakken is ",
-    slug: "famanu--hondenpoepzakjes---biologisch-afbreekbaar---40-rollen---poepzakjes-voor-honden---lekvrij---hondenzak---poep---draagbaar---dikke-hondenzakken---hondenaccessoires-met-poepzakdispenser---33-x",
-    pageUrl: 'produits/famanu--hondenpoepzakjes---biologisch-afbreekbaar---40-rollen---poepzakjes-voor-honden---lekvrij---hondenzak---poep---draagbaar---dikke-hondenzakken---hondenaccessoires-met-poepzakdispenser---33-x.html'
+    slug: "famanu--hondenpoepzakjes-biologisch-afbreekbaar-40-rollen-poepzakjes-voor-honden-lekvrij-hondenzak-poep-draagbaar-dikke-hondenzakken-hondenaccessoires-met-poepzakdispenser-33-x",
+    pageUrl: 'produits/famanu--hondenpoepzakjes-biologisch-afbreekbaar-40-rollen-poepzakjes-voor-honden-lekvrij-hondenzak-poep-draagbaar-dikke-hondenzakken-hondenaccessoires-met-poepzakdispenser-33-x.html'
   },
   {
     id: 194,
@@ -2131,8 +2131,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/4x-yarrah-bio-hondenvoer-senior-kip-2-kg/9300000031702201/",
     brand: "Yarrah",
     description: "Yarrah Bio Hondenvoer Senior Kip Overheerlijke brokken met biologische kip, MSC-vis, biologische duivelsklauw, heermoes en rozenbottel voor honden van 7 jaar en ouder. Het biologische hondenvoer vormt",
-    slug: "yarrah-bio-hondenvoer-senior-kip---4-x-2-kg---voordeelverpakking",
-    pageUrl: 'produits/yarrah-bio-hondenvoer-senior-kip---4-x-2-kg---voordeelverpakking.html'
+    slug: "yarrah-bio-hondenvoer-senior-kip-4-x-2-kg-voordeelverpakking",
+    pageUrl: 'produits/yarrah-bio-hondenvoer-senior-kip-4-x-2-kg-voordeelverpakking.html'
   },
   {
     id: 195,
@@ -2153,8 +2153,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/bewegende-hondenbal-slimme-rollende-speeltje-training-oefening-vermaak-automatische-functies-17-x-14-x-10-cm/9300000270050742/",
     brand: "Merkloos / Sans marque",
     description: "Laat uw trouwe viervoeter genieten van eindeloos speelplezier met deze innovatieve bewegende hondenbal, ontworpen om verveling tegen te gaan en uw huisdier actief te houden. Deze slimme, diervormige b",
-    slug: "bewegende-hondenbal---slimme-rollende-speeltje---training-oefening-vermaak---automatische-functies---17-x-14-x-10-cm",
-    pageUrl: 'produits/bewegende-hondenbal---slimme-rollende-speeltje---training-oefening-vermaak---automatische-functies---17-x-14-x-10-cm.html'
+    slug: "bewegende-hondenbal-slimme-rollende-speeltje-training-oefening-vermaak-automatische-functies-17-x-14-x-10-cm",
+    pageUrl: 'produits/bewegende-hondenbal-slimme-rollende-speeltje-training-oefening-vermaak-automatische-functies-17-x-14-x-10-cm.html'
   },
   {
     id: 197,
@@ -2164,8 +2164,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/pluche-hondenspeelgoed-zacht-dierenspeelgoed-interactief-spelen-met-piepfunctie-25-x-19-cm/9300000271086301/",
     brand: "Merkloos / Sans marque",
     description: "Ontdek het ultieme interactieve speelgoed voor uw trouwe viervoeter, ontworpen om verveling tegen te gaan en urenlang speelplezier te garanderen. Dit zachte pluche dier is speciaal vervaardigd om de a",
-    slug: "pluche-hondenspeelgoed---zacht-dierenspeelgoed---interactief-spelen---met-piepfunctie---25-x-19-cm",
-    pageUrl: 'produits/pluche-hondenspeelgoed---zacht-dierenspeelgoed---interactief-spelen---met-piepfunctie---25-x-19-cm.html'
+    slug: "pluche-hondenspeelgoed-zacht-dierenspeelgoed-interactief-spelen-met-piepfunctie-25-x-19-cm",
+    pageUrl: 'produits/pluche-hondenspeelgoed-zacht-dierenspeelgoed-interactief-spelen-met-piepfunctie-25-x-19-cm.html'
   },
   {
     id: 198,
@@ -2175,8 +2175,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/honden-trekspeelgoed-touw-met-fluitje-interactief-spelen-duurzaam-katoen-90-x-7-cm-haai/9300000269968340/",
     brand: "Merkloos / Sans marque",
     description: "Versterk de band met uw trouwe viervoeter door middel van eindeloos speelplezier met dit robuuste trekspeelgoed! Ontworpen om de natuurlijke speeldrift van uw hond te stimuleren, biedt dit speeltje ee",
-    slug: "honden-trekspeelgoed---touw-met-fluitje---interactief-spelen---duurzaam-katoen---90-x-7-cm---haai",
-    pageUrl: 'produits/honden-trekspeelgoed---touw-met-fluitje---interactief-spelen---duurzaam-katoen---90-x-7-cm---haai.html'
+    slug: "honden-trekspeelgoed-touw-met-fluitje-interactief-spelen-duurzaam-katoen-90-x-7-cm-haai",
+    pageUrl: 'produits/honden-trekspeelgoed-touw-met-fluitje-interactief-spelen-duurzaam-katoen-90-x-7-cm-haai.html'
   },
   {
     id: 199,
@@ -2219,8 +2219,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/edgard-cooper-kuipje-vers-vlees-hondenvoer-kip-kalkoen-150-gr/9200000110232048/",
     brand: "Edgard & Cooper",
     description: "\" <p> <strong>Geef eten dat goed voelt</strong> </p> <br /> <p> Goed eten is top voor lichaam en geest. Niks beter dan lekker Honden Natvoer met groenten en fruit. Zeker als het gemaakt is met een har",
-    slug: "edgard--cooper-kuipje-honden-natvoer-hondenvoer-kip---kalkoen-150-gr",
-    pageUrl: 'produits/edgard--cooper-kuipje-honden-natvoer-hondenvoer-kip---kalkoen-150-gr.html'
+    slug: "edgard--cooper-kuipje-honden-natvoer-hondenvoer-kip-kalkoen-150-gr",
+    pageUrl: 'produits/edgard--cooper-kuipje-honden-natvoer-hondenvoer-kip-kalkoen-150-gr.html'
   },
   {
     id: 203,
@@ -2230,8 +2230,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/royal-canin-bhn-golden-retriever-adult-hondenvoer-4-x-3-kg/9200000104546498/",
     brand: "Royal Canin",
     description: "De Golden Retriever zit vol energie en geeft zich altijd voor 100%. Hij is lief, aanhankelijk en geduldig. Door zijn rustige karakter is hij ideaal gezelschap voor kinderen. Hij is dapper, verdraagzaa",
-    slug: "royal-canin-golden-retriever-adult---hondenvoer---4-x-3-kg",
-    pageUrl: 'produits/royal-canin-golden-retriever-adult---hondenvoer---4-x-3-kg.html'
+    slug: "royal-canin-golden-retriever-adult-hondenvoer-4-x-3-kg",
+    pageUrl: 'produits/royal-canin-golden-retriever-adult-hondenvoer-4-x-3-kg.html'
   },
   {
     id: 204,
@@ -2241,8 +2241,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/yourdog-amerikaanse-pitbull-terrier-senior/9300000020614259/",
     brand: "Yourdog",
     description: "<p>Yourdog Amerikaanse pitbull terri\u00ebr zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren dit met zorgvuldig ge",
-    slug: "hondenvoer-yourdog---amerikaanse-pitbull-terri\u00ebr-senior-3kg---buffel-en-kip-met-groenten-en-fruit",
-    pageUrl: 'produits/hondenvoer-yourdog---amerikaanse-pitbull-terriër-senior-3kg---buffel-en-kip-met-groenten-en-fruit.html'
+    slug: "hondenvoer-yourdog-amerikaanse-pitbull-terri\u00ebr-senior-3kg-buffel-en-kip-met-groenten-en-fruit",
+    pageUrl: 'produits/hondenvoer-yourdog-amerikaanse-pitbull-terriër-senior-3kg-buffel-en-kip-met-groenten-en-fruit.html'
   },
   {
     id: 205,
@@ -2252,8 +2252,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/biofood-puppy-hondenvoer-2-x-3-kg/9200000108597197/",
     brand: "Biofood",
     description: "p Biofood Puppy is een volledige licht verteerbare, natuurlijke en smaakvolle voeding voor honden in de eerste levensfase. Je kunt vanaf 3 weken tot maximaal 12 maanden, afhankelijk van het ras, de pu",
-    slug: "bf-puppy---hondenvoer---2-x-3-kg",
-    pageUrl: 'produits/bf-puppy---hondenvoer---2-x-3-kg.html'
+    slug: "bf-puppy-hondenvoer-2-x-3-kg",
+    pageUrl: 'produits/bf-puppy-hondenvoer-2-x-3-kg.html'
   },
   {
     id: 206,
@@ -2263,8 +2263,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/3x-bonzo-senior-kip-groenten-3-kg/9300000038669555/",
     brand: "Bonzo",
     description: "Bonzo Senior hondenvoer <p>Bonzo Senior met kip en toegevoegde groenten is een 100% complete en uitgebalanceerde maaltijd voor honden ouder dan 7 jaar, speciaal ontwikkeld om de gewrichten van je hond",
-    slug: "3x-bonzo-senior-kip---groenten-3-kg",
-    pageUrl: 'produits/3x-bonzo-senior-kip---groenten-3-kg.html'
+    slug: "3x-bonzo-senior-kip-groenten-3-kg",
+    pageUrl: 'produits/3x-bonzo-senior-kip-groenten-3-kg.html'
   },
   {
     id: 207,
@@ -2274,8 +2274,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/nero-gold-adult-mini-800gr/9200000027697852/",
     brand: "Nero Gold",
     description: "Nero Gold Adult Mini is speciaal ontwikkeld natuurlijk hondenvoer voor kleinere honden met een gemiddeld energie niveau. <br />Door de samenstelling en formaat brok is Nero Gold Adult Mini geschikt vo",
-    slug: "nero-gold-adult-mini---800gr",
-    pageUrl: 'produits/nero-gold-adult-mini---800gr.html'
+    slug: "nero-gold-adult-mini-800gr",
+    pageUrl: 'produits/nero-gold-adult-mini-800gr.html'
   },
   {
     id: 208,
@@ -2285,8 +2285,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/nero-gold-vlees-worst-kalkoen-400gr-6-stuks/9200000096877512/",
     brand: "Nero Pure",
     description: "<p>De Nero Pure vlees worsten zijn bereidt van minimaal 97% vlees. <br /><br />Nero Pure vlees worst is een lekkere worst gemaakt van veel kalkoensvlees, de worst wordt bereidt met uitsluitend natuurl",
-    slug: "nero-pure-vlees-worst-kalkoen-400gr---6-stuks",
-    pageUrl: 'produits/nero-pure-vlees-worst-kalkoen-400gr---6-stuks.html'
+    slug: "nero-pure-vlees-worst-kalkoen-400gr-6-stuks",
+    pageUrl: 'produits/nero-pure-vlees-worst-kalkoen-400gr-6-stuks.html'
   },
   {
     id: 209,
@@ -2296,8 +2296,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/35-cm-3-st-petsnack-runderkophuid-hondensnack/9300000236759474/",
     brand: "Petsnack",
     description: "Upgrade het kauwmoment met Petsnack Buffelkophuid, een robuuste, eiwitrijke premium snack voor honden die graag werken voor hun beloning. Deze 100% natuurlijke snack levert langdurig kauwplezier, onde",
-    slug: "runderkophuid-kauwsnack-35cm-petsnack---eiwitrijk-hondenbeloning---3-stuks",
-    pageUrl: 'produits/runderkophuid-kauwsnack-35cm-petsnack---eiwitrijk-hondenbeloning---3-stuks.html'
+    slug: "runderkophuid-kauwsnack-35cm-petsnack-eiwitrijk-hondenbeloning-3-stuks",
+    pageUrl: 'produits/runderkophuid-kauwsnack-35cm-petsnack-eiwitrijk-hondenbeloning-3-stuks.html'
   },
   {
     id: 210,
@@ -2307,8 +2307,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/hondendraagtas-dieren-honden-katten-draagzak-blauwgrijs-46-x-28-maat-l-tot-6-kg/9300000070573747/",
     brand: "Merkloos / Sans marque",
     description: "<p>Prachtig cadeau voor jouw hond, deze comfortabele hondendraagtas.<br /><br />#Heerlijk de paden op, de lanen in. Jij wilt nog wel verder maar jouw kleine vriend is moe. <br />Brokjes gooien helpt n",
-    slug: "hondendraagtas---dieren---honden---katten---draagzak---zwart---46-x-28---maat-l---tot-6-kg",
-    pageUrl: 'produits/hondendraagtas---dieren---honden---katten---draagzak---zwart---46-x-28---maat-l---tot-6-kg.html'
+    slug: "hondendraagtas-dieren-honden-katten-draagzak-zwart-46-x-28-maat-l-tot-6-kg",
+    pageUrl: 'produits/hondendraagtas-dieren-honden-katten-draagzak-zwart-46-x-28-maat-l-tot-6-kg.html'
   },
   {
     id: 211,
@@ -2329,8 +2329,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/snuffelmat-hond-interactieve-voermat-stimuleert-speurinstinct-antislip-zuignappen-stressverlagend-speeltje-voor-honden-zonnebloem-1-stuk/9300000232760614/",
     brand: "Merkloos / Sans marque",
     description: "<p>\"Zoek je een leuke, stimulerende manier om je hond bezig te houden \u00e9n zijn natuurlijke speurinstinct te prikkelen? Deze interactieve snuffelmat in zonnebloemdesign is niet alleen een vrolijke toevo",
-    slug: "snuffelmat-hond---interactieve-voermat---stimuleert-speurinstinct---antislip-zuignappen---stressverlagend-speeltje---voor-honden---zonnebloem---1-stuk",
-    pageUrl: 'produits/snuffelmat-hond---interactieve-voermat---stimuleert-speurinstinct---antislip-zuignappen---stressverlagend-speeltje---voor-honden---zonnebloem---1-stuk.html'
+    slug: "snuffelmat-hond-interactieve-voermat-stimuleert-speurinstinct-antislip-zuignappen-stressverlagend-speeltje-voor-honden-zonnebloem-1-stuk",
+    pageUrl: 'produits/snuffelmat-hond-interactieve-voermat-stimuleert-speurinstinct-antislip-zuignappen-stressverlagend-speeltje-voor-honden-zonnebloem-1-stuk.html'
   },
   {
     id: 213,
@@ -2340,8 +2340,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/carniwell-mixpakket-natuurlijke-strips-4-smaken-a-100gr-hondensnacks-hert-paard-eend-kip/9300000166488464/",
     brand: "Carniwell",
     description: "<p>Dit leuke mixpakket van de verschillende 100% natuurlijk gedroogde vleesstrips zijn onweerstaanbaar voor uw hond!</p> <p>Carniwell zijn lokale vis- en vleesdelicatessen voor je hond. Ruim 80% komt ",
-    slug: "carniwell---mixpakket-natuurlijke-strips-4-smaken-a-100gr---hondensnacks---hert---paard---eend---kip",
-    pageUrl: 'produits/carniwell---mixpakket-natuurlijke-strips-4-smaken-a-100gr---hondensnacks---hert---paard---eend---kip.html'
+    slug: "carniwell-mixpakket-natuurlijke-strips-4-smaken-a-100gr-hondensnacks-hert-paard-eend-kip",
+    pageUrl: 'produits/carniwell-mixpakket-natuurlijke-strips-4-smaken-a-100gr-hondensnacks-hert-paard-eend-kip.html'
   },
   {
     id: 214,
@@ -2351,8 +2351,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/10x-voskes-runderbot-xl/9200000131809675/",
     brand: "Voskes",
     description: "Voskes Runderbot XLNatuurlijk gerookt en gedroogd runderbot zonder toevoegingen en heerlijk om af te kluiven. Wij raden aan dit kauwproduct altijd onder toezicht te geven en jouw hond van voldoende dr",
-    slug: "voskes-runderbot-xl---10-x---voordeelverpakking",
-    pageUrl: 'produits/voskes-runderbot-xl---10-x---voordeelverpakking.html'
+    slug: "voskes-runderbot-xl-10-x-voordeelverpakking",
+    pageUrl: 'produits/voskes-runderbot-xl-10-x-voordeelverpakking.html'
   },
   {
     id: 215,
@@ -2373,8 +2373,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/vidaxl-premium-hondenvoer-droog-adult-active-chicken-fish-30kg-2-st/9200000100346143/",
     brand: "vidaXL",
     description: "<p>Ons premium droog hondenvoer Adult Active Chicken & Fish is rijk aan prebiotica die de darmgezondheid van je hond en een gezonde huid en vacht ondersteunen. Het hondenvoer is het ideale voer voor h",
-    slug: "vidaxl---premium---hondenvoer---droog---adult---active---chicken------fish---30kg---2---st",
-    pageUrl: 'produits/vidaxl---premium---hondenvoer---droog---adult---active---chicken------fish---30kg---2---st.html'
+    slug: "vidaxl-premium-hondenvoer-droog-adult-active-chicken--fish-30kg-2-st",
+    pageUrl: 'produits/vidaxl-premium-hondenvoer-droog-adult-active-chicken--fish-30kg-2-st.html'
   },
   {
     id: 217,
@@ -2384,8 +2384,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/hondenspeelgoed-piepend-hondenknuffel-kauwspeelgoed-gedrag-stimuleren-veerkrachtige-pluche-constructie-28-cm-blauw/9300000285193837/",
     brand: "Merkloos / Sans marque",
     description: "Houd uw hond actief en betrokken met dit interactieve piepende hondenspeelgoed. Ontworpen om verveling tegen te gaan en destructief gedrag te ontmoedigen, biedt dit speeltje urenlang vermaak en mental",
-    slug: "hondenspeelgoed-piepend---hondenknuffel-kauwspeelgoed---gedrag-stimuleren---veerkrachtige-pluche-constructie---28-cm---blauw",
-    pageUrl: 'produits/hondenspeelgoed-piepend---hondenknuffel-kauwspeelgoed---gedrag-stimuleren---veerkrachtige-pluche-constructie---28-cm---blauw.html'
+    slug: "hondenspeelgoed-piepend-hondenknuffel-kauwspeelgoed-gedrag-stimuleren-veerkrachtige-pluche-constructie-28-cm-blauw",
+    pageUrl: 'produits/hondenspeelgoed-piepend-hondenknuffel-kauwspeelgoed-gedrag-stimuleren-veerkrachtige-pluche-constructie-28-cm-blauw.html'
   },
   {
     id: 218,
@@ -2395,8 +2395,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/hondenspeelgoed-octopus-kauwspeelgoed-puppy-interactief-spel-met-piepfunctie-25-x-20-x-6-cm-blauw/9300000285218998/",
     brand: "Merkloos / Sans marque",
     description: "Vermaak je trouwe viervoeter met dit interactieve hondenspeelgoed in de vorm van een octopus. Dit zachte pluche speeltje is speciaal ontworpen om de aandacht van je hond vast te houden en zorgt voor u",
-    slug: "hondenspeelgoed-octopus---kauwspeelgoed-puppy---interactief-spel---met-piepfunctie---25-x-20-x-6-cm---blauw",
-    pageUrl: 'produits/hondenspeelgoed-octopus---kauwspeelgoed-puppy---interactief-spel---met-piepfunctie---25-x-20-x-6-cm---blauw.html'
+    slug: "hondenspeelgoed-octopus-kauwspeelgoed-puppy-interactief-spel-met-piepfunctie-25-x-20-x-6-cm-blauw",
+    pageUrl: 'produits/hondenspeelgoed-octopus-kauwspeelgoed-puppy-interactief-spel-met-piepfunctie-25-x-20-x-6-cm-blauw.html'
   },
   {
     id: 219,
@@ -2450,8 +2450,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/proline-boxby-kauwsticks-xl-voordeelpak-325-gr/9300000027278055/",
     brand: "Proline",
     description: "Proline Hondensnack Boxby Kauwsticks XL VoordeelpakProline Hondensnack Boxby Kauwsticks XL Voordeelpak zijn lekkere, natuurlijke kauwstaven voor honden. De sticks zijn omwikkeld met gedroogde kip en b",
-    slug: "proline-hondensnack-boxby-kauwsticks-xl-voordeelpak---325-gr",
-    pageUrl: 'produits/proline-hondensnack-boxby-kauwsticks-xl-voordeelpak---325-gr.html'
+    slug: "proline-hondensnack-boxby-kauwsticks-xl-voordeelpak-325-gr",
+    pageUrl: 'produits/proline-hondensnack-boxby-kauwsticks-xl-voordeelpak-325-gr.html'
   },
   {
     id: 224,
@@ -2461,8 +2461,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/flamingo-hondensnack-chick-n-sandwich-85-gr/9200000102573136/",
     brand: "Flamingo",
     description: "Hondensnack Chick'n Snack Sandwich<p>  Hondensnacks Chick'n Snack Sandwich zijn heerlijk voor honden na een lange wandeling of hele dag spelen. De snacks zijn natuurlijk gemaakt en heerlijk voor honde",
-    slug: "hondensnack-chicken-snack-sandwich---85-gram",
-    pageUrl: 'produits/hondensnack-chicken-snack-sandwich---85-gram.html'
+    slug: "hondensnack-chicken-snack-sandwich-85-gram",
+    pageUrl: 'produits/hondensnack-chicken-snack-sandwich-85-gram.html'
   },
   {
     id: 225,
@@ -2472,8 +2472,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/adventuros-hondensnack-wild-chew-medium-6x200gr/9300000101394744/",
     brand: "AdVENTuROS",
     description: "Er is niets dat zoveel voldoening geeft als het kiezen van een snack voor jouw hond die echt aansluit op zijn natuurlijke instincten van bijten, spelen en kauwen! Purina Adventuros heeft Wild Chew ont",
-    slug: "adventuros---hondensnack---wild-chew---medium---6x200gr",
-    pageUrl: 'produits/adventuros---hondensnack---wild-chew---medium---6x200gr.html'
+    slug: "adventuros-hondensnack-wild-chew-medium-6x200gr",
+    pageUrl: 'produits/adventuros-hondensnack-wild-chew-medium-6x200gr.html'
   },
   {
     id: 226,
@@ -2483,8 +2483,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/timo-vleesworst-eend-hondensnacks-12-x-400-g/9300000060663638/",
     brand: "Timo",
     description: "<h3>Lekkere worst voor tussendoor</h3><p>De Vleesworst Eend van Timo is een zeer <b>smakelijke</b> worst voor je trouwe viervoeter. De worst is gemaakt van <b>100% eend</b> en bevat dus maar <b>1 unie",
-    slug: "timo-vleesworst-eend---hondensnacks---12-x-400-g",
-    pageUrl: 'produits/timo-vleesworst-eend---hondensnacks---12-x-400-g.html'
+    slug: "timo-vleesworst-eend-hondensnacks-12-x-400-g",
+    pageUrl: 'produits/timo-vleesworst-eend-hondensnacks-12-x-400-g.html'
   },
   {
     id: 227,
@@ -2505,8 +2505,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/purina-one-delicate-mini-small-hondenvoer-zalm-1-5kg/9300000073664109/",
     brand: "Purina One",
     description: "PURINA ONE. Wist u dat kleine honden specifieke voedingsbehoeften hebben? PURINA ONE\u00ae MINI Delicate is ontwikkeld door onze PURINA-experts en is hoogwaardige voeding, speciaal ontwikkeld voor kleine h",
-    slug: "purina-one-delicate-mini-small---hondenvoer---zalm---15kg",
-    pageUrl: 'produits/purina-one-delicate-mini-small---hondenvoer---zalm---15kg.html'
+    slug: "purina-one-delicate-mini-small-hondenvoer-zalm-15kg",
+    pageUrl: 'produits/purina-one-delicate-mini-small-hondenvoer-zalm-15kg.html'
   },
   {
     id: 229,
@@ -2516,8 +2516,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/oswalt-gepofte-rijst-kippensnack-1kg/9300000197510199/",
     brand: "Oswalt",
     description: "<p><strong>Gepofte Rijst </strong></p> <p>De gepofte rijst voor dieren is een luchtig en knapperig tussendoortje, het is niet alleen erg lekker maar ook een gezonde keuze voor uw dier.</p> <p><strong>",
-    slug: "oswalt-gepofte-rijst---kippensnack---1kg",
-    pageUrl: 'produits/oswalt-gepofte-rijst---kippensnack---1kg.html'
+    slug: "oswalt-gepofte-rijst-kippensnack-1kg",
+    pageUrl: 'produits/oswalt-gepofte-rijst-kippensnack-1kg.html'
   },
   {
     id: 230,
@@ -2538,8 +2538,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/squeaky-duck-dog-toy-30x8cm-11-8x3-1in-squeaky-latex-dog-toy-verlicht-verveling-hoge-elasticiteit-gemakkelijk-schoon-te-maken-voor-honden/9300000247393133/",
     brand: "Merkloos / Sans marque",
     description: "<h3>Waarom Kiezen voor deze Latex Squeaky Duck Hondenspeeltje?</h3> <p>Laat uw huisdier genieten van eindeloos speelplezier met dit innovatieve <strong>latex squeaky hondenspeeltje</strong>. Dit speel",
-    slug: "squeaky-duck-dog-toy-30x8cm---118x31in---squeaky-latex-dog-toy---verlicht-verveling---hoge-elasticiteit---gemakkelijk-schoon-te-maken-voor-honden",
-    pageUrl: 'produits/squeaky-duck-dog-toy-30x8cm---118x31in---squeaky-latex-dog-toy---verlicht-verveling---hoge-elasticiteit---gemakkelijk-schoon-te-maken-voor-honden.html'
+    slug: "squeaky-duck-dog-toy-30x8cm-118x31in-squeaky-latex-dog-toy-verlicht-verveling-hoge-elasticiteit-gemakkelijk-schoon-te-maken-voor-honden",
+    pageUrl: 'produits/squeaky-duck-dog-toy-30x8cm-118x31in-squeaky-latex-dog-toy-verlicht-verveling-hoge-elasticiteit-gemakkelijk-schoon-te-maken-voor-honden.html'
   },
   {
     id: 232,
@@ -2571,8 +2571,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/snuffelmat-voor-honden-snuffelmat-neuswerk-voermat-slow-feeder-interactief-hondenspeelgoed-stimuleert-natuurlijke-foerageervaardigheden-85-x-50-cm/9300000277673006/",
     brand: "Mrilary",
     description: "<p>INTERACTIEF HONDENSPEELGOED: In deze snuffelmat voor grote hondenrassen kunnen snoepjes worden verstopt. Weekt de interesse van uw hond, zodat hij plezier beleeft aan het zoeken naar voedsel en uit",
-    slug: "snuffelmat-voor-honden---snuffelmat-neuswerk-voermat---slow-feeder-interactief-hondenspeelgoed---stimuleert-natuurlijke-foerageervaardigheden---85-x-50-cm",
-    pageUrl: 'produits/snuffelmat-voor-honden---snuffelmat-neuswerk-voermat---slow-feeder-interactief-hondenspeelgoed---stimuleert-natuurlijke-foerageervaardigheden---85-x-50-cm.html'
+    slug: "snuffelmat-voor-honden-snuffelmat-neuswerk-voermat-slow-feeder-interactief-hondenspeelgoed-stimuleert-natuurlijke-foerageervaardigheden-85-x-50-cm",
+    pageUrl: 'produits/snuffelmat-voor-honden-snuffelmat-neuswerk-voermat-slow-feeder-interactief-hondenspeelgoed-stimuleert-natuurlijke-foerageervaardigheden-85-x-50-cm.html'
   },
   {
     id: 235,
@@ -2582,8 +2582,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/sphproducts-interactief-kauwspeeltje-piepend-hondenspeeltje-veilig-latex-puppyspeelgoed-unieke-vorm-geschikt-voor-honden-koe/9300000275388895/",
     brand: "Merkloos / Sans marque",
     description: "<p>Geef jouw hond eindeloos speelplezier met dit interactieve kauwspeeltje. Het is speciaal ontworpen voor honden die houden van spelen en jagen. Dit duurzame hondenspeeltje, gemaakt van veilig en zac",
-    slug: "sphproducts---interactief-kauwspeeltje---piepend-hondenspeeltje---veilig-latex---puppyspeelgoed---unieke-vorm---geschikt-voor-honden---koe",
-    pageUrl: 'produits/sphproducts---interactief-kauwspeeltje---piepend-hondenspeeltje---veilig-latex---puppyspeelgoed---unieke-vorm---geschikt-voor-honden---koe.html'
+    slug: "sphproducts-interactief-kauwspeeltje-piepend-hondenspeeltje-veilig-latex-puppyspeelgoed-unieke-vorm-geschikt-voor-honden-koe",
+    pageUrl: 'produits/sphproducts-interactief-kauwspeeltje-piepend-hondenspeeltje-veilig-latex-puppyspeelgoed-unieke-vorm-geschikt-voor-honden-koe.html'
   },
   {
     id: 236,
@@ -2593,8 +2593,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/wolters-hondenspeelgoed-pure-nature-frisbee-natuurrubber-apporteerspeeltje-kauwbestendig-20cm-doorsnede/9300000225013960/",
     brand: "Wolters Cat & Dog",
     description: "<p>De Pure Nature Frisbee is het perfecte apporteerspeeltje voor honden die van actie houden! Deze frisbee is gemaakt van 100% puur natuurrubber, zonder kunstmatige kleurstoffen of schadelijke stoffen",
-    slug: "wolters-hondenspeelgoed---pure-nature-frisbee--natuurrubber--apporteerspeeltje---20cm-doorsnede",
-    pageUrl: 'produits/wolters-hondenspeelgoed---pure-nature-frisbee--natuurrubber--apporteerspeeltje---20cm-doorsnede.html'
+    slug: "wolters-hondenspeelgoed-pure-nature-frisbee--natuurrubber--apporteerspeeltje-20cm-doorsnede",
+    pageUrl: 'produits/wolters-hondenspeelgoed-pure-nature-frisbee--natuurrubber--apporteerspeeltje-20cm-doorsnede.html'
   },
   {
     id: 237,
@@ -2604,8 +2604,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/likspeeltje-voor-honden-2stuks-likbak-voor-honden-likbal-likbal-voor-kleine-honden-voerdispenser-voerbak-met-geintegreerde-draaiende-bal-voor-verveelde-puppy-s-en-katten-blauw/9300000266207141/",
     brand: "Merkloos / Sans marque",
     description: "<p></p> <p>Ideaal voor kleine honden: de anti-vraatbal. Onze likbal (ook wel likbol genoemd) verandert elke maaltijd in een moment van ontspanning. Het bevordert een natuurlijk en langzaam likken en v",
-    slug: "likspeeltje-voor-honden---2stuks---likbak-voor-honden---likbal---likbal-voor-kleine-honden---voerdispenser---voerbak-met-ge\u00efntegreerde-draaiende-bal-voor-verveelde-puppys-en-katten---blauw",
-    pageUrl: 'produits/likspeeltje-voor-honden---2stuks---likbak-voor-honden---likbal---likbal-voor-kleine-honden---voerdispenser---voerbak-met-geïntegreerde-draaiende-bal-voor-verveelde-puppys-en-katten---blauw.html'
+    slug: "likspeeltje-voor-honden-2stuks-likbak-voor-honden-likbal-likbal-voor-kleine-honden-voerdispenser-voerbak-met-ge\u00efntegreerde-draaiende-bal-voor-verveelde-puppys-en-katten-blauw",
+    pageUrl: 'produits/likspeeltje-voor-honden-2stuks-likbak-voor-honden-likbal-likbal-voor-kleine-honden-voerdispenser-voerbak-met-geïntegreerde-draaiende-bal-voor-verveelde-puppys-en-katten-blauw.html'
   },
   {
     id: 238,
@@ -2637,8 +2637,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/bebbo-hondenbrokken-paard-hypoallergeen-12-kg/9300000220118205/",
     brand: "Bebbo Hondenbrokken",
     description: "<p>detexelsedierenwinkel.nl</p> <p>Bebbo hondenbrokken met VERSE paard</p> <p>Vers? Ja zeker! (Sorry voor de paardeliefhebbers onder ons) Bij Bebbo hondenbrokken gebruiken we alleen het beste verse vl",
-    slug: "bebbo-hondenbrokken---paard---hypoallergeen---12-kg",
-    pageUrl: 'produits/bebbo-hondenbrokken---paard---hypoallergeen---12-kg.html'
+    slug: "bebbo-hondenbrokken-paard-hypoallergeen-12-kg",
+    pageUrl: 'produits/bebbo-hondenbrokken-paard-hypoallergeen-12-kg.html'
   },
   {
     id: 241,
@@ -2648,8 +2648,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/8x-voskes-kippenvleugels-500-gr/9200000131809803/",
     brand: "Voskes",
     description: "Voskes Hondensnack KippenvleugelsDeze gedroogde kippenvleugels zijn heerlijk crunchy. Het mooie en lekkere van deze snack is dat ook de botjes opgegeten kunnen worden, niks gaat verloren. De kippenvle",
-    slug: "voskes-kippenvleugels---8-x-500-gr---voordeelverpakking",
-    pageUrl: 'produits/voskes-kippenvleugels---8-x-500-gr---voordeelverpakking.html'
+    slug: "voskes-kippenvleugels-8-x-500-gr-voordeelverpakking",
+    pageUrl: 'produits/voskes-kippenvleugels-8-x-500-gr-voordeelverpakking.html'
   },
   {
     id: 242,
@@ -2670,8 +2670,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/vitakraft-fish-stick-hondensnacks-50-x-zalm-15-g/9300000002529420/",
     brand: "Vitakraft",
     description: "<strong>Vitakraft Fish Stick - zalm - 50 stuks - 50x15 gram</strong> <p>Verwen je hond met de Vitakraft Fish Stick met Zalm, een heerlijke traktatie die perfect is voor honden die van vis houden. Deze",
-    slug: "vitakraft-fish-stick---zalm---50-stuks---50x15-gram",
-    pageUrl: 'produits/vitakraft-fish-stick---zalm---50-stuks---50x15-gram.html'
+    slug: "vitakraft-fish-stick-zalm-50-stuks-50x15-gram",
+    pageUrl: 'produits/vitakraft-fish-stick-zalm-50-stuks-50x15-gram.html'
   },
   {
     id: 244,
@@ -2681,8 +2681,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/district-70-swirl-snuffelmat-voor-honden-stimuleert-speurgedrag-mentale-activiteit-roze-o-34-cm/9300000246454234/",
     brand: "District 70",
     description: "<p><strong>District 70 SWIRL \u2013 Snuffelmat voor Honden | Stimuleert Speurgedrag & Mentale Activiteit</strong></p> <p>Geef jouw hond dagelijks een mentale uitdaging met de <strong>District 70 SWIRL snuf",
-    slug: "district-70-swirl--snuffelmat-voor-honden--stimuleert-speurgedrag--mentale-activiteit---roze---\u00f8-34-cm",
-    pageUrl: 'produits/district-70-swirl--snuffelmat-voor-honden--stimuleert-speurgedrag--mentale-activiteit---roze---ø-34-cm.html'
+    slug: "district-70-swirl--snuffelmat-voor-honden--stimuleert-speurgedrag--mentale-activiteit-roze-\u00f8-34-cm",
+    pageUrl: 'produits/district-70-swirl--snuffelmat-voor-honden--stimuleert-speurgedrag--mentale-activiteit-roze-ø-34-cm.html'
   },
   {
     id: 245,
@@ -2692,8 +2692,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/hondenspeeltje-met-pieper-pluche-kauwspeeltje-interactief-spel-zachte-pluche-textuur-30x37x12-cm-oranje-vos/9300000270074390/",
     brand: "Merkloos / Sans marque",
     description: "Vermaak uw trouwe viervoeter eindeloos met dit unieke hondenspeeltje, ontworpen om urenlang speelplezier te garanderen. Dit pluche speeltje met ingebouwde pieper is de perfecte metgezel voor elke hond",
-    slug: "hondenspeeltje-met-pieper---pluche-kauwspeeltje---interactief-spel---zachte-pluche-textuur---30x37x12-cm---oranje-vos",
-    pageUrl: 'produits/hondenspeeltje-met-pieper---pluche-kauwspeeltje---interactief-spel---zachte-pluche-textuur---30x37x12-cm---oranje-vos.html'
+    slug: "hondenspeeltje-met-pieper-pluche-kauwspeeltje-interactief-spel-zachte-pluche-textuur-30x37x12-cm-oranje-vos",
+    pageUrl: 'produits/hondenspeeltje-met-pieper-pluche-kauwspeeltje-interactief-spel-zachte-pluche-textuur-30x37x12-cm-oranje-vos.html'
   },
   {
     id: 246,
@@ -2703,8 +2703,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/honden-schoenspeeltje-piepspeelgoed-pluche-tandverzorging-spelen-ingebouwde-pieper-trek-10x10x10-mm-paars/9300000271576506/",
     brand: "Merkloos / Sans marque",
     description: "Verwen uw trouwe viervoeter met dit unieke en interactieve hondenspeeltje in de vorm van een schattige schoen. Is uw hond ook dol op schoenen? Nu kunt u uw eigen schoenen veilig stellen en uw hond toc",
-    slug: "honden-schoenspeeltje---piepspeelgoed-pluche---tandverzorging-spelen---ingebouwde-pieper-trek---10x10x10-mm---paars",
-    pageUrl: 'produits/honden-schoenspeeltje---piepspeelgoed-pluche---tandverzorging-spelen---ingebouwde-pieper-trek---10x10x10-mm---paars.html'
+    slug: "honden-schoenspeeltje-piepspeelgoed-pluche-tandverzorging-spelen-ingebouwde-pieper-trek-10x10x10-mm-paars",
+    pageUrl: 'produits/honden-schoenspeeltje-piepspeelgoed-pluche-tandverzorging-spelen-ingebouwde-pieper-trek-10x10x10-mm-paars.html'
   },
   {
     id: 247,
@@ -2714,8 +2714,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/hondenspeeltje-fles-kauwspeelgoed-geluid-interactief-spel-pluche-met-vulling-28-cm-lang-bruin/9300000270051419/",
     brand: "Merkloos / Sans marque",
     description: "Verrijk de speeltijd van uw trouwe viervoeter met dit unieke, piepende hondenspeeltje in de vorm van een wijnfles. Speciaal ontworpen om de zintuigen van uw hond te prikkelen en verveling tegen te gaa",
-    slug: "hondenspeeltje-fles---kauwspeelgoed-geluid---interactief-spel---pluche-met-vulling---28-cm-lang---bruin",
-    pageUrl: 'produits/hondenspeeltje-fles---kauwspeelgoed-geluid---interactief-spel---pluche-met-vulling---28-cm-lang---bruin.html'
+    slug: "hondenspeeltje-fles-kauwspeelgoed-geluid-interactief-spel-pluche-met-vulling-28-cm-lang-bruin",
+    pageUrl: 'produits/hondenspeeltje-fles-kauwspeelgoed-geluid-interactief-spel-pluche-met-vulling-28-cm-lang-bruin.html'
   },
   {
     id: 248,
@@ -2725,8 +2725,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/hondenspeelgoed-met-pieper-kauwspeelgoed-huisdier-vermaak-voor-honden-realistisch-snoepvorm-ontwerp/9300000270805742/",
     brand: "Merkloos / Sans marque",
     description: "Laat uw trouwe viervoeter de tijd van zijn leven hebben met dit interactieve hondenspeelgoed dat bij elke kneep een vrolijke piep produceert! Dit speeltje is ontworpen om de aandacht van uw hond vast ",
-    slug: "hondenspeelgoed-met-pieper---kauwspeelgoed-huisdier---vermaak-voor-honden---realistisch-snoepvorm-ontwerp",
-    pageUrl: 'produits/hondenspeelgoed-met-pieper---kauwspeelgoed-huisdier---vermaak-voor-honden---realistisch-snoepvorm-ontwerp.html'
+    slug: "hondenspeelgoed-met-pieper-kauwspeelgoed-huisdier-vermaak-voor-honden-realistisch-snoepvorm-ontwerp",
+    pageUrl: 'produits/hondenspeelgoed-met-pieper-kauwspeelgoed-huisdier-vermaak-voor-honden-realistisch-snoepvorm-ontwerp.html'
   },
   {
     id: 249,
@@ -2736,8 +2736,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/k9-laboratories-multivitamine-180-stuks-supplement/9300000145722250/",
     brand: "K9 laboratories",
     description: "<h3><strong>K9 Laboratories 10in1 multivitamine voor honden. Stimuleert maag-darm functie, behoud van gezonde gewrichten en ondersteuning van het immuunsysteem.</strong></h3> <p><br />Steeds meer hond",
-    slug: "k9-laboratories-multivitamine-hond---supplement-hond---hondensnoepjes---gezonde-hondensnacks---180-stuks---10-in-1-vitamine---weerstand-hond---ondersteunt-het-immuunsysteem---senior",
-    pageUrl: 'produits/k9-laboratories-multivitamine-hond---supplement-hond---hondensnoepjes---gezonde-hondensnacks---180-stuks---10-in-1-vitamine---weerstand-hond---ondersteunt-het-immuunsysteem---senior.html'
+    slug: "k9-laboratories-multivitamine-hond-supplement-hond-hondensnoepjes-gezonde-hondensnacks-180-stuks-10-in-1-vitamine-weerstand-hond-ondersteunt-het-immuunsysteem-senior",
+    pageUrl: 'produits/k9-laboratories-multivitamine-hond-supplement-hond-hondensnoepjes-gezonde-hondensnacks-180-stuks-10-in-1-vitamine-weerstand-hond-ondersteunt-het-immuunsysteem-senior.html'
   },
   {
     id: 250,
@@ -2747,8 +2747,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/beeztees-thai-kauwbot-hondensnack-2-stuks-14-cm-85-100-gram/9200000025082874/",
     brand: "Beeztees",
     description: "<p>Het Beeztees Thai Kauwbot is een heerlijke hondensnack van premium kwaliteit. Deze kauwsnack is 100% natuurlijk en bestaat voor 100% uit doorstraalde runderhuid. De snacks zijn doorstraald om er ze",
-    slug: "beeztees-thai-kauwbot---hondensnack---2-stuks---14-cm---85100-gram",
-    pageUrl: 'produits/beeztees-thai-kauwbot---hondensnack---2-stuks---14-cm---85100-gram.html'
+    slug: "beeztees-thai-kauwbot-hondensnack-2-stuks-14-cm-85100-gram",
+    pageUrl: 'produits/beeztees-thai-kauwbot-hondensnack-2-stuks-14-cm-85100-gram.html'
   },
   {
     id: 251,
@@ -2758,8 +2758,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/topmast-runderkophuid-met-haar-15-cm-2-zakken-1000-gram-heerlijke-natuurlijke-kauwsnack/9300000141403931/",
     brand: "Topmast",
     description: "<p>Topmast Runderkophuid met Haar - 15 cm - 2 zakken 1000 Gram - Heerlijke natuurlijke kauwsnack</p> <p></p> Topmast Runderkophuid met Haar <br /> <p>Maak kennis met de Topmast Runderkophuid voor hond",
-    slug: "topmast-runderkophuid-met-haar---15-cm---2-zakken-1000-gram---heerlijke-natuurlijke-kauwsnack",
-    pageUrl: 'produits/topmast-runderkophuid-met-haar---15-cm---2-zakken-1000-gram---heerlijke-natuurlijke-kauwsnack.html'
+    slug: "topmast-runderkophuid-met-haar-15-cm-2-zakken-1000-gram-heerlijke-natuurlijke-kauwsnack",
+    pageUrl: 'produits/topmast-runderkophuid-met-haar-15-cm-2-zakken-1000-gram-heerlijke-natuurlijke-kauwsnack.html'
   },
   {
     id: 252,
@@ -2780,8 +2780,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/boon-natuurlijke-snack-ramshoorn-1-stuk/9300000238061640/",
     brand: "de Boon",
     description: "<p>Deze 100% natuurlijke ramshoorn is zeer geschikt voor honden met een sterke kauwbehoefte, vanwege de hardheid van dit product. Tegelijkertijd zorgt dit product ook voor een extra stukje gebitsverzo",
-    slug: "boon-natuurlijke-snack-ramshoorn---1-stuk",
-    pageUrl: 'produits/boon-natuurlijke-snack-ramshoorn---1-stuk.html'
+    slug: "boon-natuurlijke-snack-ramshoorn-1-stuk",
+    pageUrl: 'produits/boon-natuurlijke-snack-ramshoorn-1-stuk.html'
   },
   {
     id: 254,
@@ -2802,8 +2802,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/yourdog-kerry-blue-terrier-senior/9300000020615023/",
     brand: "Yourdog",
     description: "<p>Yourdog Kerry blue terri\u00ebr zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren dit met zorgvuldig geselecteer",
-    slug: "hondenvoer-yourdog-kerry-blue-terri\u00ebr-senior---rijk-aan-buffel-en-kip---3kg-met-spirulina",
-    pageUrl: 'produits/hondenvoer-yourdog-kerry-blue-terriër-senior---rijk-aan-buffel-en-kip---3kg-met-spirulina.html'
+    slug: "hondenvoer-yourdog-kerry-blue-terri\u00ebr-senior-rijk-aan-buffel-en-kip-3kg-met-spirulina",
+    pageUrl: 'produits/hondenvoer-yourdog-kerry-blue-terriër-senior-rijk-aan-buffel-en-kip-3kg-met-spirulina.html'
   },
   {
     id: 256,
@@ -2813,8 +2813,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/budget-pet-deals-hondensnacks-kip-trainers-500-gram-hondensnoepjes-trainingssnoepjes/9300000187176493/",
     brand: "Budget Pet Deals",
     description: "<p>Maak elke training speciaal met onze <strong>premium kippen trainers</strong>. Deze smakelijke en gezonde traktaties zijn ontworpen om je hond te verwennen en te belonen op een manier die zowel leu",
-    slug: "budget-pet-deals-hondensnacks---kip-trainers---500-gram---hondensnoepjes---trainingssnoepjes",
-    pageUrl: 'produits/budget-pet-deals-hondensnacks---kip-trainers---500-gram---hondensnoepjes---trainingssnoepjes.html'
+    slug: "budget-pet-deals-hondensnacks-kip-trainers-500-gram-hondensnoepjes-trainingssnoepjes",
+    pageUrl: 'produits/budget-pet-deals-hondensnacks-kip-trainers-500-gram-hondensnoepjes-trainingssnoepjes.html'
   },
   {
     id: 257,
@@ -2835,8 +2835,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/2-x-it-s-my-dog-kipfilet-85-gr-100-granenvrij-2-x-85-170-gr-hondengenot/9300000198696604/",
     brand: "It's My Dog",
     description: "<p><strong> ** 2 X 85 gram</strong></p> <p>Kip Fillet Natuurlijke Hondensnack Heerlijke hondensnack gemaakt van 100% natuurlijke ingredienten. Heerlijk als tussendoortje of als beloning tijdens traini",
-    slug: "2-x--its-my-dog---kipfilet-85-gr---100-granenvrij---2-x-85--170-gr-hondengenot",
-    pageUrl: 'produits/2-x--its-my-dog---kipfilet-85-gr---100-granenvrij---2-x-85--170-gr-hondengenot.html'
+    slug: "2-x--its-my-dog-kipfilet-85-gr-100-granenvrij-2-x-85--170-gr-hondengenot",
+    pageUrl: 'produits/2-x--its-my-dog-kipfilet-85-gr-100-granenvrij-2-x-85--170-gr-hondengenot.html'
   },
   {
     id: 259,
@@ -2879,8 +2879,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/carnilove-reindeer-adult-1-5kg/9300000032849474/",
     brand: "Carnilove",
     description: "Carnilove Reindeer Adult 1,5 kg  Carnilove Reindeer Adult 1,5 kg is graanvrij, kwalitatief hoogwaardig hondenvoer voor honden met rendier, aansluitend bij de natuurlijke voedingsbehoefte van de hond. ",
-    slug: "carnilove-reindeer-adult---15-kg---1-stuks",
-    pageUrl: 'produits/carnilove-reindeer-adult---15-kg---1-stuks.html'
+    slug: "carnilove-reindeer-adult-15-kg-1-stuks",
+    pageUrl: 'produits/carnilove-reindeer-adult-15-kg-1-stuks.html'
   },
   {
     id: 263,
@@ -2890,8 +2890,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/royal-canin-bhn-pug-mopshond-adult-hondenvoer-2-x-3-kg/9200000104547948/",
     brand: "Royal Canin",
     description: "Royal Canin Pug 25 adult is volledige droogvoeding voor je mopshond. Royal Canin Pug 25 adult  draagt bij aan een optimaal gewicht. Bovendien draagt Royal Canin Pug 25 adult aan de optimale opbouw en ",
-    slug: "royal-canin-pug-mopshond-adult---hondenvoer---2-x-3-kg",
-    pageUrl: 'produits/royal-canin-pug-mopshond-adult---hondenvoer---2-x-3-kg.html'
+    slug: "royal-canin-pug-mopshond-adult-hondenvoer-2-x-3-kg",
+    pageUrl: 'produits/royal-canin-pug-mopshond-adult-hondenvoer-2-x-3-kg.html'
   },
   {
     id: 264,
@@ -2912,8 +2912,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/bioresonantie-hondenbrokken-2-5-kg-mini-balanced-small/9300000180195587/",
     brand: "Bioresonantie",
     description: "<p>Bioresonantie Mini Balanced Small Breed is een<br />licht verteerbare en hoogwaardige, volledige voeding<br />speciaal voor honden van kleine rassen. Bevat lam.</p>",
-    slug: "bioresonantie-hondenbrokken---25-kg---mini-balanced-small",
-    pageUrl: 'produits/bioresonantie-hondenbrokken---25-kg---mini-balanced-small.html'
+    slug: "bioresonantie-hondenbrokken-25-kg-mini-balanced-small",
+    pageUrl: 'produits/bioresonantie-hondenbrokken-25-kg-mini-balanced-small.html'
   },
   {
     id: 266,
@@ -2923,8 +2923,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/schesir-kat-mp-blik-gelei-6x50-g-kattenvoer-8-x-tonijn/9200000108827194/",
     brand: "Schesir",
     description: "<h3> Schesir kattenvoeding</h3><br />Schesir is een Italiaans merk die zowel droog- als natvoeding heeft voor honden en katten. Er worden enkel natuurlijke ingredi\u00ebnten gebruikt en het bevat geen kuns",
-    slug: "schesir-kat-mp-blik-gelei-6x50-g---kattenvoer---8-x-tonijn",
-    pageUrl: 'produits/schesir-kat-mp-blik-gelei-6x50-g---kattenvoer---8-x-tonijn.html'
+    slug: "schesir-kat-mp-blik-gelei-6x50-g-kattenvoer-8-x-tonijn",
+    pageUrl: 'produits/schesir-kat-mp-blik-gelei-6x50-g-kattenvoer-8-x-tonijn.html'
   },
   {
     id: 267,
@@ -2934,8 +2934,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/hondenspeelgoed-honden-speelgoed-intelligentie-slimme-speelgoedbal-automatische-hondenspeelgoed-duurzame-interactieve-bal-voor-puppy-s-kleine-en-onzichtbare-honden-oplaadbaar-via-usb/9300000229373015/",
     brand: "Merkloos / Sans marque",
     description: "Automatische LED hondenspeelgoed bal Automatische LED hondenspeelgoed bal <p><strong>Waarom zou je deze automatische LED hondenspeelgoed bal kopen?</strong></p> <p>Deze slimme bal is gemaakt van hoogw",
-    slug: "interactieve-slimme-speelgoedbal-voor-honden---duurzaam-en-automatisch---oplaadbaar-via-usb",
-    pageUrl: 'produits/interactieve-slimme-speelgoedbal-voor-honden---duurzaam-en-automatisch---oplaadbaar-via-usb.html'
+    slug: "interactieve-slimme-speelgoedbal-voor-honden-duurzaam-en-automatisch-oplaadbaar-via-usb",
+    pageUrl: 'produits/interactieve-slimme-speelgoedbal-voor-honden-duurzaam-en-automatisch-oplaadbaar-via-usb.html'
   },
   {
     id: 268,
@@ -2945,8 +2945,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/fonpoo-hondenspeelgoed-om-verveling-en-angst-te-voorkomen-kauwspeelgoed-voor-middelgrote-honden-en-puppy-s-verjaardagscadeausets/9300000235145563/",
     brand: "Merkloos / Sans marque",
     description: "<p>Ben je klaar om het jezelf makkelijker te maken? Met dit honden speelgoed wordt elke dag een stukje eenvoudiger. Het is ontworpen om verveling en angst bij je hond te voorkomen. Dit robuuste speelg",
-    slug: "honden-speelgoed---hondenspeeltjes---hondenspeelgoed---hondenspeelgoed-om-verveling-en-angst-te-voorkomen---kauwspeelgoed-voor-middelgrote-honden-en-puppys---verjaardagscadeausets",
-    pageUrl: 'produits/honden-speelgoed---hondenspeeltjes---hondenspeelgoed---hondenspeelgoed-om-verveling-en-angst-te-voorkomen---kauwspeelgoed-voor-middelgrote-honden-en-puppys---verjaardagscadeausets.html'
+    slug: "honden-speelgoed-hondenspeeltjes-hondenspeelgoed-hondenspeelgoed-om-verveling-en-angst-te-voorkomen-kauwspeelgoed-voor-middelgrote-honden-en-puppys-verjaardagscadeausets",
+    pageUrl: 'produits/honden-speelgoed-hondenspeeltjes-hondenspeelgoed-hondenspeelgoed-om-verveling-en-angst-te-voorkomen-kauwspeelgoed-voor-middelgrote-honden-en-puppys-verjaardagscadeausets.html'
   },
   {
     id: 269,
@@ -2956,8 +2956,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/indestructible-kauwspeelgoed-voor-honden-tandverzorging-duurzaam-geschikt-voor-grote-en-middelgrote-honden-en-puppy-s/9300000277559484/",
     brand: "Merkloos / Sans marque",
     description: "<h3>Indestructible Kauwspeelgoed</h3> <p>Geef je hond het beste met ons <strong>indestructible kauwspeelgoed</strong>. Dit duurzame speeltje is speciaal ontworpen voor grote en middelgrote honden, maa",
-    slug: "indestructible-kauwspeelgoed-voor-honden---tandverzorging-duurzaam-geschikt-voor-grote-en-middelgrote-honden-en-puppys",
-    pageUrl: 'produits/indestructible-kauwspeelgoed-voor-honden---tandverzorging-duurzaam-geschikt-voor-grote-en-middelgrote-honden-en-puppys.html'
+    slug: "indestructible-kauwspeelgoed-voor-honden-tandverzorging-duurzaam-geschikt-voor-grote-en-middelgrote-honden-en-puppys",
+    pageUrl: 'produits/indestructible-kauwspeelgoed-voor-honden-tandverzorging-duurzaam-geschikt-voor-grote-en-middelgrote-honden-en-puppys.html'
   },
   {
     id: 270,
@@ -2978,8 +2978,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/green-wilds-honden-touw-flostouw-big-rope-3-knot-maat-xl-hondenspeelgoed-100-recyclebaar-en-duurzaam/9300000167219294/",
     brand: "Green and Wilds",
     description: "<p>Dit flostouw met 3 grote knopen is gemaakt van zacht jute touw: een natuurlijke, duurzame plantaardige vezel, ideaal voor interactief spelen of kauwen. Jute is bovendien 100% biologisch afbreekbaar",
-    slug: "green--wilds-honden-touw--flostouw---big-rope-3-knot---maat-xl---hondenspeelgoed---100-recyclebaar-en-duurzaam",
-    pageUrl: 'produits/green--wilds-honden-touw--flostouw---big-rope-3-knot---maat-xl---hondenspeelgoed---100-recyclebaar-en-duurzaam.html'
+    slug: "green--wilds-honden-touw--flostouw-big-rope-3-knot-maat-xl-hondenspeelgoed-100-recyclebaar-en-duurzaam",
+    pageUrl: 'produits/green--wilds-honden-touw--flostouw-big-rope-3-knot-maat-xl-hondenspeelgoed-100-recyclebaar-en-duurzaam.html'
   },
   {
     id: 272,
@@ -2989,8 +2989,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/classy-in-the-city-hondentuig-kleurrijk-harnas-cupcakes-roze-hartjes-maat-l/9300000126596439/",
     brand: "Paw My God!",
     description: "<p>Tijd voor je vieruurtje, maar vergeet je lieve viervoetertje niet. Ga je die cupcake nog opeten? Er zit geen chocolade in, ik heb het nagekeken!</p> <h3>Classy in the City Tuigje</h3> <p>Dit pracht",
-    slug: "hondentuigje---zacht-tuigje--honden-harnas---roze---cupcakes---koekjes---hartjes---classy-in-the-city---paw-my-god---maat-l",
-    pageUrl: 'produits/hondentuigje---zacht-tuigje--honden-harnas---roze---cupcakes---koekjes---hartjes---classy-in-the-city---paw-my-god---maat-l.html'
+    slug: "hondentuigje-zacht-tuigje--honden-harnas-roze-cupcakes-koekjes-hartjes-classy-in-the-city-paw-my-god-maat-l",
+    pageUrl: 'produits/hondentuigje-zacht-tuigje--honden-harnas-roze-cupcakes-koekjes-hartjes-classy-in-the-city-paw-my-god-maat-l.html'
   },
   {
     id: 273,
@@ -3000,8 +3000,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/hondenvoerbak-slow-feeder-antislipbodem-met-ingebouwd-speelballetje-interactief-speelgoed-voor-extra-plezier-voor-honden-en-katten-geel/9300000273631904/",
     brand: "Mrilary",
     description: "<p>Maak van etenstijd een rustgevende mentale stimulans: deze speelse likkom verandert eten in een activiteit die angst vermindert. Het langzaam likken vermindert op natuurlijke wijze stress en vervel",
-    slug: "hondenvoerbak-slow-feeder-geschikt-voor-vloeibaar-voer---antislipbodem---met-ingebouwd-speelballetje-interactief-speelgoed-voor-extra-plezier-voor-honden-en-katten---geel",
-    pageUrl: 'produits/hondenvoerbak-slow-feeder-geschikt-voor-vloeibaar-voer---antislipbodem---met-ingebouwd-speelballetje-interactief-speelgoed-voor-extra-plezier-voor-honden-en-katten---geel.html'
+    slug: "hondenvoerbak-slow-feeder-geschikt-voor-vloeibaar-voer-antislipbodem-met-ingebouwd-speelballetje-interactief-speelgoed-voor-extra-plezier-voor-honden-en-katten-geel",
+    pageUrl: 'produits/hondenvoerbak-slow-feeder-geschikt-voor-vloeibaar-voer-antislipbodem-met-ingebouwd-speelballetje-interactief-speelgoed-voor-extra-plezier-voor-honden-en-katten-geel.html'
   },
   {
     id: 274,
@@ -3022,8 +3022,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/famanu-hondenpoepzakjes-2-stuks-poepzakhouder-voor-hondenafval-universele-hondentas-poepdispenser-met-ritssluiting-met-2-rollen-poepzakjes-voor-elke-hondenriem/9300000255408456/",
     brand: "Famanu",
     description: "Over dit item <ul> <li>Vertraag de maaltijd tot 10x: Puzzel hondenvoerbakjes slow feeder en doolhof hondenvoerkom puzzel ontworpen met ruggen en doolhofpatronen draagt bij aan het eten van uw puppy la",
-    slug: "famanu--hondenpoepzakjes---2-stuks---poepzakhouder-voor-hondenafval---universele-hondentaspoepdispenser-met-ritssluiting---met-2-rollen-poepzakjes---voor-elke-hondenriem",
-    pageUrl: 'produits/famanu--hondenpoepzakjes---2-stuks---poepzakhouder-voor-hondenafval---universele-hondentaspoepdispenser-met-ritssluiting---met-2-rollen-poepzakjes---voor-elke-hondenriem.html'
+    slug: "famanu--hondenpoepzakjes-2-stuks-poepzakhouder-voor-hondenafval-universele-hondentaspoepdispenser-met-ritssluiting-met-2-rollen-poepzakjes-voor-elke-hondenriem",
+    pageUrl: 'produits/famanu--hondenpoepzakjes-2-stuks-poepzakhouder-voor-hondenafval-universele-hondentaspoepdispenser-met-ritssluiting-met-2-rollen-poepzakjes-voor-elke-hondenriem.html'
   },
   {
     id: 276,
@@ -3055,8 +3055,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/timo-konijnenoren-zonder-vacht-hondensnacks-90-g-10-stuks/9300000236013549/",
     brand: "Timo",
     description: "<p>De <strong>Timo Konijnenoren zonder vacht</strong> zijn een pure en gezonde kauwsnack waar jouw hond met plezier van geniet. Deze snack is 100% natuurlijk en hypoallergeen, en bevat geen kunstmatig",
-    slug: "timo-konijnenoren-zonder-vacht---hondensnacks---90-g-10-stuks",
-    pageUrl: 'produits/timo-konijnenoren-zonder-vacht---hondensnacks---90-g-10-stuks.html'
+    slug: "timo-konijnenoren-zonder-vacht-hondensnacks-90-g-10-stuks",
+    pageUrl: 'produits/timo-konijnenoren-zonder-vacht-hondensnacks-90-g-10-stuks.html'
   },
   {
     id: 279,
@@ -3066,8 +3066,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/akyol-kauwhoezen-voor-op-de-duim-beschermhoezen-tegen-hondenbeten-veilig-trainen-spelen-hondenspeeltje-anti-bijten-siliconen-speeltje-2-stuks/9300000245750083/",
     brand: "Akyol",
     description: "<p>Deze handige badgehouder/ sleutelhanger, heeft een fijn uittrekbaar koord om een pasje aan vast te doen met een clip. U krijgt er ook een pasjes houder bij. 2 stuks om precies te zijn. Deze badgeho",
-    slug: "akyol-kauwhoezen-voor-op-de-duim--beschermhoezen-tegen-hondenbeten--veilig-trainen--spelen--hondenspeeltje---anti-bijten---siliconen-speeltje---2-stuks",
-    pageUrl: 'produits/akyol-kauwhoezen-voor-op-de-duim--beschermhoezen-tegen-hondenbeten--veilig-trainen--spelen--hondenspeeltje---anti-bijten---siliconen-speeltje---2-stuks.html'
+    slug: "akyol-kauwhoezen-voor-op-de-duim--beschermhoezen-tegen-hondenbeten--veilig-trainen--spelen--hondenspeeltje-anti-bijten-siliconen-speeltje-2-stuks",
+    pageUrl: 'produits/akyol-kauwhoezen-voor-op-de-duim--beschermhoezen-tegen-hondenbeten--veilig-trainen--spelen--hondenspeeltje-anti-bijten-siliconen-speeltje-2-stuks.html'
   },
   {
     id: 280,
@@ -3077,8 +3077,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/whimzees-stix-hondensnack-15-cm-12-2-stuks/9200000056284955/",
     brand: "Whimzees",
     description: "Whimzees kauwsnacks zorgen voor sterke tanden<br /><p> Een gezonde hond heeft een gezond gebit nodig. Het gebit bestaat uit kleine snijtanden, scherpe hoektanden en sterke kiezen. Een gebit dat niet w",
-    slug: "whimzees-stix-m---kauwsnacks---hond---15cm---12st",
-    pageUrl: 'produits/whimzees-stix-m---kauwsnacks---hond---15cm---12st.html'
+    slug: "whimzees-stix-m-kauwsnacks-hond-15cm-12st",
+    pageUrl: 'produits/whimzees-stix-m-kauwsnacks-hond-15cm-12st.html'
   },
   {
     id: 281,
@@ -3088,8 +3088,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/beeztees-kippenpoten-mega-pack-hondensnack-1000-gram/9300000240199952/",
     brand: "Beeztees",
     description: "<p>De Beeztees Kippenpoten kauwsnack hond zijn een heerlijke en verantwoorde snack voor honden die dol zijn op kauwen. Deze 100% natuurlijke snack bevat geen toegevoegde kleurstoffen, smaakstoffen of ",
-    slug: "beeztees-kippenpoten-hondensnacks---kauwsnack-hond---voordeelverpakking---1000-gram",
-    pageUrl: 'produits/beeztees-kippenpoten-hondensnacks---kauwsnack-hond---voordeelverpakking---1000-gram.html'
+    slug: "beeztees-kippenpoten-hondensnacks-kauwsnack-hond-voordeelverpakking-1000-gram",
+    pageUrl: 'produits/beeztees-kippenpoten-hondensnacks-kauwsnack-hond-voordeelverpakking-1000-gram.html'
   },
   {
     id: 282,
@@ -3099,8 +3099,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/primadog-hondenvoer-mini-meal-lam-85-gram/9300000172675837/",
     brand: "PrimaDog",
     description: "<p>Natvoer dat bij elke hond in de smaak valt? Dan moet je bij Prima Diervoeding wezen!<br />Onze Mini Meal Lam is lekker van smaak, gezond en ook nog eens betaalbaar.</p> <ul> <li>Graanvrij</li> <li>",
-    slug: "primadog-hondenvoer-mini-meal-lam---85-gram",
-    pageUrl: 'produits/primadog-hondenvoer-mini-meal-lam---85-gram.html'
+    slug: "primadog-hondenvoer-mini-meal-lam-85-gram",
+    pageUrl: 'produits/primadog-hondenvoer-mini-meal-lam-85-gram.html'
   },
   {
     id: 283,
@@ -3121,8 +3121,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/dog-chew-bone-leather-knots-12-cm-pack-of-3-natural-dog-treats/9300000255264460/",
     brand: "Merkloos / Sans marque",
     description: "Een verpakking van 3 natuurlijke, 12 cm lange, leerachtige kauwbotten voor honden, ideaal als traktatie, beloning of snack. Deze hondensnacks zijn gemaakt met de filosofie van natuurlijke en evenwicht",
-    slug: "dog-chew-bone-leather-knots-12-cm---pack-of-3---natural-dog-treats",
-    pageUrl: 'produits/dog-chew-bone-leather-knots-12-cm---pack-of-3---natural-dog-treats.html'
+    slug: "dog-chew-bone-leather-knots-12-cm-pack-of-3-natural-dog-treats",
+    pageUrl: 'produits/dog-chew-bone-leather-knots-12-cm-pack-of-3-natural-dog-treats.html'
   },
   {
     id: 285,
@@ -3132,8 +3132,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/hondenspeeltje-met-geluid-pluche-dierenspeelgoed-interactief-spel-stimuleert-kauwgedrag-30x37x12-cm-groene-wasbeer/9300000270074388/",
     brand: "Merkloos / Sans marque",
     description: "Laat uw hond genieten van eindeloos speelplezier met dit piepende pluche hondenspeeltje! Ontworpen om de natuurlijke instincten van uw trouwe viervoeter te prikkelen, biedt dit interactieve speeltje e",
-    slug: "hondenspeeltje-met-geluid---pluche-dierenspeelgoed---interactief-spel---stimuleert-kauwgedrag---30x37x12-cm---groene-wasbeer",
-    pageUrl: 'produits/hondenspeeltje-met-geluid---pluche-dierenspeelgoed---interactief-spel---stimuleert-kauwgedrag---30x37x12-cm---groene-wasbeer.html'
+    slug: "hondenspeeltje-met-geluid-pluche-dierenspeelgoed-interactief-spel-stimuleert-kauwgedrag-30x37x12-cm-groene-wasbeer",
+    pageUrl: 'produits/hondenspeeltje-met-geluid-pluche-dierenspeelgoed-interactief-spel-stimuleert-kauwgedrag-30x37x12-cm-groene-wasbeer.html'
   },
   {
     id: 286,
@@ -3143,8 +3143,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/pluche-hondenspeelgoed-beer-piepend-speelgoed-kauwspeelgoed-hond-duurzaam-ontwerp-groot-formaat-cremetinten/9300000271000896/",
     brand: "Merkloos / Sans marque",
     description: "Op zoek naar het ultieme vermaak voor uw trouwe viervoeter, zelfs de meest enthousiaste kauwers? Dit pluche hondenspeelgoed in de vorm van een beer is ontworpen om urenlang speelplezier te garanderen ",
-    slug: "pluche-hondenspeelgoed-beer---piepend-speelgoed---kauwspeelgoed-hond---duurzaam-ontwerp---groot-formaat---cr\u00e8metinten",
-    pageUrl: 'produits/pluche-hondenspeelgoed-beer---piepend-speelgoed---kauwspeelgoed-hond---duurzaam-ontwerp---groot-formaat---crèmetinten.html'
+    slug: "pluche-hondenspeelgoed-beer-piepend-speelgoed-kauwspeelgoed-hond-duurzaam-ontwerp-groot-formaat-cr\u00e8metinten",
+    pageUrl: 'produits/pluche-hondenspeelgoed-beer-piepend-speelgoed-kauwspeelgoed-hond-duurzaam-ontwerp-groot-formaat-crèmetinten.html'
   },
   {
     id: 287,
@@ -3154,8 +3154,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/hondenspeelgoed-bloem-piepspeeltje-pluche-interactieve-training-bijtbestendig-ontwerp-middelgroot-groot-roze/9300000285151969/",
     brand: "Merkloos / Sans marque",
     description: "Vermaak uw trouwe viervoeter met dit schattige en duurzame bloemvormige hondenspeeltje. Is uw hond vaak alleen en zoekt hij naar vermaak, of zoekt u een manier om de band met uw hond te versterken? Di",
-    slug: "hondenspeelgoed-bloem---piepspeeltje-pluche---interactieve-training---bijtbestendig-ontwerp---middelgroot-groot---roze",
-    pageUrl: 'produits/hondenspeelgoed-bloem---piepspeeltje-pluche---interactieve-training---bijtbestendig-ontwerp---middelgroot-groot---roze.html'
+    slug: "hondenspeelgoed-bloem-piepspeeltje-pluche-interactieve-training-bijtbestendig-ontwerp-middelgroot-groot-roze",
+    pageUrl: 'produits/hondenspeelgoed-bloem-piepspeeltje-pluche-interactieve-training-bijtbestendig-ontwerp-middelgroot-groot-roze.html'
   },
   {
     id: 288,
@@ -3165,8 +3165,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/honden-piep-speeltjes-interactief-kauwspeelgoed-training-en-vermaak-zachte-pluche-vulling-25x15x5-cm-meerdere-kleuren/9300000270051435/",
     brand: "Merkloos / Sans marque",
     description: "Verrijk de speelervaring van uw trouwe viervoeter met dit interactieve en geluidmakende hondenspeeltje, speciaal ontworpen om verveling tegen te gaan en uw hond actief te houden. Dit speeltje is niet ",
-    slug: "honden-piep-speeltjes---interactief-kauwspeelgoed---training-en-vermaak---zachte-pluche-vulling---25x15x5-cm---meerdere-kleuren",
-    pageUrl: 'produits/honden-piep-speeltjes---interactief-kauwspeelgoed---training-en-vermaak---zachte-pluche-vulling---25x15x5-cm---meerdere-kleuren.html'
+    slug: "honden-piep-speeltjes-interactief-kauwspeelgoed-training-en-vermaak-zachte-pluche-vulling-25x15x5-cm-meerdere-kleuren",
+    pageUrl: 'produits/honden-piep-speeltjes-interactief-kauwspeelgoed-training-en-vermaak-zachte-pluche-vulling-25x15x5-cm-meerdere-kleuren.html'
   },
   {
     id: 289,
@@ -3176,8 +3176,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/opti-life-prime-puppy-granenvrije-hondenvoeding-kip-12-5kg/9300000052198910/",
     brand: "Opti Life",
     description: "Met Opti Life Prime Puppy geef je jouw pup een bijzonder rijke en heerlijke premium maaltijd, boordevol krachtige voedingsstoffen. Ons graanvrij recept is rijk aan eiwitten en vetten, en arm aan koolh",
-    slug: "opti-life-prime-puppy-all-breeds-kip---hondenvoer---125-kg-graanvrij",
-    pageUrl: 'produits/opti-life-prime-puppy-all-breeds-kip---hondenvoer---125-kg-graanvrij.html'
+    slug: "opti-life-prime-puppy-all-breeds-kip-hondenvoer-125-kg-graanvrij",
+    pageUrl: 'produits/opti-life-prime-puppy-all-breeds-kip-hondenvoer-125-kg-graanvrij.html'
   },
   {
     id: 290,
@@ -3187,8 +3187,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/renske-chhurpi-golddust-heal-1-vacht-en-huid-giant-180-gr/9300000150553264/",
     brand: "Renske",
     description: "Renske Chhurpi Golddust Heal 1 Vacht en Huid GiantDe Renske Chhurpi is 100% natuurlijk, vegetarisch, gluten- en graanvrij. Een van de grote voordelen is dat deze snack een hoge dichtheid heeft waardoo",
-    slug: "renske-chhurpi-golddust-heal-1-vacht-en-huid-giant---180-gr",
-    pageUrl: 'produits/renske-chhurpi-golddust-heal-1-vacht-en-huid-giant---180-gr.html'
+    slug: "renske-chhurpi-golddust-heal-1-vacht-en-huid-giant-180-gr",
+    pageUrl: 'produits/renske-chhurpi-golddust-heal-1-vacht-en-huid-giant-180-gr.html'
   },
   {
     id: 291,
@@ -3231,8 +3231,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/biofeed-droogvoer-voor-honden-kalkoen-en-zalm-10kg/9300000244844100/",
     brand: "Biofeed",
     description: "<p><strong>Bied uw hond de ultieme ondersteuning voor soepele gewrichten en een vitaal leven met BioFeed Joint Support. Deze specialistische formule is met uiterste zorg samengesteld voor honden die e",
-    slug: "biofeed---droogvoer-voor-honden---kalkoen-en-zalm---500-gram",
-    pageUrl: 'produits/biofeed---droogvoer-voor-honden---kalkoen-en-zalm---500-gram.html'
+    slug: "biofeed-droogvoer-voor-honden-kalkoen-en-zalm-500-gram",
+    pageUrl: 'produits/biofeed-droogvoer-voor-honden-kalkoen-en-zalm-500-gram.html'
   },
   {
     id: 295,
@@ -3242,8 +3242,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/edgard-cooper-bite-lamb-large-hondensnack-50-gram-10-verpakkingen/9300000173880971/",
     brand: "Edgard & Cooper",
     description: "<p>Onze zachte Top Dog Bites zijn gemaakt om samen nieuwe dingen te leren: de bal terugbrengen, jouw favoriete slipper loslaten of rustig bij jou wachten. Wat je in de plaats krijgt? Een blije poot, l",
-    slug: "edgard--cooper-bite-lamb-large---hondensnack---50-gram---10-verpakkingen",
-    pageUrl: 'produits/edgard--cooper-bite-lamb-large---hondensnack---50-gram---10-verpakkingen.html'
+    slug: "edgard--cooper-bite-lamb-large-hondensnack-50-gram-10-verpakkingen",
+    pageUrl: 'produits/edgard--cooper-bite-lamb-large-hondensnack-50-gram-10-verpakkingen.html'
   },
   {
     id: 296,
@@ -3253,8 +3253,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/jarco-premium-giant-puppy-kalkoen-12-5-kg/9200000119960655/",
     brand: "Jarco",
     description: "Jarco hondenvoer Giant Puppy Kalkoen 12,5 kg\u2713 Speciaal ontwikkeld voor pups van zeer grote hondenrassen\u2713 Verlaagd vet-, fosfor- en calciumgehalte\u2713 Hoge acceptatieJarco hondenvoer Giant Puppy is een ho",
-    slug: "jarco-hondenvoer-giant-puppy-kalkoen-125-kg---hond",
-    pageUrl: 'produits/jarco-hondenvoer-giant-puppy-kalkoen-125-kg---hond.html'
+    slug: "jarco-hondenvoer-giant-puppy-kalkoen-125-kg-hond",
+    pageUrl: 'produits/jarco-hondenvoer-giant-puppy-kalkoen-125-kg-hond.html'
   },
   {
     id: 297,
@@ -3264,8 +3264,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/runderoren-met-vlees-hondensnack-50-stuks-100-natuurlijk-gedroogd-gecertificeerd-kauwsnack/9300000187176419/",
     brand: "Merkloos / Sans marque",
     description: "<p>Geef je hond de ultieme kauwervaring met onze <strong>runderoren voor honden</strong>. Deze natuurlijke snacks zijn ideaal voor honden die van kauwen houden en bieden tal van gezondheidsvoordelen.<",
-    slug: "runderoren-met-vlees---hondensnack---50-stuks---100-natuurlijk---gedroogd---gecertificeerd---kauwsnack",
-    pageUrl: 'produits/runderoren-met-vlees---hondensnack---50-stuks---100-natuurlijk---gedroogd---gecertificeerd---kauwsnack.html'
+    slug: "runderoren-met-vlees-hondensnack-50-stuks-100-natuurlijk-gedroogd-gecertificeerd-kauwsnack",
+    pageUrl: 'produits/runderoren-met-vlees-hondensnack-50-stuks-100-natuurlijk-gedroogd-gecertificeerd-kauwsnack.html'
   },
   {
     id: 298,
@@ -3297,8 +3297,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/happy-paw-fruit-gevriesdroogde-blauwe-bes-voor-honden-hondensnack-zak-100-gram/9300000259245455/",
     brand: "Happy Paw Fruit",
     description: "<p>Gevriesdroogde blauwe bessen, hypoallergeen en geschikt als gezond tussendoortje</p> <ul> <li> <p><strong>Natuurlijke energiebron</strong><br />\u27a4 Rijk aan natuurlijke suikers, ideaal als snelle ene",
-    slug: "happy-paw-fruit---gevriesdroogde-blauwe-bes-voor-honden---hondensnack---zak-100-gram",
-    pageUrl: 'produits/happy-paw-fruit---gevriesdroogde-blauwe-bes-voor-honden---hondensnack---zak-100-gram.html'
+    slug: "happy-paw-fruit-gevriesdroogde-blauwe-bes-voor-honden-hondensnack-zak-100-gram",
+    pageUrl: 'produits/happy-paw-fruit-gevriesdroogde-blauwe-bes-voor-honden-hondensnack-zak-100-gram.html'
   },
   {
     id: 301,
@@ -3319,8 +3319,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/spark-puppy-hondenbrokken-zalm-met-schelvis-en-witte-vis-zoete-aardappel-asperge-hypoallergeen-graanvrij-2kg/9300000233584444/",
     brand: "Spark",
     description: "<p><strong>Spark. Zuivere voeding, zonder concessies<br /></strong>Spark is opgericht met een doel: transparantie in de dierenvoedingsindustrie cre\u00ebren.</p> <ul> <li><strong>Hoog vleesgehalte</strong>",
-    slug: "spark---puppy-hondenbrokken---zalm-met-schelvis-en-witte-vis-zoete-aardappel--asperge---hypoallergeen---graanvrij---2kg",
-    pageUrl: 'produits/spark---puppy-hondenbrokken---zalm-met-schelvis-en-witte-vis-zoete-aardappel--asperge---hypoallergeen---graanvrij---2kg.html'
+    slug: "spark-puppy-hondenbrokken-zalm-met-schelvis-en-witte-vis-zoete-aardappel--asperge-hypoallergeen-graanvrij-2kg",
+    pageUrl: 'produits/spark-puppy-hondenbrokken-zalm-met-schelvis-en-witte-vis-zoete-aardappel--asperge-hypoallergeen-graanvrij-2kg.html'
   },
   {
     id: 303,
@@ -3352,8 +3352,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/adragna-breeder-daily-hondenvoer-lam-20-kg-middelgrote-rassen-actieve-honden-zonder-kip/9300000257231494/",
     brand: "Adragna",
     description: "<p><strong>Kies voor een slimme combinatie van kwaliteit en voordeel met Adragna Breeder Daily Lam. Een smakelijke grootverpakking van 20 kg, speciaal samengesteld voor actieve, volwassen honden van m",
-    slug: "adragna-breeder-daily---hondenvoer-lam---20-kg---middelgrote-rassen--actieve-honden---zonder-kip",
-    pageUrl: 'produits/adragna-breeder-daily---hondenvoer-lam---20-kg---middelgrote-rassen--actieve-honden---zonder-kip.html'
+    slug: "adragna-breeder-daily-hondenvoer-lam-20-kg-middelgrote-rassen--actieve-honden-zonder-kip",
+    pageUrl: 'produits/adragna-breeder-daily-hondenvoer-lam-20-kg-middelgrote-rassen--actieve-honden-zonder-kip.html'
   },
   {
     id: 306,
@@ -3374,8 +3374,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/yourdog-smalandsstovare-volwassen/9300000020615488/",
     brand: "Yourdog",
     description: "<p>Yourdog Sm\u00e5landsst\u00f6vare zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren dit met zorgvuldig geselecteerde ",
-    slug: "hondenvoer-yourdog-smalandsst\u00f6vare---buffel--kip---3kg-gezonde-voeding-zonder-kunstmatige-toevoegingen",
-    pageUrl: 'produits/hondenvoer-yourdog-smalandsstövare---buffel--kip---3kg-gezonde-voeding-zonder-kunstmatige-toevoegingen.html'
+    slug: "hondenvoer-yourdog-smalandsst\u00f6vare-buffel--kip-3kg-gezonde-voeding-zonder-kunstmatige-toevoegingen",
+    pageUrl: 'produits/hondenvoer-yourdog-smalandsstövare-buffel--kip-3kg-gezonde-voeding-zonder-kunstmatige-toevoegingen.html'
   },
   {
     id: 308,
@@ -3385,8 +3385,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/whimzees-oor-17-5cm/9200000131422491/",
     brand: "Whimzees",
     description: "<p>De oren van Whimzees zijn snacks waar je hond ongetwijfeld achteraan gaat. Deze vegetarische kauwsnacks zijn gemaakt van natuurlijke ingredi\u00ebnten die helpen bij de spijsvertering en het polijsten v",
-    slug: "whimzees-veggie-ear---kauwsnacks---hond---175cm---18st-doos",
-    pageUrl: 'produits/whimzees-veggie-ear---kauwsnacks---hond---175cm---18st-doos.html'
+    slug: "whimzees-veggie-ear-kauwsnacks-hond-175cm-18st-doos",
+    pageUrl: 'produits/whimzees-veggie-ear-kauwsnacks-hond-175cm-18st-doos.html'
   },
   {
     id: 309,
@@ -3396,8 +3396,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/yourdog-braque-d-auvergne-pup/9300000020614133/",
     brand: "Yourdog",
     description: "<p>Yourdog Braque d'auvergne zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren dit met zorgvuldig geselecteerd",
-    slug: "yourdog-braque-dauvergne-pup---3-kg",
-    pageUrl: 'produits/yourdog-braque-dauvergne-pup---3-kg.html'
+    slug: "yourdog-braque-dauvergne-pup-3-kg",
+    pageUrl: 'produits/yourdog-braque-dauvergne-pup-3-kg.html'
   },
   {
     id: 310,
@@ -3418,8 +3418,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/perfect-fit-adult-1-brokjes-zalm-kattenvoer-3-x-750-g/9200000112981878/",
     brand: "Perfect Fit",
     description: "<p>Perfect Fit is hoogwaardige kattenvoeding die samen met vooraanstaande dierenartsen en voedingsdeskundigen is ontwikkeld. De unieke \u2018Total 5\u2019 formule pakt de 5 meest voorkomende gezondheidsbehoefte",
-    slug: "perfect-fit-adult-1-brokjes---zalm---kattenvoer---3-x-750-g",
-    pageUrl: 'produits/perfect-fit-adult-1-brokjes---zalm---kattenvoer---3-x-750-g.html'
+    slug: "perfect-fit-adult-1-brokjes-zalm-kattenvoer-3-x-750-g",
+    pageUrl: 'produits/perfect-fit-adult-1-brokjes-zalm-kattenvoer-3-x-750-g.html'
   },
   {
     id: 312,
@@ -3429,8 +3429,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/kussies-kussen-40-cm-met-wasbare-hoes-paars-wit-gradient-hondenkussen-kattenkussen-donut-ronde-kattenmand-kat-puppy-dierenkussen-paarse-witte/9300000164733987/",
     brand: "KUSSIES",
     description: "<p> In 34 kleuren! Tijdelijk met <strong>GRATIS</strong> beloningstasje voor aan je riem en sticker!<br /><br />Heerlijk zachte en comfortabele honden- of kattenmand met afneembare en wasbare hoes. Jo",
-    slug: "kussies-kussen-40-cm-met-wasbare-hoes---paars-wit-gradient---hondenkussen-kattenkussen---donut-ronde-kattenmand-kat-puppy-dierenkussen-paarse-witte",
-    pageUrl: 'produits/kussies-kussen-40-cm-met-wasbare-hoes---paars-wit-gradient---hondenkussen-kattenkussen---donut-ronde-kattenmand-kat-puppy-dierenkussen-paarse-witte.html'
+    slug: "kussies-kussen-40-cm-met-wasbare-hoes-paars-wit-gradient-hondenkussen-kattenkussen-donut-ronde-kattenmand-kat-puppy-dierenkussen-paarse-witte",
+    pageUrl: 'produits/kussies-kussen-40-cm-met-wasbare-hoes-paars-wit-gradient-hondenkussen-kattenkussen-donut-ronde-kattenmand-kat-puppy-dierenkussen-paarse-witte.html'
   },
   {
     id: 313,
@@ -3473,8 +3473,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/interactief-denkspel-voor-honden-met-beloningssysteem-en-pieper-wit/9300000275001690/",
     brand: "Merkloos / Sans marque",
     description: "<p>Geef je hond een leuke mentale uitdaging met dit interactieve denkspel. Het is perfect om verveling tegen te gaan en je viervoeter actief bezig te houden.</p> <br /> <p><b>Hoe werkt het?</b><br />V",
-    slug: "interactief-denkspel-voor-honden-met-beloningssysteem-en-pieper---wit",
-    pageUrl: 'produits/interactief-denkspel-voor-honden-met-beloningssysteem-en-pieper---wit.html'
+    slug: "interactief-denkspel-voor-honden-met-beloningssysteem-en-pieper-wit",
+    pageUrl: 'produits/interactief-denkspel-voor-honden-met-beloningssysteem-en-pieper-wit.html'
   },
   {
     id: 317,
@@ -3506,8 +3506,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/eat-slow-live-longer-original-voerbak-anti-schrok-voerbak-slow-feeder-voor-honden-anti-slip-blauw-o30-cm-large-extra-large-geschikt-voor-grotere-honden/9200000063791955/",
     brand: "eat slow live longer",
     description: "<p><strong>Eet jouw hond te snel? Met deze slowfeeder is dat probleem opgelost!</strong></p> <p>Schrokt jouw hond al het eten in een hoog tempo naar binnen? Schrokken tijdens het eten brengt verschill",
-    slug: "eat-slow-live-longer-original-voerbak-lxl---\u00f830-cm---anti-schrokbak-hond--slowfeeder-hond--anti-slip--geschikt-voor-grote-honden---blauw",
-    pageUrl: 'produits/eat-slow-live-longer-original-voerbak-lxl---ø30-cm---anti-schrokbak-hond--slowfeeder-hond--anti-slip--geschikt-voor-grote-honden---blauw.html'
+    slug: "eat-slow-live-longer-original-voerbak-lxl-\u00f830-cm-anti-schrokbak-hond--slowfeeder-hond--anti-slip--geschikt-voor-grote-honden-blauw",
+    pageUrl: 'produits/eat-slow-live-longer-original-voerbak-lxl-ø30-cm-anti-schrokbak-hond--slowfeeder-hond--anti-slip--geschikt-voor-grote-honden-blauw.html'
   },
   {
     id: 320,
@@ -3528,8 +3528,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/1-kg-lyra-pet-rundshoofdhuiddelen-1-7-cm/9300000229546806/",
     brand: "Lyra Pet",
     description: "<p><strong>Gedroogde runderhuid</strong> <br /></p> <br /> <p><strong>De smakelijke kauwsnack voor tussendoor om het natuurlijke kauwinstinct van uw hond te vervullen!</strong></p> <br /> <br /> <ul> ",
-    slug: "1-kg-lyra-pet-rundshoofdhuiddelen-1---7-cm",
-    pageUrl: 'produits/1-kg-lyra-pet-rundshoofdhuiddelen-1---7-cm.html'
+    slug: "1-kg-lyra-pet-rundshoofdhuiddelen-1-7-cm",
+    pageUrl: 'produits/1-kg-lyra-pet-rundshoofdhuiddelen-1-7-cm.html'
   },
   {
     id: 322,
@@ -3539,8 +3539,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/bark-bite-runderlong-6-10-cm-1-kilo/9300000257282587/",
     brand: "Bark-Bite",
     description: "<p><b>Bark-Bite Runderlong </b></p> <p>Natuurlijke kauwsnack voor de hond.</p> <p>Deze gedroogde runderlong is een heerlijke snack voor je hond. De long stukken zijn rond de 6-10 cm doorsnee en voor k",
-    slug: "bark-bite-runderlong---6-10-cm---1-kilo",
-    pageUrl: 'produits/bark-bite-runderlong---6-10-cm---1-kilo.html'
+    slug: "bark-bite-runderlong-6-10-cm-1-kilo",
+    pageUrl: 'produits/bark-bite-runderlong-6-10-cm-1-kilo.html'
   },
   {
     id: 323,
@@ -3561,8 +3561,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/snuffeltapijt-hond-hondenspeelgoed-interactief-mentale-stimulatie-antislip-wasbaar-80-x-30-cm-groen/9300000271627359/",
     brand: "Merkloos / Sans marque",
     description: "Verrijk het leven van uw trouwe viervoeter met dit fascinerende snuffeltapijt, speciaal ontworpen om honden van alle leeftijden en groottes bezig te houden en te stimuleren. Dit interactieve hondenspe",
-    slug: "snuffeltapijt-hond---hondenspeelgoed-interactief---mentale-stimulatie---antislip-wasbaar---80-x-30-cm---groen",
-    pageUrl: 'produits/snuffeltapijt-hond---hondenspeelgoed-interactief---mentale-stimulatie---antislip-wasbaar---80-x-30-cm---groen.html'
+    slug: "snuffeltapijt-hond-hondenspeelgoed-interactief-mentale-stimulatie-antislip-wasbaar-80-x-30-cm-groen",
+    pageUrl: 'produits/snuffeltapijt-hond-hondenspeelgoed-interactief-mentale-stimulatie-antislip-wasbaar-80-x-30-cm-groen.html'
   },
   {
     id: 325,
@@ -3572,8 +3572,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/gedroogde-xxl-varkensoren-voor-honden-1kg-natuurlijke-kauwsnacks/9300000255535761/",
     brand: "Merkloos / Sans marque",
     description: "Natuurlijke, XXL gedroogde varkensoren voor honden, verpakt per 1 kg. Deze heerlijke en gezonde kauwartikelen zijn zonder toevoegingen, kunstmatige kleurstoffen of conserveringsmiddelen en zijn voorzi",
-    slug: "gedroogde-xxl-varkensoren-voor-honden---1kg-natuurlijke-kauwsnacks",
-    pageUrl: 'produits/gedroogde-xxl-varkensoren-voor-honden---1kg-natuurlijke-kauwsnacks.html'
+    slug: "gedroogde-xxl-varkensoren-voor-honden-1kg-natuurlijke-kauwsnacks",
+    pageUrl: 'produits/gedroogde-xxl-varkensoren-voor-honden-1kg-natuurlijke-kauwsnacks.html'
   },
   {
     id: 326,
@@ -3583,8 +3583,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/honden-frisbee-apporteerspeeltje-hond-buiten-spelen-duurzaam-natuurrubber-voor-grote-honden-zwart/9300000271719873/",
     brand: "Merkloos / Sans marque",
     description: "Geef uw trouwe viervoeter eindeloos speelplezier met deze extreem duurzame hondenfrisbee, speciaal ontworpen voor de meest energieke en enthousiaste honden. Bent u op zoek naar een speeltje dat bestan",
-    slug: "honden-frisbee---apporteerspeeltje-hond---buiten-spelen---duurzaam-natuurrubber---voor-grote-honden---zwart",
-    pageUrl: 'produits/honden-frisbee---apporteerspeeltje-hond---buiten-spelen---duurzaam-natuurrubber---voor-grote-honden---zwart.html'
+    slug: "honden-frisbee-apporteerspeeltje-hond-buiten-spelen-duurzaam-natuurrubber-voor-grote-honden-zwart",
+    pageUrl: 'produits/honden-frisbee-apporteerspeeltje-hond-buiten-spelen-duurzaam-natuurrubber-voor-grote-honden-zwart.html'
   },
   {
     id: 327,
@@ -3594,8 +3594,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/hondenspeeltje-kauwspeeltje-dier-interactief-spel-natuurlijk-rubber-17-x-6-cm-groen/9300000269958982/",
     brand: "Merkloos / Sans marque",
     description: "Laat uw trouwe viervoeter eindeloos speelplezier beleven met dit interactieve hondenspeeltje! Dit unieke speeltje is ontworpen om de aandacht van uw hond vast te houden en tegelijkertijd bij te dragen",
-    slug: "hondenspeeltje---kauwspeeltje-dier---interactief-spel---natuurlijk-rubber---17-x-6-cm---groen",
-    pageUrl: 'produits/hondenspeeltje---kauwspeeltje-dier---interactief-spel---natuurlijk-rubber---17-x-6-cm---groen.html'
+    slug: "hondenspeeltje-kauwspeeltje-dier-interactief-spel-natuurlijk-rubber-17-x-6-cm-groen",
+    pageUrl: 'produits/hondenspeeltje-kauwspeeltje-dier-interactief-spel-natuurlijk-rubber-17-x-6-cm-groen.html'
   },
   {
     id: 328,
@@ -3605,8 +3605,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/honden-kauwspeelgoed-puppy-bijtring-tandjes-reinigen-interactieve-snoepdispenser-16-cm-lengte-oranje/9300000269966809/",
     brand: "Merkloos / Sans marque",
     description: "Geef uw trouwe viervoeter het ultieme plezier en de stimulatie die hij verdient met dit innovatieve honden kauwspeelgoed. Speciaal ontworpen om de natuurlijke kauwbehoefte van uw hond te bevredigen, b",
-    slug: "honden-kauwspeelgoed---puppy-bijtring---tandjes-reinigen---interactieve-snoepdispenser---16-cm-lengte---oranje",
-    pageUrl: 'produits/honden-kauwspeelgoed---puppy-bijtring---tandjes-reinigen---interactieve-snoepdispenser---16-cm-lengte---oranje.html'
+    slug: "honden-kauwspeelgoed-puppy-bijtring-tandjes-reinigen-interactieve-snoepdispenser-16-cm-lengte-oranje",
+    pageUrl: 'produits/honden-kauwspeelgoed-puppy-bijtring-tandjes-reinigen-interactieve-snoepdispenser-16-cm-lengte-oranje.html'
   },
   {
     id: 329,
@@ -3616,8 +3616,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/hondenbeloningsspeelgoed-hond-puzzel-mentale-stimulatie-interactieve-voeding-24-x-10-x-3-cm/9300000269997209/",
     brand: "Merkloos / Sans marque",
     description: "Verander voedingstijd in een boeiend avontuur met dit innovatieve hondenbeloningsspeelgoed, ontworpen om uw trouwe viervoeter zowel fysiek als mentaal uit te dagen. Dit interactieve speeltje transform",
-    slug: "hondenbeloningsspeelgoed---hond-puzzel---mentale-stimulatie---interactieve-voeding---24-x-10-x-3-cm",
-    pageUrl: 'produits/hondenbeloningsspeelgoed---hond-puzzel---mentale-stimulatie---interactieve-voeding---24-x-10-x-3-cm.html'
+    slug: "hondenbeloningsspeelgoed-hond-puzzel-mentale-stimulatie-interactieve-voeding-24-x-10-x-3-cm",
+    pageUrl: 'produits/hondenbeloningsspeelgoed-hond-puzzel-mentale-stimulatie-interactieve-voeding-24-x-10-x-3-cm.html'
   },
   {
     id: 330,
@@ -3638,8 +3638,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/edgard-cooper-yummy-norwegian-salmon-adult-zalm-rode-biet-appel-hondenvoer-1kg/9300000230629256/",
     brand: "Edgard & Cooper",
     description: "Edgard & Cooper Hondenvoer Droog Zalm MediumEdgard & Cooper Hondenvoer Droog Zalm Medium is een ware bron van hoogwaardige eiwitten en omega 3-vetzuren. Er wordt uitsluitend verse zalm gebruikt, zonde",
-    slug: "edgardcooper-medium-adult-dog---hondenvoer---zalm-1-kg",
-    pageUrl: 'produits/edgardcooper-medium-adult-dog---hondenvoer---zalm-1-kg.html'
+    slug: "edgardcooper-medium-adult-dog-hondenvoer-zalm-1-kg",
+    pageUrl: 'produits/edgardcooper-medium-adult-dog-hondenvoer-zalm-1-kg.html'
   },
   {
     id: 332,
@@ -3649,8 +3649,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/budget-pet-deals-hondensnacks-kippennekken-3-00-kg-hondensnoepjes-hondenkoekjes/9300000187176432/",
     brand: "Budget Pet Deals",
     description: "<p>Trakteer je hond op de beste snackervaring met onze <strong>premium kippennekken voor honden</strong>. Deze smakelijke traktaties zijn de perfecte manier om je hond te verwennen en tegelijkertijd b",
-    slug: "budget-pet-deals-hondensnacks---kippennekken---300-kg---hondensnoepjes---hondenkoekjes",
-    pageUrl: 'produits/budget-pet-deals-hondensnacks---kippennekken---300-kg---hondensnoepjes---hondenkoekjes.html'
+    slug: "budget-pet-deals-hondensnacks-kippennekken-300-kg-hondensnoepjes-hondenkoekjes",
+    pageUrl: 'produits/budget-pet-deals-hondensnacks-kippennekken-300-kg-hondensnoepjes-hondenkoekjes.html'
   },
   {
     id: 333,
@@ -3660,8 +3660,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/acana-adult-large-breed-dog-heritage-11-4-kg/9200000058777659/",
     brand: "Acana",
     description: "<b>Acana Heritage Adult Large Breed 11,4 kg</b>Bereid in onze gecertificeerde keukens in Canada is ACANA ADULT LARGE BREED rijk aan lokaal gefokte scharrel kip, scharrel eieren, in het wild gevangen p",
-    slug: "acana-adult-large-breed-dog-heritage---114-kg",
-    pageUrl: 'produits/acana-adult-large-breed-dog-heritage---114-kg.html'
+    slug: "acana-adult-large-breed-dog-heritage-114-kg",
+    pageUrl: 'produits/acana-adult-large-breed-dog-heritage-114-kg.html'
   },
   {
     id: 334,
@@ -3682,8 +3682,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/topdiervoeding-100-puur-pens-vleesblokjes-hondensnack-1000-gram/9300000141886152/",
     brand: "Topdiervoeding.nl",
     description: "<p><strong>100% Pens - 100% natuurlijk product - 100% zonder toevoegingen.</strong></p> <p>Een zeer populaire Hondensnack Van Pens die het natuurlijke kauwinstinct bevredigt en uw hond bezig houdt. Ze",
-    slug: "100-puur-pens-vleesblokjes---hondensnack---1000-gram",
-    pageUrl: 'produits/100-puur-pens-vleesblokjes---hondensnack---1000-gram.html'
+    slug: "100-puur-pens-vleesblokjes-hondensnack-1000-gram",
+    pageUrl: 'produits/100-puur-pens-vleesblokjes-hondensnack-1000-gram.html'
   },
   {
     id: 336,
@@ -3693,8 +3693,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/timo-sticks-100-g-hondensnacks-10-x-hert/9300000060663663/",
     brand: "Timo",
     description: "<h3>Lekker kauwen op deze natuurlijke snack</h3> <p>Wanneer je je hond wilt belonen, dan wil je hem natuurlijk voorzien van een snack die niet alleen lekker, maar ook gezond is. Laat je hond bijvoorbe",
-    slug: "timo-sticks-100-g---hondensnacks---10-x-hert",
-    pageUrl: 'produits/timo-sticks-100-g---hondensnacks---10-x-hert.html'
+    slug: "timo-sticks-100-g-hondensnacks-10-x-hert",
+    pageUrl: 'produits/timo-sticks-100-g-hondensnacks-10-x-hert.html'
   },
   {
     id: 337,
@@ -3704,8 +3704,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/delcon-premium-hondenvoer-adult-regular-mini-rijk-aan-kip-3kg/9300000040058739/",
     brand: "Delcon",
     description: "<strong><strong>DELCON ADULT Regular MINI (voor de kleine hondenrassen) RIJK AAN KIP - 100% Belgische kwaliteit - Hondenbrokken - Hondeneten droogvoer<br /><br />Honden droogvoer \u00b7 rijk aan hoogwaardi",
-    slug: "delcon-mini-adult-kip---hondenvoer-brokken-3kg-voor-kleine-hondenrassen",
-    pageUrl: 'produits/delcon-mini-adult-kip---hondenvoer-brokken-3kg-voor-kleine-hondenrassen.html'
+    slug: "delcon-mini-adult-kip-hondenvoer-brokken-3kg-voor-kleine-hondenrassen",
+    pageUrl: 'produits/delcon-mini-adult-kip-hondenvoer-brokken-3kg-voor-kleine-hondenrassen.html'
   },
   {
     id: 338,
@@ -3748,8 +3748,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/monopets-natural-fresh-meat-large-adult-hondenbrokken-fazant-2-kg/9300000272006029/",
     brand: "Monopets",
     description: "<p>Monopets Natural Fresh Meat Large Adult Fazant is een heerlijke graanvrije voeding voor grote honden die baat hebben bij een pure en hypoallergene samenstelling. Dit recept gebruikt verse fazant al",
-    slug: "monopets-natural-fresh-meat-large-adult---hondenbrokken---fazant-2-kg",
-    pageUrl: 'produits/monopets-natural-fresh-meat-large-adult---hondenbrokken---fazant-2-kg.html'
+    slug: "monopets-natural-fresh-meat-large-adult-hondenbrokken-fazant-2-kg",
+    pageUrl: 'produits/monopets-natural-fresh-meat-large-adult-hondenbrokken-fazant-2-kg.html'
   },
   {
     id: 342,
@@ -3781,8 +3781,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/yourdog-franse-spaniel-volwassen/9300000020614627/",
     brand: "Yourdog",
     description: "<p>Yourdog Franse spani\u00ebl zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren dit met zorgvuldig geselecteerde g",
-    slug: "hondenvoer-yourdog---franse-spani\u00ebl-3kg---buffel--kip-glucosamine-zonder-kunstmatige-toevoegingen",
-    pageUrl: 'produits/hondenvoer-yourdog---franse-spaniël-3kg---buffel--kip-glucosamine-zonder-kunstmatige-toevoegingen.html'
+    slug: "hondenvoer-yourdog-franse-spani\u00ebl-3kg-buffel--kip-glucosamine-zonder-kunstmatige-toevoegingen",
+    pageUrl: 'produits/hondenvoer-yourdog-franse-spaniël-3kg-buffel--kip-glucosamine-zonder-kunstmatige-toevoegingen.html'
   },
   {
     id: 345,
@@ -3803,8 +3803,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/royal-canin-mini-starter-mother-babydog-puppy-hondenvoer-4-kg/9300000083381808/",
     brand: "Royal Canin",
     description: "<h3> </h3> Pasgeboren puppy's hebben unieke voedingsbehoeften omdat hun zintuigen en zenuwstelsel zich nog volop aan het ontwikkelen zijn. Bovendien vergt het voeden van puppy's erg veel van de stofwi",
-    slug: "royal-canin-mini-starter-mother--babydog---4-kg---puppy-hondenvoer",
-    pageUrl: 'produits/royal-canin-mini-starter-mother--babydog---4-kg---puppy-hondenvoer.html'
+    slug: "royal-canin-mini-starter-mother--babydog-4-kg-puppy-hondenvoer",
+    pageUrl: 'produits/royal-canin-mini-starter-mother--babydog-4-kg-puppy-hondenvoer.html'
   },
   {
     id: 347,
@@ -3825,8 +3825,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/biofood-biofood-rol-naturel/9200000045408208/",
     brand: "BF Petfood",
     description: "Lang(er), lekker en nuttig kauwplezier.<br /> <br /> De BIOFOOD Rol kluiven (Blue label/Dental) zijn natuurlijke hoogwaardige ambachtelijk gemaakte exclusieve kauwkluiven. De rol kluiven bevatten geen",
-    slug: "bf-dental-rol-rund---hondensnacks---large-ca-190-g",
-    pageUrl: 'produits/bf-dental-rol-rund---hondensnacks---large-ca-190-g.html'
+    slug: "bf-dental-rol-rund-hondensnacks-large-ca-190-g",
+    pageUrl: 'produits/bf-dental-rol-rund-hondensnacks-large-ca-190-g.html'
   },
   {
     id: 349,
@@ -3847,8 +3847,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/bamboodles-puppy-chew-kauwspeeltje-voor-puppy-s-kip-smaak/9300000176751070/",
     brand: "Bamboodles",
     description: "<p>De natuurlijke sterkte van bamboevezel met nylonvezels om een langer meegaand, duurzaam kauwspeeltje te cre\u00ebren- geschikt voor puppy\u2019s tot 7 kg, inclusief agressievere kauwers.</p> <p>. Bevredigend",
-    slug: "bamboodles-puppy-chew---kauwspeeltje-voor-puppys---kip-smaak---i-bone-tandverzorgend",
-    pageUrl: 'produits/bamboodles-puppy-chew---kauwspeeltje-voor-puppys---kip-smaak---i-bone-tandverzorgend.html'
+    slug: "bamboodles-puppy-chew-kauwspeeltje-voor-puppys-kip-smaak-i-bone-tandverzorgend",
+    pageUrl: 'produits/bamboodles-puppy-chew-kauwspeeltje-voor-puppys-kip-smaak-i-bone-tandverzorgend.html'
   },
   {
     id: 351,
@@ -3858,8 +3858,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/eat-slow-live-longer-likmat-o-22-cm-slowfeeder-anti-schrok-voermat-likvoerbak-voor-nat-voer-en-brokken-vaatwasserbestendig-voetbal-anti-slip-roze/9300000188701156/",
     brand: "eat slow live longer",
     description: "<p><strong>De likmat van Eat Slow Live Longer: de ultieme verwennerij voor jouw hond!</strong></p> <p>Maak kennis met de Eat Slow Live Longer likmat, het perfecte hulpmiddel om jouw hond te verwennen ",
-    slug: "eat-slow-live-longer-likmat---\u00f8-22-cm---slowfeeder-honden-en-katten---anti-schrok---voermat---likvoerbak---voor-nat-voer-en-brokken---vaatwasserbestendig---voetbal---anti-slip---voerpuzzel-kat---roze",
-    pageUrl: 'produits/eat-slow-live-longer-likmat---ø-22-cm---slowfeeder-honden-en-katten---anti-schrok---voermat---likvoerbak---voor-nat-voer-en-brokken---vaatwasserbestendig---voetbal---anti-slip---voerpuzzel-kat---roze.html'
+    slug: "eat-slow-live-longer-likmat-\u00f8-22-cm-slowfeeder-honden-en-katten-anti-schrok-voermat-likvoerbak-voor-nat-voer-en-brokken-vaatwasserbestendig-voetbal-anti-slip-voerpuzzel-kat-roze",
+    pageUrl: 'produits/eat-slow-live-longer-likmat-ø-22-cm-slowfeeder-honden-en-katten-anti-schrok-voermat-likvoerbak-voor-nat-voer-en-brokken-vaatwasserbestendig-voetbal-anti-slip-voerpuzzel-kat-roze.html'
   },
   {
     id: 352,
@@ -3869,8 +3869,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/interactieve-rollende-speelbal-met-staart-voor-honden-katten-automatisch-huisdierspeelgoed-oplaadbaar-rood/9300000272328006/",
     brand: "Merkloos / Sans marque",
     description: "<p></p> <p>Geef je harige vriend eindeloos speelplezier met deze <strong>Interactieve Rollende Speelbal met Staart</strong>! Ontworpen om de natuurlijke jachtinstincten van zowel honden als katten te ",
-    slug: "interactieve-rollende-speelbal-met-staart-voor-honden--katten---automatisch-huisdierspeelgoed---oplaadbaar---rood",
-    pageUrl: 'produits/interactieve-rollende-speelbal-met-staart-voor-honden--katten---automatisch-huisdierspeelgoed---oplaadbaar---rood.html'
+    slug: "interactieve-rollende-speelbal-met-staart-voor-honden--katten-automatisch-huisdierspeelgoed-oplaadbaar-rood",
+    pageUrl: 'produits/interactieve-rollende-speelbal-met-staart-voor-honden--katten-automatisch-huisdierspeelgoed-oplaadbaar-rood.html'
   },
   {
     id: 353,
@@ -3924,8 +3924,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/10x-dieroke-xxl-kauwdonut-met-eend-hondensnack-kauwring-met-duck-graanvrij-glutenvrij-per-stuk-verpakt-natuurlijke-hondensnacks/9300000232423725/",
     brand: "DierOK\u00c9",
     description: "<p>DierOK\u00c9 kauwdonut rijkelijk omwikkeld met eend / duck. Vrij van kip.</p> <p>Een lekkere donut van rund met omwikkeld eend, speciaal voor jouw grote vriend. Deze hondensnack met eend kan jouw hond g",
-    slug: "10x-dierok\u00e9---xxl-kauwdonut-met-eend---hondensnack---kauwring-met-duck---graanvrij---glutenvrij---per-stuk-verpakt---natuurlijke-hondensnacks",
-    pageUrl: 'produits/10x-dieroké---xxl-kauwdonut-met-eend---hondensnack---kauwring-met-duck---graanvrij---glutenvrij---per-stuk-verpakt---natuurlijke-hondensnacks.html'
+    slug: "10x-dierok\u00e9-xxl-kauwdonut-met-eend-hondensnack-kauwring-met-duck-graanvrij-glutenvrij-per-stuk-verpakt-natuurlijke-hondensnacks",
+    pageUrl: 'produits/10x-dieroké-xxl-kauwdonut-met-eend-hondensnack-kauwring-met-duck-graanvrij-glutenvrij-per-stuk-verpakt-natuurlijke-hondensnacks.html'
   },
   {
     id: 358,
@@ -3946,8 +3946,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/bamboodles-dental-chew-toy-maat-m-kauwspeelgoed-voor-de-hond-lam-en-mint-duurzaam-kauwspeelgoed/9300000256790667/",
     brand: "Bamboodles",
     description: "<ul> <li>TEVREDEND OM TE KAUWEN: Geef je hond iets leuks om op te kauwen. Dit duurzame hondenkauwspeeltje voldoet aan natuurlijke instincten en helpt stress en verveling te verlichten. Perfect voor ho",
-    slug: "bamboodles---dental-chew-toy---maat-m---kauwspeelgoed-voor-de-hond---lam-en-mint---duurzaam-kauwspeelgoed",
-    pageUrl: 'produits/bamboodles---dental-chew-toy---maat-m---kauwspeelgoed-voor-de-hond---lam-en-mint---duurzaam-kauwspeelgoed.html'
+    slug: "bamboodles-dental-chew-toy-maat-m-kauwspeelgoed-voor-de-hond-lam-en-mint-duurzaam-kauwspeelgoed",
+    pageUrl: 'produits/bamboodles-dental-chew-toy-maat-m-kauwspeelgoed-voor-de-hond-lam-en-mint-duurzaam-kauwspeelgoed.html'
   },
   {
     id: 360,
@@ -3990,8 +3990,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/nero-gold-vlees-worst-geit-800gr-6-stuks/9300000064349395/",
     brand: "Nero Pure",
     description: "<p>De Nero Pure vlees worsten zijn bereidt van minimaal 97% vlees. <br /><br />Nero Pure vlees worst is een lekkere worst gemaakt van veel geitenvlees, de worst wordt bereidt met uitsluitend natuurlij",
-    slug: "nero-pure-vlees-worst-geit-800gr---6-stuks",
-    pageUrl: 'produits/nero-pure-vlees-worst-geit-800gr---6-stuks.html'
+    slug: "nero-pure-vlees-worst-geit-800gr-6-stuks",
+    pageUrl: 'produits/nero-pure-vlees-worst-geit-800gr-6-stuks.html'
   },
   {
     id: 364,
@@ -4001,8 +4001,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/mac-s-hondenvoer-natvoer-blik-70-kip-cranberry-6-x-800g/9300000008359813/",
     brand: "MAC's",
     description: "<ul> <li>Maar liefs 93,7% vleesaandeel</li> <li>Mac\u2019s wordt bereid met hoogwaardig vlees en vis</li> <li>Een natuurlijke en zeer goed verteerbare hondenvoeding</li> <li>Korte bereidingstijd voor behou",
-    slug: "macs-hondenvoer-natvoer-blik---937-kip--cranberry---6-x-800g",
-    pageUrl: 'produits/macs-hondenvoer-natvoer-blik---937-kip--cranberry---6-x-800g.html'
+    slug: "macs-hondenvoer-natvoer-blik-937-kip--cranberry-6-x-800g",
+    pageUrl: 'produits/macs-hondenvoer-natvoer-blik-937-kip--cranberry-6-x-800g.html'
   },
   {
     id: 365,
@@ -4012,8 +4012,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/cooka-cookie-s-100-natuurlijke-ambachtelijke-hondensnacks-van-kabeljauw-2-pack/9300000244338422/",
     brand: "cooka's cookies",
     description: "<p>De Life Savers van Cooka's Cookies zijn ambachtelijke kauwsnacks gemaakt van premium kabeljauw en kabeljauwschil, aangevuld met verse pompoen en bosbes. Deze natuurlijke hondensnack biedt een hoogw",
-    slug: "cooka-cookies---100-natuurlijke-ambachtelijke-hondensnacks-van-kabeljauw-2-pack--voordeel-set",
-    pageUrl: 'produits/cooka-cookies---100-natuurlijke-ambachtelijke-hondensnacks-van-kabeljauw-2-pack--voordeel-set.html'
+    slug: "cooka-cookies-100-natuurlijke-ambachtelijke-hondensnacks-van-kabeljauw-2-pack--voordeel-set",
+    pageUrl: 'produits/cooka-cookies-100-natuurlijke-ambachtelijke-hondensnacks-van-kabeljauw-2-pack--voordeel-set.html'
   },
   {
     id: 366,
@@ -4045,8 +4045,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/varkensoren-best-buddy-hondensnack-2-stuks-per-verpakking-100-natuurlijk/9300000159312540/",
     brand: "Best buddy Pets",
     description: "<p><strong>Gedroogde varkensoren</strong> zijn een <strong>100% natuurlijke en heerlijke kauwsnack</strong> voor je hond. Glutenvrij en zonder toevoegingen, deze snack biedt <strong>langdurig kauwplez",
-    slug: "varkensoren---glutenvrij---best-buddy-pets",
-    pageUrl: 'produits/varkensoren---glutenvrij---best-buddy-pets.html'
+    slug: "varkensoren-glutenvrij-best-buddy-pets",
+    pageUrl: 'produits/varkensoren-glutenvrij-best-buddy-pets.html'
   },
   {
     id: 369,
@@ -4078,8 +4078,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/yourdog-siberische-husky-volwassen/9300000020615551/",
     brand: "Yourdog",
     description: "<p>Yourdog Siberische husky zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren dit met zorgvuldig geselecteerde",
-    slug: "hondenvoer-yourdog---siberische-husky---buffel-en-kippenvlees---3kg-zonder-kunstmatige-toevoegingen",
-    pageUrl: 'produits/hondenvoer-yourdog---siberische-husky---buffel-en-kippenvlees---3kg-zonder-kunstmatige-toevoegingen.html'
+    slug: "hondenvoer-yourdog-siberische-husky-buffel-en-kippenvlees-3kg-zonder-kunstmatige-toevoegingen",
+    pageUrl: 'produits/hondenvoer-yourdog-siberische-husky-buffel-en-kippenvlees-3kg-zonder-kunstmatige-toevoegingen.html'
   },
   {
     id: 372,
@@ -4089,8 +4089,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/yourdog-labradoodle-volwassen/9300000020615040/",
     brand: "Yourdog",
     description: "<p>Yourdog Labradoodle zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren dit met zorgvuldig geselecteerde groe",
-    slug: "hondenvoer-yourdog---labradoodle-3kg---buffel-kip-groenten-fruit",
-    pageUrl: 'produits/hondenvoer-yourdog---labradoodle-3kg---buffel-kip-groenten-fruit.html'
+    slug: "hondenvoer-yourdog-labradoodle-3kg-buffel-kip-groenten-fruit",
+    pageUrl: 'produits/hondenvoer-yourdog-labradoodle-3kg-buffel-kip-groenten-fruit.html'
   },
   {
     id: 373,
@@ -4111,8 +4111,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/animalking-konijnenoren-hond-konijnenoren-zonder-haar-hondensnacks-gedroogd-1-kilo/9300000227926127/",
     brand: "animalking",
     description: "<p><strong>Gedroogde konijnenoren zonder haar zijn een natuurlijke en gezonde hondensnack, ideaal als beloning of tussendoortje. Deze snack is rijk aan eiwitten en laag in vet, waardoor het geschikt i",
-    slug: "animalking-konijnenoren-hond---konijnenoren-zonder-haar---hondensnacks-gedroogd---1-kilo",
-    pageUrl: 'produits/animalking-konijnenoren-hond---konijnenoren-zonder-haar---hondensnacks-gedroogd---1-kilo.html'
+    slug: "animalking-konijnenoren-hond-konijnenoren-zonder-haar-hondensnacks-gedroogd-1-kilo",
+    pageUrl: 'produits/animalking-konijnenoren-hond-konijnenoren-zonder-haar-hondensnacks-gedroogd-1-kilo.html'
   },
   {
     id: 375,
@@ -4122,8 +4122,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/dogs-collection-floss-trek-en-speeltouw-regenboog-75-cm/9300000220154644/",
     brand: "Dogs Collection",
     description: "Ontdek het Dogs Collection trek- en speeltouw: d\u00e9 must-have voor jouw hond! Met een lengte van 75 cm en een speels regenboogdesign biedt dit speeltouw urenlang plezier voor honden van alle formaten. G",
-    slug: "dogs-collection---floss--trek--en-speeltouw--regenboog---75-cm",
-    pageUrl: 'produits/dogs-collection---floss--trek--en-speeltouw--regenboog---75-cm.html'
+    slug: "dogs-collection-floss--trek--en-speeltouw--regenboog-75-cm",
+    pageUrl: 'produits/dogs-collection-floss--trek--en-speeltouw--regenboog-75-cm.html'
   },
   {
     id: 376,
@@ -4133,8 +4133,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/dog-comets-orion-hondenspeelgoed-duurzaam-honden-speeltje-honden-speelgoed-dat-blijft-drijven-apporteerspeelgoed-voor-honden-geschikt-voor-honden-roze-20-x-4-x-4-cm/9300000095682402/",
     brand: "Dog Comets",
     description: "<p><strong>Ontdek het ultieme apporteerspeelgoed voor jouw actieve hond!</strong></p> <p>Breng het apporteren naar een hoger niveau met de Dog Comets Orion Dummy in opvallend <strong>roze</strong>. De",
-    slug: "dog-comets-orion-dummy---20-x-4-x-4-cm---hondenspeelgoed---apporteerspeelgoed---drijvend---roze",
-    pageUrl: 'produits/dog-comets-orion-dummy---20-x-4-x-4-cm---hondenspeelgoed---apporteerspeelgoed---drijvend---roze.html'
+    slug: "dog-comets-orion-dummy-20-x-4-x-4-cm-hondenspeelgoed-apporteerspeelgoed-drijvend-roze",
+    pageUrl: 'produits/dog-comets-orion-dummy-20-x-4-x-4-cm-hondenspeelgoed-apporteerspeelgoed-drijvend-roze.html'
   },
   {
     id: 377,
@@ -4144,8 +4144,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/oloey-2-piepende-hondenspeeltjes-in-de-vorm-van-een-octopus-duurzaam-en-interactief-speelgoed-geschikt-voor-kleine-en-middelgrote-honden/9300000276319732/",
     brand: "Oloey",
     description: "<p>Octopus hondenspeeltje: Dit felgekleurde pluche speeltje is perfect om de aandacht van je hond te trekken en hem te vermaken. Je hond zal urenlang plezier beleven met dit schattige speeltje. Met ee",
-    slug: "oloey-2-piepende-hondenspeeltjes-in-de-vorm-van-een-octopus---duurzaam-en-interactief-speelgoed-geschikt-voor-kleine-en-middelgrote-honden",
-    pageUrl: 'produits/oloey-2-piepende-hondenspeeltjes-in-de-vorm-van-een-octopus---duurzaam-en-interactief-speelgoed-geschikt-voor-kleine-en-middelgrote-honden.html'
+    slug: "oloey-2-piepende-hondenspeeltjes-in-de-vorm-van-een-octopus-duurzaam-en-interactief-speelgoed-geschikt-voor-kleine-en-middelgrote-honden",
+    pageUrl: 'produits/oloey-2-piepende-hondenspeeltjes-in-de-vorm-van-een-octopus-duurzaam-en-interactief-speelgoed-geschikt-voor-kleine-en-middelgrote-honden.html'
   },
   {
     id: 378,
@@ -4166,8 +4166,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/roze-hondenpuzzel-met-traktatiedispenser-interactief-voerspeelgoed-voor-mentale-stimulatie/9300000275002075/",
     brand: "Merkloos / Sans marque",
     description: "<p>Geef je hond een leuke mentale uitdaging met deze roze puzzelvoerbak! Dit interactieve speelgoed houdt je viervoeter urenlang bezig en stimuleert zijn natuurlijke nieuwsgierigheid en probleemoploss",
-    slug: "roze-hondenpuzzel-met-traktatiedispenser---interactief-voerspeelgoed-voor-mentale-stimulatie",
-    pageUrl: 'produits/roze-hondenpuzzel-met-traktatiedispenser---interactief-voerspeelgoed-voor-mentale-stimulatie.html'
+    slug: "roze-hondenpuzzel-met-traktatiedispenser-interactief-voerspeelgoed-voor-mentale-stimulatie",
+    pageUrl: 'produits/roze-hondenpuzzel-met-traktatiedispenser-interactief-voerspeelgoed-voor-mentale-stimulatie.html'
   },
   {
     id: 380,
@@ -4177,8 +4177,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/slowfeeder-hondenbak-met-sterke-zuignappen-rollende-bal-likspeelgoed-voor-vloeibare-treats-makkelijk-schoon-te-maken-puppy-likspeeltje-voor-bouillon-yoghurt-en-kwark-blauw-gele-bal/9300000281052761/",
     brand: "Oemmn",
     description: "<p><strong> Ontworpen om verstikking bij snelle eters te voorkomen</strong><br /> Gemaakt van duurzaam materiaal. De precieze kanalen regelen de stroming van vloeibare traktaties en bouillon \u2013 stimule",
-    slug: "slowfeeder-hondenbak-met-sterke-zuignappen---rollende-bal-likspeelgoed-voor-vloeibare-treats---makkelijk-schoon-te-maken-puppy-likspeeltje-voor-bouillon-yoghurt-en-kwark---blauw--gele-bal",
-    pageUrl: 'produits/slowfeeder-hondenbak-met-sterke-zuignappen---rollende-bal-likspeelgoed-voor-vloeibare-treats---makkelijk-schoon-te-maken-puppy-likspeeltje-voor-bouillon-yoghurt-en-kwark---blauw--gele-bal.html'
+    slug: "slowfeeder-hondenbak-met-sterke-zuignappen-rollende-bal-likspeelgoed-voor-vloeibare-treats-makkelijk-schoon-te-maken-puppy-likspeeltje-voor-bouillon-yoghurt-en-kwark-blauw--gele-bal",
+    pageUrl: 'produits/slowfeeder-hondenbak-met-sterke-zuignappen-rollende-bal-likspeelgoed-voor-vloeibare-treats-makkelijk-schoon-te-maken-puppy-likspeeltje-voor-bouillon-yoghurt-en-kwark-blauw--gele-bal.html'
   },
   {
     id: 381,
@@ -4188,8 +4188,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/pharmahorse-glucopro-1000-gram/9300000007644000/",
     brand: "PharmaHorse",
     description: "PharmaHorse Glucopro voor paarden PharmaHorse Glucopro is een aanvullend diervoerder voor paarden, opgebouwd uit 6 grondstoffen. Het product bevat een uitgebalanceerde combinatie van glucosaminesulfaa",
-    slug: "pharmahorse-glucopro---1000-gram",
-    pageUrl: 'produits/pharmahorse-glucopro---1000-gram.html'
+    slug: "pharmahorse-glucopro-1000-gram",
+    pageUrl: 'produits/pharmahorse-glucopro-1000-gram.html'
   },
   {
     id: 382,
@@ -4243,8 +4243,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/4x-perfect-fit-sensitive-1-met-kalkoen-750g/9300000150073924/",
     brand: "Perfect Fit",
     description: "<p><strong>Perfect Fit Sensitive Kattenbrokken Kalkoen ondersteunt de gezondheid van jouw kat. </strong>Naast de unieke Perfect Fit Total 5 formule, die in alle kattenbrokken van Perfect Fit terugkomt",
-    slug: "perfect-fit-kattenbrokken---sensitive-adult---kalkoen---4x750g",
-    pageUrl: 'produits/perfect-fit-kattenbrokken---sensitive-adult---kalkoen---4x750g.html'
+    slug: "perfect-fit-kattenbrokken-sensitive-adult-kalkoen-4x750g",
+    pageUrl: 'produits/perfect-fit-kattenbrokken-sensitive-adult-kalkoen-4x750g.html'
   },
   {
     id: 387,
@@ -4265,8 +4265,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/spark-senior-hondenbrokken-light-dieetvoer-forel-met-zalm-zoete-aardappel-asperge-hypoallergeen-graanvrij-6kg/9300000233584464/",
     brand: "Spark",
     description: "<p><strong>Spark. Zuivere voeding, zonder concessies<br /></strong>Spark is opgericht met een doel: transparantie in de dierenvoedingsindustrie cre\u00ebren.</p> <ul> <li><strong>Hoog vleesgehalte</strong>",
-    slug: "spark---senior-hondenbrokken---light-dieetvoer---forel-met-zalm-zoete-aardappel--asperge---hypoallergeen---graanvrij---6kg",
-    pageUrl: 'produits/spark---senior-hondenbrokken---light-dieetvoer---forel-met-zalm-zoete-aardappel--asperge---hypoallergeen---graanvrij---6kg.html'
+    slug: "spark-senior-hondenbrokken-light-dieetvoer-forel-met-zalm-zoete-aardappel--asperge-hypoallergeen-graanvrij-6kg",
+    pageUrl: 'produits/spark-senior-hondenbrokken-light-dieetvoer-forel-met-zalm-zoete-aardappel--asperge-hypoallergeen-graanvrij-6kg.html'
   },
   {
     id: 389,
@@ -4276,8 +4276,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/naturis-versvlees-voeding-hond-rund-1000-gr/9200000085973568/",
     brand: "Naturis",
     description: "Naturis Rund 1000 grIdeaal voor rustige of te dikke honden. Deze soort is ook ideaal om de overstap naar vers vlees te maken. Naturis Versvlees Voeding diepgevroren, de naam zegt het al, wordt van ver",
-    slug: "naturis-rundvlees-diepgevroren---hondenvoer-zonder-granen---1000-gr-versvlees",
-    pageUrl: 'produits/naturis-rundvlees-diepgevroren---hondenvoer-zonder-granen---1000-gr-versvlees.html'
+    slug: "naturis-rundvlees-diepgevroren-hondenvoer-zonder-granen-1000-gr-versvlees",
+    pageUrl: 'produits/naturis-rundvlees-diepgevroren-hondenvoer-zonder-granen-1000-gr-versvlees.html'
   },
   {
     id: 390,
@@ -4287,8 +4287,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/bioresonantie-hondenbrokken-2-kg-hair-protect/9200000111535046/",
     brand: "Bioresonantie",
     description: "Bioresonantie Hair Protect is een volledig hondenvoer voor volwassen honden voor extra ondersteuning voor de huid en vacht.<br /><br />Gebruiksaanwijzing:<br />De hoeveelheden voer vermeld in de tabel",
-    slug: "bioresonantie-hondenbrokken---2-kg---hair-protect",
-    pageUrl: 'produits/bioresonantie-hondenbrokken---2-kg---hair-protect.html'
+    slug: "bioresonantie-hondenbrokken-2-kg-hair-protect",
+    pageUrl: 'produits/bioresonantie-hondenbrokken-2-kg-hair-protect.html'
   },
   {
     id: 391,
@@ -4298,8 +4298,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/mersjo-fresh-bite-hondensnack-prikkelbare-darm-13-5-cm-verfrissende-functie/9300000271182887/",
     brand: "Mersjo",
     description: "<p><strong>FRESH BITE BONE 5szt</strong> <strong>Zet van 5 functionele hondenkauwbotten met kwartel, munt, papaja en spirulina</strong> <strong>FRISSE SMAAK!</strong></p> <p><strong>Merk:</strong> Mer",
-    slug: "mersjo-fresh-bite---hondensnack---prikkelbare-darm---135-cm---verfrissende-functie",
-    pageUrl: 'produits/mersjo-fresh-bite---hondensnack---prikkelbare-darm---135-cm---verfrissende-functie.html'
+    slug: "mersjo-fresh-bite-hondensnack-prikkelbare-darm-135-cm-verfrissende-functie",
+    pageUrl: 'produits/mersjo-fresh-bite-hondensnack-prikkelbare-darm-135-cm-verfrissende-functie.html'
   },
   {
     id: 392,
@@ -4320,8 +4320,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/the-original-himalayan-yak-kauwbot-pindakaas-large-puur-fit/9300000262941323/",
     brand: "Puur Fit",
     description: "<p>The Original Yak is de enige echte Original Himalayan Yak kauwbot: een natuurlijke, voedzame en gezonde kauwsnack voor honden. De Yak\u2019s worden traditioneel gemaakt van jakmelk uit de Himalaya. De y",
-    slug: "the-original-himalayan-yak-kauwbot---pindakaas---large-puur-fit",
-    pageUrl: 'produits/the-original-himalayan-yak-kauwbot---pindakaas---large-puur-fit.html'
+    slug: "the-original-himalayan-yak-kauwbot-pindakaas-large-puur-fit",
+    pageUrl: 'produits/the-original-himalayan-yak-kauwbot-pindakaas-large-puur-fit.html'
   },
   {
     id: 394,
@@ -4342,8 +4342,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/eden-country-feast-hondenvoer-volwassen-honden-lam-eend-graanvrij-huid-vacht-ondersteuning/9300000191029612/",
     brand: "Eden",
     description: "<p>Verwen uw volwassen hond met de <strong>Eden Country Feast 2x2 kg</strong>, een hoogwaardige halfvochtige voeding die geschikt is voor honden van alle rassen. Deze graanvrije, glutenvrije en soja-v",
-    slug: "eden-country-feast---hondenvoer---volwassen-honden---lam--eend---graanvrij---huid--vacht-ondersteuning",
-    pageUrl: 'produits/eden-country-feast---hondenvoer---volwassen-honden---lam--eend---graanvrij---huid--vacht-ondersteuning.html'
+    slug: "eden-country-feast-hondenvoer-volwassen-honden-lam--eend-graanvrij-huid--vacht-ondersteuning",
+    pageUrl: 'produits/eden-country-feast-hondenvoer-volwassen-honden-lam--eend-graanvrij-huid--vacht-ondersteuning.html'
   },
   {
     id: 396,
@@ -4375,8 +4375,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/200-gr-petsnack-rundvlees-plat-kleine-stukjes-hondensnack/9300000244766244/",
     brand: "Petsnack",
     description: "Geef je hond waar hij \u00e9cht blij van wordt. Petsnack Rundvlees Platte stukjes. Deze premium hondensnack is gemaakt van puur gedroogd rundvlees, zonder kunstmatige toevoegingen, kleurstoffen of smaakver",
-    slug: "hondensnacks-petsnack---rundvlees-kleine-stukjes---gedroogd-200-gr",
-    pageUrl: 'produits/hondensnacks-petsnack---rundvlees-kleine-stukjes---gedroogd-200-gr.html'
+    slug: "hondensnacks-petsnack-rundvlees-kleine-stukjes-gedroogd-200-gr",
+    pageUrl: 'produits/hondensnacks-petsnack-rundvlees-kleine-stukjes-gedroogd-200-gr.html'
   },
   {
     id: 399,
@@ -4386,8 +4386,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/eukanuba-dog-adult-large-graanvrij-vis-12-kg/9300000071824724/",
     brand: "Eukanuba",
     description: "<h3>Eukanuba Adult Large Grain Free Zeevis \u2013 12 kg</h3> <p>Eukanuba Adult Large Grain Free met oceaanvis is een hoogwaardige, 100% gebalanceerde brokvoeding voor volwassen honden van grote en zeer gro",
-    slug: "eukanuba-adult-large-grain-free-zeevis---hondenvoer---12-kg",
-    pageUrl: 'produits/eukanuba-adult-large-grain-free-zeevis---hondenvoer---12-kg.html'
+    slug: "eukanuba-adult-large-grain-free-zeevis-hondenvoer-12-kg",
+    pageUrl: 'produits/eukanuba-adult-large-grain-free-zeevis-hondenvoer-12-kg.html'
   },
   {
     id: 400,
@@ -4397,8 +4397,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/yourdog-kroatische-herdershond-volwassen/9300000020615079/",
     brand: "Yourdog",
     description: "<p>Yourdog Kroatische herdershond zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren dit met zorgvuldig geselec",
-    slug: "hondenvoer-yourdog---kroatische-herdershond---buffel-en-kip-3kg-gezonde-voeding-zonder-kunstmatige-toevoegingen",
-    pageUrl: 'produits/hondenvoer-yourdog---kroatische-herdershond---buffel-en-kip-3kg-gezonde-voeding-zonder-kunstmatige-toevoegingen.html'
+    slug: "hondenvoer-yourdog-kroatische-herdershond-buffel-en-kip-3kg-gezonde-voeding-zonder-kunstmatige-toevoegingen",
+    pageUrl: 'produits/hondenvoer-yourdog-kroatische-herdershond-buffel-en-kip-3kg-gezonde-voeding-zonder-kunstmatige-toevoegingen.html'
   },
   {
     id: 401,
@@ -4408,8 +4408,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/advance-medium-senior-hondenvoer-12-kg/9200000125641902/",
     brand: "Advance",
     description: "<p> <strong>Advance Medium Senior 12 kg</strong><br />De Advance Medium Senior 12 kg is een compleet, gemakkelijk verteerbaar hondenvoer speciaal gemaakt voor oudere honden van middelgrote rassen.<br ",
-    slug: "advance---medium-senior-12-kg-hondenvoer",
-    pageUrl: 'produits/advance---medium-senior-12-kg-hondenvoer.html'
+    slug: "advance-medium-senior-12-kg-hondenvoer",
+    pageUrl: 'produits/advance-medium-senior-12-kg-hondenvoer.html'
   },
   {
     id: 402,
@@ -4419,8 +4419,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/kiwi-walker-hond-en-kat-snack-goose-liver-gevriesdroogd-100-natuurlijke-beloning-geen-additieven-120-gr/9300000244870136/",
     brand: "Kiwi Walker",
     description: "<p>Kiwi Walker gevriesdroogde traktaties met ganzenlever zijn gezonde, 100% natuurlijke traktaties voor honden en katten, die de smaak en voedingsstoffen behouden zonder conserveringsmiddelen.</p> <p>",
-    slug: "kiwi-walker---hond-en-kat-snack---goose-liver---gevriesdroogd---100-natuurlijke-beloning---g\u00e9\u00e9n-additieven---120-gr",
-    pageUrl: 'produits/kiwi-walker---hond-en-kat-snack---goose-liver---gevriesdroogd---100-natuurlijke-beloning---géén-additieven---120-gr.html'
+    slug: "kiwi-walker-hond-en-kat-snack-goose-liver-gevriesdroogd-100-natuurlijke-beloning-g\u00e9\u00e9n-additieven-120-gr",
+    pageUrl: 'produits/kiwi-walker-hond-en-kat-snack-goose-liver-gevriesdroogd-100-natuurlijke-beloning-géén-additieven-120-gr.html'
   },
   {
     id: 403,
@@ -4452,8 +4452,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/perfect-fit-indoor-adult-1-brokjes-kip-kattenvoer-3-x-750g/9200000112981876/",
     brand: "Perfect Fit",
     description: "<p>   Perfect Fit is hoogwaardige kattenvoeding die samen met vooraanstaande dierenartsen en voedingsdeskundigen is ontwikkeld. De unieke \u2018Total 5\u2019 formule pakt de 5 meest voorkomende gezondheidsbehoe",
-    slug: "perfect-fit-indoor-adult-1-brokjes---kip---kattenvoer---3-x-750g",
-    pageUrl: 'produits/perfect-fit-indoor-adult-1-brokjes---kip---kattenvoer---3-x-750g.html'
+    slug: "perfect-fit-indoor-adult-1-brokjes-kip-kattenvoer-3-x-750g",
+    pageUrl: 'produits/perfect-fit-indoor-adult-1-brokjes-kip-kattenvoer-3-x-750g.html'
   },
   {
     id: 406,
@@ -4463,8 +4463,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/mersjo-kattensnack-mini-sushi-met-eend-en-kabeljauw-50g-graanvrij/9300000271182694/",
     brand: "Mersjo",
     description: "<p><strong>MERSJO natuurlijke kattensnacks en kleine hondensnacks sushi EEND MET KABELJAUW 50g</strong></p> <p>Wanneer je natuurlijke snacks van MERSJO koopt, weet je zeker dat je de gezondste snacks ",
-    slug: "mersjo---kattensnack---mini-sushi-met-eend-en-kabeljauw---50g---graanvrij",
-    pageUrl: 'produits/mersjo---kattensnack---mini-sushi-met-eend-en-kabeljauw---50g---graanvrij.html'
+    slug: "mersjo-kattensnack-mini-sushi-met-eend-en-kabeljauw-50g-graanvrij",
+    pageUrl: 'produits/mersjo-kattensnack-mini-sushi-met-eend-en-kabeljauw-50g-graanvrij.html'
   },
   {
     id: 407,
@@ -4474,8 +4474,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/kussies-kussen-40-cm-met-wasbare-hoes-mandala-donkerblauw-wit-hondenkussen-kattenkussen-donut-ronde-kattenmand-kat-puppy-dierenkussen-zachte/9300000164733999/",
     brand: "KUSSIES",
     description: "<p> In 34 kleuren! Tijdelijk met <strong>GRATIS</strong> beloningstasje voor aan je riem en sticker!<br /><br />Heerlijk zachte en comfortabele honden- of kattenmand met afneembare en wasbare hoes. Jo",
-    slug: "kussies-kussen-40-cm-met-wasbare-hoes---mandala-donkerblauw-wit---hondenkussen-kattenkussen---donut-ronde-kattenmand-kat-puppy-dierenkussen-zachte",
-    pageUrl: 'produits/kussies-kussen-40-cm-met-wasbare-hoes---mandala-donkerblauw-wit---hondenkussen-kattenkussen---donut-ronde-kattenmand-kat-puppy-dierenkussen-zachte.html'
+    slug: "kussies-kussen-40-cm-met-wasbare-hoes-mandala-donkerblauw-wit-hondenkussen-kattenkussen-donut-ronde-kattenmand-kat-puppy-dierenkussen-zachte",
+    pageUrl: 'produits/kussies-kussen-40-cm-met-wasbare-hoes-mandala-donkerblauw-wit-hondenkussen-kattenkussen-donut-ronde-kattenmand-kat-puppy-dierenkussen-zachte.html'
   },
   {
     id: 408,
@@ -4485,8 +4485,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/kussies-kussen-40-cm-met-wasbare-hoes-mandala-ibiza-wit-blauw-hondenkussen-kattenkussen-donut-ronde-kattenmand-kat-puppy-dierenkussen-fluffy/9300000164733988/",
     brand: "KUSSIES",
     description: "<p> In 34 kleuren! Tijdelijk met <strong>GRATIS</strong> beloningstasje voor aan je riem en sticker!<br /><br />Heerlijk zachte en comfortabele honden- of kattenmand met afneembare en wasbare hoes. Jo",
-    slug: "kussies-kussen-40-cm-met-wasbare-hoes---mandala-ibiza-wit-blauw---hondenkussen-kattenkussen---donut-ronde-kattenmand-kat-puppy-dierenkussen-fluffy",
-    pageUrl: 'produits/kussies-kussen-40-cm-met-wasbare-hoes---mandala-ibiza-wit-blauw---hondenkussen-kattenkussen---donut-ronde-kattenmand-kat-puppy-dierenkussen-fluffy.html'
+    slug: "kussies-kussen-40-cm-met-wasbare-hoes-mandala-ibiza-wit-blauw-hondenkussen-kattenkussen-donut-ronde-kattenmand-kat-puppy-dierenkussen-fluffy",
+    pageUrl: 'produits/kussies-kussen-40-cm-met-wasbare-hoes-mandala-ibiza-wit-blauw-hondenkussen-kattenkussen-donut-ronde-kattenmand-kat-puppy-dierenkussen-fluffy.html'
   },
   {
     id: 409,
@@ -4496,8 +4496,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/koelmat-voor-huisdieren-zelfkoelend-en-wasbaar-voor-honden-en-katten-formaat-60-50cm-grijs-1-stuk/9300000260934599/",
     brand: "Merkloos / Sans marque",
     description: "Koelmat voor Huisdieren - Zelfkoelend en Wasbaar - Voor Honden en Katten - Bol.com Koelmat voor Huisdieren - Zelfkoelend en Wasbaar - Voor Honden en Katten (Groot en Klein) - Formaat 60\u00d750cm - Grijs -",
-    slug: "koelmat-voor-huisdieren---zelfkoelend-en-wasbaar---voor-honden-en-katten-groot-en-klein---formaat-6050cm---grijs---1-stuk",
-    pageUrl: 'produits/koelmat-voor-huisdieren---zelfkoelend-en-wasbaar---voor-honden-en-katten-groot-en-klein---formaat-6050cm---grijs---1-stuk.html'
+    slug: "koelmat-voor-huisdieren-zelfkoelend-en-wasbaar-voor-honden-en-katten-groot-en-klein-formaat-6050cm-grijs-1-stuk",
+    pageUrl: 'produits/koelmat-voor-huisdieren-zelfkoelend-en-wasbaar-voor-honden-en-katten-groot-en-klein-formaat-6050cm-grijs-1-stuk.html'
   },
   {
     id: 410,
@@ -4518,8 +4518,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/growl-cuddlerz-hondenspeeltje-met-5-piepers-pluche-hondenspeelgoed-kauwspeelgoed-en-trektouw-voor-alle-honden-chewy-de-koe/9300000250261750/",
     brand: "Growl",
     description: "<p><strong>Laat je hond eindeloos plezier beleven met dit vrolijke en stevige hondenspeeltje! </strong></p> <p>Dit zachte en stevige hondenspeeltje zorgt voor afwisseling en blijvend speelplezier voor",
-    slug: "growl-cuddlerz-hondenspeeltje-met-5-piepers---pluche-hondenspeelgoed---kauwspeelgoed-en-trektouw-voor-alle-honden---chewy-de-koe",
-    pageUrl: 'produits/growl-cuddlerz-hondenspeeltje-met-5-piepers---pluche-hondenspeelgoed---kauwspeelgoed-en-trektouw-voor-alle-honden---chewy-de-koe.html'
+    slug: "growl-cuddlerz-hondenspeeltje-met-5-piepers-pluche-hondenspeelgoed-kauwspeelgoed-en-trektouw-voor-alle-honden-chewy-de-koe",
+    pageUrl: 'produits/growl-cuddlerz-hondenspeeltje-met-5-piepers-pluche-hondenspeelgoed-kauwspeelgoed-en-trektouw-voor-alle-honden-chewy-de-koe.html'
   },
   {
     id: 412,
@@ -4529,8 +4529,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/interactief-hondenspeelgoed-slimme-bewegende-bal-voor-honden-met-afstandsbediening-oplaadbaar-automatisch-stuiterende-roterende-bal-voor-kleine-en-middelgrote-honden-oranje/9300000268030960/",
     brand: "OBOSOE",
     description: "<p>Deze interactieve bal wordt geleverd met een afstandsbediening. Met de afstandsbediening kunt u de bal aan- en uitzetten en schakelen tussen vier standen.</p> <p>Veilig materiaal: hondenballen van ",
-    slug: "interactief-hondenspeelgoed---slimme-bewegende-bal-voor-honden---met-afstandsbediening---oplaadbaar---automatisch-stuiterende-roterende-bal-voor-kleine-en-middelgrote-honden-oranje",
-    pageUrl: 'produits/interactief-hondenspeelgoed---slimme-bewegende-bal-voor-honden---met-afstandsbediening---oplaadbaar---automatisch-stuiterende-roterende-bal-voor-kleine-en-middelgrote-honden-oranje.html'
+    slug: "interactief-hondenspeelgoed-slimme-bewegende-bal-voor-honden-met-afstandsbediening-oplaadbaar-automatisch-stuiterende-roterende-bal-voor-kleine-en-middelgrote-honden-oranje",
+    pageUrl: 'produits/interactief-hondenspeelgoed-slimme-bewegende-bal-voor-honden-met-afstandsbediening-oplaadbaar-automatisch-stuiterende-roterende-bal-voor-kleine-en-middelgrote-honden-oranje.html'
   },
   {
     id: 413,
@@ -4540,8 +4540,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/6-stuks-honden-squeaky-speelgoed-van-latex-zachte-rubber-chew-toys-en-speelballen-voor-actieve-honden/9300000276149150/",
     brand: "Merkloos / Sans marque",
     description: "Honden Squeaky Speelgoed Laat je hond genieten van eindeloos speelplezier met deze set van 6 stuks honden squeaky speelgoed. Deze kleurrijke en vrolijke speeltjes zijn ontworpen om je trouwe viervoete",
-    slug: "6-stuks-honden-squeaky-speelgoed-van-latex---zachte-rubber-chew-toys-en-speelballen-voor-actieve-honden",
-    pageUrl: 'produits/6-stuks-honden-squeaky-speelgoed-van-latex---zachte-rubber-chew-toys-en-speelballen-voor-actieve-honden.html'
+    slug: "6-stuks-honden-squeaky-speelgoed-van-latex-zachte-rubber-chew-toys-en-speelballen-voor-actieve-honden",
+    pageUrl: 'produits/6-stuks-honden-squeaky-speelgoed-van-latex-zachte-rubber-chew-toys-en-speelballen-voor-actieve-honden.html'
   },
   {
     id: 414,
@@ -4562,8 +4562,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/pino-sandstone-hondenvoerbak-slowfeeder-terracotta-large-21cm-1700ml/9300000265632810/",
     brand: "PINO",
     description: "<p>Eet jouw hond zijn maaltijd in enkele seconden op? Moet je na elke maaltijd de vloer dweilen? Of zie je hem overgeven of smeken om meer? Te snel eten is een veelvoorkomend probleem bij honden. Het ",
-    slug: "pino-sandstone-hondenvoerbak-slowfeeder-anti-schrok---terracotta-salmon-terra---large-21cm---1700ml",
-    pageUrl: 'produits/pino-sandstone-hondenvoerbak-slowfeeder-anti-schrok---terracotta-salmon-terra---large-21cm---1700ml.html'
+    slug: "pino-sandstone-hondenvoerbak-slowfeeder-anti-schrok-terracotta-salmon-terra-large-21cm-1700ml",
+    pageUrl: 'produits/pino-sandstone-hondenvoerbak-slowfeeder-anti-schrok-terracotta-salmon-terra-large-21cm-1700ml.html'
   },
   {
     id: 416,
@@ -4573,8 +4573,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/flamingo-hondensnack-nature-bullepees-65-cm-65-cm/9200000106695835/",
     brand: "Flamingo",
     description: "<p>Deze langwerpige hondensnack is gemaakt van 100% natuurlijke producten wat het erg gezond maakt voor jouw hond. De snack bevat veel eiwitten en vocht en heeft een laag vetgehalte. Uitermate geschik",
-    slug: "flamingo-hondensnack-nature-bullepees-65-cm---65-cm",
-    pageUrl: 'produits/flamingo-hondensnack-nature-bullepees-65-cm---65-cm.html'
+    slug: "flamingo-hondensnack-nature-bullepees-65-cm-65-cm",
+    pageUrl: 'produits/flamingo-hondensnack-nature-bullepees-65-cm-65-cm.html'
   },
   {
     id: 417,
@@ -4595,8 +4595,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/beeztees-kauwsticks-met-kip-hondensnack-kauwsnack-voordeelverpakking-28-stuks-15-cm/9300000270776207/",
     brand: "Beeztees",
     description: "<p>Met de Beeztees Kauwsticks met Kipsmaak geef je jouw hond een heerlijke en verantwoorde snack. Ze bevatten geen toegevoegde smaak- of kleurstoffen en geen suikers. De combinatie van runderhuid en k",
-    slug: "beeztees-kauwsticks-met-kip---hondensnack---kauwsnack---voordeelverpakking---28-stuks---15-cm",
-    pageUrl: 'produits/beeztees-kauwsticks-met-kip---hondensnack---kauwsnack---voordeelverpakking---28-stuks---15-cm.html'
+    slug: "beeztees-kauwsticks-met-kip-hondensnack-kauwsnack-voordeelverpakking-28-stuks-15-cm",
+    pageUrl: 'produits/beeztees-kauwsticks-met-kip-hondensnack-kauwsnack-voordeelverpakking-28-stuks-15-cm.html'
   },
   {
     id: 419,
@@ -4606,8 +4606,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/natuurlijk-gedroogde-runderpens-voor-honden-1-kg-kauwartikel-voor-kleine-en-grote-honden/9300000249787927/",
     brand: "Merkloos / Sans marque",
     description: "Dit natuurlijk gedroogde runderpens is een ideaal kauwartikel voor zowel kleine als grote honden. Het versterkt de tanden en is rijk aan vitamines, waardoor het een gezond tussendoortje vormt. Onze pr",
-    slug: "natuurlijk-gedroogde-runderpens-voor-honden---1-kg-kauwartikel-voor-kleine-en-grote-honden",
-    pageUrl: 'produits/natuurlijk-gedroogde-runderpens-voor-honden---1-kg-kauwartikel-voor-kleine-en-grote-honden.html'
+    slug: "natuurlijk-gedroogde-runderpens-voor-honden-1-kg-kauwartikel-voor-kleine-en-grote-honden",
+    pageUrl: 'produits/natuurlijk-gedroogde-runderpens-voor-honden-1-kg-kauwartikel-voor-kleine-en-grote-honden.html'
   },
   {
     id: 420,
@@ -4617,8 +4617,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/interactief-hondenspeelgoed-elektrische-bal-actieve-hond-vogelgeluiden-6-x-6-x-5-5-cm-oranje/9300000269836364/",
     brand: "Merkloos / Sans marque",
     description: "Laat uw hond de ster van de show zijn met dit boeiende interactieve speelgoed! Dit is niet zomaar een bal; het is een bron van eindeloos vermaak en mentale stimulatie voor uw trouwe viervoeter. Zeg va",
-    slug: "interactief-hondenspeelgoed---elektrische-bal---actieve-hond---vogelgeluiden---6-x-6-x-55-cm---oranje",
-    pageUrl: 'produits/interactief-hondenspeelgoed---elektrische-bal---actieve-hond---vogelgeluiden---6-x-6-x-55-cm---oranje.html'
+    slug: "interactief-hondenspeelgoed-elektrische-bal-actieve-hond-vogelgeluiden-6-x-6-x-55-cm-oranje",
+    pageUrl: 'produits/interactief-hondenspeelgoed-elektrische-bal-actieve-hond-vogelgeluiden-6-x-6-x-55-cm-oranje.html'
   },
   {
     id: 421,
@@ -4628,8 +4628,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/hondenspeelgoed-duurzaam-speelgoed-interactief-spel-onverwoestbaar-ontwerp-38-x-12-x-10-cm-groen/9300000269967817/",
     brand: "Merkloos / Sans marque",
     description: "Ontdek het ultieme speelmaatje voor uw trouwe viervoeter met dit onverwoestbare hondenspeelgoed, ontworpen voor eindeloos speelplezier en duurzame interactie. Dit stevige speeltje is de perfecte oplos",
-    slug: "hondenspeelgoed---duurzaam-speelgoed---interactief-spel---onverwoestbaar-ontwerp---38-x-12-x-10-cm---groen",
-    pageUrl: 'produits/hondenspeelgoed---duurzaam-speelgoed---interactief-spel---onverwoestbaar-ontwerp---38-x-12-x-10-cm---groen.html'
+    slug: "hondenspeelgoed-duurzaam-speelgoed-interactief-spel-onverwoestbaar-ontwerp-38-x-12-x-10-cm-groen",
+    pageUrl: 'produits/hondenspeelgoed-duurzaam-speelgoed-interactief-spel-onverwoestbaar-ontwerp-38-x-12-x-10-cm-groen.html'
   },
   {
     id: 422,
@@ -4639,8 +4639,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/honden-touw-speelgoed-interactief-kauwspeelgoed-tandverzorging-hond-duurzaam-katoen-materiaal-17cm-lengte-natuurlijk/9300000269955875/",
     brand: "Merkloos / Sans marque",
     description: "Verrijk het leven van uw trouwe viervoeter met dit stevige en veelzijdige honden touw speelgoed, ontworpen voor eindeloos speelplezier en actieve interactie. Dit speelgoed is de perfecte metgezel voor",
-    slug: "honden-touw-speelgoed---interactief-kauwspeelgoed---tandverzorging-hond---duurzaam-katoen-materiaal---17cm-lengte---natuurlijk",
-    pageUrl: 'produits/honden-touw-speelgoed---interactief-kauwspeelgoed---tandverzorging-hond---duurzaam-katoen-materiaal---17cm-lengte---natuurlijk.html'
+    slug: "honden-touw-speelgoed-interactief-kauwspeelgoed-tandverzorging-hond-duurzaam-katoen-materiaal-17cm-lengte-natuurlijk",
+    pageUrl: 'produits/honden-touw-speelgoed-interactief-kauwspeelgoed-tandverzorging-hond-duurzaam-katoen-materiaal-17cm-lengte-natuurlijk.html'
   },
   {
     id: 423,
@@ -4650,8 +4650,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/pluche-hondenspeelgoed-interactief-hondenspeelgoed-puzzel-mentale-stimulatie-hond-met-ritselpapier-en-pieper-22-cm-pompoen/9300000285210039/",
     brand: "Merkloos / Sans marque",
     description: "Verrijk de dag van je trouwe viervoeter met dit interactieve pluche hondenspeelgoed, speciaal ontworpen om verveling tegen te gaan en de geest actief te houden. Dit speelgoed biedt een slimme oplossin",
-    slug: "pluche-hondenspeelgoed---interactief-hondenspeelgoed-puzzel---mentale-stimulatie-hond---met-ritselpapier-en-pieper---22-cm---pompoen",
-    pageUrl: 'produits/pluche-hondenspeelgoed---interactief-hondenspeelgoed-puzzel---mentale-stimulatie-hond---met-ritselpapier-en-pieper---22-cm---pompoen.html'
+    slug: "pluche-hondenspeelgoed-interactief-hondenspeelgoed-puzzel-mentale-stimulatie-hond-met-ritselpapier-en-pieper-22-cm-pompoen",
+    pageUrl: 'produits/pluche-hondenspeelgoed-interactief-hondenspeelgoed-puzzel-mentale-stimulatie-hond-met-ritselpapier-en-pieper-22-cm-pompoen.html'
   },
   {
     id: 424,
@@ -4661,8 +4661,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/hondenspeelgoed-kauwspeelgoed-puppy-tandjes-wisselen-met-knetterend-geluid-198-x-112-x-68-cm-meerkleurig/9300000285251086/",
     brand: "Merkloos / Sans marque",
     description: "Vermaak je trouwe viervoeter met dit interactieve hondenspeelgoed, speciaal ontworpen om verveling tegen te gaan en te voldoen aan de natuurlijke kauwbehoeften. Dit speelgoed is de ideale oplossing om",
-    slug: "hondenspeelgoed---kauwspeelgoed-puppy---tandjes-wisselen---met-knetterend-geluid---198-x-112-x-68-cm---meerkleurig",
-    pageUrl: 'produits/hondenspeelgoed---kauwspeelgoed-puppy---tandjes-wisselen---met-knetterend-geluid---198-x-112-x-68-cm---meerkleurig.html'
+    slug: "hondenspeelgoed-kauwspeelgoed-puppy-tandjes-wisselen-met-knetterend-geluid-198-x-112-x-68-cm-meerkleurig",
+    pageUrl: 'produits/hondenspeelgoed-kauwspeelgoed-puppy-tandjes-wisselen-met-knetterend-geluid-198-x-112-x-68-cm-meerkleurig.html'
   },
   {
     id: 425,
@@ -4672,8 +4672,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/katoenen-touwbot-honden-speelgoed-tanden-reinigen-natuurlijke-materialen-75-x-21-cm-meerkleurig/9300000271602033/",
     brand: "Merkloos / Sans marque",
     description: "Verrijk de speeltijd van uw trouwe viervoeter met dit duurzame en natuurlijke katoenen touwbot, speciaal ontworpen voor urenlang speelplezier en tandverzorging. Dit unieke speeltje is vervaardigd uit ",
-    slug: "katoenen-touwbot---honden-speelgoed---tanden-reinigen---natuurlijke-materialen---75-x-21-cm---meerkleurig",
-    pageUrl: 'produits/katoenen-touwbot---honden-speelgoed---tanden-reinigen---natuurlijke-materialen---75-x-21-cm---meerkleurig.html'
+    slug: "katoenen-touwbot-honden-speelgoed-tanden-reinigen-natuurlijke-materialen-75-x-21-cm-meerkleurig",
+    pageUrl: 'produits/katoenen-touwbot-honden-speelgoed-tanden-reinigen-natuurlijke-materialen-75-x-21-cm-meerkleurig.html'
   },
   {
     id: 426,
@@ -4683,8 +4683,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/natuurlijke-kauwsnacks-voor-honden-en-puppy-s-eiwitrijke-rake-kaas-met-himalaya-botten/9300000250274024/",
     brand: "Merkloos / Sans marque",
     description: "Deze kauwsnacks zijn een eiwitrijke traktatie vol belangrijke aminozuren die de spiergroei en de algehele gezondheid van je hond ondersteunen. Door de speciale samenstelling helpen ze ook bij de mondh",
-    slug: "natuurlijke-kauwsnacks-voor-honden-en-puppys---eiwitrijke-rake-kaas-met-himalaya-botten-xl-3-stuks",
-    pageUrl: 'produits/natuurlijke-kauwsnacks-voor-honden-en-puppys---eiwitrijke-rake-kaas-met-himalaya-botten-xl-3-stuks.html'
+    slug: "natuurlijke-kauwsnacks-voor-honden-en-puppys-eiwitrijke-rake-kaas-met-himalaya-botten-xl-3-stuks",
+    pageUrl: 'produits/natuurlijke-kauwsnacks-voor-honden-en-puppys-eiwitrijke-rake-kaas-met-himalaya-botten-xl-3-stuks.html'
   },
   {
     id: 427,
@@ -4694,8 +4694,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/hondenspeelgoed-octopus-piepend-pluche-interactief-spelen-elastische-poten-23x11x23-cm-blauw/9300000269894188/",
     brand: "Merkloos / Sans marque",
     description: "Zorg voor urenlang speelplezier en mentale stimulatie voor uw trouwe viervoeter met dit interactieve pluche hondenspeelgoed. Dit unieke octopusvormige speeltje is ontworpen om de natuurlijke speeldran",
-    slug: "hondenspeelgoed-octopus---piepend-pluche---interactief-spelen---elastische-poten---23x11x23-cm---blauw",
-    pageUrl: 'produits/hondenspeelgoed-octopus---piepend-pluche---interactief-spelen---elastische-poten---23x11x23-cm---blauw.html'
+    slug: "hondenspeelgoed-octopus-piepend-pluche-interactief-spelen-elastische-poten-23x11x23-cm-blauw",
+    pageUrl: 'produits/hondenspeelgoed-octopus-piepend-pluche-interactief-spelen-elastische-poten-23x11x23-cm-blauw.html'
   },
   {
     id: 428,
@@ -4705,8 +4705,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/hondenspeelgoed-pluche-kauwspeelgoed-bijtring-interactief-spelen-met-piepfunctie-30-x-20-cm-olifant/9300000269966890/",
     brand: "Merkloos / Sans marque",
     description: "Laat uw trouwe viervoeter genieten van eindeloos speelplezier met dit robuuste en interactieve pluche hondenspeelgoed, speciaal ontworpen om de natuurlijke speelbehoeften van uw hond te bevredigen en ",
-    slug: "hondenspeelgoed-pluche---kauwspeelgoed-bijtring---interactief-spelen---met-piepfunctie---30-x-20-cm---olifant",
-    pageUrl: 'produits/hondenspeelgoed-pluche---kauwspeelgoed-bijtring---interactief-spelen---met-piepfunctie---30-x-20-cm---olifant.html'
+    slug: "hondenspeelgoed-pluche-kauwspeelgoed-bijtring-interactief-spelen-met-piepfunctie-30-x-20-cm-olifant",
+    pageUrl: 'produits/hondenspeelgoed-pluche-kauwspeelgoed-bijtring-interactief-spelen-met-piepfunctie-30-x-20-cm-olifant.html'
   },
   {
     id: 429,
@@ -4716,8 +4716,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/honden-bijtring-touw-speelgoed-tanden-reinigen-officieel-gelicentieerd-9-5x30-0x9-5-cm-hello-kitty/9300000271637057/",
     brand: "Merkloos / Sans marque",
     description: "Ontdek het ultieme speelgoed voor uw trouwe viervoeter met deze unieke hondenbijtring, ontworpen voor eindeloos kauwplezier en optimale mondhygi\u00ebne. Bent u op zoek naar een duurzaam en aantrekkelijk s",
-    slug: "honden-bijtring---touw-speelgoed---tanden-reinigen---officieel-gelicentieerd---95x300x95-cm---hello-kitty",
-    pageUrl: 'produits/honden-bijtring---touw-speelgoed---tanden-reinigen---officieel-gelicentieerd---95x300x95-cm---hello-kitty.html'
+    slug: "honden-bijtring-touw-speelgoed-tanden-reinigen-officieel-gelicentieerd-95x300x95-cm-hello-kitty",
+    pageUrl: 'produits/honden-bijtring-touw-speelgoed-tanden-reinigen-officieel-gelicentieerd-95x300x95-cm-hello-kitty.html'
   },
   {
     id: 430,
@@ -4727,8 +4727,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/honden-speeltouw-kauwspeelgoed-hond-tanden-reinigen-extra-stevig-ontwerp-32-cm-lengte/9300000269964754/",
     brand: "Merkloos / Sans marque",
     description: "Verrijk de speelmomenten van uw trouwe viervoeter met dit extra stevige hondenspeeltouw, speciaal ontworpen voor de meest enthousiaste kauwers en trekkers. Dit robuuste touwspeelgoed is niet zomaar ee",
-    slug: "honden-speeltouw---kauwspeelgoed-hond---tanden-reinigen---extra-stevig-ontwerp---32-cm-lengte",
-    pageUrl: 'produits/honden-speeltouw---kauwspeelgoed-hond---tanden-reinigen---extra-stevig-ontwerp---32-cm-lengte.html'
+    slug: "honden-speeltouw-kauwspeelgoed-hond-tanden-reinigen-extra-stevig-ontwerp-32-cm-lengte",
+    pageUrl: 'produits/honden-speeltouw-kauwspeelgoed-hond-tanden-reinigen-extra-stevig-ontwerp-32-cm-lengte.html'
   },
   {
     id: 431,
@@ -4738,8 +4738,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/huisdier-wortelspeelgoed-kauwstok-belletje-kalmerend-spel-interactief-kauwmateriaal-24x3x3-cm/9300000270020127/",
     brand: "Merkloos / Sans marque",
     description: "Ontdek het ultieme plezier voor uw trouwe viervoeter met dit unieke wortelspeeltje, ontworpen om zowel honden als katten urenlang bezig te houden. Dit interactieve speelgoed is niet zomaar een speeltj",
-    slug: "huisdier-wortelspeelgoed---kauwstok-belletje---kalmerend-spel---interactief-kauwmateriaal---24x3x3-cm",
-    pageUrl: 'produits/huisdier-wortelspeelgoed---kauwstok-belletje---kalmerend-spel---interactief-kauwmateriaal---24x3x3-cm.html'
+    slug: "huisdier-wortelspeelgoed-kauwstok-belletje-kalmerend-spel-interactief-kauwmateriaal-24x3x3-cm",
+    pageUrl: 'produits/huisdier-wortelspeelgoed-kauwstok-belletje-kalmerend-spel-interactief-kauwmateriaal-24x3x3-cm.html'
   },
   {
     id: 432,
@@ -4749,8 +4749,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/honden-speelgoed-interactief-speelgoed-verrijking-huisdier-met-piep-functie-28x6x19-cm-grijs/9300000271086308/",
     brand: "Merkloos / Sans marque",
     description: "Ontdek het ultieme interactieve speelgoed dat speciaal is ontworpen om de geest en het lichaam van uw hond te stimuleren, waardoor verveling wordt bestreden en urenlang speelplezier wordt gegarandeerd",
-    slug: "honden-speelgoed---interactief-speelgoed---verrijking-huisdier---met-piep-functie---28x6x19-cm---grijs",
-    pageUrl: 'produits/honden-speelgoed---interactief-speelgoed---verrijking-huisdier---met-piep-functie---28x6x19-cm---grijs.html'
+    slug: "honden-speelgoed-interactief-speelgoed-verrijking-huisdier-met-piep-functie-28x6x19-cm-grijs",
+    pageUrl: 'produits/honden-speelgoed-interactief-speelgoed-verrijking-huisdier-met-piep-functie-28x6x19-cm-grijs.html'
   },
   {
     id: 433,
@@ -4760,8 +4760,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/hondenspeeltouw-met-piep-kauwspeelgoed-interactief-spel-tegen-verveling-robuuste-katoenen-constructie-90-x-7-cm-haai/9300000269965307/",
     brand: "Merkloos / Sans marque",
     description: "Stimuleer de vitaliteit en geestelijke scherpte van uw trouwe viervoeter met dit stevige hondenspeeltouw, ontworpen voor eindeloos speelplezier en interactie. Dit speeltouw is niet zomaar een accessoi",
-    slug: "hondenspeeltouw-met-piep---kauwspeelgoed-interactief---spel-tegen-verveling---robuuste-katoenen-constructie---90-x-7-cm---haai",
-    pageUrl: 'produits/hondenspeeltouw-met-piep---kauwspeelgoed-interactief---spel-tegen-verveling---robuuste-katoenen-constructie---90-x-7-cm---haai.html'
+    slug: "hondenspeeltouw-met-piep-kauwspeelgoed-interactief-spel-tegen-verveling-robuuste-katoenen-constructie-90-x-7-cm-haai",
+    pageUrl: 'produits/hondenspeeltouw-met-piep-kauwspeelgoed-interactief-spel-tegen-verveling-robuuste-katoenen-constructie-90-x-7-cm-haai.html'
   },
   {
     id: 434,
@@ -4771,8 +4771,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/wortel-hondenspeeltje-interactief-speelgoed-huisdier-verrijking-met-kalmerend-geluid-27-x-7-5-x-2-cm/9300000270041965/",
     brand: "Merkloos / Sans marque",
     description: "Ontdek het ultieme speelplezier voor uw trouwe viervoeter met dit unieke wortelvormige hondenspeeltje, speciaal ontworpen om urenlang vermaak te bieden en de zintuigen te prikkelen. Dit interactieve s",
-    slug: "wortel-hondenspeeltje---interactief-speelgoed---huisdier-verrijking---met-kalmerend-geluid---27-x-75-x-2-cm",
-    pageUrl: 'produits/wortel-hondenspeeltje---interactief-speelgoed---huisdier-verrijking---met-kalmerend-geluid---27-x-75-x-2-cm.html'
+    slug: "wortel-hondenspeeltje-interactief-speelgoed-huisdier-verrijking-met-kalmerend-geluid-27-x-75-x-2-cm",
+    pageUrl: 'produits/wortel-hondenspeeltje-interactief-speelgoed-huisdier-verrijking-met-kalmerend-geluid-27-x-75-x-2-cm.html'
   },
   {
     id: 435,
@@ -4782,8 +4782,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/honden-speelgoed-zacht-knuffel-interactief-spel-ingebouwde-pieper-18x7cm-blauw/9300000270806076/",
     brand: "Merkloos / Sans marque",
     description: "Verrijk de speelervaring van uw trouwe viervoeter met dit charmante en interactieve honden speelgoed, speciaal ontworpen om eindeloos vermaak te bieden. Dit speelse object is niet zomaar een speeltje;",
-    slug: "honden-speelgoed---zacht-knuffel---interactief-spel---ingebouwde-pieper---18x7cm---blauw",
-    pageUrl: 'produits/honden-speelgoed---zacht-knuffel---interactief-spel---ingebouwde-pieper---18x7cm---blauw.html'
+    slug: "honden-speelgoed-zacht-knuffel-interactief-spel-ingebouwde-pieper-18x7cm-blauw",
+    pageUrl: 'produits/honden-speelgoed-zacht-knuffel-interactief-spel-ingebouwde-pieper-18x7cm-blauw.html'
   },
   {
     id: 436,
@@ -4793,8 +4793,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/huisdier-stuiterbal-speelgoed-kauwspeelgoed-hond-interactieve-bal-actief-spel-stimuleren-bewegingsgeactiveerde-bel/9300000285223079/",
     brand: "Merkloos / Sans marque",
     description: "Houd uw hond actief en vermaakt met deze interactieve stuiterbal, speciaal ontworpen om verveling tegen te gaan en uw huisdier bezig te houden. Deze bal is de perfecte oplossing om de natuurlijke jach",
-    slug: "huisdier-stuiterbal-speelgoed---kauwspeelgoed-hond-interactieve-bal---actief-spel-stimuleren---bewegingsgeactiveerde-bel",
-    pageUrl: 'produits/huisdier-stuiterbal-speelgoed---kauwspeelgoed-hond-interactieve-bal---actief-spel-stimuleren---bewegingsgeactiveerde-bel.html'
+    slug: "huisdier-stuiterbal-speelgoed-kauwspeelgoed-hond-interactieve-bal-actief-spel-stimuleren-bewegingsgeactiveerde-bel",
+    pageUrl: 'produits/huisdier-stuiterbal-speelgoed-kauwspeelgoed-hond-interactieve-bal-actief-spel-stimuleren-bewegingsgeactiveerde-bel.html'
   },
   {
     id: 437,
@@ -4804,8 +4804,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/brit-vitamins-probiotic-150-g/9300000240931318/",
     brand: "Brit",
     description: "Brit Vitamins Postbiotic is een supplement in de vorm van een halfzachte kauwtablet. Het is een postbiotisch, graanvrij product voor een goede darmwerking een een gezonde darmflora. Met de Postbiotic ",
-    slug: "brit-vitamins-probiotic---150-g",
-    pageUrl: 'produits/brit-vitamins-probiotic---150-g.html'
+    slug: "brit-vitamins-probiotic-150-g",
+    pageUrl: 'produits/brit-vitamins-probiotic-150-g.html'
   },
   {
     id: 438,
@@ -4815,8 +4815,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/yourdog-kleine-munsterlander-pup-hondenvoer-12-kg/9300000018359259/",
     brand: "Yourdog",
     description: "<p>Yourdog Kleine m\u00fcnsterlander zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren dit met zorgvuldig geselecte",
-    slug: "yourdog---kleine-m\u00fcnsterlander-pup---hondenvoer---12-kg",
-    pageUrl: 'produits/yourdog---kleine-münsterlander-pup---hondenvoer---12-kg.html'
+    slug: "yourdog-kleine-m\u00fcnsterlander-pup-hondenvoer-12-kg",
+    pageUrl: 'produits/yourdog-kleine-münsterlander-pup-hondenvoer-12-kg.html'
   },
   {
     id: 439,
@@ -4826,8 +4826,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/duvo-garden-bites-triple-vegan-sticks-xl-25cm-3-stuks/9300000237897029/",
     brand: "Duvo",
     description: "<p>De <strong>Duvo+ Garden Bites triple vegan sticks XL 25CM - 3 stuks</strong> zijn smakelijke, volledig plantaardige hondensnacks die gebitsverzorging combineren met voedzame ingredi\u00ebnten. Met 55% z",
-    slug: "duvo-garden-bites-triple-vegan-sticks-xl-25cm---3-stuks",
-    pageUrl: 'produits/duvo-garden-bites-triple-vegan-sticks-xl-25cm---3-stuks.html'
+    slug: "duvo-garden-bites-triple-vegan-sticks-xl-25cm-3-stuks",
+    pageUrl: 'produits/duvo-garden-bites-triple-vegan-sticks-xl-25cm-3-stuks.html'
   },
   {
     id: 440,
@@ -4859,8 +4859,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/imby-dental-sticks-hondensnacks-5-x-100-gr-hondensnoepjes-met-munt-en-peterselie-kauwstaafjes-hond-kauwsnacks-voor-hond-hypoallergeen-100g/9300000194594886/",
     brand: "Imby",
     description: "<h3>Plantaardige Dental Sticks voor Honden - Tandverzorging met Munt en Peterselie</h3> <h3>Belangrijkste Voordelen van Plantaardige Dental Sticks</h3> <ul> <li><strong>Ontwikkeld door Dierenartsen:</",
-    slug: "imby-dental-sticks-hondensnacks---5-x-100-gr---hondensnoepjes-met-munt-en-peterselie---kauwstaafjes-hond---kauwsnacks-voor-hond---hypoallergeen---500gr",
-    pageUrl: 'produits/imby-dental-sticks-hondensnacks---5-x-100-gr---hondensnoepjes-met-munt-en-peterselie---kauwstaafjes-hond---kauwsnacks-voor-hond---hypoallergeen---500gr.html'
+    slug: "imby-dental-sticks-hondensnacks-5-x-100-gr-hondensnoepjes-met-munt-en-peterselie-kauwstaafjes-hond-kauwsnacks-voor-hond-hypoallergeen-500gr",
+    pageUrl: 'produits/imby-dental-sticks-hondensnacks-5-x-100-gr-hondensnoepjes-met-munt-en-peterselie-kauwstaafjes-hond-kauwsnacks-voor-hond-hypoallergeen-500gr.html'
   },
   {
     id: 443,
@@ -4870,8 +4870,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/oswalt-runder-luchtpijp-hondensnack-rund-1kg/9300000171706850/",
     brand: "Oswalt",
     description: "<p>Ontdek de onweerstaanbare traktatie voor jouw trouwe viervoeter - onze hoogwaardige runder luchtpijp hondensnack van Oswalt! Deze smakelijke traktatie is niet alleen een genot voor de smaakpapillen",
-    slug: "oswalt-runder-luchtpijp---hondensnack---rund---1kg",
-    pageUrl: 'produits/oswalt-runder-luchtpijp---hondensnack---rund---1kg.html'
+    slug: "oswalt-runder-luchtpijp-hondensnack-rund-1kg",
+    pageUrl: 'produits/oswalt-runder-luchtpijp-hondensnack-rund-1kg.html'
   },
   {
     id: 444,
@@ -4903,8 +4903,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/geperste-staaf/9300000227013798/",
     brand: "Zoolekker",
     description: "<p><strong>Geperste Staaf \u00d820 mm</strong> is een stevige hondensnack van 100% buffelhuid. Deze natuurlijke kauwstaaf is ideaal voor honden die graag kauwen en zorgt voor langdurig kauwplezier. Door he",
-    slug: "zoolekker-geperste-buffelhuid-staaf-\u00f820-mm-80-90-g---hondensnack-per-4-stuks",
-    pageUrl: 'produits/zoolekker-geperste-buffelhuid-staaf-ø20-mm-80-90-g---hondensnack-per-4-stuks.html'
+    slug: "zoolekker-geperste-buffelhuid-staaf-\u00f820-mm-80-90-g-hondensnack-per-4-stuks",
+    pageUrl: 'produits/zoolekker-geperste-buffelhuid-staaf-ø20-mm-80-90-g-hondensnack-per-4-stuks.html'
   },
   {
     id: 447,
@@ -4914,8 +4914,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/jarco-dog-natural-medium-senior-kip-hondenvoer-12-5-kg-11-25-kg/9300000133370005/",
     brand: "Jarco",
     description: "Hoogwaardige natuurlijke en gezonde premium hondenvoeding<p> Oudere honden hebben net als ouderen mensen wat meer last van kwaaltjes, zoals tandsteen of last van hun gewrichten. Voeding voor oude hond",
-    slug: "jarco-dog-natural-medium-senior-kip---hondenvoer---125-kg-11-25-kg",
-    pageUrl: 'produits/jarco-dog-natural-medium-senior-kip---hondenvoer---125-kg-11-25-kg.html'
+    slug: "jarco-dog-natural-medium-senior-kip-hondenvoer-125-kg-11-25-kg",
+    pageUrl: 'produits/jarco-dog-natural-medium-senior-kip-hondenvoer-125-kg-11-25-kg.html'
   },
   {
     id: 448,
@@ -4925,8 +4925,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/wanpy-puppy-hondenvoer-droogvoer-kip-12-kg-graanvrij/9300000252117781/",
     brand: "Wanpy",
     description: "<p><strong>Wanpy - Puppy - Hondenvoer - Droogvoer - Kip - 1,5 kg </strong></p> <p><strong>Wanpy Graanvrij Puppy - Hoogwaardige Graanvrije Voeding voor Puppy\u2019s</strong></p> <p>Wanpy Grain Free Puppy is",
-    slug: "wanpy---puppy---hondenvoer---droogvoer---kip---12-kg---graanvrij",
-    pageUrl: 'produits/wanpy---puppy---hondenvoer---droogvoer---kip---12-kg---graanvrij.html'
+    slug: "wanpy-puppy-hondenvoer-droogvoer-kip-12-kg-graanvrij",
+    pageUrl: 'produits/wanpy-puppy-hondenvoer-droogvoer-kip-12-kg-graanvrij.html'
   },
   {
     id: 449,
@@ -4958,8 +4958,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/acana-singles-grass-fed-lamb-dog/9200000076148327/",
     brand: "Acana",
     description: "<b>Acana Singles Grass-Fed Lamb 2 kg</b>Limited Acana grasgevoerd lam is rijk aan 50% Nieuw-Zeeland lam dat rauw wordt geleverd in voedende whole prey? verhoudingen. Infusies van gevriesgedroogde leve",
-    slug: "acana-grass-fed-lamb---hondenvoer---monoprote\u00efne---licht-verteerbaar---ondersteunt-spijsvertering",
-    pageUrl: 'produits/acana-grass-fed-lamb---hondenvoer---monoproteïne---licht-verteerbaar---ondersteunt-spijsvertering.html'
+    slug: "acana-grass-fed-lamb-hondenvoer-monoprote\u00efne-licht-verteerbaar-ondersteunt-spijsvertering",
+    pageUrl: 'produits/acana-grass-fed-lamb-hondenvoer-monoproteïne-licht-verteerbaar-ondersteunt-spijsvertering.html'
   },
   {
     id: 452,
@@ -4969,8 +4969,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/braaaf-rol-sticks-12-cm-lam-vis-80-gr/9300000035189206/",
     brand: "Braaaf",
     description: "Braaaf Rol Sticks 12 cm Lam - Vis <p>Een hond kan niet zelf bepalen wat het beste voor hem is, dat is aan jou! Kies je voor de buffelhuid snacks, dan kies je voor een gezond, hygi\u00ebnisch verpakt produc",
-    slug: "braaaf-rol-sticks-12-cm-lam---vis-80-gr",
-    pageUrl: 'produits/braaaf-rol-sticks-12-cm-lam---vis-80-gr.html'
+    slug: "braaaf-rol-sticks-12-cm-lam-vis-80-gr",
+    pageUrl: 'produits/braaaf-rol-sticks-12-cm-lam-vis-80-gr.html'
   },
   {
     id: 453,
@@ -4980,8 +4980,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/yourdog-duitse-pinscher-volwassen/9300000020614342/",
     brand: "Yourdog",
     description: "<p>Yourdog Duitse pinscher zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren dit met zorgvuldig geselecteerde ",
-    slug: "hondenvoer-yourdog---duitse-pinscher---buffel-en-kippenvlees---3kg-met-groenten-en-fruit",
-    pageUrl: 'produits/hondenvoer-yourdog---duitse-pinscher---buffel-en-kippenvlees---3kg-met-groenten-en-fruit.html'
+    slug: "hondenvoer-yourdog-duitse-pinscher-buffel-en-kippenvlees-3kg-met-groenten-en-fruit",
+    pageUrl: 'produits/hondenvoer-yourdog-duitse-pinscher-buffel-en-kippenvlees-3kg-met-groenten-en-fruit.html'
   },
   {
     id: 454,
@@ -4991,8 +4991,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/edgard-cooper-hondenvoer-droog-adult-small-lam-3-kg/9300000259212190/",
     brand: "Edgard & Cooper",
     description: "Edgard & Cooper Hondenvoer Droog Adult Small LamEdgard & Cooper Hondenvoer Droog Adult Small Lam is bereid met uitsluitend vers lam en bevatten geen vleesmeel. Zo krijgt jouw hond eiwitten van topkwal",
-    slug: "edgardcooper-small-adult-dog-lam---hondenvoer---3-kg",
-    pageUrl: 'produits/edgardcooper-small-adult-dog-lam---hondenvoer---3-kg.html'
+    slug: "edgardcooper-small-adult-dog-lam-hondenvoer-3-kg",
+    pageUrl: 'produits/edgardcooper-small-adult-dog-lam-hondenvoer-3-kg.html'
   },
   {
     id: 455,
@@ -5002,8 +5002,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/nutram-large-adult-dog-s8-11-4kg/9300000002572504/",
     brand: "Nutram",
     description: "Nutram hondenvoer Adult Large Breed S8 11,4 kg Nutram hondenvoer Adult Large Breed S8 is een volledig en natuurlijk hondenvoer voor volwassen honden van grote rassen. Nutram Adult Large Breed S8 heeft",
-    slug: "nutram-hondenvoer-adult-large-breed-s8-114-kg---hond",
-    pageUrl: 'produits/nutram-hondenvoer-adult-large-breed-s8-114-kg---hond.html'
+    slug: "nutram-hondenvoer-adult-large-breed-s8-114-kg-hond",
+    pageUrl: 'produits/nutram-hondenvoer-adult-large-breed-s8-114-kg-hond.html'
   },
   {
     id: 456,
@@ -5013,8 +5013,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/acana-classics-classic-red-11-4-kg/9200000075914254/",
     brand: "Acana",
     description: "<p><strong>Heerlijke Acana Heritage Classics Classic Red brokken voor jouw viervoeter!<br /></strong>Acana Classic Red is bereid van gras-gevoerd lam, angus beef en yorkshire varkensvlees, dagelijks v",
-    slug: "acana-classics---classic-red---hondenvoer-brokken---97-kg",
-    pageUrl: 'produits/acana-classics---classic-red---hondenvoer-brokken---97-kg.html'
+    slug: "acana-classics-classic-red-hondenvoer-brokken-97-kg",
+    pageUrl: 'produits/acana-classics-classic-red-hondenvoer-brokken-97-kg.html'
   },
   {
     id: 457,
@@ -5024,8 +5024,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/yourdog-karelische-berenhond-senior/9300000020614810/",
     brand: "Yourdog",
     description: "<p>Yourdog Karelische berenhond zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren dit met zorgvuldig geselecte",
-    slug: "hondenvoer-yourdog-karelische-berenhond-senior-3kg---buffel--kip---gezonde-voeding-met-groenten-en-fruit",
-    pageUrl: 'produits/hondenvoer-yourdog-karelische-berenhond-senior-3kg---buffel--kip---gezonde-voeding-met-groenten-en-fruit.html'
+    slug: "hondenvoer-yourdog-karelische-berenhond-senior-3kg-buffel--kip-gezonde-voeding-met-groenten-en-fruit",
+    pageUrl: 'produits/hondenvoer-yourdog-karelische-berenhond-senior-3kg-buffel--kip-gezonde-voeding-met-groenten-en-fruit.html'
   },
   {
     id: 458,
@@ -5035,8 +5035,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/dog-comets-pan-stars-hondenspeeltje-duurzaam-honden-speelgoed-praktisch-onverwoestbare-honden-bal-geschikt-voor-grote-honden-oranje-30-cm/9200000089643978/",
     brand: "Dog Comets",
     description: "<p><strong>Ontmoet de ultieme speelervaring voor jouw trouwe viervoeter - de Dog Comets Pan-Stars hondenbal! </strong></p> <p>Deze bal is speciaal ontworpen om jouw hond te vermaken en te stimuleren t",
-    slug: "dog-comets-pan-stars---30-cm---hondenspeelgoed---hondenbal---geschikt-voor-grote-honden---drijvend---oranje---l",
-    pageUrl: 'produits/dog-comets-pan-stars---30-cm---hondenspeelgoed---hondenbal---geschikt-voor-grote-honden---drijvend---oranje---l.html'
+    slug: "dog-comets-pan-stars-30-cm-hondenspeelgoed-hondenbal-geschikt-voor-grote-honden-drijvend-oranje-l",
+    pageUrl: 'produits/dog-comets-pan-stars-30-cm-hondenspeelgoed-hondenbal-geschikt-voor-grote-honden-drijvend-oranje-l.html'
   },
   {
     id: 459,
@@ -5079,8 +5079,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/eukanuba-life-care-dog-senior-small-medium-hondenvoer-lamb-rice-3-x-3-kg-voordeelverpakking/9300000238747648/",
     brand: "Eukanuba",
     description: "Eukanuba Hondenvoer Droog Life Care Dog Senior Small/Medium Lam en RijstEukanuba Hondenvoer Droog Life Care Dog Senior Small/Medium Lam en Rijst is speciaal ontwikkeld voor senior honden van kleine en",
-    slug: "eukanuba-hondenvoer-droog-life-care-dog-senior-smallmedium-lam-en-rijst---3-x-3-kg---voordeelverpakking",
-    pageUrl: 'produits/eukanuba-hondenvoer-droog-life-care-dog-senior-smallmedium-lam-en-rijst---3-x-3-kg---voordeelverpakking.html'
+    slug: "eukanuba-hondenvoer-droog-life-care-dog-senior-smallmedium-lam-en-rijst-3-x-3-kg-voordeelverpakking",
+    pageUrl: 'produits/eukanuba-hondenvoer-droog-life-care-dog-senior-smallmedium-lam-en-rijst-3-x-3-kg-voordeelverpakking.html'
   },
   {
     id: 463,
@@ -5123,8 +5123,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/kippendijen-1-kg-natuurlijke-honden-snack/9300000250012919/",
     brand: "Merkloos / Sans marque",
     description: "Ontdek de heerlijke kippendijen als natuurlijke hondensnack van 1 kg. Deze eiwitrijke traktatie is 100% natuurlijk en ideaal voor elke hond. Perfect voor training of als beloning tussen de maaltijden ",
-    slug: "kippendijen-1-kg---natuurlijke-honden-snack",
-    pageUrl: 'produits/kippendijen-1-kg---natuurlijke-honden-snack.html'
+    slug: "kippendijen-1-kg-natuurlijke-honden-snack",
+    pageUrl: 'produits/kippendijen-1-kg-natuurlijke-honden-snack.html'
   },
   {
     id: 467,
@@ -5134,8 +5134,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/natuurlijke-hondenkoekjes-1-kg-gezonde-hondensnack/9300000250077077/",
     brand: "Merkloos / Sans marque",
     description: "Deze heerlijke hondenkoekjes van 1 kg zijn de perfecte traktatie voor jouw trouwe viervoeter. Gemaakt van natuurlijke ingredi\u00ebnten, zijn deze koekjes niet alleen smakelijk, maar ook gezond. Ze helpen ",
-    slug: "natuurlijke-hondenkoekjes-1-kg---gezonde-hondensnack",
-    pageUrl: 'produits/natuurlijke-hondenkoekjes-1-kg---gezonde-hondensnack.html'
+    slug: "natuurlijke-hondenkoekjes-1-kg-gezonde-hondensnack",
+    pageUrl: 'produits/natuurlijke-hondenkoekjes-1-kg-gezonde-hondensnack.html'
   },
   {
     id: 468,
@@ -5145,8 +5145,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/hondenkauw-met-touw-kauwspeelgoed-voor-honden-tandverzorging-stressverlichting-natuurlijk-koffiehout-19x8x4-cm-natuurhout/9300000271651997/",
     brand: "Merkloos / Sans marque",
     description: "Geef je trouwe viervoeter een natuurlijke, veilige en bevredigende kauwervaring met dit duurzame hondenspeelgoed. Het is de perfecte combinatie van stevigheid en ondersteuning voor de gebitsgezondheid",
-    slug: "hondenkauw-met-touw---kauwspeelgoed-voor-honden---tandverzorging-stressverlichting---natuurlijk-koffiehout---19x8x4-cm---natuurhout",
-    pageUrl: 'produits/hondenkauw-met-touw---kauwspeelgoed-voor-honden---tandverzorging-stressverlichting---natuurlijk-koffiehout---19x8x4-cm---natuurhout.html'
+    slug: "hondenkauw-met-touw-kauwspeelgoed-voor-honden-tandverzorging-stressverlichting-natuurlijk-koffiehout-19x8x4-cm-natuurhout",
+    pageUrl: 'produits/hondenkauw-met-touw-kauwspeelgoed-voor-honden-tandverzorging-stressverlichting-natuurlijk-koffiehout-19x8x4-cm-natuurhout.html'
   },
   {
     id: 469,
@@ -5156,8 +5156,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/hondenspeelgoed-flamingo-bollu-vos-oranje-pluche-met-squeaker-knispergeluid-14-5-x-10-x-29-cm/9300000262830321/",
     brand: "Flamingo",
     description: "Productomschrijving <p>Maak kennis met <strong>Flamingo Bollu Vos Oranje</strong>, een zacht en speels hondenspeeltje dat perfect is voor knuffel- en speelmomenten binnenshuis. Deze vrolijke vos is on",
-    slug: "hondenspeelgoed---flamingo-bollu-vos-oranje---pluche---met-squeaker--knispergeluid---145-x-10-x-29-cm",
-    pageUrl: 'produits/hondenspeelgoed---flamingo-bollu-vos-oranje---pluche---met-squeaker--knispergeluid---145-x-10-x-29-cm.html'
+    slug: "hondenspeelgoed-flamingo-bollu-vos-oranje-pluche-met-squeaker--knispergeluid-145-x-10-x-29-cm",
+    pageUrl: 'produits/hondenspeelgoed-flamingo-bollu-vos-oranje-pluche-met-squeaker--knispergeluid-145-x-10-x-29-cm.html'
   },
   {
     id: 470,
@@ -5167,8 +5167,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/natural-greatness-natural-woodland-wild-iberian-diet-10kg/9300000143111063/",
     brand: "Natural greatness",
     description: "Natural Woodland Wild Iberian Diet 10kgDe Natural Woodland Wild Iberian Diet 10kg hondenvoer is goed verteerbare en complete hondenvoeding met vers vlees van wilde zwijnen zonder gluten en met een ...",
-    slug: "hondenvoer-natural-woodland---wild-iberian-diet---glutenvrij-hypoallergeen-10kg",
-    pageUrl: 'produits/hondenvoer-natural-woodland---wild-iberian-diet---glutenvrij-hypoallergeen-10kg.html'
+    slug: "hondenvoer-natural-woodland-wild-iberian-diet-glutenvrij-hypoallergeen-10kg",
+    pageUrl: 'produits/hondenvoer-natural-woodland-wild-iberian-diet-glutenvrij-hypoallergeen-10kg.html'
   },
   {
     id: 471,
@@ -5178,8 +5178,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/imby-allergie-anti-jeuk-honden-supplement-3-potten-270-hondensnoepjes-hondenvoeding-immuunsysteem-darmgezondheid-hond-hondensnacks-100-natuurlijke-hondenkoekjes/9300000231573459/",
     brand: "Imby",
     description: "<h3><strong>Belangrijkste voordelen:</strong></h3> <ul> <li><strong>Vermindert jeuk & krabben</strong></li> <li><strong>Ondersteunt immuunsysteem</strong></li> <li><strong>Verbetert huid & vacht</stro",
-    slug: "imby-allergie--anti-jeuk-honden-supplement---3-potten---270-hondensnoepjes---hondenvoeding---immuunsysteem--darmgezondheid-hond---hondensnacks---100-natuurlijke-hondenkoekjes",
-    pageUrl: 'produits/imby-allergie--anti-jeuk-honden-supplement---3-potten---270-hondensnoepjes---hondenvoeding---immuunsysteem--darmgezondheid-hond---hondensnacks---100-natuurlijke-hondenkoekjes.html'
+    slug: "imby-allergie--anti-jeuk-honden-supplement-3-potten-270-hondensnoepjes-hondenvoeding-immuunsysteem--darmgezondheid-hond-hondensnacks-100-natuurlijke-hondenkoekjes",
+    pageUrl: 'produits/imby-allergie--anti-jeuk-honden-supplement-3-potten-270-hondensnoepjes-hondenvoeding-immuunsysteem--darmgezondheid-hond-hondensnacks-100-natuurlijke-hondenkoekjes.html'
   },
   {
     id: 472,
@@ -5189,8 +5189,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/wooof-honden-worsten-kalkoen-worsten-vers-vlees-natvoer-houdbare-worsten-hondenvoer-10x-900gram/9300000227534827/",
     brand: "Wooof",
     description: "<p><strong>Gun jouw hond een gezonde en smakelijke maaltijd met onze Graanvrije Kalkoen Worsten! Deze hoogwaardige hondenworsten zijn niet alleen een heerlijke traktatie, maar ook een complete en voed",
-    slug: "wooof-honden-worsten-kalkoen-worsten-vers-vlees-natvoer---houdbare-worsten-hondenvoer---10x-900gram",
-    pageUrl: 'produits/wooof-honden-worsten-kalkoen-worsten-vers-vlees-natvoer---houdbare-worsten-hondenvoer---10x-900gram.html'
+    slug: "wooof-honden-worsten-kalkoen-worsten-vers-vlees-natvoer-houdbare-worsten-hondenvoer-10x-900gram",
+    pageUrl: 'produits/wooof-honden-worsten-kalkoen-worsten-vers-vlees-natvoer-houdbare-worsten-hondenvoer-10x-900gram.html'
   },
   {
     id: 473,
@@ -5222,8 +5222,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/euro-premium-puppy-medium-kip-rijst-3-kg/9300000074200128/",
     brand: "Euro-premium",
     description: "Euro-Premium Puppy Medium Kip - Rijst <p>Euro-Premium Puppy Medium - Chicken & Rice is een volledige, super-premium voeding voor opgroeiende honden van middelgrote rassen (1-12 maanden en 10 - 25kg vo",
-    slug: "euro-premium-puppy-medium-kip---rijst-3-kg",
-    pageUrl: 'produits/euro-premium-puppy-medium-kip---rijst-3-kg.html'
+    slug: "euro-premium-puppy-medium-kip-rijst-3-kg",
+    pageUrl: 'produits/euro-premium-puppy-medium-kip-rijst-3-kg.html'
   },
   {
     id: 476,
@@ -5233,8 +5233,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/vetline-lamslong-trainers-100-gram/9300000234147383/",
     brand: "VETLINE",
     description: "Lamslong Trainers zijn de ultieme natuurlijke beloning voor jouw hond. Gemaakt van 100% lam en volledig vrij van kunstmatige toevoegingen, granen en conserveermiddelen. Door het hoge eiwitgehalte en h",
-    slug: "vetline---lamslong-trainers---100-gram",
-    pageUrl: 'produits/vetline---lamslong-trainers---100-gram.html'
+    slug: "vetline-lamslong-trainers-100-gram",
+    pageUrl: 'produits/vetline-lamslong-trainers-100-gram.html'
   },
   {
     id: 477,
@@ -5244,8 +5244,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/zoolekker-koffieboom-kauwstaaf-hond-raw-line-small/9300000067512426/",
     brand: "zoo lekker",
     description: "<p>Koffieboom raw-line is de 100% natuurlijke kauwsnack goed voor het gebit en darmen van uw hond. De vezels bevorderen de darmwerking, terwijl door het kauwen op de koffieboom kauwwortel het gebit sc",
-    slug: "zoolekker-koffieboom---kauwstaaf-hond---raw-line-small",
-    pageUrl: 'produits/zoolekker-koffieboom---kauwstaaf-hond---raw-line-small.html'
+    slug: "zoolekker-koffieboom-kauwstaaf-hond-raw-line-small",
+    pageUrl: 'produits/zoolekker-koffieboom-kauwstaaf-hond-raw-line-small.html'
   },
   {
     id: 478,
@@ -5255,8 +5255,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/jarco-dog-natural-medium-adult-kip-hondenvoer-2-kg-11-25-kg/9300000133370019/",
     brand: "Jarco",
     description: "Hoogwaardige natuurlijke en gezonde premium hondenvoeding<p> De darm is een van de belangrijkste organen van je hond. Natural Medium Adult Kip van Jarco is een hoogwaardige natuurlijke en gezonde prem",
-    slug: "jarco-dog-natural-medium-adult-kip---hondenvoer---2-kg-11-25-kg",
-    pageUrl: 'produits/jarco-dog-natural-medium-adult-kip---hondenvoer---2-kg-11-25-kg.html'
+    slug: "jarco-dog-natural-medium-adult-kip-hondenvoer-2-kg-11-25-kg",
+    pageUrl: 'produits/jarco-dog-natural-medium-adult-kip-hondenvoer-2-kg-11-25-kg.html'
   },
   {
     id: 479,
@@ -5266,8 +5266,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/qwisple-vleesstrips-geit-hondensnacks-100-vlees-strips-training-reepjes-verwensnacks-hond-1000-gr/9300000194520609/",
     brand: "Qwisple",
     description: "<p><strong>Qwisple\u00ae Vleesstrips geit </strong>hondensnacks als dagelijkse beloning of een gezond tussendoortje voor je hond. Gedroogde strips van geitenvlees voor een lang kauwplezier, geproduceerd zo",
-    slug: "qwisple-vleesstrips-geit---hondensnacks---100-vlees-strips---training-reepjes---verwensnacks-hond---1000-gr",
-    pageUrl: 'produits/qwisple-vleesstrips-geit---hondensnacks---100-vlees-strips---training-reepjes---verwensnacks-hond---1000-gr.html'
+    slug: "qwisple-vleesstrips-geit-hondensnacks-100-vlees-strips-training-reepjes-verwensnacks-hond-1000-gr",
+    pageUrl: 'produits/qwisple-vleesstrips-geit-hondensnacks-100-vlees-strips-training-reepjes-verwensnacks-hond-1000-gr.html'
   },
   {
     id: 480,
@@ -5277,8 +5277,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/chewllagen-collageen-kauwrollen-voor-honden-set-van-2-kipsmaak-100-natuurlijk-5-inch-ondersteunt-huid-en-gewrichten/9300000223649263/",
     brand: "Chewllagen",
     description: "<h3>Productomschrijving</h3> <p>Gezonde kauwrol met kip \u2013 goed voor huid, vacht en gewrichten.</p> <p><strong>Chewllagen Collageen Kauwrollen Hond Kip - 2 Stuks - 12,5 cm</strong> zijn natuurlijke hon",
-    slug: "chewllagen-collageen-kauwrollen-hond-kip---2-stuks---125-cm",
-    pageUrl: 'produits/chewllagen-collageen-kauwrollen-hond-kip---2-stuks---125-cm.html'
+    slug: "chewllagen-collageen-kauwrollen-hond-kip-2-stuks-125-cm",
+    pageUrl: 'produits/chewllagen-collageen-kauwrollen-hond-kip-2-stuks-125-cm.html'
   },
   {
     id: 481,
@@ -5310,8 +5310,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/yourdog-saluki-senior/9300000020615361/",
     brand: "Yourdog",
     description: "<p>Yourdog Saluki zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren dit met zorgvuldig geselecteerde groenten,",
-    slug: "hondenvoer-yourdog-saluki-senior---rijk-aan-buffel-en-kip---3kg-gezonde-voeding-met-groenten-en-kruiden",
-    pageUrl: 'produits/hondenvoer-yourdog-saluki-senior---rijk-aan-buffel-en-kip---3kg-gezonde-voeding-met-groenten-en-kruiden.html'
+    slug: "hondenvoer-yourdog-saluki-senior-rijk-aan-buffel-en-kip-3kg-gezonde-voeding-met-groenten-en-kruiden",
+    pageUrl: 'produits/hondenvoer-yourdog-saluki-senior-rijk-aan-buffel-en-kip-3kg-gezonde-voeding-met-groenten-en-kruiden.html'
   },
   {
     id: 484,
@@ -5321,8 +5321,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/yourdog-halden-hound-volwassen/9300000020614754/",
     brand: "Yourdog",
     description: "<p>Yourdog Halden hound zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren dit met zorgvuldig geselecteerde gro",
-    slug: "hondenvoer-yourdog---buffel-en-kip---3kg-gezonde-voeding-met-groenten-en-fruit",
-    pageUrl: 'produits/hondenvoer-yourdog---buffel-en-kip---3kg-gezonde-voeding-met-groenten-en-fruit.html'
+    slug: "hondenvoer-yourdog-buffel-en-kip-3kg-gezonde-voeding-met-groenten-en-fruit",
+    pageUrl: 'produits/hondenvoer-yourdog-buffel-en-kip-3kg-gezonde-voeding-met-groenten-en-fruit.html'
   },
   {
     id: 485,
@@ -5332,8 +5332,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/chikko-quality-eend-runderhuidstick-natuurlijke-kauwsnack-300gr/9300000283556595/",
     brand: "Chikko Quality",
     description: "De Chikko Quality Eend & Runderhuidstick is een heerlijke, vleesrijke kauwsnack met 26% eend en 45% runderhuid \u2013 een verantwoorde aanvullende snack voor honden die houden van een stevige kauwervaring.",
-    slug: "chikko-quality---eend--runderhuidstick---natuurlijke-kauwsnack---300gr",
-    pageUrl: 'produits/chikko-quality---eend--runderhuidstick---natuurlijke-kauwsnack---300gr.html'
+    slug: "chikko-quality-eend--runderhuidstick-natuurlijke-kauwsnack-300gr",
+    pageUrl: 'produits/chikko-quality-eend--runderhuidstick-natuurlijke-kauwsnack-300gr.html'
   },
   {
     id: 486,
@@ -5343,8 +5343,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/schesir-kat-blik-gelei-140-g-kattenvoer-24-x-tonijn-ham/9200000103828277/",
     brand: "Schesir",
     description: "<h3> Schesir kattenvoeding</h3><br />Schesir is een Italiaans merk die zowel droog- als natvoeding heeft voor honden en katten. Er worden enkel natuurlijke ingredi\u00ebnten gebruikt en het bevat geen kuns",
-    slug: "schesir-kat-blik-gelei-140-g---kattenvoer---24-x-tonijnham",
-    pageUrl: 'produits/schesir-kat-blik-gelei-140-g---kattenvoer---24-x-tonijnham.html'
+    slug: "schesir-kat-blik-gelei-140-g-kattenvoer-24-x-tonijnham",
+    pageUrl: 'produits/schesir-kat-blik-gelei-140-g-kattenvoer-24-x-tonijnham.html'
   },
   {
     id: 487,
@@ -5354,8 +5354,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/trixie-hondentas-elisa-zand-41x20x26-cm/9300000236465071/",
     brand: "Trixie",
     description: "<p><strong>Trixie Hondentas Elisa Zand 41X20X26 CM</strong><br />De Trixie Hondentas Elisa Zand is een comfortabele draagtas voor het veilig en makkelijk vervoeren van je hond. De tas is aan zowel de ",
-    slug: "hondentas-trixie-elisa---zandkleur-comfortabel-41x20x26-cm-met-korthouder-en-buitenvakken",
-    pageUrl: 'produits/hondentas-trixie-elisa---zandkleur-comfortabel-41x20x26-cm-met-korthouder-en-buitenvakken.html'
+    slug: "hondentas-trixie-elisa-zandkleur-comfortabel-41x20x26-cm-met-korthouder-en-buitenvakken",
+    pageUrl: 'produits/hondentas-trixie-elisa-zandkleur-comfortabel-41x20x26-cm-met-korthouder-en-buitenvakken.html'
   },
   {
     id: 488,
@@ -5365,8 +5365,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/snuffelbal-voor-honden-interactief-snuffelspeelgoed-wasbaar-hondenspeelgoed-intelligent-speelgoed-voor-kleine-en-middelgrote-honden-new-rainbow-colors-7-9-inch/9300000237405795/",
     brand: "Merkloos / Sans marque",
     description: "<h3>Interactief Hondenspeelgoed - Snuffelbal</h3> <p><strong>Materiaal:</strong> Dit interactieve hondenspeelgoed is vervaardigd van <b>milieuvriendelijk fluweel</b>, dat zacht en huidvriendelijk is. ",
-    slug: "snuffelbal-voor-honden---interactief-snuffelspeelgoed---wasbaar-hondenspeelgoed---intelligent-speelgoed-voor-kleine-en-middelgrote-honden---new-rainbow-colors---79-inch",
-    pageUrl: 'produits/snuffelbal-voor-honden---interactief-snuffelspeelgoed---wasbaar-hondenspeelgoed---intelligent-speelgoed-voor-kleine-en-middelgrote-honden---new-rainbow-colors---79-inch.html'
+    slug: "snuffelbal-voor-honden-interactief-snuffelspeelgoed-wasbaar-hondenspeelgoed-intelligent-speelgoed-voor-kleine-en-middelgrote-honden-new-rainbow-colors-79-inch",
+    pageUrl: 'produits/snuffelbal-voor-honden-interactief-snuffelspeelgoed-wasbaar-hondenspeelgoed-intelligent-speelgoed-voor-kleine-en-middelgrote-honden-new-rainbow-colors-79-inch.html'
   },
   {
     id: 489,
@@ -5376,8 +5376,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/premium-diervriendelijk-likmat-voerbak-voermat-voor-hond-kat-snuffelmat-blauw/9300000174496598/",
     brand: "AWR",
     description: "<p><strong>Introducing onze innovatieve Likmat - de ultieme traktatie voor jouw geliefde huisdier! Deze unieke mat is ontworpen om het likinstinct van jouw harige vriend te bevredigen, terwijl het ook",
-    slug: "premium-diervriendelijk-likmat--voerbak--voermat--voor-hond--kat--snuffelmat---blauw",
-    pageUrl: 'produits/premium-diervriendelijk-likmat--voerbak--voermat--voor-hond--kat--snuffelmat---blauw.html'
+    slug: "premium-diervriendelijk-likmat--voerbak--voermat--voor-hond--kat--snuffelmat-blauw",
+    pageUrl: 'produits/premium-diervriendelijk-likmat--voerbak--voermat--voor-hond--kat--snuffelmat-blauw.html'
   },
   {
     id: 490,
@@ -5398,8 +5398,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/hond-dental-stick-toy-tandenreiniging-verminder-stress-plastic-tpr-flexibel-hondenkauwspeeltje-voor-buiten-grijs-blauw/9300000236729242/",
     brand: "Merkloos / Sans marque",
     description: "<h3>Productbeschrijving</h3> <p>Verwen uw trouwe viervoeter met onze innovatieve hondenkauwstok, ontworpen om zowel de mondgezondheid als het welzijn van uw huisdier te verbeteren. Dit product biedt e",
-    slug: "hond-dental-stick-toy---tandenreiniging---verminder-stress---plastic-tpr---flexibel-hondenkauwspeeltje-voor-buiten---grijs-blauw",
-    pageUrl: 'produits/hond-dental-stick-toy---tandenreiniging---verminder-stress---plastic-tpr---flexibel-hondenkauwspeeltje-voor-buiten---grijs-blauw.html'
+    slug: "hond-dental-stick-toy-tandenreiniging-verminder-stress-plastic-tpr-flexibel-hondenkauwspeeltje-voor-buiten-grijs-blauw",
+    pageUrl: 'produits/hond-dental-stick-toy-tandenreiniging-verminder-stress-plastic-tpr-flexibel-hondenkauwspeeltje-voor-buiten-grijs-blauw.html'
   },
   {
     id: 492,
@@ -5409,8 +5409,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/dog-comets-orion-hondenspeelgoed-duurzaam-honden-speeltje-honden-speelgoed-dat-blijft-drijven-apporteerspeelgoed-voor-honden-geschikt-voor-honden-oranje-20-x-4-x-4-cm/9300000095682324/",
     brand: "Dog Comets",
     description: "<p><strong>Ontdek het ultieme apporteerspeelgoed voor jouw actieve hond!</strong></p> <p>Breng het apporteren naar een hoger niveau met de Dog Comets Orion Dummy in opvallend oranje. Deze slim ontworp",
-    slug: "dog-comets-orion-dummy---20-x-4-x-4-cm---hondenspeelgoed---apporteerspeelgoed---drijvend---oranje",
-    pageUrl: 'produits/dog-comets-orion-dummy---20-x-4-x-4-cm---hondenspeelgoed---apporteerspeelgoed---drijvend---oranje.html'
+    slug: "dog-comets-orion-dummy-20-x-4-x-4-cm-hondenspeelgoed-apporteerspeelgoed-drijvend-oranje",
+    pageUrl: 'produits/dog-comets-orion-dummy-20-x-4-x-4-cm-hondenspeelgoed-apporteerspeelgoed-drijvend-oranje.html'
   },
   {
     id: 493,
@@ -5420,8 +5420,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/doggytube-beloningsdispenser-geschikt-voor-vloeibare-hondensnacks-turquoise-5-6x5-6x12-8cm/9300000165940537/",
     brand: "Doggyroller",
     description: "Beschrijving <p>Is jouw hond fan van vloeibare snacks, maar is het zo een gedoe om deze mee te nemen als jullie buitenshuis zijn? Probeer dan eens de Doggytube! Deze beloningsdispenser kan je vullen m",
-    slug: "doggytube---beloningsdispenser---geschikt-voor-vloeibare-hondensnacks---turquoise---56x56x128cm",
-    pageUrl: 'produits/doggytube---beloningsdispenser---geschikt-voor-vloeibare-hondensnacks---turquoise---56x56x128cm.html'
+    slug: "doggytube-beloningsdispenser-geschikt-voor-vloeibare-hondensnacks-turquoise-56x56x128cm",
+    pageUrl: 'produits/doggytube-beloningsdispenser-geschikt-voor-vloeibare-hondensnacks-turquoise-56x56x128cm.html'
   },
   {
     id: 494,
@@ -5431,8 +5431,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/pino-sandstone-hondenvoerbak-slowfeeder-terracotta-medium-17-5cm-1000ml/9300000265632813/",
     brand: "PINO",
     description: "<p>Eet jouw hond zijn maaltijd in enkele seconden op? Moet je na elke maaltijd de vloer dweilen? Of zie je hem overgeven of smeken om meer? Te snel eten is een veelvoorkomend probleem bij honden. Het ",
-    slug: "pino-sandstone-hondenvoerbak-slowfeeder-anti-schrok---terracotta-salmon-terra---medium-175cm---1000ml",
-    pageUrl: 'produits/pino-sandstone-hondenvoerbak-slowfeeder-anti-schrok---terracotta-salmon-terra---medium-175cm---1000ml.html'
+    slug: "pino-sandstone-hondenvoerbak-slowfeeder-anti-schrok-terracotta-salmon-terra-medium-175cm-1000ml",
+    pageUrl: 'produits/pino-sandstone-hondenvoerbak-slowfeeder-anti-schrok-terracotta-salmon-terra-medium-175cm-1000ml.html'
   },
   {
     id: 495,
@@ -5453,8 +5453,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/yummeez-soft-bonies-hondensnack-buffel-10-x-165-gr-voordeelverpakking/9300000233174054/",
     brand: "Yummeez",
     description: "Yummeez Soft Bonies Hondensnack BuffelYummeez Soft Bonies Buffel maken trainen en belonen extra leuk voor jou en je hond. Deze zachte hondensnacks in botvorm zijn klein, makkelijk te doseren en bijzon",
-    slug: "yummeez-soft-bonies-hondensnack-buffel---10-x-165-gr---voordeelverpakking",
-    pageUrl: 'produits/yummeez-soft-bonies-hondensnack-buffel---10-x-165-gr---voordeelverpakking.html'
+    slug: "yummeez-soft-bonies-hondensnack-buffel-10-x-165-gr-voordeelverpakking",
+    pageUrl: 'produits/yummeez-soft-bonies-hondensnack-buffel-10-x-165-gr-voordeelverpakking.html'
   },
   {
     id: 497,
@@ -5464,8 +5464,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/eukanuba-life-care-dog-puppy-junior-large-hondenvoer-lamb-rice-3-x-3-kg-voordeelverpakking/9300000241112652/",
     brand: "Eukanuba",
     description: "Eukanuba Hondenvoer Droog Life Care Dog Puppy & Junior Large Lam en RijstEukanuba Hondenvoer Droog Life Care Dog Puppy & Junior Large Lam en Rijst is speciaal samengesteld voor pups en jonge honden va",
-    slug: "eukanuba-hondenvoer-droog-life-care-dog-puppy--junior-large-lam-en-rijst---3-x-3-kg---voordeelverpakking",
-    pageUrl: 'produits/eukanuba-hondenvoer-droog-life-care-dog-puppy--junior-large-lam-en-rijst---3-x-3-kg---voordeelverpakking.html'
+    slug: "eukanuba-hondenvoer-droog-life-care-dog-puppy--junior-large-lam-en-rijst-3-x-3-kg-voordeelverpakking",
+    pageUrl: 'produits/eukanuba-hondenvoer-droog-life-care-dog-puppy--junior-large-lam-en-rijst-3-x-3-kg-voordeelverpakking.html'
   },
   {
     id: 498,
@@ -5475,8 +5475,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/animigo-anti-bijt-en-knaag-spray-voor-honden-en-katten-250-ml-tegen-ongewenst-knagen-en-bijten-100-natuurlijk/9300000125562216/",
     brand: "Animigo",
     description: "<p>Heeft je hond of kat de gewoonte om op meubels, schoenen, zichzelf of andere dingen te knagen? De Animigo anti bijt en knaag spray is een natuurlijke en veilige bitterspray met een bittere vloeisto",
-    slug: "animigo-anti-bijt-en-knaag-spray-voor-honden-en-katten---250-ml-bitterspray---tegen-ongewenst-knagen-en-bijten---100-natuurlijk",
-    pageUrl: 'produits/animigo-anti-bijt-en-knaag-spray-voor-honden-en-katten---250-ml-bitterspray---tegen-ongewenst-knagen-en-bijten---100-natuurlijk.html'
+    slug: "animigo-anti-bijt-en-knaag-spray-voor-honden-en-katten-250-ml-bitterspray-tegen-ongewenst-knagen-en-bijten-100-natuurlijk",
+    pageUrl: 'produits/animigo-anti-bijt-en-knaag-spray-voor-honden-en-katten-250-ml-bitterspray-tegen-ongewenst-knagen-en-bijten-100-natuurlijk.html'
   },
   {
     id: 499,
@@ -5486,8 +5486,8 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/beeztees-kippennekken-hondensnack-200-gram/9200000025082932/",
     brand: "Beeztees",
     description: "De Beeztees Kippennekken zijn een natuurlijke hondensnack, die kan worden gegeven als beloning of als overheerlijk tussendoortje. Deze kippennekken zijn een ware lekkernij voor jouw trouwe viervoeter.",
-    slug: "beeztees-kippennekken---hondensnack---kauwsnack---200-gram",
-    pageUrl: 'produits/beeztees-kippennekken---hondensnack---kauwsnack---200-gram.html'
+    slug: "beeztees-kippennekken-hondensnack-kauwsnack-200-gram",
+    pageUrl: 'produits/beeztees-kippennekken-hondensnack-kauwsnack-200-gram.html'
   },
   {
     id: 500,
@@ -5497,7 +5497,7 @@ const products = [
     productUrl: "https://www.bol.com/nl/nl/p/lily-s-kitchen-woofbrush-hondensnacks-4-x-329-g/9300000226235246/",
     brand: "Lily's Kitchen",
     description: "<p><strong>Lily's Kitchen Dog Woofbrush Dental Care</strong></p> <p>Wij zijn Lily's Kitchen, vernoemd naar de geliefde borderterri\u00ebr Lily. Bij Lily's Kitchen geloven we dat huisdieren het allerbeste v",
-    slug: "lilys-kitchen---hondensnacks---woofbrush-natural-dental-chew---large-4-x-329-g",
-    pageUrl: 'produits/lilys-kitchen---hondensnacks---woofbrush-natural-dental-chew---large-4-x-329-g.html'
+    slug: "lilys-kitchen-hondensnacks-woofbrush-natural-dental-chew-large-4-x-329-g",
+    pageUrl: 'produits/lilys-kitchen-hondensnacks-woofbrush-natural-dental-chew-large-4-x-329-g.html'
   }
 ];
