@@ -48,7 +48,7 @@
 <div class="mobile-menu-overlay"></div>
 
 <!-- Hero Section -->
-<section style="background: var(--surface-soft); padding: 4.5rem 0;">
+<section style="background: var(--surface-soft); padding: 3rem 0 2.5rem;">
 <div class="container">
 <div>
 <p style="font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1.25rem;">Onze winkel</p>
@@ -64,7 +64,7 @@
 </section>
 
 <!-- Categories Section -->
-<section style="padding: 2rem 0;">
+<section style="padding: 1.5rem 0;">
 <div class="container">
 <h2 style="font-family: var(--font-display); margin-bottom: var(--sp-2);">Ontdek per categorie</h2>
 <p class="text-dim" style="margin-bottom: var(--sp-6); max-width: 560px;">Vind snel het type hondensnack dat bij jouw hond past.</p>
@@ -90,7 +90,7 @@
 </section>
 
 <!-- Products Grid -->
-<section style="padding: 2rem 0;">
+<section style="padding: 1.5rem 0;">
 <div class="container">
 <h2 style="font-family: var(--font-display); margin-bottom: var(--sp-2);">Onze selectie</h2>
 <p class="text-dim" style="margin-bottom: var(--sp-6); max-width: 560px;">500 biologische hondensnacks getest en geselecteerd door onze experts.</p>
@@ -226,17 +226,18 @@ function createProductCard(product, position) {
             <p style="color: var(--text-dim); font-size: var(--fs-sm); margin-bottom: var(--sp-2);">
                 ${product.description.substring(0, 100)}...
             </p>
-            <div style="font-size: var(--fs-xl); font-weight: 700; color: var(--primary);">
-                €${product.price.toFixed(2)}
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--sp-4);">
+                <span style="font-size: var(--fs-xl); font-weight: 700; color: var(--primary);">
+                    €${product.price.toFixed(2)}
+                </span>
+                <span style="font-size: 0.72rem; font-weight: 600; color: var(--primary); background: #f5ede5; padding: 0.15rem 0.5rem; border-radius: 0.3rem;">Bol.com</span>
             </div>
-            <div style="display: flex; gap: var(--sp-2); margin-top: var(--sp-4);">
-                <a href="${product.pageUrl}" class="btn btn-secondary" style="flex: 1; text-align: center;">
-                    Bekijk details
-                </a>
-                <a href="${product.productUrl}" rel="nofollow noopener" target="_blank" class="btn btn-primary" style="flex: 1; text-align: center;">
-                    Bekijk op Bol.com
-                </a>
-            </div>
+            <a href="${product.productUrl}" rel="nofollow noopener" target="_blank" class="btn btn-primary" style="display: block; text-align: center; margin-bottom: 0.4rem;">
+                Bekijk op Bol.com
+            </a>
+            <a href="${product.pageUrl}" style="display: block; text-align: center; padding: 0.45rem; border: 1px solid var(--border); color: var(--text-dim); text-decoration: none; border-radius: 0.3rem; font-size: 0.78rem;">
+                Details
+            </a>
         </div>
     `;
     
@@ -256,21 +257,24 @@ function displayPagination() {
     
     // Bouton précédent
     if (currentPage > 1) {
-        paginationHTML += `<button onclick="changePage(${currentPage - 1})" class="btn btn-secondary" style="padding: 0.5rem 1rem;">← Vorige</button>`;
+        paginationHTML += `<button onclick="changePage(${currentPage - 1})" style="padding: 0.5rem 0.75rem; border: 1px solid var(--border); background: white; border-radius: 0.25rem; cursor: pointer; font-size: 0.82rem;">← Vorige</button>`;
     }
     
-    // Numéros de pages
-    for (let i = 1; i <= totalPages; i++) {
+    // Numéros de pages (afficher seulement quelques pages autour de la page courante)
+    const startPage = Math.max(1, currentPage - 2);
+    const endPage = Math.min(totalPages, currentPage + 2);
+    
+    for (let i = startPage; i <= endPage; i++) {
         if (i === currentPage) {
-            paginationHTML += `<button class="btn btn-primary" style="padding: 0.5rem 1rem;">${i}</button>`;
+            paginationHTML += `<button onclick="changePage(${i})" style="padding: 0.5rem 0.75rem; border: 1px solid var(--border); background: var(--primary); color: white; border-radius: 0.25rem; cursor: pointer; font-size: 0.82rem; min-width: 36px;">${i}</button>`;
         } else {
-            paginationHTML += `<button onclick="changePage(${i})" class="btn btn-secondary" style="padding: 0.5rem 1rem;">${i}</button>`;
+            paginationHTML += `<button onclick="changePage(${i})" style="padding: 0.5rem 0.75rem; border: 1px solid var(--border); background: white; border-radius: 0.25rem; cursor: pointer; font-size: 0.82rem; min-width: 36px;">${i}</button>`;
         }
     }
     
     // Bouton suivant
     if (currentPage < totalPages) {
-        paginationHTML += `<button onclick="changePage(${currentPage + 1})" class="btn btn-secondary" style="padding: 0.5rem 1rem;">Volgende →</button>`;
+        paginationHTML += `<button onclick="changePage(${currentPage + 1})" style="padding: 0.5rem 0.75rem; border: 1px solid var(--border); background: white; border-radius: 0.25rem; cursor: pointer; font-size: 0.82rem;">Volgende →</button>`;
     }
     
     pagination.innerHTML = paginationHTML;
