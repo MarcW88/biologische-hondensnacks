@@ -64,10 +64,10 @@
 </section>
 
 <!-- Categories Section -->
-<section class="section">
+<section style="padding: 2rem 0;">
 <div class="container">
 <h2 style="font-family: var(--font-display); margin-bottom: var(--sp-2);">Ontdek per categorie</h2>
-<p class="text-dim" style="margin-bottom: var(--sp-10); max-width: 560px;">Vind snel het type hondensnack dat bij jouw hond past.</p>
+<p class="text-dim" style="margin-bottom: var(--sp-6); max-width: 560px;">Vind snel het type hondensnack dat bij jouw hond past.</p>
 <div class="grid grid-4" style="gap: var(--sp-4);">
 <a class="card" href="winkel.html" style="text-decoration: none;">
 <h3 style="font-size: var(--fs-base); margin-bottom: var(--sp-1);">Alle snacks</h3>
@@ -90,12 +90,16 @@
 </section>
 
 <!-- Products Grid -->
-<section class="section">
+<section style="padding: 2rem 0;">
 <div class="container">
 <h2 style="font-family: var(--font-display); margin-bottom: var(--sp-2);">Onze selectie</h2>
-<p class="text-dim" style="margin-bottom: var(--sp-10); max-width: 560px;">500 biologische hondensnacks getest en geselecteerd door onze experts.</p>
+<p class="text-dim" style="margin-bottom: var(--sp-6); max-width: 560px;">500 biologische hondensnacks getest en geselecteerd door onze experts.</p>
 <div id="products-grid" class="grid grid-3" style="gap: var(--sp-6);">
 <!-- Les produits seront chargés ici via JavaScript -->
+</div>
+
+<!-- Pagination -->
+<div id="pagination" style="display: flex; justify-content: center; gap: var(--sp-2); margin-top: var(--sp-8);">
 </div>
 </div>
 </section>
@@ -197,6 +201,8 @@ function displayProducts() {
         const productCard = createProductCard(product, startIndex + index + 1);
         grid.appendChild(productCard);
     });
+    
+    displayPagination();
 }
 
 function createProductCard(product, position) {
@@ -223,13 +229,57 @@ function createProductCard(product, position) {
             <div style="font-size: var(--fs-xl); font-weight: 700; color: var(--primary);">
                 €${product.price.toFixed(2)}
             </div>
-            <a href="${product.productUrl}" rel="nofollow noopener" target="_blank" class="btn btn-primary" style="margin-top: var(--sp-4);">
-                Bekijk op Bol.com
-            </a>
+            <div style="display: flex; gap: var(--sp-2); margin-top: var(--sp-4);">
+                <a href="${product.pageUrl}" class="btn btn-secondary" style="flex: 1; text-align: center;">
+                    Bekijk details
+                </a>
+                <a href="${product.productUrl}" rel="nofollow noopener" target="_blank" class="btn btn-primary" style="flex: 1; text-align: center;">
+                    Bekijk op Bol.com
+                </a>
+            </div>
         </div>
     `;
     
     return card;
+}
+
+function displayPagination() {
+    const pagination = document.getElementById('pagination');
+    const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
+    
+    if (totalPages <= 1) {
+        pagination.innerHTML = '';
+        return;
+    }
+    
+    let paginationHTML = '';
+    
+    // Bouton précédent
+    if (currentPage > 1) {
+        paginationHTML += `<button onclick="changePage(${currentPage - 1})" class="btn btn-secondary" style="padding: 0.5rem 1rem;">← Vorige</button>`;
+    }
+    
+    // Numéros de pages
+    for (let i = 1; i <= totalPages; i++) {
+        if (i === currentPage) {
+            paginationHTML += `<button class="btn btn-primary" style="padding: 0.5rem 1rem;">${i}</button>`;
+        } else {
+            paginationHTML += `<button onclick="changePage(${i})" class="btn btn-secondary" style="padding: 0.5rem 1rem;">${i}</button>`;
+        }
+    }
+    
+    // Bouton suivant
+    if (currentPage < totalPages) {
+        paginationHTML += `<button onclick="changePage(${currentPage + 1})" class="btn btn-secondary" style="padding: 0.5rem 1rem;">Volgende →</button>`;
+    }
+    
+    pagination.innerHTML = paginationHTML;
+}
+
+function changePage(page) {
+    currentPage = page;
+    displayProducts();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 </script>
 
