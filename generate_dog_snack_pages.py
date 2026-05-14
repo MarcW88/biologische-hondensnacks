@@ -1,0 +1,187 @@
+#!/usr/bin/env python3
+"""
+Script pour générer les pages produits de snacks biologiques pour chien
+Basé sur le template de italiaanse-percolator
+"""
+
+import json
+import re
+import html as html_mod
+from pathlib import Path
+
+ROOT = Path(__file__).parent
+PRODUCTS = json.load(open(ROOT / 'filtered_dog_snacks.json', encoding='utf-8'))
+OUT_DIR = ROOT / 'produits'
+OUT_DIR.mkdir(exist_ok=True)
+
+def h(text):
+    return html_mod.escape(str(text))
+
+def slugify(text):
+    """Convert text to URL-friendly slug"""
+    text = text.lower()
+    text = re.sub(r'[^a-z0-9\s-]', '', text)
+    text = re.sub(r'[\s-]+', '-', text)
+    return text.strip('-')
+
+def generate_page(product):
+    """Génère une page produit HTML"""
+    title = h(product.get('title', ''))
+    ean = product.get('ean', '')
+    product_id = product.get('product_id', '')
+    price = product.get('price_nl', '')
+    image_url = product.get('image_url', '')
+    product_url = product.get('product_url_nl', '')
+    brand = h(product.get('brand', ''))
+    description = h(product.get('description', ''))
+    
+    # Créer un slug à partir du titre
+    slug = slugify(title)
+    
+    # Formater le prix
+    if price:
+        try:
+            price_float = float(price)
+            price_display = f"€{price_float:,.2f}".replace(',', 'X').replace('.', ',').replace('X', '.')
+        except:
+            price_display = f"€{price}"
+    else:
+        price_display = "Prijs niet beschikbaar"
+    
+    # HTML template
+    html = f'''<!DOCTYPE html>
+<html lang="nl-NL">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>{title} | Biologische Hondensnacks</title>
+<meta content="{description[:150]}" name="description"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="css/styles.css" rel="stylesheet"/>
+</head>
+<body>
+<nav class="navbar">
+<div class="container">
+<div class="nav-container">
+<a class="nav-brand" href="../index.html">Biologische Hondensnacks</a>
+<button class="mobile-menu-toggle" aria-label="Menu">
+<span></span>
+<span></span>
+<span></span>
+</button>
+<ul class="nav-menu">
+<li><a class="nav-link" href="../index.html">Home</a></li>
+<li><a class="nav-link" href="../natuurlijke-hondensnacks/">Natuurlijke snacks</a></li>
+<li><a class="nav-link" href="../beste-hondensnacks-2026/">Top 10</a></li>
+<li><a class="nav-link" href="../winkel.html">Winkel</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<div class="mobile-menu-overlay"></div>
+
+<section class="section">
+<div class="container">
+<div class="breadcrumbs">
+<a href="../index.html">Home</a>
+<span>/</span>
+<a href="../winkel.html">Winkel</a>
+<span>/</span>
+<span>{title[:50]}</span>
+</div>
+
+<div class="rating-box-top">
+<h2 id="onze-beoordeling">{title}</h2>
+<div class="rating-hero-layout">
+<div class="rating-hero-image-container">
+<img alt="{title}" src="{image_url}" style="width: 100%; max-width: 300px; border-radius: var(--r-lg);"/>
+</div>
+<div class="rating-hero-content">
+<h3 style="font-size: var(--fs-2xl); font-weight: 600; margin-bottom: var(--sp-4);">{title}</h3>
+<p style="color: var(--text-dim); margin-bottom: var(--sp-4); line-height: 1.7;">
+{description}
+</p>
+<div style="font-size: var(--fs-2xl); font-weight: 700; color: var(--primary); margin: var(--sp-4) 0;">
+<span>{price_display}</span>
+</div>
+<a class="btn btn-primary" href="{product_url}" rel="nofollow noopener" target="_blank" style="margin-top: var(--sp-4);">
+Bekijk op Bol.com →
+</a>
+</div>
+</div>
+</div>
+
+<div class="kort-oordeel-section" style="margin-top: var(--sp-8); padding-top: var(--sp-8); border-top: 1px solid var(--border);">
+<h2 id="kort-oordeel">Oordeel</h2>
+<p>Dit biologische hondensnack is een uitstekende keuze voor hondenbaasjes die op zoek zijn naar natuurlijke en gezonde snacks. Het product is gemaakt van hoogwaardige ingrediënten en bevat geen kunstmatige toevoegingen.</p>
+</div>
+</div>
+</section>
+
+<footer>
+<div class="container">
+<div class="footer-content">
+<div class="footer-section">
+<h4>Biologische Hondensnacks</h4>
+<p>De beste biologische en natuurlijke hondensnacks van Nederland.</p>
+</div>
+</div>
+<div class="footer-bottom">
+<p>© 2026 Biologische hondensnacks. Alle rechten voorbehouden.</p>
+</div>
+</div>
+</footer>
+
+<script>
+const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+const mobileMenuOverlay = document.querySelector('.mobile-menu-overlay');
+const navMenu = document.querySelector('.nav-menu');
+
+if (mobileMenuToggle) {{
+    mobileMenuToggle.addEventListener('click', () => {{
+        mobileMenuToggle.classList.toggle('active');
+        navMenu.classList.toggle('active');
+        mobileMenuOverlay.classList.toggle('active');
+        document.body.style.overflow = navMenu.classList.contains('active') ? 'hidden' : '';
+    }});
+}}
+
+if (mobileMenuOverlay) {{
+    mobileMenuOverlay.addEventListener('click', () => {{
+        mobileMenuToggle.classList.remove('active');
+        navMenu.classList.remove('active');
+        mobileMenuOverlay.classList.remove('active');
+        document.body.style.overflow = '';
+    }});
+}}
+</script>
+
+</body>
+</html>'''
+    
+    return slug, html
+
+def main():
+    """Fonction principale"""
+    print(f"Génération de {len(PRODUCTS)} pages produits...")
+    
+    for i, product in enumerate(PRODUCTS):
+        try:
+            slug, html = generate_page(product)
+            
+            # Sauvegarder la page
+            output_file = OUT_DIR / f"{slug}.html"
+            with open(output_file, 'w', encoding='utf-8') as f:
+                f.write(html)
+            
+            if (i + 1) % 50 == 0:
+                print(f"Progression: {i + 1}/{len(PRODUCTS)} pages générées...")
+        
+        except Exception as e:
+            print(f"Erreur génération page {i}: {e}")
+            continue
+    
+    print(f"\nTerminé! {len(PRODUCTS)} pages générées dans {OUT_DIR}")
+
+if __name__ == '__main__':
+    main()

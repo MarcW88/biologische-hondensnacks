@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   Biologische Hondensnacks Winkel | 67 Natuurlijke Snacks
+   Biologische Hondensnacks Winkel | 500 Natuurlijke Snacks
   </title>
-  <meta content="Officiële Biologische Hondensnacks winkel - 67 natuurlijke hondensnacks geselecteerd. De beste snacks voor je hond via bol.com." name="description"/>
+  <meta content="Officiële Biologische Hondensnacks winkel - 500 natuurlijke hondensnacks geselecteerd. De beste snacks voor je hond via bol.com." name="description"/>
   <link href="css/styles.css" rel="stylesheet"/>
   <link href="https://biologische-hondensnacks.nl/winkel.html" rel="canonical"/>
   <!-- Favicon -->
@@ -18,6 +18,7 @@
   <link href="https://fonts.googleapis.com" rel="preconnect"/>
   <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Outfit:wght@400;600;700&amp;family=DM+Serif+Display:ital,wght@0,400&amp;display=swap" rel="stylesheet"/>
+  <script src="products.js"></script>
   <style>
    @keyframes spin {
             0% { transform: rotate(0deg); }
@@ -114,7 +115,7 @@
      </h1>
      <p>
       <span id="total-products">
-       64
+       500
       </span>
       producten getest en geselecteerd door onze experts
      </p>
@@ -137,7 +138,7 @@
      <!-- Trust badges modernisés -->
      <div>
       <div>
-       67 producten getest
+       500 producten getest
       </div>
       <div>
        Onafhankelijke reviews
@@ -158,7 +159,7 @@
    <div>
     <div>
      <strong id="results-count">
-      67 producten
+      500 producten
      </strong>
      <select id="filter-type" onchange="applyFilters()">
       <option value="">
@@ -348,23 +349,17 @@
    </div>
   </footer>
   <script>
-   // Charger les données depuis le JSON
+   // Charger les produits depuis products.js
     let allProducts = [];
     let currentPage = 1;
     const productsPerPage = 12;
     let filteredProducts = [];
 
     // Charger les produits au démarrage
-    document.addEventListener('DOMContentLoaded', async function() {
+    document.addEventListener('DOMContentLoaded', function() {
         try {
             console.log('Début du chargement des produits...');
-            const response = await fetch('all_products.json');
-            
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            
-            allProducts = await response.json();
+            allProducts = products; // Utiliser les produits chargés depuis products.js
             console.log(`${allProducts.length} produits chargés avec succès`);
             
             filteredProducts = [...allProducts];
@@ -373,11 +368,8 @@
             updatePagination();
         } catch (error) {
             console.error('Erreur chargement produits:', error);
-            console.log('Chargement des produits de fallback...');
             hideLoadingIndicator();
             showErrorMessage();
-            // Fallback avec quelques produits de base
-            setTimeout(loadFallbackProducts, 1000);
         }
     });
 
@@ -461,51 +453,34 @@
         const card = document.createElement('div');
         card.className = 'card';
         
-        const inductieIcon = product.inductie === 'Oui' ? 'Inductie' : '';
-        const tassenIcon = product.capaciteit > 0 ? `${product.capaciteit} kopjes` : '';
-        const materiaalIcon = (product.materiaal && (product.materiaal.includes('inox') || product.materiaal.includes('RVS'))) ? 'RVS' : 'Aluminium';
-        
         card.innerHTML = `
             <div>
                 <div>
                     #${position}
                 </div>
                 
-                <img src="${product.image}" alt="${product.name}"
-                     onerror="this.src='Images/placeholder-product.jpg'">
+                <a href="${product.pageUrl}">
+                    <img src="${product.imageUrl}" alt="${product.title}"
+                         onerror="this.src='Images/placeholder-product.jpg'" style="width: 100%; height: 200px; object-fit: cover; border-radius: var(--r-lg);">
+                </a>
                 
-                <div>
-                    ${inductieIcon ? `<span>${inductieIcon}</span>` : ''}
-                    ${tassenIcon ? `<span>${tassenIcon}</span>` : ''}
-                    <span>${materiaalIcon}</span>
-                </div>
+                <h3 style="font-size: var(--fs-base); font-weight: 600; color: var(--text); margin: var(--sp-4) 0 var(--sp-2);">
+                    <a href="${product.pageUrl}" style="text-decoration: none; color: var(--text);">
+                        ${product.title.substring(0, 80)}...
+                    </a>
+                </h3>
                 
-                <h3>${product.name}</h3>
-                
-                <div>
-                    <div>
-                        ${'★'.repeat(Math.floor(product.rating))}${'☆'.repeat(5 - Math.floor(product.rating))}
-                    </div>
-                    <span>${product.rating} (${product.reviews})</span>
-                </div>
-                
-                <p>
-                    ${product.description}
+                <p style="color: var(--text-dim); font-size: var(--fs-sm); margin-bottom: var(--sp-2);">
+                    ${product.description.substring(0, 100)}...
                 </p>
                 
-                <div>
-                    <span>€${product.price}</span>
-                    <span>Op voorraad</span>
+                <div style="font-size: var(--fs-xl); font-weight: 700; color: var(--primary);">
+                    €${product.price.toFixed(2)}
                 </div>
                 
-                <div>
-                    <a href="produits/${product.slug}.html" class="btn btn-primary">
-                        Bekijk details
-                    </a>
-                    <button onclick="quickView('${product.slug}')" class="btn btn-outline">
-                        👁️
-                    </button>
-                </div>
+                <a href="${product.productUrl}" rel="nofollow noopener" target="_blank" class="btn btn-primary" style="margin-top: var(--sp-4);">
+                    Bekijk op Bol.com
+                </a>
             </div>
         `;
         
