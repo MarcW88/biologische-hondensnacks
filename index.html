@@ -24,66 +24,48 @@
   <link href="https://www.bol.com" rel="preconnect"/>
   <link href="https://fonts.googleapis.com" rel="preconnect"/>
   <!-- Styles -->
-  <link href="css/styles.css" rel="stylesheet"/>
+  <link href="style.css" rel="stylesheet"/>
   <!-- Schema Markup -->
   <script type="application/ld+json">
    { "@context": "https://schema.org", "@type": "WebSite", "name": "Biologische Hondensnacks", "url": "https://biologische-hondensnacks.nl", "description": "De beste biologische en natuurlijke hondensnacks van Nederland", "potentialAction": { "@type": "SearchAction", "target": "https://biologische-hondensnacks.nl/search?q={search_term_string}", "query-input": "required name=search_term_string" } }
   </script>
  </head>
  <body>
-  <!-- Header -->
-  <header class="header">
-   <div class="container">
-    <div class="header-content">
-     <div class="logo">
-      <a href="../" style="color: #E68161; text-decoration: none;">
-       Biologische Hondensnacks
-      </a>
-     </div>
-     <nav class="nav">
-      <ul>
-       <li>
-        <a href="/" style=" text-decoration: none;">
-         Home
-        </a>
-       </li>
-       <li>
-        <a href="/natuurlijke-hondensnacks/" style=" text-decoration: none;">
-         Natuurlijke snacks
-        </a>
-       </li>
-       <li>
-        <a href="/beste-hondensnacks-2026/" style=" text-decoration: none;">
-         Top 10 Beste
-        </a>
-       </li>
-       <li>
-        <a href="/hondensnacks-voor-puppy/" style=" text-decoration: none;">
-         Puppy Snacks
-        </a>
-       </li>
-       <li>
-        <a href="/blog/" style=" text-decoration: none;">
-         Blog
-        </a>
-       </li>
-       <li>
-        <a href="/over-ons/" style=" text-decoration: none;">
-         Over Ons
-        </a>
-       </li>
-       <li>
-        <a class="nav-shop" href="winkel.html" style=" text-decoration: none;">
-         Winkel
-        </a>
-       </li>
-      </ul>
-     </nav>
-     <button class="mobile-menu-toggle">
-     </button>
-    </div>
-   </div>
-  </header>
+  <!-- Navigation -->
+  <nav class="navbar">
+  <div class="container">
+  <div class="nav-container">
+  <a class="nav-brand" href="index.html">Biologische Hondensnacks</a>
+  <button class="mobile-menu-toggle" aria-label="Menu">
+  <span></span>
+  <span></span>
+  <span></span>
+  </button>
+  <ul class="nav-menu">
+  <li><a class="nav-link" href="index.html">Home</a></li>
+  <li><a class="nav-link" href="natuurlijke-hondensnacks/">Natuurlijke snacks</a></li>
+  <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="beste-hondensnacks-2026/">Gidsen</a>
+  <ul class="dropdown-menu">
+  <li><a class="dropdown-link" href="beste-hondensnacks-2026/">Top 10</a></li>
+  <li><a class="dropdown-link" href="natuurlijke-hondensnacks/">Natuurlijke snacks</a></li>
+  <li><a class="dropdown-link" href="blog/">Blog</a></li>
+  </ul>
+  </li>
+  <li><a class="nav-link" href="hondensnacks-voor-puppy/">Puppy Snacks</a></li>
+  <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle active" href="winkel.html">Winkel</a>
+  <ul class="dropdown-menu">
+  <li><a class="dropdown-link" href="winkel.html">Alle producten</a></li>
+  <li><a class="dropdown-link" href="kauwsnacks-tandverzorging/">Kauwsnacks</a></li>
+  <li><a class="dropdown-link" href="hypoallergene-hondensnacks/">Hypoallergeen</a></li>
+  </ul>
+  </li>
+  </ul>
+  </div>
+  </div>
+  </nav>
+  <div class="mobile-menu-overlay"></div>
   <!-- Hero Section -->
   <section class="hero" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=1600&q=80') center/cover; color: white; padding: 80px 0;">
    <div class="container">
@@ -1319,5 +1301,44 @@
     </div>
    </div>
   </footer>
+
+<script>
+const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+const mobileMenuOverlay = document.querySelector('.mobile-menu-overlay');
+const navMenu = document.querySelector('.nav-menu');
+
+if (mobileMenuToggle) {
+    mobileMenuToggle.addEventListener('click', () => {
+        mobileMenuToggle.classList.toggle('active');
+        navMenu.classList.toggle('active');
+        mobileMenuOverlay.classList.toggle('active');
+        document.body.style.overflow = navMenu.classList.contains('active') ? 'hidden' : '';
+    });
+}
+
+if (mobileMenuOverlay) {
+    mobileMenuOverlay.addEventListener('click', () => {
+        mobileMenuToggle.classList.remove('active');
+        navMenu.classList.remove('active');
+        mobileMenuOverlay.classList.remove('active');
+        document.body.style.overflow = '';
+    });
+}
+
+// Mobile dropdown toggle
+const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+dropdownToggles.forEach(toggle => {
+    toggle.addEventListener('click', (e) => {
+        if (window.innerWidth <= 768) {
+            e.preventDefault();
+            const dropdownItem = toggle.closest('.nav-item.dropdown');
+            dropdownItem.classList.toggle('active');
+            const dropdownMenu = dropdownItem.querySelector('.dropdown-menu');
+            dropdownMenu.classList.toggle('active');
+        }
+    });
+});
+</script>
+
  </body>
 </html>
