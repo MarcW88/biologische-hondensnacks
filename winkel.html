@@ -92,6 +92,28 @@
 <!-- Products Grid -->
 <section style="padding: 1.5rem 0;">
 <div class="container">
+<div class="grid" style="grid-template-columns: 250px 1fr; gap: var(--sp-8);">
+<!-- Sidebar Filters -->
+<div style="position: sticky; top: 100px; height: fit-content;">
+<h3 style="font-family: var(--font-display); margin-bottom: var(--sp-4);">Filters</h3>
+<div style="margin-bottom: var(--sp-6);">
+<h4 style="font-size: var(--fs-sm); font-weight: 600; margin-bottom: var(--sp-2);">Categorie</h4>
+<label style="display: block; margin-bottom: var(--sp-1);"><input type="checkbox" value="kauwsnacks" onchange="filterProducts()"> Kauwsnacks</label>
+<label style="display: block; margin-bottom: var(--sp-1);"><input type="checkbox" value="trainingssnacks" onchange="filterProducts()"> Trainingssnacks</label>
+<label style="display: block; margin-bottom: var(--sp-1);"><input type="checkbox" value="biologisch" onchange="filterProducts()"> Biologisch</label>
+<label style="display: block; margin-bottom: var(--sp-1);"><input type="checkbox" value="hypoallergeen" onchange="filterProducts()"> Hypoallergeen</label>
+</div>
+<div style="margin-bottom: var(--sp-6);">
+<h4 style="font-size: var(--fs-sm); font-weight: 600; margin-bottom: var(--sp-2);">Prijs</h4>
+<label style="display: block; margin-bottom: var(--sp-1);"><input type="radio" name="price" value="all" checked onchange="filterProducts()"> Alle prijzen</label>
+<label style="display: block; margin-bottom: var(--sp-1);"><input type="radio" name="price" value="0-10" onchange="filterProducts()"> €0 - €10</label>
+<label style="display: block; margin-bottom: var(--sp-1);"><input type="radio" name="price" value="10-20" onchange="filterProducts()"> €10 - €20</label>
+<label style="display: block; margin-bottom: var(--sp-1);"><input type="radio" name="price" value="20-50" onchange="filterProducts()"> €20 - €50</label>
+<label style="display: block; margin-bottom: var(--sp-1);"><input type="radio" name="price" value="50+" onchange="filterProducts()"> €50+</label>
+</div>
+</div>
+<!-- Products -->
+<div>
 <h2 style="font-family: var(--font-display); margin-bottom: var(--sp-2);">Onze selectie</h2>
 <p class="text-dim" style="margin-bottom: var(--sp-6); max-width: 560px;">500 biologische hondensnacks getest en geselecteerd door onze experts.</p>
 <div id="products-grid" class="grid grid-3" style="gap: var(--sp-6);">
@@ -208,9 +230,12 @@ function displayProducts() {
 function createProductCard(product, position) {
     const card = document.createElement('div');
     card.className = 'card';
+    card.style.height = '100%';
+    card.style.display = 'flex';
+    card.style.flexDirection = 'column';
     
     card.innerHTML = `
-        <div>
+        <div style="display: flex; flex-direction: column; height: 100%;">
             <div>
                 #${position}
             </div>
@@ -218,14 +243,11 @@ function createProductCard(product, position) {
                 <img src="${product.imageUrl}" alt="${product.title}"
                      onerror="this.src='Images/placeholder-product.jpg'" style="width: 100%; height: 200px; object-fit: cover; border-radius: var(--r-lg);">
             </a>
-            <h3 style="font-size: var(--fs-base); font-weight: 600; color: var(--text); margin: var(--sp-4) 0 var(--sp-2);">
+            <h3 style="font-size: var(--fs-base); font-weight: 600; color: var(--text); margin: var(--sp-4) 0 var(--sp-2); flex: 1;">
                 <a href="${product.pageUrl}" style="text-decoration: none; color: var(--text);">
                     ${product.title.substring(0, 80)}...
                 </a>
             </h3>
-            <p style="color: var(--text-dim); font-size: var(--fs-sm); margin-bottom: var(--sp-2);">
-                ${product.description.substring(0, 100)}...
-            </p>
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--sp-4);">
                 <span style="font-size: var(--fs-xl); font-weight: 700; color: var(--primary);">
                     €${product.price.toFixed(2)}
@@ -284,6 +306,53 @@ function changePage(page) {
     currentPage = page;
     displayProducts();
     window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function filterProducts() {
+    const categoryCheckboxes = document.querySelectorAll('input[type="checkbox"][value]');
+    const priceRadio = document.querySelector('input[name="price"]:checked');
+    
+    const selectedCategories = Array.from(categoryCheckboxes)
+        .filter(cb => cb.checked)
+        .map(cb => cb.value);
+    
+    const selectedPrice = priceRadio ? priceRadio.value : 'all';
+    
+    filteredProducts = allProducts.filter(product => {
+        // Filter by category
+        if (selectedCategories.length > 0) {
+            const productCategory = product.category || '';
+            const hasMatchingCategory = selectedCategories.some(cat => 
+                productCategory.toLowerCase().includes(cat.toLowerCase()) ||
+                product.title.toLowerCase().includes(cat.toLowerCase())
+            );
+            if (!hasMatchingCategory) return false;
+        }
+        
+        // Filter by price
+        if (selectedPrice !== 'all') {
+            if (selectedPrice === '0-10' && product.price > 10) return false;
+            if (selectedPrice === '10-20' && (product.price < 10 || product.price > 20)) return false;
+            if (selectedPrice === '20-50' && (product.price < 20 || product.price > 50)) return false;
+            if (selectedPrice === '50+' && product.price < 50) return false;
+        }
+        
+        return true;
+    });
+    
+    currentPage = 1;
+    displayProducts();
+    
+    // Update URL with query parameters
+    const params = new URLSearchParams();
+    if (selectedCategories.length > 0) {
+        params.set('category', selectedCategories.join(','));
+    }
+    if (selectedPrice !== 'all') {
+        params.set('price', selectedPrice);
+    }
+    const newUrl = params.toString() ? `?${params.toString()}` : 'winkel.html';
+    window.history.replaceState({}, '', newUrl);
 }
 </script>
 
