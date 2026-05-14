@@ -13,7 +13,7 @@
   <link href="favicon.svg" rel="icon" type="image/svg+xml"/>
   <link href="favicon-simple.svg" rel="icon" sizes="16x16" type="image/svg+xml"/>
   <link href="favicon.svg" rel="apple-touch-icon" sizes="180x180"/>
-  <meta content="#E68161" name="theme-color"/>
+  <meta content="var(--primary)" name="theme-color"/>
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect"/>
   <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -27,13 +27,13 @@
  </head>
  <body>
   <!-- Breadcrumbs -->
-  <nav style="background: #f8f9fa; padding: 0.5rem 0; font-size: 0.9rem;">
+  <nav style="background: #f8f9fa; padding: 0.5rem 0; font-size: var(--fs-sm);">
    <div class="container">
     <a href="index.html" style="color: #666; text-decoration: none;">
      Home
     </a>
     &gt;
-    <span style="color: #E68161; font-weight: 600;">
+    <span style="color: var(--primary); font-weight: 600;">
      Winkel
     </span>
    </div>
@@ -43,7 +43,7 @@
    <div class="container">
     <div class="header-content">
      <div class="logo">
-      <a href="/" style="color: #E68161; text-decoration: none;">
+      <a href="/" style="color: var(--primary); text-decoration: none;">
        Biologische Hondensnacks
       </a>
      </div>
@@ -108,8 +108,8 @@
   <!-- Hero Section avec gradient moderne -->
   <section class="hero" style="background: linear-gradient(135deg, rgba(45, 55, 72, 0.85), rgba(26, 32, 44, 0.90)), url('https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=1600&q=80') center/cover; min-height: 500px; display: flex; align-items: center; color: white; position: relative;">
    <div class="container" style="text-align: center; position: relative; z-index: 2;">
-    <div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); border-radius: 20px; padding: 3rem 2rem; max-width: 800px; margin: 0 auto; border: 1px solid rgba(255,255,255,0.2);">
-     <h1 style="font-size: 3.5rem; margin-bottom: 1rem; font-weight: 700; background: linear-gradient(45deg, #fff, #f0f0f0); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-shadow: none;">
+    <div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); border-radius: var(--r-2xl); padding: 3rem 2rem; max-width: 800px; margin: 0 auto; border: 1px solid rgba(255,255,255,0.2);">
+     <h1 style="font-size: var(--fs-5xl); margin-bottom: var(--sp-4); font-weight: 700; background: linear-gradient(45deg, #fff, #f0f0f0); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-shadow: none;">
       Biologische Hondensnacks Winkel
      </h1>
      <p style="font-size: 1.3rem; margin-bottom: 2rem; opacity: 0.95; font-weight: 500;">
@@ -120,7 +120,7 @@
      </p>
      <!-- Barre recherche améliorée -->
      <div style="max-width: 500px; margin: 0 auto 2rem; position: relative;">
-      <input id="search-input" placeholder="Zoek de perfecte hondensnack..." style="width: 100%; padding: 1.2rem 1.5rem; border: none; border-radius: 30px; font-size: 1.1rem; box-shadow: 0 8px 25px rgba(0,0,0,0.3); background: rgba(255,255,255,0.95); backdrop-filter: blur(10px);" type="text"/>
+      <input id="search-input" placeholder="Zoek de perfecte hondensnack..." style="width: 100%; padding: 1.2rem 1.5rem; border: none; border-radius: 30px; font-size: var(--fs-lg); box-shadow: 0 8px 25px rgba(0,0,0,0.3); background: rgba(255,255,255,0.95); backdrop-filter: blur(10px);" type="text"/>
      </div>
      <!-- Quick filters stylés -->
      <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; margin-bottom: 2rem;">
@@ -153,14 +153,14 @@
    </div>
   </section>
   <!-- Categories Section -->
-  <main class="container" style="padding: 3rem 0;">
+  <main class="container" style="padding: var(--sp-12) 0;">
    <!-- Filtres et tri -->
-   <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; padding: 1.5rem; background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); flex-wrap: wrap; gap: 1rem;">
+   <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; padding: var(--sp-6); background: white; border-radius: var(--r-xl); box-shadow: 0 4px 20px rgba(0,0,0,0.1); flex-wrap: wrap; gap: 1rem;">
     <div style="display: flex; gap: 1rem; flex-wrap: wrap; align-items: center;">
      <strong id="results-count">
       67 producten
      </strong>
-     <select id="filter-type" onchange="applyFilters()" style="padding: 0.8rem; border: 2px solid #e0e0e0; border-radius: 8px; background: white;">
+     <select id="filter-type" onchange="applyFilters()" style="padding: 0.8rem; border: 2px solid #e0e0e0; border-radius: var(--r-lg); background: white;">
       <option value="">
        Alle types
       </option>
@@ -173,7 +173,7 @@
       <option value="Sticks">Gedraaide Sticks</option>
       <option value="Filet">Filet</option>
      </select>
-     <select id="filter-doelgroep" onchange="applyFilters()" style="padding: 0.8rem; border: 2px solid #e0e0e0; border-radius: 8px; background: white;">
+     <select id="filter-doelgroep" onchange="applyFilters()" style="padding: 0.8rem; border: 2px solid #e0e0e0; border-radius: var(--r-lg); background: white;">
       <option value="">
        Alle levensfases
       </option>
@@ -182,7 +182,7 @@
       <option value="Adult">Adult (2-8 jaar)</option>
       <option value="Elke">Elke levensfase</option>
      </select>
-     <select id="filter-merk" onchange="applyFilters()" style="padding: 0.8rem; border: 2px solid #e0e0e0; border-radius: 8px; background: white;">
+     <select id="filter-merk" onchange="applyFilters()" style="padding: 0.8rem; border: 2px solid #e0e0e0; border-radius: var(--r-lg); background: white;">
       <option value="">
        Alle merken
       </option>
@@ -206,7 +206,7 @@
      <label>
       Sorteren:
      </label>
-     <select id="sort-select" onchange="sortProducts()" style="padding: 0.8rem; border: 2px solid #e0e0e0; border-radius: 8px; background: white;">
+     <select id="sort-select" onchange="sortProducts()" style="padding: 0.8rem; border: 2px solid #e0e0e0; border-radius: var(--r-lg); background: white;">
       <option value="populair">
        Populairiteit
       </option>
@@ -223,28 +223,28 @@
        Naam A-Z
       </option>
      </select>
-     <button onclick="clearFilters()" style="padding: 0.8rem 1.2rem; background: #6c757d; color: white; border: none; border-radius: 8px; cursor: pointer; font-weight: 600;">
+     <button onclick="clearFilters()" style="padding: 0.8rem 1.2rem; background: #6c757d; color: white; border: none; border-radius: var(--r-lg); cursor: pointer; font-weight: 600;">
       Wis filters
      </button>
     </div>
    </div>
    <!-- Indicateur de chargement -->
    <div id="loading-indicator" style="text-align: center; padding: 3rem; display: block;">
-    <div style="display: inline-block; width: 50px; height: 50px; border: 3px solid #f3f3f3; border-top: 3px solid #E68161; border-radius: 50%; animation: spin 1s linear infinite;">
+    <div style="display: inline-block; width: 50px; height: 50px; border: 3px solid #f3f3f3; border-top: 3px solid var(--primary); border-radius: 50%; animation: spin 1s linear infinite;">
     </div>
     <p style="margin-top: 1rem; color: #666;">
      Producten laden...
     </p>
    </div>
    <!-- Message d'erreur -->
-   <div id="error-message" style="text-align: center; padding: 3rem; display: none; background: #f8d7da; color: #721c24; border-radius: 8px; margin-bottom: 2rem;">
+   <div id="error-message" style="text-align: center; padding: 3rem; display: none; background: #f8d7da; color: #721c24; border-radius: var(--r-lg); margin-bottom: 2rem;">
     <h3>
      Oeps! Er is een probleem opgetreden
     </h3>
     <p>
      De producten kunnen momenteel niet geladen worden. Probeer de pagina te vernieuwen.
     </p>
-    <button onclick="location.reload()" style="padding: 0.8rem 1.5rem; background: #E68161; color: white; border: none; border-radius: 6px; cursor: pointer; margin-top: 1rem;">
+    <button onclick="location.reload()" style="padding: 0.8rem 1.5rem; background: var(--primary); color: white; border: none; border-radius: 6px; cursor: pointer; margin-top: 1rem;">
      Pagina vernieuwen
     </button>
    </div>
@@ -257,27 +257,27 @@
     <!-- Pagination sera générée par JavaScript -->
    </div>
    <!-- Newsletter signup -->
-   <section style="background: linear-gradient(135deg, #E68161, #8B4513); color: white; padding: 3rem 2rem; border-radius: 12px; text-align: center; margin-bottom: 3rem;">
-    <h2 style="font-size: 2rem; margin-bottom: 1rem;">
+   <section style="background: linear-gradient(135deg, var(--primary), #8B4513); color: white; padding: 3rem 2rem; border-radius: var(--r-xl); text-align: center; margin-bottom: 3rem;">
+    <h2 style="font-size: 2rem; margin-bottom: var(--sp-4);">
      Blijf op de hoogte!
     </h2>
-    <p style="font-size: 1.1rem; margin-bottom: 2rem; opacity: 0.9;">
+    <p style="font-size: var(--fs-lg); margin-bottom: 2rem; opacity: 0.9;">
      Ontvang wekelijkse koffietips en exclusieve aanbiedingen
     </p>
     <div style="max-width: 400px; margin: 0 auto; display: flex; gap: 0.5rem;">
      <input placeholder="Je email adres..." style="flex: 1; padding: 1rem; border: none; border-radius: 6px;" type="email"/>
-     <button style="padding: 1rem 1.5rem; background: white; color: #E68161; border: none; border-radius: 6px; font-weight: 600; cursor: pointer;">
+     <button style="padding: 1rem 1.5rem; background: white; color: var(--primary); border: none; border-radius: 6px; font-weight: 600; cursor: pointer;">
       Inschrijven
      </button>
     </div>
    </section>
   </main>
   <!-- Footer -->
-  <footer style="background: #374151; color: #e5e7eb; padding: 3rem 0 1rem 0;">
+  <footer style="background: #374151; color: var(--border); padding: var(--sp-12) 0 1rem 0;">
    <div class="container">
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 3rem; margin-bottom: 2rem;">
      <div>
-      <h3 style="color: #E68161; margin-bottom: 1rem; font-size: 1.25rem;">
+      <h3 style="color: var(--primary); margin-bottom: var(--sp-4); font-size: 1.25rem;">
        Biologische Hondensnacks
       </h3>
       <p style="color: #9ca3af; line-height: 1.6; margin: 0;">
@@ -285,49 +285,49 @@
       </p>
      </div>
      <div>
-      <h3 style="color: #E68161; margin-bottom: 1rem; font-size: 1.25rem;">
+      <h3 style="color: var(--primary); margin-bottom: var(--sp-4); font-size: 1.25rem;">
        Navigatie
       </h3>
       <ul style="list-style: none; padding: 0; margin: 0;">
-       <li style="margin-bottom: 0.5rem;">
-        <a href="/" style="color: #e5e7eb; text-decoration: none;">
+       <li style="margin-bottom: var(--sp-2);">
+        <a href="/" style="color: var(--border); text-decoration: none;">
          Home
         </a>
        </li>
-       <li style="margin-bottom: 0.5rem;">
-        <a href="winkel.html" style="color: #e5e7eb; text-decoration: none;">
+       <li style="margin-bottom: var(--sp-2);">
+        <a href="winkel.html" style="color: var(--border); text-decoration: none;">
          Winkel
         </a>
        </li>
-       <li style="margin-bottom: 0.5rem;">
-        <a href="/blog/" style="color: #e5e7eb; text-decoration: none;">
+       <li style="margin-bottom: var(--sp-2);">
+        <a href="/blog/" style="color: var(--border); text-decoration: none;">
          Blog
         </a>
        </li>
-       <li style="margin-bottom: 0.5rem;">
-        <a href="/over-ons/" style="color: #e5e7eb; text-decoration: none;">
+       <li style="margin-bottom: var(--sp-2);">
+        <a href="/over-ons/" style="color: var(--border); text-decoration: none;">
          Over ons
         </a>
        </li>
       </ul>
      </div>
      <div>
-      <h3 style="color: #E68161; margin-bottom: 1rem; font-size: 1.25rem;">
+      <h3 style="color: var(--primary); margin-bottom: var(--sp-4); font-size: 1.25rem;">
        Juridisch
       </h3>
       <ul style="list-style: none; padding: 0; margin: 0;">
-       <li style="margin-bottom: 0.5rem;">
-        <a href="/privacy-policy/" style="color: #e5e7eb; text-decoration: none;">
+       <li style="margin-bottom: var(--sp-2);">
+        <a href="/privacy-policy/" style="color: var(--border); text-decoration: none;">
          Privacy policy
         </a>
        </li>
-       <li style="margin-bottom: 0.5rem;">
-        <a href="/algemene-voorwaarden/" style="color: #e5e7eb; text-decoration: none;">
+       <li style="margin-bottom: var(--sp-2);">
+        <a href="/algemene-voorwaarden/" style="color: var(--border); text-decoration: none;">
          Algemene voorwaarden
         </a>
        </li>
-       <li style="margin-bottom: 0.5rem;">
-        <a href="/disclaimer/" style="color: #e5e7eb; text-decoration: none;">
+       <li style="margin-bottom: var(--sp-2);">
+        <a href="/disclaimer/" style="color: var(--border); text-decoration: none;">
          Disclaimer
         </a>
        </li>
@@ -335,13 +335,13 @@
      </div>
     </div>
     <div style="border-top: 1px solid #4b5563; padding-top: 1.5rem; text-align: center;">
-     <p style="margin: 0 0 1rem 0; color: #9ca3af; font-size: 0.9rem;">
+     <p style="margin: 0 0 1rem 0; color: #9ca3af; font-size: var(--fs-sm);">
       <strong>
        Disclaimer:
       </strong>
       De informatie op deze website is alleen bedoeld voor algemene doeleinden en vervangt geen professioneel veterinair advies. Raadpleeg altijd je dierenarts voor specifieke voedings- en gezondheidsadvies voor je hond.
      </p>
-     <p style="margin: 0; color: #9ca3af; font-size: 0.9rem;">
+     <p style="margin: 0; color: #9ca3af; font-size: var(--fs-sm);">
       © 2026 Biologische hondensnacks. Alle rechten voorbehouden. | Gemaakt voor honden en hun baasjes
      </p>
     </div>
@@ -466,46 +466,46 @@
         const materiaalIcon = (product.materiaal && (product.materiaal.includes('inox') || product.materiaal.includes('RVS'))) ? 'RVS' : 'Aluminium';
         
         card.innerHTML = `
-            <div style="background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 20px rgba(0,0,0,0.1); position: relative; transition: all 0.3s ease; height: 100%;">
-                <div style="position: absolute; top: 15px; right: 15px; background: #E68161; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem; font-weight: 600;">
+            <div style="background: white; border-radius: var(--r-xl); padding: var(--sp-6); box-shadow: 0 4px 20px rgba(0,0,0,0.1); position: relative; transition: all 0.3s ease; height: 100%;">
+                <div style="position: absolute; top: 15px; right: 15px; background: var(--primary); color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem; font-weight: 600;">
                     #${position}
                 </div>
                 
                 <img src="${product.image}" alt="${product.name}" 
-                     style="width: 100%; height: 220px; object-fit: contain; object-position: center; background: #f8f9fa; border-radius: 8px; margin-bottom: 1rem;"
+                     style="width: 100%; height: 220px; object-fit: contain; object-position: center; background: #f8f9fa; border-radius: var(--r-lg); margin-bottom: var(--sp-4);"
                      onerror="this.src='Images/placeholder-product.jpg'">
                 
                 <div style="display: flex; gap: 0.5rem; margin-bottom: 0.8rem; font-size: 0.8rem; flex-wrap: wrap;">
-                    ${inductieIcon ? `<span style="background: #e8f5e8; color: #2d5a2d; padding: 0.3rem 0.6rem; border-radius: 12px; font-weight: 600;">${inductieIcon}</span>` : ''}
-                    ${tassenIcon ? `<span style="background: #e8f0ff; color: #1a4480; padding: 0.3rem 0.6rem; border-radius: 12px; font-weight: 600;">${tassenIcon}</span>` : ''}
-                    <span style="background: #fff3e0; color: #8b4513; padding: 0.3rem 0.6rem; border-radius: 12px; font-weight: 600;">${materiaalIcon}</span>
+                    ${inductieIcon ? `<span style="background: #e8f5e8; color: #2d5a2d; padding: 0.3rem 0.6rem; border-radius: var(--r-xl); font-weight: 600;">${inductieIcon}</span>` : ''}
+                    ${tassenIcon ? `<span style="background: #e8f0ff; color: #1a4480; padding: 0.3rem 0.6rem; border-radius: var(--r-xl); font-weight: 600;">${tassenIcon}</span>` : ''}
+                    <span style="background: #fff3e0; color: #8b4513; padding: 0.3rem 0.6rem; border-radius: var(--r-xl); font-weight: 600;">${materiaalIcon}</span>
                 </div>
                 
-                <h3 style="font-size: 1.1rem; margin-bottom: 0.8rem; line-height: 1.3; height: 2.6rem; overflow: hidden;">${product.name}</h3>
+                <h3 style="font-size: var(--fs-lg); margin-bottom: 0.8rem; line-height: 1.3; height: 2.6rem; overflow: hidden;">${product.name}</h3>
                 
                 <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.8rem;">
-                    <div style="color: #ffd700; font-size: 1.1rem;">
+                    <div style="color: #ffd700; font-size: var(--fs-lg);">
                         ${'★'.repeat(Math.floor(product.rating))}${'☆'.repeat(5 - Math.floor(product.rating))}
                     </div>
-                    <span style="font-size: 0.9rem; color: #666;">${product.rating} (${product.reviews})</span>
+                    <span style="font-size: var(--fs-sm); color: #666;">${product.rating} (${product.reviews})</span>
                 </div>
                 
-                <p style="color: #666; font-size: 0.9rem; margin-bottom: 1.5rem; line-height: 1.4; height: 2.8rem; overflow: hidden;">
+                <p style="color: #666; font-size: var(--fs-sm); margin-bottom: var(--sp-6); line-height: 1.4; height: 2.8rem; overflow: hidden;">
                     ${product.description}
                 </p>
                 
-                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
-                    <span style="font-size: 1.4rem; font-weight: bold; color: #E68161;">€${product.price}</span>
-                    <span style="background: #e8f5e8; color: #2d5a2d; padding: 0.3rem 0.8rem; border-radius: 12px; font-size: 0.8rem; font-weight: 600;">Op voorraad</span>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--sp-6);">
+                    <span style="font-size: 1.4rem; font-weight: bold; color: var(--primary);">€${product.price}</span>
+                    <span style="background: #e8f5e8; color: #2d5a2d; padding: 0.3rem 0.8rem; border-radius: var(--r-xl); font-size: 0.8rem; font-weight: 600;">Op voorraad</span>
                 </div>
                 
                 <div style="display: flex; gap: 0.5rem;">
                     <a href="produits/${product.slug}.html" class="btn btn-primary" 
-                       style="flex: 1; text-align: center; padding: 0.8rem; background: #E68161; color: white; text-decoration: none; border-radius: 8px; font-size: 0.9rem; font-weight: 600; transition: all 0.3s ease;">
+                       style="flex: 1; text-align: center; padding: 0.8rem; background: var(--primary); color: white; text-decoration: none; border-radius: var(--r-lg); font-size: var(--fs-sm); font-weight: 600; transition: all 0.3s ease;">
                         Bekijk details
                     </a>
                     <button onclick="quickView('${product.slug}')" class="btn btn-outline" 
-                            style="padding: 0.8rem; border: 2px solid #E68161; background: transparent; color: #E68161; border-radius: 8px; cursor: pointer; font-size: 0.9rem; transition: all 0.3s ease;">
+                            style="padding: 0.8rem; border: 2px solid var(--primary); background: transparent; color: var(--primary); border-radius: var(--r-lg); cursor: pointer; font-size: var(--fs-sm); transition: all 0.3s ease;">
                         👁️
                     </button>
                 </div>
@@ -527,7 +527,7 @@
             const prevBtn = document.createElement('button');
             prevBtn.textContent = '← Vorige';
             prevBtn.onclick = () => { currentPage--; displayProducts(); updatePagination(); };
-            prevBtn.style.cssText = 'padding: 0.8rem 1.2rem; background: #E68161; color: white; border: none; border-radius: 8px; cursor: pointer; font-weight: 600;';
+            prevBtn.style.cssText = 'padding: 0.8rem 1.2rem; background: var(--primary); color: white; border: none; border-radius: var(--r-lg); cursor: pointer; font-weight: 600;';
             pagination.appendChild(prevBtn);
         }
         
@@ -539,7 +539,7 @@
             const pageBtn = document.createElement('button');
             pageBtn.textContent = i;
             pageBtn.onclick = () => { currentPage = i; displayProducts(); updatePagination(); };
-            pageBtn.style.cssText = `padding: 0.8rem 1rem; border: 2px solid #E68161; background: ${i === currentPage ? '#E68161' : 'white'}; color: ${i === currentPage ? 'white' : '#E68161'}; border-radius: 8px; cursor: pointer; font-weight: 600; min-width: 45px;`;
+            pageBtn.style.cssText = `padding: 0.8rem 1rem; border: 2px solid var(--primary); background: ${i === currentPage ? 'var(--primary)' : 'white'}; color: ${i === currentPage ? 'white' : 'var(--primary)'}; border-radius: var(--r-lg); cursor: pointer; font-weight: 600; min-width: 45px;`;
             pagination.appendChild(pageBtn);
         }
         
@@ -548,14 +548,14 @@
             const nextBtn = document.createElement('button');
             nextBtn.textContent = 'Volgende →';
             nextBtn.onclick = () => { currentPage++; displayProducts(); updatePagination(); };
-            nextBtn.style.cssText = 'padding: 0.8rem 1.2rem; background: #E68161; color: white; border: none; border-radius: 8px; cursor: pointer; font-weight: 600;';
+            nextBtn.style.cssText = 'padding: 0.8rem 1.2rem; background: var(--primary); color: white; border: none; border-radius: var(--r-lg); cursor: pointer; font-weight: 600;';
             pagination.appendChild(nextBtn);
         }
         
         // Info pagination
         const info = document.createElement('div');
         info.textContent = `Pagina ${currentPage} van ${totalPages}`;
-        info.style.cssText = 'color: #666; font-size: 0.9rem; margin: 0 1rem;';
+        info.style.cssText = 'color: #666; font-size: var(--fs-sm); margin: 0 1rem;';
         pagination.appendChild(info);
     }
 
@@ -593,7 +593,7 @@
         .container a:hover div {
             transform: translateY(-5px) !important;
             box-shadow: 0 8px 30px rgba(0,0,0,0.15) !important;
-            border-color: #E68161 !important;
+            border-color: var(--primary) !important;
         }
     `;
     document.head.appendChild(categoryStyles);
