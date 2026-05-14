@@ -27,604 +27,211 @@
   </style>
  </head>
  <body>
-  <!-- Breadcrumbs -->
-  <nav>
-   <div class="container">
-    <a href="index.html">
-     Home
-    </a>
-    &gt;
-    <span>
-     Winkel
-    </span>
-   </div>
-  </nav>
-  <!-- Header -->
-  <header class="header">
-   <div class="container">
-    <div class="header-content">
-     <div class="logo">
-      <a href="/">
-       Biologische Hondensnacks
-      </a>
-     </div>
-     <nav class="nav">
-      <ul>
-       <li>
-        <a href="/">
-         Home
-        </a>
-       </li>
-       <li>
-        <a href="/natuurlijke-hondensnacks/">
-         Natuurlijke snacks
-        </a>
-       </li>
-       <li>
-        <a href="/beste-hondensnacks-2026/">
-         Top 10 Beste
-        </a>
-       </li>
-       <li>
-        <a href="/hondensnacks-voor-puppy/">
-         Puppy Snacks
-        </a>
-       </li>
-       <li>
-        <a href="/blog/">
-         Blog
-        </a>
-       </li>
-       <li>
-        <a href="/over-ons/">
-         Over Ons
-        </a>
-       </li>
-       <li>
-        <a class="nav-shop" href="winkel.html">
-         Winkel
-        </a>
-       </li>
-      </ul>
-     </nav>
-     <button class="mobile-menu-toggle">
-     </button>
-    </div>
-   </div>
-  </header>
-  <!-- Breadcrumbs -->
-  <div class="container">
-   <div class="breadcrumbs">
-    <a href="index.html">
-     Home
-    </a>
-    <span>
-     ›
-    </span>
-    <span>
-     Winkel
-    </span>
-   </div>
-  </div>
-  <!-- Hero Section avec gradient moderne -->
-  <section class="hero">
-   <div class="container">
-    <div>
-     <h1>
-      Biologische Hondensnacks Winkel
-     </h1>
-     <p>
-      <span id="total-products">
-       500
-      </span>
-      producten getest en geselecteerd door onze experts
-     </p>
-     <!-- Barre recherche améliorée -->
-     <div>
-      <input id="search-input" placeholder="Zoek de perfecte hondensnack..." type="text"/>
-     </div>
-     <!-- Quick filters stylés -->
-     <div>
-      <button class="quick-filter" onclick="quickFilterSnack('Yak Kaas')">
-       Yak Kaas
-      </button>
-      <button class="quick-filter" onclick="quickFilterSnack('Trainers')">
-       Trainingssnacks
-      </button>
-      <button class="quick-filter" onclick="quickFilterSnack('Konijn')">
-       Konijn Oren
-      </button>
-     </div>
-     <!-- Trust badges modernisés -->
-     <div>
-      <div>
-       500 producten getest
-      </div>
-      <div>
-       Onafhankelijke reviews
-      </div>
-      <div>
-       Expert advies
-      </div>
-     </div>
-    </div>
-   </div>
-   <!-- Overlay décoratif -->
-   <div>
-   </div>
-  </section>
-  <!-- Categories Section -->
-  <main class="container">
-   <!-- Filtres et tri -->
-   <div>
-    <div>
-     <strong id="results-count">
-      500 producten
-     </strong>
-     <select id="filter-type" onchange="applyFilters()">
-      <option value="">
-       Alle types
-      </option>
-      <option value="Yak Kaas">Yak Kaas</option>
-      <option value="Trainers">Trainers</option>
-      <option value="Assortiment">Assortiment</option>
-      <option value="Konijn">Konijn Oren</option>
-      <option value="Gewei">Gewei</option>
-      <option value="Kophuid">Kophuid</option>
-      <option value="Sticks">Gedraaide Sticks</option>
-      <option value="Filet">Filet</option>
-     </select>
-     <select id="filter-doelgroep" onchange="applyFilters()">
-      <option value="">
-       Alle levensfases
-      </option>
-      <option value="Puppy">Puppy (1-12 mnd)</option>
-      <option value="Junior">Junior (1-2 jaar)</option>
-      <option value="Adult">Adult (2-8 jaar)</option>
-      <option value="Elke">Elke levensfase</option>
-     </select>
-     <select id="filter-merk" onchange="applyFilters()">
-      <option value="">
-       Alle merken
-      </option>
-      <option value="Petstyle Living">Petstyle Living</option>
-      <option value="Topdiervoeding.nl">Topdiervoeding.nl</option>
-      <option value="Chewpi">Chewpi</option>
-      <option value="Boomy">Boomy</option>
-      <option value="snackmeester">Snackmeester</option>
-      <option value="BROK">BROK shop</option>
-      <option value="Lifetime">Lifetime Petfood</option>
-      <option value="Versvleeshonden">Versvleeshonden.nl</option>
-     </select>
-     <div>
-      <input id="filter-prijs" max="150" min="0" onchange="applyFilters()" type="range" value="150"/>
-      <span id="prijs-display">
-       €0-150
-      </span>
-     </div>
-    </div>
-    <div>
-     <label>
-      Sorteren:
-     </label>
-     <select id="sort-select" onchange="sortProducts()">
-      <option value="populair">
-       Populairiteit
-      </option>
-      <option value="prijs-laag">
-       Prijs laag-hoog
-      </option>
-      <option value="prijs-hoog">
-       Prijs hoog-laag
-      </option>
-      <option value="rating">
-       Best beoordeeld
-      </option>
-      <option value="naam">
-       Naam A-Z
-      </option>
-     </select>
-     <button onclick="clearFilters()">
-      Wis filters
-     </button>
-    </div>
-   </div>
-   <!-- Indicateur de chargement -->
-   <div id="loading-indicator">
-    <div>
-    </div>
-    <p>
-     Producten laden...
-    </p>
-   </div>
-   <!-- Message d'erreur -->
-   <div id="error-message">
-    <h3>
-     Oeps! Er is een probleem opgetreden
-    </h3>
-    <p>
-     De producten kunnen momenteel niet geladen worden. Probeer de pagina te vernieuwen.
-    </p>
-    <button onclick="location.reload()">
-     Pagina vernieuwen
-    </button>
-   </div>
-   <!-- Grille produits -->
-   <div id="products-grid">
-    <!-- Les produits seront chargés ici via JavaScript -->
-   </div>
-   <!-- Pagination -->
-   <div id="pagination">
-    <!-- Pagination sera générée par JavaScript -->
-   </div>
-   <!-- Newsletter signup -->
-   <section>
-    <h2>
-     Blijf op de hoogte!
-    </h2>
-    <p>
-     Ontvang wekelijkse koffietips en exclusieve aanbiedingen
-    </p>
-    <div>
-     <input placeholder="Je email adres..." type="email"/>
-     <button>
-      Inschrijven
-     </button>
-    </div>
-   </section>
-  </main>
-  <!-- Footer -->
-  <footer>
-   <div class="container">
-    <div>
-     <div>
-      <h3>
-       Biologische Hondensnacks
-      </h3>
-      <p>
-       Wij bieden de beste biologische en natuurlijke hondensnacks voor jouw trouwe viervoeter. Kwaliteit en gezondheid staan bij ons voorop.
-      </p>
-     </div>
-     <div>
-      <h3>
-       Navigatie
-      </h3>
-      <ul>
-       <li>
-        <a href="/">
-         Home
-        </a>
-       </li>
-       <li>
-        <a href="winkel.html">
-         Winkel
-        </a>
-       </li>
-       <li>
-        <a href="/blog/">
-         Blog
-        </a>
-       </li>
-       <li>
-        <a href="/over-ons/">
-         Over ons
-        </a>
-       </li>
-      </ul>
-     </div>
-     <div>
-      <h3>
-       Juridisch
-      </h3>
-      <ul>
-       <li>
-        <a href="/privacy-policy/">
-         Privacy policy
-        </a>
-       </li>
-       <li>
-        <a href="/algemene-voorwaarden/">
-         Algemene voorwaarden
-        </a>
-       </li>
-       <li>
-        <a href="/disclaimer/">
-         Disclaimer
-        </a>
-       </li>
-      </ul>
-     </div>
-    </div>
-    <div>
-     <p>
-      <strong>
-       Disclaimer:
-      </strong>
-      De informatie op deze website is alleen bedoeld voor algemene doeleinden en vervangt geen professioneel veterinair advies. Raadpleeg altijd je dierenarts voor specifieke voedings- en gezondheidsadvies voor je hond.
-     </p>
-     <p>
-      © 2026 Biologische hondensnacks. Alle rechten voorbehouden. | Gemaakt voor honden en hun baasjes
-     </p>
-    </div>
-   </div>
-  </footer>
-  <script>
-   // Charger les produits depuis products.js
-    let allProducts = [];
-    let currentPage = 1;
-    const productsPerPage = 12;
-    let filteredProducts = [];
+<nav class="navbar">
+<div class="container">
+<div class="nav-container">
+<a class="nav-brand" href="index.html">Biologische Hondensnacks</a>
+<button class="mobile-menu-toggle" aria-label="Menu">
+<span></span>
+<span></span>
+<span></span>
+</button>
+<ul class="nav-menu">
+<li><a class="nav-link" href="index.html">Home</a></li>
+<li><a class="nav-link" href="natuurlijke-hondensnacks/">Natuurlijke snacks</a></li>
+<li><a class="nav-link" href="beste-hondensnacks-2026/">Top 10</a></li>
+<li><a class="nav-link active" href="winkel.html">Winkel</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<div class="mobile-menu-overlay"></div>
 
-    // Charger les produits au démarrage
-    document.addEventListener('DOMContentLoaded', function() {
-        try {
-            console.log('Début du chargement des produits...');
-            allProducts = products; // Utiliser les produits chargés depuis products.js
-            console.log(`${allProducts.length} produits chargés avec succès`);
-            
-            filteredProducts = [...allProducts];
-            hideLoadingIndicator();
-            displayProducts();
-            updatePagination();
-        } catch (error) {
-            console.error('Erreur chargement produits:', error);
-            hideLoadingIndicator();
-            showErrorMessage();
-        }
+<!-- Hero Section -->
+<section style="background: var(--surface-soft); padding: 4.5rem 0;">
+<div class="container">
+<div>
+<p style="font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1.25rem;">Onze winkel</p>
+<h1 style="font-family: var(--font-serif); font-size: clamp(2rem, 4vw, 2.8rem); font-weight: 400; line-height: 1.15; color: var(--text); margin-bottom: 1.5rem;">Biologische Hondensnacks Winkel</h1>
+<p style="font-size: 1.05rem; line-height: 1.7; color: var(--text-dim); max-width: 460px;">
+<span id="total-products">500</span> biologische hondensnacks geselecteerd door onze experts.
+</p>
+<div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+<input id="search-input" placeholder="Zoek de perfecte hondensnack..." type="text" style="padding: 0.75rem 1rem; border: 1px solid var(--border); border-radius: var(--r-lg); font-size: var(--fs-base); width: 300px;"/>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Categories Section -->
+<section class="section">
+<div class="container">
+<h2 style="font-family: var(--font-display); margin-bottom: var(--sp-2);">Ontdek per categorie</h2>
+<p class="text-dim" style="margin-bottom: var(--sp-10); max-width: 560px;">Vind snel het type hondensnack dat bij jouw hond past.</p>
+<div class="grid grid-4" style="gap: var(--sp-4);">
+<a class="card" href="winkel.html" style="text-decoration: none;">
+<h3 style="font-size: var(--fs-base); margin-bottom: var(--sp-1);">Alle snacks</h3>
+<p class="text-sm text-dim" style="margin: 0;">500+ producten</p>
+</a>
+<a class="card" href="#" style="text-decoration: none;">
+<h3 style="font-size: var(--fs-base); margin-bottom: var(--sp-1);">Kauwsnacks</h3>
+<p class="text-sm text-dim" style="margin: 0;">Tandverzorging</p>
+</a>
+<a class="card" href="#" style="text-decoration: none;">
+<h3 style="font-size: var(--fs-base); margin-bottom: var(--sp-1);">Trainingssnacks</h3>
+<p class="text-sm text-dim" style="margin: 0;">Voor training</p>
+</a>
+<a class="card" href="#" style="text-decoration: none;">
+<h3 style="font-size: var(--fs-base); margin-bottom: var(--sp-1);">Biologisch</h3>
+<p class="text-sm text-dim" style="margin: 0;">100% natuurlijk</p>
+</a>
+</div>
+</div>
+</section>
+
+<!-- Products Grid -->
+<section class="section">
+<div class="container">
+<h2 style="font-family: var(--font-display); margin-bottom: var(--sp-2);">Onze selectie</h2>
+<p class="text-dim" style="margin-bottom: var(--sp-10); max-width: 560px;">500 biologische hondensnacks getest en geselecteerd door onze experts.</p>
+<div id="products-grid" class="grid grid-3" style="gap: var(--sp-6);">
+<!-- Les produits seront chargés ici via JavaScript -->
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+<div class="container">
+<div class="grid" style="grid-template-columns: 2fr repeat(3, 1fr); gap: var(--sp-12);">
+<div>
+<p style="font-family: var(--font-serif); font-size: var(--fs-xl); color: white; margin-bottom: var(--sp-4);">Biologische Hondensnacks</p>
+<p style="color: #999; font-size: var(--fs-sm); line-height: 1.7; margin-bottom: 0;">
+De beste biologische en natuurlijke hondensnacks voor jouw trouwe viervoeter.
+</p>
+</div>
+<div>
+<h4 style="color: white; font-size: var(--fs-xs); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: var(--sp-4);">Gidsen</h4>
+<ul style="list-style: none; padding: 0;">
+<li style="margin-bottom: var(--sp-2);"><a href="beste-hondensnacks-2026/" style="color: #aaa; font-size: var(--fs-sm);">Top 10 hondensnacks</a></li>
+<li style="margin-bottom: var(--sp-2);"><a href="natuurlijke-hondensnacks/" style="color: #aaa; font-size: var(--fs-sm);">Natuurlijke snacks</a></li>
+<li style="margin-bottom: var(--sp-2);"><a href="hondensnacks-voor-puppy/" style="color: #aaa; font-size: var(--fs-sm);">Puppy snacks</a></li>
+</ul>
+</div>
+<div>
+<h4 style="color: white; font-size: var(--fs-xs); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: var(--sp-4);">Winkel</h4>
+<ul style="list-style: none; padding: 0;">
+<li style="margin-bottom: var(--sp-2);"><a href="winkel.html" style="color: #aaa; font-size: var(--fs-sm);">Alle producten</a></li>
+<li style="margin-bottom: var(--sp-2);"><a href="#" style="color: #aaa; font-size: var(--fs-sm);">Kauwsnacks</a></li>
+<li style="margin-bottom: var(--sp-2);"><a href="#" style="color: #aaa; font-size: var(--fs-sm);">Hypoallergeen</a></li>
+</ul>
+</div>
+<div>
+<h4 style="color: white; font-size: var(--fs-xs); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: var(--sp-4);">Info</h4>
+<ul style="list-style: none; padding: 0;">
+<li style="margin-bottom: var(--sp-2);"><a href="over-ons/" style="color: #aaa; font-size: var(--fs-sm);">Over ons</a></li>
+<li style="margin-bottom: var(--sp-2);"><a href="blog/" style="color: #aaa; font-size: var(--fs-sm);">Blog</a></li>
+</ul>
+</div>
+</div>
+<div style="border-top: 1px solid #333; padding-top: var(--sp-6); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--sp-4);">
+<p style="color: #666; font-size: var(--fs-xs); margin: 0;">© 2026 Biologische hondensnacks. Alle rechten voorbehouden.</p>
+<p style="color: #666; font-size: var(--fs-xs); margin: 0;">Deze site bevat partnerlinks. Bij aankoop ontvangen wij een commissie, zonder extra kosten voor jou.</p>
+</div>
+</div>
+</footer>
+
+<script>
+// Mobile menu toggle
+const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+const mobileMenuOverlay = document.querySelector('.mobile-menu-overlay');
+const navMenu = document.querySelector('.nav-menu');
+
+if (mobileMenuToggle) {
+    mobileMenuToggle.addEventListener('click', () => {
+        mobileMenuToggle.classList.toggle('active');
+        navMenu.classList.toggle('active');
+        mobileMenuOverlay.classList.toggle('active');
+        document.body.style.overflow = navMenu.classList.contains('active') ? 'hidden' : '';
     });
+}
 
-    function hideLoadingIndicator() {
-        document.getElementById('loading-indicator').style.display = 'none';
-    }
+if (mobileMenuOverlay) {
+    mobileMenuOverlay.addEventListener('click', () => {
+        mobileMenuToggle.classList.remove('active');
+        navMenu.classList.remove('active');
+        mobileMenuOverlay.classList.remove('active');
+        document.body.style.overflow = '';
+    });
+}
 
-    function showErrorMessage() {
-        document.getElementById('error-message').style.display = 'block';
-        setTimeout(() => {
-            document.getElementById('error-message').style.display = 'none';
-        }, 3000);
-    }
+// Charger les produits depuis products.js
+let allProducts = [];
+let currentPage = 1;
+const productsPerPage = 12;
+let filteredProducts = [];
 
-    function loadFallbackProducts() {
-        allProducts = [
-            {
-                id: 1,
-                name: "Bialetti Moka Express 3 Kopjes",
-                slug: "bialetti-moka-express-3-kops-aluminium",
-                price: 28.99,
-                rating: 4.7,
-                reviews: 147,
-                description: "Het origineel sinds 1933. Aluminium, 3 kopjes, geschikt voor alle warmtebronnen behalve inductie.",
-                inductie: "Non",
-                capaciteit: 3,
-                merk: "Bialetti",
-                materiaal: "Aluminium",
-                type: "Cafetière percolateur",
-                image: "images/producten/bialetti-moka-express-3-kops-aluminium.jpg"
-            },
-            {
-                id: 2,
-                name: "Bialetti Venus 4 Kopjes RVS",
-                slug: "bialetti-venus-4-kops-roestvrijstaal",
-                price: 45.99,
-                rating: 4.4,
-                reviews: 89,
-                description: "Design moderne en RVS, compatible induction, 4 kopjes, finition premium.",
-                inductie: "Oui",
-                capaciteit: 4,
-                merk: "Bialetti",
-                materiaal: "RVS",
-                type: "Cafetière percolateur",
-                image: "images/producten/bialetti-venus-4-kops-roestvrijstaal.jpg"
-            }
-        ];
-        
-        // Dupliquer pour avoir plus de produits pour la démo
-        for (let i = 0; i < 10; i++) {
-            allProducts.push({
-                ...allProducts[0],
-                id: i + 3,
-                name: `Bialetti Moka Express ${i + 4} Kopjes`,
-                price: 28.99 + (i * 2)
-            });
-        }
+// Charger les produits au démarrage
+document.addEventListener('DOMContentLoaded', function() {
+    try {
+        console.log('Début du chargement des produits...');
+        allProducts = products;
+        console.log(`${allProducts.length} produits chargés avec succès`);
         
         filteredProducts = [...allProducts];
         displayProducts();
-        updatePagination();
+    } catch (error) {
+        console.error('Erreur chargement produits:', error);
     }
+});
 
-    function displayProducts() {
-        const grid = document.getElementById('products-grid');
-        grid.innerHTML = '';
-        
-        const startIndex = (currentPage - 1) * productsPerPage;
-        const endIndex = startIndex + productsPerPage;
-        const productsToShow = filteredProducts.slice(startIndex, endIndex);
-        
-        productsToShow.forEach((product, index) => {
-            const productCard = createProductCard(product, startIndex + index + 1);
-            grid.appendChild(productCard);
-        });
-        
-        document.getElementById('results-count').textContent = `${filteredProducts.length} producten`;
-    }
-
-    function createProductCard(product, position) {
-        const card = document.createElement('div');
-        card.className = 'card';
-        
-        card.innerHTML = `
-            <div>
-                <div>
-                    #${position}
-                </div>
-                
-                <a href="${product.pageUrl}">
-                    <img src="${product.imageUrl}" alt="${product.title}"
-                         onerror="this.src='Images/placeholder-product.jpg'" style="width: 100%; height: 200px; object-fit: cover; border-radius: var(--r-lg);">
-                </a>
-                
-                <h3 style="font-size: var(--fs-base); font-weight: 600; color: var(--text); margin: var(--sp-4) 0 var(--sp-2);">
-                    <a href="${product.pageUrl}" style="text-decoration: none; color: var(--text);">
-                        ${product.title.substring(0, 80)}...
-                    </a>
-                </h3>
-                
-                <p style="color: var(--text-dim); font-size: var(--fs-sm); margin-bottom: var(--sp-2);">
-                    ${product.description.substring(0, 100)}...
-                </p>
-                
-                <div style="font-size: var(--fs-xl); font-weight: 700; color: var(--primary);">
-                    €${product.price.toFixed(2)}
-                </div>
-                
-                <a href="${product.productUrl}" rel="nofollow noopener" target="_blank" class="btn btn-primary" style="margin-top: var(--sp-4);">
-                    Bekijk op Bol.com
-                </a>
-            </div>
-        `;
-        
-        return card;
-    }
-
-    function updatePagination() {
-        const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
-        const pagination = document.getElementById('pagination');
-        pagination.innerHTML = '';
-        
-        if (totalPages <= 1) return;
-        
-        // Bouton précédent
-        if (currentPage > 1) {
-            const prevBtn = document.createElement('button');
-            prevBtn.textContent = '← Vorige';
-            prevBtn.onclick = () => { currentPage--; displayProducts(); updatePagination(); };
-            prevBtn.style.cssText = 'padding: 0.8rem 1.2rem; background: var(--primary); color: white; border: none; border-radius: var(--r-lg); cursor: pointer; font-weight: 600;';
-            pagination.appendChild(prevBtn);
-        }
-        
-        // Numéros de pages
-        const startPage = Math.max(1, currentPage - 2);
-        const endPage = Math.min(totalPages, currentPage + 2);
-        
-        for (let i = startPage; i <= endPage; i++) {
-            const pageBtn = document.createElement('button');
-            pageBtn.textContent = i;
-            pageBtn.onclick = () => { currentPage = i; displayProducts(); updatePagination(); };
-            pageBtn.style.cssText = `padding: 0.8rem 1rem; border: 2px solid var(--primary); background: ${i === currentPage ? 'var(--primary)' : 'white'}; color: ${i === currentPage ? 'white' : 'var(--primary)'}; border-radius: var(--r-lg); cursor: pointer; font-weight: 600; min-width: 45px;`;
-            pagination.appendChild(pageBtn);
-        }
-        
-        // Bouton suivant
-        if (currentPage < totalPages) {
-            const nextBtn = document.createElement('button');
-            nextBtn.textContent = 'Volgende →';
-            nextBtn.onclick = () => { currentPage++; displayProducts(); updatePagination(); };
-            nextBtn.style.cssText = 'padding: 0.8rem 1.2rem; background: var(--primary); color: white; border: none; border-radius: var(--r-lg); cursor: pointer; font-weight: 600;';
-            pagination.appendChild(nextBtn);
-        }
-        
-        // Info pagination
-        const info = document.createElement('div');
-        info.textContent = `Pagina ${currentPage} van ${totalPages}`;
-        info.style.cssText = 'color: #666; font-size: var(--fs-sm); margin: 0 1rem;';
-        pagination.appendChild(info);
-    }
-
-    // Filtres
-    function applyFilters() {
-        const type = document.getElementById('filter-type').value;
-        const doelgroep = document.getElementById('filter-doelgroep').value;
-        const merk = document.getElementById('filter-merk').value;
-        const maxPrijs = document.getElementById('filter-prijs').value;
-        
-        document.getElementById('prijs-display').textContent = `€0-${maxPrijs}`;
-        
-        filteredProducts = allProducts.filter(product => {
-            const matchType = !type || (product.type && product.type.includes(type));
-            const matchDoelgroep = !doelgroep || (product.doelgroep && product.doelgroep.includes(doelgroep));
-            const matchMerk = !merk || (product.merk && product.merk.includes(merk));
-            const matchPrijs = product.price <= maxPrijs;
-            
-            return matchType && matchDoelgroep && matchMerk && matchPrijs;
-        });
-        
-        currentPage = 1;
-        displayProducts();
-        updatePagination();
-    }
+function displayProducts() {
+    const grid = document.getElementById('products-grid');
+    grid.innerHTML = '';
     
-    function quickFilterSnack(type) {
-        document.getElementById('filter-type').value = type;
-        applyFilters();
-    }
+    const startIndex = (currentPage - 1) * productsPerPage;
+    const endIndex = startIndex + productsPerPage;
+    const productsToShow = filteredProducts.slice(startIndex, endIndex);
     
-    // Styles pour les catégories
-    const categoryStyles = document.createElement('style');
-    categoryStyles.textContent = `
-        .container a:hover div {
-            transform: translateY(-5px) !important;
-            box-shadow: 0 8px 30px rgba(0,0,0,0.15) !important;
-            border-color: var(--primary) !important;
-        }
-    `;
-    document.head.appendChild(categoryStyles);
-    
-    function clearFilters() {
-        document.getElementById('filter-type').value = '';
-        document.getElementById('filter-doelgroep').value = '';
-        document.getElementById('filter-merk').value = '';
-        document.getElementById('filter-prijs').value = '150';
-        document.getElementById('sort-select').value = 'populair';
-        applyFilters();
-    }
-    
-    function sortProducts() {
-        const sortBy = document.getElementById('sort-select').value;
-        
-        filteredProducts.sort((a, b) => {
-            switch(sortBy) {
-                case 'prijs-laag':
-                    return a.price - b.price;
-                case 'prijs-hoog':
-                    return b.price - a.price;
-                case 'rating':
-                    return b.rating - a.rating;
-                case 'naam':
-                    return a.name.localeCompare(b.name);
-                default:
-                    return 0;
-            }
-        });
-        
-        currentPage = 1;
-        displayProducts();
-        updatePagination();
-    }
-    
-    function quickView(slug) {
-        alert(`Quick view voor ${slug} - Feature komt binnenkort!`);
-    }
-    
-    // Hover effects
-    document.addEventListener('DOMContentLoaded', function() {
-        const style = document.createElement('style');
-        style.textContent = `
-            .card:hover {
-                transform: translateY(-5px);
-                box-shadow: 0 8px 30px rgba(0,0,0,0.15) !important;
-            }
-            .quick-filter:hover {
-                background: rgba(255,255,255,0.4) !important;
-                transform: translateY(-2px);
-            }
-            .btn:hover {
-                transform: translateY(-2px);
-                box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-            }
-        `;
-        document.head.appendChild(style);
+    productsToShow.forEach((product, index) => {
+        const productCard = createProductCard(product, startIndex + index + 1);
+        grid.appendChild(productCard);
     });
-  </script>
- </body>
+}
+
+function createProductCard(product, position) {
+    const card = document.createElement('div');
+    card.className = 'card';
+    
+    card.innerHTML = `
+        <div>
+            <div>
+                #${position}
+            </div>
+            <a href="${product.pageUrl}">
+                <img src="${product.imageUrl}" alt="${product.title}"
+                     onerror="this.src='Images/placeholder-product.jpg'" style="width: 100%; height: 200px; object-fit: cover; border-radius: var(--r-lg);">
+            </a>
+            <h3 style="font-size: var(--fs-base); font-weight: 600; color: var(--text); margin: var(--sp-4) 0 var(--sp-2);">
+                <a href="${product.pageUrl}" style="text-decoration: none; color: var(--text);">
+                    ${product.title.substring(0, 80)}...
+                </a>
+            </h3>
+            <p style="color: var(--text-dim); font-size: var(--fs-sm); margin-bottom: var(--sp-2);">
+                ${product.description.substring(0, 100)}...
+            </p>
+            <div style="font-size: var(--fs-xl); font-weight: 700; color: var(--primary);">
+                €${product.price.toFixed(2)}
+            </div>
+            <a href="${product.productUrl}" rel="nofollow noopener" target="_blank" class="btn btn-primary" style="margin-top: var(--sp-4);">
+                Bekijk op Bol.com
+            </a>
+        </div>
+    `;
+    
+    return card;
+}
+</script>
+
+</body>
 </html>
