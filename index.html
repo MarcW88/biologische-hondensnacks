@@ -34,7 +34,7 @@
   <!-- Navigation -->
   <nav class="navbar">
   <div class="container">
-  <div class="nav-container">
+  <div class="nav-container" style="display: flex; justify-content: space-between; align-items: center;">
   <a class="nav-brand" href="index.html">Biologische Hondensnacks</a>
   <button class="mobile-menu-toggle" aria-label="Menu">
   <span></span>
@@ -62,13 +62,20 @@
   </ul>
   </li>
   </ul>
+  <img src="images/header-dog.png" alt="Hond" style="height: 40px; width: auto; margin-left: auto; display: none;" class="header-image-desktop">
   </div>
   </div>
   </nav>
+  <style>
+  @media (min-width: 769px) {
+      .header-image-desktop { display: block !important; }
+      .nav-menu { margin-right: 1rem; }
+  }
+  </style>
   <div class="mobile-menu-overlay"></div>
 
 <!-- 1. HERO – Positionnement clair -->
-<section style="background: var(--surface-soft); padding: 4.5rem 0;">
+<section style="background: var(--surface-soft); padding: 3rem 0;">
     <div class="container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 3.5rem; align-items: center; max-width: 1100px;">
         <div>
             <!-- Claim crédible, orienté comparaison/selectie -->
@@ -103,7 +110,7 @@
 </section>
 
 <!-- 2. SHOP / GIDS PER BEHOEFTE (Catégories cœur) -->
-<section class="section" id="shop-categorieën">
+<section class="section" id="shop-categorieën" style="padding: 2rem 0;">
     <div class="container">
         <h2 style="font-family: var(--font-display); margin-bottom: var(--sp-2);">
             Vind snacks op basis van de behoefte van jouw hond
@@ -181,7 +188,7 @@
 </section>
 
 <!-- 3. UITGELICHTE SELECTIE (Top 3 + lien vers Top 10) -->
-<section class="section">
+<section class="section" style="padding: 2rem 0;">
     <div class="container">
         <h2 style="font-family: var(--font-display); margin-bottom: var(--sp-2);">
             Onze 3 best beoordeelde biologische hondensnacks
@@ -316,7 +323,7 @@
 </section>
 
 <!-- 4. WAAROM ONS ADVIES / HOE WIJ BEOORDELEN -->
-<section class="section">
+<section class="section" style="padding: 2rem 0;">
     <div class="container">
         <h2 style="font-family: var(--font-display); margin-bottom: var(--sp-2);">
             Hoe wij biologische hondensnacks beoordelen
@@ -358,7 +365,7 @@
 </section>
 
 <!-- 5. SNACK FINDER (Version simplifiée sur home) -->
-<section class="section" id="snack-finder">
+<section class="section" id="snack-finder" style="padding: 2rem 0;">
     <div class="container">
         <div style="max-width: 600px; margin: 0 auto; text-align: center;">
             <h2 style="font-family: var(--font-display); margin-bottom: var(--sp-2);">
@@ -378,7 +385,7 @@
 </section>
 
 <!-- 6. VOORDELEN VAN NATUURLIJKE / BIOLOGISCHE SNACKS -->
-<section class="section">
+<section class="section" style="padding: 2rem 0;">
     <div class="container">
         <h2 style="font-family: var(--font-display); margin-bottom: var(--sp-2);">
             Waarom steeds meer baasjes kiezen voor natuurlijke hondensnacks
@@ -419,7 +426,7 @@
 </section>
 
 <!-- 7. TESTIMONIALS (Raccourcis et contextualisés) -->
-<section class="section">
+<section class="section" style="padding: 2rem 0;">
     <div class="container">
         <h2 style="font-family: var(--font-display); margin-bottom: var(--sp-2);">
             Ervaringen van hondenbaasjes
@@ -455,7 +462,7 @@
 </section>
 
 <!-- 8. RECENTE GIDSEN & BLOG -->
-<section class="section">
+<section class="section" style="padding: 2rem 0;">
     <div class="container">
         <h2 style="font-family: var(--font-display); margin-bottom: var(--sp-2);">
             Laatste gidsen over hondensnacks
@@ -527,7 +534,7 @@
 </section>
 
 <!-- 9. FAQ COMPACTE -->
-<section class="section">
+<section class="section" style="padding: 2rem 0;">
     <div class="container">
         <h2 style="font-family: var(--font-display); margin-bottom: var(--sp-2);">
             Veelgestelde vragen over hondensnacks
@@ -593,7 +600,7 @@
 </section>
 
 <!-- 10. CTA FINALE -->
-<section class="section" style="background: var(--surface-soft);">
+<section class="section" style="background: var(--surface-soft); padding: 2rem 0;">
     <div class="container" style="text-align: center; max-width: 600px; margin: 0 auto;">
         <h2 style="font-family: var(--font-serif); font-size: clamp(1.8rem, 3vw, 2.4rem); font-weight: 400; line-height: 1.2; color: var(--text); margin-bottom: var(--sp-4);">
             Klaar om de juiste snack voor jouw hond te vinden?
