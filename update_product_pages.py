@@ -1,0 +1,487 @@
+#!/usr/bin/env python3
+import os
+import re
+from pathlib import Path
+import json
+
+# Template for the new product page structure
+PRODUCT_TEMPLATE = '''<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>{title} | Biologische Hondensnacks</title>
+<meta content="{description}" name="description"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Outfit:wght@400;600;700&amp;family=DM+Serif+Display:ital,wght@0,400&amp;display=swap" rel="stylesheet"/>
+<link href="../css/styles.css" rel="stylesheet"/>
+<link href="../favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="../favicon-simple.svg" rel="icon" sizes="16x16" type="image/svg+xml"/>
+<link href="../favicon.svg" rel="apple-touch-icon" sizes="180x180"/>
+<meta content="var(--primary)" name="theme-color"/>
+<script type="application/ld+json">
+{{
+"@context": "https://schema.org/",
+"@type": "Product",
+"name": "{name}",
+"description": "{description_clean}",
+"brand": {{ "@type": "Brand", "name": "{brand}" }},
+"category": "{category}",
+"image": "{image}",
+"url": "{url}",
+"offers": {{
+"@type": "Offer",
+"price": "{price}",
+"priceCurrency": "EUR",
+"availability": "https://schema.org/InStock",
+"seller": {{ "@type": "Organization", "name": "Bol.com" }}
+}},
+"additionalProperty": [
+{additional_properties}
+]
+}}
+</script>
+<style>
+.product-layout {{ max-width:1180px;margin:0 auto;padding:2rem 1.5rem; }}
+.product-breadcrumb {{ font-size:0.85rem;color:#888;margin-bottom:2.5rem; }}
+.product-breadcrumb a {{ color:#888;text-decoration:none; }} .product-breadcrumb a:hover {{ color:var(--primary); }}
+.product-hero {{ display:grid;grid-template-columns:minmax(260px,0.8fr) minmax(0,1.2fr);gap:3rem;align-items:start;margin-bottom:3.5rem; }}
+.product-gallery img {{ width:100%;max-height:460px;object-fit:contain;background:#faf7f2;border-radius:16px;padding:2rem; }}
+.product-summary h1 {{ font-size:clamp(1.6rem,3vw,2.4rem);line-height:1.15;margin-bottom:0.75rem;color:#111; }}
+.product-kicker {{ font-size:0.85rem;color:#888;text-transform:uppercase;letter-spacing:1px;margin-bottom:0.5rem; }}
+.product-rating {{ display:flex;align-items:center;gap:0.5rem;margin-bottom:1.25rem; }}
+.product-rating .stars {{ color:#ffd700;font-size:1.3rem; }}
+.product-rating a {{ color:#666;font-size:0.9rem;text-decoration:underline;text-underline-offset:2px; }}
+.product-intro {{ font-size:1.05rem;line-height:1.7;color:#555;margin-bottom:1.5rem;max-width:580px; }}
+.product-quick-pros {{ display:flex;flex-wrap:wrap;gap:0.5rem; }}
+.product-quick-pros span {{ font-size:0.85rem;color:#333;background:#f5f5f5;padding:0.4rem 0.75rem;border-radius:4px; }}
+.content-grid {{ display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:3rem;align-items:start; }}
+.product-content {{ display:flex;flex-direction:column;gap:2.5rem; }}
+.buy-box {{ position:sticky;top:90px;border:1px solid #e5e5e5;border-radius:12px;padding:1.75rem;background:white; }}
+.buy-box .price {{ font-size:2.2rem;font-weight:700;color:var(--primary);margin-bottom:1.25rem; }}
+.buy-box .cta {{ display:block;width:100%;text-align:center;background:linear-gradient(135deg,var(--primary),var(--primary-dark));color:white;padding:1rem;text-decoration:none;border-radius:8px;font-size:1rem;font-weight:600;margin-bottom:1.25rem;transition:opacity 0.2s; }}
+.buy-box .cta:hover {{ opacity:0.9; }}
+.buy-box .trust {{ font-size:0.8rem;color:#666;line-height:1.8; }}
+.buy-box .trust span {{ display:block; }}
+.buy-box .specs {{ border-top:1px solid #eee;margin-top:1.25rem;padding-top:1.25rem; }}
+.buy-box .specs li {{ display:flex;justify-content:space-between;font-size:0.85rem;padding:0.4rem 0;color:#444;list-style:none; }}
+.buy-box .specs li span:first-child {{ font-weight:600; }}
+.section-title {{ font-size:1.2rem;font-weight:600;color:#111;margin-bottom:1rem; }}
+.description p {{ color:#444;line-height:1.8;font-size:0.95rem;margin-bottom:1rem; }}
+.similar-section {{ margin-top:3.5rem;border-top:1px solid #eee;padding-top:2.5rem; }}
+.similar-section h2 {{ font-size:1.2rem;font-weight:600;margin-bottom:1.5rem;color:#111; }}
+.similar-grid {{ display:grid;grid-template-columns:repeat(4,1fr);gap:1.25rem; }}
+.similar-card {{ text-decoration:none;color:inherit;border:1px solid #eee;border-radius:8px;padding:1rem;transition:box-shadow 0.2s; }}
+.similar-card:hover {{ box-shadow:0 4px 12px rgba(0,0,0,0.08); }}
+.similar-card img {{ width:100%;height:100px;object-fit:contain;margin-bottom:0.75rem; }}
+.similar-card h4 {{ font-size:0.8rem;line-height:1.4;margin-bottom:0.5rem;color:#333;font-weight:500;height:2.2rem;overflow:hidden; }}
+.similar-card .card-price {{ font-size:0.95rem;font-weight:700;color:var(--primary); }}
+@media(max-width:900px) {{
+.product-hero {{ grid-template-columns:1fr; }}
+.content-grid {{ grid-template-columns:1fr; }}
+.buy-box {{ position:static; }}
+.similar-grid {{ grid-template-columns:repeat(2,1fr); }}
+}}
+</style>
+</head>
+<body>
+<nav class="navbar">
+<div class="container">
+<div class="nav-container">
+<a class="nav-brand" href="../index.html">Biologische Hondensnacks</a>
+<button class="mobile-menu-toggle" aria-label="Menu">
+<span></span>
+<span></span>
+<span></span>
+</button>
+<ul class="nav-menu">
+<li><a class="nav-link" href="../index.html">Home</a></li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="../natuurlijke-hondensnacks/">Gidsen</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-link" href="../beste-hondensnacks-2026/">Top 10</a></li>
+<li><a class="dropdown-link" href="../natuurlijke-hondensnacks/">Natuurlijke snacks</a></li>
+<li><a class="dropdown-link" href="../graanvrije-hondensnacks/">Graanvrij</a></li>
+<li><a class="dropdown-link" href="../hondensnacks-voor-puppy/">Puppy snacks</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="../blog/">Blog</a></li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle active" href="../winkel.html">Shop</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-link" href="../winkel.html">Alle producten</a></li>
+<li><a class="dropdown-link" href="../kauwsnacks-tandverzorging/">Kauwsnacks</a></li>
+<li><a class="dropdown-link" href="../hondensnacks-voor-training/">Training snacks</a></li>
+<li><a class="dropdown-link" href="../hypoallergene-hondensnacks/">Hypoallergeen</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<div class="mobile-menu-overlay"></div>
+
+<main>
+<div class="product-layout">
+<nav class="product-breadcrumb">
+<a href="../index.html">Home</a> / <a href="../winkel.html">Winkel</a> / <strong>{title_short}</strong>
+</nav>
+
+<div class="product-hero">
+<div class="product-gallery">
+<img src="{image}" alt="{name}" onerror="this.src='../Images/placeholder-product.jpg'" loading="eager">
+</div>
+<div class="product-summary">
+<p class="product-kicker">{brand} · {weight}</p>
+<h1>{name}</h1>
+<div class="product-rating">
+<span class="stars">★★★★☆</span>
+<a href="{bol_url}" target="_blank" rel="sponsored noopener">Bekijk reviews op Bol.com</a>
+</div>
+<p class="product-intro">{description_short}</p>
+<div class="product-quick-pros">
+{quick_pros}
+</div>
+</div>
+</div>
+
+<div class="content-grid">
+<div class="product-content">
+<section>
+<h2 class="section-title">Productbeschrijving</h2>
+<div class="description">
+{description_paragraphs}
+</div>
+</section>
+
+<section>
+<h2 class="section-title">Specificaties</h2>
+<table style="width:100%;border-collapse:collapse;font-size:0.9rem;">
+{specifications}
+</table>
+</section>
+</div>
+
+<aside class="buy-box">
+<div class="price">{price_formatted}</div>
+<a href="{bol_url}" target="_blank" rel="sponsored" class="cta">Koop product</a>
+<p style="text-align:center;font-size:0.8rem;color:var(--text-dim);margin:0.3rem 0 0.6rem;">via Bol.com</p>
+<div class="trust">
+<span>✓ Gratis verzending</span>
+<span>✓ Gratis retourneren binnen 30 dagen</span>
+<span>✓ Snelle levering via Bol.com</span>
+<span>✓ Veilig betalen</span>
+</div>
+<ul class="specs">
+{specs_list}
+</ul>
+</aside>
+</div>
+
+<section class="similar-section">
+<h2>Vergelijkbare Producten</h2>
+<div class="similar-grid">
+{similar_products}
+</div>
+</section>
+</div>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+<div class="container">
+<div style="padding:2rem 0;text-align:center;">
+<p style="color:#D1D5DB;font-size:0.85rem;">© 2026 Biologische Hondensnacks. Alle rechten voorbehouden.</p>
+<p style="color:#999;font-size:0.8rem;margin-top:0.5rem;">Affiliate Kennisgeving: Als Bol.com partner verdienen wij aan kwalificerende aankopen.</p>
+</div>
+</div>
+</footer>
+
+<script>
+const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+const mobileMenuOverlay = document.querySelector('.mobile-menu-overlay');
+const navMenu = document.querySelector('.nav-menu');
+
+if (mobileMenuToggle) {{
+    mobileMenuToggle.addEventListener('click', () => {{
+        mobileMenuToggle.classList.toggle('active');
+        navMenu.classList.toggle('active');
+        mobileMenuOverlay.classList.toggle('active');
+        document.body.style.overflow = navMenu.classList.contains('active') ? 'hidden' : '';
+    }});
+}}
+
+if (mobileMenuOverlay) {{
+    mobileMenuOverlay.addEventListener('click', () => {{
+        mobileMenuToggle.classList.remove('active');
+        navMenu.classList.remove('active');
+        mobileMenuOverlay.classList.remove('active');
+        document.body.style.overflow = '';
+    }});
+}}
+
+// Mobile dropdown toggle
+const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+dropdownToggles.forEach(toggle => {{
+    toggle.addEventListener('click', (e) => {{
+        if (window.innerWidth <= 768) {{
+            e.preventDefault();
+            const dropdownItem = toggle.closest('.nav-item.dropdown');
+            dropdownItem.classList.toggle('active');
+            const dropdownMenu = dropdownItem.querySelector('.dropdown-menu');
+            dropdownMenu.classList.toggle('active');
+        }}
+    }});
+}});
+</script>
+
+</body>
+</html>
+'''
+
+def extract_product_data(file_path):
+    """Extract product data from existing HTML file"""
+    with open(file_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    data = {
+        'title': '',
+        'name': '',
+        'description': '',
+        'brand': 'Merkloos',
+        'category': 'Snacks',
+        'image': '',
+        'price': '0.00',
+        'weight': '',
+        'bol_url': '',
+        'file_name': Path(file_path).stem
+    }
+    
+    # Extract title
+    title_match = re.search(r'<title>(.*?)\s*\|', content)
+    if title_match:
+        data['title'] = title_match.group(1)
+        data['name'] = title_match.group(1)
+    
+    # Extract description
+    desc_match = re.search(r'<meta content="(.*?)" name="description"', content)
+    if desc_match:
+        data['description'] = desc_match.group(1)
+    
+    # Extract image
+    img_match = re.search(r'<img alt="[^"]*" src="(https://media\.s-bol\.com/[^"]+)"', content)
+    if img_match:
+        data['image'] = img_match.group(1)
+    
+    # Extract price
+    price_match = re.search(r'ca,\s*€(\d+,\d+)', content)
+    if not price_match:
+        price_match = re.search(r'€(\d+,\d+)', content)
+    if price_match:
+        data['price'] = price_match.group(1).replace(',', '.')
+    
+    # Extract brand
+    brand_match = re.search(r'<p class="text-sm text-dim">(.*?)</p>', content)
+    if brand_match:
+        brand = brand_match.group(1)
+        if 'Lyra Pet' in brand or 'Lyra' in brand:
+            data['brand'] = 'Lyra Pet'
+        elif 'Merkloos' in brand:
+            data['brand'] = 'Merkloos'
+        else:
+            data['brand'] = brand
+    
+    # Extract Bol.com URL
+    bol_match = re.search(r'href="(https://www\.bol\.com/nl/nl/p/[^"]+)"', content)
+    if bol_match:
+        data['bol_url'] = bol_match.group(1)
+    
+    # Extract weight from title or filename
+    weight_match = re.search(r'(\d+\s*(kg|g|ml))', data['title'], re.IGNORECASE)
+    if weight_match:
+        data['weight'] = weight_match.group(1)
+    
+    return data
+
+def generate_specifications(data):
+    """Generate specifications table rows"""
+    specs = [
+        ('Merk', data['brand']),
+        ('Gewicht', data['weight'] if data['weight'] else 'N/A'),
+        ('Type', 'Snack'),
+        ('Biologisch', '100% natuurlijk'),
+        ('Geschikt voor', 'Alle hondenrassen')
+    ]
+    
+    rows = []
+    for label, value in specs:
+        rows.append(f'<tr style="border-bottom:1px solid #eee;"><td style="padding:0.6rem 0;font-weight:600;color:#333;width:40%;">{label}</td><td style="padding:0.6rem 0;color:#555;">{value}</td></tr>')
+    
+    return '\n'.join(rows)
+
+def generate_specs_list(data):
+    """Generate specs list for buy box"""
+    specs = [
+        ('Merk', data['brand']),
+        ('Gewicht', data['weight'] if data['weight'] else 'N/A'),
+        ('Type', 'Snack'),
+        ('Biologisch', '100% natuurlijk')
+    ]
+    
+    items = []
+    for label, value in specs:
+        items.append(f'<li><span>{label}</span><span>{value}</span></li>')
+    
+    return '\n'.join(items)
+
+def generate_quick_pros(data):
+    """Generate quick pros badges"""
+    pros = [
+        '✓ 100% natuurlijk',
+        f'✓ {data["brand"]}',
+        '✓ Hoogwaardig',
+        '✓ Gezond'
+    ]
+    return ''.join(f'<span>{p}</span>' for p in pros)
+
+def generate_additional_properties(data):
+    """Generate additional properties for Schema.org"""
+    props = [
+        f'{{ "@type": "PropertyValue", "name": "Gewicht", "value": "{data["weight"]}" }}' if data['weight'] else '',
+        f'{{ "@type": "PropertyValue", "name": "Type", "value": "Snack" }}',
+        f'{{ "@type": "PropertyValue", "name": "Merk", "value": "{data["brand"]}" }}'
+    ]
+    return ',\n'.join([p for p in props if p])
+
+def generate_description_paragraphs(data):
+    """Generate description paragraphs from existing content"""
+    desc = data['description']
+    # Split by HTML tags or create a simple paragraph
+    if '<p>' in desc:
+        # Extract text from HTML
+        desc = re.sub(r'<[^>]+>', ' ', desc)
+    
+    # Create a few paragraphs
+    desc_clean = desc.replace('&lt;', '<').replace('&gt;', '>').replace('&amp;', '&')
+    desc_clean = re.sub(r'\s+', ' ', desc_clean).strip()
+    
+    # Split into sentences and create paragraphs
+    sentences = desc_clean.split('. ')
+    paragraphs = []
+    current_para = []
+    
+    for sentence in sentences:
+        current_para.append(sentence)
+        if len(current_para) >= 2:
+            paragraphs.append('<p>' + '. '.join(current_para) + '.</p>')
+            current_para = []
+    
+    if current_para:
+        paragraphs.append('<p>' + '. '.join(current_para) + '.</p>')
+    
+    return '\n'.join(paragraphs[:3])  # Max 3 paragraphs
+
+def generate_similar_products():
+    """Generate similar products section (placeholder)"""
+    similar = [
+        ('1-kg-lyra-pet-kauwringen-met-kipfiletreepjes.html', 'https://media.s-bol.com/n3nlMBjZ7mMY/Q0kNoPG/1200x1200.jpg', '1 kg Lyra Pet Kauwringen met Kipfiletreepjes', '€28,99'),
+        ('1-kg-lyra-pet-kauwsticks-met-kipfilet.html', 'https://media.s-bol.com/m3lkLAwZzKz9/N9OElM2/1200x1200.jpg', '1 kg Lyra Pet Kauwsticks met Kipfilet', '€29,99'),
+        ('honden-kauwspeelgoed-touwspeelgoed-hond-tandverzorging-hond-met-piepfunctie-15-x-10-x-4-cm-meerkleurig.html', 'https://media.s-bol.com/B52G68l32Zz2/gLGKoxG/1006x1200.jpg', 'Honden Kauwspeelgoed - Touwspeelgoed', '€38,69'),
+        ('100-puur-pens-vleesblokjes-hondensnack-1000-gram.html', 'https://media.s-bol.com/XXXXXX/XXXXXX/1200x1200.jpg', '100% Puur Pens Vleesblokjes', '€XX,XX')
+    ]
+    
+    cards = []
+    for href, img, title, price in similar:
+        cards.append(f'''<a href="{href}" class="similar-card">
+<img src="{img}" alt="{title}" loading="lazy" onerror="this.style.display='none'">
+<h4>{title}</h4>
+<span class="card-price">{price}</span>
+</a>''')
+    
+    return '\n'.join(cards)
+
+def process_file(file_path):
+    """Process a single HTML file"""
+    print(f"Processing: {file_path}")
+    
+    # Extract data
+    data = extract_product_data(file_path)
+    
+    # Generate URL
+    data['url'] = f"https://biologische-hondensnacks.nl/produits/{data['file_name']}.html"
+    
+    # Clean description
+    data['description_clean'] = data['description'].replace('&lt;', '<').replace('&gt;', '>').replace('&amp;', '&')
+    data['description_clean'] = re.sub(r'<[^>]+>', ' ', data['description_clean'])
+    data['description_clean'] = re.sub(r'\s+', ' ', data['description_clean']).strip()[:200]
+    
+    # Short description
+    data['description_short'] = data['description_clean'][:150] + '...'
+    
+    # Short title for breadcrumb
+    data['title_short'] = data['title'][:60] + '...' if len(data['title']) > 60 else data['title']
+    
+    # Format price
+    try:
+        price_float = float(data['price'])
+        data['price_formatted'] = f"€{price_float:.2f}".replace('.', ',')
+    except:
+        data['price_formatted'] = "€XX,XX"
+    
+    # Generate sections
+    data['specifications'] = generate_specifications(data)
+    data['specs_list'] = generate_specs_list(data)
+    data['quick_pros'] = generate_quick_pros(data)
+    data['additional_properties'] = generate_additional_properties(data)
+    data['description_paragraphs'] = generate_description_paragraphs(data)
+    data['similar_products'] = generate_similar_products()
+    
+    # Generate new content
+    new_content = PRODUCT_TEMPLATE.format(**data)
+    
+    # Write to file
+    with open(file_path, 'w', encoding='utf-8') as f:
+        f.write(new_content)
+    
+    print(f"  ✓ Updated: {file_path}")
+
+def main():
+    """Main function to process all product pages"""
+    produits_dir = Path('/Users/marc/Desktop/biologische-hondensnacks/produits')
+    
+    if not produits_dir.exists():
+        print(f"Error: Directory {produits_dir} does not exist")
+        return
+    
+    # Get all HTML files
+    html_files = list(produits_dir.glob('*.html'))
+    print(f"Found {len(html_files)} HTML files to process")
+    
+    # Process each file
+    updated = 0
+    skipped = 0
+    
+    for file_path in html_files:
+        try:
+            # Skip already updated files (check if they have the new structure)
+            with open(file_path, 'r', encoding='utf-8') as f:
+                content = f.read()
+            
+            # Skip if already has the new structure (has product-layout class)
+            if 'product-layout' in content:
+                print(f"  ⊘ Skipped (already updated): {file_path.name}")
+                skipped += 1
+                continue
+            
+            process_file(file_path)
+            updated += 1
+        except Exception as e:
+            print(f"  ✗ Error processing {file_path.name}: {e}")
+    
+    print(f"\n✓ Updated {updated} files")
+    print(f"⊘ Skipped {skipped} files (already updated)")
+    print(f"Total processed: {updated + skipped}")
+
+if __name__ == '__main__':
+    main()
