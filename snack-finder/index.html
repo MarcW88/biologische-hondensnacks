@@ -19,7 +19,8 @@
   <!-- Preconnect -->
   <link href="https://www.bol.com" rel="preconnect"/>
   <!-- Styles -->
-  <link href="css/styles.css" rel="stylesheet"/>
+  <link href="../css/styles.css" rel="stylesheet"/>
+  <link href="../css/snack-finder.css" rel="stylesheet"/>
   <!-- Schema Markup -->
   <script type="application/ld+json">
    { "@context": "https://schema.org", "@type": "WebApplication", "name": "Snack Finder", "description": "Interactieve tool om de perfecte biologische hondensnack te vinden", "url": "https://biologische-hondensnacks.nl/snack-finder.html", "applicationCategory": "HealthApplication", "operatingSystem": "Web" }
@@ -154,24 +155,24 @@ dropdownToggles.forEach(toggle => {
        De leeftijd bepaalt de textuur en voedingswaarde die het beste past.
       </p>
       <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--sp-3); margin-bottom: var(--sp-6);" role="group" aria-label="Leeftijd van je hond">
-       <button class="option-btn" data-step="1" data-value="puppy" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
+       <button class="sf-option" data-step="1" data-value="puppy" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
         <span style="font-size: 2rem; line-height: 1;">🐶</span>
         <span style="font-size: 0.875rem; font-weight: 600; color: var(--text); line-height: 1.3;">Puppy</span>
         <span style="font-size: 0.75rem; color: var(--text-dim); line-height: 1.4;">Tot 12 maanden</span>
        </button>
-       <button class="option-btn" data-step="1" data-value="volwassen" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
+       <button class="sf-option" data-step="1" data-value="volwassen" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
         <span style="font-size: 2rem; line-height: 1;">🐕</span>
         <span style="font-size: 0.875rem; font-weight: 600; color: var(--text); line-height: 1.3;">Volwassen</span>
         <span style="font-size: 0.75rem; color: var(--text-dim); line-height: 1.4;">1 – 7 jaar</span>
        </button>
-       <button class="option-btn" data-step="1" data-value="senior" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
+       <button class="sf-option" data-step="1" data-value="senior" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
         <span style="font-size: 2rem; line-height: 1;">🦮</span>
         <span style="font-size: 0.875rem; font-weight: 600; color: var(--text); line-height: 1.3;">Senior</span>
         <span style="font-size: 0.75rem; color: var(--text-dim); line-height: 1.4;">7 jaar en ouder</span>
        </button>
       </div>
       <div style="display: flex; gap: var(--sp-3); justify-content: flex-end;">
-       <button class="btn btn-primary" id="next-1" disabled style="display: inline-flex; align-items: center; gap: var(--sp-2); padding: var(--sp-3) var(--sp-6); border-radius: 2rem; font-size: 0.875rem; font-weight: 600; transition: all 0.2s; border: 2px solid transparent; line-height: 1; min-height: 44px; background: var(--primary); color: white;">
+       <button class="sf-btn sf-btn--primary" id="next-1" disabled style="display: inline-flex; align-items: center; gap: var(--sp-2); padding: var(--sp-3) var(--sp-6); border-radius: 2rem; font-size: 0.875rem; font-weight: 600; transition: all 0.2s; border: 2px solid transparent; line-height: 1; min-height: 44px; background: var(--primary); color: white;">
         Volgende
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
        </button>
@@ -179,7 +180,7 @@ dropdownToggles.forEach(toggle => {
      </div>
 
      <!-- STEP 2: Ras / Grootte -->
-     <div style="display: none; animation: fadeStep 0.3s ease;" class="step" id="step-2">
+     <div style="display: none; animation: fadeStep 0.3s ease;" class="sf-step" id="step-2">
       <h2 style="font-family: var(--font-serif); font-size: 1.5rem; font-weight: 400; line-height: 1.3; margin-bottom: 0.5rem; color: var(--text);">
        Hoe groot is jouw hond?
       </h2>
@@ -187,28 +188,28 @@ dropdownToggles.forEach(toggle => {
        De grootte bepaalt de ideale portie en hardheid van de snack.
       </p>
       <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--sp-3); margin-bottom: var(--sp-6);" role="group" aria-label="Grootte van je hond">
-       <button class="option-btn" data-step="2" data-value="klein" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
+       <button class="sf-option" data-step="2" data-value="klein" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
         <span style="font-size: 2rem; line-height: 1;">🐾</span>
         <span style="font-size: 0.875rem; font-weight: 600; color: var(--text); line-height: 1.3;">Klein</span>
         <span style="font-size: 0.75rem; color: var(--text-dim); line-height: 1.4;">Tot 10 kg</span>
        </button>
-       <button class="option-btn" data-step="2" data-value="middel" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
+       <button class="sf-option" data-step="2" data-value="middel" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
         <span style="font-size: 2rem; line-height: 1;">🐾</span>
         <span style="font-size: 0.875rem; font-weight: 600; color: var(--text); line-height: 1.3;">Middel</span>
         <span style="font-size: 0.75rem; color: var(--text-dim); line-height: 1.4;">10 – 25 kg</span>
        </button>
-       <button class="option-btn" data-step="2" data-value="groot" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
+       <button class="sf-option" data-step="2" data-value="groot" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
         <span style="font-size: 2rem; line-height: 1;">🐾</span>
         <span style="font-size: 0.875rem; font-weight: 600; color: var(--text); line-height: 1.3;">Groot</span>
         <span style="font-size: 0.75rem; color: var(--text-dim); line-height: 1.4;">Meer dan 25 kg</span>
        </button>
       </div>
       <div style="display: flex; gap: var(--sp-3); justify-content: flex-end;">
-       <button class="btn btn-ghost" id="back-2" style="display: inline-flex; align-items: center; gap: var(--sp-2); padding: var(--sp-3) var(--sp-6); border-radius: 2rem; font-size: 0.875rem; font-weight: 600; transition: all 0.2s; border: 2px solid var(--border); background: transparent; color: var(--text-dim);">
+       <button class="sf-btn sf-btn--ghost" id="back-2" style="display: inline-flex; align-items: center; gap: var(--sp-2); padding: var(--sp-3) var(--sp-6); border-radius: 2rem; font-size: 0.875rem; font-weight: 600; transition: all 0.2s; border: 2px solid var(--border); background: transparent; color: var(--text-dim);">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
         Terug
        </button>
-       <button class="btn btn-primary" id="next-2" disabled style="display: inline-flex; align-items: center; gap: var(--sp-2); padding: var(--sp-3) var(--sp-6); border-radius: 2rem; font-size: 0.875rem; font-weight: 600; transition: all 0.2s; border: 2px solid transparent; line-height: 1; min-height: 44px; background: var(--primary); color: white;">
+       <button class="sf-btn sf-btn--primary" id="next-2" disabled style="display: inline-flex; align-items: center; gap: var(--sp-2); padding: var(--sp-3) var(--sp-6); border-radius: 2rem; font-size: 0.875rem; font-weight: 600; transition: all 0.2s; border: 2px solid transparent; line-height: 1; min-height: 44px; background: var(--primary); color: white;">
         Volgende
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
        </button>
@@ -216,7 +217,7 @@ dropdownToggles.forEach(toggle => {
      </div>
 
      <!-- STEP 3: Gevoeligheden -->
-     <div style="display: none; animation: fadeStep 0.3s ease;" class="step" id="step-3">
+     <div style="display: none; animation: fadeStep 0.3s ease;" class="sf-step" id="step-3">
       <h2 style="font-family: var(--font-serif); font-size: 1.5rem; font-weight: 400; line-height: 1.3; margin-bottom: 0.5rem; color: var(--text);">
        Heeft jouw hond bijzondere gevoeligheden?
       </h2>
@@ -224,33 +225,33 @@ dropdownToggles.forEach(toggle => {
        Zo kunnen we de meest geschikte ingrediënten selecteren.
       </p>
       <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--sp-3); margin-bottom: var(--sp-6);" role="group" aria-label="Gevoeligheden van je hond">
-       <button class="option-btn" data-step="3" data-value="geen" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
+       <button class="sf-option" data-step="3" data-value="geen" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
         <span style="font-size: 2rem; line-height: 1;">✅</span>
         <span style="font-size: 0.875rem; font-weight: 600; color: var(--text); line-height: 1.3;">Geen</span>
         <span style="font-size: 0.75rem; color: var(--text-dim); line-height: 1.4;">Alles is prima</span>
        </button>
-       <button class="option-btn" data-step="3" data-value="graanvrij" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
+       <button class="sf-option" data-step="3" data-value="graanvrij" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
         <span style="font-size: 2rem; line-height: 1;">🌾</span>
         <span style="font-size: 0.875rem; font-weight: 600; color: var(--text); line-height: 1.3;">Graanvrij</span>
         <span style="font-size: 0.75rem; color: var(--text-dim); line-height: 1.4;">Geen granen</span>
        </button>
-       <button class="option-btn" data-step="3" data-value="hypoallergeen" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
+       <button class="sf-option" data-step="3" data-value="hypoallergeen" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
         <span style="font-size: 2rem; line-height: 1;">💊</span>
         <span style="font-size: 0.875rem; font-weight: 600; color: var(--text); line-height: 1.3;">Hypoallergeen</span>
         <span style="font-size: 0.75rem; color: var(--text-dim); line-height: 1.4;">Voedselovergevoeligheid</span>
        </button>
-       <button class="option-btn" data-step="3" data-value="geen" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
+       <button class="sf-option" data-step="3" data-value="geen" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
         <span style="font-size: 2rem; line-height: 1;">❓</span>
         <span style="font-size: 0.875rem; font-weight: 600; color: var(--text); line-height: 1.3;">Weet ik niet</span>
         <span style="font-size: 0.75rem; color: var(--text-dim); line-height: 1.4;">Geen voorkeur</span>
        </button>
       </div>
       <div style="display: flex; gap: var(--sp-3); justify-content: flex-end;">
-       <button class="btn btn-ghost" id="back-3" style="display: inline-flex; align-items: center; gap: var(--sp-2); padding: var(--sp-3) var(--sp-6); border-radius: 2rem; font-size: 0.875rem; font-weight: 600; transition: all 0.2s; border: 2px solid var(--border); background: transparent; color: var(--text-dim);">
+       <button class="sf-btn sf-btn--ghost" id="back-3" style="display: inline-flex; align-items: center; gap: var(--sp-2); padding: var(--sp-3) var(--sp-6); border-radius: 2rem; font-size: 0.875rem; font-weight: 600; transition: all 0.2s; border: 2px solid var(--border); background: transparent; color: var(--text-dim);">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
         Terug
        </button>
-       <button class="btn btn-primary" id="next-3" disabled style="display: inline-flex; align-items: center; gap: var(--sp-2); padding: var(--sp-3) var(--sp-6); border-radius: 2rem; font-size: 0.875rem; font-weight: 600; transition: all 0.2s; border: 2px solid transparent; line-height: 1; min-height: 44px; background: var(--primary); color: white;">
+       <button class="sf-btn sf-btn--primary" id="next-3" disabled style="display: inline-flex; align-items: center; gap: var(--sp-2); padding: var(--sp-3) var(--sp-6); border-radius: 2rem; font-size: 0.875rem; font-weight: 600; transition: all 0.2s; border: 2px solid transparent; line-height: 1; min-height: 44px; background: var(--primary); color: white;">
         Volgende
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
        </button>
@@ -258,7 +259,7 @@ dropdownToggles.forEach(toggle => {
      </div>
 
      <!-- STEP 4: Gebruik -->
-     <div style="display: none; animation: fadeStep 0.3s ease;" class="step" id="step-4">
+     <div style="display: none; animation: fadeStep 0.3s ease;" class="sf-step" id="step-4">
       <h2 style="font-family: var(--font-serif); font-size: 1.5rem; font-weight: 400; line-height: 1.3; margin-bottom: 0.5rem; color: var(--text);">
        Waarvoor wil je de snack gebruiken?
       </h2>
@@ -266,40 +267,40 @@ dropdownToggles.forEach(toggle => {
        Het doel bepaalt het type snack dat het meest effectief is.
       </p>
       <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--sp-3); margin-bottom: var(--sp-6);" role="group" aria-label="Gebruik van de snack">
-       <button class="option-btn" data-step="4" data-value="training" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
+       <button class="sf-option" data-step="4" data-value="training" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
         <span style="font-size: 2rem; line-height: 1;">🎯</span>
         <span style="font-size: 0.875rem; font-weight: 600; color: var(--text); line-height: 1.3;">Training</span>
         <span style="font-size: 0.75rem; color: var(--text-dim); line-height: 1.4;">Kleine zachte beloningen</span>
        </button>
-       <button class="option-btn" data-step="4" data-value="kauw" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
+       <button class="sf-option" data-step="4" data-value="kauw" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
         <span style="font-size: 2rem; line-height: 1;">🦴</span>
         <span style="font-size: 0.875rem; font-weight: 600; color: var(--text); line-height: 1.3;">Kauwplezier</span>
         <span style="font-size: 0.75rem; color: var(--text-dim); line-height: 1.4;">Lang bezig houden</span>
        </button>
-       <button class="option-btn" data-step="4" data-value="beloning" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
+       <button class="sf-option" data-step="4" data-value="beloning" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
         <span style="font-size: 2rem; line-height: 1;">⭐</span>
         <span style="font-size: 0.875rem; font-weight: 600; color: var(--text); line-height: 1.3;">Dagelijkse beloning</span>
         <span style="font-size: 0.75rem; color: var(--text-dim); line-height: 1.4;">Lekker tussendoortje</span>
        </button>
-       <button class="option-btn" data-step="4" data-value="alle" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
+       <button class="sf-option" data-step="4" data-value="alle" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
         <span style="font-size: 2rem; line-height: 1;">🐾</span>
         <span style="font-size: 0.875rem; font-weight: 600; color: var(--text); line-height: 1.3;">Alles</span>
         <span style="font-size: 0.75rem; color: var(--text-dim); line-height: 1.4;">Geen voorkeur</span>
        </button>
       </div>
       <div style="display: flex; gap: var(--sp-3); justify-content: flex-end;">
-       <button class="btn btn-ghost" id="back-4" style="display: inline-flex; align-items: center; gap: var(--sp-2); padding: var(--sp-3) var(--sp-6); border-radius: 2rem; font-size: 0.875rem; font-weight: 600; transition: all 0.2s; border: 2px solid var(--border); background: transparent; color: var(--text-dim);">
+       <button class="sf-btn sf-btn--ghost" id="back-4" style="display: inline-flex; align-items: center; gap: var(--sp-2); padding: var(--sp-3) var(--sp-6); border-radius: 2rem; font-size: 0.875rem; font-weight: 600; transition: all 0.2s; border: 2px solid var(--border); background: transparent; color: var(--text-dim);">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
         Terug
        </button>
-       <button class="btn btn-primary" id="next-4" disabled style="display: inline-flex; align-items: center; gap: var(--sp-2); padding: var(--sp-3) var(--sp-6); border-radius: 2rem; font-size: 0.875rem; font-weight: 600; transition: all 0.2s; border: 2px solid transparent; line-height: 1; min-height: 44px; background: var(--primary); color: white;">
+       <button class="sf-btn sf-btn--primary" id="next-4" disabled style="display: inline-flex; align-items: center; gap: var(--sp-2); padding: var(--sp-3) var(--sp-6); border-radius: 2rem; font-size: 0.875rem; font-weight: 600; transition: all 0.2s; border: 2px solid transparent; line-height: 1; min-height: 44px; background: var(--primary); color: white;">
         Resultaten bekijken 🐾
        </button>
       </div>
      </div>
 
      <!-- RESULTS -->
-     <div style="display: none;" class="step" id="step-results">
+     <div style="display: none;" class="sf-step" id="step-results">
       <div style="text-align: center; padding-bottom: var(--sp-6); border-bottom: 1px solid var(--border); margin-bottom: var(--sp-6);">
        <div style="display: inline-block; background: var(--primary-light); color: var(--primary); font-weight: 700; padding: var(--sp-1) var(--sp-3); border-radius: 2rem; font-size: 0.75rem; margin-bottom: var(--sp-3);" id="results-count"></div>
        <h2 style="font-family: var(--font-serif); font-size: 1.5rem; font-weight: 400; color: var(--text); margin-bottom: 0.5rem;" id="results-title">Jouw perfecte snacks</h2>
@@ -308,7 +309,7 @@ dropdownToggles.forEach(toggle => {
       <div style="display: flex; flex-direction: column; gap: var(--sp-4); margin-bottom: var(--sp-8);" id="snack-list"></div>
       <div style="text-align: center; padding-top: var(--sp-4); border-top: 1px solid var(--border);">
        <p style="font-size: 0.875rem; color: var(--text-dim); margin-bottom: var(--sp-4);">Wil je andere criteria proberen?</p>
-       <button class="btn btn-ghost" id="restart-btn" style="display: inline-flex; align-items: center; gap: var(--sp-2); padding: var(--sp-3) var(--sp-6); border-radius: 2rem; font-size: 0.875rem; font-weight: 600; transition: all 0.2s; border: 2px solid var(--border); background: transparent; color: var(--text-dim);">
+       <button class="sf-btn sf-btn--ghost" id="restart-btn" style="display: inline-flex; align-items: center; gap: var(--sp-2); padding: var(--sp-3) var(--sp-6); border-radius: 2rem; font-size: 0.875rem; font-weight: 600; transition: all 0.2s; border: 2px solid var(--border); background: transparent; color: var(--text-dim);">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
         Opnieuw beginnen
        </button>
@@ -425,158 +426,6 @@ dropdownToggles.forEach(toggle => {
     </div>
    </div>
   </footer>
-
-  <style>
-   @keyframes fadeStep {
-    from { opacity: 0; transform: translateY(8px); }
-    to { opacity: 1; transform: translateY(0); }
-   }
-   .option-btn:hover {
-    border-color: var(--primary) !important;
-    background: var(--primary-light) !important;
-    transform: translateY(-2px);
-    box-shadow: 0 1px 3px rgba(0,0,0,0.07), 0 1px 2px rgba(0,0,0,0.04);
-   }
-   .option-btn.selected {
-    border-color: var(--primary) !important;
-    background: var(--primary-light) !important;
-    box-shadow: 0 0 0 1px var(--primary);
-   }
-   .btn-primary:disabled {
-    opacity: 0.4;
-    cursor: not-allowed;
-    transform: none;
-    box-shadow: none;
-   }
-   .btn-ghost:hover {
-    background: var(--surface-soft);
-    color: var(--text);
-    border-color: var(--divider);
-   }
-   .snack-card {
-    display: grid;
-    grid-template-columns: 72px 1fr;
-    gap: var(--sp-4);
-    padding: var(--sp-5);
-    background: var(--surface-soft);
-    border: 1px solid var(--border);
-    border-radius: var(--r-lg);
-    transition: all 0.2s;
-    position: relative;
-    overflow: hidden;
-   }
-   .snack-card:hover {
-    box-shadow: 0 4px 16px rgba(0,0,0,0.09);
-    border-color: var(--primary);
-    transform: translateY(-2px);
-   }
-   .snack-card.top-match {
-    border-color: var(--primary);
-    background: var(--primary-light);
-   }
-   .top-match-ribbon {
-    position: absolute;
-    top: 10px;
-    right: -24px;
-    background: var(--primary);
-    color: white;
-    font-size: 10px;
-    font-weight: 700;
-    letter-spacing: 0.06em;
-    padding: 3px 32px;
-    transform: rotate(35deg);
-    transform-origin: center;
-    text-transform: uppercase;
-   }
-   .snack-emoji-box {
-    width: 72px;
-    height: 72px;
-    border-radius: var(--r-md);
-    background: var(--surface);
-    border: 1px solid var(--border);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2.4rem;
-    flex-shrink: 0;
-    align-self: start;
-   }
-   .snack-name {
-    font-weight: 700;
-    font-size: 1rem;
-    color: var(--text);
-    margin-bottom: var(--sp-1);
-   }
-   .snack-description {
-    font-size: 0.875rem;
-    color: var(--text-dim);
-    margin-bottom: var(--sp-3);
-    line-height: 1.5;
-   }
-   .snack-badges {
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--sp-2);
-   }
-   .badge {
-    font-size: 0.75rem;
-    font-weight: 600;
-    padding: 2px var(--sp-2);
-    border-radius: 2rem;
-    line-height: 1.6;
-   }
-   .badge-orange { background: #fdf0e6; color: #6b3200; }
-   .badge-green { background: #d4edda; color: #1a5c28; }
-   .badge-teal { background: #e2f4f3; color: #0a3c3a; }
-   .badge-blue { background: #e4eef8; color: #0d2a4a; }
-   .badge-purple { background: #f0e8f8; color: #3a1050; }
-   .badge-brown { background: #f0e8dc; color: #5c3200; }
-   .snack-card .btn-cta {
-    margin-top: var(--sp-3);
-    display: inline-flex;
-    align-items: center;
-    gap: var(--sp-2);
-    padding: var(--sp-2) var(--sp-4);
-    background: var(--primary);
-    color: white;
-    border-radius: 2rem;
-    font-size: 0.75rem;
-    font-weight: 600;
-    text-decoration: none;
-    transition: all 0.2s;
-    border: none;
-    cursor: pointer;
-    min-height: 36px;
-   }
-   .snack-card .btn-cta:hover { background: var(--primary-hover); }
-   .score-bar-wrap { margin-top: var(--sp-2); }
-   .score-label { font-size: 0.75rem; color: var(--text-dim); margin-bottom: var(--sp-1); }
-   .score-track {
-    height: 4px;
-    background: var(--border);
-    border-radius: 2rem;
-    overflow: hidden;
-   }
-   .score-fill {
-    height: 100%;
-    background: linear-gradient(90deg, var(--primary), #2a8c87);
-    border-radius: 2rem;
-    transition: width 1s cubic-bezier(0.16, 1, 0.3, 1);
-   }
-   .no-results {
-    text-align: center;
-    padding: var(--sp-12) var(--sp-4);
-    color: var(--text-dim);
-   }
-   .no-results-icon { font-size: 3rem; margin-bottom: var(--sp-4); }
-   @media (max-width: 600px) {
-    .step[style*="grid-template-columns: repeat(3"] {
-     grid-template-columns: 1fr 1fr !important;
-    }
-    .snack-card { grid-template-columns: 60px 1fr; gap: var(--sp-3); }
-    .snack-emoji-box { width: 60px; height: 60px; font-size: 2rem; }
-   }
-  </style>
 
   <script>
 // ==========================================
@@ -722,10 +571,10 @@ function updateProgress(step) {
 function selectOption(stepNum, btn) {
   const stepKey = ['age','size','sensitivity','use'][stepNum - 1];
   document.querySelectorAll('[data-step="' + stepNum + '"]').forEach(b => {
-    b.classList.remove('selected');
+    b.classList.remove('sf-selected');
     b.setAttribute('aria-pressed', 'false');
   });
-  btn.classList.add('selected');
+  btn.classList.add('sf-selected');
   btn.setAttribute('aria-pressed', 'true');
   answers[stepKey] = btn.dataset.value;
   document.getElementById('next-' + stepNum).disabled = false;
@@ -786,11 +635,11 @@ function renderResults() {
 
   if (results.length === 0) {
     list.innerHTML = `
-      <div class="no-results">
-        <div class="no-results-icon">🔍</div>
+      <div class="sf-no-results">
+        <div class="sf-no-results-icon">🔍</div>
         <h3>Geen exacte match</h3>
         <p>Probeer andere criteria of bekijk ons volledige assortiment.</p>
-        <a href="https://biologische-hondensnacks.nl/winkel.html" class="btn btn-primary" style="margin-top:1rem; text-decoration:none;" target="_blank" rel="noopener noreferrer">
+        <a href="https://biologische-hondensnacks.nl/winkel.html" class="sf-btn sf-btn--primary" style="margin-top:1rem; text-decoration:none;" target="_blank" rel="noopener noreferrer">
           Bekijk alle snacks
         </a>
       </div>
@@ -804,25 +653,25 @@ function renderResults() {
     const isTop = index === 0;
     const scorePct = Math.min(100, Math.round((snack.score / maxScore) * 100));
     const card = document.createElement('div');
-    card.className = 'snack-card' + (isTop ? ' top-match' : '');
+    card.className = 'sf-snack-card' + (isTop ? ' sf-snack-card--top' : '');
     card.innerHTML = `
-      ${isTop ? '<div class="top-match-ribbon">Top match</div>' : ''}
-      <div class="snack-emoji-box">${snack.emoji}</div>
+      ${isTop ? '<div class="sf-snack-card__top-ribbon">Top match</div>' : ''}
+      <div class="sf-snack-card__emoji">${snack.emoji}</div>
       <div class="snack-info">
-        <div class="snack-name">${snack.name}</div>
-        <p class="snack-description">${snack.description}</p>
-        <div class="score-bar-wrap">
-          <div class="score-label">Match score</div>
-          <div class="score-track">
-            <div class="score-fill" style="width: 0%" data-target="${scorePct}"></div>
+        <div class="sf-snack-card__name">${snack.name}</div>
+        <p class="sf-snack-card__description">${snack.description}</p>
+        <div class="sf-score-bar-wrap">
+          <div class="sf-score-label">Match score</div>
+          <div class="sf-score-track">
+            <div class="sf-score-fill" style="width: 0%" data-target="${scorePct}"></div>
           </div>
         </div>
-        <div class="snack-badges" style="margin-top: var(--sp-3)">
-          <span class="badge badge-${snack.badgeColor}">${snack.badge}</span>
-          <span class="badge badge-green">100% Biologisch</span>
-          <span class="badge badge-teal">Zonder additieven</span>
+        <div class="sf-snack-card__badges" style="margin-top: var(--sp-3)">
+          <span class="sf-badge sf-badge-${snack.badgeColor}">${snack.badge}</span>
+          <span class="sf-badge sf-badge-green">100% Biologisch</span>
+          <span class="sf-badge sf-badge-teal">Zonder additieven</span>
         </div>
-        <a href="${snack.link}" class="btn-cta" target="_blank" rel="noopener noreferrer">
+        <a href="${snack.link}" class="sf-snack-card__cta" target="_blank" rel="noopener noreferrer">
           Bekijken
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
         </a>
@@ -830,7 +679,7 @@ function renderResults() {
     `;
     list.appendChild(card);
     setTimeout(() => {
-      card.querySelector('.score-fill').style.width = scorePct + '%';
+      card.querySelector('.sf-score-fill').style.width = scorePct + '%';
     }, 100 + index * 150);
   });
 
@@ -840,7 +689,7 @@ function renderResults() {
 // ==========================================
 // EVENT LISTENERS — Options
 // ==========================================
-document.querySelectorAll('.option-btn').forEach(btn => {
+document.querySelectorAll('.sf-option').forEach(btn => {
   btn.addEventListener('click', () => {
     selectOption(parseInt(btn.dataset.step), btn);
   });
@@ -861,8 +710,8 @@ document.getElementById('back-4').addEventListener('click', () => showStep(3));
 document.getElementById('restart-btn').addEventListener('click', () => {
   answers.age = null; answers.size = null;
   answers.sensitivity = null; answers.use = null;
-  document.querySelectorAll('.option-btn').forEach(b => {
-    b.classList.remove('selected');
+  document.querySelectorAll('.sf-option').forEach(b => {
+    b.classList.remove('sf-selected');
     b.setAttribute('aria-pressed', 'false');
   });
   ['next-1','next-2','next-3','next-4'].forEach(id => {
