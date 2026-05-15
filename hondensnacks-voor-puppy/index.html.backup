@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="nl">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Hondensnacks voor Puppy | Zachte &amp; Gezonde Puppy Snacks Kopen
+  </title>
+  <meta content="Speciale hondensnacks voor puppy's. Zacht, verteerbaar en vol voedingsstoffen. Perfecte puppy snacks voor training en beloning Bestel online" name="description"/>
+  <meta content="puppy snacks, hondensnacks puppy, zachte puppy koekjes, puppy training snacks, jonge hond snacks" name="keywords"/>
+  <link href="https://biologische-hondensnacks.nl/hondensnacks-voor-puppy/" rel="canonical"/>
+  <!-- Favicon -->
+  <link href="../favicon.svg" rel="icon" type="image/svg+xml"/>
+  <link href="../favicon-simple.svg" rel="icon" sizes="16x16" type="image/svg+xml"/>
+  <link href="../favicon.svg" rel="apple-touch-icon" sizes="180x180"/>
+  <meta content="var(--primary)" name="theme-color"/>
+  <!-- Open Graph -->
+  <meta content="Hondensnacks voor Puppy | Zachte &amp; Gezonde Puppy Snacks Kopen" property="og:title"/>
+  <meta content="Speciale hondensnacks voor puppy's. Zacht, verteerbaar en vol voedingsstoffen. Perfecte puppy snacks voor training en beloning Bestel online" property="og:description"/>
+  <meta content="website" property="og:type"/>
+  <meta content="https://biologische-hondensnacks.nl/hondensnacks-voor-puppy/" property="og:url"/>
+  <!-- Preconnect -->
+  <link href="https://www.bol.com" rel="preconnect"/>
+  <!-- Styles -->
+  <link href="../css/styles.css" rel="stylesheet"/>
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
+   { "@context": "https://schema.org", "@type": "Article", "headline": "Hondensnacks voor Puppy", "description": "Speciale hondensnacks voor puppy's. Zacht, verteerbaar en vol voedingsstoffen.", "mainEntityOfPage": "https://biologische-hondensnacks.nl/hondensnacks-voor-puppy/", "author": { "@type": "Organization", "name": "Biologische Hondensnacks" }, "datePublished": "2026-01-01", "dateModified": "2026-01-10" }
+  </script>
+
+<script>
+const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+const mobileMenuOverlay = document.querySelector('.mobile-menu-overlay');
+const navMenu = document.querySelector('.nav-menu');
+
+if (mobileMenuToggle) {
+    mobileMenuToggle.addEventListener('click', () => {
+        mobileMenuToggle.classList.toggle('active');
+        navMenu.classList.toggle('active');
+        mobileMenuOverlay.classList.toggle('active');
+        document.body.style.overflow = navMenu.classList.contains('active') ? 'hidden' : '';
+    });
+}
+
+if (mobileMenuOverlay) {
+    mobileMenuOverlay.addEventListener('click', () => {
+        mobileMenuToggle.classList.remove('active');
+        navMenu.classList.remove('active');
+        mobileMenuOverlay.classList.remove('active');
+        document.body.style.overflow = '';
+    });
+}
+
+// Mobile dropdown toggle
+const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+dropdownToggles.forEach(toggle => {
+    toggle.addEventListener('click', (e) => {
+        if (window.innerWidth <= 768) {
+            e.preventDefault();
+            const dropdownItem = toggle.closest('.nav-item.dropdown');
+            dropdownItem.classList.toggle('active');
+            const dropdownMenu = dropdownItem.querySelector('.dropdown-menu');
+            dropdownMenu.classList.toggle('active');
+        }
+    });
+});
+</script>
+ </head>
+ <body>
+  <!-- Navigation -->
+  <nav class="navbar">
+  <div class="container">
+  <div class="nav-container">
+  <a class="nav-brand" href="../index.html">Biologische Hondensnacks</a>
+  <button class="mobile-menu-toggle" aria-label="Menu">
+  <span></span>
+  <span></span>
+  <span></span>
+  </button>
+  <ul class="nav-menu">
+  <li><a class="nav-link" href="../index.html">Home</a></li>
+  <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="../beste-hondensnacks-2026/">Gidsen</a>
+  <ul class="dropdown-menu">
+  <li><a class="dropdown-link" href="../beste-hondensnacks-2026/">Top 10</a></li>
+  <li><a class="dropdown-link" href="../natuurlijke-hondensnacks/">Natuurlijke snacks</a></li>
+  <li><a class="dropdown-link" href="../hondensnacks-voor-puppy/">Puppy snacks</a></li>
+  <li><a class="dropdown-link" href="../blog/">Blog</a></li>
+  </ul>
+  </li>
+  <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="../winkel.html">Winkel</a>
+  <ul class="dropdown-menu">
+  <li><a class="dropdown-link" href="../winkel.html">Alle producten</a></li>
+  <li><a class="dropdown-link" href="../kauwsnacks-tandverzorging/">Kauwsnacks</a></li>
+  <li><a class="dropdown-link" href="../hypoallergene-hondensnacks/">Hypoallergeen</a></li>
+  </ul>
+  </li>
+  </ul>
+  </div>
+  </div>
+  </nav>
+  <div class="mobile-menu-overlay"></div>
+  <!-- Hero Section -->
+  <section style="background: var(--surface-soft); padding: 3rem 0 2.5rem;">
+   <div class="container">
+    <div>
+     <p style="font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1.25rem;">Hondensnacks voor Puppy</p>
+     <h1 style="font-family: var(--font-serif); font-size: clamp(2rem, 4vw, 2.8rem); font-weight: 400; line-height: 1.15; color: var(--text); margin-bottom: 1.5rem;">
+      Hondensnacks voor puppy: zachte &amp; gezonde snacks voor jonge honden
+     </h1>
+     <p style="font-size: 1.05rem; line-height: 1.7; color: var(--text-dim); max-width: 560px;">
+      Puppies hebben andere snacks nodig dan volwassen honden. Deze gids helpt je kiezen op basis van leeftijd, ontwikkelingsstadium en voedingsbehoefte.
+     </p>
+    </div>
+   </div>
+  </section>
+
+<!-- Breadcrumb -->
+<div class="container" style="padding: 0.5rem 0;">
+<nav style="font-size:0.85rem;color:#888;">
+<a href="../" style="color:#888;text-decoration:none;">Home</a> / <strong>Hondensnacks voor Puppy</strong>
+</nav>
+</div>
+
+<!-- Intro Section - SEO OPTIMIZED -->
+<section class="section">
+   <div class="container">
+    <h2 style="font-family: var(--font-display); margin-bottom: var(--sp-2);">
+     Hondensnacks voor puppy: zachte &amp; gezonde snacks voor jonge honden
+    </h2>
+    <p class="text-dim" style="margin-bottom: var(--sp-6);">
+     Puppies hebben andere snacks nodig dan volwassen honden. Deze gids helpt je kiezen op basis van leeftijd, ontwikkelingsstadium en voedingsbehoefte. Van zeer zachte koekjes (8-12 weken) tot stevigere kauwsticks (6-12 maanden), we begeleiden je stap voor stap.
+    </p>
+    <!-- Trust badges -->
+    <div style="display: flex; gap: 2rem; flex-wrap: wrap;">
+     <div>
+      <p style="font-size: 0.9rem; font-weight: 600; color: var(--primary);">
+       10+ puppy snacks vergeleken
+      </p>
+      <p style="font-size: 0.8rem; color: var(--text-dim);">
+       Op zachtheid, voedingswaarde &amp; geschiktheid
+      </p>
+     </div>
+     <div>
+      <p style="font-size: 0.9rem; font-weight: 600; color: var(--primary);">
+       4.85/5 (1.500+ reviews)
+      </p>
+      <p style="font-size: 0.8rem; color: var(--text-dim);">
+       Van echte puppy eigenaren
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Nutritional Context Section -->
+  <section class="section">
+   <div class="container">
+    <h2>
+     Waarom verschillende snacks voor elke leeftijd?
+    </h2>
+    <div>
+     <!-- Left: Developmental stages -->
+     <div>
+      <h3>
+       Tandgroei &amp; kauwvermogen
+      </h3>
+      <div>
+       <h4>
+        8-12 weken:
+       </h4>
+       <p>
+        <strong>
+         Melktanden
+        </strong>
+        zijn nog zacht en gevoelig. Je puppy kan harde snacks niet verdragen zonder pijn. Zachte koekjes ondersteunen de training zonder discomfort.
+       </p>
+      </div>
+      <div>
+       <h4>
+        3-6 maanden:
+       </h4>
+       <p>
+        Eerste
+        <strong>
+         permanente tanden
+        </strong>
+        verschijnen. Kleine bites helpen bij
+        <strong>
+         tandwisseling
+        </strong>
+        en blijven veilig voor het gevoelige tandvlees.
+       </p>
+      </div>
+      <div>
+       <h4>
+        6-12 maanden:
+       </h4>
+       <p>
+        Alle permanente tanden zijn aanwezig.
+        <strong>
+         Kauwsticks
+        </strong>
+        helpen nu bij tandsterkte en stress relief tijdens de puberteit.
+       </p>
+      </div>
+     </div>
+     <!-- Right: Nutritional needs -->
+     <div>
+      <h3>
+       Voedingsbehoefte &amp; groei
+      </h3>
+      <p>
+       Puppies groeien
+       <strong>
+        10-100x sneller
+       </strong>
+       dan volwassen honden. Ze hebben meer calcium voor bot- en tandgroei, meer DHA voor hersenen, en meer proteïne voor spierontwikkeling.
+      </p>
+      <div>
+       <p>
+        Kritieke voedingsstoffen voor puppy's:
+       </p>
+       <ul>
+        <li>
+         <strong>
+          Calcium &amp; Fosfor:
+         </strong>
+         Voor sterke botten (verhouding 1.2:1)
+        </li>
+        <li>
+         <strong>
+          DHA:
+         </strong>
+         Voor hersenontwikkeling &amp; concentratie
+        </li>
+        <li>
+         <strong>
+          Proteïne:
+         </strong>
+         Voor spieropbouw &amp; antibody productie
+        </li>
+        <li>
+         <strong>
+          Vitamines A, D, E:
+         </strong>
+         Voor immuunsysteem ontwikkeling
+        </li>
+       </ul>
+      </div>
+      <div>
+       <p>
+        <strong>
+         Expert tip:
+        </strong>
+        Puppy snacks mogen maximaal 10% van de dagelijkse calorie-inname vormen. Te veel snacks verstoort de balans van het hoofdvoer.
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Puppy Age Guide Section - AFFILIATION OPTIMIZED -->
+  <section class="section">
+   <div class="container">
+    <h2>
+     Welke Puppy snack past bij jouw puppy?
+    </h2>
+    <p class="lead">
+     Puppies hebben snacks nodig die passen bij hun leeftijd en ontwikkelingsstadium. Gebruik de gids hieronder om de perfecte snack te vinden voor jouw puppy.
+    </p>
+    <!-- Age-based Guide -->
+    <div class="puppy-guide">
+     <!-- Age Group 1: 8-12 weeks -->
+     <div class="guide-card" id="8-12-weeks">
+      <div>
+       <div>
+       </div>
+       <div>
+        <h3>
+         Puppy van 8-12 weken (zeer jong)
+        </h3>
+        <p>
+         Melktanden &amp; gevoelig tandvlees
+        </p>
+       </div>
+      </div>
+      <div>
+       <h4>
+        Beste keuze voor zeer jonge puppies:
+       </h4>
+       <div>
+        <img alt="Zachte Puppy Koekjes " src="../images/Zachte Puppy Koekjes .jpg"/>
+        <div>
+         <p>
+          Zachte Puppy Koekjes
+         </p>
+         <div>
+          <span>
+          </span>
+          <span>
+           4.8/5 (156 reviews)
+          </span>
+         </div>
+         <p>
+          €6,75
+         </p>
+        </div>
+       </div>
+       <ul>
+        <li>
+         Extra zacht voor gevoelige tandjes
+        </li>
+        <li>
+         Klein formaat (5mm) voor veiligheid
+        </li>
+        <li>
+         Perfect voor eerste training sessies
+        </li>
+       </ul>
+       <a class="btn btn-primary" href="https://partnerprogramma.bol.com/click/click?p=2&amp;t=url&amp;s=XXXX&amp;f=TXN&amp;url=https://www.bol.com/nl/p/puppy-koekjes/" rel="nofollow noopener" target="_blank">
+        Bekijk Product
+       </a>
+      </div>
+      <p>
+       <strong>
+        Waarom dit?
+       </strong>
+       Melktanden zijn nog gevoelig. Zachte koekjes zijn ideaal voor early training zonder pijn of stress.
+      </p>
+     </div>
+     <!-- Age Group 2: 3-6 months -->
+     <div class="guide-card" id="3-6-months">
+      <div>
+       <div>
+       </div>
+       <div>
+        <h3>
+         Puppy van 3-6 maanden (training fase)
+        </h3>
+        <p>
+         Snelle beloningen voor gehoorzaamheid
+        </p>
+       </div>
+      </div>
+      <div>
+       <h4>
+        Beste keuze voor training:
+       </h4>
+       <div>
+        <img alt="Mini Training Treats " src="../images/Mini Training Treats .jpg"/>
+        <div>
+         <p>
+          Puppy Mini Bites
+         </p>
+         <div>
+          <span>
+          </span>
+          <span>
+           4.9/5 (198 reviews)
+          </span>
+         </div>
+         <p>
+          €5,95
+         </p>
+        </div>
+       </div>
+       <ul>
+        <li>
+         Zeer klein formaat (3mm) voor focus
+        </li>
+        <li>
+         Snelle beloning tijdens training
+        </li>
+        <li>
+         Hoge smaakintensiteit voor motivatie
+        </li>
+       </ul>
+       <a class="btn btn-primary" href="https://partnerprogramma.bol.com/click/click?p=2&amp;t=url&amp;s=XXXX&amp;f=TXN&amp;url=https://www.bol.com/nl/p/puppy-mini-bites/" rel="nofollow noopener" target="_blank">
+        Bekijk Product
+       </a>
+      </div>
+      <p>
+       <strong>
+        Waarom dit?
+       </strong>
+       Zeer kleine bites houden focus tijdens training. Snelle beloning = beter leren en sterke band.
+      </p>
+     </div>
+     <!-- Age Group 3: 6-12 months -->
+     <div class="guide-card" id="6-12-months">
+      <div>
+       <div>
+       </div>
+       <div>
+        <h3>
+         Puppy van 6-12 maanden (volwassen tanden)
+        </h3>
+        <p>
+         Permanente tanden &amp; langere kauwduur
+        </p>
+       </div>
+      </div>
+      <div>
+       <h4>
+        Beste keuze voor tandwisseling:
+       </h4>
+       <div>
+        <img alt="Zachte Kip &amp; Rijst Koekjes " src="../images/Zachte Kip &amp; Rijst Koekjes .jpg"/>
+        <div>
+         <p>
+          Zachte Puppy Sticks
+         </p>
+         <div>
+          <span>
+          </span>
+          <span>
+           4.7/5 (89 reviews)
+          </span>
+         </div>
+         <p>
+          €7,50
+         </p>
+        </div>
+       </div>
+       <ul>
+        <li>
+         Ondersteuning bij tandwisseling
+        </li>
+        <li>
+         Langere kauwduur voor stress relief
+        </li>
+        <li>
+         Versterkt kauwspieren veilig
+        </li>
+       </ul>
+       <a class="btn btn-primary" href="https://partnerprogramma.bol.com/click/click?p=2&amp;t=url&amp;s=XXXX&amp;f=TXN&amp;url=https://www.bol.com/nl/p/puppy-sticks/" rel="nofollow noopener" target="_blank">
+        Bekijk Product
+       </a>
+      </div>
+      <p>
+       <strong>
+        Waarom dit?
+       </strong>
+       Volwassen tanden zijn sterker. Sticks helpen bij tandwisseling en bieden gezonde stress relief.
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- What to Know Section - ENHANCED -->
+  <section class="section">
+   <div class="container">
+    <h2>
+     Wat moet je weten over Puppy snacks?
+    </h2>
+    <div class="grid grid-2">
+     <div>
+      <h3>
+       Wanneer beginnen?
+      </h3>
+      <p>
+       Je kunt beginnen met puppy snacks vanaf
+       <strong>
+        8-10 weken oud
+       </strong>
+       , wanneer je puppy begint met vast voedsel.
+      </p>
+      <p>
+       <strong>
+        Aanbeveling:
+       </strong>
+       Start met onze
+       <a href="#8-12-weeks">
+        Zachte Puppy Koekjes (8-12 weken)
+       </a>
+       .
+      </p>
+      <div style="background: var(--surface); border: 2px solid var(--primary); border-radius: var(--r-lg); padding: var(--sp-8); margin-top: var(--sp-6);">
+       <h3 style="font-family: var(--font-display); font-size: var(--fs-xl); font-weight: 600; margin-bottom: var(--sp-4); color: var(--primary);">
+        Portiegrootte calculator
+       </h3>
+       <p style="font-size: var(--fs-lg); margin-bottom: var(--sp-6);">
+        Puppy snacks mogen maximaal
+        <strong>
+         5% van dagelijkse calorieën
+        </strong>
+        zijn (vs 10% volwassen honden).
+       </p>
+       <div>
+        <label style="display: block; font-size: var(--fs-base); font-weight: 600; margin-bottom: var(--sp-2);">
+         Gewicht je puppy (kg):
+        </label>
+        <input id="puppy-weight" placeholder="bijv. 5" style="padding: var(--sp-3); font-size: var(--fs-lg); width: 100%; max-width: 300px; border: 2px solid var(--border); border-radius: var(--r-md); margin-bottom: var(--sp-4);" type="number"/>
+        <button onclick="calculatePortie()" style="padding: var(--sp-3) var(--sp-6); font-size: var(--fs-lg); font-weight: 600; background: var(--primary); color: white; border: none; border-radius: var(--r-md); cursor: pointer; width: 100%; max-width: 300px;">
+         Bereken dagelijkse hoeveelheid
+        </button>
+        <p id="portie-result" style="font-size: var(--fs-lg); font-weight: 600; margin-top: var(--sp-4); padding: var(--sp-4); border-radius: var(--r-md); display: none;">
+        </p>
+       </div>
+      </div>
+     </div>
+     <div>
+      <h3>
+       Training tips
+      </h3>
+      <p>
+       Gebruik
+       <strong>
+        zeer kleine, zachte snacks
+       </strong>
+       voor training. Geef direct na het gewenste gedrag voor beste resultaten.
+      </p>
+      <p>
+       <strong>
+        Aanbeveling:
+       </strong>
+       Gebruik
+       <a href="#3-6-months">
+        Puppy Mini Bites voor training
+       </a>
+       .
+      </p>
+      <h3>
+       Wat te vermijden
+      </h3>
+      <div>
+       <ul>
+        <li>
+         Harde snacks (tandjes nog zacht)
+        </li>
+        <li>
+         Chocolade, uien, knoflook
+        </li>
+        <li>
+         Veel zout of suiker
+        </li>
+        <li>
+         Kunstmatige toevoegingen
+        </li>
+        <li>
+         Kies altijd natuurlijke ingrediënten
+        </li>
+       </ul>
+      </div>
+      <h3>
+       Puppy ontwikkelingsstadia
+      </h3>
+      <div>
+       <ul>
+        <li>
+         <strong>
+          8-12 weken:
+         </strong>
+         Melktanden, zeer zachte snacks
+        </li>
+        <li>
+         <strong>
+          3-6 maanden:
+         </strong>
+         Training fase, kleine bites
+        </li>
+        <li>
+         <strong>
+          6-12 maanden:
+         </strong>
+         Tandwisseling, kauwsticks
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Portie Calculator JavaScript -->
+  <script>
+   function calculatePortie() { const weight = parseFloat(document.getElementById('puppy-weight').value); const resultElement = document.getElementById('portie-result'); if (!weight || weight < 0.5) { resultElement.textContent = 'Voer een geldig gewicht in (minimaal 0.5kg).'; resultElement.style.display = 'block'; resultElement.style.background = '#fef2f2'; resultElement.style.color = 'var(--error)'; return; } const dailyCalories = weight * 100; const snackCalories = dailyCalories * 0.05; const snackGrams = snackCalories / 3.5; resultElement.innerHTML = ` <strong>Aanbeveling voor ${weight}kg puppy:</strong><br> <span>${Math.round(snackGrams)}-${Math.round(snackGrams * 1.2)}g per dag</span><br> <span>(ongeveer 3-5 kleine bites)</span> `; resultElement.style.display = 'block'; resultElement.style.background = '#f0fdf4'; resultElement.style.color = 'var(--text)'; }
+  </script>
+  <!-- CTA Section -->
+  <section class="section">
+   <div class="container text-center">
+    <h2>
+     Geef je Puppy de beste start
+    </h2>
+    <p>
+     Ontdek ons complete assortiment puppy snacks voor gezonde groei en succesvolle training
+    </p>
+    <a class="btn btn-primary" href="/natuurlijke-hondensnacks/">
+     Bekijk Alle Puppy Snacks
+    </a>
+   </div>
+  </section>
+  <!-- FAQ Section -->
+  <section class="section" style="padding: 2rem 0;">
+   <div class="container">
+    <h2 style="font-family: var(--font-display); margin-bottom: var(--sp-2);">
+     Veelgestelde vragen over Puppy snacks
+    </h2>
+    <p class="text-dim" style="margin-bottom: var(--sp-10); max-width: 560px;">
+     Antwoorden op de meest gestelde vragen over puppy snacks.
+    </p>
+    
+    <div style="max-width: 800px;">
+     <!-- Question 1 -->
+     <details class="faq-item" style="margin-bottom: var(--sp-4); border-bottom: 1px solid var(--border); padding-bottom: var(--sp-4);">
+      <summary class="faq-header" style="cursor: pointer; display: flex; justify-content: space-between; align-items: center; padding: var(--sp-3); background: var(--surface); border-radius: var(--r-md); transition: background 0.2s ease;">
+       <h4 style="margin: 0;">Vanaf welke leeftijd mag mijn puppy snacks?</h4>
+       <span class="faq-icon" style="font-weight: 600;">+</span>
+      </summary>
+      <div class="faq-content" style="padding: var(--sp-4); background: var(--surface-soft); border-radius: var(--r-md); margin-top: var(--sp-2);">
+       <p class="text-dim">
+        Puppy's kunnen vanaf 8-10 weken speciale puppy snacks krijgen, wanneer ze beginnen met vast voedsel. Start altijd met zeer kleine hoeveelheden.
+       </p>
+      </div>
+     </details>
+     <!-- Question 2 -->
+     <details class="faq-item" style="margin-bottom: var(--sp-4); border-bottom: 1px solid var(--border); padding-bottom: var(--sp-4);">
+      <summary class="faq-header" style="cursor: pointer; display: flex; justify-content: space-between; align-items: center; padding: var(--sp-3); background: var(--surface); border-radius: var(--r-md); transition: background 0.2s ease;">
+       <h4 style="margin: 0;">Hoeveel snacks mag een puppy per dag?</h4>
+       <span class="faq-icon" style="font-weight: 600;">+</span>
+      </summary>
+      <div class="faq-content" style="padding: var(--sp-4); background: var(--surface-soft); border-radius: var(--r-md); margin-top: var(--sp-2);">
+       <p class="text-dim">
+        Puppy snacks mogen maximaal 5% van de dagelijkse calorie-inname uitmaken. Dit is minder dan bij volwassen honden omdat puppy's meer voeding nodig hebben voor groei.
+       </p>
+      </div>
+     </details>
+     <!-- Question 3 -->
+     <details class="faq-item" style="margin-bottom: var(--sp-4); border-bottom: 1px solid var(--border); padding-bottom: var(--sp-4);">
+      <summary class="faq-header" style="cursor: pointer; display: flex; justify-content: space-between; align-items: center; padding: var(--sp-3); background: var(--surface); border-radius: var(--r-md); transition: background 0.2s ease;">
+       <h4 style="margin: 0;">Welke ingrediënten zijn belangrijk voor puppy's?</h4>
+       <span class="faq-icon" style="font-weight: 600;">+</span>
+      </summary>
+      <div class="faq-content" style="padding: var(--sp-4); background: var(--surface-soft); border-radius: var(--r-md); margin-top: var(--sp-2);">
+       <p class="text-dim">
+        Zoek naar snacks rijk aan proteïnen, calcium voor botgroei, DHA voor hersenontwikkeling, en natuurlijke vitamines. Vermijd kunstmatige toevoegingen.
+       </p>
+      </div>
+     </details>
+    </div>
+   </div>
+  </section>
+  <!-- Footer -->
+  <footer class="footer">
+   <div class="container">
+    <div class="footer-content">
+     <div>
+      <h3>
+       Biologische hondensnacks
+      </h3>
+      <p>
+       De beste natuurlijke en biologische snacks voor jouw hond. Graanvrij, gezond en heerlijk.
+      </p>
+      <!-- Newsletter Signup -->
+      <div>
+       <h4>
+        Wekelijkse tips &amp; aanbiedingen
+       </h4>
+       <form>
+        <input placeholder="je@email.nl" required="" type="email"/>
+        <button type="submit">
+         Aanmelden
+        </button>
+       </form>
+       <p>
+        Geen spam, uitschrijven altijd mogelijk
+       </p>
+      </div>
+      <!-- Social Media -->
+      <div>
+       <h4>
+        Volg ons
+       </h4>
+       <div>
+        <a href="#">
+         f
+        </a>
+        <a href="#">
+         ig
+        </a>
+        <a href="#">
+         yt
+        </a>
+       </div>
+      </div>
+     </div>
+     <div>
+      <h3>
+       Populaire categorieën
+      </h3>
+      <ul>
+       <li>
+        <a href="natuurlijke-hondensnacks/">
+         Natuurlijke snacks
+        </a>
+       </li>
+       <li>
+        <a href="hondensnacks-voor-puppy/">
+         Puppy snacks
+        </a>
+       </li>
+       <li>
+        <a href="hondensnacks-voor-training/">
+         Training snacks
+        </a>
+       </li>
+       <li>
+        <a href="gezonde-kauwsnacks/">
+         Kauwsnacks
+        </a>
+       </li>
+       <li>
+        <a href="graanvrije-hondensnacks/">
+         Graanvrije snacks
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div>
+      <h3>
+       Support &amp; info
+      </h3>
+      <ul>
+       <li>
+        <a href="over-ons/">
+         Over ons
+        </a>
+       </li>
+       <li>
+        <a href="blog/">
+         Blog &amp; tips
+        </a>
+       </li>
+       <li>
+        <a href="contact/">
+         Contact
+        </a>
+       </li>
+       <li>
+        <a href="veelgestelde-vragen/">
+         FAQ
+        </a>
+       </li>
+       <li>
+        <a href="beste-hondensnacks-2026/">
+         Top 10 beste
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div>
+      <h3>
+       Vertrouwen &amp; veiligheid
+      </h3>
+      <!-- Trust Badges -->
+      <div>
+       <div>
+        <span>
+         Bol.com partner
+        </span>
+        <span>
+         veilig betalen
+        </span>
+       </div>
+       <div>
+        <span>
+         SKAL bio
+        </span>
+        <span>
+         4.8/5 reviews
+        </span>
+       </div>
+      </div>
+      <!-- Legal Links -->
+      <div>
+       <h4>
+        Juridisch
+       </h4>
+       <ul>
+        <li>
+         <a href="privacy-policy/">
+          Privacy policy
+         </a>
+        </li>
+        <li>
+         <a href="algemene-voorwaarden/">
+          Algemene voorwaarden
+         </a>
+        </li>
+        <li>
+         <a href="disclaimer/">
+          Disclaimer
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+    <div class="footer-bottom">
+     <p>
+      <strong>
+       Disclaimer:
+      </strong>
+      De informatie op deze website is alleen bedoeld voor algemene doeleinden en vervangt geen professioneel veterinair advies. Raadpleeg altijd je dierenarts voor specifieke voedings- en gezondheidsadvies voor je hond.
+     </p>
+     <p>
+      © 2026 Biologische hondensnacks. Alle rechten voorbehouden. | Gemaakt voor honden en hun baasjes
+     </p>
+    </div>
+   </div>
+  </footer>
+ </body>
+</html>
