@@ -125,7 +125,7 @@ PRODUCT_TEMPLATE = '''<!DOCTYPE html>
 <main>
 <div class="product-layout">
 <nav class="product-breadcrumb">
-<a href="../index.html">Home</a> / <a href="../winkel.html">Winkel</a> / <strong>{title_short}</strong>
+{breadcrumb}
 </nav>
 
 <div class="product-hero">
@@ -345,8 +345,33 @@ def generate_quick_pros(data):
     ]
     return ''.join(f'<span>{p}</span>' for p in pros)
 
+def get_product_category(data):
+    """Determine product category based on title and brand"""
+    title = data['title'].lower()
+    
+    if any(x in title for x in ['kauw', 'tand', 'bot', 'ring', 'stick']):
+        return 'kauwsnacks-tandverzorging', 'Kauwsnacks'
+    elif any(x in title for x in ['training', 'trainer', 'treat', 'beloning']):
+        return 'hondensnacks-voor-training', 'Training'
+    elif any(x in title for x in ['puppy', 'zacht', 'koekje']):
+        return 'hondensnacks-voor-puppy', 'Puppy'
+    elif any(x in title for x in ['graanvrij', 'hypoallergeen', 'allerge']):
+        return 'hypoallergene-hondensnacks', 'Hypoallergeen'
+    elif any(x in title for x in ['natuurlijk', 'biologisch', 'orgaan']):
+        return 'natuurlijke-hondensnacks', 'Natuurlijk'
+    else:
+        return 'winkel', 'Winkel'
+
+def generate_breadcrumb(data):
+    """Generate breadcrumb navigation with category"""
+    category_slug, category_name = get_product_category(data)
+    
+    if category_slug == 'winkel':
+        return f'<a href="../index.html">Home</a> / <a href="../winkel.html">Winkel</a> / <strong>{data["title_short"]}</strong>'
+    else:
+        return f'<a href="../index.html">Home</a> / <a href="../winkel.html">Winkel</a> / <a href="../{category_slug}/">{category_name}</a> / <strong>{data["title_short"]}</strong>'
+
 def generate_additional_properties(data):
-    """Generate additional properties for Schema.org"""
     props = [
         f'{{ "@type": "PropertyValue", "name": "Gewicht", "value": "{data["weight"]}" }}' if data['weight'] else '',
         f'{{ "@type": "PropertyValue", "name": "Type", "value": "Snack" }}',
@@ -436,6 +461,7 @@ def process_file(file_path):
     data['additional_properties'] = generate_additional_properties(data)
     data['description_paragraphs'] = generate_description_paragraphs(data)
     data['similar_products'] = generate_similar_products()
+    data['breadcrumb'] = generate_breadcrumb(data)
     
     # Generate new content
     new_content = PRODUCT_TEMPLATE.format(**data)
