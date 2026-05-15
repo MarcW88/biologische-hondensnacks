@@ -14,6 +14,44 @@
   <script type="application/ld+json">
    { "@context": "https://schema.org", "@type": "Article", "headline": "Top 10 Beste hondensnacks 2026", "description": "Uitgebreide vergelijking van de beste hondensnacks van 2026", "mainEntityOfPage": "https://biologische-hondensnacks.nl/beste-hondensnacks-2026/", "image": "https://biologische-hondensnacks.nl/images/beste-hondensnacks-2026.jpg", "author": { "@type": "Organization", "name": "Biologische Hondensnacks" }, "datePublished": "2026-01-01", "dateModified": "2026-01-10" }
   </script>
+
+<script>
+const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+const mobileMenuOverlay = document.querySelector('.mobile-menu-overlay');
+const navMenu = document.querySelector('.nav-menu');
+
+if (mobileMenuToggle) {
+    mobileMenuToggle.addEventListener('click', () => {
+        mobileMenuToggle.classList.toggle('active');
+        navMenu.classList.toggle('active');
+        mobileMenuOverlay.classList.toggle('active');
+        document.body.style.overflow = navMenu.classList.contains('active') ? 'hidden' : '';
+    });
+}
+
+if (mobileMenuOverlay) {
+    mobileMenuOverlay.addEventListener('click', () => {
+        mobileMenuToggle.classList.remove('active');
+        navMenu.classList.remove('active');
+        mobileMenuOverlay.classList.remove('active');
+        document.body.style.overflow = '';
+    });
+}
+
+// Mobile dropdown toggle
+const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+dropdownToggles.forEach(toggle => {
+    toggle.addEventListener('click', (e) => {
+        if (window.innerWidth <= 768) {
+            e.preventDefault();
+            const dropdownItem = toggle.closest('.nav-item.dropdown');
+            dropdownItem.classList.toggle('active');
+            const dropdownMenu = dropdownItem.querySelector('.dropdown-menu');
+            dropdownMenu.classList.toggle('active');
+        }
+    });
+});
+</script>
  </head>
  <body>
   <header class="navbar">
