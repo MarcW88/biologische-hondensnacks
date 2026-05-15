@@ -63,13 +63,6 @@
 </nav>
 <div class="mobile-menu-overlay"></div>
 
-<!-- Breadcrumb -->
-<div class="container" style="padding: 1rem 0 0;">
-<nav style="font-size:0.85rem;color:#888;">
-<a href="index.html" style="color:#888;text-decoration:none;">Home</a> / <strong>Winkel</strong>
-</nav>
-</div>
-
 <!-- Hero Section -->
 <section style="background: var(--surface-soft); padding: 3rem 0 2.5rem;">
 <div class="container">
@@ -84,6 +77,13 @@
 </div>
 </div>
 </section>
+
+<!-- Breadcrumb -->
+<div class="container" style="padding: 0.5rem 0;">
+<nav style="font-size:0.85rem;color:#888;">
+<a href="index.html" style="color:#888;text-decoration:none;">Home</a> / <strong>Winkel</strong>
+</nav>
+</div>
 
 <!-- Intro Text -->
 <section style="background: var(--surface-soft); padding: 2rem 0;">
@@ -180,6 +180,20 @@ Lees meer ↓
 <label style="display: block; margin-bottom: var(--sp-1);"><input type="checkbox" value="hypoallergeen" onchange="filterProducts()"> Hypoallergeen</label>
 </div>
 <div style="margin-bottom: var(--sp-6);">
+<h4 style="font-size: var(--fs-sm); font-weight: 600; margin-bottom: var(--sp-2);">Ingrediënt</h4>
+<label style="display: block; margin-bottom: var(--sp-1);"><input type="checkbox" value="rund" onchange="filterProducts()"> Rund</label>
+<label style="display: block; margin-bottom: var(--sp-1);"><input type="checkbox" value="kip" onchange="filterProducts()"> Kip</label>
+<label style="display: block; margin-bottom: var(--sp-1);"><input type="checkbox" value="zalm" onchange="filterProducts()"> Zalm</label>
+<label style="display: block; margin-bottom: var(--sp-1);"><input type="checkbox" value="hert" onchange="filterProducts()"> Hert</label>
+<label style="display: block; margin-bottom: var(--sp-1);"><input type="checkbox" value="lam" onchange="filterProducts()"> Lam</label>
+</div>
+<div style="margin-bottom: var(--sp-6);">
+<h4 style="font-size: var(--fs-sm); font-weight: 600; margin-bottom: var(--sp-2);">Hond grootte</h4>
+<label style="display: block; margin-bottom: var(--sp-1);"><input type="checkbox" value="klein" onchange="filterProducts()"> Klein (&lt;10kg)</label>
+<label style="display: block; margin-bottom: var(--sp-1);"><input type="checkbox" value="medium" onchange="filterProducts()"> Middelgroot (10-25kg)</label>
+<label style="display: block; margin-bottom: var(--sp-1);"><input type="checkbox" value="groot" onchange="filterProducts()"> Groot (&gt;25kg)</label>
+</div>
+<div style="margin-bottom: var(--sp-6);">
 <h4 style="font-size: var(--fs-sm); font-weight: 600; margin-bottom: var(--sp-2);">Prijs</h4>
 <label style="display: block; margin-bottom: var(--sp-1);"><input type="radio" name="price" value="all" checked onchange="filterProducts()"> Alle prijzen</label>
 <label style="display: block; margin-bottom: var(--sp-1);"><input type="radio" name="price" value="0-10" onchange="filterProducts()"> €0 - €10</label>
@@ -187,11 +201,17 @@ Lees meer ↓
 <label style="display: block; margin-bottom: var(--sp-1);"><input type="radio" name="price" value="20-50" onchange="filterProducts()"> €20 - €50</label>
 <label style="display: block; margin-bottom: var(--sp-1);"><input type="radio" name="price" value="50+" onchange="filterProducts()"> €50+</label>
 </div>
+<div style="margin-bottom: var(--sp-6);">
+<h4 style="font-size: var(--fs-sm); font-weight: 600; margin-bottom: var(--sp-2);">Beoordeling</h4>
+<label style="display: block; margin-bottom: var(--sp-1);"><input type="checkbox" value="4plus" onchange="filterProducts()"> 4+ sterren</label>
+<label style="display: block; margin-bottom: var(--sp-1);"><input type="checkbox" value="4.5plus" onchange="filterProducts()"> 4.5+ sterren</label>
+</div>
+<button onclick="resetFilters()" style="width: 100%; padding: 0.75rem; background: var(--surface-soft); border: 1px solid var(--border); border-radius: var(--r-lg); cursor: pointer; font-size: var(--fs-sm);">Filters wissen</button>
 </div>
 <!-- Products -->
 <div>
 <h2 style="font-family: var(--font-display); margin-bottom: var(--sp-2);">Onze selectie</h2>
-<p class="text-dim" style="margin-bottom: var(--sp-6); max-width: 560px;">500 biologische hondensnacks getest en geselecteerd door onze experts.</p>
+<p class="text-dim" style="margin-bottom: var(--sp-6);">500 biologische hondensnacks getest en geselecteerd door onze experts.</p>
 <div id="products-grid" class="grid grid-3" style="gap: var(--sp-6);">
                         <div class="card" style="text-decoration: none;">
                             <a href="produits/schesir-kat-blik-gelei-140-g-kattenvoer-24-x-tonijnampham.html" style="text-decoration: none; color: inherit;">
@@ -206,7 +226,7 @@ Lees meer ↓
                                     </span>
                                     <span style="font-size: 0.75rem; font-weight: 600; color: var(--primary); background: #f5ede5; padding: 0.15rem 0.5rem; border-radius: 0.3rem;">Bol.com</span>
                                 </div>
-                                <a href="https://www.bol.com/nl/nl/p/schesir-kat-blik-gelei-140-g-kattenvoer-24-x-tonijn-ham/9200000103828277/" rel="nofollow noopener" target="_blank" 
+                                <a href="https://partner.bol.com/click/click?p=2&t=url&s=XXXXX&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fschesir-kat-blik-gelei-140-g-kattenvoer-24-x-tonijn-ham%2F9200000103828277%2F&name=Schesir%20Kat%20Blik%20Gelei%20140%20g" rel="sponsored noopener" target="_blank" 
                                    style="display: block; text-align: center; padding: 0.75rem; background: linear-gradient(135deg,#8B5A2B,#6B4423); color: white; text-decoration: none; border-radius: 0.5rem; font-size: 0.9rem; font-weight: 600; margin-bottom: 0.5rem;">
                                     Koop product
                                 </a>
@@ -229,7 +249,7 @@ Lees meer ↓
                                     </span>
                                     <span style="font-size: 0.75rem; font-weight: 600; color: var(--primary); background: #f5ede5; padding: 0.15rem 0.5rem; border-radius: 0.3rem;">Bol.com</span>
                                 </div>
-                                <a href="https://www.bol.com/nl/nl/p/honden-speeltouw-kauwspeelgoed-hond-tanden-reinigen-extra-stevig-ontwerp-32-cm-lengte/9300000269964754/" rel="nofollow noopener" target="_blank" 
+                                <a href="https://partner.bol.com/click/click?p=2&t=url&s=XXXXX&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fhonden-speeltouw-kauwspeelgoed-hond-tanden-reinigen-extra-stevig-ontwerp-32-cm-lengte%2F9300000269964754%2F&name=Honden%20Speeltouw%20Kauwspeelgoed" rel="sponsored noopener" target="_blank" 
                                    style="display: block; text-align: center; padding: 0.75rem; background: linear-gradient(135deg,#8B5A2B,#6B4423); color: white; text-decoration: none; border-radius: 0.5rem; font-size: 0.9rem; font-weight: 600; margin-bottom: 0.5rem;">
                                     Koop product
                                 </a>

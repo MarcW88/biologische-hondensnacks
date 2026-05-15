@@ -48,19 +48,6 @@
   </div>
   </nav>
   <div class="mobile-menu-overlay"></div>
-  <div class="container">
-   <nav class="breadcrumb">
-    <a href="/">
-     Home
-    </a>
-    <span>
-     /
-    </span>
-    <span>
-     Hondensnacks voor Puppy
-    </span>
-   </nav>
-  </div>
   <!-- Intro Section - SEO OPTIMIZED -->
   <section class="section">
    <div class="container">
@@ -95,6 +82,19 @@
     </div>
    </div>
   </section>
+  <div class="container">
+   <nav class="breadcrumb">
+    <a href="/">
+     Home
+    </a>
+    <span>
+     /
+    </span>
+    <span>
+     Hondensnacks voor Puppy
+    </span>
+   </nav>
+  </div>
   <div>
    <img src="https://images.unsplash.com/photo-1477884213360-7e9d7dcc1e48?w=800&q=80" alt="Natuurlijke puppy buitenshuis">
   </div>
@@ -575,38 +575,48 @@ dropdownToggles.forEach(toggle => {
    </div>
   </section>
   <!-- FAQ Section -->
-  <section class="section">
+  <section class="section" style="padding: 2rem 0;">
    <div class="container">
-    <h2>
+    <h2 style="font-family: var(--font-display); margin-bottom: var(--sp-2);">
      Veelgestelde vragen over Puppy snacks
     </h2>
-    <div class="faq-container">
-     <div class="faq-item">
-      <div class="faq-question">
-       Vanaf welke leeftijd mag mijn puppy snacks?
+    <p class="text-dim" style="margin-bottom: var(--sp-10); max-width: 560px;">
+     Antwoorden op de meest gestelde vragen over puppy snacks.
+    </p>
+    
+    <div style="max-width: 800px;">
+     <!-- Question 1 -->
+     <div class="faq-item" style="margin-bottom: var(--sp-4); border-bottom: 1px solid var(--border); padding-bottom: var(--sp-4);">
+      <div class="faq-header" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block';">
+       <h4 style="margin: 0;">Vanaf welke leeftijd mag mijn puppy snacks?</h4>
+       <span class="faq-icon" style="font-weight: 600;">+</span>
       </div>
-      <div class="faq-answer">
-       <p>
+      <div class="faq-content" style="display: none; margin-top: var(--sp-2);">
+       <p class="text-dim">
         Puppy's kunnen vanaf 8-10 weken speciale puppy snacks krijgen, wanneer ze beginnen met vast voedsel. Start altijd met zeer kleine hoeveelheden.
        </p>
       </div>
      </div>
-     <div class="faq-item">
-      <div class="faq-question">
-       Hoeveel snacks mag een puppy per dag?
+     <!-- Question 2 -->
+     <div class="faq-item" style="margin-bottom: var(--sp-4); border-bottom: 1px solid var(--border); padding-bottom: var(--sp-4);">
+      <div class="faq-header" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block';">
+       <h4 style="margin: 0;">Hoeveel snacks mag een puppy per dag?</h4>
+       <span class="faq-icon" style="font-weight: 600;">+</span>
       </div>
-      <div class="faq-answer">
-       <p>
+      <div class="faq-content" style="display: none; margin-top: var(--sp-2);">
+       <p class="text-dim">
         Puppy snacks mogen maximaal 5% van de dagelijkse calorie-inname uitmaken. Dit is minder dan bij volwassen honden omdat puppy's meer voeding nodig hebben voor groei.
        </p>
       </div>
      </div>
-     <div class="faq-item">
-      <div class="faq-question">
-       Welke ingrediënten zijn belangrijk voor puppy's?
+     <!-- Question 3 -->
+     <div class="faq-item" style="margin-bottom: var(--sp-4); border-bottom: 1px solid var(--border); padding-bottom: var(--sp-4);">
+      <div class="faq-header" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block';">
+       <h4 style="margin: 0;">Welke ingrediënten zijn belangrijk voor puppy's?</h4>
+       <span class="faq-icon" style="font-weight: 600;">+</span>
       </div>
-      <div class="faq-answer">
-       <p>
+      <div class="faq-content" style="display: none; margin-top: var(--sp-2);">
+       <p class="text-dim">
         Zoek naar snacks rijk aan proteïnen, calcium voor botgroei, DHA voor hersenontwikkeling, en natuurlijke vitamines. Vermijd kunstmatige toevoegingen.
        </p>
       </div>
@@ -615,43 +625,6 @@ dropdownToggles.forEach(toggle => {
    </div>
   </section>
   <!-- Footer -->
-  <section>
-   <div class="container">
-    <h2>
-     Veelgestelde vragen over puppy snacks
-    </h2>
-    <div>
-     <div onclick='this.nextElementSibling.style.maxHeight = this.nextElementSibling.style.maxHeight ? "" : this.nextElementSibling.scrollHeight + "px"'>
-      Vanaf welke leeftijd mag mijn puppy snacks?
-     </div>
-     <div>
-      <p>
-       Puppy's kunnen vanaf ongeveer 8 weken kleine, zachte snacks krijgen. Begin met zeer kleine porties.
-      </p>
-     </div>
-    </div>
-    <div>
-     <div onclick='this.nextElementSibling.style.maxHeight = this.nextElementSibling.style.maxHeight ? "" : this.nextElementSibling.scrollHeight + "px"'>
-      Hoeveel snacks mag een puppy per dag?
-     </div>
-     <div>
-      <p>
-       Maximum 10% van de dagelijkse calorieën. Voor een puppy is dit vaak slechts 2-3 kleine snacks per dag.
-      </p>
-     </div>
-    </div>
-    <div>
-     <div onclick='this.nextElementSibling.style.maxHeight = this.nextElementSibling.style.maxHeight ? "" : this.nextElementSibling.scrollHeight + "px"'>
-      Welke snacks zijn het beste voor puppy training?
-     </div>
-     <div>
-      <p>
-       Zachte, kleine snacks zoals de Zachte Puppy Koekjes zijn ideaal voor training omdat ze snel op zijn.
-      </p>
-     </div>
-    </div>
-   </div>
-  </section>
   <footer class="footer">
    <div class="container">
     <div class="footer-content">
