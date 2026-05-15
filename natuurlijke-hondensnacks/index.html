@@ -67,127 +67,99 @@ dropdownToggles.forEach(toggle => {
 </script>
  </head>
  <body>
-  <!-- Header -->
-  <header class="navbar">
-   <div class="container">
-    <div class="header-content">
-     <div class="nav-brand">
-      <a href="../">
-       Biologische Hondensnacks
-      </a>
-     </div>
-     <nav class="nav-menu">
-      <ul>
-       <li>
-        <a href="/">
-         Home
-        </a>
-       </li>
-       <li>
-        <a class="active" href="/natuurlijke-hondensnacks/">
-         Natuurlijke snacks
-        </a>
-       </li>
-       <li>
-        <a href="/beste-hondensnacks-2026/">
-         Top 10 Beste
-        </a>
-       </li>
-       <li>
-        <a href="/hondensnacks-voor-puppy/">
-         Puppy Snacks
-        </a>
-       </li>
-       <li>
-        <a href="/blog/">
-         Blog
-        </a>
-       </li>
-       <li>
-        <a href="/over-ons/">
-         Over Ons
-        </a>
-       </li>
-       <li>
-        <a class="nav-link active" href="../winkel.html">
-         Winkel
-        </a>
-       </li>
-      </ul>
-     </nav>
-     <button class="mobile-menu-toggle">
-     </button>
-    </div>
-   </div>
-  </header>
-  <!-- Breadcrumb -->
+  <!-- Navigation -->
+  <nav class="navbar">
   <div class="container">
-   <nav class="breadcrumb">
-    <a href="/">
-     Home
-    </a>
-    <span>
-     /
-    </span>
-    <span>
-     Natuurlijke Hondensnacks
-    </span>
-   </nav>
+  <div class="nav-container">
+  <a class="nav-brand" href="../index.html">Biologische Hondensnacks</a>
+  <button class="mobile-menu-toggle" aria-label="Menu">
+  <span></span>
+  <span></span>
+  <span></span>
+  </button>
+  <ul class="nav-menu">
+  <li><a class="nav-link" href="../index.html">Home</a></li>
+  <li><a class="nav-link" href="../natuurlijke-hondensnacks/">Natuurlijke snacks</a></li>
+  <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="../beste-hondensnacks-2026/">Gidsen</a>
+  <ul class="dropdown-menu">
+  <li><a class="dropdown-link" href="../beste-hondensnacks-2026/">Top 10</a></li>
+  <li><a class="dropdown-link" href="../natuurlijke-hondensnacks/">Natuurlijke snacks</a></li>
+  <li><a class="dropdown-link" href="../blog/">Blog</a></li>
+  </ul>
+  </li>
+  <li><a class="nav-link" href="../hondensnacks-voor-puppy/">Puppy Snacks</a></li>
+  <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle active" href="../winkel.html">Winkel</a>
+  <ul class="dropdown-menu">
+  <li><a class="dropdown-link" href="../winkel.html">Alle producten</a></li>
+  <li><a class="dropdown-link" href="../kauwsnacks-tandverzorging/">Kauwsnacks</a></li>
+  <li><a class="dropdown-link" href="../hypoallergene-hondensnacks/">Hypoallergeen</a></li>
+  </ul>
+  </li>
+  </ul>
   </div>
-  <!-- Page Header - AFFILIATION OPTIMIZED -->
-  <section class="section">
+  </div>
+  </nav>
+  <div class="mobile-menu-overlay"></div>
+
+  <!-- Breadcrumb -->
+  <div class="container" style="padding: 1rem 0 0;">
+  <nav style="font-size:0.85rem;color:#888;">
+  <a href="../index.html" style="color:#888;text-decoration:none;">Home</a> / <strong>Natuurlijke snacks</strong>
+  </nav>
+  </div>
+
+  <!-- Hero Section -->
+  <section style="background: var(--surface-soft); padding: 3rem 0;">
    <div class="container">
-    <h1>
+    <h1 style="font-family: var(--font-serif); font-size: clamp(2rem, 4vw, 2.8rem); font-weight: 400; line-height: 1.15; color: var(--text); margin-bottom: 1.5rem;">
      Natuurlijke hondensnacks
     </h1>
-    <p class="lead">
-     <strong>
+    <p style="font-size: 1.05rem; line-height: 1.7; color: var(--text-dim); max-width: 600px; margin-bottom: 2rem;">
+     <strong style="color: var(--text);">
       Ontdek natuurlijke en biologische hondensnacks voor jouw viervoeter.
      </strong>
      <br/>
      Van graanvrije snacks tot kauwsnacks - alles zonder kunstmatige toevoegingen.
     </p>
     <!-- Trust Signals Row -->
-    <div class="trust-signals">
-     <div class="trust-item">
-      <span>
-      </span>
-      <span>
+    <div style="display: flex; gap: 2rem; flex-wrap: wrap; margin-bottom: 2rem;">
+     <div style="display: flex; align-items: center; gap: 0.5rem;">
+      <span style="color: var(--primary); font-size: 1.5rem;">✓</span>
+      <span style="color: var(--text); font-weight: 600;">
        100% natuurlijk
       </span>
      </div>
-     <div class="trust-item">
-      <span>
-      </span>
-      <span>
+     <div style="display: flex; align-items: center; gap: 0.5rem;">
+      <span style="color: var(--primary); font-size: 1.5rem;">✓</span>
+      <span style="color: var(--text); font-weight: 600;">
        Geen kunstmatige toevoegingen
       </span>
      </div>
-     <div class="trust-item">
-      <span>
-       →
-      </span>
-      <span>
+     <div style="display: flex; align-items: center; gap: 0.5rem;">
+      <span style="color: var(--primary); font-size: 1.5rem;">→</span>
+      <span style="color: var(--text); font-weight: 600;">
        Direct naar aanbieder
       </span>
      </div>
     </div>
     <!-- Quick Navigation Pills -->
     <div>
-     <p>
+     <p style="font-size: 0.9rem; color: var(--text-dim); margin-bottom: 1rem;">
       Snel naar categorie:
      </p>
-     <div>
-      <a href="/graanvrije-hondensnacks/" onmouseout="this.style.background='var(--secondary)'" onmouseover="this.style.background='var(--secondary-600)'">
+     <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+      <a href="../graanvrije-hondensnacks/" style="display: inline-block; padding: 0.5rem 1rem; background: var(--secondary); color: white; text-decoration: none; border-radius: 0.5rem; font-size: 0.9rem; font-weight: 600; transition: background 0.2s;">
        Hypoallergeen
       </a>
-      <a href="/hondensnacks-voor-training/" onmouseout="this.style.background='var(--secondary)'" onmouseover="this.style.background='var(--secondary-600)'">
+      <a href="../hondensnacks-voor-training/" style="display: inline-block; padding: 0.5rem 1rem; background: var(--secondary); color: white; text-decoration: none; border-radius: 0.5rem; font-size: 0.9rem; font-weight: 600; transition: background 0.2s;">
        Training
       </a>
-      <a href="/gezonde-kauwsnacks/" onmouseout="this.style.background='var(--primary)'" onmouseover="this.style.background='var(--primary-600)'">
+      <a href="../gezonde-kauwsnacks/" style="display: inline-block; padding: 0.5rem 1rem; background: var(--primary); color: white; text-decoration: none; border-radius: 0.5rem; font-size: 0.9rem; font-weight: 600; transition: background 0.2s;">
        Kauwbotten
       </a>
-      <a href="/hondensnacks-voor-puppy/" onmouseout="this.style.background='var(--secondary)'" onmouseover="this.style.background='var(--secondary-600)'">
+      <a href="../hondensnacks-voor-puppy/" style="display: inline-block; padding: 0.5rem 1rem; background: var(--secondary); color: white; text-decoration: none; border-radius: 0.5rem; font-size: 0.9rem; font-weight: 600; transition: background 0.2s;">
        Puppy
       </a>
      </div>
@@ -195,56 +167,56 @@ dropdownToggles.forEach(toggle => {
    </div>
   </section>
   <!-- Shop op behoefte -->
-  <section class="section">
+  <section class="section" style="padding: 2rem 0;">
    <div class="container">
-    <h2>
+    <h2 style="font-family: var(--font-display); margin-bottom: var(--sp-2);">
      Kies natuurlijke snacks op basis van behoefte
     </h2>
-    <p>
+    <p class="text-dim" style="margin-bottom: var(--sp-6);">
      Vind de perfecte snack voor jouw hond.
     </p>
-    <div class="top-products-grid">
+    <div class="grid grid-4" style="gap: var(--sp-6);">
      <div class="card">
-      <h3>
+      <h3 style="font-size: var(--fs-base); font-weight: 600; margin-bottom: var(--sp-2);">
        Training snacks
       </h3>
-      <p>
+      <p class="text-sm text-dim" style="margin-bottom: var(--sp-4);">
        Kleine beloningssnacks perfect voor training en gehoorzaamheid.
       </p>
-      <a class="btn btn-primary" href="/hondensnacks-voor-training/">
+      <a class="btn btn-primary" href="../hondensnacks-voor-training/" style="display: inline-block; padding: var(--sp-3) var(--sp-6);">
        Bekijk training snacks
       </a>
      </div>
      <div class="card">
-      <h3>
+      <h3 style="font-size: var(--fs-base); font-weight: 600; margin-bottom: var(--sp-2);">
        Puppy snacks
       </h3>
-      <p>
+      <p class="text-sm text-dim" style="margin-bottom: var(--sp-4);">
        Zachte snacks speciaal ontwikkeld voor puppy's en jonge honden.
       </p>
-      <a class="btn btn-primary" href="/hondensnacks-voor-puppy/">
+      <a class="btn btn-primary" href="../hondensnacks-voor-puppy/" style="display: inline-block; padding: var(--sp-3) var(--sp-6);">
        Bekijk puppy snacks
       </a>
      </div>
      <div class="card">
-      <h3>
+      <h3 style="font-size: var(--fs-base); font-weight: 600; margin-bottom: var(--sp-2);">
        Graanvrije / hypoallergene snacks
       </h3>
-      <p>
+      <p class="text-sm text-dim" style="margin-bottom: var(--sp-4);">
        Snacks zonder granen voor honden met allergieën of gevoelige magen.
       </p>
-      <a class="btn btn-primary" href="/graanvrije-hondensnacks/">
+      <a class="btn btn-primary" href="../graanvrije-hondensnacks/" style="display: inline-block; padding: var(--sp-3) var(--sp-6);">
        Bekijk graanvrije snacks
       </a>
      </div>
      <div class="card">
-      <h3>
+      <h3 style="font-size: var(--fs-base); font-weight: 600; margin-bottom: var(--sp-2);">
        Kauwsnacks / tandverzorging
       </h3>
-      <p>
+      <p class="text-sm text-dim" style="margin-bottom: var(--sp-4);">
        Natuurlijke kauwsnacks voor tandverzorging en langdurig kauwplezier.
       </p>
-      <a class="btn btn-primary" href="/gezonde-kauwsnacks/">
+      <a class="btn btn-primary" href="../gezonde-kauwsnacks/" style="display: inline-block; padding: var(--sp-3) var(--sp-6);">
        Bekijk kauwsnacks
       </a>
      </div>
@@ -252,72 +224,66 @@ dropdownToggles.forEach(toggle => {
    </div>
   </section>
   <!-- Uitgelichte producten -->
-  <section class="section" id="top-products">
+  <section class="section" style="padding: 2rem 0;">
    <div class="container">
-    <h2>
+    <h2 style="font-family: var(--font-display); margin-bottom: var(--sp-2);">
      Populaire natuurlijke hondensnacks
     </h2>
-    <p>
+    <p class="text-dim" style="margin-bottom: var(--sp-6);">
      Deze snacks zijn het meest gekozen door hondenbaasjes.
     </p>
-    <div class="top-products-grid">
+    <div class="grid grid-3" style="gap: var(--sp-6);">
      <div class="card">
-      <div>
+      <div style="background: var(--primary); color: white; padding: var(--sp-1) var(--sp-2); border-radius: var(--r-sm); font-size: var(--fs-xs); font-weight: 600; display: inline-block; margin-bottom: var(--sp-2);">
        #1 BESTSELLER
       </div>
-      <img alt="Natuurlijke Zalm Bites - graanvrije hondensnack voor training" loading="lazy" src="../images/Natuurlijke Zalm Bites.jpg"/>
-      <h3>
+      <img alt="Natuurlijke Zalm Bites - graanvrije hondensnack voor training" loading="lazy" src="../images/Natuurlijke Zalm Bites.jpg" style="width: 100%; height: 180px; object-fit: cover; border-radius: var(--r-lg); margin-bottom: var(--sp-4);"/>
+      <h3 style="font-size: var(--fs-base); font-weight: 600; margin-bottom: var(--sp-2);">
        Natuurlijke Zalm Bites
       </h3>
-      <p>
+      <p class="text-sm text-dim" style="margin-bottom: var(--sp-4);">
        100% natuurlijke zalm, perfect voor training. Graanvrij en hypoallergeen.
       </p>
-      <div>
-       <span>
-        €8,95
-       </span>
+      <div style="font-size: 1.2rem; font-weight: 700; color: var(--primary); margin-bottom: var(--sp-4);">
+       €8,95
       </div>
-      <a class="btn btn-primary" href="https://www.bol.com/nl/nl/p/natuurlijke-zalm-bites/" rel="nofollow noopener" target="_blank">
+      <a class="btn btn-primary" href="https://www.bol.com/nl/nl/p/natuurlijke-zalm-bites/" rel="nofollow noopener" target="_blank" style="display: inline-block; padding: var(--sp-3) var(--sp-6);">
        Bekijk op Bol.com
       </a>
      </div>
      <div class="card">
-      <div>
+      <div style="background: var(--secondary); color: white; padding: var(--sp-1) var(--sp-2); border-radius: var(--r-sm); font-size: var(--fs-xs); font-weight: 600; display: inline-block; margin-bottom: var(--sp-2);">
        HYPOALLERGEEN
       </div>
-      <img alt="Biologische Hertenvlees Strips - hypoallergene hondensnack voor gevoelige magen" loading="lazy" src="../images/Biologische Hertenvlees Strips .jpg"/>
-      <h3>
+      <img alt="Biologische Hertenvlees Strips - hypoallergene hondensnack voor gevoelige magen" loading="lazy" src="../images/Biologische Hertenvlees Strips .jpg" style="width: 100%; height: 180px; object-fit: cover; border-radius: var(--r-lg); margin-bottom: var(--sp-4);"/>
+      <h3 style="font-size: var(--fs-base); font-weight: 600; margin-bottom: var(--sp-2);">
        Biologische Hertenvlees Strips
       </h3>
-      <p>
+      <p class="text-sm text-dim" style="margin-bottom: var(--sp-4);">
        100% hertenvlees, ideaal voor honden met allergieën. Langdurig kauwplezier.
       </p>
-      <div>
-       <span>
-        €12,50
-       </span>
+      <div style="font-size: 1.2rem; font-weight: 700; color: var(--primary); margin-bottom: var(--sp-4);">
+       €12,50
       </div>
-      <a class="btn btn-primary" href="https://www.bol.com/nl/nl/p/hertenvlees-strips/" rel="nofollow noopener" target="_blank">
+      <a class="btn btn-primary" href="https://www.bol.com/nl/nl/p/hertenvlees-strips/" rel="nofollow noopener" target="_blank" style="display: inline-block; padding: var(--sp-3) var(--sp-6);">
        Bekijk op Bol.com
       </a>
      </div>
      <div class="card">
-      <div>
+      <div style="background: var(--secondary); color: white; padding: var(--sp-1) var(--sp-2); border-radius: var(--r-sm); font-size: var(--fs-xs); font-weight: 600; display: inline-block; margin-bottom: var(--sp-2);">
        PUPPY FAVORIET
       </div>
-      <img alt="Zachte Puppy Koekjes - natuurlijke hondensnack voor jonge honden" loading="lazy" src="../images/Zachte Puppy Koekjes .jpg"/>
-      <h3>
+      <img alt="Zachte Puppy Koekjes - natuurlijke hondensnack voor jonge honden" loading="lazy" src="../images/Zachte Puppy Koekjes .jpg" style="width: 100%; height: 180px; object-fit: cover; border-radius: var(--r-lg); margin-bottom: var(--sp-4);"/>
+      <h3 style="font-size: var(--fs-base); font-weight: 600; margin-bottom: var(--sp-2);">
        Zachte Puppy Koekjes
       </h3>
-      <p>
+      <p class="text-sm text-dim" style="margin-bottom: var(--sp-4);">
        Extra zachte textuur voor puppy's. Rijk aan proteïnen voor gezonde groei.
       </p>
-      <div>
-       <span>
-        €6,75
-       </span>
+      <div style="font-size: 1.2rem; font-weight: 700; color: var(--primary); margin-bottom: var(--sp-4);">
+       €6,75
       </div>
-      <a class="btn btn-primary" href="https://www.bol.com/nl/nl/p/puppy-koekjes/" rel="nofollow noopener" target="_blank">
+      <a class="btn btn-primary" href="https://www.bol.com/nl/nl/p/puppy-koekjes/" rel="nofollow noopener" target="_blank" style="display: inline-block; padding: var(--sp-3) var(--sp-6);">
        Bekijk op Bol.com
       </a>
      </div>
@@ -325,191 +291,183 @@ dropdownToggles.forEach(toggle => {
    </div>
   </section>
   <!-- Alle producten / overzicht -->
-  <section class="section">
+  <section class="section" style="padding: 2rem 0;">
    <div class="container">
-    <h2>
+    <h2 style="font-family: var(--font-display); margin-bottom: var(--sp-2);">
      Alle natuurlijke hondensnacks in één overzicht
     </h2>
-    <p>
+    <p class="text-dim" style="margin-bottom: var(--sp-6);">
      Bekijk ons volledige assortiment natuurlijke snacks.
     </p>
-    <a class="btn btn-primary" href="../winkel.html">
+    <a class="btn btn-primary" href="../winkel.html" style="display: inline-block; padding: var(--sp-3) var(--sp-6);">
      Bekijk alle producten in de winkel →
     </a>
    </div>
   </section>
   <!-- Korte koopgids -->
-  <section class="section">
+  <section class="section" style="padding: 2rem 0;">
    <div class="container">
-    <h2>
+    <h2 style="font-family: var(--font-display); margin-bottom: var(--sp-2);">
      Waarop letten bij natuurlijke hondensnacks?
     </h2>
-    <div>
-     <h3>
-      Ingrediënten zonder toevoegingen
-     </h3>
-     <p>
-      Natuurlijke hondensnacks bevatten geen kunstmatige kleurstoffen, conserveermiddelen of smaakversterkers. Kijk altijd naar de ingrediëntenlijst en vermijd E-nummers en onbekende additieven.
-     </p>
-    </div>
-    <div>
-     <h3>
-      Doel van de snack
-     </h3>
-     <p>
-      Kies de snack op basis van het doel: training (klein en snel te eten), kauwplezier (harde textuur voor tanden), of beloning (zachte textuur voor snelle consumptie).
-     </p>
-    </div>
-    <div>
-     <h3>
-      Gevoelige maag of allergieën
-     </h3>
-     <p>
-      Voor honden met allergieën zijn monoproteïne snacks (één eiwitbron) en graanvrije opties het beste. Exotische eiwitten zoals hert, paard of konijn zijn vaak goed verdragen.
-     </p>
+    <div class="grid grid-3" style="gap: var(--sp-8);">
+     <div>
+      <div style="font-size: 2rem; margin-bottom: var(--sp-2);">🔍</div>
+      <h3 style="font-size: var(--fs-base); font-weight: 600; margin-bottom: var(--sp-2);">
+       Ingrediënten zonder toevoegingen
+      </h3>
+      <p class="text-sm text-dim">
+       Natuurlijke hondensnacks bevatten geen kunstmatige kleurstoffen, conserveermiddelen of smaakversterkers. Kijk altijd naar de ingrediëntenlijst en vermijd E-nummers en onbekende additieven.
+      </p>
+     </div>
+     <div>
+      <div style="font-size: 2rem; margin-bottom: var(--sp-2);">🎯</div>
+      <h3 style="font-size: var(--fs-base); font-weight: 600; margin-bottom: var(--sp-2);">
+       Doel van de snack
+      </h3>
+      <p class="text-sm text-dim">
+       Kies de snack op basis van het doel: training (klein en snel te eten), kauwplezier (harde textuur voor tanden), of beloning (zachte textuur voor snelle consumptie).
+      </p>
+     </div>
+     <div>
+      <div style="font-size: 2rem; margin-bottom: var(--sp-2);">🩺</div>
+      <h3 style="font-size: var(--fs-base); font-weight: 600; margin-bottom: var(--sp-2);">
+       Gevoelige maag of allergieën
+      </h3>
+      <p class="text-sm text-dim">
+       Voor honden met allergieën zijn monoproteïne snacks (één eiwitbron) en graanvrije opties het beste. Exotische eiwitten zoals hert, paard of konijn zijn vaak goed verdragen.
+      </p>
+     </div>
     </div>
    </div>
   </section>
   <!-- FAQ compacte -->
-  <section class="section">
+  <section class="section" style="padding: 2rem 0;">
    <div class="container">
-    <h2>
+    <h2 style="font-family: var(--font-display); margin-bottom: var(--sp-2);">
      Veelgestelde vragen over natuurlijke hondensnacks
     </h2>
-    <div class="faq-container">
-     <div class="faq-item">
-      <div class="faq-question" onclick="toggleFaq(this)">
-       <span>
+    <div style="max-width: 800px;">
+     <!-- Question 1 -->
+     <div style="margin-bottom: var(--sp-4); border-bottom: 1px solid var(--border); padding-bottom: var(--sp-4);">
+      <div onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block';" style="cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+       <h4 style="margin: 0; font-weight: 600;">
         Wat is het verschil tussen natuurlijke en biologische snacks?
-       </span>
-       <span class="faq-icon">
-        +
-       </span>
+       </h4>
+       <span style="font-weight: 600;">+</span>
       </div>
-      <div class="faq-answer">
-       <p>
-        <strong>
-         Natuurlijk:
-        </strong>
-        Geen kunstmatige additieven, kleurstoffen of conserveermiddelen.
-        <strong>
-         Biologisch:
-        </strong>
-        Nog strenger - gecertificeerd volgens EU-biologische standaards, zonder pesticiden, antibiotica-vrij vlees.
+      <div style="display: none; margin-top: var(--sp-2);">
+       <p class="text-dim">
+        <strong>Natuurlijk:</strong> Geen kunstmatige additieven, kleurstoffen of conserveermiddelen.
+        <strong>Biologisch:</strong> Nog strenger - gecertificeerd volgens EU-biologische standaarden, zonder pesticiden, antibiotica-vrij vlees.
        </p>
       </div>
      </div>
-     <div class="faq-item">
-      <div class="faq-question" onclick="toggleFaq(this)">
-       <span>
+     <!-- Question 2 -->
+     <div style="margin-bottom: var(--sp-4); border-bottom: 1px solid var(--border); padding-bottom: var(--sp-4);">
+      <div onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block';" style="cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+       <h4 style="margin: 0; font-weight: 600;">
         Welke snacks zijn het beste voor mijn puppy?
-       </span>
-       <span class="faq-icon">
-        +
-       </span>
+       </h4>
+       <span style="font-weight: 600;">+</span>
       </div>
-      <div class="faq-answer">
-       <p>
+      <div style="display: none; margin-top: var(--sp-2);">
+       <p class="text-dim">
         Voor puppy's raden we zeer kleine, zachte snacks aan die gemakkelijk verteerbaar zijn. Bekijk onze
-        <a href="/hondensnacks-voor-puppy/">
+        <a href="../hondensnacks-voor-puppy/" style="color: var(--primary); text-decoration: none;">
          complete gids voor puppy snacks
         </a>
         .
        </p>
       </div>
      </div>
-     <div class="faq-item">
-      <div class="faq-question" onclick="toggleFaq(this)">
-       <span>
+     <!-- Question 3 -->
+     <div style="margin-bottom: var(--sp-4); border-bottom: 1px solid var(--border); padding-bottom: var(--sp-4);">
+      <div onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block';" style="cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+       <h4 style="margin: 0; font-weight: 600;">
         Mijn hond heeft een gevoelige maag. Welke snacks zijn veilig?
-       </span>
-       <span class="faq-icon">
-        +
-       </span>
+       </h4>
+       <span style="font-weight: 600;">+</span>
       </div>
-      <div class="faq-answer">
-       <p>
+      <div style="display: none; margin-top: var(--sp-2);">
+       <p class="text-dim">
         Voor honden met gevoelige magen zijn hypoallergene, graanvrije snacks essentieel. Bekijk alle
-        <a href="/graanvrije-hondensnacks/">
+        <a href="../graanvrije-hondensnacks/" style="color: var(--primary); text-decoration: none;">
          graanvrije hondensnacks
         </a>
         .
        </p>
       </div>
      </div>
-     <div class="faq-item">
-      <div class="faq-question" onclick="toggleFaq(this)">
-       <span>
+     <!-- Question 4 -->
+     <div style="margin-bottom: var(--sp-4); border-bottom: 1px solid var(--border); padding-bottom: var(--sp-4);">
+      <div onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block';" style="cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+       <h4 style="margin: 0; font-weight: 600;">
         Hoeveel snacks mag mijn hond per dag hebben?
-       </span>
-       <span class="faq-icon">
-        +
-       </span>
+       </h4>
+       <span style="font-weight: 600;">+</span>
       </div>
-      <div class="faq-answer">
-       <p>
+      <div style="display: none; margin-top: var(--sp-2);">
+       <p class="text-dim">
         Snacks mogen maximaal 10% van de dagelijkse calorieën uitmaken. Voor specifiek voedingsadvies raadpleeg je dierenarts.
        </p>
       </div>
      </div>
     </div>
-    <script>
-     function toggleFaq(element) { const answer = element.nextElementSibling; const icon = element.querySelector('.faq-icon'); const isOpen = answer.style.maxHeight && answer.style.maxHeight!== '0px'; document.querySelectorAll('.faq-answer').forEach(a => { a.style.maxHeight = '0px'; }); document.querySelectorAll('.faq-icon').forEach(i => { i.textContent = '+'; }); document.querySelectorAll('.faq-question').forEach(q => { q.style.background = 'var(--surface-soft)'; q.style.color = 'var(--text)'; }); if (!isOpen) { answer.style.maxHeight = answer.scrollHeight + 'px'; icon.textContent = '−'; element.style.background = '#f1f5f9'; element.style.color = 'var(--text)'; element.style.fontWeight = '700'; } }
-    </script>
    </div>
   </section>
   <!-- Gerelateerde Gidsen Section - Internal Linking -->
-  <section class="section">
+  <section class="section" style="padding: 2rem 0;">
    <div class="container">
-    <h2>
+    <h2 style="font-family: var(--font-display); margin-bottom: var(--sp-2);">
      Gerelateerde gidsen
     </h2>
-    <div>
-     <a href="../beste-hondensnacks-2026/" onmouseout="this.style.transform='translateY(0)'" onmouseover="this.style.transform='translateY(-4px)'">
-      <h3>
+    <div class="grid grid-3" style="gap: var(--sp-6);">
+     <a class="card" href="../beste-hondensnacks-2026/" style="text-decoration: none; color: inherit;">
+      <h3 style="font-size: var(--fs-base); font-weight: 600; margin-bottom: var(--sp-2);">
        Beste biologische hondensnacks
       </h3>
-      <p>
+      <p class="text-sm text-dim">
        Top beoordeelde biologische snacks van 2026 met uitgebreide reviews en vergelijkingen.
       </p>
      </a>
-     <a href="../graanvrije-hondensnacks/" onmouseout="this.style.transform='translateY(0)'" onmouseover="this.style.transform='translateY(-4px)'">
-      <h3>
+     <a class="card" href="../graanvrije-hondensnacks/" style="text-decoration: none; color: inherit;">
+      <h3 style="font-size: var(--fs-base); font-weight: 600; margin-bottom: var(--sp-2);">
        Graanvrije snacks
       </h3>
-      <p>
+      <p class="text-sm text-dim">
        Snacks zonder granen voor honden met allergieën of gevoelige magen.
       </p>
      </a>
-     <a href="../gezonde-kauwsnacks/" onmouseout="this.style.transform='translateY(0)'" onmouseover="this.style.transform='translateY(-4px)'">
-      <h3>
+     <a class="card" href="../gezonde-kauwsnacks/" style="text-decoration: none; color: inherit;">
+      <h3 style="font-size: var(--fs-base); font-weight: 600; margin-bottom: var(--sp-2);">
        Kauwsnacks
       </h3>
-      <p>
+      <p class="text-sm text-dim">
        Natuurlijke kauwsnacks voor tandverzorging en langdurig kauwplezier.
       </p>
      </a>
-     <a href="../hondensnacks-voor-training/" onmouseout="this.style.transform='translateY(0)'" onmouseover="this.style.transform='translateY(-4px)'">
-      <h3>
+     <a class="card" href="../hondensnacks-voor-training/" style="text-decoration: none; color: inherit;">
+      <h3 style="font-size: var(--fs-base); font-weight: 600; margin-bottom: var(--sp-2);">
        Training snacks
       </h3>
-      <p>
+      <p class="text-sm text-dim">
        Kleine beloningssnacks perfect voor training en positieve bekrachtiging.
       </p>
      </a>
-     <a href="../hondensnacks-voor-puppy/" onmouseout="this.style.transform='translateY(0)'" onmouseover="this.style.transform='translateY(-4px)'">
-      <h3>
+     <a class="card" href="../hondensnacks-voor-puppy/" style="text-decoration: none; color: inherit;">
+      <h3 style="font-size: var(--fs-base); font-weight: 600; margin-bottom: var(--sp-2);">
        Puppy snacks
       </h3>
-      <p>
+      <p class="text-sm text-dim">
        Zachte snacks speciaal ontwikkeld voor puppy's en jonge honden.
       </p>
      </a>
-     <a href="../hypoallergene-hondensnacks/" onmouseout="this.style.transform='translateY(0)'" onmouseover="this.style.transform='translateY(-4px)'">
-      <h3>
+     <a class="card" href="../hypoallergene-hondensnacks/" style="text-decoration: none; color: inherit;">
+      <h3 style="font-size: var(--fs-base); font-weight: 600; margin-bottom: var(--sp-2);">
        Hypoallergene snacks
       </h3>
-      <p>
+      <p class="text-sm text-dim">
        Snacks voor honden met allergieën en voedselintoleranties.
       </p>
      </a>
@@ -518,183 +476,48 @@ dropdownToggles.forEach(toggle => {
   </section>
   <!-- Footer -->
   <footer class="footer">
-   <div class="container">
-    <div class="footer-content">
-     <div>
-      <h3>
-       Biologische hondensnacks
-      </h3>
-      <p>
-       De beste natuurlijke en biologische snacks voor jouw hond. Graanvrij, gezond en heerlijk.
-      </p>
-      <!-- Newsletter Signup -->
-      <div>
-       <h4>
-        Wekelijkse tips &amp; aanbiedingen
-       </h4>
-       <form>
-        <input placeholder="je@email.nl" required="" type="email"/>
-        <button type="submit">
-         Aanmelden
-        </button>
-       </form>
-       <p>
-        Geen spam, uitschrijven altijd mogelijk
-       </p>
-      </div>
-      <!-- Social Media -->
-      <div>
-       <h4>
-        Volg ons
-       </h4>
-       <div>
-        <a href="#">
-         f
-        </a>
-        <a href="#">
-         ig
-        </a>
-        <a href="#">
-         yt
-        </a>
-       </div>
-      </div>
-     </div>
-     <div>
-      <h3>
-       Populaire categorieën
-      </h3>
-      <ul>
-       <li>
-        <a href="natuurlijke-hondensnacks/">
-         Natuurlijke snacks
-        </a>
-       </li>
-       <li>
-        <a href="hondensnacks-voor-puppy/">
-         Puppy snacks
-        </a>
-       </li>
-       <li>
-        <a href="hondensnacks-voor-training/">
-         Training snacks
-        </a>
-       </li>
-       <li>
-        <a href="gezonde-kauwsnacks/">
-         Kauwsnacks
-        </a>
-       </li>
-       <li>
-        <a href="graanvrije-hondensnacks/">
-         Graanvrije snacks
-        </a>
-       </li>
-      </ul>
-     </div>
-     <div>
-      <h3>
-       Support &amp; info
-      </h3>
-      <ul>
-       <li>
-        <a href="over-ons/">
-         Over ons
-        </a>
-       </li>
-       <li>
-        <a href="blog/">
-         Blog &amp; tips
-        </a>
-       </li>
-       <li>
-        <a href="contact/">
-         Contact
-        </a>
-       </li>
-       <li>
-        <a href="veelgestelde-vragen/">
-         FAQ
-        </a>
-       </li>
-       <li>
-        <a href="beste-hondensnacks-2026/">
-         Top 10 beste
-        </a>
-       </li>
-      </ul>
-     </div>
-     <div>
-      <h3>
-       Vertrouwen &amp; veiligheid
-      </h3>
-      <!-- Trust Badges -->
-      <div>
-       <div>
-        <span>
-         Bol.com partner
-        </span>
-        <span>
-         veilig betalen
-        </span>
-       </div>
-       <div>
-        <span>
-         SKAL bio
-        </span>
-        <span>
-         4.8/5 reviews
-        </span>
-       </div>
-      </div>
-      <!-- Legal Links -->
-      <div>
-       <h4>
-        Juridisch
-       </h4>
-       <ul>
-        <li>
-         <a href="privacy-policy/">
-          Privacy policy
-         </a>
-        </li>
-        <li>
-         <a href="algemene-voorwaarden/">
-          Algemene voorwaarden
-         </a>
-        </li>
-        <li>
-         <a href="disclaimer/">
-          Disclaimer
-         </a>
-        </li>
-       </ul>
-      </div>
-     </div>
-    </div>
-    <div class="footer-bottom">
-     <p>
-      <strong>
-       Disclaimer:
-      </strong>
-      De informatie op deze website is alleen bedoeld voor algemene doeleinden en vervangt geen professioneel veterinair advies. Raadpleeg altijd je dierenarts voor specifieke voedings- en gezondheidsadvies voor je hond.
-     </p>
-     <p>
-      © 2026 Biologische hondensnacks. Alle rechten voorbehouden. | Gemaakt voor honden en hun baasjes
-     </p>
-    </div>
-   </div>
+  <div class="container">
+  <div class="grid" style="grid-template-columns: 2fr repeat(3, 1fr); gap: var(--sp-12);">
+  <div>
+  <p style="font-family: var(--font-serif); font-size: var(--fs-xl); color: white; margin-bottom: var(--sp-4);">
+   Biologische Hondensnacks
+  </p>
+  <p style="color: #999; font-size: var(--fs-sm); line-height: 1.7; margin-bottom: 0;">
+   De beste biologische en natuurlijke hondensnacks voor jouw trouwe viervoeter.
+  </p>
+  </div>
+  <div>
+  <h4 style="color: white; font-size: var(--fs-xs); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: var(--sp-4);">
+   Gidsen
+  </h4>
+  <ul style="list-style: none; padding: 0;">
+  <li style="margin-bottom: var(--sp-2);"><a href="../beste-hondensnacks-2026/" style="color: #aaa; font-size: var(--fs-sm);">Top 10 hondensnacks</a></li>
+  <li style="margin-bottom: var(--sp-2);"><a href="../natuurlijke-hondensnacks/" style="color: #aaa; font-size: var(--fs-sm);">Natuurlijke snacks</a></li>
+  <li style="margin-bottom: var(--sp-2);"><a href="../hondensnacks-voor-puppy/" style="color: #aaa; font-size: var(--fs-sm);">Puppy snacks</a></li>
+  </ul>
+  </div>
+  <div>
+  <h4 style="color: white; font-size: var(--fs-xs); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: var(--sp-4);">
+   Winkel
+  </h4>
+  <ul style="list-style: none; padding: 0;">
+  <li style="margin-bottom: var(--sp-2);"><a href="../winkel.html" style="color: #aaa; font-size: var(--fs-sm);">Alle producten</a></li>
+  <li style="margin-bottom: var(--sp-2);"><a href="../kauwsnacks-tandverzorging/" style="color: #aaa; font-size: var(--fs-sm);">Kauwsnacks</a></li>
+  <li style="margin-bottom: var(--sp-2);"><a href="../hypoallergene-hondensnacks/" style="color: #aaa; font-size: var(--fs-sm);">Hypoallergeen</a></li>
+  </ul>
+  </div>
+  <div>
+  <h4 style="color: white; font-size: var(--fs-xs); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: var(--sp-4);">
+   Categorieën
+  </h4>
+  <ul style="list-style: none; padding: 0;">
+  <li style="margin-bottom: var(--sp-2);"><a href="../hondensnacks-voor-training/" style="color: #aaa; font-size: var(--fs-sm);">Training</a></li>
+  <li style="margin-bottom: var(--sp-2);"><a href="../graanvrije-hondensnacks/" style="color: #aaa; font-size: var(--fs-sm);">Graanvrij</a></li>
+  <li style="margin-bottom: var(--sp-2);"><a href="../gezonde-kauwsnacks/" style="color: #aaa; font-size: var(--fs-sm);">Kauwsnacks</a></li>
+  </ul>
+  </div>
+  </div>
+  </div>
   </footer>
-  <!-- Scripts -->
-  <script src="../js/main.js">
-  </script>
-  <script src="../js/wishlist.js">
-  </script>
-  <!-- Profile Guide JavaScript - AFFILIATION OPTIMIZED -->
-  <script>
-   // Product recommendations by profile const productRecommendations = { 'puppy-training': { name: 'Zachte Puppy Koekjes', price: 6.75, rating: 4.8, reviews: 156, highlights: ['Speciaal voor puppy\'s', 'Zacht en verteerbaar', 'Klein formaat voor training'], image: '../images/Zachte Puppy Koekjes .jpg', url: 'https://partnerprogramma.bol.com/click/click?p=2&t=url&s=XXXX&f=TXN&url=https://www.bol.com/nl/p/puppy-koekjes/', badge: 'BESTE VOOR PUPPY TRAINING' }, 'puppy-allergies': { name: 'Natuurlijke Zalm Bites', price: 8.95, rating: 4.7, reviews: 127, highlights: ['100% natuurlijke zalm', 'Graanvrij & hypoallergeen', 'Klein formaat'], image: '../images/Natuurlijke Zalm Bites.jpg', url: 'https://partnerprogramma.bol.com/click/click?p=2&t=url&s=XXXX&f=TXN&url=https://www.bol.com/nl/p/natuurlijke-zalm-bites/', badge: 'BESTE VOOR PUPPY ALLERGIEËN' }, 'puppy-chewing': { name: 'Zachte Puppy Kauwsticks', price: 7.25, rating: 4.6, reviews: 98, highlights: ['Zachte textuur voor puppy tanden', 'Langdurig kauwplezier', 'Tandverzorging'], image: '../images/Gedroogde Eend Bites .jpg', url: 'https://partnerprogramma.bol.com/click/click?p=2&t=url&s=XXXX&f=TXN&url=https://www.bol.com/nl/p/puppy-kauw/', badge: 'BESTE VOOR PUPPY KAUW' }, 'adult-training': { name: 'Natuurlijke Zalm Bites', price: 8.95, rating: 4.7, reviews: 127, highlights: ['Perfect voor training', 'Hoge smaakintensiteit', 'Klein formaat'], image: '../images/Natuurlijke Zalm Bites.jpg', url: 'https://partnerprogramma.bol.com/click/click?p=2&t=url&s=XXXX&f=TXN&url=https://www.bol.com/nl/p/natuurlijke-zalm-bites/', badge: 'BESTE VOOR TRAINING' }, 'adult-allergies': { name: 'Biologische Hertenvlees Strips', price: 12.50, rating: 4.9, reviews: 89, highlights: ['100% hypoallergeen', 'Eén eiwitbron', 'Geen granen of additieven'], image: '../images/Biologische Hertenvlees Strips .jpg', url: 'https://partnerprogramma.bol.com/click/click?p=2&t=url&s=XXXX&f=TXN&url=https://www.bol.com/nl/p/hertenvlees-strips/', badge: 'BESTE VOOR ALLERGIEËN' }, 'adult-chewing': { name: 'Natuurlijke Kauwbotten Mix', price: 15.95, rating: 4.5, reviews: 203, highlights: ['2-3 uur kauwplezier', 'Natuurlijke tandverzorging', 'Verschillende formaten'], image: '../images/Natuurlijke Kauwsticks .jpg', url: 'https://partnerprogramma.bol.com/click/click?p=2&t=url&s=XXXX&f=TXN&url=https://www.bol.com/nl/p/kauwbotten/', badge: 'BESTE VOOR KAUWPLEZIER' }, 'senior-training': { name: 'Zachte Kip & Rijst Koekjes', price: 6.75, rating: 4.8, reviews: 134, highlights: ['Zachte textuur voor senior honden', 'Gemakkelijk verteerbaar', 'Kip & rijst combinatie'], image: '../images/Mini Training Treats .jpg', url: 'https://partnerprogramma.bol.com/click/click?p=2&t=url&s=XXXX&f=TXN&url=https://www.bol.com/nl/p/senior-kauw/', badge: 'BESTE VOOR SENIOR KAUW' } }; let selectedProfile = ''; let selectedNeed = ''; // Profile selection function selectProfile(profile) { selectedProfile = profile; // Update button styles document.querySelectorAll('[data-profile]').forEach(btn => { btn.style.background = '#fff8f5'; btn.style.borderColor = 'var(--primary)'; }); document.querySelector(`[data-profile="${profile}"]`).style.background = 'var(--primary)'; document.querySelector(`[data-profile="${profile}"]`).style.color = 'white'; checkAndShowRecommendation(); } // Need selection function selectNeed(need) { selectedNeed = need; // Update button styles document.querySelectorAll('[data-need]').forEach(btn => { btn.style.background = btn.dataset.need === 'training'? '#f0f9ff': btn.dataset.need === 'allergies'? '#f0fdf4': '#fef3c7'; btn.style.borderColor = btn.dataset.need === 'training'? 'var(--primary)': btn.dataset.need === 'allergies'? 'var(--success)': 'var(--warning)'; btn.style.color = 'var(--text)'; }); const selectedBtn = document.querySelector(`[data-need="${need}"]`); selectedBtn.style.background = selectedBtn.style.borderColor; selectedBtn.style.color = 'white'; checkAndShowRecommendation(); } // Check if both selections made and show recommendation function checkAndShowRecommendation() { if (selectedProfile && selectedNeed) { const recommendationKey = `${selectedProfile}-${selectedNeed}`; const product = productRecommendations[recommendationKey]; if (product) { showRecommendation(product); } } } // Show product recommendation function showRecommendation(product) { const recommendationDiv = document.getElementById('recommended-product'); const productDiv = document.getElementById('product-recommendation'); const ctaLink = document.getElementById('recommended-cta'); productDiv.innerHTML = ` <div> <img src="${product.image}" alt="${product.name}"> <div> <div> ${product.badge} </div> <h4>${product.name}</h4> <div> <span></span> <span >${product.rating}/5 (${product.reviews} reviews)</span> </div> <div>€${product.price.toFixed(2)}</div> </div> </div> <ul> ${product.highlights.map(highlight => `<li><span></span>${highlight}</li>`).join('')} </ul> `; ctaLink.href = product.url; recommendationDiv.style.display = 'block'; // Scroll to recommendation recommendationDiv.scrollIntoView({ behavior: 'smooth', block: 'center' }); // Track analytics if (typeof gtag!== 'undefined') { gtag('event', 'profile_recommendation_shown', { 'profile': selectedProfile, 'need': selectedNeed, 'product': product.name }); } } // Show all products function showAllProducts() { window.location.href = '/winkel/'; document.getElementById('toggle-all-btn').textContent = 'Verberg Bekijk alle Producten'; document.getElementById('toggle-all-btn').onclick = hideAllProducts; } // Hide all products function hideAllProducts() { window.location.href = '/winkel/'; document.getElementById('toggle-all-btn').textContent = 'Bekijk alle 67 Producten'; document.getElementById('toggle-all-btn').onclick = showAllProducts; } // Toggle all products function toggleAllProducts() { window.location.href = '/winkel/'; return; const grid = document.getElementById('products-grid'); if (grid.style.display === 'none' || grid.style.display === '') { showAllProducts(); } else { hideAllProducts(); } }
-  </script>
  </body>
-</html>
-</body>
 </html>
