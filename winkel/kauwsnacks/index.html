@@ -10,45 +10,6 @@
   <link href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'&gt;&lt;text y='.9em' font-size='90'&gt;&lt;/text&gt;&lt;/svg&gt;" rel="icon"/>
   <link rel="canonical" href="https://biologische-hondensnacks.nl/winkel/kauwsnacks/"/>
   <link href="../css/styles.css" rel="stylesheet"/>
-
-  <!-- Mobile Menu Script -->
-  <script>
-const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
-const mobileMenuOverlay = document.querySelector('.mobile-menu-overlay');
-const navMenu = document.querySelector('.nav-menu');
-
-if (mobileMenuToggle) {
-    mobileMenuToggle.addEventListener('click', () => {
-        mobileMenuToggle.classList.toggle('active');
-        navMenu.classList.toggle('active');
-        mobileMenuOverlay.classList.toggle('active');
-        document.body.style.overflow = navMenu.classList.contains('active') ? 'hidden' : '';
-    });
-}
-
-if (mobileMenuOverlay) {
-    mobileMenuOverlay.addEventListener('click', () => {
-        mobileMenuToggle.classList.remove('active');
-        navMenu.classList.remove('active');
-        mobileMenuOverlay.classList.remove('active');
-        document.body.style.overflow = '';
-    });
-}
-
-// Mobile dropdown toggle
-const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
-dropdownToggles.forEach(toggle => {
-    toggle.addEventListener('click', (e) => {
-        if (window.innerWidth <= 768) {
-            e.preventDefault();
-            const dropdownItem = toggle.closest('.nav-item.dropdown');
-            dropdownItem.classList.toggle('active');
-            const dropdownMenu = dropdownItem.querySelector('.dropdown-menu');
-            dropdownMenu.classList.toggle('active');
-        }
-    });
-});
-  </script>
   <!-- Favicon -->
   <link href="../favicon.svg" rel="icon" type="image/svg+xml"/>
   <link href="../favicon-simple.svg" rel="icon" sizes="16x16" type="image/svg+xml"/>
@@ -60,24 +21,13 @@ dropdownToggles.forEach(toggle => {
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Outfit:wght@400;600;700&amp;family=DM+Serif+Display:ital,wght@0,400&amp;display=swap" rel="stylesheet"/>
   <script src="../products.js"></script>
   <script>
-  function toggleIntroText(e) {
-    e.preventDefault();
-    const moreText = document.getElementById('intro-text-more');
-    const link = document.getElementById('lees-meer-link');
-    if (moreText.style.display === 'none') {
-      moreText.style.display = 'block';
-      link.textContent = 'Lees minder ↑';
-    } else {
-      moreText.style.display = 'none';
-      link.textContent = 'Lees meer ↓';
+  // Update canonical tag to include query parameters
+  (function() {
+    const canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (canonicalLink && window.location.search) {
+      canonicalLink.href = canonicalLink.href + window.location.search;
     }
-  }
-  function resetFilters() {
-    document.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = false);
-    document.querySelectorAll('input[type="radio"]').forEach(rb => rb.checked = false);
-    document.querySelector('input[type="radio"][value="all"]').checked = true;
-    filterProducts();
-  }
+  })();
   </script>
   <style>
    @keyframes spin {
@@ -353,70 +303,6 @@ Lees meer ↓
 </div>
 </div>
 </section>
-
-<!-- Footer -->
-<footer class="footer">
-    <div class="container">
-        <div class="grid" style="grid-template-columns: 2fr repeat(3, 1fr); gap: var(--sp-12);">
-            <div>
-                <p style="font-family: var(--font-serif); font-size: var(--fs-xl); color: white; margin-bottom: var(--sp-4);">
-                    Biologische Hondensnacks
-                </p>
-                <p style="color: #999; font-size: var(--fs-sm); line-height: 1.7; margin-bottom: 0;">
-                    De beste biologische en natuurlijke hondensnacks voor jouw trouwe viervoeter.
-                </p>
-            </div>
-            <div>
-                <h4 style="color: white; font-size: var(--fs-xs); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: var(--sp-4);">
-                    Gidsen
-                </h4>
-                <ul style="list-style: none; padding: 0;">
-                    <li style="margin-bottom: var(--sp-2);">
-                        <a href="../beste-hondensnacks-2026/" style="color: #aaa; font-size: var(--fs-sm);">Top 10 hondensnacks</a>
-                    </li>
-                    <li style="margin-bottom: var(--sp-2);">
-                        <a href="../natuurlijke-hondensnacks/" style="color: #aaa; font-size: var(--fs-sm);">Natuurlijke snacks</a>
-                    </li>
-                    <li style="margin-bottom: var(--sp-2);">
-                        <a href="../blog/" style="color: #aaa; font-size: var(--fs-sm);">Blog</a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <h4 style="color: white; font-size: var(--fs-xs); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: var(--sp-4);">
-                    Winkel
-                </h4>
-                <ul style="list-style: none; padding: 0;">
-                    <li style="margin-bottom: var(--sp-2);">
-                        <a href="../winkel.html" style="color: #aaa; font-size: var(--fs-sm);">Alle producten</a>
-                    </li>
-                    <li style="margin-bottom: var(--sp-2);">
-                        <a href="kauwsnacks/" style="color: #aaa; font-size: var(--fs-sm);">Kauwsnacks</a>
-                    </li>
-                    <li style="margin-bottom: var(--sp-2);">
-                        <a href="trainingssnacks/" style="color: #aaa; font-size: var(--fs-sm);">Trainingssnacks</a>
-                    </li>
-                    <li style="margin-bottom: var(--sp-2);">
-                        <a href="biologisch/" style="color: #aaa; font-size: var(--fs-sm);">Biologisch</a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <h4 style="color: white; font-size: var(--fs-xs); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: var(--sp-4);">
-                    Support
-                </h4>
-                <ul style="list-style: none; padding: 0;">
-                    <li style="margin-bottom: var(--sp-2);">
-                        <a href="../contact/" style="color: #aaa; font-size: var(--fs-sm);">Contact</a>
-                    </li>
-                    <li style="margin-bottom: var(--sp-2);">
-                        <a href="../veelgestelde-vragen/" style="color: #aaa; font-size: var(--fs-sm);">FAQ</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</footer>
 
 </body>
 </html>
