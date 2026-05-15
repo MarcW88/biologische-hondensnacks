@@ -1630,6 +1630,95 @@ body.blog-page {
   font-size: var(--fs-sm);
 }
 
+/* Puppy Guide Styles */
+.puppy-guide {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-6);
+}
+
+.guide-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--sp-6);
+  padding: var(--sp-6);
+  background: var(--surface);
+  border-radius: var(--r-lg);
+  border: 1px solid var(--border);
+}
+
+.guide-card > div:first-child {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-4);
+}
+
+.guide-card h3 {
+  font-family: var(--font-display);
+  font-size: var(--fs-lg);
+  font-weight: 600;
+  margin-bottom: var(--sp-2);
+}
+
+.guide-card h4 {
+  font-size: var(--fs-base);
+  font-weight: 600;
+  margin-bottom: var(--sp-3);
+}
+
+.guide-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: var(--sp-4);
+}
+
+.guide-card li {
+  padding-left: var(--sp-4);
+  position: relative;
+  margin-bottom: var(--sp-2);
+}
+
+.guide-card li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+  font-weight: 600;
+}
+
+/* FAQ Styles */
+.faq-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: var(--sp-3);
+  background: var(--surface);
+  border-radius: var(--r-md);
+  transition: background 0.2s ease;
+}
+
+.faq-header:hover {
+  background: var(--surface-soft);
+}
+
+.faq-icon {
+  font-size: var(--fs-lg);
+  color: var(--primary);
+  transition: transform 0.3s ease;
+}
+
+.faq-item[open] .faq-icon {
+  transform: rotate(45deg);
+}
+
+.faq-content {
+  padding: var(--sp-4);
+  background: var(--surface-soft);
+  border-radius: var(--r-md);
+  margin-top: var(--sp-2);
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
   :root {

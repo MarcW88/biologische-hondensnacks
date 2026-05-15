@@ -102,34 +102,52 @@ dropdownToggles.forEach(toggle => {
   </div>
   </nav>
   <div class="mobile-menu-overlay"></div>
-  <!-- Intro Section - SEO OPTIMIZED -->
-  <section class="section">
+  <!-- Hero Section -->
+  <section style="background: var(--surface-soft); padding: 3rem 0 2.5rem;">
    <div class="container">
-    <h1>
-     Hondensnacks voor puppy: zachte &amp; gezonde snacks voor jonge honden
-    </h1>
-    <p>
-     Puppies hebben
-     <strong>
-      andere snacks nodig
-     </strong>
-     dan volwassen honden. Deze gids helpt je kiezen op basis van leeftijd, ontwikkelingsstadium en voedingsbehoefte. Van zeer zachte koekjes (8-12 weken) tot stevigere kauwsticks (6-12 maanden), we begeleiden je stap voor stap.
-    </p>
-    <!-- Trust badges sans Bol.com -->
     <div>
+     <p style="font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1.25rem;">Hondensnacks voor Puppy</p>
+     <h1 style="font-family: var(--font-serif); font-size: clamp(2rem, 4vw, 2.8rem); font-weight: 400; line-height: 1.15; color: var(--text); margin-bottom: 1.5rem;">
+      Hondensnacks voor puppy: zachte &amp; gezonde snacks voor jonge honden
+     </h1>
+     <p style="font-size: 1.05rem; line-height: 1.7; color: var(--text-dim); max-width: 560px;">
+      Puppies hebben andere snacks nodig dan volwassen honden. Deze gids helpt je kiezen op basis van leeftijd, ontwikkelingsstadium en voedingsbehoefte.
+     </p>
+    </div>
+   </div>
+  </section>
+
+<!-- Breadcrumb -->
+<div class="container" style="padding: 0.5rem 0;">
+<nav style="font-size:0.85rem;color:#888;">
+<a href="../" style="color:#888;text-decoration:none;">Home</a> / <strong>Hondensnacks voor Puppy</strong>
+</nav>
+</div>
+
+<!-- Intro Section - SEO OPTIMIZED -->
+<section class="section">
+   <div class="container">
+    <h2 style="font-family: var(--font-display); margin-bottom: var(--sp-2);">
+     Hondensnacks voor puppy: zachte &amp; gezonde snacks voor jonge honden
+    </h2>
+    <p class="text-dim" style="margin-bottom: var(--sp-6);">
+     Puppies hebben andere snacks nodig dan volwassen honden. Deze gids helpt je kiezen op basis van leeftijd, ontwikkelingsstadium en voedingsbehoefte. Van zeer zachte koekjes (8-12 weken) tot stevigere kauwsticks (6-12 maanden), we begeleiden je stap voor stap.
+    </p>
+    <!-- Trust badges -->
+    <div style="display: flex; gap: 2rem; flex-wrap: wrap;">
      <div>
-      <p>
+      <p style="font-size: 0.9rem; font-weight: 600; color: var(--primary);">
        10+ puppy snacks vergeleken
       </p>
-      <p>
+      <p style="font-size: 0.8rem; color: var(--text-dim);">
        Op zachtheid, voedingswaarde &amp; geschiktheid
       </p>
      </div>
      <div>
-      <p>
+      <p style="font-size: 0.9rem; font-weight: 600; color: var(--primary);">
        4.85/5 (1.500+ reviews)
       </p>
-      <p>
+      <p style="font-size: 0.8rem; color: var(--text-dim);">
        Van echte puppy eigenaren
       </p>
      </div>
@@ -137,12 +155,7 @@ dropdownToggles.forEach(toggle => {
    </div>
   </section>
   <div class="container">
-   <nav style="font-size:0.85rem;color:#888;">
-    <a href="../" style="color:#888;text-decoration:none;">Home</a> / <strong>Hondensnacks voor Puppy</strong>
-   </nav>
-  </div>
-  <div>
-   <img src="https://images.unsplash.com/photo-1477884213360-7e9d7dcc1e48?w=800&q=80" alt="Natuurlijke puppy buitenshuis">
+   <img src="https://images.unsplash.com/photo-1477884213360-7e9d7dcc1e48?w=800&q=80" alt="Natuurlijke puppy buitenshuis" style="width: 100%; border-radius: 0.5rem; margin: var(--sp-6) 0;"/>
   </div>
   <!-- Nutritional Context Section -->
   <section class="section">
@@ -251,8 +264,8 @@ dropdownToggles.forEach(toggle => {
     </div>
    </div>
   </section>
-  <div>
-   <img src="https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?w=800&q=80" alt="Jonge hond in natuurlijke omgeving">
+  <div class="container">
+   <img src="https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?w=800&q=80" alt="Jonge hond in natuurlijke omgeving" style="width: 100%; border-radius: 0.5rem; margin: var(--sp-6) 0;"/>
   </div>
   <!-- Puppy Age Guide Section - AFFILIATION OPTIMIZED -->
   <section class="section">
@@ -566,46 +579,8 @@ dropdownToggles.forEach(toggle => {
   </section>
   <!-- Portie Calculator JavaScript -->
   <script>
-   function calculatePortie() { const weight = parseFloat(document.getElementById('puppy-weight').value); const resultElement = document.getElementById('portie-result'); if (!weight || weight < 0.5) { resultElement.textContent = 'Voer een geldig gewicht in (minimaal 0.5kg).'; resultElement.style.display = 'block'; resultElement.style.background = '#fef2f2'; resultElement.style.color = 'var(--error)'; return; } // Puppy snacks: max 5% calorieën // Gemiddeld: 3.5 cal/gram, puppy ~100 cal per kg per dag const dailyCalories = weight * 100; const snackCalories = dailyCalories * 0.05; const snackGrams = snackCalories / 3.5; resultElement.innerHTML = ` <strong>Aanbeveling voor ${weight}kg puppy:</strong><br> <span>${Math.round(snackGrams)}-${Math.round(snackGrams * 1.2)}g per dag</span><br> <span>(ongeveer 3-5 kleine bites)</span> `; resultElement.style.display = 'block'; resultElement.style.background = '#f0fdf4'; resultElement.style.color = 'var(--text)'; }
+   function calculatePortie() { const weight = parseFloat(document.getElementById('puppy-weight').value); const resultElement = document.getElementById('portie-result'); if (!weight || weight < 0.5) { resultElement.textContent = 'Voer een geldig gewicht in (minimaal 0.5kg).'; resultElement.style.display = 'block'; resultElement.style.background = '#fef2f2'; resultElement.style.color = 'var(--error)'; return; } const dailyCalories = weight * 100; const snackCalories = dailyCalories * 0.05; const snackGrams = snackCalories / 3.5; resultElement.innerHTML = ` <strong>Aanbeveling voor ${weight}kg puppy:</strong><br> <span>${Math.round(snackGrams)}-${Math.round(snackGrams * 1.2)}g per dag</span><br> <span>(ongeveer 3-5 kleine bites)</span> `; resultElement.style.display = 'block'; resultElement.style.background = '#f0fdf4'; resultElement.style.color = 'var(--text)'; }
   </script>
-
-<script>
-const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
-const mobileMenuOverlay = document.querySelector('.mobile-menu-overlay');
-const navMenu = document.querySelector('.nav-menu');
-
-if (mobileMenuToggle) {
-    mobileMenuToggle.addEventListener('click', () => {
-        mobileMenuToggle.classList.toggle('active');
-        navMenu.classList.toggle('active');
-        mobileMenuOverlay.classList.toggle('active');
-        document.body.style.overflow = navMenu.classList.contains('active') ? 'hidden' : '';
-    });
-}
-
-if (mobileMenuOverlay) {
-    mobileMenuOverlay.addEventListener('click', () => {
-        mobileMenuToggle.classList.remove('active');
-        navMenu.classList.remove('active');
-        mobileMenuOverlay.classList.remove('active');
-        document.body.style.overflow = '';
-    });
-}
-
-// Mobile dropdown toggle
-const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
-dropdownToggles.forEach(toggle => {
-    toggle.addEventListener('click', (e) => {
-        if (window.innerWidth <= 768) {
-            e.preventDefault();
-            const dropdownItem = toggle.closest('.nav-item.dropdown');
-            dropdownItem.classList.toggle('active');
-            const dropdownMenu = dropdownItem.querySelector('.dropdown-menu');
-            dropdownMenu.classList.toggle('active');
-        }
-    });
-});
-</script>
   <!-- CTA Section -->
   <section class="section">
    <div class="container text-center">
@@ -632,41 +607,41 @@ dropdownToggles.forEach(toggle => {
     
     <div style="max-width: 800px;">
      <!-- Question 1 -->
-     <div class="faq-item" style="margin-bottom: var(--sp-4); border-bottom: 1px solid var(--border); padding-bottom: var(--sp-4);">
-      <div class="faq-header" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block';">
+     <details class="faq-item" style="margin-bottom: var(--sp-4); border-bottom: 1px solid var(--border); padding-bottom: var(--sp-4);">
+      <summary class="faq-header" style="cursor: pointer; display: flex; justify-content: space-between; align-items: center; padding: var(--sp-3); background: var(--surface); border-radius: var(--r-md); transition: background 0.2s ease;">
        <h4 style="margin: 0;">Vanaf welke leeftijd mag mijn puppy snacks?</h4>
        <span class="faq-icon" style="font-weight: 600;">+</span>
-      </div>
-      <div class="faq-content" style="display: none; margin-top: var(--sp-2);">
+      </summary>
+      <div class="faq-content" style="padding: var(--sp-4); background: var(--surface-soft); border-radius: var(--r-md); margin-top: var(--sp-2);">
        <p class="text-dim">
         Puppy's kunnen vanaf 8-10 weken speciale puppy snacks krijgen, wanneer ze beginnen met vast voedsel. Start altijd met zeer kleine hoeveelheden.
        </p>
       </div>
-     </div>
+     </details>
      <!-- Question 2 -->
-     <div class="faq-item" style="margin-bottom: var(--sp-4); border-bottom: 1px solid var(--border); padding-bottom: var(--sp-4);">
-      <div class="faq-header" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block';">
+     <details class="faq-item" style="margin-bottom: var(--sp-4); border-bottom: 1px solid var(--border); padding-bottom: var(--sp-4);">
+      <summary class="faq-header" style="cursor: pointer; display: flex; justify-content: space-between; align-items: center; padding: var(--sp-3); background: var(--surface); border-radius: var(--r-md); transition: background 0.2s ease;">
        <h4 style="margin: 0;">Hoeveel snacks mag een puppy per dag?</h4>
        <span class="faq-icon" style="font-weight: 600;">+</span>
-      </div>
-      <div class="faq-content" style="display: none; margin-top: var(--sp-2);">
+      </summary>
+      <div class="faq-content" style="padding: var(--sp-4); background: var(--surface-soft); border-radius: var(--r-md); margin-top: var(--sp-2);">
        <p class="text-dim">
         Puppy snacks mogen maximaal 5% van de dagelijkse calorie-inname uitmaken. Dit is minder dan bij volwassen honden omdat puppy's meer voeding nodig hebben voor groei.
        </p>
       </div>
-     </div>
+     </details>
      <!-- Question 3 -->
-     <div class="faq-item" style="margin-bottom: var(--sp-4); border-bottom: 1px solid var(--border); padding-bottom: var(--sp-4);">
-      <div class="faq-header" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block';">
+     <details class="faq-item" style="margin-bottom: var(--sp-4); border-bottom: 1px solid var(--border); padding-bottom: var(--sp-4);">
+      <summary class="faq-header" style="cursor: pointer; display: flex; justify-content: space-between; align-items: center; padding: var(--sp-3); background: var(--surface); border-radius: var(--r-md); transition: background 0.2s ease;">
        <h4 style="margin: 0;">Welke ingrediënten zijn belangrijk voor puppy's?</h4>
        <span class="faq-icon" style="font-weight: 600;">+</span>
-      </div>
-      <div class="faq-content" style="display: none; margin-top: var(--sp-2);">
+      </summary>
+      <div class="faq-content" style="padding: var(--sp-4); background: var(--surface-soft); border-radius: var(--r-md); margin-top: var(--sp-2);">
        <p class="text-dim">
         Zoek naar snacks rijk aan proteïnen, calcium voor botgroei, DHA voor hersenontwikkeling, en natuurlijke vitamines. Vermijd kunstmatige toevoegingen.
        </p>
       </div>
-     </div>
+     </details>
     </div>
    </div>
   </section>
