@@ -153,9 +153,6 @@ dropdownToggles.forEach(toggle => {
     </div>
    </div>
   </section>
-  <div class="container">
-   <img src="https://images.unsplash.com/photo-1477884213360-7e9d7dcc1e48?w=800&q=80" alt="Natuurlijke puppy buitenshuis" style="width: 100%; border-radius: 0.5rem; margin: var(--sp-6) 0;"/>
-  </div>
   <!-- Nutritional Context Section -->
   <section class="section">
    <div class="container">
@@ -263,9 +260,6 @@ dropdownToggles.forEach(toggle => {
     </div>
    </div>
   </section>
-  <div class="container">
-   <img src="https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?w=800&q=80" alt="Jonge hond in natuurlijke omgeving" style="width: 100%; border-radius: 0.5rem; margin: var(--sp-6) 0;"/>
-  </div>
   <!-- Puppy Age Guide Section - AFFILIATION OPTIMIZED -->
   <section class="section">
    <div class="container">
@@ -482,26 +476,28 @@ dropdownToggles.forEach(toggle => {
        </a>
        .
       </p>
-      <h3>
-       Portiegrootte calculator
-      </h3>
-      <p>
-       Puppy snacks mogen maximaal
-       <strong>
-        5% van dagelijkse calorieën
-       </strong>
-       zijn (vs 10% volwassen honden).
-      </p>
-      <div>
-       <label>
-        Gewicht je puppy (kg):
-       </label>
-       <input id="puppy-weight" placeholder="bijv. 5" type="number"/>
-       <button onclick="calculatePortie()">
-        Bereken dagelijkse hoeveelheid
-       </button>
-       <p id="portie-result">
+      <div style="background: var(--surface); border: 2px solid var(--primary); border-radius: var(--r-lg); padding: var(--sp-8); margin-top: var(--sp-6);">
+       <h3 style="font-family: var(--font-display); font-size: var(--fs-xl); font-weight: 600; margin-bottom: var(--sp-4); color: var(--primary);">
+        Portiegrootte calculator
+       </h3>
+       <p style="font-size: var(--fs-lg); margin-bottom: var(--sp-6);">
+        Puppy snacks mogen maximaal
+        <strong>
+         5% van dagelijkse calorieën
+        </strong>
+        zijn (vs 10% volwassen honden).
        </p>
+       <div>
+        <label style="display: block; font-size: var(--fs-base); font-weight: 600; margin-bottom: var(--sp-2);">
+         Gewicht je puppy (kg):
+        </label>
+        <input id="puppy-weight" placeholder="bijv. 5" style="padding: var(--sp-3); font-size: var(--fs-lg); width: 100%; max-width: 300px; border: 2px solid var(--border); border-radius: var(--r-md); margin-bottom: var(--sp-4);" type="number"/>
+        <button onclick="calculatePortie()" style="padding: var(--sp-3) var(--sp-6); font-size: var(--fs-lg); font-weight: 600; background: var(--primary); color: white; border: none; border-radius: var(--r-md); cursor: pointer; width: 100%; max-width: 300px;">
+         Bereken dagelijkse hoeveelheid
+        </button>
+        <p id="portie-result" style="font-size: var(--fs-lg); font-weight: 600; margin-top: var(--sp-4); padding: var(--sp-4); border-radius: var(--r-md); display: none;">
+        </p>
+       </div>
       </div>
      </div>
      <div>

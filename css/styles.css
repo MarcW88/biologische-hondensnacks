@@ -1632,15 +1632,15 @@ body.blog-page {
 
 /* Puppy Guide Styles */
 .puppy-guide {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   gap: var(--sp-6);
 }
 
 .guide-card {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: var(--sp-6);
+  grid-template-columns: 1fr;
+  gap: var(--sp-4);
   padding: var(--sp-6);
   background: var(--surface);
   border-radius: var(--r-lg);
@@ -1684,6 +1684,11 @@ body.blog-page {
   left: 0;
   color: var(--primary);
   font-weight: 600;
+}
+
+.guide-card .btn {
+  display: inline-block;
+  margin-top: var(--sp-4);
 }
 
 /* FAQ Styles */
