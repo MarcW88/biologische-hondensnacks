@@ -75,8 +75,7 @@
 <div class="container">
 <div>
 <p style="font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1.25rem;">Onze winkel</p>
-<h1 style="font-family: var(--font-serif); font-size: clamp(2rem, 4vw, 2.8rem); font-weight: 400; line-height: 1.15; color: var(--text); margin-bottom: 1.5rem;">Biologische Hondensnacks Winkel</h1>
-<p style="font-size: 1.05rem; line-height: 1.7; color: var(--text-dim); max-width: 460px;">
+<p style="font-size: 1.05rem; line-height: 1.7; color: var(--text-dim);">
 <span id="total-products">500</span> biologische hondensnacks geselecteerd door onze experts.
 </p>
 <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
@@ -89,13 +88,14 @@
 <!-- Intro Text -->
 <section style="background: var(--surface-soft); padding: 2rem 0;">
 <div class="container">
-<div style="max-width: 800px; margin: 0 auto;">
+<div>
 <h2 style="font-family: var(--font-serif); font-size: clamp(1.8rem, 3vw, 2.2rem); font-weight: 400; line-height: 1.2; color: var(--text); margin-bottom: var(--sp-4);">
 Jouw winkel voor biologische hondensnacks — puur natuur, voor elke hond
 </h2>
 <p class="text-dim" style="margin-bottom: var(--sp-6); line-height: 1.7;">
 Welkom in onze winkel. Hier vind je een zorgvuldig samengesteld assortiment van de beste biologische en 100% natuurlijke hondensnacks van Nederland. Geen kunstmatige kleurstoffen, geen conserveringsmiddelen, geen onnodige toevoegingen — alleen snacks die écht goed zijn voor jouw hond.
 </p>
+<div id="intro-text-more" style="display: none;">
 <p class="text-dim" style="margin-bottom: var(--sp-6); line-height: 1.7;">
 Of je nu op zoek bent naar kleine trainingsbeloningen, zachte snacks voor je puppy, langdurig kauwplezier of graanvrije opties voor een gevoelige hond: je vindt het hier. Elk product in ons assortiment is geselecteerd op basis van de kwaliteit van de ingrediënten, de biologische herkomst en de voedingswaarde voor jouw viervoeter.
 </p>
@@ -131,6 +131,10 @@ Wat maakt onze snacks anders?
 <p class="text-dim" style="margin-bottom: 0; line-height: 1.7;">
 Weet je niet meteen waar te beginnen? Gebruik de categorieën hieronder om snel de juiste snack te vinden voor jouw hond, zijn leeftijd en zijn behoeften.
 </p>
+</div>
+<a href="#" id="lees-meer-link" onclick="toggleIntroText(event)" style="color: var(--primary); font-size: var(--fs-sm); font-weight: 600; text-decoration: none; display: inline-block; margin-top: var(--sp-4);">
+Lees meer ↓
+</a>
 </div>
 </div>
 </section>
@@ -753,6 +757,21 @@ Weet je niet meteen waar te beginnen? Gebruik de categorieën hieronder om snel 
 </div>
 <script src="products.js"></script>
 <script>
+// Toggle intro text expand/collapse
+function toggleIntroText(event) {
+    event.preventDefault();
+    const moreText = document.getElementById('intro-text-more');
+    const link = document.getElementById('lees-meer-link');
+    
+    if (moreText.style.display === 'none') {
+        moreText.style.display = 'block';
+        link.textContent = 'Lees minder ↑';
+    } else {
+        moreText.style.display = 'none';
+        link.textContent = 'Lees meer ↓';
+    }
+}
+
 // Products are now static HTML for SEO
 // JavaScript can be used for filtering/pagination if needed
 </script>
