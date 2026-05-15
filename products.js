@@ -64,7 +64,7 @@ const products = [
     brand: "Yourdog",
     description: "Let op: Vanwege de grootte van het ras \u00e9n het voedingsadvies zijn de volwassen en senior verpakking alleen verkrijgbaar in 12KG Yourdog Wetterhoun HondenvoerYourdog Wetterhoun zorgt voor de holistisch",
     slug: "yourdog-wetterhoun-rasspecifiek-puppy-hondenvoer-12kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-wetterhoun-rasspecifiek-puppy-hondenvoer-12kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-wetterhoun-rasspecifiek-puppy-hondenvoer-12kg-hondenbrokken.html'
   },
   {
     id: 7,
@@ -75,7 +75,7 @@ const products = [
     brand: "Yourdog",
     description: "<p>Yourdog Glen of imaal terri\u00ebr zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren dit met zorgvuldig geselect",
     slug: "hondenvoer-yourdog-glen-of-imaal-terri\u00ebr-senior-buffel-en-kip-3kg",
-    pageUrl: 'produits/hondenvoer-yourdog-glen-of-imaal-terriër-senior-buffel-en-kip-3kg.html'
+    pageUrl: 'produits/hondenvoer-yourdog-glen-of-imaal-terrir-senior-buffel-en-kip-3kg.html'
   },
   {
     id: 8,
@@ -86,7 +86,7 @@ const products = [
     brand: "Yourdog",
     description: "Chinese naakthond: hondenvoer dat rasspecifiek en gezond isHondenvoer voor de Chinese naakthond: wat is een goede keus? Waar let je op? Als we advies mogen geven: let op wat erin zit. Er is z\u00f3 veel ho",
     slug: "yourdog-chinese-naakthond-rasspecifiek-adult-hondenvoer-6kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-chinese-naakthond-rasspecifiek-adult-hondenvoer-6kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-chinese-naakthond-rasspecifiek-adult-hondenvoer-6kg-hondenbrokken.html'
   },
   {
     id: 9,
@@ -97,7 +97,7 @@ const products = [
     brand: "Carnilove",
     description: "Carnilove Salmon / Turkey Puppies 1,5 kg Carnilove Salmon / Turkey Puppies 1,5 kg is graanvrij, kwalitatief hoogwaardig hondenvoer voor jonge honden van grote rassen met zalm en kalkoen, aansluitend b",
     slug: "carnilove-salmon--turkey-puppies-large-breed-15-kg-1-stuks",
-    pageUrl: 'produits/carnilove-salmon--turkey-puppies-large-breed-15-kg-1-stuks.html'
+    pageUrl: 'produits/carnilove-salmon-turkey-puppies-large-breed-15-kg-1-stuks.html'
   },
   {
     id: 10,
@@ -108,7 +108,7 @@ const products = [
     brand: "Yourdog",
     description: "<strong>Yourdog Weimaraner Hondenvoer | Adult | 12KG</strong> <p>Yourdog Weimaraner zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel",
     slug: "yourdog-weimaraner-rasspecifiek-adult-hondenvoer-12kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-weimaraner-rasspecifiek-adult-hondenvoer-12kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-weimaraner-rasspecifiek-adult-hondenvoer-12kg-hondenbrokken.html'
   },
   {
     id: 11,
@@ -207,7 +207,7 @@ const products = [
     brand: "Yourdog",
     description: "Yourdog Zwitsere lopende hond HondenvoerYourdog Zwitsere lopende hond zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij c",
     slug: "yourdog-zwitsere-lopende-hond-rasspecifiek-puppy-hondenvoer-12kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-zwitsere-lopende-hond-rasspecifiek-puppy-hondenvoer-12kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-zwitsere-lopende-hond-rasspecifiek-puppy-hondenvoer-12kg-hondenbrokken.html'
   },
   {
     id: 20,
@@ -251,7 +251,7 @@ const products = [
     brand: "Lifetime Petfood",
     description: "<p>Elke hond verdient naast zijn normale voer een snack om naar uit te kijken. Verwen je hond daarom met deze Rundvleestrainers. Rundvleestrainers zijn hypoallergeen.</p> <p><strong>De Voordelen</stro",
     slug: "rundvleestrainers--hondensnack--voordeelpakket-400-gram--trainingssnack--hypoallergeen--natuurlijk-gedroogd",
-    pageUrl: 'produits/rundvleestrainers--hondensnack--voordeelpakket-400-gram--trainingssnack--hypoallergeen--natuurlijk-gedroogd.html'
+    pageUrl: 'produits/rundvleestrainers-hondensnack-voordeelpakket-400-gram-trainingssnack-hypoallergeen-natuurlijk-gedroogd.html'
   },
   {
     id: 24,
@@ -295,7 +295,7 @@ const products = [
     brand: "Famanu",
     description: "Over dit item <ul> <li>Hoogwaardige materialen: onze huisdierrugzakken zijn gemaakt van hoogwaardige katoenen en polyesterstoffen, die duurzaam zijn en niet gemakkelijk te vervormen zijn, en de stoffe",
     slug: "famanu--hondendraagtas-en-draagdoek-voor-huisdieren--verstelbare-schouderriem-comfortabele-schoudertas-voor-honden-en-katten-ideaal-voor-wandelingen",
-    pageUrl: 'produits/famanu--hondendraagtas-en-draagdoek-voor-huisdieren--verstelbare-schouderriem-comfortabele-schoudertas-voor-honden-en-katten-ideaal-voor-wandelingen.html'
+    pageUrl: 'produits/famanu-hondendraagtas-en-draagdoek-voor-huisdieren-verstelbare-schouderriem-comfortabele-schoudertas-voor-honden-en-katten-ideaal-voor-wandelingen.html'
   },
   {
     id: 28,
@@ -306,7 +306,7 @@ const products = [
     brand: "Hofman Animal Care",
     description: "<p><strong>Supersterk katoenen flostouw dat veilig kauwplezier biedt en tegelijkertijd het gebit van je hond gezond houdt!</strong></p> <p>Dit supersterke flostouw, volledig gemaakt van katoen, biedt ",
     slug: "hofman-animal-care-flostouw-hondenspeeltje-trektouw-hond-stevig-hondenspeelgoed--hondentouw-van-katoen-voetballen",
-    pageUrl: 'produits/hofman-animal-care-flostouw-hondenspeeltje-trektouw-hond-stevig-hondenspeelgoed--hondentouw-van-katoen-voetballen.html'
+    pageUrl: 'produits/hofman-animal-care-flostouw-hondenspeeltje-trektouw-hond-stevig-hondenspeelgoed-hondentouw-van-katoen-voetballen.html'
   },
   {
     id: 29,
@@ -471,7 +471,7 @@ const products = [
     brand: "Merkloos / Sans marque",
     description: "Verbeter het welzijn van uw hond met onze speciaal ontwikkelde snacks, ideaal voor de ondersteuning van botten, gewrichten en heupen. Deze pouw snacks zijn samengesteld met natuurlijke ingredi\u00ebnten zo",
     slug: "gezonde-snacks-voor-honden-ondersteunt-gewrichten-en-heupen-met-glucosamine-kurkuma-en-meer--60-stuks",
-    pageUrl: 'produits/gezonde-snacks-voor-honden-ondersteunt-gewrichten-en-heupen-met-glucosamine-kurkuma-en-meer--60-stuks.html'
+    pageUrl: 'produits/gezonde-snacks-voor-honden-ondersteunt-gewrichten-en-heupen-met-glucosamine-kurkuma-en-meer-60-stuks.html'
   },
   {
     id: 44,
@@ -504,7 +504,7 @@ const products = [
     brand: "Flamingo",
     description: "<p><strong>Flamingo hondenspeelgoed</strong> was nog nooit zo grappig! Dit speelse <strong>Wolva Varken</strong> is een onweerstaanbare combinatie van textuur, geluid en vorm. Gemaakt van <strong>flex",
     slug: "flamingo-hondenspeelgoed--wolva-varken-215cm--knorrend-latex-speelgoed-voor-honden--oranje-varkentje-met-zachte-vulling",
-    pageUrl: 'produits/flamingo-hondenspeelgoed--wolva-varken-215cm--knorrend-latex-speelgoed-voor-honden--oranje-varkentje-met-zachte-vulling.html'
+    pageUrl: 'produits/flamingo-hondenspeelgoed-wolva-varken-215cm-knorrend-latex-speelgoed-voor-honden-oranje-varkentje-met-zachte-vulling.html'
   },
   {
     id: 47,
@@ -515,7 +515,7 @@ const products = [
     brand: "District 70",
     description: "<p><strong>District 70 SQUID \u2013 Zacht Hondenspeelgoed met Pieper in Octopusvorm</strong></p> <p>Op zoek naar het perfecte speeltje voor jouw hond? Maak kennis met de <strong>District 70 SQUID,</strong>",
     slug: "district-70-squid--zacht-hondenspeelgoed-met-pieper-in-octopusvorm-taupe-13-x-20-cm",
-    pageUrl: 'produits/district-70-squid--zacht-hondenspeelgoed-met-pieper-in-octopusvorm-taupe-13-x-20-cm.html'
+    pageUrl: 'produits/district-70-squid-zacht-hondenspeelgoed-met-pieper-in-octopusvorm-taupe-13-x-20-cm.html'
   },
   {
     id: 48,
@@ -537,7 +537,7 @@ const products = [
     brand: "Yourdog",
     description: "Yourdog Bearded collie HondenvoerYourdog Bearded collie zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren dit ",
     slug: "yourdog-bearded-collie-rasspecifiek-puppy-hondenvoer-12kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-bearded-collie-rasspecifiek-puppy-hondenvoer-12kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-bearded-collie-rasspecifiek-puppy-hondenvoer-12kg-hondenbrokken.html'
   },
   {
     id: 50,
@@ -559,7 +559,7 @@ const products = [
     brand: "Yourdog",
     description: "Let op: Vanwege de grootte van het ras \u00e9n het voedingsadvies zijn de volwassen en senior verpakking alleen verkrijgbaar in 12KG Yourdog Saarlooswolfhond HondenvoerYourdog Saarlooswolfhond zorgt voor d",
     slug: "yourdog-saarlooswolfhond-rasspecifiek-senior-hondenvoer-12kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-saarlooswolfhond-rasspecifiek-senior-hondenvoer-12kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-saarlooswolfhond-rasspecifiek-senior-hondenvoer-12kg-hondenbrokken.html'
   },
   {
     id: 52,
@@ -581,7 +581,7 @@ const products = [
     brand: "Yourdog",
     description: "Yourdog Sloughi HondenvoerYourdog Sloughi zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren dit met zorgvuldig",
     slug: "yourdog-sloughi-rasspecifiek-puppy-hondenvoer-12kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-sloughi-rasspecifiek-puppy-hondenvoer-12kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-sloughi-rasspecifiek-puppy-hondenvoer-12kg-hondenbrokken.html'
   },
   {
     id: 54,
@@ -592,7 +592,7 @@ const products = [
     brand: "Yourdog",
     description: "Yourdog Amerikaanse waterspani\u00ebl HondenvoerYourdog Amerikaanse waterspani\u00ebl zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip.",
     slug: "yourdog-amerikaanse-waterspani\u00ebl-rasspecifiek-adult-hondenvoer-6kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-amerikaanse-waterspaniël-rasspecifiek-adult-hondenvoer-6kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-amerikaanse-waterspanil-rasspecifiek-adult-hondenvoer-6kg-hondenbrokken.html'
   },
   {
     id: 55,
@@ -669,7 +669,7 @@ const products = [
     brand: "Yourdog",
     description: "Yourdog Slovaakse staande ruwhaar HondenvoerYourdog Slovaakse staande ruwhaar zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en ki",
     slug: "yourdog-slovaakse-staande-ruwhaar-rasspecifiek-puppy-hondenvoer-6kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-slovaakse-staande-ruwhaar-rasspecifiek-puppy-hondenvoer-6kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-slovaakse-staande-ruwhaar-rasspecifiek-puppy-hondenvoer-6kg-hondenbrokken.html'
   },
   {
     id: 62,
@@ -713,7 +713,7 @@ const products = [
     brand: "longziming",
     description: "<h3>1 stuk Carrot Dog Toy van milieuvriendelijk rubber, met quietsch- en knisperpapier-effect, melkgeur en getextureerde oppervlakte \u2013 ideaal als kauwspeeltuin voor kleine, middelgrote en grote honden",
     slug: "longziming--carrot-dog-toy-chew-toy-for-dogs-rubber-dog-chew-toy-quietschend-en-knisperend-milchgeschmack-milieuvriendelijk-gummi-voor-alle-hondenrassen-1-stuk",
-    pageUrl: 'produits/longziming--carrot-dog-toy-chew-toy-for-dogs-rubber-dog-chew-toy-quietschend-en-knisperend-milchgeschmack-milieuvriendelijk-gummi-voor-alle-hondenrassen-1-stuk.html'
+    pageUrl: 'produits/longziming-carrot-dog-toy-chew-toy-for-dogs-rubber-dog-chew-toy-quietschend-en-knisperend-milchgeschmack-milieuvriendelijk-gummi-voor-alle-hondenrassen-1-stuk.html'
   },
   {
     id: 66,
@@ -757,7 +757,7 @@ const products = [
     brand: "Merkloos / Sans marque",
     description: "<p><strong>Gsedaox - Likmat - Voerpuzzel voor Katten en Honden - 2 Stuks Slow Feeder Anti-Schrokmat - Vis Design - Roze</strong></p> <p><strong>Vermindert Angst, Verveling en Destructief Gedrag:</stro",
     slug: "gsedaox--likmat--voerpuzzel-voor-katten-en-honden--slow-feeder-met-schraper-anti-schrok-voermat",
-    pageUrl: 'produits/gsedaox--likmat--voerpuzzel-voor-katten-en-honden--slow-feeder-met-schraper-anti-schrok-voermat.html'
+    pageUrl: 'produits/gsedaox-likmat-voerpuzzel-voor-katten-en-honden-slow-feeder-met-schraper-anti-schrok-voermat.html'
   },
   {
     id: 70,
@@ -812,7 +812,7 @@ const products = [
     brand: "Yourdog",
     description: "Yourdog Silken windhound HondenvoerYourdog Silken windhound zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren ",
     slug: "yourdog-silken-windhound-rasspecifiek-senior-hondenvoer-12kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-silken-windhound-rasspecifiek-senior-hondenvoer-12kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-silken-windhound-rasspecifiek-senior-hondenvoer-12kg-hondenbrokken.html'
   },
   {
     id: 75,
@@ -823,7 +823,7 @@ const products = [
     brand: "Yourdog",
     description: "Let op: Vanwege de grootte van het ras \u00e9n het voedingsadvies zijn de volwassen en senior verpakking alleen verkrijgbaar in 12KG Yourdog Duitse staande draadhaar HondenvoerYourdog Duitse staande draadh",
     slug: "yourdog-duitse-staande-draadhaar-rasspecifiek-puppy-hondenvoer-12kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-duitse-staande-draadhaar-rasspecifiek-puppy-hondenvoer-12kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-duitse-staande-draadhaar-rasspecifiek-puppy-hondenvoer-12kg-hondenbrokken.html'
   },
   {
     id: 76,
@@ -834,7 +834,7 @@ const products = [
     brand: "Flamingo",
     description: "<p>Geef je hond een unieke en natuurlijke kauwervaring met de <strong>Flamingo Snack Nature Kamelenhuid</strong>. Deze kauwsnack is gemaakt van 100% kamelenhuid, zonder toegevoegde suikers, kleurstoff",
     slug: "hondensnack--nature-kamelenhuid--glutenvrije-hondensnack--natuurlijke-kauwsnack--zonder-toegevoegde-suikers--40cm--400g--gemaakt-in-europa",
-    pageUrl: 'produits/hondensnack--nature-kamelenhuid--glutenvrije-hondensnack--natuurlijke-kauwsnack--zonder-toegevoegde-suikers--40cm--400g--gemaakt-in-europa.html'
+    pageUrl: 'produits/hondensnack-nature-kamelenhuid-glutenvrije-hondensnack-natuurlijke-kauwsnack-zonder-toegevoegde-suikers-40cm-400g-gemaakt-in-europa.html'
   },
   {
     id: 77,
@@ -856,7 +856,7 @@ const products = [
     brand: "Yourdog",
     description: "Yourdog Drever HondenvoerYourdog Drever zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren dit met zorgvuldig g",
     slug: "yourdog-drever-rasspecifiek-adult-hondenvoer-6kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-drever-rasspecifiek-adult-hondenvoer-6kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-drever-rasspecifiek-adult-hondenvoer-6kg-hondenbrokken.html'
   },
   {
     id: 79,
@@ -878,7 +878,7 @@ const products = [
     brand: "Yourdog",
     description: "Yourdog Amerikaanse toy terri\u00ebr HondenvoerYourdog Amerikaanse toy terri\u00ebr zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. W",
     slug: "yourdog-amerikaanse-toy-terri\u00ebr-rasspecifiek-senior-hondenvoer-6kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-amerikaanse-toy-terriër-rasspecifiek-senior-hondenvoer-6kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-amerikaanse-toy-terrir-rasspecifiek-senior-hondenvoer-6kg-hondenbrokken.html'
   },
   {
     id: 81,
@@ -889,7 +889,7 @@ const products = [
     brand: "Yourdog",
     description: "Let op: Vanwege de grootte van het ras \u00e9n het voedingsadvies zijn de volwassen en senior verpakking alleen verkrijgbaar in 12KG Yourdog Aidi HondenvoerYourdog Aidi zorgt voor de holistische gezondheid",
     slug: "yourdog-aidi-rasspecifiek-senior-hondenvoer-12kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-aidi-rasspecifiek-senior-hondenvoer-12kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-aidi-rasspecifiek-senior-hondenvoer-12kg-hondenbrokken.html'
   },
   {
     id: 82,
@@ -988,7 +988,7 @@ const products = [
     brand: "Yourdog",
     description: "Goede brok voor de bordercollie: beste kwaliteit, gezond, natuurlijkEen goede brok voor bordercollies \u2014 waar bestaat die uit? Als je het ons vraagt: uit ingredi\u00ebnten die specifiek op het ras zijn afge",
     slug: "yourdog-engelse-bordercollie-rasspecifiek-puppy-hondenvoer-12kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-engelse-bordercollie-rasspecifiek-puppy-hondenvoer-12kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-engelse-bordercollie-rasspecifiek-puppy-hondenvoer-12kg-hondenbrokken.html'
   },
   {
     id: 91,
@@ -1098,7 +1098,7 @@ const products = [
     brand: "Merkloos / Sans marque",
     description: "Onze gewrichtstabletten voor honden zijn een smakelijke en natuurlijke manier om de gewrichtsgezondheid van je viervoeter te ondersteunen. Met hoogwaardige ingredi\u00ebnten zoals groenlipmossel, MSM, gluc",
     slug: "gewrichtstabletten-voor-honden-met-groenlipmossel-msm-glucosamine-en-chondro\u00eftine-180-stuks-natuurlijke-gewrichtsgezondheid",
-    pageUrl: 'produits/gewrichtstabletten-voor-honden-met-groenlipmossel-msm-glucosamine-en-chondroïtine-180-stuks-natuurlijke-gewrichtsgezondheid.html'
+    pageUrl: 'produits/gewrichtstabletten-voor-honden-met-groenlipmossel-msm-glucosamine-en-chondrotine-180-stuks-natuurlijke-gewrichtsgezondheid.html'
   },
   {
     id: 101,
@@ -1153,7 +1153,7 @@ const products = [
     brand: "Flamingo",
     description: "<p>Maak van elk speelmoment een feestje met dit leuke en interactieve huisdierspeelgoed van Flamingo. Of jouw huisdier nu graag knuffelt, jaagt, kauwt, apporteert of speelt, dit speelgoed zorgt voor u",
     slug: "hondenspeelgoed--grote-lavu-luiaard-taupe-l--met-pieper--extra-lang-pluche-speelgoed--100cm",
-    pageUrl: 'produits/hondenspeelgoed--grote-lavu-luiaard-taupe-l--met-pieper--extra-lang-pluche-speelgoed--100cm.html'
+    pageUrl: 'produits/hondenspeelgoed-grote-lavu-luiaard-taupe-l-met-pieper-extra-lang-pluche-speelgoed-100cm.html'
   },
   {
     id: 106,
@@ -1197,7 +1197,7 @@ const products = [
     brand: "Yourdog",
     description: "Let op: Vanwege de grootte van het ras \u00e9n het voedingsadvies zijn de volwassen en senior verpakking alleen verkrijgbaar in 12KG Yourdog Kangal HondenvoerYourdog Kangal zorgt voor de holistische gezond",
     slug: "yourdog-kangal-rasspecifiek-puppy-hondenvoer-6kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-kangal-rasspecifiek-puppy-hondenvoer-6kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-kangal-rasspecifiek-puppy-hondenvoer-6kg-hondenbrokken.html'
   },
   {
     id: 110,
@@ -1219,7 +1219,7 @@ const products = [
     brand: "Yourdog",
     description: "Yourdog Servische driekleurige hond HondenvoerYourdog Servische driekleurige hond zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel e",
     slug: "yourdog-servische-driekleurige-hond-rasspecifiek-senior-hondenvoer-6kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-servische-driekleurige-hond-rasspecifiek-senior-hondenvoer-6kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-servische-driekleurige-hond-rasspecifiek-senior-hondenvoer-6kg-hondenbrokken.html'
   },
   {
     id: 112,
@@ -1252,7 +1252,7 @@ const products = [
     brand: "Carnilove",
     description: "<p><strong>Carnilove Soft Snack Kwartel / Oregano Hondensnack 200 gr </strong><br />De Carnilove Soft Snack Kwartel / Oregano Hondensnack in 200 gram is een heerlijke zachte snack voor jouw hond, met ",
     slug: "4x200-gr-carnilove-soft-snack-kwartel--oregano-hondensnack",
-    pageUrl: 'produits/4x200-gr-carnilove-soft-snack-kwartel--oregano-hondensnack.html'
+    pageUrl: 'produits/4x200-gr-carnilove-soft-snack-kwartel-oregano-hondensnack.html'
   },
   {
     id: 115,
@@ -1296,7 +1296,7 @@ const products = [
     brand: "Topmast",
     description: "<p>Topmast Gerookte Kalfsluchtpijp XL - Kauwsnack - Natuurlijke snack -25 CM - grootverpakking 3 x 1 KG</p> <p> </p> <p></p> <p>Kalfsluchtpijp gerookt XL</p> <br /> <p>Gezonde traktatie voor uw hond.<",
     slug: "topmast-gerookte-kalfsluchtpijp-xl-kauwsnack-natuurlijke-snack--25-cm-grootverpakking-3-x-1-kg",
-    pageUrl: 'produits/topmast-gerookte-kalfsluchtpijp-xl-kauwsnack-natuurlijke-snack--25-cm-grootverpakking-3-x-1-kg.html'
+    pageUrl: 'produits/topmast-gerookte-kalfsluchtpijp-xl-kauwsnack-natuurlijke-snack-25-cm-grootverpakking-3-x-1-kg.html'
   },
   {
     id: 119,
@@ -1340,7 +1340,7 @@ const products = [
     brand: "Yourdog",
     description: "Yourdog Dwerg- of Toypoedel Hondenvoer | Senior | 12KG <p>Yourdog Dwerg- of Toypoedel zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buff",
     slug: "yourdog-dwerg--of-toypoedel-rasspecifiek-senior-hondenvoer-6kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-dwerg--of-toypoedel-rasspecifiek-senior-hondenvoer-6kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-dwerg-of-toypoedel-rasspecifiek-senior-hondenvoer-6kg-hondenbrokken.html'
   },
   {
     id: 123,
@@ -1351,7 +1351,7 @@ const products = [
     brand: "Yourdog",
     description: "<p><strong>Op zoek naar het beste voer voor je Zwitserse witte herder? Ontdek de rasspecifieke brokken van Yourdog, speciaal ontwikkeld om te voldoen aan de unieke behoeften van dit prachtige ras. Met",
     slug: "yourdog-zwitserse-witte-herder-rasspecifiek-puppy-hondenvoer-6kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-zwitserse-witte-herder-rasspecifiek-puppy-hondenvoer-6kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-zwitserse-witte-herder-rasspecifiek-puppy-hondenvoer-6kg-hondenbrokken.html'
   },
   {
     id: 124,
@@ -1362,7 +1362,7 @@ const products = [
     brand: "Merkloos / Sans marque",
     description: "<p>Deze grove jute kauwstokjes zijn speciaal ontworpen voor honden die graag kauwen en spelen. Ze bieden een natuurlijke en duurzame manier om het kauwgedrag van je huisdier te bevredigen, terwijl ze ",
     slug: "grove-jute-kauwstokjes-voor-honden--trainingssticks-voor-kauwen-en-tandverzorging--duurzame-kauwsticks-kauwproducten-natuurlijke-hondensnacks",
-    pageUrl: 'produits/grove-jute-kauwstokjes-voor-honden--trainingssticks-voor-kauwen-en-tandverzorging--duurzame-kauwsticks-kauwproducten-natuurlijke-hondensnacks.html'
+    pageUrl: 'produits/grove-jute-kauwstokjes-voor-honden-trainingssticks-voor-kauwen-en-tandverzorging-duurzame-kauwsticks-kauwproducten-natuurlijke-hondensnacks.html'
   },
   {
     id: 125,
@@ -1483,7 +1483,7 @@ const products = [
     brand: "Yourdog",
     description: "Let op: Vanwege de grootte van het ras \u00e9n het voedingsadvies zijn de volwassen en senior verpakking alleen verkrijgbaar in 12KG Yourdog Bracco italiano HondenvoerYourdog Bracco italiano zorgt voor de ",
     slug: "yourdog-bracco-italiano-rasspecifiek-senior-hondenvoer-12kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-bracco-italiano-rasspecifiek-senior-hondenvoer-12kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-bracco-italiano-rasspecifiek-senior-hondenvoer-12kg-hondenbrokken.html'
   },
   {
     id: 136,
@@ -1560,7 +1560,7 @@ const products = [
     brand: "VETLINE",
     description: "<p>Verwen je hond met ons hertenbot met vacht, een puur en natuurlijk kauwplezier van 100% hert.<br /> <br /> Door het vachtje biedt het bot niet alleen extra smaak, maar stimuleert het ook het natuur",
     slug: "vetline-hertenbot-met-vacht--natuurlijk-kauwplezier-voor-honden-100-hert-1-stuk",
-    pageUrl: 'produits/vetline-hertenbot-met-vacht--natuurlijk-kauwplezier-voor-honden-100-hert-1-stuk.html'
+    pageUrl: 'produits/vetline-hertenbot-met-vacht-natuurlijk-kauwplezier-voor-honden-100-hert-1-stuk.html'
   },
   {
     id: 143,
@@ -1571,7 +1571,7 @@ const products = [
     brand: "Yourdog",
     description: "Let op: Vanwege de grootte van het ras \u00e9n het voedingsadvies zijn de volwassen en senior verpakking alleen verkrijgbaar in 12KG Yourdog Berghond van de maremmen HondenvoerYourdog Berghond van de marem",
     slug: "yourdog-berghond-van-de-maremmen-rasspecifiek-puppy-hondenvoer-12kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-berghond-van-de-maremmen-rasspecifiek-puppy-hondenvoer-12kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-berghond-van-de-maremmen-rasspecifiek-puppy-hondenvoer-12kg-hondenbrokken.html'
   },
   {
     id: 144,
@@ -1604,7 +1604,7 @@ const products = [
     brand: "Yourdog",
     description: "Yourdog Deense boerderijhond HondenvoerYourdog Deense boerderijhond zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij com",
     slug: "yourdog-deense-boerderijhond-rasspecifiek-puppy-hondenvoer-12kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-deense-boerderijhond-rasspecifiek-puppy-hondenvoer-12kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-deense-boerderijhond-rasspecifiek-puppy-hondenvoer-12kg-hondenbrokken.html'
   },
   {
     id: 147,
@@ -1615,7 +1615,7 @@ const products = [
     brand: "Yourdog",
     description: "Let op: Vanwege de grootte van het ras \u00e9n het voedingsadvies zijn de volwassen en senior verpakking alleen verkrijgbaar in 12KG Yourdog Flatcoated retriever HondenvoerYourdog Flatcoated retriever zorg",
     slug: "yourdog-flatcoated-retriever-rasspecifiek-senior-hondenvoer-12kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-flatcoated-retriever-rasspecifiek-senior-hondenvoer-12kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-flatcoated-retriever-rasspecifiek-senior-hondenvoer-12kg-hondenbrokken.html'
   },
   {
     id: 148,
@@ -1626,7 +1626,7 @@ const products = [
     brand: "Carnilove",
     description: "<p><strong>Carnilove Soft Snack Eend / Rozemarijn Hondensnack 200 gr </strong><br />De Carnilove Soft Snack Eend / Rozemarijn Hondensnack in 200 gram is een heerlijke zachte snack voor jouw hond, met ",
     slug: "2x200-gr-carnilove-soft-snack-eend--rozemarijn-hondensnack",
-    pageUrl: 'produits/2x200-gr-carnilove-soft-snack-eend--rozemarijn-hondensnack.html'
+    pageUrl: 'produits/2x200-gr-carnilove-soft-snack-eend-rozemarijn-hondensnack.html'
   },
   {
     id: 149,
@@ -1659,7 +1659,7 @@ const products = [
     brand: "Yourdog",
     description: "<p><strong>Op zoek naar het beste voer voor je Amerikaanse Bulldog? Bij Yourdog vind je rasspecifiek hondenvoer dat perfect aansluit op de behoeften van je krachtige viervoeter. Onze unieke ingredi\u00ebnt",
     slug: "yourdog-bully-xl-rasspecifiek-puppy-hondenvoer-6kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-bully-xl-rasspecifiek-puppy-hondenvoer-6kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-bully-xl-rasspecifiek-puppy-hondenvoer-6kg-hondenbrokken.html'
   },
   {
     id: 152,
@@ -1890,7 +1890,7 @@ const products = [
     brand: "Yourdog",
     description: "Yourdog Appenzeller sennenhond HondenvoerYourdog Appenzeller sennenhond zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij",
     slug: "yourdog-appenzeller-sennenhond-rasspecifiek-adult-hondenvoer-6kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-appenzeller-sennenhond-rasspecifiek-adult-hondenvoer-6kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-appenzeller-sennenhond-rasspecifiek-adult-hondenvoer-6kg-hondenbrokken.html'
   },
   {
     id: 173,
@@ -1934,7 +1934,7 @@ const products = [
     brand: "Yourdog",
     description: "<strong>Yourdog Pyreneese mastiff Hondenvoer | Adult | 12KG</strong> <p>Yourdog Pyreneese mastiff zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten sma",
     slug: "yourdog-pyreneese-mastiff-rasspecifiek-adult-hondenvoer-12kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-pyreneese-mastiff-rasspecifiek-adult-hondenvoer-12kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-pyreneese-mastiff-rasspecifiek-adult-hondenvoer-12kg-hondenbrokken.html'
   },
   {
     id: 177,
@@ -1945,7 +1945,7 @@ const products = [
     brand: "Best buddy Pets",
     description: "<p>De <strong>gevriesdroogde garnalen van BestBuddy Pets</strong> zijn een pure en smaakvolle traktatie waar honden en katten dol op zijn. Zodra je de verpakking opent, zul je merken hoe aantrekkelijk",
     slug: "freez-dry-garnaal-glutenvrij-mono-prote\u00efne-best-buddy-pets",
-    pageUrl: 'produits/freez-dry-garnaal-glutenvrij-mono-proteïne-best-buddy-pets.html'
+    pageUrl: 'produits/freez-dry-garnaal-glutenvrij-mono-protene-best-buddy-pets.html'
   },
   {
     id: 178,
@@ -2110,7 +2110,7 @@ const products = [
     brand: "Paw My God!",
     description: "<p>Trick or treat! Je kleine vriendje zal er nauwelijks eng uitzien in deze Halloween outfit ... Dat weerhoudt je er vast niet van om hem te verwennen!</p> <h3>Pumpkin Pooch Parade Halsband</h3> <p>De",
     slug: "halloween-halsband-hond-zachte-honden-halsband-ook-voor-kleine-hond--puppy-paars-pompoenen-pumpkin-pooch-parade-paw-my-god-maat-l",
-    pageUrl: 'produits/halloween-halsband-hond-zachte-honden-halsband-ook-voor-kleine-hond--puppy-paars-pompoenen-pumpkin-pooch-parade-paw-my-god-maat-l.html'
+    pageUrl: 'produits/halloween-halsband-hond-zachte-honden-halsband-ook-voor-kleine-hond-puppy-paars-pompoenen-pumpkin-pooch-parade-paw-my-god-maat-l.html'
   },
   {
     id: 193,
@@ -2121,7 +2121,7 @@ const products = [
     brand: "Famanu",
     description: "Over dit artikel <ul> <li>Een handig hulpmiddel voor langdurige schoonmaak: bevat 40 rollen, 15 zakken per rol, in totaal 600 vuilniszakken voor organisch afval. Een voldoende aantal vuilniszakken is ",
     slug: "famanu--hondenpoepzakjes-biologisch-afbreekbaar-40-rollen-poepzakjes-voor-honden-lekvrij-hondenzak-poep-draagbaar-dikke-hondenzakken-hondenaccessoires-met-poepzakdispenser-33-x",
-    pageUrl: 'produits/famanu--hondenpoepzakjes-biologisch-afbreekbaar-40-rollen-poepzakjes-voor-honden-lekvrij-hondenzak-poep-draagbaar-dikke-hondenzakken-hondenaccessoires-met-poepzakdispenser-33-x.html'
+    pageUrl: 'produits/famanu-hondenpoepzakjes-biologisch-afbreekbaar-40-rollen-poepzakjes-voor-honden-lekvrij-hondenzak-poep-draagbaar-dikke-hondenzakken-hondenaccessoires-met-poepzakdispenser-33-x.html'
   },
   {
     id: 194,
@@ -2187,7 +2187,7 @@ const products = [
     brand: "AniForte\u00ae",
     description: "<p><strong>AniForte Relax Snacks voor Honden zijn natuurlijke functionele hondensnacks die speciaal zijn ontwikkeld om ontspanning en innerlijke rust te ondersteunen bij honden van alle leeftijden.</s",
     slug: "aniforte-relax-snacks-voor-honden-300-g--natuurlijke-kalmerende-hondensnacks-tegen-stress-en-angst-met-valeriaan-citroenmelisse-en-kruidenmix",
-    pageUrl: 'produits/aniforte-relax-snacks-voor-honden-300-g--natuurlijke-kalmerende-hondensnacks-tegen-stress-en-angst-met-valeriaan-citroenmelisse-en-kruidenmix.html'
+    pageUrl: 'produits/aniforte-relax-snacks-voor-honden-300-g-natuurlijke-kalmerende-hondensnacks-tegen-stress-en-angst-met-valeriaan-citroenmelisse-en-kruidenmix.html'
   },
   {
     id: 200,
@@ -2242,7 +2242,7 @@ const products = [
     brand: "Yourdog",
     description: "<p>Yourdog Amerikaanse pitbull terri\u00ebr zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren dit met zorgvuldig ge",
     slug: "hondenvoer-yourdog-amerikaanse-pitbull-terri\u00ebr-senior-3kg-buffel-en-kip-met-groenten-en-fruit",
-    pageUrl: 'produits/hondenvoer-yourdog-amerikaanse-pitbull-terriër-senior-3kg-buffel-en-kip-met-groenten-en-fruit.html'
+    pageUrl: 'produits/hondenvoer-yourdog-amerikaanse-pitbull-terrir-senior-3kg-buffel-en-kip-met-groenten-en-fruit.html'
   },
   {
     id: 205,
@@ -2418,7 +2418,7 @@ const products = [
     brand: "Yourdog",
     description: "Yourdog Noorse lundehund HondenvoerYourdog Noorse lundehund zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren ",
     slug: "yourdog-noorse-lundehund-rasspecifiek-puppy-hondenvoer-6kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-noorse-lundehund-rasspecifiek-puppy-hondenvoer-6kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-noorse-lundehund-rasspecifiek-puppy-hondenvoer-6kg-hondenbrokken.html'
   },
   {
     id: 221,
@@ -2550,7 +2550,7 @@ const products = [
     brand: "Bozzy Dierplezier",
     description: "<p>Snuffelmat Hond \u2013 60 x 45 cm \u2013 Handgemaakt \u2013 Geknoopt op Stevige Mat (40 x 25 cm) \u2013 Anti-Schrok & Hersenwerk</p> <p>Stimuleer het natuurlijke speurinstinct van je hond</p> <p>Deze snuffelmat van 60",
     slug: "snuffelmat-hond--anti-schrok-voermat--slowfeeder--handgemaakt--mentale-uitdaging--hondenspeelgoed",
-    pageUrl: 'produits/snuffelmat-hond--anti-schrok-voermat--slowfeeder--handgemaakt--mentale-uitdaging--hondenspeelgoed.html'
+    pageUrl: 'produits/snuffelmat-hond-anti-schrok-voermat-slowfeeder-handgemaakt-mentale-uitdaging-hondenspeelgoed.html'
   },
   {
     id: 233,
@@ -2561,7 +2561,7 @@ const products = [
     brand: "KONG",
     description: "<p></p> <p><strong>Kong Snacks Bacon / Cheese Hondensnack S 200 gr </strong><br />De Kong Snacks Bacon / Cheese Hondensnack in maat S per 200 gram zijn natuurlijke hondensnacks met bacon en kaassmaak,",
     slug: "kong-snacks-bacon--cheese-2x-large-300-gr",
-    pageUrl: 'produits/kong-snacks-bacon--cheese-2x-large-300-gr.html'
+    pageUrl: 'produits/kong-snacks-bacon-cheese-2x-large-300-gr.html'
   },
   {
     id: 234,
@@ -2594,7 +2594,7 @@ const products = [
     brand: "Wolters Cat & Dog",
     description: "<p>De Pure Nature Frisbee is het perfecte apporteerspeeltje voor honden die van actie houden! Deze frisbee is gemaakt van 100% puur natuurrubber, zonder kunstmatige kleurstoffen of schadelijke stoffen",
     slug: "wolters-hondenspeelgoed-pure-nature-frisbee--natuurrubber--apporteerspeeltje-20cm-doorsnede",
-    pageUrl: 'produits/wolters-hondenspeelgoed-pure-nature-frisbee--natuurrubber--apporteerspeeltje-20cm-doorsnede.html'
+    pageUrl: 'produits/wolters-hondenspeelgoed-pure-nature-frisbee-natuurrubber-apporteerspeeltje-20cm-doorsnede.html'
   },
   {
     id: 237,
@@ -2770,7 +2770,7 @@ const products = [
     brand: "Yourdog",
     description: "Yourdog Hokkaido HondenvoerYourdog Hokkaido zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren dit met zorgvuld",
     slug: "yourdog-hokkaido-rasspecifiek-puppy-hondenvoer-6kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-hokkaido-rasspecifiek-puppy-hondenvoer-6kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-hokkaido-rasspecifiek-puppy-hondenvoer-6kg-hondenbrokken.html'
   },
   {
     id: 253,
@@ -2803,7 +2803,7 @@ const products = [
     brand: "Yourdog",
     description: "<p>Yourdog Kerry blue terri\u00ebr zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren dit met zorgvuldig geselecteer",
     slug: "hondenvoer-yourdog-kerry-blue-terri\u00ebr-senior-rijk-aan-buffel-en-kip-3kg-met-spirulina",
-    pageUrl: 'produits/hondenvoer-yourdog-kerry-blue-terriër-senior-rijk-aan-buffel-en-kip-3kg-met-spirulina.html'
+    pageUrl: 'produits/hondenvoer-yourdog-kerry-blue-terrir-senior-rijk-aan-buffel-en-kip-3kg-met-spirulina.html'
   },
   {
     id: 256,
@@ -2825,7 +2825,7 @@ const products = [
     brand: "123diepvriesvoer.nl",
     description: "<p><strong>Europese ree-oren met lage \u2018ecologische voetafdruk\u2019<br /></strong>Deze ree-oren vormen waarschijnlijk de meest natuurlijke hondensnacks ter wereld en zijn bovendien zeer voedzaam en onweers",
     slug: "3-x-ree-oren-met-vacht-ree\u00ebn-oor-ree\u00ebnoor-hert-reeoren-roe-vension-ears-natuurlijke-hondensnacks-ear",
-    pageUrl: 'produits/3-x-ree-oren-met-vacht-reeën-oor-reeënoor-hert-reeoren-roe-vension-ears-natuurlijke-hondensnacks-ear.html'
+    pageUrl: 'produits/3-x-ree-oren-met-vacht-reen-oor-reenoor-hert-reeoren-roe-vension-ears-natuurlijke-hondensnacks-ear.html'
   },
   {
     id: 258,
@@ -2869,7 +2869,7 @@ const products = [
     brand: "Julius K9",
     description: "<p>Ideaal voor pups met een kipallergie of gevoelige maag, boordevol natuurlijke ingredi\u00ebnten die groei, weerstand en gezonde gewrichten ondersteunen. Julius-K9, het merk achter de wereldberoemde hond",
     slug: "julius-k9-puppyjunior--hypoallergeen-hondenvoer-met-lam--hondenbrokken-voor-pups-en-jonge-honden-tot-1-jaar-met-gevoelige-spijsvertering--3kg",
-    pageUrl: 'produits/julius-k9-puppyjunior--hypoallergeen-hondenvoer-met-lam--hondenbrokken-voor-pups-en-jonge-honden-tot-1-jaar-met-gevoelige-spijsvertering--3kg.html'
+    pageUrl: 'produits/julius-k9-puppyjunior-hypoallergeen-hondenvoer-met-lam-hondenbrokken-voor-pups-en-jonge-honden-tot-1-jaar-met-gevoelige-spijsvertering-3kg.html'
   },
   {
     id: 262,
@@ -2902,7 +2902,7 @@ const products = [
     brand: "Yourdog",
     description: "Yourdog Beierse bergzweethond HondenvoerYourdog Beierse bergzweethond zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij c",
     slug: "yourdog-beierse-bergzweethond-rasspecifiek-puppy-hondenvoer-12kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-beierse-bergzweethond-rasspecifiek-puppy-hondenvoer-12kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-beierse-bergzweethond-rasspecifiek-puppy-hondenvoer-12kg-hondenbrokken.html'
   },
   {
     id: 265,
@@ -2990,7 +2990,7 @@ const products = [
     brand: "Paw My God!",
     description: "<p>Tijd voor je vieruurtje, maar vergeet je lieve viervoetertje niet. Ga je die cupcake nog opeten? Er zit geen chocolade in, ik heb het nagekeken!</p> <h3>Classy in the City Tuigje</h3> <p>Dit pracht",
     slug: "hondentuigje-zacht-tuigje--honden-harnas-roze-cupcakes-koekjes-hartjes-classy-in-the-city-paw-my-god-maat-l",
-    pageUrl: 'produits/hondentuigje-zacht-tuigje--honden-harnas-roze-cupcakes-koekjes-hartjes-classy-in-the-city-paw-my-god-maat-l.html'
+    pageUrl: 'produits/hondentuigje-zacht-tuigje-honden-harnas-roze-cupcakes-koekjes-hartjes-classy-in-the-city-paw-my-god-maat-l.html'
   },
   {
     id: 273,
@@ -3012,7 +3012,7 @@ const products = [
     brand: "wannahavesforfun",
     description: "Belangrijkste kenmerken (5 bullets) <ul> <li> <p><strong>Slowfeeder ontwerp</strong> \u2013 Helpt het eettempo te vertragen en schrokken te verminderen</p> </li> <li> <p><strong>Interactief puzzelbord</str",
     slug: "interactieve-slowfeeder-voerbak-3-laags-duurzaam-latex--puzzelbord-voor-honden-en-katten--anti-verveling-huisdierspeelgoed--helpt-schrokken-voorkomen--iq-training-en-voerbak-in-\u00e9\u00e9n",
-    pageUrl: 'produits/interactieve-slowfeeder-voerbak-3-laags-duurzaam-latex--puzzelbord-voor-honden-en-katten--anti-verveling-huisdierspeelgoed--helpt-schrokken-voorkomen--iq-training-en-voerbak-in-één.html'
+    pageUrl: 'produits/interactieve-slowfeeder-voerbak-3-laags-duurzaam-latex-puzzelbord-voor-honden-en-katten-anti-verveling-huisdierspeelgoed-helpt-schrokken-voorkomen-iq-training-en-voerbak-in-n.html'
   },
   {
     id: 275,
@@ -3023,7 +3023,7 @@ const products = [
     brand: "Famanu",
     description: "Over dit item <ul> <li>Vertraag de maaltijd tot 10x: Puzzel hondenvoerbakjes slow feeder en doolhof hondenvoerkom puzzel ontworpen met ruggen en doolhofpatronen draagt bij aan het eten van uw puppy la",
     slug: "famanu--hondenpoepzakjes-2-stuks-poepzakhouder-voor-hondenafval-universele-hondentaspoepdispenser-met-ritssluiting-met-2-rollen-poepzakjes-voor-elke-hondenriem",
-    pageUrl: 'produits/famanu--hondenpoepzakjes-2-stuks-poepzakhouder-voor-hondenafval-universele-hondentaspoepdispenser-met-ritssluiting-met-2-rollen-poepzakjes-voor-elke-hondenriem.html'
+    pageUrl: 'produits/famanu-hondenpoepzakjes-2-stuks-poepzakhouder-voor-hondenafval-universele-hondentaspoepdispenser-met-ritssluiting-met-2-rollen-poepzakjes-voor-elke-hondenriem.html'
   },
   {
     id: 276,
@@ -3111,7 +3111,7 @@ const products = [
     brand: "Flamingo",
     description: "<p>Op zoek naar een smakelijke en verantwoorde traktatie voor je hond? Deze <strong>Hapki hondensnack</strong> van Flamingo biedt heerlijke <strong>koekjes met kip</strong>, perfect als <strong>honden",
     slug: "hondensnack--koekjes-met-kip--hondensnacks--honden-snacks--hondensnoepjes--glutenvrij--zonder-toegevoegde-suikers--550g-bewaaremmer",
-    pageUrl: 'produits/hondensnack--koekjes-met-kip--hondensnacks--honden-snacks--hondensnoepjes--glutenvrij--zonder-toegevoegde-suikers--550g-bewaaremmer.html'
+    pageUrl: 'produits/hondensnack-koekjes-met-kip-hondensnacks-honden-snacks-hondensnoepjes-glutenvrij-zonder-toegevoegde-suikers-550g-bewaaremmer.html'
   },
   {
     id: 284,
@@ -3144,7 +3144,7 @@ const products = [
     brand: "Merkloos / Sans marque",
     description: "Op zoek naar het ultieme vermaak voor uw trouwe viervoeter, zelfs de meest enthousiaste kauwers? Dit pluche hondenspeelgoed in de vorm van een beer is ontworpen om urenlang speelplezier te garanderen ",
     slug: "pluche-hondenspeelgoed-beer-piepend-speelgoed-kauwspeelgoed-hond-duurzaam-ontwerp-groot-formaat-cr\u00e8metinten",
-    pageUrl: 'produits/pluche-hondenspeelgoed-beer-piepend-speelgoed-kauwspeelgoed-hond-duurzaam-ontwerp-groot-formaat-crèmetinten.html'
+    pageUrl: 'produits/pluche-hondenspeelgoed-beer-piepend-speelgoed-kauwspeelgoed-hond-duurzaam-ontwerp-groot-formaat-crmetinten.html'
   },
   {
     id: 287,
@@ -3199,7 +3199,7 @@ const products = [
     brand: "Yourdog",
     description: "Hondenvoer poedel: beste kwaliteit, goede samenstelling, rasspecifiekWat eet een poedel dat echt gezond is? Naar ons idee is dat rasspecifiek hondenvoer. Brokken die specifiek voor de poedel ontwikkel",
     slug: "yourdog-poedel-rasspecifiek-puppy-hondenvoer-12kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-poedel-rasspecifiek-puppy-hondenvoer-12kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-poedel-rasspecifiek-puppy-hondenvoer-12kg-hondenbrokken.html'
   },
   {
     id: 292,
@@ -3210,7 +3210,7 @@ const products = [
     brand: "Yourdog",
     description: "<strong>Yourdog Maltezer Hondenvoer | Adult | 12KG</strong> <p>Yourdog Maltezer zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en ",
     slug: "yourdog-maltezer-rasspecifiek-adult-hondenvoer-12kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-maltezer-rasspecifiek-adult-hondenvoer-12kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-maltezer-rasspecifiek-adult-hondenvoer-12kg-hondenbrokken.html'
   },
   {
     id: 293,
@@ -3221,7 +3221,7 @@ const products = [
     brand: "Yourdog",
     description: "Yourdog Chodsky pes HondenvoerYourdog Chodsky pes zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren dit met zo",
     slug: "yourdog-chodsky-pes-rasspecifiek-adult-hondenvoer-6kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-chodsky-pes-rasspecifiek-adult-hondenvoer-6kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-chodsky-pes-rasspecifiek-adult-hondenvoer-6kg-hondenbrokken.html'
   },
   {
     id: 294,
@@ -3276,7 +3276,7 @@ const products = [
     brand: "Yourdog",
     description: "Let op: Vanwege de grootte van het ras \u00e9n het voedingsadvies zijn de volwassen en senior verpakking alleen verkrijgbaar in 12KG Yourdog Pyreneese berghond HondenvoerYourdog Pyreneese berghond zorgt vo",
     slug: "yourdog-pyreneese-berghond-rasspecifiek-senior-hondenvoer-12kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-pyreneese-berghond-rasspecifiek-senior-hondenvoer-12kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-pyreneese-berghond-rasspecifiek-senior-hondenvoer-12kg-hondenbrokken.html'
   },
   {
     id: 299,
@@ -3287,7 +3287,7 @@ const products = [
     brand: "Yourdog",
     description: "<strong>Yourdog Griffon belge Hondenvoer | Adult | 12KG</strong> <p>Yourdog Griffon belge zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle ",
     slug: "yourdog-griffon-belge-rasspecifiek-adult-hondenvoer-12kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-griffon-belge-rasspecifiek-adult-hondenvoer-12kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-griffon-belge-rasspecifiek-adult-hondenvoer-12kg-hondenbrokken.html'
   },
   {
     id: 300,
@@ -3309,7 +3309,7 @@ const products = [
     brand: "Yourdog",
     description: "<p><strong>Op zoek naar het beste voer voor je Amerikaanse Bulldog? Bij Yourdog vind je rasspecifiek hondenvoer dat perfect aansluit op de behoeften van je krachtige viervoeter. Onze unieke ingredi\u00ebnt",
     slug: "yourdog-bully-xl-rasspecifiek-puppy-hondenvoer-12kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-bully-xl-rasspecifiek-puppy-hondenvoer-12kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-bully-xl-rasspecifiek-puppy-hondenvoer-12kg-hondenbrokken.html'
   },
   {
     id: 302,
@@ -3331,7 +3331,7 @@ const products = [
     brand: "Yourdog",
     description: "Let op: Vanwege de grootte van het ras \u00e9n het voedingsadvies zijn de volwassen en senior verpakking alleen verkrijgbaar in 12KG Yourdog Gordon setter HondenvoerYourdog Gordon setter zorgt voor de holi",
     slug: "yourdog-gordon-setter-rasspecifiek-senior-hondenvoer-12kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-gordon-setter-rasspecifiek-senior-hondenvoer-12kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-gordon-setter-rasspecifiek-senior-hondenvoer-12kg-hondenbrokken.html'
   },
   {
     id: 304,
@@ -3408,7 +3408,7 @@ const products = [
     brand: "Merkloos / Sans marque",
     description: "<p><strong>Fibblez Bullenpees Jumbo \u2013 100% Natuurlijke Hondensnack</strong></p> <p>De Fibblez Bullenpees Jumbo is een hoogwaardige, volledig natuurlijke kauwsnack voor honden. Deze gedroogde bullenpez",
     slug: "fibblez--bullepees-jumbo-voor-honden-250g--100-natuurlijk-rund--gedroogde-hondensnack--kauwproduct",
-    pageUrl: 'produits/fibblez--bullepees-jumbo-voor-honden-250g--100-natuurlijk-rund--gedroogde-hondensnack--kauwproduct.html'
+    pageUrl: 'produits/fibblez-bullepees-jumbo-voor-honden-250g-100-natuurlijk-rund-gedroogde-hondensnack-kauwproduct.html'
   },
   {
     id: 311,
@@ -3485,7 +3485,7 @@ const products = [
     brand: "longziming",
     description: "1. Veilig en huisdiervriendelijk materiaal <br />Gemaakt van hoogwaardige, voedselveilige en BPA-vrije materialen zoals niet-giftig TPR-rubber, natuurlijk katoen, duurzaam polyester of huisdierveilig ",
     slug: "longziming--nteractief-hondenspeelgoed--bijtbestendig-kauwspeelgoed--tandverzorging-en-anti-verveelspeeltje--educatief-speelgoed-voor-honden",
-    pageUrl: 'produits/longziming--nteractief-hondenspeelgoed--bijtbestendig-kauwspeelgoed--tandverzorging-en-anti-verveelspeeltje--educatief-speelgoed-voor-honden.html'
+    pageUrl: 'produits/longziming-nteractief-hondenspeelgoed-bijtbestendig-kauwspeelgoed-tandverzorging-en-anti-verveelspeeltje-educatief-speelgoed-voor-honden.html'
   },
   {
     id: 318,
@@ -3496,7 +3496,7 @@ const products = [
     brand: "DWAM Dog with a Mission",
     description: "<p> De <strong>Sky</strong> halsband geeft elke hond een speelse en frisse look met haar vrolijke hartjes en charmante details. Deze handgemaakte halsband in maat XXS (halsomvang 22-24 cm, breedte 2 c",
     slug: "sky-hondenhalsband-xxs-halsomvang-22-24-cm--2-cm",
-    pageUrl: 'produits/sky-hondenhalsband-xxs-halsomvang-22-24-cm--2-cm.html'
+    pageUrl: 'produits/sky-hondenhalsband-xxs-halsomvang-22-24-cm-2-cm.html'
   },
   {
     id: 319,
@@ -3507,7 +3507,7 @@ const products = [
     brand: "eat slow live longer",
     description: "<p><strong>Eet jouw hond te snel? Met deze slowfeeder is dat probleem opgelost!</strong></p> <p>Schrokt jouw hond al het eten in een hoog tempo naar binnen? Schrokken tijdens het eten brengt verschill",
     slug: "eat-slow-live-longer-original-voerbak-lxl-\u00f830-cm-anti-schrokbak-hond--slowfeeder-hond--anti-slip--geschikt-voor-grote-honden-blauw",
-    pageUrl: 'produits/eat-slow-live-longer-original-voerbak-lxl-ø30-cm-anti-schrokbak-hond--slowfeeder-hond--anti-slip--geschikt-voor-grote-honden-blauw.html'
+    pageUrl: 'produits/eat-slow-live-longer-original-voerbak-lxl-30-cm-anti-schrokbak-hond-slowfeeder-hond-anti-slip-geschikt-voor-grote-honden-blauw.html'
   },
   {
     id: 320,
@@ -3518,7 +3518,7 @@ const products = [
     brand: "Vleesje",
     description: "<p><strong>Natuurlijke tekenbescherming zonder zorgen</strong></p> <p>Geef jouw hond een veilige en effectieve bescherming tegen teken, zonder chemische middelen. Deze tekenband met EM-keramiek kralen",
     slug: "anti--vlooien-en-tekenband-roze-nekomtrek-50cm",
-    pageUrl: 'produits/anti--vlooien-en-tekenband-roze-nekomtrek-50cm.html'
+    pageUrl: 'produits/anti-vlooien-en-tekenband-roze-nekomtrek-50cm.html'
   },
   {
     id: 321,
@@ -3672,7 +3672,7 @@ const products = [
     brand: "Arion",
     description: "Hondenvoer | Arion Fresh Adult Small | 7,5 kg<p>Is jouw hond niet zwaarder dan 10 kg? Dan is Arion Fresh Adult Small ideaal. De hapklare brokken spelen in op de energiebehoeften van jouw viervoeter en",
     slug: "hondenvoer--75-kg--arion-fresh-adult-small",
-    pageUrl: 'produits/hondenvoer--75-kg--arion-fresh-adult-small.html'
+    pageUrl: 'produits/hondenvoer-75-kg-arion-fresh-adult-small.html'
   },
   {
     id: 335,
@@ -3727,7 +3727,7 @@ const products = [
     brand: "Yourdog",
     description: "Let op: Vanwege de grootte van het ras \u00e9n het voedingsadvies zijn de volwassen en senior verpakking alleen verkrijgbaar in 12KG Yourdog Ciobanesc romanesc carpatin HondenvoerYourdog Ciobanesc romanesc",
     slug: "yourdog-ciobanesc-romanesc-carpatin-rasspecifiek-senior-hondenvoer-12kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-ciobanesc-romanesc-carpatin-rasspecifiek-senior-hondenvoer-12kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-ciobanesc-romanesc-carpatin-rasspecifiek-senior-hondenvoer-12kg-hondenbrokken.html'
   },
   {
     id: 340,
@@ -3738,7 +3738,7 @@ const products = [
     brand: "Yourdog",
     description: "Yourdog Corgi HondenvoerYourdog Corgi zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren dit met zorgvuldig ges",
     slug: "yourdog-corgi-rasspecifiek-puppy-hondenvoer-12kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-corgi-rasspecifiek-puppy-hondenvoer-12kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-corgi-rasspecifiek-puppy-hondenvoer-12kg-hondenbrokken.html'
   },
   {
     id: 341,
@@ -3760,7 +3760,7 @@ const products = [
     brand: "Yourdog",
     description: "Let op: Vanwege de grootte van het ras \u00e9n het voedingsadvies zijn de volwassen en senior verpakking alleen verkrijgbaar in 12KG Yourdog Bloedhond HondenvoerYourdog Bloedhond zorgt voor de holistische ",
     slug: "yourdog-bloedhond-rasspecifiek-senior-hondenvoer-12kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-bloedhond-rasspecifiek-senior-hondenvoer-12kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-bloedhond-rasspecifiek-senior-hondenvoer-12kg-hondenbrokken.html'
   },
   {
     id: 343,
@@ -3771,7 +3771,7 @@ const products = [
     brand: "Yourdog",
     description: "Yourdog Pyreneese herder HondenvoerYourdog Pyreneese herder zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren ",
     slug: "yourdog-pyreneese-herder-rasspecifiek-senior-hondenvoer-12kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-pyreneese-herder-rasspecifiek-senior-hondenvoer-12kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-pyreneese-herder-rasspecifiek-senior-hondenvoer-12kg-hondenbrokken.html'
   },
   {
     id: 344,
@@ -3793,7 +3793,7 @@ const products = [
     brand: "Whimzees",
     description: "Calorie- en vetarm; op basis van 100% natuurlijke ingredi\u00ebnten; zonder kunstmatige kleurstoffen, aroma's, bewaarmiddelen, ggo's, gluten of vlees. Helpt de opstapeling van tandplak bij uw hond te voork",
     slug: "whimzees-egel-bulk-l76cm-let-op--prijs-is-per-5-stuks-dus-geen-doos-vol-zoals-op-de-afbeelding-wordt-getoond",
-    pageUrl: 'produits/whimzees-egel-bulk-l76cm-let-op--prijs-is-per-5-stuks-dus-geen-doos-vol-zoals-op-de-afbeelding-wordt-getoond.html'
+    pageUrl: 'produits/whimzees-egel-bulk-l76cm-let-op-prijs-is-per-5-stuks-dus-geen-doos-vol-zoals-op-de-afbeelding-wordt-getoond.html'
   },
   {
     id: 346,
@@ -3815,7 +3815,7 @@ const products = [
     brand: "Yourdog",
     description: "Yourdog Ierse setter HondenvoerYourdog Ierse setter zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren dit met ",
     slug: "yourdog-ierse-setter-rasspecifiek-puppy-hondenvoer-6kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-ierse-setter-rasspecifiek-puppy-hondenvoer-6kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-ierse-setter-rasspecifiek-puppy-hondenvoer-6kg-hondenbrokken.html'
   },
   {
     id: 348,
@@ -3859,7 +3859,7 @@ const products = [
     brand: "eat slow live longer",
     description: "<p><strong>De likmat van Eat Slow Live Longer: de ultieme verwennerij voor jouw hond!</strong></p> <p>Maak kennis met de Eat Slow Live Longer likmat, het perfecte hulpmiddel om jouw hond te verwennen ",
     slug: "eat-slow-live-longer-likmat-\u00f8-22-cm-slowfeeder-honden-en-katten-anti-schrok-voermat-likvoerbak-voor-nat-voer-en-brokken-vaatwasserbestendig-voetbal-anti-slip-voerpuzzel-kat-roze",
-    pageUrl: 'produits/eat-slow-live-longer-likmat-ø-22-cm-slowfeeder-honden-en-katten-anti-schrok-voermat-likvoerbak-voor-nat-voer-en-brokken-vaatwasserbestendig-voetbal-anti-slip-voerpuzzel-kat-roze.html'
+    pageUrl: 'produits/eat-slow-live-longer-likmat-22-cm-slowfeeder-honden-en-katten-anti-schrok-voermat-likvoerbak-voor-nat-voer-en-brokken-vaatwasserbestendig-voetbal-anti-slip-voerpuzzel-kat-roze.html'
   },
   {
     id: 352,
@@ -3881,7 +3881,7 @@ const products = [
     brand: "wannahavesforfun",
     description: "Belangrijkste kenmerken (5 bullets) <ul> <li> <p><strong>Stevig en duurzaam materiaal</strong> \u2013 Geschikt voor dagelijks speelgebruik</p> </li> <li> <p><strong>Ondersteunt kauwgedrag</strong> \u2013 Kan bi",
     slug: "duurzaam-hondenspeeltje--stevige-speelbal--ondersteunt-kauwen-en-gebitsverzorging--interactief-hondenspeelgoed--geschikt-voor-dagelijks-gebruik",
-    pageUrl: 'produits/duurzaam-hondenspeeltje--stevige-speelbal--ondersteunt-kauwen-en-gebitsverzorging--interactief-hondenspeelgoed--geschikt-voor-dagelijks-gebruik.html'
+    pageUrl: 'produits/duurzaam-hondenspeeltje-stevige-speelbal-ondersteunt-kauwen-en-gebitsverzorging-interactief-hondenspeelgoed-geschikt-voor-dagelijks-gebruik.html'
   },
   {
     id: 354,
@@ -3892,7 +3892,7 @@ const products = [
     brand: "Famanu",
     description: "Over dit item <ul> <li>MATERIALEN: deze duurzame snuffeldeken is gemaakt van hoogwaardige, wasbare stof die bestand is tegen kauwen en schuren. De naden zijn stevig genaaid om een lange levensduur te ",
     slug: "famanu--snuffeltapijt-voor-honden-snuffelmat-voor-honden-zonnebloemendesign-voor-huisdieren-snuffelmat-voer-voermat-wasbaar-voor-intelligentie-geurtraining-langzaam-eten-stressvermindering",
-    pageUrl: 'produits/famanu--snuffeltapijt-voor-honden-snuffelmat-voor-honden-zonnebloemendesign-voor-huisdieren-snuffelmat-voer-voermat-wasbaar-voor-intelligentie-geurtraining-langzaam-eten-stressvermindering.html'
+    pageUrl: 'produits/famanu-snuffeltapijt-voor-honden-snuffelmat-voor-honden-zonnebloemendesign-voor-huisdieren-snuffelmat-voer-voermat-wasbaar-voor-intelligentie-geurtraining-langzaam-eten-stressvermindering.html'
   },
   {
     id: 355,
@@ -3925,7 +3925,7 @@ const products = [
     brand: "DierOK\u00c9",
     description: "<p>DierOK\u00c9 kauwdonut rijkelijk omwikkeld met eend / duck. Vrij van kip.</p> <p>Een lekkere donut van rund met omwikkeld eend, speciaal voor jouw grote vriend. Deze hondensnack met eend kan jouw hond g",
     slug: "10x-dierok\u00e9-xxl-kauwdonut-met-eend-hondensnack-kauwring-met-duck-graanvrij-glutenvrij-per-stuk-verpakt-natuurlijke-hondensnacks",
-    pageUrl: 'produits/10x-dieroké-xxl-kauwdonut-met-eend-hondensnack-kauwring-met-duck-graanvrij-glutenvrij-per-stuk-verpakt-natuurlijke-hondensnacks.html'
+    pageUrl: 'produits/10x-dierok-xxl-kauwdonut-met-eend-hondensnack-kauwring-met-duck-graanvrij-glutenvrij-per-stuk-verpakt-natuurlijke-hondensnacks.html'
   },
   {
     id: 358,
@@ -3969,7 +3969,7 @@ const products = [
     brand: "Yourdog",
     description: "Yourdog Servische driekleurige hond HondenvoerYourdog Servische driekleurige hond zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel e",
     slug: "yourdog-servische-driekleurige-hond-rasspecifiek-puppy-hondenvoer-6kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-servische-driekleurige-hond-rasspecifiek-puppy-hondenvoer-6kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-servische-driekleurige-hond-rasspecifiek-puppy-hondenvoer-6kg-hondenbrokken.html'
   },
   {
     id: 362,
@@ -4024,7 +4024,7 @@ const products = [
     brand: "Frigera",
     description: "<p><strong>Frigera Soft Treats Bones Lamb/Rice 500 gr</strong><br />De Frigera Soft Treats Bones Lamb/Rice is een zachte, semi-vochtige hondensnack die ideaal is als beloning of tussendoortje gedurend",
     slug: "500-gr-frigera-soft-treats-bones-lamb--rice",
-    pageUrl: 'produits/500-gr-frigera-soft-treats-bones-lamb--rice.html'
+    pageUrl: 'produits/500-gr-frigera-soft-treats-bones-lamb-rice.html'
   },
   {
     id: 367,
@@ -4035,7 +4035,7 @@ const products = [
     brand: "Yourdog",
     description: "Yourdog Dwerg- of Toypoedel Hondenvoer | Pup | 12KG <p>Yourdog Dwerg- of Toypoedel zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel ",
     slug: "yourdog-dwerg--of-toypoedel-rasspecifiek-puppy-hondenvoer-6kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-dwerg--of-toypoedel-rasspecifiek-puppy-hondenvoer-6kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-dwerg-of-toypoedel-rasspecifiek-puppy-hondenvoer-6kg-hondenbrokken.html'
   },
   {
     id: 368,
@@ -4101,7 +4101,7 @@ const products = [
     brand: "Yourdog",
     description: "<strong>Yourdog Cairn terri\u00ebr Hondenvoer | Adult | 12KG</strong> <p>Yourdog Cairn terri\u00ebr zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle ",
     slug: "yourdog-cairn-terri\u00ebr-rasspecifiek-adult-hondenvoer-12kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-cairn-terriër-rasspecifiek-adult-hondenvoer-12kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-cairn-terrir-rasspecifiek-adult-hondenvoer-12kg-hondenbrokken.html'
   },
   {
     id: 374,
@@ -4123,7 +4123,7 @@ const products = [
     brand: "Dogs Collection",
     description: "Ontdek het Dogs Collection trek- en speeltouw: d\u00e9 must-have voor jouw hond! Met een lengte van 75 cm en een speels regenboogdesign biedt dit speeltouw urenlang plezier voor honden van alle formaten. G",
     slug: "dogs-collection-floss--trek--en-speeltouw--regenboog-75-cm",
-    pageUrl: 'produits/dogs-collection-floss--trek--en-speeltouw--regenboog-75-cm.html'
+    pageUrl: 'produits/dogs-collection-floss-trek-en-speeltouw-regenboog-75-cm.html'
   },
   {
     id: 376,
@@ -4156,7 +4156,7 @@ const products = [
     brand: "oneay",
     description: "Een vrolijke en actieve speelervaring voor jouw trouwe viervoeter <p> Honden hebben van nature een sterke kauwbehoefte en een drang om te spelen. Dit interactieve T-Rex hondenspeeltje is speciaal ontw",
     slug: "oneay-t-rex-hondenspeelgoed-met-pieper--pluche-kauwspeelgoed-van-corduroy--tandreinigend-en-duurzaam--groen--30-cm",
-    pageUrl: 'produits/oneay-t-rex-hondenspeelgoed-met-pieper--pluche-kauwspeelgoed-van-corduroy--tandreinigend-en-duurzaam--groen--30-cm.html'
+    pageUrl: 'produits/oneay-t-rex-hondenspeelgoed-met-pieper-pluche-kauwspeelgoed-van-corduroy-tandreinigend-en-duurzaam-groen-30-cm.html'
   },
   {
     id: 379,
@@ -4310,7 +4310,7 @@ const products = [
     brand: "Yourdog",
     description: "Yourdog Tervuerense herder HondenvoerYourdog Tervuerense herder zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combine",
     slug: "yourdog-tervuerense-herder-rasspecifiek-senior-hondenvoer-6kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-tervuerense-herder-rasspecifiek-senior-hondenvoer-6kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-tervuerense-herder-rasspecifiek-senior-hondenvoer-6kg-hondenbrokken.html'
   },
   {
     id: 393,
@@ -4420,7 +4420,7 @@ const products = [
     brand: "Kiwi Walker",
     description: "<p>Kiwi Walker gevriesdroogde traktaties met ganzenlever zijn gezonde, 100% natuurlijke traktaties voor honden en katten, die de smaak en voedingsstoffen behouden zonder conserveringsmiddelen.</p> <p>",
     slug: "kiwi-walker-hond-en-kat-snack-goose-liver-gevriesdroogd-100-natuurlijke-beloning-g\u00e9\u00e9n-additieven-120-gr",
-    pageUrl: 'produits/kiwi-walker-hond-en-kat-snack-goose-liver-gevriesdroogd-100-natuurlijke-beloning-géén-additieven-120-gr.html'
+    pageUrl: 'produits/kiwi-walker-hond-en-kat-snack-goose-liver-gevriesdroogd-100-natuurlijke-beloning-gn-additieven-120-gr.html'
   },
   {
     id: 403,
@@ -4431,7 +4431,7 @@ const products = [
     brand: "Yourdog",
     description: "<strong>Yourdog Chien fran\u00e7ais blanc et orange Hondenvoer | Adult | 12KG</strong> <p>Yourdog Chien fran\u00e7ais blanc et orange zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Your",
     slug: "yourdog-chien-fran\u00e7ais-blanc-et-orange-rasspecifiek-adult-hondenvoer-12kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-chien-français-blanc-et-orange-rasspecifiek-adult-hondenvoer-12kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-chien-franais-blanc-et-orange-rasspecifiek-adult-hondenvoer-12kg-hondenbrokken.html'
   },
   {
     id: 404,
@@ -4442,7 +4442,7 @@ const products = [
     brand: "Yourdog",
     description: "<strong>Yourdog Amerikaanse akita Hondenvoer | Adult | 12KG</strong> <p>Yourdog Amerikaanse akita zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten sma",
     slug: "yourdog-amerikaanse-akita-rasspecifiek-adult-hondenvoer-12kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-amerikaanse-akita-rasspecifiek-adult-hondenvoer-12kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-amerikaanse-akita-rasspecifiek-adult-hondenvoer-12kg-hondenbrokken.html'
   },
   {
     id: 405,
@@ -4552,7 +4552,7 @@ const products = [
     brand: "Earth Rated",
     description: "<p><strong>Earth Rated Poepzak Geurloos 8 x 15 stuks</strong><br />De Earth Rated Afvalzak Geurloos 8 x 15 stuks zijn 15 poepzakjes op 8 rollen, 100% lek-proof. Deze handige zakjes zijn ideaal voor el",
     slug: "earth-rated--earth-rated-poepzakjes-geurloos",
-    pageUrl: 'produits/earth-rated--earth-rated-poepzakjes-geurloos.html'
+    pageUrl: 'produits/earth-rated-earth-rated-poepzakjes-geurloos.html'
   },
   {
     id: 415,
@@ -4816,7 +4816,7 @@ const products = [
     brand: "Yourdog",
     description: "<p>Yourdog Kleine m\u00fcnsterlander zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren dit met zorgvuldig geselecte",
     slug: "yourdog-kleine-m\u00fcnsterlander-pup-hondenvoer-12-kg",
-    pageUrl: 'produits/yourdog-kleine-münsterlander-pup-hondenvoer-12-kg.html'
+    pageUrl: 'produits/yourdog-kleine-mnsterlander-pup-hondenvoer-12-kg.html'
   },
   {
     id: 439,
@@ -4838,7 +4838,7 @@ const products = [
     brand: "Yourdog",
     description: "<strong>Yourdog Dandie dinmont terri\u00ebr Hondenvoer | Adult | 12KG</strong> <p>Yourdog Dandie dinmont terri\u00ebr zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten be",
     slug: "yourdog-dandie-dinmont-terri\u00ebr-rasspecifiek-adult-hondenvoer-12kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-dandie-dinmont-terriër-rasspecifiek-adult-hondenvoer-12kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-dandie-dinmont-terrir-rasspecifiek-adult-hondenvoer-12kg-hondenbrokken.html'
   },
   {
     id: 441,
@@ -4882,7 +4882,7 @@ const products = [
     brand: "Yourdog",
     description: "Yourdog Bichon fris\u00e9 HondenvoerYourdog Bichon fris\u00e9 zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren dit met ",
     slug: "yourdog-bichon-fris\u00e9-rasspecifiek-puppy-hondenvoer-12kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-bichon-frisé-rasspecifiek-puppy-hondenvoer-12kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-bichon-fris-rasspecifiek-puppy-hondenvoer-12kg-hondenbrokken.html'
   },
   {
     id: 445,
@@ -4904,7 +4904,7 @@ const products = [
     brand: "Zoolekker",
     description: "<p><strong>Geperste Staaf \u00d820 mm</strong> is een stevige hondensnack van 100% buffelhuid. Deze natuurlijke kauwstaaf is ideaal voor honden die graag kauwen en zorgt voor langdurig kauwplezier. Door he",
     slug: "zoolekker-geperste-buffelhuid-staaf-\u00f820-mm-80-90-g-hondensnack-per-4-stuks",
-    pageUrl: 'produits/zoolekker-geperste-buffelhuid-staaf-ø20-mm-80-90-g-hondensnack-per-4-stuks.html'
+    pageUrl: 'produits/zoolekker-geperste-buffelhuid-staaf-20-mm-80-90-g-hondensnack-per-4-stuks.html'
   },
   {
     id: 447,
@@ -4959,7 +4959,7 @@ const products = [
     brand: "Acana",
     description: "<b>Acana Singles Grass-Fed Lamb 2 kg</b>Limited Acana grasgevoerd lam is rijk aan 50% Nieuw-Zeeland lam dat rauw wordt geleverd in voedende whole prey? verhoudingen. Infusies van gevriesgedroogde leve",
     slug: "acana-grass-fed-lamb-hondenvoer-monoprote\u00efne-licht-verteerbaar-ondersteunt-spijsvertering",
-    pageUrl: 'produits/acana-grass-fed-lamb-hondenvoer-monoproteïne-licht-verteerbaar-ondersteunt-spijsvertering.html'
+    pageUrl: 'produits/acana-grass-fed-lamb-hondenvoer-monoprotene-licht-verteerbaar-ondersteunt-spijsvertering.html'
   },
   {
     id: 452,
@@ -5069,7 +5069,7 @@ const products = [
     brand: "MFCare",
     description: "<p>Iedere hond mag een traktatie verwachten naast zijn normale dieet.<br />Deze energierepen vertegenwoordigen een unieke balans tussen een tussendoortje en vele extra voordelen.</p> <p> </p> <p>Voord",
     slug: "gedraaide-sticks-met-eend-hondensnacks-30-stuks--500-gram",
-    pageUrl: 'produits/gedraaide-sticks-met-eend-hondensnacks-30-stuks--500-gram.html'
+    pageUrl: 'produits/gedraaide-sticks-met-eend-hondensnacks-30-stuks-500-gram.html'
   },
   {
     id: 462,
@@ -5201,7 +5201,7 @@ const products = [
     brand: "Yourdog",
     description: "Let op: Vanwege de grootte van het ras \u00e9n het voedingsadvies zijn de volwassen en senior verpakking alleen verkrijgbaar in 12KG Yourdog Chart polski HondenvoerYourdog Chart polski zorgt voor de holist",
     slug: "yourdog-chart-polski-rasspecifiek-senior-hondenvoer-12kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-chart-polski-rasspecifiek-senior-hondenvoer-12kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-chart-polski-rasspecifiek-senior-hondenvoer-12kg-hondenbrokken.html'
   },
   {
     id: 474,
@@ -5212,7 +5212,7 @@ const products = [
     brand: "Yourdog",
     description: "Yourdog Border terri\u00ebr HondenvoerYourdog Border terri\u00ebr zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren dit ",
     slug: "yourdog-border-terri\u00ebr-rasspecifiek-senior-hondenvoer-6kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-border-terriër-rasspecifiek-senior-hondenvoer-6kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-border-terrir-rasspecifiek-senior-hondenvoer-6kg-hondenbrokken.html'
   },
   {
     id: 475,
@@ -5289,7 +5289,7 @@ const products = [
     brand: "panzi pet Fit Active Burstin' out",
     description: "<p><strong>H</strong><strong>ypoallergene hondenvoeding zonder kip</strong>, speciaal ontwikkeld voor <strong>oudere honden van kleine rassen of honden met een gevoelig gebit</strong>. Dankzij de <str",
     slug: "fit-active-seniorlight--kleine-hypoallergene-hondenbrokken-met-lam--hondenvoer-voor-oudere-honden--11kg",
-    pageUrl: 'produits/fit-active-seniorlight--kleine-hypoallergene-hondenbrokken-met-lam--hondenvoer-voor-oudere-honden--11kg.html'
+    pageUrl: 'produits/fit-active-seniorlight-kleine-hypoallergene-hondenbrokken-met-lam-hondenvoer-voor-oudere-honden-11kg.html'
   },
   {
     id: 482,
@@ -5300,7 +5300,7 @@ const products = [
     brand: "Yourdog",
     description: "Yourdog Vizsla korthaar HondenvoerYourdog Vizsla korthaar zorgt voor de holistische gezondheid en het welzijn van jouw hond. Alle Yourdog varianten bevatten smaakvolle buffel en kip. Wij combineren di",
     slug: "yourdog-vizsla-korthaar-rasspecifiek-senior-hondenvoer-6kg--hondenbrokken",
-    pageUrl: 'produits/yourdog-vizsla-korthaar-rasspecifiek-senior-hondenvoer-6kg--hondenbrokken.html'
+    pageUrl: 'produits/yourdog-vizsla-korthaar-rasspecifiek-senior-hondenvoer-6kg-hondenbrokken.html'
   },
   {
     id: 483,

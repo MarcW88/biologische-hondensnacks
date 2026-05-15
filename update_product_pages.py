@@ -60,7 +60,7 @@ PRODUCT_TEMPLATE = '''<!DOCTYPE html>
 .product-content {{ display:flex;flex-direction:column;gap:2.5rem; }}
 .buy-box {{ position:sticky;top:90px;border:1px solid #e5e5e5;border-radius:12px;padding:1.75rem;background:white; }}
 .buy-box .price {{ font-size:2.2rem;font-weight:700;color:var(--primary);margin-bottom:1.25rem; }}
-.buy-box .cta {{ display:block;width:100%;text-align:center;background:linear-gradient(135deg,var(--primary),var(--primary-dark));color:white;padding:1rem;text-decoration:none;border-radius:8px;font-size:1rem;font-weight:600;margin-bottom:1.25rem;transition:opacity 0.2s; }}
+.buy-box .cta {{ display:block;width:100%;text-align:center;background:linear-gradient(135deg,#8B5A2B,#6B4423);color:white;padding:1rem;text-decoration:none;border-radius:8px;font-size:1rem;font-weight:600;margin-bottom:1.25rem;transition:opacity 0.2s; }}
 .buy-box .cta:hover {{ opacity:0.9; }}
 .buy-box .trust {{ font-size:0.8rem;color:#666;line-height:1.8; }}
 .buy-box .trust span {{ display:block; }}
@@ -408,20 +408,46 @@ def generate_description_paragraphs(data):
     return '\n'.join(paragraphs[:3])  # Max 3 paragraphs
 
 def generate_similar_products():
-    """Generate similar products section (placeholder)"""
-    similar = [
-        ('1-kg-lyra-pet-kauwringen-met-kipfiletreepjes.html', 'https://media.s-bol.com/n3nlMBjZ7mMY/Q0kNoPG/1200x1200.jpg', '1 kg Lyra Pet Kauwringen met Kipfiletreepjes', '€28,99'),
-        ('1-kg-lyra-pet-kauwsticks-met-kipfilet.html', 'https://media.s-bol.com/m3lkLAwZzKz9/N9OElM2/1200x1200.jpg', '1 kg Lyra Pet Kauwsticks met Kipfilet', '€29,99'),
-        ('honden-kauwspeelgoed-touwspeelgoed-hond-tandverzorging-hond-met-piepfunctie-15-x-10-x-4-cm-meerkleurig.html', 'https://media.s-bol.com/B52G68l32Zz2/gLGKoxG/1006x1200.jpg', 'Honden Kauwspeelgoed - Touwspeelgoed', '€38,69'),
-        ('100-puur-pens-vleesblokjes-hondensnack-1000-gram.html', 'https://media.s-bol.com/XXXXXX/XXXXXX/1200x1200.jpg', '100% Puur Pens Vleesblokjes', '€XX,XX')
-    ]
+    """Generate similar products section with actual product data"""
+    # Get a few actual product files to use as similar products
+    produits_dir = Path('/Users/marc/Desktop/biologische-hondensnacks/produits')
+    html_files = list(produits_dir.glob('*.html'))
+    
+    # Select 4 random products as similar products
+    import random
+    similar_files = random.sample(html_files, min(4, len(html_files)))
     
     cards = []
-    for href, img, title, price in similar:
-        cards.append(f'''<a href="{href}" class="similar-card">
+    for file_path in similar_files[:4]:
+        # Extract data from the file
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                content = f.read()
+            
+            # Extract image
+            img_match = re.search(r'<img src="(https://media\.s-bol\.com/[^"]+)"', content)
+            img = img_match.group(1) if img_match else 'https://media.s-bol.com/n3nX8ZxwXvMY/yrwpooP/1200x1200.jpg'
+            
+            # Extract title
+            title_match = re.search(r'<title>(.*?)\|', content)
+            title = title_match.group(1).strip() if title_match else file_path.stem.replace('-', ' ')
+            
+            # Extract price
+            price_match = re.search(r'<div class="price">([^<]+)</div>', content)
+            price = price_match.group(1) if price_match else '€XX,XX'
+            
+            # Create card
+            cards.append(f'''<a href="{file_path.name}" class="similar-card">
 <img src="{img}" alt="{title}" loading="lazy" onerror="this.style.display='none'">
-<h4>{title}</h4>
+<h4>{title[:60]}...</h4>
 <span class="card-price">{price}</span>
+</a>''')
+        except:
+            # Fallback to placeholder if error
+            cards.append(f'''<a href="{file_path.name}" class="similar-card">
+<img src="https://media.s-bol.com/n3nX8ZxwXvMY/yrwpooP/1200x1200.jpg" alt="Product" loading="lazy">
+<h4>{file_path.stem.replace('-', ' ')[:60]}...</h4>
+<span class="card-price">€XX,XX</span>
 </a>''')
     
     return '\n'.join(cards)
