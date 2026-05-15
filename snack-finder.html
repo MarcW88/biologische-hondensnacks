@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="nl">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Snack Finder — Biologische Hondensnacks</title>
+  <meta content="Vind de perfecte biologische hondensnack voor jouw hond met onze interactieve snack finder." name="description"/>
+  <link href="https://biologische-hondensnacks.nl/snack-finder.html" rel="canonical"/>
+  <!-- Favicon -->
+  <link href="favicon.svg" rel="icon" type="image/svg+xml"/>
+  <link href="favicon-simple.svg" rel="icon" sizes="16x16" type="image/svg+xml"/>
+  <link href="favicon.svg" rel="apple-touch-icon" sizes="180x180"/>
+  <meta content="var(--primary)" name="theme-color"/>
+  <!-- Open Graph -->
+  <meta content="Snack Finder — Biologische Hondensnacks" property="og:title"/>
+  <meta content="Vind de perfecte biologische hondensnack voor jouw hond met onze interactieve snack finder." property="og:description"/>
+  <meta content="website" property="og:type"/>
+  <meta content="https://biologische-hondensnacks.nl/snack-finder.html" property="og:url"/>
+  <!-- Preconnect -->
+  <link href="https://www.bol.com" rel="preconnect"/>
+  <!-- Styles -->
+  <link href="css/styles.css" rel="stylesheet"/>
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
+   { "@context": "https://schema.org", "@type": "WebApplication", "name": "Snack Finder", "description": "Interactieve tool om de perfecte biologische hondensnack te vinden", "url": "https://biologische-hondensnacks.nl/snack-finder.html", "applicationCategory": "HealthApplication", "operatingSystem": "Web" }
+  </script>
+ </head>
+ <body>
+  <!-- Navigation -->
+  <nav class="navbar">
+  <div class="container">
+  <div class="nav-container">
+  <a class="nav-brand" href="index.html">Biologische Hondensnacks</a>
+  <button class="mobile-menu-toggle" aria-label="Menu">
+  <span></span>
+  <span></span>
+  <span></span>
+  </button>
+  <ul class="nav-menu">
+  <li><a class="nav-link" href="index.html">Home</a></li>
+  <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle active" href="beste-hondensnacks-2026/">Gidsen</a>
+  <ul class="dropdown-menu">
+  <li><a class="dropdown-link" href="beste-hondensnacks-2026/">Top 10</a></li>
+  <li><a class="dropdown-link" href="natuurlijke-hondensnacks/">Natuurlijke snacks</a></li>
+  <li><a class="dropdown-link" href="hondensnacks-voor-puppy/">Puppy snacks</a></li>
+  <li><a class="dropdown-link" href="blog/">Blog</a></li>
+  </ul>
+  </li>
+  <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="winkel.html">Winkel</a>
+  <ul class="dropdown-menu">
+  <li><a class="dropdown-link" href="winkel.html">Alle producten</a></li>
+  <li><a class="dropdown-link" href="kauwsnacks-tandverzorging/">Kauwsnacks</a></li>
+  <li><a class="dropdown-link" href="hypoallergene-hondensnacks/">Hypoallergeen</a></li>
+  </ul>
+  </li>
+  </ul>
+  </div>
+  </div>
+  </nav>
+  <div class="mobile-menu-overlay"></div>
+
+  <!-- Mobile Menu JavaScript -->
+  <script>
+const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+const mobileMenuOverlay = document.querySelector('.mobile-menu-overlay');
+const navMenu = document.querySelector('.nav-menu');
+
+if (mobileMenuToggle) {
+    mobileMenuToggle.addEventListener('click', () => {
+        mobileMenuToggle.classList.toggle('active');
+        navMenu.classList.toggle('active');
+        mobileMenuOverlay.classList.toggle('active');
+        document.body.style.overflow = navMenu.classList.contains('active') ? 'hidden' : '';
+    });
+}
+
+if (mobileMenuOverlay) {
+    mobileMenuOverlay.addEventListener('click', () => {
+        mobileMenuToggle.classList.remove('active');
+        navMenu.classList.remove('active');
+        mobileMenuOverlay.classList.remove('active');
+        document.body.style.overflow = '';
+    });
+}
+
+// Mobile dropdown toggle
+const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+dropdownToggles.forEach(toggle => {
+    toggle.addEventListener('click', (e) => {
+        if (window.innerWidth <= 768) {
+            e.preventDefault();
+            const dropdownItem = toggle.closest('.nav-item.dropdown');
+            dropdownItem.classList.toggle('active');
+            const dropdownMenu = dropdownItem.querySelector('.dropdown-menu');
+            dropdownMenu.classList.toggle('active');
+        }
+    });
+});
+  </script>
+
+  <!-- Hero Section -->
+  <section style="background: var(--surface-soft); padding: 3rem 0 2.5rem;">
+   <div class="container">
+    <div style="text-align: center;">
+     <p style="font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1.25rem; display: inline-flex; align-items: center; gap: 0.5rem; background: var(--primary-light); color: var(--primary); padding: 0.5rem 1rem; border-radius: 2rem;">
+      🐾 Snack Finder
+     </p>
+     <h1 style="font-family: var(--font-serif); font-size: clamp(2rem, 4vw, 2.8rem); font-weight: 400; line-height: 1.15; color: var(--text); margin-bottom: 1.5rem;">
+      Welke <span style="color: var(--primary);">biologische snack</span> past bij jouw hond?
+     </h1>
+     <p style="font-size: 1.05rem; line-height: 1.7; color: var(--text-dim); max-width: 600px; margin: 0 auto 2rem;">
+      Beantwoord 4 korte vragen en ontdek in minder dan 1 minuut welke natuurlijke snacks perfect passen bij de leeftijd, grootte en gevoeligheden van jouw hond.
+     </p>
+     <div style="display: flex; align-items: center; justify-content: center; gap: 0.5rem; font-size: 0.875rem; color: var(--text-dim);">
+      <span>🐕</span><span>🦮</span><span>🐩</span><span>🐕‍🦺</span>
+      <span>Meer dan 10.000 hondenbaasjes vonden hun perfecte snack via deze quiz</span>
+     </div>
+    </div>
+   </div>
+  </section>
+
+  <!-- Breadcrumb -->
+  <div class="container" style="padding: 0.5rem 0;">
+   <nav style="font-size:0.85rem;color:#888;">
+    <a href="index.html" style="color:#888;text-decoration:none;">Home</a> / <strong>Snack Finder</strong>
+   </nav>
+  </div>
+
+  <!-- Quiz Section -->
+  <section class="section">
+   <div class="container" style="max-width: 800px;">
+    <div style="background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-xl); padding: var(--sp-8); box-shadow: 0 4px 16px rgba(0,0,0,0.09); position: relative; overflow: hidden;">
+     <div style="position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, var(--primary), #2a8c87); border-radius: var(--r-xl) var(--r-xl) 0 0;"></div>
+
+     <!-- Progress -->
+     <div style="margin-bottom: var(--sp-6);" id="progress-wrap">
+      <div style="display: flex; justify-content: space-between; font-size: 0.875rem; color: var(--text-dim); margin-bottom: 0.5rem;">
+       <span id="progress-label-text">Vraag 1 van 4</span>
+       <span id="progress-pct">0%</span>
+      </div>
+      <div style="height: 6px; background: var(--surface-soft); border-radius: 2rem; overflow: hidden;">
+       <div style="height: 100%; background: linear-gradient(90deg, var(--primary), #2a8c87); border-radius: 2rem; transition: width 0.5s cubic-bezier(0.16, 1, 0.3, 1); width: 0%;" id="progress-fill"></div>
+      </div>
+     </div>
+
+     <!-- STEP 1: Leeftijd -->
+     <div style="display: none; animation: fadeStep 0.3s ease;" class="step active" id="step-1">
+      <h2 style="font-family: var(--font-serif); font-size: 1.5rem; font-weight: 400; line-height: 1.3; margin-bottom: 0.5rem; color: var(--text);">
+       Hoe oud is jouw hond?
+      </h2>
+      <p style="font-size: 1rem; color: var(--text-dim); margin-bottom: var(--sp-6);">
+       De leeftijd bepaalt de textuur en voedingswaarde die het beste past.
+      </p>
+      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--sp-3); margin-bottom: var(--sp-6);" role="group" aria-label="Leeftijd van je hond">
+       <button class="option-btn" data-step="1" data-value="puppy" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
+        <span style="font-size: 2rem; line-height: 1;">🐶</span>
+        <span style="font-size: 0.875rem; font-weight: 600; color: var(--text); line-height: 1.3;">Puppy</span>
+        <span style="font-size: 0.75rem; color: var(--text-dim); line-height: 1.4;">Tot 12 maanden</span>
+       </button>
+       <button class="option-btn" data-step="1" data-value="volwassen" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
+        <span style="font-size: 2rem; line-height: 1;">🐕</span>
+        <span style="font-size: 0.875rem; font-weight: 600; color: var(--text); line-height: 1.3;">Volwassen</span>
+        <span style="font-size: 0.75rem; color: var(--text-dim); line-height: 1.4;">1 – 7 jaar</span>
+       </button>
+       <button class="option-btn" data-step="1" data-value="senior" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
+        <span style="font-size: 2rem; line-height: 1;">🦮</span>
+        <span style="font-size: 0.875rem; font-weight: 600; color: var(--text); line-height: 1.3;">Senior</span>
+        <span style="font-size: 0.75rem; color: var(--text-dim); line-height: 1.4;">7 jaar en ouder</span>
+       </button>
+      </div>
+      <div style="display: flex; gap: var(--sp-3); justify-content: flex-end;">
+       <button class="btn btn-primary" id="next-1" disabled style="display: inline-flex; align-items: center; gap: var(--sp-2); padding: var(--sp-3) var(--sp-6); border-radius: 2rem; font-size: 0.875rem; font-weight: 600; transition: all 0.2s; border: 2px solid transparent; line-height: 1; min-height: 44px; background: var(--primary); color: white;">
+        Volgende
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+       </button>
+      </div>
+     </div>
+
+     <!-- STEP 2: Ras / Grootte -->
+     <div style="display: none; animation: fadeStep 0.3s ease;" class="step" id="step-2">
+      <h2 style="font-family: var(--font-serif); font-size: 1.5rem; font-weight: 400; line-height: 1.3; margin-bottom: 0.5rem; color: var(--text);">
+       Hoe groot is jouw hond?
+      </h2>
+      <p style="font-size: 1rem; color: var(--text-dim); margin-bottom: var(--sp-6);">
+       De grootte bepaalt de ideale portie en hardheid van de snack.
+      </p>
+      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--sp-3); margin-bottom: var(--sp-6);" role="group" aria-label="Grootte van je hond">
+       <button class="option-btn" data-step="2" data-value="klein" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
+        <span style="font-size: 2rem; line-height: 1;">🐾</span>
+        <span style="font-size: 0.875rem; font-weight: 600; color: var(--text); line-height: 1.3;">Klein</span>
+        <span style="font-size: 0.75rem; color: var(--text-dim); line-height: 1.4;">Tot 10 kg</span>
+       </button>
+       <button class="option-btn" data-step="2" data-value="middel" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
+        <span style="font-size: 2rem; line-height: 1;">🐾</span>
+        <span style="font-size: 0.875rem; font-weight: 600; color: var(--text); line-height: 1.3;">Middel</span>
+        <span style="font-size: 0.75rem; color: var(--text-dim); line-height: 1.4;">10 – 25 kg</span>
+       </button>
+       <button class="option-btn" data-step="2" data-value="groot" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
+        <span style="font-size: 2rem; line-height: 1;">🐾</span>
+        <span style="font-size: 0.875rem; font-weight: 600; color: var(--text); line-height: 1.3;">Groot</span>
+        <span style="font-size: 0.75rem; color: var(--text-dim); line-height: 1.4;">Meer dan 25 kg</span>
+       </button>
+      </div>
+      <div style="display: flex; gap: var(--sp-3); justify-content: flex-end;">
+       <button class="btn btn-ghost" id="back-2" style="display: inline-flex; align-items: center; gap: var(--sp-2); padding: var(--sp-3) var(--sp-6); border-radius: 2rem; font-size: 0.875rem; font-weight: 600; transition: all 0.2s; border: 2px solid var(--border); background: transparent; color: var(--text-dim);">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        Terug
+       </button>
+       <button class="btn btn-primary" id="next-2" disabled style="display: inline-flex; align-items: center; gap: var(--sp-2); padding: var(--sp-3) var(--sp-6); border-radius: 2rem; font-size: 0.875rem; font-weight: 600; transition: all 0.2s; border: 2px solid transparent; line-height: 1; min-height: 44px; background: var(--primary); color: white;">
+        Volgende
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+       </button>
+      </div>
+     </div>
+
+     <!-- STEP 3: Gevoeligheden -->
+     <div style="display: none; animation: fadeStep 0.3s ease;" class="step" id="step-3">
+      <h2 style="font-family: var(--font-serif); font-size: 1.5rem; font-weight: 400; line-height: 1.3; margin-bottom: 0.5rem; color: var(--text);">
+       Heeft jouw hond bijzondere gevoeligheden?
+      </h2>
+      <p style="font-size: 1rem; color: var(--text-dim); margin-bottom: var(--sp-6);">
+       Zo kunnen we de meest geschikte ingrediënten selecteren.
+      </p>
+      <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--sp-3); margin-bottom: var(--sp-6);" role="group" aria-label="Gevoeligheden van je hond">
+       <button class="option-btn" data-step="3" data-value="geen" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
+        <span style="font-size: 2rem; line-height: 1;">✅</span>
+        <span style="font-size: 0.875rem; font-weight: 600; color: var(--text); line-height: 1.3;">Geen</span>
+        <span style="font-size: 0.75rem; color: var(--text-dim); line-height: 1.4;">Alles is prima</span>
+       </button>
+       <button class="option-btn" data-step="3" data-value="graanvrij" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
+        <span style="font-size: 2rem; line-height: 1;">🌾</span>
+        <span style="font-size: 0.875rem; font-weight: 600; color: var(--text); line-height: 1.3;">Graanvrij</span>
+        <span style="font-size: 0.75rem; color: var(--text-dim); line-height: 1.4;">Geen granen</span>
+       </button>
+       <button class="option-btn" data-step="3" data-value="hypoallergeen" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
+        <span style="font-size: 2rem; line-height: 1;">💊</span>
+        <span style="font-size: 0.875rem; font-weight: 600; color: var(--text); line-height: 1.3;">Hypoallergeen</span>
+        <span style="font-size: 0.75rem; color: var(--text-dim); line-height: 1.4;">Voedselovergevoeligheid</span>
+       </button>
+       <button class="option-btn" data-step="3" data-value="geen" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
+        <span style="font-size: 2rem; line-height: 1;">❓</span>
+        <span style="font-size: 0.875rem; font-weight: 600; color: var(--text); line-height: 1.3;">Weet ik niet</span>
+        <span style="font-size: 0.75rem; color: var(--text-dim); line-height: 1.4;">Geen voorkeur</span>
+       </button>
+      </div>
+      <div style="display: flex; gap: var(--sp-3); justify-content: flex-end;">
+       <button class="btn btn-ghost" id="back-3" style="display: inline-flex; align-items: center; gap: var(--sp-2); padding: var(--sp-3) var(--sp-6); border-radius: 2rem; font-size: 0.875rem; font-weight: 600; transition: all 0.2s; border: 2px solid var(--border); background: transparent; color: var(--text-dim);">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        Terug
+       </button>
+       <button class="btn btn-primary" id="next-3" disabled style="display: inline-flex; align-items: center; gap: var(--sp-2); padding: var(--sp-3) var(--sp-6); border-radius: 2rem; font-size: 0.875rem; font-weight: 600; transition: all 0.2s; border: 2px solid transparent; line-height: 1; min-height: 44px; background: var(--primary); color: white;">
+        Volgende
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+       </button>
+      </div>
+     </div>
+
+     <!-- STEP 4: Gebruik -->
+     <div style="display: none; animation: fadeStep 0.3s ease;" class="step" id="step-4">
+      <h2 style="font-family: var(--font-serif); font-size: 1.5rem; font-weight: 400; line-height: 1.3; margin-bottom: 0.5rem; color: var(--text);">
+       Waarvoor wil je de snack gebruiken?
+      </h2>
+      <p style="font-size: 1rem; color: var(--text-dim); margin-bottom: var(--sp-6);">
+       Het doel bepaalt het type snack dat het meest effectief is.
+      </p>
+      <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--sp-3); margin-bottom: var(--sp-6);" role="group" aria-label="Gebruik van de snack">
+       <button class="option-btn" data-step="4" data-value="training" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
+        <span style="font-size: 2rem; line-height: 1;">🎯</span>
+        <span style="font-size: 0.875rem; font-weight: 600; color: var(--text); line-height: 1.3;">Training</span>
+        <span style="font-size: 0.75rem; color: var(--text-dim); line-height: 1.4;">Kleine zachte beloningen</span>
+       </button>
+       <button class="option-btn" data-step="4" data-value="kauw" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
+        <span style="font-size: 2rem; line-height: 1;">🦴</span>
+        <span style="font-size: 0.875rem; font-weight: 600; color: var(--text); line-height: 1.3;">Kauwplezier</span>
+        <span style="font-size: 0.75rem; color: var(--text-dim); line-height: 1.4;">Lang bezig houden</span>
+       </button>
+       <button class="option-btn" data-step="4" data-value="beloning" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
+        <span style="font-size: 2rem; line-height: 1;">⭐</span>
+        <span style="font-size: 0.875rem; font-weight: 600; color: var(--text); line-height: 1.3;">Dagelijkse beloning</span>
+        <span style="font-size: 0.75rem; color: var(--text-dim); line-height: 1.4;">Lekker tussendoortje</span>
+       </button>
+       <button class="option-btn" data-step="4" data-value="alle" aria-pressed="false" style="display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); padding: var(--sp-5) var(--sp-4); background: var(--surface-soft); border: 2px solid var(--border); border-radius: var(--r-lg); transition: all 0.2s; cursor: pointer; text-align: center;">
+        <span style="font-size: 2rem; line-height: 1;">🐾</span>
+        <span style="font-size: 0.875rem; font-weight: 600; color: var(--text); line-height: 1.3;">Alles</span>
+        <span style="font-size: 0.75rem; color: var(--text-dim); line-height: 1.4;">Geen voorkeur</span>
+       </button>
+      </div>
+      <div style="display: flex; gap: var(--sp-3); justify-content: flex-end;">
+       <button class="btn btn-ghost" id="back-4" style="display: inline-flex; align-items: center; gap: var(--sp-2); padding: var(--sp-3) var(--sp-6); border-radius: 2rem; font-size: 0.875rem; font-weight: 600; transition: all 0.2s; border: 2px solid var(--border); background: transparent; color: var(--text-dim);">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        Terug
+       </button>
+       <button class="btn btn-primary" id="next-4" disabled style="display: inline-flex; align-items: center; gap: var(--sp-2); padding: var(--sp-3) var(--sp-6); border-radius: 2rem; font-size: 0.875rem; font-weight: 600; transition: all 0.2s; border: 2px solid transparent; line-height: 1; min-height: 44px; background: var(--primary); color: white;">
+        Resultaten bekijken 🐾
+       </button>
+      </div>
+     </div>
+
+     <!-- RESULTS -->
+     <div style="display: none;" class="step" id="step-results">
+      <div style="text-align: center; padding-bottom: var(--sp-6); border-bottom: 1px solid var(--border); margin-bottom: var(--sp-6);">
+       <div style="display: inline-block; background: var(--primary-light); color: var(--primary); font-weight: 700; padding: var(--sp-1) var(--sp-3); border-radius: 2rem; font-size: 0.75rem; margin-bottom: var(--sp-3);" id="results-count"></div>
+       <h2 style="font-family: var(--font-serif); font-size: 1.5rem; font-weight: 400; color: var(--text); margin-bottom: 0.5rem;" id="results-title">Jouw perfecte snacks</h2>
+       <p style="font-size: 0.875rem; color: var(--text-dim);" id="results-subtitle"></p>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: var(--sp-4); margin-bottom: var(--sp-8);" id="snack-list"></div>
+      <div style="text-align: center; padding-top: var(--sp-4); border-top: 1px solid var(--border);">
+       <p style="font-size: 0.875rem; color: var(--text-dim); margin-bottom: var(--sp-4);">Wil je andere criteria proberen?</p>
+       <button class="btn btn-ghost" id="restart-btn" style="display: inline-flex; align-items: center; gap: var(--sp-2); padding: var(--sp-3) var(--sp-6); border-radius: 2rem; font-size: 0.875rem; font-weight: 600; transition: all 0.2s; border: 2px solid var(--border); background: transparent; color: var(--text-dim);">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+        Opnieuw beginnen
+       </button>
+      </div>
+     </div>
+
+    </div>
+   </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+   <div class="container">
+    <div class="footer-content">
+     <div>
+      <h3>
+       Biologische hondensnacks
+      </h3>
+      <p>
+       De beste natuurlijke en biologische snacks voor jouw hond. Graanvrij, gezond en heerlijk.
+      </p>
+     </div>
+     <div>
+      <h3>
+       Gidsen
+      </h3>
+      <ul>
+       <li>
+        <a href="beste-hondensnacks-2026/">
+         Top 10 beste
+        </a>
+       </li>
+       <li>
+        <a href="natuurlijke-hondensnacks/">
+         Natuurlijke snacks
+        </a>
+       </li>
+       <li>
+        <a href="hondensnacks-voor-puppy/">
+         Puppy snacks
+        </a>
+       </li>
+       <li>
+        <a href="blog/">
+         Blog &amp; tips
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div>
+      <h3>
+       Categorieën
+      </h3>
+      <ul>
+       <li>
+        <a href="winkel.html">
+         Alle producten
+        </a>
+       </li>
+       <li>
+        <a href="kauwsnacks-tandverzorging/">
+         Kauwsnacks
+        </a>
+       </li>
+       <li>
+        <a href="hypoallergene-hondensnacks/">
+         Hypoallergeen
+        </a>
+       </li>
+       <li>
+        <a href="trainingssnacks/">
+         Training snacks
+        </a>
+       </li>
+       <li>
+        <a href="graanvrije-hondensnacks/">
+         Graanvrije snacks
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div>
+      <h3>
+       Support &amp; info
+      </h3>
+      <ul>
+       <li>
+        <a href="over-ons/">
+         Over ons
+        </a>
+       </li>
+       <li>
+        <a href="blog/">
+         Blog &amp; tips
+        </a>
+       </li>
+       <li>
+        <a href="contact/">
+         Contact
+        </a>
+       </li>
+       <li>
+        <a href="veelgestelde-vragen/">
+         FAQ
+        </a>
+       </li>
+       <li>
+        <a href="beste-hondensnacks-2026/">
+         Top 10 beste
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </footer>
+
+  <style>
+   @keyframes fadeStep {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+   }
+   .option-btn:hover {
+    border-color: var(--primary) !important;
+    background: var(--primary-light) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.07), 0 1px 2px rgba(0,0,0,0.04);
+   }
+   .option-btn.selected {
+    border-color: var(--primary) !important;
+    background: var(--primary-light) !important;
+    box-shadow: 0 0 0 1px var(--primary);
+   }
+   .btn-primary:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+   }
+   .btn-ghost:hover {
+    background: var(--surface-soft);
+    color: var(--text);
+    border-color: var(--divider);
+   }
+   .snack-card {
+    display: grid;
+    grid-template-columns: 72px 1fr;
+    gap: var(--sp-4);
+    padding: var(--sp-5);
+    background: var(--surface-soft);
+    border: 1px solid var(--border);
+    border-radius: var(--r-lg);
+    transition: all 0.2s;
+    position: relative;
+    overflow: hidden;
+   }
+   .snack-card:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.09);
+    border-color: var(--primary);
+    transform: translateY(-2px);
+   }
+   .snack-card.top-match {
+    border-color: var(--primary);
+    background: var(--primary-light);
+   }
+   .top-match-ribbon {
+    position: absolute;
+    top: 10px;
+    right: -24px;
+    background: var(--primary);
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    padding: 3px 32px;
+    transform: rotate(35deg);
+    transform-origin: center;
+    text-transform: uppercase;
+   }
+   .snack-emoji-box {
+    width: 72px;
+    height: 72px;
+    border-radius: var(--r-md);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.4rem;
+    flex-shrink: 0;
+    align-self: start;
+   }
+   .snack-name {
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--text);
+    margin-bottom: var(--sp-1);
+   }
+   .snack-description {
+    font-size: 0.875rem;
+    color: var(--text-dim);
+    margin-bottom: var(--sp-3);
+    line-height: 1.5;
+   }
+   .snack-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--sp-2);
+   }
+   .badge {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 2px var(--sp-2);
+    border-radius: 2rem;
+    line-height: 1.6;
+   }
+   .badge-orange { background: #fdf0e6; color: #6b3200; }
+   .badge-green { background: #d4edda; color: #1a5c28; }
+   .badge-teal { background: #e2f4f3; color: #0a3c3a; }
+   .badge-blue { background: #e4eef8; color: #0d2a4a; }
+   .badge-purple { background: #f0e8f8; color: #3a1050; }
+   .badge-brown { background: #f0e8dc; color: #5c3200; }
+   .snack-card .btn-cta {
+    margin-top: var(--sp-3);
+    display: inline-flex;
+    align-items: center;
+    gap: var(--sp-2);
+    padding: var(--sp-2) var(--sp-4);
+    background: var(--primary);
+    color: white;
+    border-radius: 2rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s;
+    border: none;
+    cursor: pointer;
+    min-height: 36px;
+   }
+   .snack-card .btn-cta:hover { background: var(--primary-hover); }
+   .score-bar-wrap { margin-top: var(--sp-2); }
+   .score-label { font-size: 0.75rem; color: var(--text-dim); margin-bottom: var(--sp-1); }
+   .score-track {
+    height: 4px;
+    background: var(--border);
+    border-radius: 2rem;
+    overflow: hidden;
+   }
+   .score-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--primary), #2a8c87);
+    border-radius: 2rem;
+    transition: width 1s cubic-bezier(0.16, 1, 0.3, 1);
+   }
+   .no-results {
+    text-align: center;
+    padding: var(--sp-12) var(--sp-4);
+    color: var(--text-dim);
+   }
+   .no-results-icon { font-size: 3rem; margin-bottom: var(--sp-4); }
+   @media (max-width: 600px) {
+    .step[style*="grid-template-columns: repeat(3"] {
+     grid-template-columns: 1fr 1fr !important;
+    }
+    .snack-card { grid-template-columns: 60px 1fr; gap: var(--sp-3); }
+    .snack-emoji-box { width: 60px; height: 60px; font-size: 2rem; }
+   }
+  </style>
+
+  <script>
+// ==========================================
+// SNACK DATABASE
+// ==========================================
+const SNACKS = [
+  {
+    id: 1,
+    name: "Trainingshapjes Kip",
+    type: "training",
+    size: ["klein", "middel", "groot"],
+    age: ["puppy", "volwassen", "senior"],
+    sensitivity: ["geen", "graanvrij"],
+    description: "Kleine zachte hapjes van biologische kip, ideaal voor trainingen. Snel gegeven, makkelijk verteerbaar.",
+    badge: "Bestseller",
+    badgeColor: "orange",
+    emoji: "🐔",
+    link: "https://biologische-hondensnacks.nl/winkel.html"
+  },
+  {
+    id: 2,
+    name: "Kauwsticks Rund",
+    type: "kauw",
+    size: ["middel", "groot"],
+    age: ["volwassen", "senior"],
+    sensitivity: ["geen", "graanvrij"],
+    description: "Stevige kauwsticks van biologisch runderhuid. Langdurig kauwplezier en goed voor het gebit.",
+    badge: "Gebitsverzorging",
+    badgeColor: "green",
+    emoji: "🦴",
+    link: "https://biologische-hondensnacks.nl/winkel.html"
+  },
+  {
+    id: 3,
+    name: "Puppy Bites Lam",
+    type: "training",
+    size: ["klein", "middel"],
+    age: ["puppy"],
+    sensitivity: ["geen", "graanvrij", "hypoallergeen"],
+    description: "Speciaal voor puppy's: kleine zachte hapjes van biologisch lam, makkelijk verteerbaar en zacht voor het tandvlees.",
+    badge: "Voor puppy's",
+    badgeColor: "blue",
+    emoji: "🐑",
+    link: "https://biologische-hondensnacks.nl/winkel.html"
+  },
+  {
+    id: 4,
+    name: "Gedroogde Vis Snacks",
+    type: "beloning",
+    size: ["klein", "middel", "groot"],
+    age: ["volwassen", "senior"],
+    sensitivity: ["graanvrij", "hypoallergeen"],
+    description: "100% gedroogde vis. Rijk aan omega-3, ideaal voor honden met voedselovergevoeligheid of een gevoelig spijsverteringsstelsel.",
+    badge: "Hypoallergeen",
+    badgeColor: "teal",
+    emoji: "🐟",
+    link: "https://biologische-hondensnacks.nl/winkel.html"
+  },
+  {
+    id: 5,
+    name: "Senior Kauwbot Eend",
+    type: "kauw",
+    size: ["middel", "groot"],
+    age: ["senior"],
+    sensitivity: ["geen", "graanvrij"],
+    description: "Zacht kauwbot van biologische eend, speciaal voor senioren. Minder hard, gewrichtsondersteunende ingrediënten.",
+    badge: "Senior Comfort",
+    badgeColor: "purple",
+    emoji: "🦆",
+    link: "https://biologische-hondensnacks.nl/winkel.html"
+  },
+  {
+    id: 6,
+    name: "Bio Groente Koekjes",
+    type: "beloning",
+    size: ["klein", "middel", "groot"],
+    age: ["puppy", "volwassen", "senior"],
+    sensitivity: ["geen", "graanvrij", "hypoallergeen"],
+    description: "Biologische groente- en fruitkoekjes. Weinig calorieën, perfect als dagelijkse beloning voor alle honden.",
+    badge: "Plantaardig",
+    badgeColor: "green",
+    emoji: "🥕",
+    link: "https://biologische-hondensnacks.nl/winkel.html"
+  },
+  {
+    id: 7,
+    name: "Reemleer Kauwrol",
+    type: "kauw",
+    size: ["groot"],
+    age: ["volwassen"],
+    sensitivity: ["geen", "graanvrij"],
+    description: "Stevige kauwrol van gedroogd reemleer. Speciaal voor grote rassen met een stevige kaakkracht.",
+    badge: "Grote rassen",
+    badgeColor: "brown",
+    emoji: "🦌",
+    link: "https://biologische-hondensnacks.nl/winkel.html"
+  },
+  {
+    id: 8,
+    name: "Mini Trainers Kalkoen",
+    type: "training",
+    size: ["klein"],
+    age: ["puppy", "volwassen"],
+    sensitivity: ["geen", "graanvrij", "hypoallergeen"],
+    description: "Ultra kleine zachte hapjes van kalkoen. Perfect voor intensieve trainingssessies waarbij je veel beloningen nodig hebt.",
+    badge: "Trainingstip",
+    badgeColor: "orange",
+    emoji: "🦃",
+    link: "https://biologische-hondensnacks.nl/winkel.html"
+  }
+];
+
+// ==========================================
+// STATE
+// ==========================================
+const answers = { age: null, size: null, sensitivity: null, use: null };
+let currentStep = 1;
+const TOTAL_STEPS = 4;
+
+// ==========================================
+// HELPERS
+// ==========================================
+function showStep(n) {
+  document.querySelectorAll('.step').forEach(s => s.classList.remove('active'));
+  if (n === 'results') {
+    document.getElementById('step-results').classList.add('active');
+    document.getElementById('progress-wrap').style.visibility = 'hidden';
+  } else {
+    document.getElementById('step-' + n).classList.add('active');
+    document.getElementById('progress-wrap').style.visibility = 'visible';
+    updateProgress(n);
+  }
+  currentStep = n;
+}
+
+function updateProgress(step) {
+  const pct = Math.round(((step - 1) / TOTAL_STEPS) * 100);
+  document.getElementById('progress-fill').style.width = pct + '%';
+  document.getElementById('progress-pct').textContent = pct + '%';
+  document.getElementById('progress-label-text').textContent = 'Vraag ' + step + ' van ' + TOTAL_STEPS;
+}
+
+function selectOption(stepNum, btn) {
+  const stepKey = ['age','size','sensitivity','use'][stepNum - 1];
+  document.querySelectorAll('[data-step="' + stepNum + '"]').forEach(b => {
+    b.classList.remove('selected');
+    b.setAttribute('aria-pressed', 'false');
+  });
+  btn.classList.add('selected');
+  btn.setAttribute('aria-pressed', 'true');
+  answers[stepKey] = btn.dataset.value;
+  document.getElementById('next-' + stepNum).disabled = false;
+}
+
+// ==========================================
+// SCORING
+// ==========================================
+function scoreSnack(snack) {
+  let score = 0;
+  // Age match (weight: 3)
+  if (answers.age && snack.age.includes(answers.age)) score += 3;
+  // Size match (weight: 2)
+  if (answers.size && snack.size.includes(answers.size)) score += 2;
+  // Sensitivity match (weight: 3)
+  if (answers.sensitivity) {
+    if (answers.sensitivity === 'geen' || snack.sensitivity.includes(answers.sensitivity)) score += 3;
+  }
+  // Use match (weight: 2)
+  if (answers.use) {
+    if (answers.use === 'alle' || snack.type === answers.use) score += 2;
+  }
+  return score;
+}
+
+function getResults() {
+  return SNACKS
+    .map(s => ({ ...s, score: scoreSnack(s) }))
+    .filter(s => s.score >= 3)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 5);
+}
+
+// ==========================================
+// RENDER RESULTS
+// ==========================================
+function renderResults() {
+  const results = getResults();
+  const list = document.getElementById('snack-list');
+  const count = document.getElementById('results-count');
+  const subtitle = document.getElementById('results-subtitle');
+  const title = document.getElementById('results-title');
+
+  const ageLabel = {puppy:'puppy', volwassen:'volwassen hond', senior:'senior hond'}[answers.age] || 'jouw hond';
+  const sizeLabel = {klein:'kleine', middel:'middelgrote', groot:'grote'}[answers.size] || '';
+
+  title.textContent = results.length > 0
+    ? 'Jouw perfecte snacks gevonden!'
+    : 'Geen exacte match gevonden';
+
+  count.textContent = results.length + ' snack' + (results.length !== 1 ? 's' : '') + ' gevonden';
+
+  subtitle.textContent = results.length > 0
+    ? `Geselecteerd voor jouw ${sizeLabel} ${ageLabel} — gesorteerd op beste match` 
+    : '';
+
+  list.innerHTML = '';
+
+  if (results.length === 0) {
+    list.innerHTML = `
+      <div class="no-results">
+        <div class="no-results-icon">🔍</div>
+        <h3>Geen exacte match</h3>
+        <p>Probeer andere criteria of bekijk ons volledige assortiment.</p>
+        <a href="https://biologische-hondensnacks.nl/winkel.html" class="btn btn-primary" style="margin-top:1rem; text-decoration:none;" target="_blank" rel="noopener noreferrer">
+          Bekijk alle snacks
+        </a>
+      </div>
+    `;
+    return;
+  }
+
+  const maxScore = 10;
+
+  results.forEach((snack, index) => {
+    const isTop = index === 0;
+    const scorePct = Math.min(100, Math.round((snack.score / maxScore) * 100));
+    const card = document.createElement('div');
+    card.className = 'snack-card' + (isTop ? ' top-match' : '');
+    card.innerHTML = `
+      ${isTop ? '<div class="top-match-ribbon">Top match</div>' : ''}
+      <div class="snack-emoji-box">${snack.emoji}</div>
+      <div class="snack-info">
+        <div class="snack-name">${snack.name}</div>
+        <p class="snack-description">${snack.description}</p>
+        <div class="score-bar-wrap">
+          <div class="score-label">Match score</div>
+          <div class="score-track">
+            <div class="score-fill" style="width: 0%" data-target="${scorePct}"></div>
+          </div>
+        </div>
+        <div class="snack-badges" style="margin-top: var(--sp-3)">
+          <span class="badge badge-${snack.badgeColor}">${snack.badge}</span>
+          <span class="badge badge-green">100% Biologisch</span>
+          <span class="badge badge-teal">Zonder additieven</span>
+        </div>
+        <a href="${snack.link}" class="btn-cta" target="_blank" rel="noopener noreferrer">
+          Bekijken
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    `;
+    list.appendChild(card);
+    setTimeout(() => {
+      card.querySelector('.score-fill').style.width = scorePct + '%';
+    }, 100 + index * 150);
+  });
+
+  showStep('results');
+}
+
+// ==========================================
+// EVENT LISTENERS — Options
+// ==========================================
+document.querySelectorAll('.option-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    selectOption(parseInt(btn.dataset.step), btn);
+  });
+});
+
+// ==========================================
+// EVENT LISTENERS — Navigation
+// ==========================================
+document.getElementById('next-1').addEventListener('click', () => showStep(2));
+document.getElementById('next-2').addEventListener('click', () => showStep(3));
+document.getElementById('next-3').addEventListener('click', () => showStep(4));
+document.getElementById('next-4').addEventListener('click', () => renderResults());
+
+document.getElementById('back-2').addEventListener('click', () => showStep(1));
+document.getElementById('back-3').addEventListener('click', () => showStep(2));
+document.getElementById('back-4').addEventListener('click', () => showStep(3));
+
+document.getElementById('restart-btn').addEventListener('click', () => {
+  answers.age = null; answers.size = null;
+  answers.sensitivity = null; answers.use = null;
+  document.querySelectorAll('.option-btn').forEach(b => {
+    b.classList.remove('selected');
+    b.setAttribute('aria-pressed', 'false');
+  });
+  ['next-1','next-2','next-3','next-4'].forEach(id => {
+    document.getElementById(id).disabled = true;
+  });
+  document.getElementById('progress-wrap').style.visibility = 'visible';
+  showStep(1);
+});
+  </script>
+ </body>
+</html>
