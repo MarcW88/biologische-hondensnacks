@@ -967,7 +967,38 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log(`${allProducts.length} produits chargés avec succès`);
         
         filteredProducts = [...allProducts];
-        displayProducts();
+        
+        // Read page parameter from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const pageParam = urlParams.get('page');
+        if (pageParam) {
+            currentPage = parseInt(pageParam) || 1;
+        }
+        
+        // Read filter parameters from URL
+        const categoryParam = urlParams.get('category');
+        const priceParam = urlParams.get('price');
+        
+        // Apply filters from URL
+        if (categoryParam) {
+            const categories = categoryParam.split(',');
+            const categoryCheckboxes = document.querySelectorAll('input[type="checkbox"][value]');
+            categoryCheckboxes.forEach(cb => {
+                if (categories.includes(cb.value)) {
+                    cb.checked = true;
+                }
+            });
+        }
+        
+        if (priceParam) {
+            const priceRadio = document.querySelector(`input[name="price"][value="${priceParam}"]`);
+            if (priceRadio) {
+                priceRadio.checked = true;
+            }
+        }
+        
+        // Apply filters and display products
+        filterProducts(false); // false = don't update URL (already loaded from URL)
     } catch (error) {
         console.error('Erreur chargement produits:', error);
     }
@@ -1068,9 +1099,15 @@ function changePage(page) {
     currentPage = page;
     displayProducts();
     window.scrollTo({ top: 0, behavior: 'smooth' });
+    
+    // Update URL with page parameter
+    const urlParams = new URLSearchParams(window.location.search);
+    urlParams.set('page', page);
+    const newUrl = `?${urlParams.toString()}`;
+    window.history.replaceState({}, '', newUrl);
 }
 
-function filterProducts() {
+function filterProducts(updateUrl = true) {
     const categoryCheckboxes = document.querySelectorAll('input[type="checkbox"][value]');
     const priceRadio = document.querySelector('input[name="price"]:checked');
     
@@ -1106,15 +1143,18 @@ function filterProducts() {
     displayProducts();
     
     // Update URL with query parameters
-    const params = new URLSearchParams();
-    if (selectedCategories.length > 0) {
-        params.set('category', selectedCategories.join(','));
+    if (updateUrl) {
+        const params = new URLSearchParams();
+        if (selectedCategories.length > 0) {
+            params.set('category', selectedCategories.join(','));
+        }
+        if (selectedPrice !== 'all') {
+            params.set('price', selectedPrice);
+        }
+        params.set('page', currentPage);
+        const newUrl = params.toString() ? `?${params.toString()}` : 'winkel.html';
+        window.history.replaceState({}, '', newUrl);
     }
-    if (selectedPrice !== 'all') {
-        params.set('price', selectedPrice);
-    }
-    const newUrl = params.toString() ? `?${params.toString()}` : 'winkel.html';
-    window.history.replaceState({}, '', newUrl);
 }
 </script>
 
