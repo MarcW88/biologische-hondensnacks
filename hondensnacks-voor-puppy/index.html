@@ -9,8 +9,62 @@
   <meta content="Speciale hondensnacks voor puppy's. Zacht, verteerbaar en vol voedingsstoffen. Perfecte puppy snacks voor training en beloning Bestel online" name="description"/>
   <meta content="puppy snacks, hondensnacks puppy, zachte puppy koekjes, puppy training snacks, jonge hond snacks" name="keywords"/>
   <link href="https://biologische-hondensnacks.nl/hondensnacks-voor-puppy/" rel="canonical"/>
+  <!-- Favicon -->
+  <link href="../favicon.svg" rel="icon" type="image/svg+xml"/>
+  <link href="../favicon-simple.svg" rel="icon" sizes="16x16" type="image/svg+xml"/>
+  <link href="../favicon.svg" rel="apple-touch-icon" sizes="180x180"/>
+  <meta content="var(--primary)" name="theme-color"/>
+  <!-- Open Graph -->
+  <meta content="Hondensnacks voor Puppy | Zachte &amp; Gezonde Puppy Snacks Kopen" property="og:title"/>
+  <meta content="Speciale hondensnacks voor puppy's. Zacht, verteerbaar en vol voedingsstoffen. Perfecte puppy snacks voor training en beloning Bestel online" property="og:description"/>
+  <meta content="website" property="og:type"/>
+  <meta content="https://biologische-hondensnacks.nl/hondensnacks-voor-puppy/" property="og:url"/>
+  <!-- Preconnect -->
   <link href="https://www.bol.com" rel="preconnect"/>
+  <!-- Styles -->
   <link href="../css/styles.css" rel="stylesheet"/>
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
+   { "@context": "https://schema.org", "@type": "Article", "headline": "Hondensnacks voor Puppy", "description": "Speciale hondensnacks voor puppy's. Zacht, verteerbaar en vol voedingsstoffen.", "mainEntityOfPage": "https://biologische-hondensnacks.nl/hondensnacks-voor-puppy/", "author": { "@type": "Organization", "name": "Biologische Hondensnacks" }, "datePublished": "2026-01-01", "dateModified": "2026-01-10" }
+  </script>
+
+<script>
+const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+const mobileMenuOverlay = document.querySelector('.mobile-menu-overlay');
+const navMenu = document.querySelector('.nav-menu');
+
+if (mobileMenuToggle) {
+    mobileMenuToggle.addEventListener('click', () => {
+        mobileMenuToggle.classList.toggle('active');
+        navMenu.classList.toggle('active');
+        mobileMenuOverlay.classList.toggle('active');
+        document.body.style.overflow = navMenu.classList.contains('active') ? 'hidden' : '';
+    });
+}
+
+if (mobileMenuOverlay) {
+    mobileMenuOverlay.addEventListener('click', () => {
+        mobileMenuToggle.classList.remove('active');
+        navMenu.classList.remove('active');
+        mobileMenuOverlay.classList.remove('active');
+        document.body.style.overflow = '';
+    });
+}
+
+// Mobile dropdown toggle
+const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+dropdownToggles.forEach(toggle => {
+    toggle.addEventListener('click', (e) => {
+        if (window.innerWidth <= 768) {
+            e.preventDefault();
+            const dropdownItem = toggle.closest('.nav-item.dropdown');
+            dropdownItem.classList.toggle('active');
+            const dropdownMenu = dropdownItem.querySelector('.dropdown-menu');
+            dropdownMenu.classList.toggle('active');
+        }
+    });
+});
+</script>
  </head>
  <body>
   <!-- Navigation -->
@@ -83,16 +137,8 @@
    </div>
   </section>
   <div class="container">
-   <nav class="breadcrumb">
-    <a href="/">
-     Home
-    </a>
-    <span>
-     /
-    </span>
-    <span>
-     Hondensnacks voor Puppy
-    </span>
+   <nav style="font-size:0.85rem;color:#888;">
+    <a href="../" style="color:#888;text-decoration:none;">Home</a> / <strong>Hondensnacks voor Puppy</strong>
    </nav>
   </div>
   <div>
