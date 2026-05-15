@@ -59,6 +59,26 @@ dropdownToggles.forEach(toggle => {
   <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Outfit:wght@400;600;700&amp;family=DM+Serif+Display:ital,wght@0,400&amp;display=swap" rel="stylesheet"/>
   <script src="../products.js"></script>
+  <script>
+  function toggleIntroText(e) {
+    e.preventDefault();
+    const moreText = document.getElementById('intro-text-more');
+    const link = document.getElementById('lees-meer-link');
+    if (moreText.style.display === 'none') {
+      moreText.style.display = 'block';
+      link.textContent = 'Lees minder ↑';
+    } else {
+      moreText.style.display = 'none';
+      link.textContent = 'Lees meer ↓';
+    }
+  }
+  function resetFilters() {
+    document.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = false);
+    document.querySelectorAll('input[type="radio"]').forEach(rb => rb.checked = false);
+    document.querySelector('input[type="radio"][value="all"]').checked = true;
+    filterProducts();
+  }
+  </script>
   <style>
    @keyframes spin {
             0% { transform: rotate(0deg); }
@@ -76,45 +96,30 @@ dropdownToggles.forEach(toggle => {
 <span></span>
 <span></span>
 </button>
-  <ul class="nav-menu">
-  <li><a class="nav-link" href="../index.html">Home</a></li>
-  <li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle" href="../beste-hondensnacks-2026/">Gidsen</a>
-  <ul class="dropdown-menu">
-  <li><a class="dropdown-link" href="../beste-hondensnacks-2026/">Top 10</a></li>
-  <li><a class="dropdown-link" href="../natuurlijke-hondensnacks/">Natuurlijke snacks</a></li>
-  <li><a class="dropdown-link" href="../hondensnacks-voor-puppy/">Puppy snacks</a></li>
-  <li><a class="dropdown-link" href="../blog/">Blog</a></li>
-  </ul>
-  </li>
-  <li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle active" href="../winkel.html">Winkel</a>
-  <ul class="dropdown-menu">
-  <li><a class="dropdown-link" href="../winkel.html">Alle producten</a></li>
-  <li><a class="dropdown-link" href="../kauwsnacks-tandverzorging/">Kauwsnacks</a></li>
-  <li><a class="dropdown-link" href="../hypoallergene-hondensnacks/">Hypoallergeen</a></li>
-  </ul>
-  </li>
-  </ul>
+<ul class="nav-menu">
+<li><a class="nav-link" href="../index.html">Home</a></li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="../beste-hondensnacks-2026/">Gidsen</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-link" href="../beste-hondensnacks-2026/">Top 10</a></li>
+<li><a class="dropdown-link" href="../natuurlijke-hondensnacks/">Natuurlijke snacks</a></li>
+<li><a class="dropdown-link" href="../hondensnacks-voor-puppy/">Puppy snacks</a></li>
+<li><a class="dropdown-link" href="../blog/">Blog</a></li>
+</ul>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle active" href="../winkel.html">Winkel</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-link" href="../winkel.html">Alle producten</a></li>
+<li><a class="dropdown-link" href="../kauwsnacks-tandverzorging/">Kauwsnacks</a></li>
+<li><a class="dropdown-link" href="../hypoallergene-hondensnacks/">Hypoallergeen</a></li>
+</ul>
+</li>
+</ul>
 </div>
 </div>
 </nav>
 <div class="mobile-menu-overlay"></div>
-
-<!-- Hero Section -->
-<section style="background: var(--surface-soft); padding: 3rem 0 2.5rem;">
-<div class="container">
-<div>
-<p style="font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1.25rem;">Trainingssnacks</p>
-<h1 style="font-family: var(--font-serif); font-size: clamp(2rem, 4vw, 2.8rem); font-weight: 400; line-height: 1.15; color: var(--text); margin-bottom: 1.5rem;">
-Trainingssnacks
-</h1>
-<p style="font-size: 1.05rem; line-height: 1.7; color: var(--text-dim); max-width: 560px;">
-Kleine, smakelijke trainers perfect voor gehoorzaamheid en beloning.
-</p>
-</div>
-</div>
-</section>
 
 <!-- Breadcrumb -->
 <div class="container" style="padding: 0.5rem 0;">
@@ -123,13 +128,100 @@ Kleine, smakelijke trainers perfect voor gehoorzaamheid en beloning.
 </nav>
 </div>
 
-<!-- Products Grid Section -->
-<section style="padding: 2rem 0;">
+<!-- Intro Text -->
+<section style="background: var(--surface-soft); padding: 2rem 0;">
 <div class="container">
-<div style="display: grid; grid-template-columns: 250px 1fr; gap: 3rem;">
+<div>
+<h2 style="font-family: var(--font-serif); font-size: clamp(1.8rem, 3vw, 2.2rem); font-weight: 400; line-height: 1.2; color: var(--text); margin-bottom: var(--sp-4);">
+Trainingssnacks — kleine, smakelijke trainers perfect voor gehoorzaamheid en beloning
+</h2>
+<p class="text-dim" style="margin-bottom: var(--sp-6); line-height: 1.7;">
+Trainingssnacks zijn essentieel voor positieve versterking tijdens training en beloning. Onze selectie van biologische trainingssnacks is zacht, smakelijk en gemakkelijk verteerbaar.
+</p>
+<div id="intro-text-more" style="display: none;">
+<p class="text-dim" style="margin-bottom: var(--sp-6); line-height: 1.7;">
+Trainingssnacks moeten klein zijn voor snelle beloning, smaakvol voor motivatie, en gezond voor regelmatig gebruik. Kies uit runderhart, kipfilet, zalm of plantaardige opties.
+</p>
+<h3 style="font-family: var(--font-display); font-size: 1.1rem; font-weight: 600; margin-bottom: var(--sp-4); color: var(--text);">
+Waarom biologische trainingssnacks?
+</h3>
+<div style="display: flex; flex-direction: column; gap: var(--sp-3); margin-bottom: var(--sp-6);">
+<div style="display: flex; gap: var(--sp-3); align-items: flex-start;">
+<span style="color: var(--primary); font-size: 1.2rem;">✅</span>
+<div>
+<strong>100% natuurlijke ingrediënten</strong> — geen kunstmatige kleurstoffen of conserveringsmiddelen
+</div>
+</div>
+<div style="display: flex; gap: var(--sp-3); align-items: flex-start;">
+<span style="color: var(--primary); font-size: 1.2rem;">✅</span>
+<div>
+<strong>Kleine formaat</strong> — perfect voor snelle beloning tijdens training
+</div>
+</div>
+<div style="display: flex; gap: var(--sp-3); align-items: flex-start;">
+<span style="color: var(--primary); font-size: 1.2rem;">✅</span>
+<div>
+<strong>Hoge motivatie</strong> — smaakvol voor betere resultaten
+</div>
+</div>
+<div style="display: flex; gap: var(--sp-3); align-items: flex-start;">
+<span style="color: var(--primary); font-size: 1.2rem;">✅</span>
+<div>
+<strong>Zacht verteerbaar</strong> — geschikt voor frequent gebruik
+</div>
+</div>
+</div>
+<p class="text-dim" style="margin-bottom: 0; line-height: 1.7;">
+Gebruik de filters hieronder om de perfecte trainingssnack te vinden voor jouw hond.
+</p>
+</div>
+<a href="#" id="lees-meer-link" onclick="toggleIntroText(event)" style="color: var(--primary); font-size: var(--fs-sm); font-weight: 600; text-decoration: none; display: inline-block; margin-top: var(--sp-4);">
+Lees meer ↓
+</a>
+</div>
+</div>
+</section>
+
+<!-- Categories Section -->
+<section style="padding: 1.5rem 0;">
+<div class="container">
+<h2 style="font-family: var(--font-display); margin-bottom: var(--sp-2);">Ontdek per categorie</h2>
+<p class="text-dim" style="margin-bottom: var(--sp-6); max-width: 560px;">Vind snel het type hondensnack dat bij jouw hond past.</p>
+<div class="grid grid-4" style="gap: var(--sp-4);">
+<a class="card" href="../winkel.html" style="text-decoration: none;">
+<h3 style="font-size: var(--fs-base); margin-bottom: var(--sp-1);">Alle snacks</h3>
+<p class="text-sm text-dim" style="margin: 0;">500+ producten</p>
+</a>
+<a class="card" href="kauwsnacks/" style="text-decoration: none;">
+<h3 style="font-size: var(--fs-base); margin-bottom: var(--sp-1);">Kauwsnacks</h3>
+<p class="text-sm text-dim" style="margin: 0;">Tandverzorging</p>
+</a>
+<a class="card" href="trainingssnacks/" style="text-decoration: none;">
+<h3 style="font-size: var(--fs-base); margin-bottom: var(--sp-1);">Trainingssnacks</h3>
+<p class="text-sm text-dim" style="margin: 0;">Voor training</p>
+</a>
+<a class="card" href="biologisch/" style="text-decoration: none;">
+<h3 style="font-size: var(--fs-base); margin-bottom: var(--sp-1);">Biologisch</h3>
+<p class="text-sm text-dim" style="margin: 0;">100% natuurlijk</p>
+</a>
+</div>
+</div>
+</section>
+
+<!-- Products Grid -->
+<section style="padding: 1.5rem 0;">
+<div class="container">
+<div class="grid" style="grid-template-columns: 250px 1fr; gap: var(--sp-8);">
 <!-- Sidebar Filters -->
 <div style="position: sticky; top: 100px; height: fit-content;">
 <h3 style="font-family: var(--font-display); margin-bottom: var(--sp-4);">Filters</h3>
+<div style="margin-bottom: var(--sp-6);">
+<h4 style="font-size: var(--fs-sm); font-weight: 600; margin-bottom: var(--sp-2);">Categorie</h4>
+<label style="display: block; margin-bottom: var(--sp-1);"><input type="checkbox" value="kauwsnacks" onchange="filterProducts()"> Kauwsnacks</label>
+<label style="display: block; margin-bottom: var(--sp-1);"><input type="checkbox" value="trainingssnacks" onchange="filterProducts()"> Trainingssnacks</label>
+<label style="display: block; margin-bottom: var(--sp-1);"><input type="checkbox" value="biologisch" onchange="filterProducts()"> Biologisch</label>
+<label style="display: block; margin-bottom: var(--sp-1);"><input type="checkbox" value="hypoallergeen" onchange="filterProducts()"> Hypoallergeen</label>
+</div>
 <div style="margin-bottom: var(--sp-6);">
 <h4 style="font-size: var(--fs-sm); font-weight: 600; margin-bottom: var(--sp-2);">Ingrediënt</h4>
 <label style="display: block; margin-bottom: var(--sp-1);"><input type="checkbox" value="rund" onchange="filterProducts()"> Rund</label>
@@ -139,6 +231,12 @@ Kleine, smakelijke trainers perfect voor gehoorzaamheid en beloning.
 <label style="display: block; margin-bottom: var(--sp-1);"><input type="checkbox" value="lam" onchange="filterProducts()"> Lam</label>
 </div>
 <div style="margin-bottom: var(--sp-6);">
+<h4 style="font-size: var(--fs-sm); font-weight: 600; margin-bottom: var(--sp-2);">Hond grootte</h4>
+<label style="display: block; margin-bottom: var(--sp-1);"><input type="checkbox" value="klein" onchange="filterProducts()"> Klein (&lt;10kg)</label>
+<label style="display: block; margin-bottom: var(--sp-1);"><input type="checkbox" value="medium" onchange="filterProducts()"> Middelgroot (10-25kg)</label>
+<label style="display: block; margin-bottom: var(--sp-1);"><input type="checkbox" value="groot" onchange="filterProducts()"> Groot (&gt;25kg)</label>
+</div>
+<div style="margin-bottom: var(--sp-6);">
 <h4 style="font-size: var(--fs-sm); font-weight: 600; margin-bottom: var(--sp-2);">Prijs</h4>
 <label style="display: block; margin-bottom: var(--sp-1);"><input type="radio" name="price" value="all" checked onchange="filterProducts()"> Alle prijzen</label>
 <label style="display: block; margin-bottom: var(--sp-1);"><input type="radio" name="price" value="0-10" onchange="filterProducts()"> €0 - €10</label>
@@ -146,8 +244,13 @@ Kleine, smakelijke trainers perfect voor gehoorzaamheid en beloning.
 <label style="display: block; margin-bottom: var(--sp-1);"><input type="radio" name="price" value="20-50" onchange="filterProducts()"> €20 - €50</label>
 <label style="display: block; margin-bottom: var(--sp-1);"><input type="radio" name="price" value="50+" onchange="filterProducts()"> €50+</label>
 </div>
+<div style="margin-bottom: var(--sp-6);">
+<h4 style="font-size: var(--fs-sm); font-weight: 600; margin-bottom: var(--sp-2);">Beoordeling</h4>
+<label style="display: block; margin-bottom: var(--sp-1);"><input type="checkbox" value="4plus" onchange="filterProducts()"> 4+ sterren</label>
+<label style="display: block; margin-bottom: var(--sp-1);"><input type="checkbox" value="4.5plus" onchange="filterProducts()"> 4.5+ sterren</label>
 </div>
-
+<button onclick="resetFilters()" style="width: 100%; padding: 0.75rem; background: var(--surface-soft); border: 1px solid var(--border); border-radius: var(--r-lg); cursor: pointer; font-size: var(--fs-sm);">Filters wissen</button>
+</div>
 <!-- Products -->
 <div>
 <h2 style="font-family: var(--font-display); margin-bottom: var(--sp-2);">Onze selectie trainingssnacks</h2>
