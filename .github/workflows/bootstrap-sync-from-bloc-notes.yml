@@ -56,3 +56,5 @@ jobs:
           git add -A
           git commit -m "chore: sync workflows skills and agents from bloc-notes-numerique"
           git push origin HEAD:sync-workflows-skills-agents
+
+# bootstrap revision 2
