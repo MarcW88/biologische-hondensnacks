@@ -1,0 +1,58 @@
+name: Bootstrap exact workflows, skills and agents sync
+
+on:
+  push:
+    branches:
+      - sync-workflows-skills-agents
+    paths:
+      - '.github/workflows/bootstrap-sync-from-bloc-notes.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout target branch
+        uses: actions/checkout@v4
+        with:
+          ref: sync-workflows-skills-agents
+          fetch-depth: 0
+
+      - name: Clone source repository
+        run: |
+          rm -rf /tmp/bloc-notes-numerique
+          git clone --depth 1 --branch main https://github.com/MarcW88/bloc-notes-numerique.git /tmp/bloc-notes-numerique
+
+      - name: Copy requested files exactly
+        run: |
+          rm -rf .agents .github/workflows
+          mkdir -p .github
+          cp -a /tmp/bloc-notes-numerique/.agents ./.agents
+          cp -a /tmp/bloc-notes-numerique/.github/workflows ./.github/workflows
+          cp /tmp/bloc-notes-numerique/AGENTS.md ./AGENTS.md
+
+      - name: Verify exact file copies
+        shell: bash
+        run: |
+          set -euo pipefail
+          (
+            cd /tmp/bloc-notes-numerique
+            find .agents .github/workflows -type f -print0 | sort -z | xargs -0 sha256sum
+            sha256sum AGENTS.md
+          ) > /tmp/source-hashes.txt
+          (
+            find .agents .github/workflows -type f -print0 | sort -z | xargs -0 sha256sum
+            sha256sum AGENTS.md
+          ) > /tmp/target-hashes.txt
+          diff -u /tmp/source-hashes.txt /tmp/target-hashes.txt
+
+      - name: Commit synchronized files
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore: sync workflows skills and agents from bloc-notes-numerique"
+          git push origin HEAD:sync-workflows-skills-agents
