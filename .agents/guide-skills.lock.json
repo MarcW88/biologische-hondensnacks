@@ -55,6 +55,46 @@
       "files": ["SKILL.md", "references/verification-methods.md", "references/staleness-windows.md"]
     },
     {
+      "name": "content-brief-authoring",
+      "phase": "planning",
+      "repository": "rampstackco/claude-skills",
+      "commit": "a67dd34c609f034c0cfd736a348659bbdf1605bf",
+      "root": "skills/content-brief-authoring",
+      "files": [
+        "SKILL.md",
+        "references/brief-templates.md",
+        "references/entity-coverage-checklist.md",
+        "references/heading-structure-patterns.md",
+        "references/internal-linking-strategy.md",
+        "references/search-intent-classification.md",
+        "references/writer-handoff-protocols.md"
+      ]
+    },
+    {
+      "name": "content-and-copy",
+      "phase": "writing",
+      "repository": "rampstackco/claude-skills",
+      "commit": "a67dd34c609f034c0cfd736a348659bbdf1605bf",
+      "root": "skills/content-and-copy",
+      "files": ["SKILL.md", "references/content-brief-template.md", "references/content-edit-checklist.md"]
+    },
+    {
+      "name": "editorial-qa",
+      "phase": "quality",
+      "repository": "rampstackco/claude-skills",
+      "commit": "a67dd34c609f034c0cfd736a348659bbdf1605bf",
+      "root": "skills/editorial-qa",
+      "files": [
+        "SKILL.md",
+        "references/ai-content-audit-patterns.md",
+        "references/brief-adherence-checklist.md",
+        "references/fact-accuracy-and-citation-discipline.md",
+        "references/internal-linking-and-schema-validation.md",
+        "references/seo-aeo-compliance-checklist.md",
+        "references/structure-and-clarity-review.md"
+      ]
+    },
+    {
       "name": "internal-linking-audit",
       "phase": "optimization",
       "repository": "FlorianBruniaux/google-search-console-mcp",
@@ -62,7 +102,7 @@
       "root": ".claude/skills/internal-linking-audit",
       "files": ["SKILL.md"],
       "optional": true,
-      "fallback": "seo-onpage internal-linking checks"
+      "fallback": "content-brief-authoring internal linking strategy + seo-onpage checks"
     },
     {
       "name": "humanizer",
