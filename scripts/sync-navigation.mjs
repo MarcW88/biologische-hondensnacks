@@ -90,13 +90,24 @@ function walk(dir) {
     scanned++;
     const original = fs.readFileSync(absolute, 'utf8');
     if (!original.includes('<header class="header">')) continue;
-    const next = original.replace(headerPattern, navigation);
+
+    let next = original.replace(headerPattern, navigation);
     if (next === original) {
       throw new Error(`Navigation header could not be replaced in ${path.relative(root, absolute)}`);
+    }
+    if (!next.includes('/assets/navigation.css')) {
+      next = next.replace('</head>', '<link rel="stylesheet" href="/assets/navigation.css"></head>');
+    }
+    if (!next.includes('/assets/navigation.js')) {
+      next = next.replace('</body>', '<script src="/assets/navigation.js"></script></body>');
     }
     if (next.includes('class="protein-bar"')) {
       throw new Error(`Legacy protein bar still present in ${path.relative(root, absolute)}`);
     }
+    if (!next.includes('id="site-navigation"') || !next.includes('Vind mijn snack')) {
+      throw new Error(`Shared navigation integrity check failed in ${path.relative(root, absolute)}`);
+    }
+
     fs.writeFileSync(absolute, next);
     updated++;
   }
