@@ -47,4 +47,6 @@ for (const [relative, original] of guideSnapshot) {
   }
 }
 
-console.log(`PASS: preserved ${guideSnapshot.size} authored files under gidsen/ during build.`);
+await import(pathToFileURL(path.join(import.meta.dirname, 'sync-navigation.mjs')).href);
+
+console.log(`PASS: preserved ${guideSnapshot.size} authored files under gidsen/ before shared navigation sync.`);
