@@ -1,100 +1,146 @@
 # Guide workflow — `/gidsen/`
 
-This file is orchestration only. It is **not a skill** and must not contain a replacement methodology for any specialist skill.
+This file is the routing entry point for guide work. It is **orchestration only**, not a skill.
 
-## Non-negotiable provenance rule
+Reusable methodology must come from the third-party, commit-pinned skills in `.agents/guide-skills.lock.json`. Project-specific workflow logic lives in:
 
-Before auditing, creating, or rewriting a guide, run:
+- `.agents/workflows/guide-analysis.md`
+- `.agents/workflows/guide-content.md`
+
+## 0. Provenance gate
+
+Before any guide audit, creation or rewrite, run:
 
 ```bash
 python scripts/sync_guide_skills.py --sync --remote
 ```
 
-Only skills materialized under `.agents/guide-vendor/` from `.agents/guide-skills.lock.json` may be used for `/gidsen/` work.
+Only the materialized copies under `.agents/guide-vendor/` may be used as guide skills.
 
-- Custom skills are forbidden.
-- Floating branches/tags are forbidden; every source is pinned to a 40-character commit SHA.
-- A local `.agents/skills/...` file with the same skill name does **not** override the guide-vendor copy.
-- If an upstream file cannot be fetched or its `name:` does not match the lockfile, stop. Do not silently fall back to a local custom skill.
-- `internal-linking-audit` is optional because its upstream expects a specific GSC MCP. If that MCP is unavailable, use only the internal-link checks already present in `seo-onpage` and state the data limitation.
+- custom skills are forbidden as specialist methodology;
+- floating branches/tags are forbidden;
+- every upstream source is pinned to an immutable 40-character commit SHA;
+- local `.agents/skills/...` copies do not override the vendor set;
+- if an upstream skill or pinned reference cannot be fetched, stop rather than silently substituting a local custom file.
 
-## Workflow order
+The workflows in `.agents/workflows/` are allowed to define **site routing, page boundaries, evidence sensitivity and handoff rules**. They are not presented as reusable skills.
 
-### A. Diagnostic — before substantive rewriting
+## 1. Existing guide sequence
 
-1. `seo-technical`
-   - crawlability, indexability, canonical, sitemap, rendering, structured data and page-experience blockers;
-   - distinguish blockers from nice-to-have technical work.
-2. `seo-content-audit`
-   - decide whether the current page should be kept, updated, merged, redirected or removed;
-   - check overlap/cannibalisation with other `/gidsen/` pages and relevant category pages.
-3. `seo-keyword`
-   - confirm the primary query, secondary query family and actual intent;
-   - do not invent search volumes or difficulty when no keyword data is available.
-4. `seo-onpage` — baseline audit of the existing page.
-5. `seo-geo` — baseline AI-search/GEO audit of the existing page.
+For an existing `/gidsen/` URL:
 
-The diagnostic output must state what is known, what is missing, and the smallest justified scope of change. A page is not deeply rewritten merely because it is short or old.
+1. run `.agents/workflows/guide-analysis.md` in `AUDIT` mode;
+2. record the decision and evidence in `.content/guides/<slug>.md`;
+3. `KEEP` → stop unless a separate requested task remains;
+4. `LIGHT_UPDATE` or `DEEP_REWRITE` → run `.agents/workflows/guide-content.md`;
+5. persist/update `.content/briefs/<slug>.md` before final drafting;
+6. run `.agents/workflows/guide-analysis.md` in `PUBLISH_REVIEW` mode;
+7. keep `noindex,follow` until human validation and an explicit instruction to change indexation.
 
-### B. Evidence — before and after drafting
+`MERGE` and `NOINDEX` require a human decision before structural action.
 
-Use `fact-check` for every externally verifiable claim that will survive into the final guide. For dog nutrition, health, allergies, digestion, puppy feeding, calorie/quantity guidance, organic certification or safety claims, prefer primary regulatory, veterinary, scientific or manufacturer documentation as appropriate. Do not turn general information into individualized veterinary advice.
+## 2. New guide sequence
 
-Unknown or unsupported claims remain unknown, are qualified, or are removed. Model memory is never evidence.
+For a genuinely new guide:
 
-### C. Writing and revision
+1. verify the URL has a distinct reader job and does not duplicate a category/guide;
+2. run the evidence and planning stages of `guide-content.md`;
+3. create `.content/briefs/<slug>.md`;
+4. draft from the brief using the pinned public skills;
+5. run `PUBLISH_REVIEW`;
+6. keep `noindex,follow` until explicit human approval.
 
-Use the pinned writing package from `msimchowitz/writing-skills`:
+## 3. Required public skill stack
 
-1. `general-writing` as the editorial owner;
-2. `humanizer` in its embedded mode;
-3. `better-usage`, `academic-voice`, `writing-cadence`, and `non-autoregressive-writing-pass` only through the Humanizer/general-writing pipeline when those skills call them. Do not run them a second time merely to satisfy a checklist.
-4. `anti-ai-slop` as a final, separate authenticity check after factual content is stable.
+The current pinned set includes:
 
-Writing rules:
+### Diagnostic / SEO
 
-- Preserve every supported fact and meaningful qualification.
-- No invented experience, product testing, veterinarian quote, study, statistic or owner anecdote.
-- No fixed word count, heading count, FAQ count, table quota, source quota or internal-link quota.
-- Do not force every guide into the same section order.
-- Answer the dominant reader question early when that improves clarity, but do not flatten the page into repetitive answer blocks.
-- Keep Dutch natural and specific. Avoid translated French structures and generic affiliate-copy language.
-- The guide must remain useful if every affiliate link disappears.
+- `seo-technical`
+- `seo-content-audit`
+- `seo-keyword`
+- `seo-onpage`
+- `seo-geo`
 
-### D. Final quality gates
+### Evidence and planning
 
-Run these after the final text is stable:
+- `fact-check`
+- `content-brief-authoring`
 
-1. `fact-check` again on the final copy.
-2. `seo-onpage` again on the final page.
-3. `seo-geo` again on the final page.
-4. `internal-linking-audit` only when its required MCP is available; otherwise use `seo-onpage` internal-link checks and record the limitation.
-5. `anti-ai-slop` final check; if no notable tells exist, do not manufacture edits.
-6. Repository checks:
+### Drafting
+
+- `content-and-copy`
+- `general-writing`
+- `humanizer`
+- `better-usage`
+- `academic-voice`
+- `writing-cadence`
+- `non-autoregressive-writing-pass`
+
+### Quality
+
+- `editorial-qa`
+- `anti-ai-slop`
+- `internal-linking-audit` only when its expected MCP is available
+
+The lockfile, not this prose list, is the source of truth for exact repositories, commits and included files.
+
+## 4. Editorial standard for this site
+
+A guide should not read like a short affiliate landing page with a source dump added at the end.
+
+It should:
+
+- answer the reader's question early;
+- show the reasoning needed to understand or decide;
+- distinguish what a label/ingredient/claim **does** and **does not** establish;
+- expose meaningful exceptions, uncertainty and scope;
+- attach important evidence to the claims it supports;
+- use tables/checklists/examples only when they clarify the reader's task;
+- remain useful if affiliate links are removed;
+- avoid product rankings unless the page is explicitly a comparison/category page;
+- avoid fixed word, H2, FAQ, table, source or internal-link quotas.
+
+For pet nutrition, safety, health and organic/labelling claims, use appropriately authoritative current sources and never convert general information into individualized veterinary advice.
+
+## 5. Required artifacts per worked guide
+
+### Audit/review record
+
+`.content/guides/<slug>.md`
+
+Must contain:
+
+- URL/slug;
+- query family and reader job;
+- analysis decision and scope;
+- page-role boundaries;
+- evidence/source register and unresolved claims;
+- baseline SEO/GEO findings;
+- material changes;
+- final fact-check;
+- editorial-QA status;
+- final SEO/GEO status;
+- internal-linking status/limitation;
+- technical/build status;
+- final `READY_FOR_HUMAN_VALIDATION` only when no blocker remains.
+
+### Content brief
+
+`.content/briefs/<slug>.md`
+
+Required for every new guide and every `DEEP_REWRITE`; recommended for substantive `LIGHT_UPDATE` work. The brief must be based on evidence and page role, not a recycled content template.
+
+## 6. Machine checks
+
+After final content is stable:
 
 ```bash
 python scripts/sync_guide_skills.py --remote
+node scripts/check_guides.mjs
 npm ci
 npm run check
 npm run build
 ```
 
-A machine PASS means only that the detectable gates passed. It does not replace human editorial validation.
-
-## Required guide deliverable
-
-For each guide worked on, keep a concise audit record in `.content/guides/<slug>.md` with:
-
-- URL / slug;
-- primary query and intent;
-- content-audit decision and rewrite scope;
-- key evidence/sources and unresolved claims;
-- SEO baseline findings;
-- GEO baseline findings;
-- material changes made;
-- final fact-check status;
-- final SEO/GEO status;
-- internal-linking status or explicit MCP limitation;
-- `READY_FOR_HUMAN_VALIDATION` only when no blocker remains.
-
-This audit record is evidence of the workflow; it must not be copied into the public article.
+A machine PASS only proves detectable gates. It does not replace editorial or factual review.
