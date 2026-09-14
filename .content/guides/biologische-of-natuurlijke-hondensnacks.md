@@ -14,13 +14,13 @@
 
 **UPDATE — deep rewrite, preserve URL and role.**
 
-The URL has a distinct informational job, but the current body is placeholder copy and contains no usable answer or evidence. The page should remain separate from:
+The URL has a distinct informational job, but the previous body was placeholder copy and contained no usable answer or evidence. The page remains separate from:
 
 - `/gidsen/biologisch-keurmerk-hondensnacks/` — deeper verification of the EU organic logo, control body/code and certification;
 - `/ingredienten/natuurlijke-hondensnacks/` — category/commercial exploration of natural snacks;
 - `/gidsen/ingredienten-hondensnacks-lezen/` — broader ingredient-list reading.
 
-The current guide therefore owns the **difference and decision framework**, not the full certification manual or the natural-snack catalogue.
+The current guide owns the **difference and decision framework**, not the full certification manual or the natural-snack catalogue.
 
 ## Evidence and claim verification
 
@@ -31,7 +31,7 @@ The current guide therefore owns the **difference and decision framework**, not 
 - Source: https://eur-lex.europa.eu/eli/reg/2023/2419/oj
 - Note: this petfood-specific regulation is more precise than relying only on general Regulation (EU) 2018/848.
 
-### C2 — If the petfood has less than 95% organic agricultural ingredients, organic references can be limited to qualifying ingredients in the ingredient list when the other Article 3 conditions are met.
+### C2 — If petfood has less than 95% organic agricultural ingredients, organic references can be limited to qualifying ingredients in the ingredient list when the other Article 3 conditions are met.
 
 - Status: VERIFIED
 - Primary source: Regulation (EU) 2023/2419, Article 3(1)(b), 3(3)-(5)
@@ -63,51 +63,70 @@ The current guide therefore owns the **difference and decision framework**, not 
 - Source: NVWA, `Diervoeder of petfood etiketteren`
 - Source: https://www.nvwa.nl/onderwerpen/diervoeder/diervoeder-of-petfood-etiketteren
 
-## SEO baseline
+## SEO baseline and final pass
 
-- Existing title: relevant but generic.
-- Existing meta: duplicate/generic wording also used on other templates.
-- H1: relevant.
-- Body: no answer to intent; placeholder only.
-- Canonical: missing.
-- Contextual internal links: absent from body.
-- Indexation: deliberately `noindex,follow` while the site is in concept/human-validation state.
+Baseline:
+- title relevant but generic;
+- duplicate/generic meta wording used on other templates;
+- relevant H1 but no answer body;
+- canonical missing;
+- contextual internal links absent.
 
-### Planned SEO changes
+Implemented:
+- page-specific 53-character title: `Biologische of natuurlijke hondensnacks: het verschil`;
+- page-specific meta description;
+- one H1 aligned with comparison intent;
+- direct answer immediately below H1;
+- self-canonical added;
+- contextual links added to the organic-label guide, natural-snack category and ingredient-reading guide;
+- `BreadcrumbList` JSON-LD added using only observable site hierarchy;
+- `noindex,follow` deliberately retained pending human validation.
 
-- Make title explicitly promise the difference.
-- Replace meta with a page-specific answer/value proposition.
-- Answer the query in the hero/opening.
-- Use natural H2s around the actual decision: meaning of biologisch, meaning of natuurlijk, label checks, choice implications.
-- Add contextual links to the certification guide, natural-snack category and ingredient-reading guide.
-- Add self-canonical while retaining `noindex,follow` pending human validation.
+Final SEO status: **PASS FOR HUMAN REVIEW**. No search-volume/KD claim was used because no verified dataset was available.
 
-## GEO baseline
+## GEO baseline and final pass
 
-- No quotable answer or definition currently exists.
-- No authoritative source is named.
-- No evidence differentiates a legal organic claim from a natural descriptor.
-- Sections are placeholders and cannot be extracted usefully.
+Baseline:
+- no extractable answer/definition;
+- no authoritative source named;
+- no evidence differentiating organic rules from a natural descriptor.
 
-### Planned GEO changes
+Implemented:
+- self-contained distinction directly below the H1;
+- exact 95% threshold used only in its verified EU context, with the hunting/fishing edge case acknowledged;
+- Regulation (EU) 2023/2419, Skal, NVWA and FEDIAF named where they support different claims;
+- sections written to remain understandable independently without forced FAQ formatting;
+- source section links to primary/authoritative material;
+- no FAQPage schema, fabricated quotation, invented statistic or `llms.txt` ranking claim.
 
-- Give a short, self-contained difference directly below the H1.
-- Use the exact, verified 95% threshold only in the context where EU 2023/2419 establishes it.
-- Name Regulation (EU) 2023/2419, Skal, NVWA and FEDIAF where each is relevant.
-- Keep each section independently understandable without converting every heading into a forced FAQ.
-- Avoid FAQPage schema and artificial quote/statistic quotas.
+Final GEO status: **PASS FOR HUMAN REVIEW**.
 
-## Writing / AI-slop gate
+## Writing / AI-slop final pass
 
-- Dutch copy should be direct, neutral and useful rather than promotional.
-- Avoid `puur`, `premium`, `bewuste keuze`, `de beste`, `gezond` and similar value language unless the page has evidence for the specific claim.
-- No fabricated vet quote, owner experience, study, test result or product recommendation.
-- Do not equate `biologisch` with nutritionally superior and do not treat `natuurlijk` as meaningless; explain what each label can and cannot establish.
+Checked for generic scene-setting, promotional adjectives, fake personal experience, symmetrical filler, unsupported health superiority, repetitive FAQ-shaped headings and excessive summary language.
+
+Result:
+- no fabricated vet quote, owner experience, study, test result or product recommendation;
+- `biologisch` is not presented as automatically nutritionally superior;
+- `natuurlijk` is not dismissed as meaningless, but its scope is distinguished from organic certification;
+- no artificial word-count, source-count, FAQ, table or internal-link quota was applied;
+- final text remains neutral and decision-oriented.
+
+Final anti-slop status: **PASS**.
+
+## Internal linking
+
+- Repository-observable contextual links implemented.
+- The specialised upstream `internal-linking-audit` expects its GSC MCP methods. That MCP was not available in this task, so no GSC-based orphan/striking-distance findings have been fabricated.
+- Fallback: on-page internal-link checks only, as specified by the guide workflow.
 
 ## Final status
 
-- Fact-check: READY on the claims listed above; final-copy pass required after implementation.
-- SEO: implementation pending.
-- GEO: implementation pending.
-- Internal linking: planned from observable repository structure; MCP-specific GSC audit not available in this task.
-- Indexation: keep `noindex,follow` until human validation.
+- Fact-check: PASS
+- SEO: PASS FOR HUMAN REVIEW
+- GEO: PASS FOR HUMAN REVIEW
+- Anti-AI-slop/humanization: PASS
+- Technical/static gate: pending CI on content PR
+- Indexation: deliberately remains `noindex,follow`
+
+**READY_FOR_HUMAN_VALIDATION**
