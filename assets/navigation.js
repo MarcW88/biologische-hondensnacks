@@ -9,12 +9,6 @@ function closeSubmenus(except=null){
   });
 }
 
-siteMenu?.addEventListener('click',()=>{
-  const open=siteNav?.classList.toggle('open')??false;
-  siteMenu.setAttribute('aria-expanded',String(open));
-  if(!open)closeSubmenus();
-});
-
 document.querySelectorAll('[data-submenu-toggle]').forEach(button=>{
   button.addEventListener('click',()=>{
     const item=button.closest('.nav-item');
