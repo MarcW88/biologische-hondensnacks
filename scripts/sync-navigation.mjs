@@ -73,7 +73,7 @@ ${navItem('Gidsen', '/gidsen/', `
 <button class="icon-btn menu" data-menu type="button" aria-label="Menu openen" aria-expanded="false" aria-controls="site-navigation">☰</button>
 </div></header>`;
 
-const headerPattern = /<header class="header">[\s\S]*?<\/header>(?:<div class="protein-bar">[\s\S]*?<\/div>)?/;
+const headerPattern = /<header class="header">[\s\S]*?<\/header>(?:<div class="protein-bar">[\s\S]*?<\/div><\/div>)?/;
 const ignored = new Set(['.git', 'node_modules', '.agents', '.content']);
 let updated = 0;
 let scanned = 0;
@@ -92,6 +92,7 @@ function walk(dir) {
     if (!original.includes('<header class="header">')) continue;
 
     let next = original.replace(headerPattern, navigation);
+    next = next.replace('</header></div><main>', '</header><main>');
     if (next === original) {
       throw new Error(`Navigation header could not be replaced in ${path.relative(root, absolute)}`);
     }
