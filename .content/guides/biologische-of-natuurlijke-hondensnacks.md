@@ -155,8 +155,10 @@ Status: **PASS WITH EXPLICIT MCP LIMITATION**.
 ## Technical status
 
 - Dedicated guide content stylesheet added: `assets/guide-content.css`.
-- Structural/build checks: pending PR CI.
-- Skill provenance: pending PR CI remote verification for the newly added public skills/references.
+- Skill provenance: **PASS** — PR #4 workflow run `34824603666` successfully fetched/materialized every pinned public skill and reference.
+- Guide HTML structure: **PASS**.
+- Repository checks: **PASS**.
+- Build: **PASS**.
 
 ## Final status
 
@@ -166,7 +168,7 @@ Status: **PASS WITH EXPLICIT MCP LIMITATION**.
 - SEO: PASS FOR HUMAN REVIEW
 - GEO: PASS FOR HUMAN REVIEW
 - Internal linking: PASS WITH MCP LIMITATION
-- Technical/provenance gate: PENDING CI
+- Technical/provenance gate: PASS
 - Indexation: `noindex,follow`
 
-**READY_FOR_HUMAN_VALIDATION once CI is green.**
+**READY_FOR_HUMAN_VALIDATION**
