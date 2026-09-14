@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "policy": {
+    "allow_custom_skills": false,
+    "allow_unpinned_refs": false,
+    "vendor_directory": ".agents/guide-vendor"
+  },
+  "skills": [
+    {
+      "name": "seo-technical",
+      "phase": "diagnostic",
+      "repository": "rampstackco/claude-skills",
+      "commit": "a67dd34c609f034c0cfd736a348659bbdf1605bf",
+      "root": "skills/seo-technical",
+      "files": ["SKILL.md", "references/audit-template.md", "references/migration-checklist.md"]
+    },
+    {
+      "name": "seo-content-audit",
+      "phase": "diagnostic",
+      "repository": "rampstackco/claude-skills",
+      "commit": "a67dd34c609f034c0cfd736a348659bbdf1605bf",
+      "root": "skills/seo-content-audit",
+      "files": ["SKILL.md", "references/audit-template.md", "references/cannibalization-resolution.md"]
+    },
+    {
+      "name": "seo-keyword",
+      "phase": "diagnostic",
+      "repository": "rampstackco/claude-skills",
+      "commit": "a67dd34c609f034c0cfd736a348659bbdf1605bf",
+      "root": "skills/seo-keyword",
+      "files": ["SKILL.md", "references/keyword-research-template.md", "references/intent-classification-guide.md"]
+    },
+    {
+      "name": "seo-onpage",
+      "phase": "optimization",
+      "repository": "rampstackco/claude-skills",
+      "commit": "a67dd34c609f034c0cfd736a348659bbdf1605bf",
+      "root": "skills/seo-onpage",
+      "files": ["SKILL.md", "references/audit-template.md", "references/onpage-checklist.md", "references/title-and-meta-patterns.md"]
+    },
+    {
+      "name": "seo-geo",
+      "phase": "optimization",
+      "repository": "ericrisco/rsc-harness",
+      "commit": "8579f5f72a7232bee63db2d6ebd2e06408dc5bba",
+      "root": "skills/seo-geo",
+      "files": ["SKILL.md", "references/schema-recipes.md", "references/ai-crawler-control.md"]
+    },
+    {
+      "name": "fact-check",
+      "phase": "evidence",
+      "repository": "notque/vexjoy-agent",
+      "commit": "fb494eb25b4663be5c521a0850a293c75cedc120",
+      "root": "skills/research/fact-check",
+      "files": ["SKILL.md", "references/verification-methods.md", "references/staleness-windows.md"]
+    },
+    {
+      "name": "internal-linking-audit",
+      "phase": "optimization",
+      "repository": "FlorianBruniaux/google-search-console-mcp",
+      "commit": "74a8a8c0c39b22d2de93ce46198c02fdf38be35a",
+      "root": ".claude/skills/internal-linking-audit",
+      "files": ["SKILL.md"],
+      "optional": true,
+      "fallback": "seo-onpage internal-linking checks"
+    },
+    {
+      "name": "humanizer",
+      "phase": "writing",
+      "repository": "msimchowitz/writing-skills",
+      "commit": "214981fe02326f27b0fc8790d00eb4b731607073",
+      "root": "for-agents/humanizer",
+      "files": ["SKILL.md"]
+    },
+    {
+      "name": "general-writing",
+      "phase": "writing",
+      "repository": "msimchowitz/writing-skills",
+      "commit": "214981fe02326f27b0fc8790d00eb4b731607073",
+      "root": "for-agents/general-writing",
+      "files": ["SKILL.md", "references/eval.md"]
+    },
+    {
+      "name": "writing-cadence",
+      "phase": "writing",
+      "repository": "msimchowitz/writing-skills",
+      "commit": "214981fe02326f27b0fc8790d00eb4b731607073",
+      "root": "for-agents/writing-cadence",
+      "files": ["SKILL.md", "references/cadence-principles.md"]
+    },
+    {
+      "name": "non-autoregressive-writing-pass",
+      "phase": "writing",
+      "repository": "msimchowitz/writing-skills",
+      "commit": "214981fe02326f27b0fc8790d00eb4b731607073",
+      "root": "for-agents/non-autoregressive-writing-pass",
+      "files": ["SKILL.md"]
+    },
+    {
+      "name": "better-usage",
+      "phase": "writing",
+      "repository": "msimchowitz/writing-skills",
+      "commit": "214981fe02326f27b0fc8790d00eb4b731607073",
+      "root": "for-agents/better-usage",
+      "files": ["SKILL.md", "references/compatibility-examples.md"]
+    },
+    {
+      "name": "academic-voice",
+      "phase": "writing",
+      "repository": "msimchowitz/writing-skills",
+      "commit": "214981fe02326f27b0fc8790d00eb4b731607073",
+      "root": "for-agents/academic-voice",
+      "files": ["SKILL.md"]
+    },
+    {
+      "name": "anti-ai-slop",
+      "phase": "quality",
+      "repository": "jmlozano1990/Cowork-Starter-Kit",
+      "commit": "3b46ce1bf0dafc2b8ad69a72e13e73aa538fb297",
+      "root": "skills/anti-ai-slop",
+      "files": ["SKILL.md"]
+    }
+  ]
+}
