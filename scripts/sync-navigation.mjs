@@ -93,9 +93,6 @@ function walk(dir) {
 
     let next = original.replace(headerPattern, navigation);
     next = next.replace('</header></div><main>', '</header><main>');
-    if (next === original) {
-      throw new Error(`Navigation header could not be replaced in ${path.relative(root, absolute)}`);
-    }
     if (!next.includes('/assets/navigation.css')) {
       next = next.replace('</head>', '<link rel="stylesheet" href="/assets/navigation.css"></head>');
     }
@@ -109,12 +106,13 @@ function walk(dir) {
       throw new Error(`Shared navigation integrity check failed in ${path.relative(root, absolute)}`);
     }
 
-    fs.writeFileSync(absolute, next);
-    updated++;
+    if (next !== original) {
+      fs.writeFileSync(absolute, next);
+      updated++;
+    }
   }
 }
 
 walk(root);
 
-if (!updated) throw new Error('No HTML navigation headers were updated.');
-console.log(`PASS: synced shared navigation in ${updated}/${scanned} HTML files.`);
+console.log(`PASS: shared navigation valid; updated ${updated}/${scanned} HTML files.`);
