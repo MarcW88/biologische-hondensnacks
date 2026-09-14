@@ -4,12 +4,14 @@ on:
   push:
     paths:
       - '.agents/guide-skills.lock.json'
+      - '.agents/workflows/guide-analysis.md'
+      - '.agents/workflows/guide-content.md'
       - '.agents/workflows/guides.md'
-      - '.agents/workflows/guide-*.md'
       - '.content/briefs/**'
       - '.content/guides/**'
-      - 'gidsen/**'
       - 'assets/guide-content.css'
+      - 'gidsen/**'
+      - 'scripts/build-preserving-guides.mjs'
       - 'scripts/sync_guide_skills.py'
       - 'scripts/check_guides.mjs'
       - '.github/workflows/validate-guide-workflow.yml'
@@ -18,12 +20,14 @@ on:
   pull_request:
     paths:
       - '.agents/guide-skills.lock.json'
+      - '.agents/workflows/guide-analysis.md'
+      - '.agents/workflows/guide-content.md'
       - '.agents/workflows/guides.md'
-      - '.agents/workflows/guide-*.md'
       - '.content/briefs/**'
       - '.content/guides/**'
-      - 'gidsen/**'
       - 'assets/guide-content.css'
+      - 'gidsen/**'
+      - 'scripts/build-preserving-guides.mjs'
       - 'scripts/sync_guide_skills.py'
       - 'scripts/check_guides.mjs'
       - '.github/workflows/validate-guide-workflow.yml'
@@ -52,7 +56,7 @@ jobs:
       - name: Verify and materialize pinned upstream skills
         run: python scripts/sync_guide_skills.py --sync --remote
 
-      - name: Validate guide HTML structure
+      - name: Validate guide HTML structure before build
         run: node scripts/check_guides.mjs
 
       - name: Install dependencies
@@ -61,5 +65,8 @@ jobs:
       - name: Run repository checks
         run: npm run check
 
-      - name: Build site
+      - name: Build site without mutating authored guides
         run: npm run build
+
+      - name: Validate guide HTML structure after build
+        run: node scripts/check_guides.mjs
