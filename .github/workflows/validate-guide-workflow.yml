@@ -5,7 +5,11 @@ on:
     paths:
       - '.agents/guide-skills.lock.json'
       - '.agents/workflows/guides.md'
+      - '.agents/workflows/guide-*.md'
+      - '.content/briefs/**'
+      - '.content/guides/**'
       - 'gidsen/**'
+      - 'assets/guide-content.css'
       - 'scripts/sync_guide_skills.py'
       - 'scripts/check_guides.mjs'
       - '.github/workflows/validate-guide-workflow.yml'
@@ -15,7 +19,11 @@ on:
     paths:
       - '.agents/guide-skills.lock.json'
       - '.agents/workflows/guides.md'
+      - '.agents/workflows/guide-*.md'
+      - '.content/briefs/**'
+      - '.content/guides/**'
       - 'gidsen/**'
+      - 'assets/guide-content.css'
       - 'scripts/sync_guide_skills.py'
       - 'scripts/check_guides.mjs'
       - '.github/workflows/validate-guide-workflow.yml'
