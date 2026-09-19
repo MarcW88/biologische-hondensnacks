@@ -34,7 +34,7 @@ Ces fichiers sont uniquement des orchestrateurs. L’analyse et la rédaction do
 
 1. Une page existante passe d’abord par `snack-analysis-workflow` en mode `AUDIT`.
 2. `/soorten/` aide à choisir une famille de snacks et ses critères ; `/gidsen/` explique une notion ; `/kauwsnacks/` documente un produit à mâcher précis ; `/ingredienten/`, `/eiwit/`, `/levensfase/` et `/voor-gevoelige-honden/` gardent leurs angles propres.
-3. Une page Snacks ne devient pas automatiquement un classement de produits. Si une vraie sélection comparative est nécessaire, transmettre au workflow Comparatifs plutôt que fabriquer un podium.
+3. Une page Snacks ne devient pas automatiquement un classement de produits. **Quand l’intention attend néanmoins des produits concrets, appeler explicitement les workflows `comparison-analysis-workflow` et `comparison-content-workflow` déjà copiés à l’identique depuis `MarcW88/cafetiere-italienne`, puis intégrer leur sélection comme module dans la page Snacks.** Ne jamais recréer une méthode de sélection custom ni publier une page à intention commerciale avec zéro produit par simple convention de dossier.
 4. Le plan découle de l’intention, du job, des preuves et des différences réelles entre familles. Aucun squelette, quota de mots, H2, tableaux, FAQ, sources ou liens n’est imposé.
 5. Les claims nutritionnels, vétérinaires, dentaires, digestifs, allergiques, biologiques et réglementaires exigent une preuve proportionnée. Une information inconnue reste inconnue, est qualifiée ou est retirée.
 6. La page doit rester utile sans liens affiliés. Aucun produit n’est favorisé en raison de sa disponibilité ou de sa commission.
