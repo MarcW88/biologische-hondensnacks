@@ -7,7 +7,7 @@
 - Statut : test du workflow Snacks
 - Décision d’audit : `DEEP_REWRITE`
 - Robots : conserver `noindex,follow`
-- Intention dominante : choisir une famille de petites récompenses utilisables pendant l’entraînement, pas classer des produits.
+- Intention dominante : choisir des petites récompenses utilisables pendant l’entraînement **et disposer de produits concrets à comparer**. La page ne vise pas un podium universel, mais elle a une composante transactionnelle réelle.
 - Job : pouvoir récompenser plusieurs fois sans casser le rythme de la séance ni perdre de vue la ration et les contraintes alimentaires du chien.
 
 ## Frontières
@@ -17,7 +17,7 @@
 - `/gidsen/hoeveel-snacks-mag-een-hond-per-dag/` possède l’explication détaillée de la ration.
 - `/gidsen/ingredienten-hondensnacks-lezen/` possède l’apprentissage complet de lecture d’étiquette.
 - Les pages `/eiwit/`, `/ingredienten/` et `/voor-gevoelige-honden/` portent les filtres correspondants.
-- Aucun classement de produits, prix, disponibilité ou claim hands-on dans ce test.
+- La sélection produit est déléguée aux workflows `comparison-analysis-workflow` / `comparison-content-workflow` copiés à l’identique depuis `MarcW88/cafetiere-italienne`. Aucun prix fixe ni claim hands-on.
 
 ## Valeur propre
 
@@ -40,14 +40,34 @@ Séparer quatre décisions souvent confondues : efficacité comme récompense, p
 - “beste trainingssnack” sans comparaison documentée ;
 - un témoignage, un test ou une préférence canine inventés.
 
+## Module produit — handoff Comparatif
+
+Critères transmis au workflow Comparatif :
+
+- petit format / ingestion rapide ;
+- composition vérifiable ;
+- statut biologique explicite ;
+- utilité réelle pour des répétitions ;
+- différence substantielle entre candidats ;
+- aucune préférence liée à une commission.
+
+Candidats vérifiés au 2026-09-19 :
+
+1. **Yarrah Biologische Mini Snack 100 g** — 97% de viande bio, sans céréales, explicitement présenté par le fabricant comme snack d’entraînement ; valeur énergétique publiée.
+2. **STRAYZ BIO Trainingssnack Kip 80 g** — 100% poulet bio, mono-protéine, petits morceaux ; disponibilité et composition vérifiées auprès d’un retailer NL.
+3. **STRAYZ Veggie Trainingssnack 80 g** — option bio vegan, patate douce comme ingrédient principal ; disponibilité et composition vérifiées auprès d’un retailer NL.
+
+Pas de classement global : la recommandation est conditionnelle au besoin.
+
 ## Architecture justifiée
 
 1. Réponse directe et trois critères immédiatement actionnables.
 2. Expliquer pourquoi la répétition change la décision.
 3. Donner une vérification d’achat en quatre contrôles.
 4. Distinguer certification biologique et aptitude à l’entraînement.
-5. Présenter la ration de croquettes comme alternative simple lorsque le contexte le permet.
-6. Rendre les sources visibles près du contenu, sans transformer la page en guide réglementaire.
+5. **Appliquer les critères à une sélection de produits actuels et achetables.**
+6. Présenter la ration de croquettes comme alternative simple lorsque le contexte le permet.
+7. Rendre les sources visibles près du contenu, sans transformer la page en guide réglementaire.
 
 ## Maillage
 
@@ -56,7 +76,7 @@ Séparer quatre décisions souvent confondues : efficacité comme récompense, p
 
 ## Critères de succès
 
-- Le lecteur peut juger une snack sans liste de produits.
+- Le lecteur peut juger une snack **et comparer immédiatement des produits concrets**.
 - Les limites du biologique sont explicites.
 - Les claims sensibles sont attribués et correctement qualifiés.
 - La page reste utile sans affiliation.
