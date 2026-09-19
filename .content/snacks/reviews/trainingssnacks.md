@@ -70,7 +70,7 @@ La page reste utile sans les liens produit grâce aux critères, limites et alte
 
 ## SEO / cluster
 
-La page est distincte de `/soorten/beloningssnacks/` par son focus sur les répétitions rapides pendant l’entraînement. Elle reste distincte des guides de ration et d’étiquette, qui portent les explications approfondies.
+`/soorten/beloningssnacks/` a été consolidée dans cette URL après audit de cannibalisation. La page cible couvre désormais explicitement les termes `trainingssnacks`, `beloningssnacks` et `beloningssnoepjes`, tout en gardant comme angle principal les petites récompenses pratiques et répétables. Elle reste distincte des guides de ration et d’étiquette, qui portent les explications approfondies.
 
 Le title, H1, canonical et robots restent cohérents.
 
@@ -79,7 +79,8 @@ Le title, H1, canonical et robots restent cohérents.
 - sélection présentée comme non exhaustive ;
 - verdicts conditionnels rendus visibles ;
 - candidat Yarrah dédié aux trainingssnacks ajouté au scope ;
-- aucun changement d’architecture inutile.
+- aucun changement d’architecture inutile ;
+- intention `beloningssnacks` absorbée après décision de merge.
 
 ## PUBLISH_REVIEW
 
