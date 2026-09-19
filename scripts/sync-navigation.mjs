@@ -22,7 +22,6 @@ ${navItem('Snacks', '/soorten/', `
   <a href="/soorten/kauwsnacks/">Kauwsnacks</a>
   <a href="/soorten/trainingssnacks/">Trainingssnacks</a>
   <a href="/soorten/gedroogde-hondensnacks/">Gedroogde hondensnacks</a>
-  <a href="/soorten/puppy-snacks/">Puppy snacks</a>
   <a href="/soorten/tandsnacks/">Tandsnacks</a>
   <div class="nav-dropdown-separator"></div>
   <span class="nav-dropdown-label">Samenstelling</span>
