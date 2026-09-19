@@ -33,7 +33,8 @@ Exécuter distinctement les skills locaux pertinents :
 4. `content-refresh` pour une page existante à corriger ;
 5. `fact-check`, et `evidence-based-reviews` uniquement si un jugement expérientiel le nécessite ;
 6. `affiliate-value` lorsque la page influence l’achat ;
-7. `internal-linking-audit`, `anti-ai-slop`, `seo-onpage`, `seo-technical` et `editorial-qa` pour les contrôles correspondants.
+7. **`comparison-analysis-workflow` (copie GitHub inchangée de `MarcW88/cafetiere-italienne`) dès que l’intention attend une sélection de produits.** Ce sous-workflow audite la qualité de la sélection, des critères, des preuves et du verdict produit. Ne pas réécrire sa méthode dans le workflow Snacks ;
+8. `internal-linking-audit`, `anti-ai-slop`, `seo-onpage`, `seo-technical` et `editorial-qa` pour les contrôles correspondants.
 
 Ne pas condenser ces méthodes dans ce fichier et ne pas déclarer un skill PASS sur la seule base d’un script.
 
@@ -47,9 +48,9 @@ Frontières :
 - `/kauwsnacks/` traite un objet à mâcher précis ;
 - `/ingredienten/` et `/eiwit/` filtrent par composition ;
 - `/levensfase/` et `/voor-gevoelige-honden/` partent du chien ;
-- une future page comparative sélectionne réellement des produits.
+- `/comparatifs/` reste la destination pour une comparaison dont le sujet principal est « quel produit est le meilleur ? », **mais une page `/soorten/` à intention commerciale peut et doit intégrer une sélection concrète de produits lorsque cela aide réellement à choisir la famille de snacks.** La sélection est alors déléguée au `comparison-analysis-workflow` / `comparison-content-workflow` copiés depuis `cafetiere-italienne`, puis réintégrée comme module dans la page Snacks.
 
-Un type de page n’impose jamais son plan. Le hub `/soorten/` oriente ; une page fille doit apporter une décision distincte et ne pas être une simple porte vers des produits.
+Un type de page n’impose jamais son plan. Le hub `/soorten/` oriente ; une page fille doit apporter une décision distincte. **Lorsque la SERP et l’intention montrent que le lecteur cherche aussi des produits, une page sans aucun produit concret est un échec d’intention et ne peut pas obtenir `KEEP` ou un PASS de publication.**
 
 ## Couche custom : preuve et sécurité
 
@@ -75,4 +76,4 @@ npm run check
 node scripts/check_snacks.mjs
 ```
 
-Réexécuter les gates substantiels d’intention, JTBD, factualité, valeur sans affiliation, naturalité, anti-AI, SEO, technique et différenciation du cluster. Conserver `noindex,follow` même en cas de PASS.
+Réexécuter les gates substantiels d’intention, JTBD, factualité, valeur sans affiliation, naturalité, anti-AI, SEO, technique et différenciation du cluster. **Pour une page à intention de sélection produit, exécuter aussi `comparison-analysis-workflow / PUBLISH_REVIEW` sur le module produit et vérifier qu’au moins une sélection concrète, vérifiée et utile est visible dans le rendu.** Conserver `noindex,follow` même en cas de PASS.
