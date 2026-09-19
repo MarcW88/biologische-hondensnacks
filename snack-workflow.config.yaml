@@ -7,17 +7,17 @@ content:
   scope:
     - "/soorten/"
   source_of_truth:
-    - "soorten/*/index.html"
-    - "soorten/*/index.html"
-    - "soorten/*/index.html"
-    - "soorten/*/index.html"
-    - ".content/snacks/briefs/*.md"
+    - "comparison_bespoke_output.py"
+    - "comparison_bespoke_priority_20260909.py"
+    - "comparison_bespoke_remaining_20260909.py"
+    - "comparison_content.py"
+    - " .content/snacks/*.json"
   generated_output: "soorten/*/index.html"
   content_type: "affiliate-comparison"
   mode: "auto"
 
 quality:
-  quality_reference: "/soorten/trainingssnacks/"
+  quality_reference: "/guides/prix-bloc-notes-numerique/"
   draft_robots: "noindex,follow"
   published_robots: "index,follow"
   prohibit_word_count_quotas: true
@@ -55,14 +55,20 @@ evidence:
   independent_or_user_evidence_required_for_experience_claims: true
 
 workflow:
-  comparisons_dir: ".content/snacks"
-  reviews_dir: ".content/snacks/reviews"
+  comparisons_dir: " .content/snacks"
+  reviews_dir: ".content/reviews"
   content_workflow: ".agents/skills/snack-content-workflow/SKILL.md"
   analysis_workflow: ".agents/skills/snack-analysis-workflow/SKILL.md"
   bespoke_content_sources:
-    - "soorten/*/index.html"
+    - "comparison_bespoke_output.py"
+    - "comparison_bespoke_priority_20260909.py"
+    - "comparison_bespoke_remaining_20260909.py"
+  legacy_renderer: "comparison_content.py"
   final_review_mode: "PUBLISH_REVIEW"
-  apply_script: "apply_soorten/*/index.html"
+  apply_script: "scripts/build.mjs"
+  indexation_script: "scripts/check_snacks.mjs"
+  indexation_manifest: "scripts/publication-indexation.json"
+  metadata_script: "scripts/build.mjs"
   machine_validator: "scripts/check_snacks.mjs"
   require_analysis_pass_before_human_validation: true
   require_human_validation_before_publish: true
