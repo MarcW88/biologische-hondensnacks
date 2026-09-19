@@ -1,13 +1,13 @@
 ---
 name: snack-analysis-workflow
-description: Workflow unique d'analyse des pages /soorten/ de biologische-hondensnacks.nl. Orchestre principalement des skills GitHub externes pour l'intention, l'audit, les preuves, l'on-page et la qualité éditoriale, puis ajoute seulement les contrôles spécifiques à une comparaison de snacks. Décisions: KEEP, LIGHT_UPDATE, DEEP_REWRITE, MERGE ou NOINDEX. En PUBLISH_REVIEW, sert de gate final avant validation humaine.
+description: Workflow unique d'analyse des pages /soorten/ de biologische-hondensnacks.nl. Orchestre principalement des skills GitHub externes pour l'intention, l'audit, les preuves, l'on-page et la qualité éditoriale, puis ajoute seulement les contrôles spécifiques à une comparaison. Décisions: KEEP, LIGHT_UPDATE, DEEP_REWRITE, MERGE ou NOINDEX. En PUBLISH_REVIEW, sert de gate final avant validation humaine.
 metadata:
   adapted_for: biologische-hondensnacks.nl
   orchestration_target: ">=80% existing GitHub skills"
   custom_scope: "orchestration + comparison sanity + cluster similarity"
 ---
 
-# Snack Analysis Workflow
+# Comparison Analysis Workflow
 
 ## Rôle
 
@@ -19,7 +19,7 @@ Principe :
 
 > **Évaluer la qualité de la décision offerte au lecteur, pas la sophistication apparente de la méthodologie.**
 
-Un comparatif n'a pas besoin d'un scoring, de poids, d'un univers exhaustif ou d'un Total Solution Cost pour être bon. Ces outils ne sont utilisés que lorsqu'ils améliorent réellement la décision.
+Un comparatif de snacks n'a pas besoin d'un scoring, de poids, d'un univers exhaustif ou d'un Total Solution Cost pour être bon. Ces outils ne sont utilisés que lorsqu'ils améliorent réellement la décision.
 
 ---
 
@@ -46,12 +46,12 @@ Un PASS ne retire jamais `noindex,follow`.
 Lire selon disponibilité :
 
 - page cible ;
-- pages comparatives voisines ;
+- pages snacks voisines ;
 - `snack-workflow.config.yaml` ;
 - données `.content/snacks/` associées ;
 - GSC / analyse sémantique / historique si disponibles ;
 - SERP actuelle quand l'intention est incertaine ou susceptible d'avoir changé ;
-- pages merken, ingrediënten, eiwit, levensfase, gevoelige honden en gidsen nécessaires au contexte ;
+- pages marques, usages et guides nécessaires au contexte ;
 - sources actuelles pour les faits qui peuvent évoluer.
 
 L'absence de données doit être signalée, jamais compensée par une précision inventée.
@@ -80,7 +80,7 @@ Si GSC ou données sémantiques existent, elles priment sur une supposition.
 
 ## 3.3 `jobs-to-be-done` — Wondel.ai
 
-Utiliser pour les comparatifs où le contexte change réellement la décision : training, beloning, puppy, gevoeligheid, eiwitbron, kauwbehoefte, budget, etc.
+Utiliser pour les comparatif de snackss où le contexte change réellement la décision : étudiant, professionnel, PDF, mobilité, budget d'usage, etc.
 
 Ne pas l'utiliser pour inventer un persona. Il sert à comprendre le travail à accomplir et les contraintes qui peuvent faire préférer un produit à un autre.
 
@@ -99,7 +99,7 @@ Règle importante : une spec officielle peut soutenir un **fait**. Elle ne devie
 
 ## 3.5 `fact-check`
 
-Vérifier les claims importants : samenstelling, ingrediënten, biologisch keurmerk, eiwitbron, formaat, calorische waarde, prijs, beschikbaarheid en feitelijke productvergelijkingen.
+Vérifier les claims importants : génération, fonctions, compatibilités, prix, abonnement, disponibilité et comparatif de snackss factuels.
 
 Le fact-check ne doit pas transformer une appréciation éditoriale en donnée scientifique.
 
@@ -125,7 +125,7 @@ QA générique finale sur intention, valeur originale, factualité, naturel, SEO
 
 ---
 
-# 4. Couche custom minimale — sanity check comparatif
+# 4. Couche custom minimale — sanity check comparatif de snacks
 
 Cette couche est volontairement courte. Elle ne remplace aucun skill ci-dessus.
 
@@ -179,7 +179,7 @@ L'absence de scoring n'est jamais un blocker.
 
 # 5. Contrôle custom — cluster et industrialisation
 
-Comparer la page aux comparatifs voisins.
+Comparer la page aux pages snacks voisines.
 
 Chercher notamment :
 
@@ -189,7 +189,7 @@ Chercher notamment :
 - mêmes produits et mêmes arguments sous plusieurs intentions ;
 - même verdict simplement repondéré ;
 - transitions ou conclusions recyclées ;
-- différence éditoriale trop faible entre `meilleur`, `étudiant`, `professionnel`, `hondensnack`, etc.
+- différence éditoriale trop faible entre `meilleur`, `étudiant`, `professionnel`, `tablette E Ink`, etc.
 
 Les composants visuels partagés sont normaux. Le problème apparaît lorsque **la pensée éditoriale** est clonée.
 
