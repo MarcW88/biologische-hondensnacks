@@ -4,80 +4,60 @@
 
 - URL : `/soorten/trainingssnacks/`
 - Langue / marché : néerlandais, Pays-Bas
-- Statut : test du workflow Snacks
-- Décision d’audit : `DEEP_REWRITE`
+- Décision d’audit : `LIGHT_UPDATE`
 - Robots : conserver `noindex,follow`
-- Intention dominante : choisir des petites récompenses utilisables pendant l’entraînement **et disposer de produits concrets à comparer**. La page ne vise pas un podium universel, mais elle a une composante transactionnelle réelle.
-- Job : pouvoir récompenser plusieurs fois sans casser le rythme de la séance ni perdre de vue la ration et les contraintes alimentaires du chien.
+- Intention dominante : choisir des trainingssnacks biologiques et comparer quelques produits crédibles.
+- Job : récompenser fréquemment pendant l’entraînement sans casser le rythme, tout en gardant un contrôle raisonnable sur la composition et la ration.
 
-## Frontières
+## Scope de comparaison
 
-- La page explique les critères propres à l’usage “training”.
-- `/soorten/beloningssnacks/` devra couvrir la récompense occasionnelle plus large, pas répéter cette logique de répétitions rapides.
-- `/gidsen/hoeveel-snacks-mag-een-hond-per-dag/` possède l’explication détaillée de la ration.
-- `/gidsen/ingredienten-hondensnacks-lezen/` possède l’apprentissage complet de lecture d’étiquette.
-- Les pages `/eiwit/`, `/ingredienten/` et `/voor-gevoelige-honden/` portent les filtres correspondants.
-- La sélection produit est déléguée aux workflows `comparison-analysis-workflow` / `comparison-content-workflow` copiés à l’identique depuis `MarcW88/cafetiere-italienne`. Aucun prix fixe ni claim hands-on.
+Candidats considérés :
 
-## Valeur propre
+1. Yarrah Biologische Mini Snack 100 g.
+2. STRAYZ BIO Trainingssnack Kip 80 g.
+3. STRAYZ Veggie Trainingssnack 80 g.
+4. Yarrah Biologische Trainingssnacks met Kip 150 g.
 
-Séparer quatre décisions souvent confondues : efficacité comme récompense, praticité pendant les répétitions, place dans la ration et statut biologique. Montrer explicitement que “biologique” ne prouve ni la faible densité calorique ni l’adéquation clinique.
+Le quatrième candidat est explicitement identifié comme pertinent dans l’assortiment Yarrah, mais n’est pas transformé en fiche complète tant que sa page produit individuelle et ses données analytiques ne sont pas vérifiées au même niveau que les trois autres.
 
-## Registre de preuves
+Le scope n’est pas présenté comme exhaustif.
 
-| Claim                                                                                                                                         | Source                                           | Niveau / portée                                                                           | Statut             |
-| --------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ | ----------------------------------------------------------------------------------------- | ------------------ |
-| Les méthodes fondées sur la récompense sont recommandées pour l’entraînement canin                                                            | AVSAB, Humane Dog Training Position Statement    | Association vétérinaire de comportement ; principe général d’entraînement                 | vérifié 2026-09-19 |
-| Les extras ne devraient pas dépasser 10 % de l’alimentation quotidienne                                                                       | ASPCA, General Dog Care                          | Règle générale, pas calcul individualisé ni prescription vétérinaire                      | vérifié 2026-09-19 |
-| Étiquetage et claims couvrent aussi l’information en ligne ; claims nutritionnels/santé doivent être objectivement et scientifiquement étayés | NVWA, inspectieresultaten etikettering en claims | Autorité néerlandaise ; portée diervoeder/petfood                                         | vérifié 2026-09-19 |
-| Le logo bio européen permet d’identifier des produits biologiques certifiés                                                                   | Commission européenne, The organic logo          | Portée générale de l’identification biologique ; ne prouve pas la performance comme snack | vérifié 2026-09-19 |
+## Critères
 
-## Claims à ne pas faire
-
-- “biologisch is gezonder” ;
-- une composition ou une valeur calorique produit non vérifiée ;
-- une promesse sur les allergies, la digestion, le poids ou une pathologie ;
-- “beste trainingssnack” sans comparaison documentée ;
-- un témoignage, un test ou une préférence canine inventés.
-
-## Module produit — handoff Comparatif
-
-Critères transmis au workflow Comparatif :
-
-- petit format / ingestion rapide ;
+- format adapté à des récompenses répétées ;
 - composition vérifiable ;
-- statut biologique explicite ;
-- utilité réelle pour des répétitions ;
-- différence substantielle entre candidats ;
-- aucune préférence liée à une commission.
+- statut biologique documenté ;
+- différences suffisamment nettes entre candidats ;
+- information nutritionnelle utile lorsqu’elle est disponible ;
+- aucune préférence liée à l’affiliation.
 
-Candidats vérifiés au 2026-09-19 :
+## Preuves principales
 
-1. **Yarrah Biologische Mini Snack 100 g** — 97% de viande bio, sans céréales, explicitement présenté par le fabricant comme snack d’entraînement ; valeur énergétique publiée.
-2. **STRAYZ BIO Trainingssnack Kip 80 g** — 100% poulet bio, mono-protéine, petits morceaux ; disponibilité et composition vérifiées auprès d’un retailer NL.
-3. **STRAYZ Veggie Trainingssnack 80 g** — option bio vegan, patate douce comme ingrédient principal ; disponibilité et composition vérifiées auprès d’un retailer NL.
+- Yarrah Mini Snack : 97% viande, graanvrij, 403,35 kcal/100 g, usage training explicite — source fabricant, vérifié 2026-09-19.
+- STRAYZ Kip : 100% biologische kip, mono-eiwit, petits morceaux, usage training explicite — fabricant/retailer, vérifié 2026-09-19.
+- STRAYZ Veggie : 56% zoete aardappel, 28% peer, 11% kokosmeel, 5% aardappelvlokken, vegan, bio, usage training explicite — fabricant/retailer, vérifié 2026-09-19.
+- Yarrah Biologische Trainingssnacks met Kip : produit actuel visible dans l’assortiment officiel Yarrah, 150 g — candidat majeur à considérer, données détaillées encore incomplètes.
 
-Pas de classement global : la recommandation est conditionnelle au besoin.
+## Logique de recommandation
 
-## Architecture justifiée
+- Yarrah Mini Snack : choix le plus pratique lorsqu’on veut disposer d’une valeur énergétique publiée.
+- STRAYZ Kip : choix le plus lisible pour une composition mono-eiwit à base de poulet.
+- STRAYZ Veggie : alternative végétale lorsque l’absence de viande est une priorité.
+- Pas de gagnant universel.
 
-1. Réponse directe et trois critères immédiatement actionnables.
-2. Expliquer pourquoi la répétition change la décision.
-3. Donner une vérification d’achat en quatre contrôles.
-4. Distinguer certification biologique et aptitude à l’entraînement.
-5. **Appliquer les critères à une sélection de produits actuels et achetables.**
-6. Présenter la ration de croquettes comme alternative simple lorsque le contexte le permet.
-7. Rendre les sources visibles près du contenu, sans transformer la page en guide réglementaire.
+## Architecture
 
-## Maillage
+Conserver l’architecture actuelle. Le problème n’est pas structurel.
 
-- Hub `/soorten/` dans le fil d’Ariane.
-- Les liens vers les guides de ration et d’étiquette pourront être ajoutés lorsque ces pages auront reçu leur validation finale ; ne pas créer de dépendance éditoriale trompeuse dans ce test.
+Corrections demandées :
+- expliciter le périmètre de la sélection ;
+- rendre le verdict conditionnel visible dans les titres produit ;
+- signaler le candidat Yarrah dédié “Trainingssnacks met Kip” pour éviter une omission silencieuse ;
+- préserver le contenu explicatif, les critères, les limites et les sources existantes.
 
-## Critères de succès
+## Anti-patterns
 
-- Le lecteur peut juger une snack **et comparer immédiatement des produits concrets**.
-- Les limites du biologique sont explicites.
-- Les claims sensibles sont attribués et correctement qualifiés.
-- La page reste utile sans affiliation.
-- Aucun contenu n’est remplacé au build et la page reste `noindex,follow`.
+- ne pas présenter trois produits comme une étude exhaustive du marché ;
+- ne pas attribuer une supériorité globale ;
+- ne pas inventer calories, prix, disponibilité ou expérience d’usage ;
+- ne pas transformer la page en catalogue marchand.
