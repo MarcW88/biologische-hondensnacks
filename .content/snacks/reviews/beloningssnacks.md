@@ -11,7 +11,7 @@
 - Décision : `MERGE`
 - Confiance : `MEDIUM-HIGH`
 - Cible proposée : `/soorten/trainingssnacks/`
-- Action automatique : aucune
+- Action : `MERGE_APPLIED`
 
 ---
 
@@ -430,13 +430,14 @@ Ne conserver cette URL comme page autonome que si une donnée réelle démontre 
 
 ---
 
-## 16. Prochaine étape
+## 16. Merge appliqué
 
-Ne pas lancer `snack-content-workflow` sur cette URL à ce stade.
+La consolidation a été appliquée le 2026-09-19 :
 
-Prochaine étape correcte :
+- retrait de `beloningssnacks` du cluster généré ;
+- retrait de la navigation et du hub ;
+- intégration explicite du vocabulaire `beloningssnacks` dans `/soorten/trainingssnacks/` ;
+- ancienne URL conservée comme page de redirection statique avec canonical vers `/soorten/trainingssnacks/` ;
+- `noindex` conservé sur l'ancienne URL.
 
-1. vérifier GSC / keyword data si disponibles ;
-2. confirmer ou invalider la consolidation ;
-3. si consolidation confirmée, intégrer le vocabulaire `beloningssnacks` à Trainingssnacks et au hub ;
-4. garder cette URL `noindex,follow` jusqu'à décision humaine explicite sur merge/redirection.
+Statut : `MERGE_APPLIED`.
