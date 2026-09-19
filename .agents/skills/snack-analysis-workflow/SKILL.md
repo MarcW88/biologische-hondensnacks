@@ -1,79 +1,292 @@
 ---
 name: snack-analysis-workflow
-description: Analyse une page ou le cluster néerlandais /soorten/ de biologische-hondensnacks.nl avant rédaction, puis réalise le publish review. À utiliser pour auditer les familles de snacks, pas les guides, ingrédients, protéines, étapes de vie ou produits à mâcher précis.
+description: Workflow unique d'analyse des pages /soorten/ de biologische-hondensnacks.nl. Repris du workflow Comparison existant et adapté au site : il orchestre les mêmes skills pour l'intention, l'audit, les preuves, l'on-page et la qualité éditoriale, puis applique la logique de sélection et de recommandation aux snacks. Décisions: KEEP, LIGHT_UPDATE, DEEP_REWRITE, MERGE ou NOINDEX. En PUBLISH_REVIEW, sert de gate final avant validation humaine.
 metadata:
   adapted_for: biologische-hondensnacks.nl
   orchestration_target: ">=80% existing GitHub skills"
-  custom_scope: "routing /soorten/ + snack-family boundaries + evidence risk + cluster review"
+  custom_scope: "orchestration + comparison sanity + cluster similarity"
 ---
 
 # Snack Analysis Workflow
 
-## Rôle et modes
+## Rôle
 
-Seul workflow d’analyse pour `/soorten/`. Il orchestre les skills existants et ne rédige pas la page.
+C'est le **seul workflow d'analyse** à utiliser pour `/soorten/`.
 
-- `AUDIT` : retourne `KEEP`, `LIGHT_UPDATE`, `DEEP_REWRITE`, `MERGE` ou `NOINDEX`.
-- `CLUSTER_AUDIT` : contrôle l’ensemble du hub et de ses pages filles.
-- `PUBLISH_REVIEW` : retourne exactement `PASS — READY_FOR_HUMAN_VALIDATION` ou `FAIL — KEEP_NOINDEX`.
+Comme le `brand-analysis-workflow`, il doit rester un **orchestrateur**. Il ne doit pas reconstruire en interne les méthodologies déjà couvertes par les skills spécialisés.
 
-Un verdict ne déclenche jamais seul une fusion, suppression, redirection ou indexation.
+Principe :
 
-## Entrées
+> **Évaluer la qualité de la décision offerte au lecteur, pas la sophistication apparente de la méthodologie.**
 
-Lire la page cible, `/soorten/`, les pages sœurs, les pages voisines susceptibles de couvrir la même question, l’audit et le brief persistés, les données de recherche réellement disponibles et les sources actuelles nécessaires aux claims.
+Un comparatif n'a pas besoin d'un scoring, de poids, d'un univers exhaustif ou d'un Total Solution Cost pour être bon. Ces outils ne sont utilisés que lorsqu'ils améliorent réellement la décision.
 
-## Chaîne réutilisée
+---
 
-Exécuter distinctement les skills locaux pertinents :
+# 1. Modes
 
-1. `seo-content-audit` pour diagnostiquer conservation, mise à jour ou consolidation ;
-2. `seo-keyword` et `search-intent` pour la famille de requêtes et le résultat attendu ;
-3. `jobs-to-be-done` pour relier la famille de snacks à une situation et un progrès concret ;
-4. `content-refresh` pour une page existante à corriger ;
-5. `fact-check`, et `evidence-based-reviews` uniquement si un jugement expérientiel le nécessite ;
-6. `affiliate-value` lorsque la page influence l’achat ;
-7. **`comparison-analysis-workflow` (copie GitHub inchangée de `MarcW88/cafetiere-italienne`) dès que l’intention attend une sélection de produits.** Ce sous-workflow audite la qualité de la sélection, des critères, des preuves et du verdict produit. Ne pas réécrire sa méthode dans le workflow Snacks ;
-8. `internal-linking-audit`, `anti-ai-slop`, `seo-onpage`, `seo-technical` et `editorial-qa` pour les contrôles correspondants.
+## `AUDIT`
+Analyse une URL existante. Produit un diagnostic et une décision, sans réécriture.
 
-Ne pas condenser ces méthodes dans ce fichier et ne pas déclarer un skill PASS sur la seule base d’un script.
+## `CLUSTER_AUDIT`
+Compare plusieurs URLs `/soorten/` afin de détecter chevauchements d'intention, recommandations recyclées et architectures industrialisées.
 
-## Couche custom : fonction de la page
+## `PUBLISH_REVIEW`
+Gate final après rédaction. Retourne :
 
-Une page `/soorten/` aide à comprendre quand une famille de snacks convient, quels critères changent la décision, quelles limites comptent et vers quelle sous-question poursuivre.
+- `PASS — READY_FOR_HUMAN_VALIDATION`
+- `FAIL — KEEP_NOINDEX`
 
-Frontières :
+Un PASS ne retire jamais `noindex,follow`.
 
-- `/gidsen/` explique une notion, une règle ou une procédure ;
-- `/kauwsnacks/` traite un objet à mâcher précis ;
-- `/ingredienten/` et `/eiwit/` filtrent par composition ;
-- `/levensfase/` et `/voor-gevoelige-honden/` partent du chien ;
-- `/comparatifs/` reste la destination pour une comparaison dont le sujet principal est « quel produit est le meilleur ? », **mais une page `/soorten/` à intention commerciale peut et doit intégrer une sélection concrète de produits lorsque cela aide réellement à choisir la famille de snacks.** La sélection est alors déléguée au `comparison-analysis-workflow` / `comparison-content-workflow` copiés depuis `cafetiere-italienne`, puis réintégrée comme module dans la page Snacks.
+---
 
-Un type de page n’impose jamais son plan. Le hub `/soorten/` oriente ; une page fille doit apporter une décision distincte. **Lorsque la SERP et l’intention montrent que le lecteur cherche aussi des produits, une page sans aucun produit concret est un échec d’intention et ne peut pas obtenir `KEEP` ou un PASS de publication.**
+# 2. Entrées
 
-## Couche custom : preuve et sécurité
+Lire selon disponibilité :
 
-Adapter la preuve au claim. Vérifier en priorité : ration énergétique, fréquence, taille et texture, risques d’étouffement ou d’ingestion, allégations dentaires, allergies/intolérances, âge, pathologies, composition, additifs, statut biologique et claims marketing.
+- page cible ;
+- pages comparatives voisines ;
+- `snack-workflow.config.yaml` ;
+- données `.content/snacks/` associées ;
+- GSC / analyse sémantique / historique si disponibles ;
+- SERP actuelle quand l'intention est incertaine ou susceptible d'avoir changé ;
+- pages merken, ingrediënten, eiwit, levensfase, gevoelige honden en gidsen nécessaires au contexte ;
+- sources actuelles pour les faits qui peuvent évoluer.
 
-Préférer selon le sujet : réglementation et autorités néerlandaises/européennes, organisations vétérinaires ou scientifiques, documentation fabricant pour un fait produit. Un retailer ou une marque ne suffit pas pour une conclusion générale de santé.
+L'absence de données doit être signalée, jamais compensée par une précision inventée.
 
-Ne jamais déduire `biologisch = gezonder`, `natuurlijk = beter`, `graanvrij = hypoallergeen` ou une efficacité dentaire sans preuve adaptée.
+---
 
-## Contrôle du cluster
+# 3. Chaîne de skills — source principale de l'analyse
 
-Comparer la cible aux pages les plus proches : tâche lecteur, rôle, critères, ordre du raisonnement, tableaux, CTA, conclusions et formulations. Les composants visuels peuvent se répéter ; l’architecture éditoriale ne doit pas être clonée.
+## 3.1 `seo-content-audit` — Rampstack
 
-Documenter pour chaque audit : rôle, intention, job, valeur existante à préserver, frontières, preuves, inconnues, risques, cannibalisation, portée de correction et prochaine étape.
+Utiliser `.agents/skills/seo-content-audit/SKILL.md` pour déterminer si la page mérite d'être conservée, mise à jour ou consolidée et pour examiner la cannibalisation.
 
-## Publish review
+Ce skill porte la logique `KEEP / UPDATE / MERGE / REDIRECT / DELETE`. Le workflow ne la réécrit pas.
 
-Relire la version rendue et le dossier de preuve, puis exécuter :
+## 3.2 `seo-keyword` — Rampstack
 
-```bash
-npm run build
-npm run check
-node scripts/check_snacks.mjs
-```
+Utiliser `.agents/skills/seo-keyword/SKILL.md` pour :
 
-Réexécuter les gates substantiels d’intention, JTBD, factualité, valeur sans affiliation, naturalité, anti-AI, SEO, technique et différenciation du cluster. **Pour une page à intention de sélection produit, exécuter aussi `comparison-analysis-workflow / PUBLISH_REVIEW` sur le module produit et vérifier qu’au moins une sélection concrète, vérifiée et utile est visible dans le rendu.** Conserver `noindex,follow` même en cas de PASS.
+- confirmer la requête ou le cluster ;
+- classifier l'intention ;
+- vérifier la forme dominante de SERP ;
+- distinguer deux URLs proches ;
+- détecter un périmètre trop large ou trop étroit.
+
+Si GSC ou données sémantiques existent, elles priment sur une supposition.
+
+## 3.3 `jobs-to-be-done` — Wondel.ai
+
+Utiliser pour les comparatifs où le contexte change réellement la décision : training, beloning, puppy, gevoeligheid, eiwitbron, kauwbehoefte, budget, etc.
+
+Ne pas l'utiliser pour inventer un persona. Il sert à comprendre le travail à accomplir et les contraintes qui peuvent faire préférer un produit à un autre.
+
+## 3.4 `evidence-based-reviews` — Rampstack
+
+C'est le skill principal pour l'intégrité des recommandations et des jugements produit.
+
+Il distingue :
+
+- specs constructeur vérifiées ;
+- synthèse d'expérience utilisateurs ;
+- triangulation de sources expertes ;
+- hands-on uniquement lorsqu'il existe réellement.
+
+Règle importante : une spec officielle peut soutenir un **fait**. Elle ne devient pas automatiquement une preuve d'une **sensation d'usage**. Inversement, un score éditorial n'a pas besoin d'être traité comme une mesure scientifique : il doit simplement être présenté comme un jugement éditorial et être explicable.
+
+## 3.5 `fact-check`
+
+Vérifier les claims importants : samenstelling, ingrediënten, biologisch keurmerk, eiwitbron, formaat, calorische waarde, prijs, beschikbaarheid en feitelijke productvergelijkingen.
+
+Le fact-check ne doit pas transformer une appréciation éditoriale en donnée scientifique.
+
+## 3.6 `affiliate-value`
+
+Vérifier que la page reste utile sans les liens affiliés et apporte plus qu'une réécriture de fiches constructeurs : arbitrages, limites, incompatibilités, alternatives et conséquences pratiques.
+
+## 3.7 `seo-onpage` — Rampstack
+
+Pour l'URL individuelle : title, meta, H1, structure, contenu, maillage, canonical, URL et schema honnête.
+
+Aucun quota de headings, mots ou liens.
+
+## 3.8 `anti-ai-slop`
+
+Analyser la page comme un artefact éditorial : structure interchangeable, blocs trop symétriques, répétitions, verdicts génériques et sur-lissage.
+
+Ce skill ne sert pas à détecter qui a écrit le contenu.
+
+## 3.9 `editorial-qa`
+
+QA générique finale sur intention, valeur originale, factualité, naturel, SEO et utilité réelle.
+
+---
+
+# 4. Couche custom minimale — sanity check comparatif
+
+Cette couche est volontairement courte. Elle ne remplace aucun skill ci-dessus.
+
+Vérifier seulement les points propres à une recommandation comparative :
+
+### A. Périmètre crédible
+
+- les options comparées sont plausibles pour la requête ;
+- les candidats majeurs manifestement pertinents ont été considérés **ou** le périmètre est expliqué ;
+- aucune exhaustivité artificielle n'est exigée ;
+- une exclusion importante mérite une raison, pas un registre de dizaines de produits sans intérêt.
+
+### B. Critères avant recommandation
+
+- les critères découlent de l'intention/JTBD ;
+- ils expliquent réellement les différences entre les choix ;
+- le gagnant n'a pas été choisi puis rationalisé après coup.
+
+### C. Verdict traçable
+
+La recommandation doit permettre de répondre :
+
+- pourquoi ce choix est recommandé ;
+- dans quelle situation un autre choix devient meilleur ;
+- quelle limite peut faire changer de décision.
+
+Un verdict conditionnel est souvent préférable à un gagnant universel.
+
+### D. Comparabilité honnête
+
+Lorsque les produits ou configurations diffèrent fortement, le texte l'explique. La comparaison n'a pas besoin d'une « equivalence engine » formelle si le lecteur comprend clairement ce qui est comparable et ce qui ne l'est pas.
+
+### E. Coût proportionné à l'intention
+
+Comparer le coût de façon équitable **lorsqu'il est décisionnel**. Pour une page budget ou sans abonnement, approfondir. Pour une page où le coût est secondaire, ne pas imposer un TSC complexe.
+
+### F. Scoring optionnel
+
+Le scoring est autorisé mais jamais obligatoire.
+
+S'il existe :
+
+- ses critères doivent être compréhensibles ;
+- les notes sont des jugements éditoriaux, sauf mesure réellement observée ;
+- éviter la fausse précision ;
+- le texte doit rester utile même sans le score.
+
+L'absence de scoring n'est jamais un blocker.
+
+---
+
+# 5. Contrôle custom — cluster et industrialisation
+
+Comparer la page aux comparatifs voisins.
+
+Chercher notamment :
+
+- même fonction de H2 dans le même ordre ;
+- même intro avec substitution de requête ;
+- mêmes fiches produit symétriques ;
+- mêmes produits et mêmes arguments sous plusieurs intentions ;
+- même verdict simplement repondéré ;
+- transitions ou conclusions recyclées ;
+- différence éditoriale trop faible entre `meilleur`, `étudiant`, `professionnel`, `hondensnack`, etc.
+
+Les composants visuels partagés sont normaux. Le problème apparaît lorsque **la pensée éditoriale** est clonée.
+
+Une similarité substantielle peut déclencher `DEEP_REWRITE` même si les facts sont corrects.
+
+---
+
+# 6. Décision
+
+## `KEEP`
+Page distincte, actuelle, utile et convaincante. Aucun changement substantiel.
+
+## `LIGHT_UPDATE`
+Corrections locales : faits, sources, sélection secondaire, formulation, title/meta, maillage ou quelques arbitrages. La logique fondamentale reste bonne.
+
+## `DEEP_REWRITE`
+Réserver ce statut aux cas où il faut réellement reconstruire :
+
+- intention ou rôle mal cadré ;
+- sélection manifestement inadéquate ;
+- recommandation impossible à justifier ;
+- valeur affiliée faible ;
+- architecture fortement industrialisée ;
+- contenu substantiellement obsolète ;
+- preuves trop faibles pour les principaux jugements publiés.
+
+**Ne pas** classer automatiquement `DEEP_REWRITE` parce qu'une note éditoriale n'a pas de test indépendant ou parce qu'un registre méthodologique sophistiqué est absent.
+
+## `MERGE`
+Une autre URL sert essentiellement la même décision et la différenciation ne justifie pas deux pages.
+
+## `NOINDEX`
+La page n'a pas encore assez de valeur ou de justification pour être indexée. Aucune suppression/redirection automatique.
+
+Pour chaque décision fournir :
+
+- confiance ;
+- valeur existante à préserver ;
+- problèmes réellement bloquants ;
+- améliorations secondaires ;
+- données manquantes importantes ;
+- prochaine étape.
+
+Un `DEEP_REWRITE` passe au `snack-content-workflow`.
+
+---
+
+# 7. PUBLISH_REVIEW
+
+Après rédaction :
+
+1. exécuter `python3 scripts/check_snacks.mjs` ;
+2. rejouer les skills pertinents ci-dessus sur la version finale ;
+3. comparer la structure aux pages sœurs ;
+4. vérifier que le verdict est cohérent avec les preuves et les limites ;
+5. vérifier qu'aucun faux hands-on ou contenu marchand faible n'a été introduit ;
+6. vérifier title/H1/canonical/robots/schema ;
+7. vérifier que la page reste utile sans liens affiliés.
+
+### PASS
+
+`PASS — READY_FOR_HUMAN_VALIDATION`
+
+### FAIL
+
+`FAIL — KEEP_NOINDEX`
+
+Lister précisément le ou les gates en échec et router vers le skill concerné. Un FAIL ne déclenche pas automatiquement une réécriture totale.
+
+---
+
+# 8. Indexation
+
+Conserver `noindex,follow` par défaut.
+
+Indexation uniquement après :
+
+1. validateur machine sans blocker ;
+2. PUBLISH_REVIEW PASS ;
+3. validation humaine explicite ;
+4. instruction explicite de rendre la page indexable.
+
+---
+
+# 9. Répartition 80/20
+
+La méthode doit venir majoritairement des skills GitHub existants :
+
+- Rampstack : `seo-content-audit`, `seo-keyword`, `evidence-based-reviews`, `seo-onpage` ;
+- Wondel.ai : `jobs-to-be-done` ;
+- stack externe éditoriale : `anti-ai-slop`, puis `editorial-qa`/skills de contrôle existants.
+
+La couche custom de ce workflow se limite à :
+
+1. orchestration ;
+2. sanity check de la comparaison ;
+3. similarité structurelle/cannibalisation spécifique au cluster ;
+4. mapping vers les cinq décisions du site.
+
+Ne jamais transformer ce workflow en deuxième copie des skills qu'il orchestre.
