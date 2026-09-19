@@ -1,6 +1,6 @@
 ---
 name: snack-analysis-workflow
-description: Workflow unique d'analyse des pages /soorten/ de biologische-hondensnacks.nl. Repris du workflow Comparison existant et adapté au site : il orchestre les mêmes skills pour l'intention, l'audit, les preuves, l'on-page et la qualité éditoriale, puis applique la logique de sélection et de recommandation aux snacks. Décisions: KEEP, LIGHT_UPDATE, DEEP_REWRITE, MERGE ou NOINDEX. En PUBLISH_REVIEW, sert de gate final avant validation humaine.
+description: Workflow unique d'analyse des pages /soorten/ de biologische-hondensnacks.nl. Orchestre principalement des skills GitHub externes pour l'intention, l'audit, les preuves, l'on-page et la qualité éditoriale, puis ajoute seulement les contrôles spécifiques à une comparaison de snacks. Décisions: KEEP, LIGHT_UPDATE, DEEP_REWRITE, MERGE ou NOINDEX. En PUBLISH_REVIEW, sert de gate final avant validation humaine.
 metadata:
   adapted_for: biologische-hondensnacks.nl
   orchestration_target: ">=80% existing GitHub skills"
