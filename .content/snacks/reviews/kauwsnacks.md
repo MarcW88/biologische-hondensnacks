@@ -2,133 +2,173 @@
 
 ## Métadonnées
 
-- URL : `/soorten/kauwsnacks/`
+- URL cible : `/soorten/kauwsnacks/`
+- URL concurrente interne : `/kauwsnacks/`
 - Date : 2026-09-19
-- Mode : `DEEP_REWRITE` puis `PUBLISH_REVIEW`
+- Mode : `AUDIT`
+- Workflow : `snack-analysis-workflow`
 - Robots : `noindex,follow`
-- Source de vérité : `soorten/kauwsnacks/index.html`
-- Workflow : `snack-analysis-workflow` + `snack-content-workflow`
+- Décision cible : `DEEP_REWRITE`
+- Décision cluster : `MERGE /kauwsnacks/ → /soorten/kauwsnacks/`
+- Confiance : `HIGH`
 
-## Décision
+## Intention / SERP
 
-`DEEP_REWRITE_APPLIED`
+La SERP actuelle de `kauwsnacks hond` est dominée par des catégories marchandes et des assortiments structurés par **type de matière/morceau**, protéine, taille et usage : huid, pezen, oren, sticks, botten, vis, etc.
 
-## Intention
+Exemples observés :
+- Kauwsnacks.nl structure directement l’offre par `Botten / Pezen / Huid / Oren / Pens / Strips`.
+- Zooplus expose une catégorie dédiée aux natuurlijke kauwsnacks.
+- Natuurlijk voor de hond mélange runderhuid, paardenhuid, kabeljouwhuid, sprotjes et runderpees.
+- Braaaf distingue notamment runderhuid, vissnacks et autres familles.
 
-La page répond désormais à une intention de sélection produit orientée sécurité et mastication :
-- formaat ;
-- hardheid ;
-- kauwgedrag ;
-- gebit ;
-- composition ;
-- statut biologique ;
-- distinction avec les tandsnacks.
+La SERP ne demande donc pas seulement « quel produit acheter ? ». Elle demande d’abord :
+> **quel type de kauwsnack convient au comportement de mastication et au niveau de risque acceptable ?**
 
-Le guide `/gidsen/welke-kauwsnack-voor-mijn-hond/` reste la source pédagogique détaillée. La page `/soorten/kauwsnacks/` applique cette méthode à des produits concrets.
+## Problème de la version actuelle
 
-## Scope produit publié
+La version actuelle suit encore une architecture industrialisée proche des pages sœurs :
 
-1. Yarrah Organic Chewsticks for Dogs
-2. Bandit Bio lamspezen
-3. BF Dental Rol runderhuid
-4. Beeztees runderkophuid 80 cm
+1. tableau de types ;
+2. sélection de 4 produits ;
+3. stopregels ;
+4. distinction avec tandsnacks ;
+5. tableau final de recommandation ;
+6. sources.
 
-La sélection n’est pas un classement global.
-
-## Logique de recommandation
-
-- Yarrah : meilleure option biologique de cette sélection pour une kauwbeloning courte et portionnable ;
-- Bandit lamspezen : meilleure option biologique de cette sélection pour davantage de mastication ;
-- BF Dental Rol : meilleure option de cette sélection lorsque le choix explicite du format est prioritaire ;
-- Beeztees 80 cm : option à considérer uniquement lorsqu’un très grand format est pertinent.
-
-## Evidence review
-
-Claims factuels conservés uniquement lorsqu’ils sont directement sourcés :
-- poids ;
-- longueur ;
-- ingrédients/composition ;
-- statut biologique lorsqu’il est vérifiable ;
-- valeurs analytiques ;
-- calories ;
-- possibilité de casser les Yarrah chewsticks ;
-- tailles disponibles.
-
-Claims marchands non adoptés comme faits généraux :
-- `goed voor het gebit` ;
-- `gezond` ;
-- `langdurig kauwplezier` comme durée garantie ;
-- `100% verteerbaar` comme sécurité universelle ;
-- `harder = beter`.
-
-La page s’appuie sur WSAVA/FEDIAF pour les limites de sécurité et sur VOHC pour séparer mastication et efficacité dentaire.
-
-## Différenciation cluster
-
-### vs. Gedroogde hondensnacks
-Kauwsnacks = usage, hardheid et sécurité.
-Gedroogde = type de morceau/procédé.
-
-### vs. Tandsnacks
-Kauwsnacks = mastication.
-Tandsnacks = produits avec positionnement/claim dentaire spécifique et exigence de preuve séparée.
-
-### vs. Guide Welke kauwsnack
-Guide = méthode complète.
-Page Snacks = application à des produits.
-
-## Affiliate value
-
-`PASS`
-
-La page apporte une valeur indépendante des CTAs :
-- tableau de décision ;
-- critères ;
-- stopregels ;
-- différences entre produits ;
-- distinction biologique/non biologique ;
+Cette structure est très proche de `gedroogde-hondensnacks` :
+- tableau introductif ;
+- 4 cartes produit symétriques ;
+- section de limites/claims ;
+- tableau final « wanneer kies je welke » ;
 - sources.
 
-## SEO / on-page
+Le workflow `anti-ai-slop` / cluster similarity considère cela comme un signal de structure clonée, même si les faits sont corrects.
 
-- title spécifique : PASS ;
-- meta spécifique : PASS ;
-- H1 spécifique : PASS ;
-- canonical : PASS ;
-- noindex,follow conservé : PASS ;
-- 4 product cards : PASS ;
-- 7 sources visibles : PASS ;
-- lien vers guide Kauwsnacks : PASS ;
-- lien vers Tandsnacks : PASS ;
-- ancien lien Beloningssnacks absent de cette page : PASS.
+## Insight spécifique à Kauwsnacks
 
-## GEO
+Le site possède déjà six sous-types dédiés :
 
-Questions couvertes :
-- Welke kauwsnack past bij mijn hond?
-- Welke biologische kauwsnack?
-- Welke kauwsnack is niet te hard?
-- Welke maat kauwsnack?
-- Wat is het verschil tussen kauwsnack en tandsnack?
+- `/kauwsnacks/bullepees/`
+- `/kauwsnacks/konijnenoren/`
+- `/kauwsnacks/runderkophuid/`
+- `/kauwsnacks/runderhuid/`
+- `/kauwsnacks/kippenpoten/`
+- `/kauwsnacks/kippennekken/`
 
-## Technique
+Le vrai rôle de la page mère doit donc être de **faire comprendre la différence entre ces familles**, leurs compromis et leurs limites, puis d’orienter vers la bonne sous-page.
 
-Contrôle statique après rédaction :
-- canonical correct ;
-- robots correct ;
-- CSS snack chargé ;
-- 4 cartes produit ;
-- 7 sources ;
-- maillage contextuel présent.
+## Cannibalisation interne
 
-Non encore vérifié :
-- rendu Playwright desktop/mobile ;
-- résultat final du workflow GitHub Pages associé au dernier commit.
+`/kauwsnacks/` est aujourd’hui un hub de navigation qui cible exactement le même terme principal que `/soorten/kauwsnacks/`.
 
-## PUBLISH_REVIEW
+Deux URLs :
+- même H1 ;
+- même sujet ;
+- même niveau de catégorie ;
+- l’une fait hub, l’autre fait comparaison.
 
-Verdict éditorial : `PASS — CONTENT_READY`
+Cette séparation n’apporte pas assez de différence éditoriale.
 
-Statut indexation : `KEEP_NOINDEX`
+### Recommandation
+- conserver `/soorten/kauwsnacks/` comme URL principale ;
+- intégrer la taxonomie et les liens enfants dans cette page ;
+- merger/rediriger `/kauwsnacks/` vers `/soorten/kauwsnacks/` ;
+- conserver les pages enfants sous `/kauwsnacks/<type>/`.
 
-La page peut rester sur main et passer au contrôle machine/rendu avant toute décision d’indexation.
+## JTBD
+
+Le lecteur doit pouvoir répondre à trois questions avant de choisir une référence :
+
+1. **Quel comportement cherche-t-il ?**
+   - petite mastication ;
+   - occupation plus longue ;
+   - morceau facile à finir ;
+   - peau/pees plus résistante.
+
+2. **Qu’est-ce qui peut rendre un type inadapté ?**
+   - produit trop dur ;
+   - morceau trop petit ;
+   - tendance à avaler des gros morceaux ;
+   - dentition fragile ;
+   - os / parties très dures.
+
+3. **Quelle famille mérite ensuite une page détaillée ?**
+   - pees ;
+   - huid/kophuid ;
+   - oren ;
+   - nekken/poten, avec avertissement sécurité renforcé.
+
+## Preuves de sécurité structurantes
+
+FEDIAF recommande :
+- un format/une forme adaptés au chien ;
+- une supervision systématique ;
+- d’éviter les chews excessivement durs ;
+- de tenir compte du risque d’avaler de gros morceaux.
+
+WSAVA recommande d’éviter :
+- os crus ou cuits ;
+- chews excessivement durs comme geweien et hoeven ;
+- produits à bords coupants.
+
+Ces éléments doivent structurer la page avant toute recommandation produit.
+
+## Rôle des produits
+
+La page n’a pas besoin de quatre cartes symétriques.
+
+Deux exemples suffisent à matérialiser deux familles :
+- **Yarrah biologische kauwstaafjes** : petite chew biologique, 33 g / 3 sticks, portionnable ;
+- **Bandit Bio lamspezen** : exemple biologique d’une famille plus orientée mastication.
+
+Les autres familles doivent être traitées d’abord comme **types de kauwsnacks**, avec liens vers les pages dédiées, pas comme quatre produits choisis artificiellement pour remplir un comparatif.
+
+## Architecture éditoriale recommandée
+
+Pas de template comparatif.
+
+Structure spécifique au sujet :
+
+1. **Le vrai choix : ce que le chien fait du snack**  
+   knagen, stukken afbreken, snel inslikken.
+
+2. **Carte des familles du site**  
+   pees / huid / oor / kippennek-poot avec rôle et vigilance propres.
+
+3. **Deux familles qui méritent une recommandation produit immédiate**  
+   petit chew bio vs pees bio.
+
+4. **Les catégories que nous ne voulons pas “recommander” sans réserve**  
+   os/nek/poot et très dur, avec justification WSAVA/FEDIAF.
+
+5. **Vers quelle sous-page aller maintenant ?**  
+   navigation contextuelle vers les enfants.
+
+6. Sources.
+
+Pas de tableau final récapitulatif répétant le contenu.
+
+## Verdict
+
+### `/soorten/kauwsnacks/`
+`DEEP_REWRITE`
+
+### `/kauwsnacks/`
+`MERGE` vers `/soorten/kauwsnacks/`
+
+## Valeur à préserver
+
+- les facts produit vérifiés de Yarrah et Bandit ;
+- les sources WSAVA / FEDIAF / VOHC ;
+- le lien avec le guide sécurité ;
+- la distinction avec `tandsnacks`.
+
+## À supprimer/reconstruire
+
+- la logique de quatre cartes produits symétriques ;
+- le tableau final `Welke past...` ;
+- les recommandations artificiellement réparties en quatre « meilleurs profils » ;
+- le hub doublon `/kauwsnacks/`.
+
+Statut : `AUDIT_COMPLETE — DEEP_REWRITE + MERGE_DUPLICATE_HUB`.
