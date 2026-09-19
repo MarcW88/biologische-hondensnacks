@@ -7,7 +7,7 @@ metadata:
   custom_scope: "orchestration + comparison decision logic"
 ---
 
-# Snack Content Workflow
+# Comparison Content Workflow
 
 ## Rôle
 
@@ -30,11 +30,11 @@ Pour une page existante, lire d'abord le rapport le plus récent du `snack-analy
 Lire également selon pertinence :
 
 - page actuelle ;
-- comparatifs voisins ;
+- pages snacks voisines ;
 - `snack-workflow.config.yaml` ;
 - données `.content/snacks/` existantes ;
 - GSC / sémantique / historique ;
-- pages merken, ingrediënten, eiwit, levensfase, gevoelige honden en gidsen utiles ;
+- pages marques, usages et guides utiles ;
 - sources actuelles nécessaires.
 
 Ne pas refaire un audit complet si un rapport récent existe, sauf si les données ou la gamme ont changé de façon significative.
@@ -57,7 +57,7 @@ Le SERP et les données disponibles priment sur une intuition de template.
 
 ## 2.2 `jobs-to-be-done` — Wondel.ai, lorsque pertinent
 
-Pour les pages liées à un contexte réel (`training`, `beloning`, puppy, gevoelige hond, eiwitbron, etc.), traduire le besoin en contraintes et critères de décision.
+Pour les pages liées à un contexte réel (`étudiant`, `professionnel`, PDF, mobilité, etc.), traduire le besoin en contraintes et critères de décision.
 
 Ne pas inventer de motivations utilisateur non documentées.
 
@@ -80,7 +80,7 @@ Ne pas sur-documenter des faits simples. Concentrer les preuves fortes sur les �
 
 ## 2.5 `fact-check`
 
-Vérifier les claims importants et les données susceptibles d'évoluer : samenstelling, ingrediënten, biologisch keurmerk, eiwitbron, formaat, calorische waarde, prijs, beschikbaarheid en feitelijke productvergelijking.
+Vérifier les claims importants et les données susceptibles d'évoluer : génération, fonctions, compatibilités, prix, abonnement, disponibilité et comparaison factuelle.
 
 Une appréciation éditoriale reste une appréciation éditoriale ; ne pas la déguiser en mesure.
 
@@ -229,7 +229,7 @@ Vérifier notamment :
 - « avantages / limites / pour qui » cloné ;
 - conclusion qui répète le classement ;
 - structure identique à un autre comparatif ;
-- généralités applicables à n'importe quelle hondensnack.
+- généralités applicables à n'importe quelle tablette E Ink.
 
 ## 5.5 `seo-onpage` — Rampstack
 
