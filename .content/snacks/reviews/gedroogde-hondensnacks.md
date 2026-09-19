@@ -1,140 +1,152 @@
 # Review — Gedroogde hondensnacks
 
 ## Métadonnées
-
 - URL : `/soorten/gedroogde-hondensnacks/`
 - Date : 2026-09-19
-- Mode : `DEEP_REWRITE` puis `PUBLISH_REVIEW`
+- Mode : `AUDIT`
+- Workflow : `snack-analysis-workflow`
 - Robots : `noindex,follow`
-- Source de vérité : `soorten/gedroogde-hondensnacks/index.html`
-- Workflow : `snack-analysis-workflow` + `snack-content-workflow`
+- Décision : `DEEP_REWRITE`
+- Confiance : `HIGH`
 
-## Intention
+## 1. Intention observée
+La SERP actuelle montre une vraie intention autonome autour de `gedroogde hondensnacks` : catégories e-commerce larges, dizaines de références, filtres par protéine, taille, âge et usage.
 
-La SERP néerlandaise est dominée par des catégories marchandes de snacks séchés, avec des produits concrets et des variantes par protéine, type de morceau et usage.
+Le point important est que `gedroogd` n'est pas une intention d'usage unique. Les résultats mélangent :
+- trainingshapjes ;
+- beloningssnacks ;
+- kauwstaafjes ;
+- huid ;
+- oren ;
+- long ;
+- pens ;
+- vlees/vis ;
+- parfois gevriesdroogd dans des catégories voisines.
 
-La page finale répond désormais à cette intention en combinant :
-- critères de choix ;
-- distinction entre types de morceaux ;
-- sélection de produits biologiques ;
-- limites et sécurité ;
-- sources vérifiables.
+Le job n'est donc pas simplement « choisir le meilleur produit séché », mais :
+> comprendre ce que le terme gedroogd dit réellement du produit — et surtout ce qu'il ne dit pas — avant de choisir selon l'usage, la matière, la composition ou la protéine.
 
-## Décision
+## 2. Pourquoi l'URL mérite de rester autonome
+`gedroogde hondensnacks` existe comme vraie catégorie marchande dans la SERP, avec des pages dédiées et des assortiments importants.
 
-`DEEP_REWRITE_APPLIED`
+La page ne doit donc pas être mergée avec :
+- `/ingredienten/natuurlijke-hondensnacks/` : naturel est une qualification/composition, pas un procédé ;
+- `/soorten/kauwsnacks/` : kauwen est un usage ;
+- `/soorten/trainingssnacks/` : training est un usage ;
+- `/voor-gevoelige-honden/mono-eiwit-hondensnacks/` : mono-eiwit est une contrainte de composition.
 
-## Scope produit
+Verdict de rôle : URL autonome justifiée.
 
-Sélection publiée :
+## 3. Problème de la version actuelle
+La version actuelle est factuellement correcte sur plusieurs points, mais son architecture reste trop proche d'un comparatif générique :
+- tableau introductif ;
+- 4 cartes produit symétriques ;
+- section de claims ;
+- tableau final `Wanneer kies je welke?` ;
+- sources.
 
-1. Bandit Bio lamslong trainers 100 g
-2. Bandit Bio kipfilet gedroogd 100 g
-3. Bandit Bio lamspens staafjes 100 g
-4. Bandit Bio lamspezen 100 g
+Cette architecture a la même fonction éditoriale que l'ancienne version de Kauwsnacks et reste proche de Trainingssnacks : critères → sélection → limites → synthèse.
 
-La sélection n'est pas présentée comme exhaustive ni comme classement global.
+Le workflow `anti-ai-slop` / cluster similarity considère cette répétition comme un signal de structure industrialisée.
 
-## Logique de recommandation
+## 4. Le vrai angle spécifique au sujet
+La page doit être structurée autour d'une question centrale :
+> **Wat betekent ‘gedroogd’ eigenlijk als je een hondensnack kiest?**
 
-- lamslong trainers : meilleur profil de cette sélection pour le training ;
-- kipfilet : meilleur profil pour une récompense simple sous forme de morceau de viande identifiable ;
-- lamspens staafjes : position intermédiaire entre récompense et court kauwmoment ;
-- lamspezen : meilleur profil de cette sélection pour davantage de mastication.
+`Gedroogd` décrit d'abord un procédé/état du produit. Il ne dit pas automatiquement :
+- si la snack est biologique ;
+- si elle est naturelle ;
+- si elle est mono-eiwit ;
+- si elle est adaptée au training ;
+- si elle est adaptée au kauwen ;
+- si elle est hypoallergénique ;
+- si elle apporte un bénéfice dentaire.
 
-Les verdicts sont conditionnels à l'usage.
+C'est cette désambiguïsation qui doit organiser la page.
 
-## Evidence review
+## 5. Ce que montre la SERP
+Les catégories observées mélangent fortement produits et claims.
 
-### Claims retenus comme faits
+Exemples :
+- NatuurlijkHondenvoer propose environ 42 références et mélange trainers, strips, kauwstaafjes, oren, huid et snacks par protéine ;
+- Bellobox affiche environ 85 produits sous `gedroogde hondensnacks` ;
+- d'autres acteurs qualifient automatiquement les snacks séchés de `natuurlijk`, `gezond`, `hypoallergeen` ou `goed voor het gebit`.
 
-Uniquement lorsque directement vérifiables dans les fiches produit :
-- biologique ;
-- type de morceau ;
-- espèce ;
-- format 100 g ;
-- gedroogd ;
-- positionnement trainer lorsqu'explicite.
+Conclusion : la valeur du site n'est pas d'imiter cette catégorisation, mais de séparer clairement les dimensions.
 
-### Claims volontairement non adoptés
+## 6. Architecture éditoriale recommandée
+Pas de ranking à quatre produits.
 
-Les formulations suivantes observées sur des pages marchandes ne sont pas reprises comme vérités générales :
-- gezond ;
-- hypoallergeen ;
-- licht verteerbaar ;
-- goed voor het gebit ;
-- langzaam drogen behoudt voedingsstoffen ;
-- natuurlijke snacks zijn automatisch beter.
+### H2 — Gedroogd zegt alleen hoe het product is verwerkt
+Rôle : poser le concept et montrer que le procédé ne suffit pas à décider.
 
-La page explique au contraire qu'elles doivent être vérifiées séparément.
+### H2 — Eén categorie, drie totaal verschillende gebruiksmomenten
+Rôle : montrer qu'un même univers de snacks séchés peut servir au training, à la récompense ou au kauwen.
 
-## Différenciation de cluster
+Exemples :
+- lamslong trainer ;
+- kipfilet / vleesstrip ;
+- pees / huid.
 
-### Kauwsnacks
-La page Gedroogde est structurée autour du morceau et du procédé. La page Kauwsnacks doit rester structurée autour de mastication, hardheid, formaat et veiligheid.
+### H2 — Gedroogd is niet hetzelfde als natuurlijk, biologisch of mono-eiwit
+Rôle : clarifier les quatre axes sans les fusionner.
 
-### Natuurlijke hondensnacks
-La page explique explicitement que natuurlijk et gedroogd ne sont pas synonymes de biologisch.
+### H2 — Waar de verpakking je gemakkelijk op het verkeerde been zet
+Rôle : traiter les claims fréquents : gezond, hypoallergeen, goed voor het gebit, langzaam gedroogd.
 
-### Mono-eiwit
-Un produit avec une seule protéine n'est pas présenté comme universellement hypoallergénique.
+### H2 — Wanneer gedroogd juist wél een nuttig selectiecriterium is
+Rôle : expliquer les cas où le procédé/type est utile : simplicité de composition, portabilité, texture, mono-ingrédient vérifié, etc., sans inventer de bénéfice général.
 
-## Affiliate value
+### H2 — Twee of drie voorbeelden, geen kunstmatige top 4
+Rôle : illustrer les différences, pas fabriquer un classement.
 
-`PASS`
+### H2 — Welke pagina helpt je verder?
+Rôle : router vers Trainingssnacks, Kauwsnacks, Natuurlijke hondensnacks, Mono-eiwit selon la vraie question suivante.
 
-La page apporte une valeur de décision indépendante des liens produit :
-- critères ;
-- tableau type de morceau / usage ;
-- différences entre procédés et claims ;
-- limites de sécurité ;
-- sélection conditionnelle.
+### H2 — Bronnen
 
-Les CTAs actuels pointent vers des sources/retailers vérifiés et ne sont pas présentés comme une preuve de test personnel.
+## 7. Scope produit recommandé
+La page n'a pas besoin de quatre cartes symétriques.
 
-## SEO / on-page
+Trois exemples suffisent pour matérialiser trois usages distincts :
+- Bandit Bio lamslong trainers → training ;
+- Bandit Bio kipfilet gedroogd → simple morceau de viande / beloning ;
+- Bandit Bio lamspezen → kauwen.
 
-- title spécifique : PASS ;
-- meta spécifique : PASS ;
-- H1 spécifique : PASS ;
-- canonical : PASS ;
-- noindex,follow : conservé ;
-- sources visibles : PASS ;
-- maillage vers le guide Kauwsnacks : PASS ;
-- page non clonée sur la structure Trainingssnacks : PASS.
+`Lamspens staafjes` apporte moins de valeur éditoriale distincte et peut être supprimé si la page devient plus conceptuelle.
 
-## GEO
+## 8. Cannibalisation à contrôler
+### Avec Kauwsnacks
+Ne pas expliquer la sécurité de mastication en profondeur ici. Router vers `/soorten/kauwsnacks/` et le guide dédié.
 
-La page fournit désormais des réponses explicites aux questions :
-- wat zijn gedroogde hondensnacks ;
-- welke gedroogde snack voor training ;
-- welke gedroogde snack om te kauwen ;
-- verschil gedroogd / gevriesdroogd ;
-- verschil gedroogd / natuurlijk / biologisch.
+### Avec Trainingssnacks
+Ne pas comparer plusieurs trainers ici. Utiliser un trainer uniquement comme exemple de format.
 
-## Technique
+### Avec Natuurlijke hondensnacks
+Cette page doit justement expliquer pourquoi `gedroogd ≠ natuurlijk` et router ensuite vers la page composition.
 
-Contrôle statique effectué après rédaction :
-- 4 product cards ;
-- 8 sources/liens de vérification ;
-- canonical correct ;
-- robots `noindex,follow` ;
-- ancien lien navigation Beloningssnacks absent de cette page.
+### Avec Mono-eiwit
+Ne pas présenter une seule protéine comme garantie d'hypoallergénicité.
 
-Non encore vérifié :
-- rendu Playwright desktop/mobile ;
-- `npm run build` final pour ce commit ;
-- `npm run check` ;
-- `npm run check:snacks`.
+## 9. Valeur actuelle à préserver
+- distinction gedroogd / gevriesdroogd / natuurlijk / biologisch ;
+- vigilance sur les claims ;
+- sources Bandit / Floris / Organimal / Zooplus ;
+- produits Bandit déjà vérifiés ;
+- canonical et SEO technique actuel.
 
-## PUBLISH_REVIEW
+## 10. Ce qu'il faut reconstruire
+- supprimer la logique de quatre cartes produit symétriques ;
+- supprimer le tableau final répétitif `Wanneer kies je welke?` ;
+- faire du sens de `gedroogd` le fil conducteur ;
+- utiliser les produits comme exemples, pas comme squelette ;
+- renforcer le maillage vers les pages correspondant aux vraies sous-intentions.
 
-### Verdict éditorial
+## Verdict
+`DEEP_REWRITE`
 
-`PASS — CONTENT_READY`
+Confiance : `HIGH`
 
-### Statut publication
+Raison principale : l'URL est légitime, mais l'architecture éditoriale actuelle reste industrialisée et ne tire pas encore parti de ce qui rend cette thématique vraiment spécifique.
 
-`KEEP_NOINDEX`
-
-La page peut passer au contrôle machine/rendu. L'indexation ne doit pas être activée avant validation finale de ces gates.
+Statut : `AUDIT_COMPLETE — DEEP_REWRITE`.
