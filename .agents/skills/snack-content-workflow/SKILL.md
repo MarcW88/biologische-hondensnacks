@@ -30,7 +30,7 @@ Pour une page existante, lire d'abord le rapport le plus récent du `snack-analy
 Lire également selon pertinence :
 
 - page actuelle ;
-- pages snacks voisines ;
+- comparatifs voisins ;
 - `snack-workflow.config.yaml` ;
 - données `.content/snacks/` existantes ;
 - GSC / sémantique / historique ;
