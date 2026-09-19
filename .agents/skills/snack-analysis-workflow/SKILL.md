@@ -241,7 +241,7 @@ Un `DEEP_REWRITE` passe au `snack-content-workflow`.
 
 Après rédaction :
 
-1. exécuter `python3 scripts/check_snacks.mjs` ;
+1. exécuter `node scripts/check_snacks.mjs` ;
 2. rejouer les skills pertinents ci-dessus sur la version finale ;
 3. comparer la structure aux pages sœurs ;
 4. vérifier que le verdict est cohérent avec les preuves et les limites ;
