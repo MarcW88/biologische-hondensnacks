@@ -19,7 +19,7 @@ Principe :
 
 > **Évaluer la qualité de la décision offerte au lecteur, pas la sophistication apparente de la méthodologie.**
 
-Un comparatif de snacks n'a pas besoin d'un scoring, de poids, d'un univers exhaustif ou d'un Total Solution Cost pour être bon. Ces outils ne sont utilisés que lorsqu'ils améliorent réellement la décision.
+Un comparatif n'a pas besoin d'un scoring, de poids, d'un univers exhaustif ou d'un Total Solution Cost pour être bon. Ces outils ne sont utilisés que lorsqu'ils améliorent réellement la décision.
 
 ---
 
@@ -46,7 +46,7 @@ Un PASS ne retire jamais `noindex,follow`.
 Lire selon disponibilité :
 
 - page cible ;
-- pages snacks voisines ;
+- pages comparatives voisines ;
 - `snack-workflow.config.yaml` ;
 - données `.content/snacks/` associées ;
 - GSC / analyse sémantique / historique si disponibles ;
@@ -80,7 +80,7 @@ Si GSC ou données sémantiques existent, elles priment sur une supposition.
 
 ## 3.3 `jobs-to-be-done` — Wondel.ai
 
-Utiliser pour les comparatif de snackss où le contexte change réellement la décision : étudiant, professionnel, PDF, mobilité, budget d'usage, etc.
+Utiliser pour les comparatifs où le contexte change réellement la décision : étudiant, professionnel, PDF, mobilité, budget d'usage, etc.
 
 Ne pas l'utiliser pour inventer un persona. Il sert à comprendre le travail à accomplir et les contraintes qui peuvent faire préférer un produit à un autre.
 
@@ -99,7 +99,7 @@ Règle importante : une spec officielle peut soutenir un **fait**. Elle ne devie
 
 ## 3.5 `fact-check`
 
-Vérifier les claims importants : génération, fonctions, compatibilités, prix, abonnement, disponibilité et comparatif de snackss factuels.
+Vérifier les claims importants : génération, fonctions, compatibilités, prix, abonnement, disponibilité et comparatifs factuels.
 
 Le fact-check ne doit pas transformer une appréciation éditoriale en donnée scientifique.
 
@@ -125,7 +125,7 @@ QA générique finale sur intention, valeur originale, factualité, naturel, SEO
 
 ---
 
-# 4. Couche custom minimale — sanity check comparatif de snacks
+# 4. Couche custom minimale — sanity check comparatif
 
 Cette couche est volontairement courte. Elle ne remplace aucun skill ci-dessus.
 
@@ -179,7 +179,7 @@ L'absence de scoring n'est jamais un blocker.
 
 # 5. Contrôle custom — cluster et industrialisation
 
-Comparer la page aux pages snacks voisines.
+Comparer la page aux comparatifs voisins.
 
 Chercher notamment :
 
