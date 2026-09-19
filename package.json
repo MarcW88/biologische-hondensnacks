@@ -1,1 +1,1 @@
-{"name":"biologische-hondensnacks","private":true,"version":"1.0.0","scripts":{"build":"node scripts/build-preserving-guides.mjs","check":"node scripts/check.mjs"},"devDependencies":{"@playwright/test":"^1.63.0"}}
+{"name":"biologische-hondensnacks","private":true,"version":"1.0.0","scripts":{"build":"node scripts/build-preserving-guides.mjs","check":"node scripts/check.mjs","check:snacks":"node scripts/check_snacks.mjs"},"devDependencies":{"@playwright/test":"^1.63.0"}}

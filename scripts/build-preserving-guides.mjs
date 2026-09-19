@@ -1,15 +1,15 @@
-import fs from 'node:fs';
-import path from 'node:path';
-import { pathToFileURL } from 'node:url';
+import fs from "node:fs";
+import path from "node:path";
+import { pathToFileURL } from "node:url";
 
-const root = path.resolve(import.meta.dirname, '..');
-const guidesRoot = path.join(root, 'gidsen');
+const root = path.resolve(import.meta.dirname, "..");
+const authoredRoots = [path.join(root, "gidsen"), path.join(root, "soorten")];
 
 function snapshotDirectory(dir) {
   const files = new Map();
   if (!fs.existsSync(dir)) return files;
 
-  const walk = current => {
+  const walk = (current) => {
     for (const entry of fs.readdirSync(current, { withFileTypes: true })) {
       const absolute = path.join(current, entry.name);
       if (entry.isDirectory()) {
@@ -33,20 +33,30 @@ function restoreSnapshot(files) {
   }
 }
 
-const guideSnapshot = snapshotDirectory(guidesRoot);
+const authoredSnapshots = authoredRoots.map(snapshotDirectory);
 
-await import(pathToFileURL(path.join(import.meta.dirname, 'build.mjs')).href);
+await import(pathToFileURL(path.join(import.meta.dirname, "build.mjs")).href);
 
-restoreSnapshot(guideSnapshot);
+for (const snapshot of authoredSnapshots) restoreSnapshot(snapshot);
 
-for (const [relative, original] of guideSnapshot) {
-  const absolute = path.join(root, relative);
-  const current = fs.readFileSync(absolute);
-  if (!current.equals(original)) {
-    throw new Error(`Authored guide changed during build: ${relative}`);
+for (const snapshot of authoredSnapshots) {
+  for (const [relative, original] of snapshot) {
+    const absolute = path.join(root, relative);
+    const current = fs.readFileSync(absolute);
+    if (!current.equals(original)) {
+      throw new Error(`Authored page changed during build: ${relative}`);
+    }
   }
 }
 
-await import(pathToFileURL(path.join(import.meta.dirname, 'sync-navigation.mjs')).href);
+await import(
+  pathToFileURL(path.join(import.meta.dirname, "sync-navigation.mjs")).href
+);
 
-console.log(`PASS: preserved ${guideSnapshot.size} authored files under gidsen/ before shared navigation sync.`);
+const preservedCount = authoredSnapshots.reduce(
+  (total, snapshot) => total + snapshot.size,
+  0,
+);
+console.log(
+  `PASS: preserved ${preservedCount} authored files under gidsen/ and soorten/ before shared navigation sync.`,
+);

@@ -1,6 +1,6 @@
 # Instructions du dépôt
 
-Ce dépôt contient le site éditorial et d’affiliation bloc-notes-numeriques.fr.
+Ce dépôt contient le site éditorial et d’affiliation biologische-hondensnacks.nl.
 
 ## Design
 
@@ -20,6 +20,26 @@ Pour toute création, modification ou revue de l’interface :
 - Afficher les limites et le niveau de preuve aussi clairement que les avantages.
 - Conserver une hiérarchie HTML sémantique et une navigation accessible.
 - Respecter les commandes de build, lint et test définies par le projet lorsqu’elles seront disponibles.
+
+## Production éditoriale — Snacks
+
+Pour toute URL sous `/soorten/`, il n’existe que deux workflows à choisir :
+
+1. **Analyser / auditer** : `.agents/skills/snack-analysis-workflow/SKILL.md`.
+2. **Créer / réécrire** : `.agents/skills/snack-content-workflow/SKILL.md`.
+
+Ces fichiers sont uniquement des orchestrateurs. L’analyse et la rédaction doivent venir des skills GitHub spécialisés déjà présents dans `.agents/skills/`, notamment `seo-content-audit`, `seo-keyword`, `search-intent`, `jobs-to-be-done`, `content-refresh`, `fact-check`, `evidence-based-reviews` lorsque nécessaire, `affiliate-value`, `content-brief-authoring`, `content-and-copy`, `internal-linking-audit`, `humanizer`, `general-writing`, `anti-ai-slop`, `seo-onpage`, `seo-technical` et `editorial-qa`.
+
+### Règles obligatoires
+
+1. Une page existante passe d’abord par `snack-analysis-workflow` en mode `AUDIT`.
+2. `/soorten/` aide à choisir une famille de snacks et ses critères ; `/gidsen/` explique une notion ; `/kauwsnacks/` documente un produit à mâcher précis ; `/ingredienten/`, `/eiwit/`, `/levensfase/` et `/voor-gevoelige-honden/` gardent leurs angles propres.
+3. Une page Snacks ne devient pas automatiquement un classement de produits. Si une vraie sélection comparative est nécessaire, transmettre au workflow Comparatifs plutôt que fabriquer un podium.
+4. Le plan découle de l’intention, du job, des preuves et des différences réelles entre familles. Aucun squelette, quota de mots, H2, tableaux, FAQ, sources ou liens n’est imposé.
+5. Les claims nutritionnels, vétérinaires, dentaires, digestifs, allergiques, biologiques et réglementaires exigent une preuve proportionnée. Une information inconnue reste inconnue, est qualifiée ou est retirée.
+6. La page doit rester utile sans liens affiliés. Aucun produit n’est favorisé en raison de sa disponibilité ou de sa commission.
+7. Après rédaction, exécuter la chaîne du workflow de contenu puis `snack-analysis-workflow` en mode `PUBLISH_REVIEW`.
+8. Conserver `noindex,follow` jusqu’à validation humaine explicite et instruction séparée de rendre la page indexable.
 
 ## Production éditoriale — Guides
 
