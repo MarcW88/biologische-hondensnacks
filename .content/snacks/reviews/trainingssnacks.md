@@ -4,66 +4,89 @@
 
 - URL : `/soorten/trainingssnacks/`
 - Date : 2026-09-19
-- Modes exécutés : `AUDIT`, production test, `PUBLISH_REVIEW`
-- Décision initiale : `DEEP_REWRITE`
-- Verdict précédent : `PASS — READY_FOR_HUMAN_VALIDATION`
-- Verdict après réaudit produit : `REVISION_APPLIED — PUBLISH_REVIEW_TO_RERUN`
+- Mode : `AUDIT` puis correction `LIGHT_UPDATE`
 - Robots : `noindex,follow`
-- Source éditoriale : `soorten/trainingssnacks/index.html`, préservée par le build
+- Source de vérité : `soorten/trainingssnacks/index.html`
 
-## Audit initial
+## Intention et décision
 
-La page était un placeholder générique : title court, meta description commune au site, trois blocs sans contenu, aucun claim, aucune preuve et aucune valeur propre. L’URL possède néanmoins un job distinct : choisir une récompense adaptée à des répétitions d’entraînement. La décision `DEEP_REWRITE` porte sur le contenu, pas sur l’existence de l’URL.
+La SERP néerlandaise actuelle combine guides de choix, recommandations produit et catalogues de trainingssnacks. L’intention ne se limite donc pas à comprendre ce qu’est un bon trainingssnack : le lecteur attend également des produits concrets à comparer.
 
-## Intention, JTBD et frontières
+La page actuelle répond déjà à cette double intention. Elle n’a pas besoin d’un `DEEP_REWRITE`.
 
-La page répond à “qu’est-ce qui rend une snack pratique et raisonnable pendant un entraînement ?” **et “quels produits actuels illustrent réellement ces critères ?”**. Le premier audit avait sous-estimé la composante transactionnelle de l’intention. La sélection produit est désormais traitée via les workflows Comparatif copiés depuis `cafetiere-italienne`.
+**Décision : `LIGHT_UPDATE`.**
 
-Les motivations émotionnelles du propriétaire ou les préférences universelles du chien ne sont pas présentées comme des faits. Les conseils portent sur les contraintes observables : répétitions, interruption de l’exercice, taille, quantité et compatibilité alimentaire.
+## Valeur existante à préserver
 
-## Preuves et factualité
+- critères pratiques directement liés à l’entraînement ;
+- distinction entre statut biologique et aptitude comme trainingssnack ;
+- règle générale de ration correctement nuancée ;
+- alternative consistant à utiliser une partie des brokjes ;
+- sources institutionnelles visibles ;
+- trois produits concrets déjà intégrés.
 
-Les quatre claims externes qui structurent la page sont liés à AVSAB, ASPCA, NVWA et Commission européenne. La règle des 10 % est présentée comme une règle générale et non comme une prescription. La page n’affirme pas qu’un produit biologique est plus sain ou plus adapté. Aucun prix fixe, test, mesure propriétaire ni avis utilisateur n’est inventé.
+## Scope / candidats
 
-Produits vérifiés le 2026-09-19 :
-- Yarrah Biologische Mini Snack 100 g : source fabricant, 97% viande bio, sans céréales, 403,35 kcal/100 g ;
-- STRAYZ BIO Trainingssnack Kip 80 g : retailer NL, 100% poulet bio, mono-protéine ;
-- STRAYZ Veggie Trainingssnack 80 g : retailer NL, bio, vegan, sans sucre et céréales selon la fiche contrôlée.
+La sélection actuelle couvre trois profils distincts :
 
-La disponibilité et les prix restant volatils, ils ne sont pas figés dans la page.
+- Yarrah Biologische Mini Snack 100 g ;
+- STRAYZ BIO Trainingssnack Kip 80 g ;
+- STRAYZ Veggie Trainingssnack 80 g.
 
-## Rédaction et naturalité
+Le contrôle de marché a identifié un candidat majeur supplémentaire : **Yarrah Biologische Trainingssnacks met Kip 150 g**, présent dans l’assortiment officiel Yarrah en septembre 2026.
 
-La rédaction est en néerlandais natif, avec une réponse directe et des phrases de longueur variée. Les sections suivent le raisonnement propre à la page ; elles ne reproduisent pas les placeholders ni un plan produit symétrique. Les formulations promotionnelles, le faux “wij hebben getest” et les superlatifs ont été exclus.
+Son omission silencieuse était le principal défaut du scope. Il est désormais explicitement mentionné comme candidat considéré, sans lui attribuer de fiche complète tant que les données produit individuelles ne sont pas vérifiées au même niveau.
 
-## Valeur affiliée
+## Critères et logique de recommandation
 
-La page contient désormais un module de sélection produit, mais le raisonnement, les critères, les limites et l’alternative des croquettes restent utilisables sans lien affilié. Aucun produit n’est favorisé en fonction d’une commission.
+Les critères sont antérieurs au verdict :
 
-## SEO, GEO et maillage
+- format compatible avec des récompenses répétées ;
+- composition ;
+- statut biologique ;
+- information nutritionnelle disponible ;
+- différence réelle entre recettes.
 
-- title, H1 et meta description spécifiques ;
-- canonical explicite ;
-- réponse synthétique dans le hero et le premier bloc ;
-- entités et autorités nommées dans le texte ;
-- fil d’Ariane vers le hub Snacks ;
-- sources accessibles et datées ;
-- pas de FAQ artificielle ni de schema non justifié.
+Le verdict est conditionnel :
 
-Les données GSC, volumes et SERP néerlandaise détaillée n’étaient pas disponibles dans le dépôt ; aucun chiffre n’a été inventé.
+- **Yarrah Mini Snack** : meilleur choix de cette sélection lorsque la possibilité de suivre les calories est prioritaire, car l’énergie est publiée à 403,35 kcal/100 g ;
+- **STRAYZ Kip** : meilleur choix de cette sélection pour une recette mono-eiwit simple à base de poulet ;
+- **STRAYZ Veggie** : meilleure alternative végétale de cette sélection.
 
-## Technique et rendu
+Aucun gagnant universel n’est déclaré.
 
-- contenu placé dans le HTML éditorial réel ;
-- `scripts/build-preserving-guides.mjs` étendu à `/soorten/` afin que le générateur ne remplace plus ces pages ;
-- feuille de style dédiée, fondée sur les tokens du design existant ;
-- page maintenue en `noindex,follow` ;
-- `npm run build`, `npm run check` et `npm run check:snacks` : PASS ;
-- revue statique du responsive : la grille de décision passe de trois colonnes à une colonne sous 700 px et le layout `.template` existant passe déjà à une colonne sous 920 px ;
-- limite : la validation visuelle Playwright n’a pas pu être menée à terme, car le téléchargement du Chromium verrouillé a expiré puis retourné une archive tronquée. Aucun PASS visuel complet n’est revendiqué.
+## Preuves
 
-## Verdict
+- Yarrah Mini Snack : fabricant officiel — 97% viande, graanvrij, 403,35 kcal/100 g, utilisable pour training.
+- STRAYZ Kip : 100% biologische kip, mono-eiwit, petits morceaux adaptés au training.
+- STRAYZ Veggie : 56% zoete aardappel, 28% peer, 11% kokosmeel, 5% aardappelvlokken, bio et vegan.
+- Yarrah Trainingssnacks met Kip : existence, nom, format 150 g et disponibilité dans l’assortiment officiel confirmés ; données détaillées encore insuffisantes pour une recommandation plus précise.
 
-Le précédent PASS est invalidé par le nouveau gate produit. La correction éditoriale est appliquée ; le `PUBLISH_REVIEW` complet doit être rejoué sur le rendu final avant de rétablir `PASS — READY_FOR_HUMAN_VALIDATION`.
+Aucun faux hands-on ni score pseudo-scientifique.
 
-La page reste `noindex,follow`.
+## Affiliate value
+
+La page reste utile sans les liens produit grâce aux critères, limites et alternatives. Les produits illustrent la décision au lieu de remplacer le contenu.
+
+## SEO / cluster
+
+La page est distincte de `/soorten/beloningssnacks/` par son focus sur les répétitions rapides pendant l’entraînement. Elle reste distincte des guides de ration et d’étiquette, qui portent les explications approfondies.
+
+Le title, H1, canonical et robots restent cohérents.
+
+## Corrections appliquées
+
+- sélection présentée comme non exhaustive ;
+- verdicts conditionnels rendus visibles ;
+- candidat Yarrah dédié aux trainingssnacks ajouté au scope ;
+- aucun changement d’architecture inutile.
+
+## PUBLISH_REVIEW
+
+Le contenu est prêt pour le gate final du `snack-analysis-workflow`.
+
+Statut actuel :
+
+`QA_IN_PROGRESS — KEEP_NOINDEX`
+
+Le PASS final dépend encore de l’exécution des contrôles machine et de la review finale sur le rendu.
