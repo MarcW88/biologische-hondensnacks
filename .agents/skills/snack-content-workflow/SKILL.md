@@ -1,50 +1,333 @@
 ---
 name: snack-content-workflow
-description: Crée ou corrige une page néerlandaise sous /soorten/ après snack-analysis-workflow. Orchestre les skills GitHub existants pour l’intention, le JTBD, les preuves, le brief, la rédaction, la QA et le publish review sans imposer de template de page.
+description: Workflow unique de création et de réécriture des pages /soorten/ de biologische-hondensnacks.nl. Orchestre principalement des skills GitHub externes pour l'intention, l'audit, la preuve, le brief, la rédaction, l'on-page et l'édition. La logique custom est limitée à la décision comparative et au contrôle du cluster.
 metadata:
   adapted_for: biologische-hondensnacks.nl
   orchestration_target: ">=80% existing GitHub skills"
-  custom_scope: "routing /soorten/ + snack-family boundaries + repository integration"
+  custom_scope: "orchestration + comparison decision logic"
 ---
 
 # Snack Content Workflow
 
 ## Rôle
 
-Seul workflow de production pour `/soorten/`.
+C'est le **seul workflow de production** à utiliser pour créer ou réécrire une URL `/soorten/`.
 
-Séquence : `snack-analysis-workflow / AUDIT` → correction autorisée → `snack-analysis-workflow / PUBLISH_REVIEW`.
+Comme le `brand-content-workflow`, il doit orchestrer des skills spécialisés plutôt que fabriquer une méthode maison parallèle.
 
-- `KEEP` : ne pas réécrire.
-- `LIGHT_UPDATE` : respecter le scope de l’audit.
-- `DEEP_REWRITE` : reconstruire en préservant les éléments valides.
-- `MERGE` ou `NOINDEX` : attendre une décision humaine sur l’URL.
+Principe central :
 
-## Production fondée sur les skills existants
+> **Intention → preuves → décision → brief → rédaction → review.**
 
-1. Confirmer intention, requêtes, rôle et chevauchements avec `seo-keyword`, `search-intent`, `seo-content-audit` et, pour l’existant, `content-refresh`.
-2. Utiliser `jobs-to-be-done` pour relier le type de snack aux circonstances, au progrès recherché, aux frictions, aux alternatives et aux contre-indications. Sans données comportementales, conserver les motivations en hypothèses.
-3. Construire avant la prose un registre de preuves avec `fact-check`. Appeler `evidence-based-reviews` seulement pour un jugement expérientiel réel.
-4. Utiliser `affiliate-value` si la page influence l’achat ; elle doit rester utile même si les liens affiliés disparaissent, **mais cela n’interdit pas les produits concrets**.
-5. **Si l’intention comporte une sélection de produits, déléguer cette sous-tâche au `comparison-content-workflow` déjà présent localement, qui est une copie inchangée du workflow de `MarcW88/cafetiere-italienne`.** Lui transmettre l’intention, le JTBD, les critères et le dossier de preuves. Ne pas recréer de méthode de sélection custom dans ce fichier. Intégrer ensuite son résultat comme module produit dans la page Snacks, sans transformer toute la page en comparatif générique.
-6. Pour chaque produit retenu, vérifier au minimum identité exacte, disponibilité/source actuelle, composition ou caractéristiques citées, adéquation au critère avancé et limites. Ne jamais inventer prix, disponibilité, certification, bénéfice santé ou test. Si l’information n’est pas vérifiable, le produit n’entre pas dans la sélection.
-7. Persister `.content/snacks/briefs/<slug>.md` avec `content-brief-authoring` : rôle, frontières, intention, job, critères, preuves, inconnues, claims interdits, maillage, angle, plan justifié **et handoff vers le workflow Comparatif lorsqu’il est déclenché**.
-8. Rédiger avec `content-and-copy` en néerlandais naturel. La structure vient du brief, jamais d’un modèle Snacks fixe.
-9. Après rédaction : `fact-check`, `internal-linking-audit`, `humanizer`, `general-writing`, `anti-ai-slop`, `seo-onpage`, `seo-technical`, `editorial-qa`, puis lecture complète du rendu. **Si un module produit existe, terminer aussi par `comparison-analysis-workflow / PUBLISH_REVIEW` sur ce module.**
+Un comparatif peut être excellent sans score numérique. Un score, une pondération, un tableau ou un Total Solution Cost ne sont utilisés que s'ils rendent la décision plus claire.
 
-Toute reformulation qui crée ou renforce un fait rouvre le fact-check correspondant.
+---
 
-## Intégration au dépôt
+# 1. Entrées
 
-Les pages HTML sous `/soorten/` sont des fichiers éditoriaux préservés par `scripts/build-preserving-guides.mjs`. Modifier la page réelle, mettre à jour les artefacts `.content/snacks/`, puis vérifier que le build ne remplace pas le contenu.
+Pour une page existante, lire d'abord le rapport le plus récent du `snack-analysis-workflow / AUDIT` et le traiter comme le handoff de départ.
 
-Conserver `noindex,follow`. Ne pas inventer produits, disponibilités, prix, tests, mesures, avis, bénéfices santé ou expériences. **Une page dont l’intention commerciale appelle des exemples achetables ne doit plus être publiée avec zéro produit uniquement parce qu’elle appartient à `/soorten/`.**
+Lire également selon pertinence :
 
-## Handoff
+- page actuelle ;
+- comparatifs voisins ;
+- `snack-workflow.config.yaml` ;
+- données `.content/snacks/` existantes ;
+- GSC / sémantique / historique ;
+- pages merken, ingrediënten, eiwit, levensfase, gevoelige honden en gidsen utiles ;
+- sources actuelles nécessaires.
 
-Mettre à jour `.content/snacks/reviews/<slug>.md` avec les contrôles réellement effectués, les preuves, les inconnues, les changements, les résultats machine et les éventuels blockers. Passer ensuite à `snack-analysis-workflow / PUBLISH_REVIEW`.
+Ne pas refaire un audit complet si un rapport récent existe, sauf si les données ou la gamme ont changé de façon significative.
 
-Le résultat final est uniquement :
+---
 
-- `PASS — READY_FOR_HUMAN_VALIDATION` ;
-- `FAIL — KEEP_NOINDEX`.
+# 2. Chaîne principale de production — skills existants
+
+## 2.1 `seo-keyword` — Rampstack
+
+Confirmer :
+
+- target query / cluster ;
+- intent dominant ;
+- format accepté dans la SERP ;
+- rôle unique de l'URL ;
+- risque de chevauchement avec un autre comparatif.
+
+Le SERP et les données disponibles priment sur une intuition de template.
+
+## 2.2 `jobs-to-be-done` — Wondel.ai, lorsque pertinent
+
+Pour les pages liées à un contexte réel (`training`, `beloning`, puppy, gevoelige hond, eiwitbron, etc.), traduire le besoin en contraintes et critères de décision.
+
+Ne pas inventer de motivations utilisateur non documentées.
+
+## 2.3 `seo-content-audit` — Rampstack
+
+Pour une page existante : préserver ce qui fonctionne. Le workflow ne réécrit pas un bon passage uniquement pour créer de la nouveauté.
+
+Si l'audit a conclu `LIGHT_UPDATE`, respecter ce niveau de changement sauf découverte factuelle majeure.
+
+## 2.4 `evidence-based-reviews` — Rampstack
+
+Construire la base de preuve de la recommandation :
+
+- specs officielles ;
+- synthèse propriétaires/utilisateurs lorsque nécessaire ;
+- tests indépendants nommés lorsque le jugement le nécessite ;
+- hands-on uniquement lorsqu'il existe réellement.
+
+Ne pas sur-documenter des faits simples. Concentrer les preuves fortes sur les éléments qui changent le choix.
+
+## 2.5 `fact-check`
+
+Vérifier les claims importants et les données susceptibles d'évoluer : samenstelling, ingrediënten, biologisch keurmerk, eiwitbron, formaat, calorische waarde, prijs, beschikbaarheid en feitelijke productvergelijking.
+
+Une appréciation éditoriale reste une appréciation éditoriale ; ne pas la déguiser en mesure.
+
+## 2.6 `affiliate-value`
+
+Avant la rédaction, identifier la valeur originale :
+
+- différences réellement décisionnelles ;
+- limites ;
+- cas où un produit n'est pas le bon choix ;
+- alternatives ;
+- coûts ou contraintes cachés réellement pertinents ;
+- information difficile à obtenir depuis une seule fiche fabricant.
+
+La page doit rester utile si tous les liens affiliés disparaissent.
+
+## 2.7 `content-brief-authoring` — Rampstack
+
+Construire le brief **avant** le draft.
+
+Le brief doit au minimum préciser :
+
+- query/cluster ;
+- décision du lecteur ;
+- scope de la comparaison ;
+- principaux critères ;
+- faits/preuves obligatoires ;
+- arbitrages importants ;
+- angle éditorial ;
+- anti-patterns ;
+- outline proposé et rôle de chaque section.
+
+Le plan est spécifique à l'URL. Le workflow n'impose aucun squelette de comparatif.
+
+## 2.8 `content-and-copy` — Rampstack
+
+Rédiger depuis le brief et les preuves.
+
+Priorités :
+
+1. décision claire ;
+2. substance ;
+3. trade-offs ;
+4. structure adaptée ;
+5. voix éditoriale naturelle.
+
+Ne pas produire six fiches produits mécaniquement symétriques si la décision peut être mieux expliquée autrement.
+
+---
+
+# 3. Couche custom minimale — décision comparative
+
+Cette couche existe uniquement parce qu'un comparatif doit recommander ou arbitrer entre plusieurs options.
+
+## 3.1 Scope / candidats
+
+Identifier un ensemble **raisonnable** de choix plausibles pour la requête.
+
+Il n'est pas nécessaire de documenter tout le marché. En revanche :
+
+- ne pas omettre silencieusement un candidat évident susceptible de changer la conclusion ;
+- expliquer les exclusions majeures lorsque cela aide le lecteur ;
+- ne jamais inclure un produit uniquement parce qu'il est monétisable.
+
+## 3.2 Critères
+
+Définir les critères avant la recommandation. Ils viennent de l'intention, du JTBD et des différences réelles entre produits.
+
+Aucune obligation de pondération numérique.
+
+## 3.3 Verdict
+
+Le verdict doit être traçable aux critères et aux preuves.
+
+Favoriser une formulation utile :
+
+- « meilleur choix général pour X » ;
+- « choisissez Y si votre priorité est… » ;
+- « évitez Z si… » ;
+- ou verdict conditionnel dans un head-to-head.
+
+Un gagnant absolu n'est pas obligatoire.
+
+## 3.4 Scoring — optionnel
+
+N'utiliser un score que s'il rend les arbitrages plus compréhensibles.
+
+S'il est utilisé :
+
+- l'échelle doit être stable ;
+- les critères doivent être explicités ;
+- les notes sont clairement des jugements éditoriaux sauf mesure réelle ;
+- éviter les décimales qui simulent une précision inexistante ;
+- le classement doit rester intelligible sans le score.
+
+Ne pas inventer des notes pour remplir un JSON.
+
+## 3.5 Coût — proportionné
+
+Pour `pas cher`, `sans abonnement` ou une intention fortement budgétaire, comparer la configuration réellement nécessaire.
+
+Pour une page où le prix est secondaire, un repère de prix/configuration suffit. Ne pas imposer un modèle de coût complexe si cela ne change pas la décision.
+
+---
+
+# 4. Architecture éditoriale
+
+Aucun template par type de comparatif.
+
+Interdit d'imposer :
+
+- nombre fixe de H2/H3 ;
+- `méthode → critères → ranking → produit 1 → produit 2 → FAQ → conclusion` ;
+- même longueur par produit ;
+- tableau obligatoire ;
+- FAQ obligatoire ;
+- conclusion obligatoire ;
+- quotas de mots ou de liens.
+
+Chaque section doit justifier sa présence par une question, une décision, une preuve ou un arbitrage propre à cette URL.
+
+Deux pages comparatives proches doivent pouvoir avoir des structures radicalement différentes si leurs décisions diffèrent.
+
+---
+
+# 5. Post-draft — skills spécialisés
+
+## 5.1 `fact-check`
+
+Réextraire les claims et corriger les faits, comparatifs, prix, générations et disponibilités.
+
+## 5.2 `humanizer`
+
+Modifier structure et prose lorsque le texte paraît générique, répétitif ou trop lisse. Préserver les faits.
+
+## 5.3 `general-writing` — msimchowitz/writing-skills
+
+Passage final de clarté, précision et voix. Éditer le minimum nécessaire plutôt que tout réécrire.
+
+## 5.4 `anti-ai-slop`
+
+Vérifier notamment :
+
+- blocs produits interchangeables ;
+- transitions répétées ;
+- « avantages / limites / pour qui » cloné ;
+- conclusion qui répète le classement ;
+- structure identique à un autre comparatif ;
+- généralités applicables à n'importe quelle hondensnack.
+
+## 5.5 `seo-onpage` — Rampstack
+
+Title, meta, H1, headings, contenu, liens internes, URL et schema honnête.
+
+## 5.6 `seo-technical`
+
+Uniquement pour les points techniques réellement applicables : canonical, robots, crawlabilité, structured data et intégrité HTML.
+
+## 5.7 `editorial-qa`
+
+Dernière QA générique : intention, valeur, factualité, naturel et utilité sans affiliation.
+
+---
+
+# 6. Persistance
+
+`.content/snacks/<slug>.json` est un support méthodologique, **pas un formulaire obligatoire**.
+
+Conserver seulement les champs réellement utilisés, par exemple :
+
+- intent/JTBD ;
+- scope/candidats ;
+- exclusions importantes ;
+- criteria ;
+- evidence / sources ;
+- recommendation logic ;
+- price/configuration notes ;
+- scores/weights **si utilisés** ;
+- ranking **si la page utilise un ranking** ;
+- date de recherche ;
+- status.
+
+Ne jamais ajouter un champ méthodologique uniquement pour satisfaire le workflow.
+
+---
+
+# 7. Gate final
+
+Une fois le draft stable, appeler :
+
+`.agents/skills/snack-analysis-workflow/SKILL.md` en mode `PUBLISH_REVIEW`.
+
+Résultat requis avant validation humaine :
+
+`PASS — READY_FOR_HUMAN_VALIDATION`
+
+Sinon :
+
+`FAIL — KEEP_NOINDEX`
+
+Le gate final vérifie surtout : intention, décision, preuves, valeur, différenciation éditoriale, SEO et absence de faux hands-on — pas la présence d'une méthodologie chiffrée imposée.
+
+---
+
+# 8. Indexation
+
+Conserver `noindex,follow` par défaut.
+
+Le workflow ne retire jamais `noindex` automatiquement.
+
+Indexation seulement après validation machine, PUBLISH_REVIEW PASS, validation humaine explicite et instruction explicite d'indexer.
+
+---
+
+# 9. Orchestration 80/20
+
+```text
+PAGE EXISTANTE
+  snack-analysis-workflow / AUDIT
+        ↓
+seo-keyword (Rampstack)
+        ↓
+jobs-to-be-done (Wondel.ai) si pertinent
+        ↓
+seo-content-audit (Rampstack)
+        ↓
+evidence-based-reviews (Rampstack) + fact-check
+        ↓
+affiliate-value
+        ↓
+CUSTOM LÉGER : scope + critères + logique de recommandation
+        ↓
+content-brief-authoring (Rampstack)
+        ↓
+content-and-copy (Rampstack)
+        ↓
+fact-check
+        ↓
+humanizer → general-writing → anti-ai-slop
+        ↓
+seo-onpage (Rampstack) + seo-technical
+        ↓
+editorial-qa
+        ↓
+snack-analysis-workflow / PUBLISH_REVIEW
+        ↓
+validation humaine
+```
+
+Le custom doit rester minoritaire et ne jamais réimplémenter les skills externes.
