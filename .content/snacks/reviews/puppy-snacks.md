@@ -1,38 +1,55 @@
 # Review — Puppy snacks
 
 ## Métadonnées
-- URL : `/soorten/puppy-snacks/`
-- Date : `2026-09-19`
-- Mode : `AUDIT`
-- Robots : `noindex,follow`
-- Décision : `MERGE`
-- Confiance : élevée
+- Ancienne URL : `/soorten/puppy-snacks/`
+- URL principale : `/levensfase/hondensnacks-puppy/`
+- Date : 2026-09-19
+- Workflow : `snack-analysis-workflow` + `snack-content-workflow`
+- Décision : `MERGE_APPLIED`
 
-## Intention
-La SERP combine listes de produits, trainers et kauwsnacks adaptés aux chiots :
-https://www.organimal.nl/honden/puppy/snacks-puppy/
-https://www.bigdog.nl/product-categorie/hondensnacks/natuurlijke-puppy-snacks/
-https://www.tomandco.com/nl-be/honden/snacks/puppy-snacks.html
+## Pourquoi le merge
+`Puppy` décrit une levensfase, pas un type de snack.
 
-Il s'agit d'une intention de sélection par étape de vie.
+La SERP mélange :
+- kleine trainers ;
+- zachte beloningen ;
+- kauwsnacks ;
+- produits explicitement marketés puppy et produits généraux adaptés aussi aux puppy's.
 
-## État actuel
-`/soorten/puppy-snacks/` est un placeholder sans produits ni contenu.
+Conserver deux pages commerciales séparées sous `/soorten/` et `/levensfase/` créerait une cannibalisation inutile.
 
-Le dépôt contient déjà :
-- `/levensfase/hondensnacks-puppy/` : autre placeholder avec la même intention transactionnelle ;
-- `/gidsen/welke-snacks-voor-een-puppy/` : guide informatif déjà développé.
+## Architecture retenue
+- `/levensfase/hondensnacks-puppy/` = sélection concrète par levensfase ;
+- `/gidsen/welke-snacks-voor-een-puppy/` = guide pédagogique sur croissance, sécurité et ration ;
+- `/soorten/trainingssnacks/` = sous-intention training ;
+- `/soorten/kauwsnacks/` = sous-intention kauwen.
 
-## Cannibalisation
-Deux pages produit différentes sur "puppy snacks" ne sont pas justifiées :
-- Soorten / puppy-snacks ;
-- Levensfase / hondensnacks-puppy.
+## Implémentation
+- ancienne route `/soorten/puppy-snacks/` convertie en redirection statique + canonical ;
+- route retirée du générateur `pages.soorten` ;
+- entrée retirée du menu Snacks ;
+- homepage/générateur pointe vers `/levensfase/hondensnacks-puppy/` ;
+- guide puppy mis à jour vers une seule catégorie.
 
-Le guide peut rester séparé, car son rôle est pédagogique et non une sélection marchande.
+## Page cible
+La page cible est structurée autour de deux décisions réellement propres à la puppyfase :
+1. trainen ;
+2. kauwen.
 
-## Verdict
-`MERGE`
+Deux exemples produits vérifiés illustrent ces deux usages :
+- Yarrah Biologische Mini Snack ;
+- Yarrah Biologische Kauwstaafjes.
 
-Cible recommandée : `/levensfase/hondensnacks-puppy/`, car "puppy" est d'abord un critère de levensfase dans l'architecture du site.
+Les produits ne sont pas présentés comme `puppy-only` lorsqu'ils ne le sont pas.
 
-Cette cible devra ensuite recevoir la sélection comparative de produits. Ne pas produire les deux pages.
+## SEO / cluster
+- duplication Soorten / Levensfase supprimée : PASS
+- guide séparé de la sélection produit : PASS
+- canonical cible : PASS
+- noindex,follow conservé : PASS
+- maillage vers Trainingssnacks et Kauwsnacks : PASS
+
+## PUBLISH_REVIEW
+Verdict éditorial : `PASS — READY_FOR_HUMAN_VALIDATION`
+
+Indexation : `KEEP_NOINDEX`
