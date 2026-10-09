@@ -1,27 +1,34 @@
-# Review: mono-eiwit-hondensnacks
-Status: FAIL — KEEP_NOINDEX until human editorial and veterinary validation
-Date: 2026-10-09
-Source reference: MarcW88/bloc-notes-numerique usage-analysis-workflow and usage-content-workflow; adapted to dog nutrition via existing fact-check, content-brief-authoring, anti-ai-slop, internal-linking-audit, editorial-qa skills.
+# Audit et révision éditoriale — mono-eiwit-hondensnacks
+Date : 2026-10-09
+Statut : DRAFT / KEEP_NOINDEX — revue humaine et vétérinaire toujours nécessaire
+Décision : DEEP_REWRITE de la première version, valeur insuffisante.
 
-## AUDIT
-Original: generic placeholder, no evidence, no usable content, no independent decision aid.
-Decision: DEEP_REWRITE.
-Intent: understand how mono-eiwit snacks are defined, how to read ingredient labels, and when they are inappropriate for allergy self-diagnosis.
-Cannibalization: /gidsen/wat-is-mono-eiwit/ defines the term; this page focuses on selecting snacks given dog needs; /eiwit/ lists proteins; /soorten/ covers product types.
-Preserve: navigation, breadcrumb, layout, footer and existing image/assets.
+## Diagnostic (skills réellement consultés)
+- seo-content-audit : texte trop mince, rôle décisionnel peu distinct du guide définitionnel.
+- content-brief-authoring : absence de situations et critères discriminants.
+- content-and-copy : peu d'exemples concrets, répétition de mises en garde.
+- affiliate-value : faible valeur de choix autonome.
+- fact-check : assertions à rattacher à des sources vérifiables.
+- anti-ai-slop / editorial-qa : structure trop générique et même conclusion répétée.
 
-## BRIEF
-Answer meaning and limitations early; offer practical label checks; separate consumer selection from veterinary elimination diets; avoid invented products, ratings and tests. Distinct page architecture based on decision questions, not a generic template.
+## Intention, cible, frontières
+Besoin : choisir ou écarter une friandise présentée comme mono-eiwit. Ne pas diagnostiquer une allergie.
+Ne pas dupliquer /gidsen/wat-is-mono-eiwit/ (définition), /eiwit/ (catégories de protéines), /soorten/ (formats).
 
-## Evidence and claims
-- VCA https://vcahospitals.com/know-your-pet/implementing-an-elimination-challenge-diet-trial-dog : controlled elimination diets, potential cross-contamination in OTC limited-ingredient products, advice to exclude treats in trials.
-- WSAVA https://wsava.org/wp-content/uploads/2024/06/Feeding-treats-to-your-dog-v2.pdf : 10% treat calorie guidance for healthy adults, exceptions for dogs with conditions.
-No commercial product compositions, claims, or test experience invented.
+## Corrections appliquées
+1. Arbre de décision pour trois situations distinctes.
+2. Trois exemples fictifs d'étiquette explicitement signalés.
+3. Distinction mono-eiwit / nouvelle protéine / hydrolysat vétérinaire.
+4. Critères d'achat (ingrédients, kcal, format, transparence).
+5. Contre-indications et questions pratiques.
+6. Trois sources vétérinaires identifiables ; aucun test produit inventé.
+7. Copie identique dans le JSON source et le HTML rendu.
 
-## POST-DRAFT SELF-REVIEW
-- Differentiates mono-eiwit label, allergy diagnosis and therapeutic diet.
-- No unsupported claims that mono-eiwit is hypoallergenic.
-- Internal handoff to guide and neighboring category, no affiliate ranking.
-- NL language, page remains noindex; cite sources.
-- Human veterinary/editorial review and visual desktop/mobile QA not completed.
-Publication verdict: FAIL — KEEP_NOINDEX pending independent human review.
+## Registre de preuves
+- https://vcahospitals.com/know-your-pet/implementing-an-elimination-challenge-diet-trial-dog : suppression des snacks pendant les essais, risque d'ingrédients non déclarés/croisement en OTC.
+- https://www.merckvetmanual.com/management-and-nutrition/nutrition-small-animals/nutrition-in-disease-management-in-small-animals : approches à protéines nouvelles ou hydrolysées.
+- https://wsava.org/wp-content/uploads/2024/06/Feeding-treats-to-your-dog-v2.pdf : règle indicative 10% calories snacks chez chien adulte sain, exceptions et sécurité.
+
+## Gate final
+Technique : CI à confirmer.
+Éditorial : amélioration substantielle, mais vérification visuelle mobile/desktop et validation humaine/vétérinaire non réalisées. Ne pas revendiquer PASS final ni lever noindex.
