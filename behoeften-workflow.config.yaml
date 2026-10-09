@@ -1,0 +1,37 @@
+project:
+  name: biologische-hondensnacks.nl
+  language: nl
+  site_root: https://biologische-hondensnacks.nl
+content:
+  navigation_label: Behoeften
+  route_root: /voor-gevoelige-honden/
+  include:
+    - /voor-gevoelige-honden/
+    - /voor-gevoelige-honden/hypoallergene-hondensnacks/
+    - /voor-gevoelige-honden/mono-eiwit-hondensnacks/
+    - /voor-gevoelige-honden/graanvrije-hondensnacks/
+    - /voor-gevoelige-honden/hondensnacks-gevoelige-maag/
+    - /voor-gevoelige-honden/vetarme-hondensnacks/
+  tracking_dir: .content/behoeften
+  draft_robots: noindex,follow
+workflow:
+  analysis: .agents/workflows/behoeften-analysis.md
+  production: .agents/workflows/behoeften-content.md
+  modes: [AUDIT, CLUSTER_AUDIT, PUBLISH_REVIEW]
+  existing_page_requires_audit: true
+  publish_review_required: true
+  human_validation_required: true
+  auto_indexation: false
+  auto_merge: false
+  reuse_existing_skills: true
+  machine_check: npm run check
+quality:
+  language: nl
+  medical_claims_require_sourcing: true
+  prohibit_fabricated_vet_advice: true
+  prohibit_fabricated_product_tests: true
+  prohibit_unsourced_allergy_claims: true
+  prohibit_ai_slop: true
+  prohibit_fixed_heading_or_word_quotas: true
+  preserve_existing_value: true
+  check_cross_cluster_cannibalization: true
