@@ -1,0 +1,38 @@
+name: Validate Behoeften editorial pages
+on:
+  push:
+    paths:
+      - 'voor-gevoelige-honden/**'
+      - '.content/behoeften/**'
+      - '.agents/workflows/behoeften-*.md'
+      - 'behoeften-workflow.config.yaml'
+      - 'scripts/check_behoeften.mjs'
+      - 'scripts/apply_behoeften_content.mjs'
+      - 'scripts/build-preserving-guides.mjs'
+      - '.github/workflows/validate-behoeften.yml'
+  pull_request:
+    paths:
+      - 'voor-gevoelige-honden/**'
+      - '.content/behoeften/**'
+      - '.agents/workflows/behoeften-*.md'
+      - 'behoeften-workflow.config.yaml'
+      - 'scripts/check_behoeften.mjs'
+      - 'scripts/build-preserving-guides.mjs'
+      - '.github/workflows/validate-behoeften.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check Behoeften structure and draft indexation
+        run: node scripts/check_behoeften.mjs
+      - name: Verify authored content matches reviewed source
+        run: node scripts/apply_behoeften_content.mjs --check
+      - name: Check project HTML
+        run: npm run check

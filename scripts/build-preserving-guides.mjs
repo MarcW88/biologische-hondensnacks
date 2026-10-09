@@ -3,7 +3,7 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 
 const root = path.resolve(import.meta.dirname, "..");
-const authoredRoots = [path.join(root, "gidsen"), path.join(root, "soorten")];
+const authoredRoots = [path.join(root, "gidsen"), path.join(root, "soorten"), path.join(root, "voor-gevoelige-honden")];
 
 function snapshotDirectory(dir) {
   const files = new Map();
@@ -58,5 +58,5 @@ const preservedCount = authoredSnapshots.reduce(
   0,
 );
 console.log(
-  `PASS: preserved ${preservedCount} authored files under gidsen/ and soorten/ before shared navigation sync.`,
+  `PASS: preserved ${preservedCount} authored files under gidsen/, soorten/ and voor-gevoelige-honden/ before shared navigation sync.`,
 );
