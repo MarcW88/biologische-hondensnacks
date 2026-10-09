@@ -1,9 +1,8 @@
-# AUDIT — mono-eiwit-hondensnacks
-2026-10-09 · original inspected: /voor-gevoelige-honden/mono-eiwit-hondensnacks/
-Decision: LIGHT_UPDATE (current page has distinct scenarios and valid noncommercial explanatory value; don't discard).
-Skills applied: content-audit; seo-content-audit; search-intent; jobs-to-be-done; affiliate-value; internal-linking-audit; anti-ai-slop; editorial-qa.
-Intent: select or exclude a mono-protein treat in light of a dog's known ingredients and medical context, not choose the "best" product without verified candidates.
-Distinction: /gidsen/wat-is-mono-eiwit/ explains the concept; /eiwit/ classifies animal sources; /soorten/ groups types. Behoeften explains suitability and decision gates.
-Value to preserve: scenario breakdown, manufacturer question, three fictional label examples, distinctions new protein/hydrolysed diet, medical warning, FAQ and sourcing.
-Gaps: no demonstrated live NL SERP study; no GSC or analytics; no independently verified available treat shortlist or primary manufacturer spec; examples are fictional and labeled so. These gaps bar a claim of comprehensive SEO/product comparison.
-Decision and constraint: retain page, remove overconfidence; commission-independent recommendations; keep noindex.
+# AUDIT — mono-eiwit-hondensnacks (2026-10-09)
+Method: original .agents/skills/usage-analysis-workflow/SKILL.md, read directly. Applied content-audit, search-intent, jobs-to-be-done, affiliate-value, fact-check, internal linking and anti-ai-slop.
+Decision: LIGHT_UPDATE. Preserve actual Dutch decision tree, illustrative table and vet cautions.
+Current Dutch search results: product-category listings, single-protein treats and seller claims; sampled Monopets Fresh Duck, Chewies Mono-Eiwit at Zooplus, Silly Dog hypoallergenic category (https://monopets.nl/hondenvoer/snacks/fresh-duck-snacks/ ; https://www.zooplus.nl/shop/honden/kauwsnack/drops_snoepjes/snoepjes/572873 ; https://sillydog.nl/collections/hypoallergene-snacks).
+Intent: evaluate whether one-animal-protein treats suit dietary constraints; readers also want concrete candidates. This is search sampling, not exhaustive rankings or measured volumes.
+JTBD HYPOTHESIS (not interviews): when buying reward treats while monitoring animal protein exposures, gain enough evidence to distinguish a straightforward source from an unsupported allergy guarantee.
+Existing gaps: no real-world examples, no independent product studies, repeated contraindication wording; sidebar was generic (fixed earlier).
+Boundary: /gidsen/wat-is-mono-eiwit/ explains terminology, /voor-gevoelige-honden/ answers needs, /eiwit/ organizes protein source.
