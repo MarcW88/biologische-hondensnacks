@@ -28,6 +28,18 @@
       "status": "UNVERIFIED",
       "source": null,
       "action": "Do not assert or recommend without veterinary/product evidence"
+    },
+    {
+      "claim": "Monopets offers Fresh Duck Snacks with eend as claimed only animal protein",
+      "status": "PARTIAL",
+      "source": "https://monopets.nl/hondenvoer/snacks/fresh-duck-snacks/",
+      "limitations": "Seller self-description; no independent ingredient or cross-contact verification"
+    },
+    {
+      "claim": "Zooplus Chewies mono-eiwit training treats listing includes meat, potato, salmon oil, vegetables and other components",
+      "status": "PARTIAL",
+      "source": "https://www.zooplus.nl/shop/honden/kauwsnack/drops_snoepjes/snoepjes/572873",
+      "limitations": "Retailer description, formulation/variant can change"
     }
   ]
 }
