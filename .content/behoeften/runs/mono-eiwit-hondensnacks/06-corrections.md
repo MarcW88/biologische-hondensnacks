@@ -1,5 +1,6 @@
-# CORRECTION LOG
-Earlier iterations already replaced an empty placeholder with a substantive evidence-backed article and more concrete label examples.
-Current work: replaced workflow stub with full skill instructions and created genuinely inspectable audit, brief, claim-register and publish-review artefacts.
-No new product/clinical statement introduced during this corrective workflow setup.
-Remaining failures are explicitly open in 05-review.md; CI must not manufacture their closure.
+# CORRECTIONS — 2026-10-09
+Audit found research/value gap: examples of actual market listings absent.
+Content workflow inserted sourced supplier examples for Monopets Fresh Duck and Chewies Mono-Eiwit Training; caveat explicitly separates seller claims from medical evidence.
+Claims gate: product claims are attributed to seller; no unsupported claims of suitability for allergic dogs.
+No unrelated changes or fabricated ratings, prices or firsthand experience.
+Source JSON and HTML article synchronized. Next: run technical CI, check browser views and editorial signoff before indexation.
