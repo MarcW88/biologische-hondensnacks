@@ -186,3 +186,14 @@ Pour toute création ou réécriture de `/methode-de-test/`, `/comment-nous-comp
 7. `/mentions-legales/` reste `LEGAL_PENDING` tant que les informations de l’éditeur, de l’hébergeur, des traitements de données et autres données légales n’ont pas été confirmées.
 8. Exécuter `fact-check`, `affiliate-value` lorsque pertinent, `natural-writing`, `humanizer`, `general-writing`, `anti-ai-slop`, `internal-linking-audit`, `editorial-qa`, puis `validate_trust_workflow.py`.
 9. Conserver `noindex,follow` jusqu’à validation humaine explicite ; une validation éditoriale n’entraîne jamais automatiquement l’indexation.
+
+
+## Production éditoriale — Behoeften
+
+Le libellé « Behoeften » dans la navigation correspond aux pages `/voor-gevoelige-honden/` (ne pas créer de nouveau chemin `/behoeften/`).
+
+Pour toute page de ce cluster, consulter `behoeften-workflow.config.yaml` et n'utiliser que ces deux orchestrateurs :
+1. **Analyse / audit / revue de publication** : `.agents/workflows/behoeften-analysis.md` (`AUDIT`, `CLUSTER_AUDIT`, `PUBLISH_REVIEW`).
+2. **Rédaction / correction** : `.agents/workflows/behoeften-content.md`, après l'audit d'une page existante.
+
+Réutiliser les skills spécialisés déjà présents dans `.agents/skills/`. La séquence est audit → décision → rédaction ciblée → analyse et correction → validation humaine. Contenus en néerlandais, prudence vétérinaire et sourcing de toutes les allégations sensibles. Préserver `noindex,follow` jusqu'à approbation explicite ; ne pas indexer, merger ou republier automatiquement.
