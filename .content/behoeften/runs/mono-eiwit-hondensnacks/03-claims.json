@@ -1,0 +1,33 @@
+{
+  "checked_on": "2026-10-09",
+  "method": "Sources manually opened and compared; no product laboratory testing",
+  "claims": [
+    {
+      "claim": "Treats should not exceed 10% of calories for an average healthy adult dog",
+      "status": "CONFIRMED",
+      "source": "https://wsava.org/wp-content/uploads/2024/06/Feeding-treats-to-your-dog-v2.pdf",
+      "limitations": "Not an individualized allowance for dogs with disease or veterinary diets"
+    },
+    {
+      "claim": "In a vet-led elimination challenge diet, ordinary treats and flavored products can compromise the result",
+      "status": "CONFIRMED",
+      "source": "https://vcahospitals.com/know-your-pet/implementing-an-elimination-challenge-diet-trial-dog"
+    },
+    {
+      "claim": "OTC limited ingredient products may contain undeclared protein due to cross-contamination",
+      "status": "CONFIRMED",
+      "source": "https://vcahospitals.com/know-your-pet/implementing-an-elimination-challenge-diet-trial-dog"
+    },
+    {
+      "claim": "Novel and hydrolyzed protein diets have different use and require individualized veterinary selection",
+      "status": "CONFIRMED",
+      "source": "https://www.merckvetmanual.com/management-and-nutrition/nutrition-small-animals/nutrition-in-disease-management-in-small-animals"
+    },
+    {
+      "claim": "Any specific mono-eiwit treat is clinically suitable for an allergic dog",
+      "status": "UNVERIFIED",
+      "source": null,
+      "action": "Do not assert or recommend without veterinary/product evidence"
+    }
+  ]
+}

@@ -7,6 +7,9 @@ on:
       - '.agents/workflows/behoeften-*.md'
       - 'behoeften-workflow.config.yaml'
       - 'scripts/check_behoeften.mjs'
+      - 'scripts/validate_behoeften_run.mjs'
+      - '.agents/skills/behoeften-*/**'
+      - '.content/behoeften/runs/**'
       - 'scripts/apply_behoeften_content.mjs'
       - 'scripts/build-preserving-guides.mjs'
       - '.github/workflows/validate-behoeften.yml'
@@ -17,6 +20,9 @@ on:
       - '.agents/workflows/behoeften-*.md'
       - 'behoeften-workflow.config.yaml'
       - 'scripts/check_behoeften.mjs'
+      - 'scripts/validate_behoeften_run.mjs'
+      - '.agents/skills/behoeften-*/**'
+      - '.content/behoeften/runs/**'
       - 'scripts/build-preserving-guides.mjs'
       - '.github/workflows/validate-behoeften.yml'
   workflow_dispatch:
@@ -34,5 +40,7 @@ jobs:
         run: node scripts/check_behoeften.mjs
       - name: Verify authored content matches reviewed source
         run: node scripts/apply_behoeften_content.mjs --check
+      - name: Verify editorial run evidence
+        run: node scripts/validate_behoeften_run.mjs
       - name: Check project HTML
         run: npm run check
