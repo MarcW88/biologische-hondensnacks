@@ -188,12 +188,18 @@ Pour toute création ou réécriture de `/methode-de-test/`, `/comment-nous-comp
 9. Conserver `noindex,follow` jusqu’à validation humaine explicite ; une validation éditoriale n’entraîne jamais automatiquement l’indexation.
 
 
-## Production éditoriale — Behoeften
+## Production éditoriale — Behoeften : skills originaux, sans substitut
 
-Le libellé « Behoeften » dans la navigation correspond aux pages `/voor-gevoelige-honden/` (ne pas créer de nouveau chemin `/behoeften/`).
+Le menu « Behoeften » correspond aux URLs `/voor-gevoelige-honden/` et à leurs pages filles, **pas** à `/usages/`.
 
-Pour toute page de ce cluster, consulter `behoeften-workflow.config.yaml` et n'utiliser que ces deux orchestrateurs :
-1. **Analyse / audit / revue de publication** : `.agents/workflows/behoeften-analysis.md` (`AUDIT`, `CLUSTER_AUDIT`, `PUBLISH_REVIEW`).
-2. **Rédaction / correction** : `.agents/workflows/behoeften-content.md`, après l'audit d'une page existante.
+Appliquer directement les fichiers d'origine déjà présents, identiques aux copies de `MarcW88/bloc-notes-numerique` :
+1. `.agents/skills/usage-analysis-workflow/SKILL.md` — modes `AUDIT`, `CLUSTER_AUDIT`, `PUBLISH_REVIEW`.
+2. `.agents/skills/usage-content-workflow/SKILL.md` — travail éditorial seulement après la décision d'audit.
 
-Réutiliser les skills spécialisés déjà présents dans `.agents/skills/`. La séquence est audit → décision → rédaction ciblée → analyse et correction → validation humaine. Contenus en néerlandais, prudence vétérinaire et sourcing de toutes les allégations sensibles. Préserver `noindex,follow` jusqu'à approbation explicite ; ne pas indexer, merger ou republier automatiquement.
+L'agent doit lire et appliquer les skills spécialisés déjà présents, tels quels : `content-audit`, `seo-content-audit`, `search-intent`, `seo-keyword`, `jobs-to-be-done`, `content-refresh`, `fact-check`, `evidence-based-reviews` conditionnel, `affiliate-value`, `content-brief-authoring`, `content-and-copy`, `internal-linking-audit`, `natural-writing`, `general-writing`, `humanizer`, `anti-ai-slop`, `seo-onpage`, `seo-technical`, `editorial-qa`.
+
+**Seule adaptation de périmètre (pas de remplacement de méthodologie)** : là où le skill Usage mentionne `/usages/`, comprendre `/voor-gevoelige-honden/` ; là où il oppose usages, comparatifs, guides et marques, distinguer besoin de l'animal (`/voor-gevoelige-honden/`), famille de snacks (`/soorten/`), explication (`/gidsen/`), ingrédients (`/ingredienten/`) et source protéique (`/eiwit/`). Les exemples de bloc-notes/E-Ink ne constituent **pas** des recommandations vétérinaires. Les claims nutritionnels ou médicaux doivent être vérifiés sur des sources pertinentes et aucune expérience produit ne doit être fabriquée.
+
+Ne plus utiliser `.agents/skills/behoeften-analysis-workflow/`, `.agents/skills/behoeften-content-workflow/` ni `.agents/workflows/behoeften-*.md` comme substituts. Les anciens documents restent de l'historique, pas la source d'autorité.
+
+**Important :** enregistrer les sorties réellement produites par chaque étape, et non un document récapitulatif reconstruit qui affirme sans preuve que des skills ont été exécutés. Conserver `noindex,follow` jusqu'à validation humaine explicite.
