@@ -15,8 +15,8 @@ content:
   tracking_dir: .content/behoeften
   draft_robots: noindex,follow
 workflow:
-  analysis: .agents/workflows/behoeften-analysis.md
-  production: .agents/workflows/behoeften-content.md
+  analysis: .agents/skills/behoeften-analysis-workflow/SKILL.md
+  production: .agents/skills/behoeften-content-workflow/SKILL.md
   modes: [AUDIT, CLUSTER_AUDIT, PUBLISH_REVIEW]
   existing_page_requires_audit: true
   publish_review_required: true
