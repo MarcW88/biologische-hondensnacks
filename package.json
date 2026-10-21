@@ -6,9 +6,9 @@
     "build": "node scripts/build-preserving-guides.mjs",
     "check": "node scripts/check.mjs",
     "check:snacks": "node scripts/check_snacks.mjs",
-    "visual:install": "playwright install chromium",
+    "visual:install": "node scripts/install-browser.mjs",
     "visual:site": "node scripts/visual-review.mjs",
-    "test:design": "node scripts/test-design.mjs"
+    "test:design": "node --import ./scripts/playwright-runtime.mjs scripts/test-design.mjs"
   },
   "devDependencies": {
     "@playwright/test": "^1.63.0",

@@ -23,7 +23,8 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - run: npx playwright install --with-deps chromium
+      - run: npx playwright install-deps chromium
+      - run: npm run visual:install
       - run: npm run check
       - run: node scripts/check_guides.mjs
       - run: npm run check:snacks

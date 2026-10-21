@@ -12,4 +12,4 @@ jobs:
         with:
           python-version: '3.12'
       - name: Check every original file and every content entry point
-        run: python scripts/check_shared_routing.py
+        run: python scripts/check_agent_installation.py

@@ -19,6 +19,7 @@ walk(root);
 routes.sort((a, b) => a === '/' ? -1 : b === '/' ? 1 : a.localeCompare(b));
 // The imported skill stays untouched; use its supported route arguments.
 const child = spawn(process.execPath, [
+  '--import', './scripts/playwright-runtime.mjs',
   '.agents/skills/site-design-review/scripts/run-visual-review.mjs',
   ...routes.flatMap(route => ['--route', route]), ...process.argv.slice(2)
 ], { cwd: root, stdio: 'inherit' });

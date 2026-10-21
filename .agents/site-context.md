@@ -72,3 +72,43 @@ Conserver les registres originaux `.content/usages/`, `.content/trust/`,
 registres snack/behoeften servent d’entrée historique, pas de validation courante.
 Toute commande technique absente ou incompatible est un blocage à documenter et
 à résoudre avant PUBLISH_REVIEW, jamais un contrôle implicitement réussi.
+
+## Dépendances installées et commandes locales
+
+Les 66 fichiers d’origine restent verrouillés et inchangés. Les auxiliaires
+manquants proviennent de leurs dépôts exacts et sont verrouillés séparément dans
+`.agents/support-files.lock.json` (source, commit, chemin et SHA256).
+Contrôle complet : `python scripts/check_agent_installation.py`.
+
+- Maillage : `scripts/internal_link_audit.py`, copie exacte de dageno-agents.
+  Les exports HTML doivent résoudre `<base href>` : utiliser
+  `scripts/export_audit_html.py`, puis le mode import original. Aucun fichier du
+  site n’est modifié par cet export. Ne pas utiliser les résultats erronés d’un
+  fetcher qui ignore le base HTML.
+- SEO technique : les deux références manquantes sont installées à leur chemin.
+- Anti-ai-slop : paquet auxiliaire complet ; cohérence vérifiée avec
+  `python .agents/skills/anti-ai-slop/tools/validators/check_all.py --root
+  .agents/skills/anti-ai-slop --profile pack-self --format markdown`.
+- Écriture : références cadence et compatibility-examples restaurées.
+- SEO drift : seuils et prérequis d’origine disponibles ; les scripts et références
+  complémentaires sont sous `.agents/support/seranking/`. Se placer dans ce
+  répertoire pour les commandes qui utilisent ses chemins relatifs. SE Ranking
+  MCP est un prérequis externe à connecter pour la fonctionnalité correspondante ;
+  Google et Firecrawl exigent leurs propres accès lorsqu’ils sont utilisés.
+- Commandes `validate_brands.py`, `validate_comparisons.py`,
+  `validate_usage_workflow.py`, `validate_deal_workflow.py`,
+  `validate_trust_workflow.py` : adaptateurs machine locaux au HTML néerlandais.
+  Ils ne reprennent pas les catalogues/URLs français de Bloc-notes et ne valent
+  jamais validation éditoriale. Leur échec sur un brouillon signifie contenu à
+  compléter, pas dépendance absente. Registres et preuves restent ceux demandés
+  par les agents originaux. Ils ne modifient aucune page ni son indexation.
+- Playwright : `npm run visual:install` ; l’adaptateur runtime peut utiliser le
+  navigateur de secours installé si l’archive habituelle est indisponible.
+  Le script du skill original reste inchangé. `npm run visual:site` et
+  `npm run test:design` passent par cet adaptateur.
+
+Les anciens générateurs Python des Actions héritées sont une application
+française distincte et ne font pas partie de l’installation des agents. Ils ne
+sont ni remplacés par de faux générateurs ni certifiés par le contrôle
+installation. Le contrôle commun disponible via shared-site-readiness vérifie
+installation, build et structure ; il ne génère pas de nouveaux articles.

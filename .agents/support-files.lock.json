@@ -1,0 +1,869 @@
+{
+  "description": "Supplemental original dependencies; shared-agent originals remain unchanged",
+  "files": {
+    ".agents/skills/internal-linking-audit/LICENSE": {
+      "repository": "dageno-agents/internal-linking-audit",
+      "commit": "5cb949f5d1eb8210505b6d34ca943a6851f9c220",
+      "source_path": "LICENSE",
+      "sha256": "dcb8beed7068ac1ab086fe39fc9d117820e4b952d2b94315b8e66d43b2c21d49"
+    },
+    ".agents/skills/internal-linking-audit/references/example-config.json": {
+      "repository": "dageno-agents/internal-linking-audit",
+      "commit": "5cb949f5d1eb8210505b6d34ca943a6851f9c220",
+      "source_path": "references/example-config.json",
+      "sha256": "49b965b0b8195d9def80a49b7faa787f73b5b41e1b42705338490f253adc5d42"
+    },
+    ".agents/skills/internal-linking-audit/references/firecrawl.md": {
+      "repository": "dageno-agents/internal-linking-audit",
+      "commit": "5cb949f5d1eb8210505b6d34ca943a6851f9c220",
+      "source_path": "references/firecrawl.md",
+      "sha256": "73d6a930fc5fab9ba9fc3174ba624318a2972c67a37cf65d685609da76a83ad1"
+    },
+    ".agents/skills/internal-linking-audit/references/internal-linking-rules.md": {
+      "repository": "dageno-agents/internal-linking-audit",
+      "commit": "5cb949f5d1eb8210505b6d34ca943a6851f9c220",
+      "source_path": "references/internal-linking-rules.md",
+      "sha256": "210e39d8f38ffa501785b9cd762ff6134cf4873034deaab49660aab9d6f5d01a"
+    },
+    ".agents/skills/internal-linking-audit/scripts/internal_link_audit.py": {
+      "repository": "dageno-agents/internal-linking-audit",
+      "commit": "5cb949f5d1eb8210505b6d34ca943a6851f9c220",
+      "source_path": "scripts/internal_link_audit.py",
+      "sha256": "6a15525f8e126c8abe95042c2596719afe09cd8f04a4dfa67142e410bdb44e53"
+    },
+    ".agents/skills/anti-ai-slop/.agents/skills/coherence-reviewer/SKILL.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": ".agents/skills/coherence-reviewer/SKILL.md",
+      "sha256": "62bf2889ac79cfbe19efce96c3e9a640146fd4f74d68927147b2b1fc12672c62"
+    },
+    ".agents/skills/anti-ai-slop/.agents/skills/spec-first-anti-slop/SKILL.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": ".agents/skills/spec-first-anti-slop/SKILL.md",
+      "sha256": "8c1f3cb4f93aa0ae6445ac21936bb5cb382249a343d2fce7c1cf43cb5b92a9d2"
+    },
+    ".agents/skills/anti-ai-slop/.specify/memory/architecture-principles.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": ".specify/memory/architecture-principles.md",
+      "sha256": "9c8c4eaf0d32f848e9f1aa3e640fe83f500ae1300d523d19a3906e6eaa9ea2e9"
+    },
+    ".agents/skills/anti-ai-slop/.specify/memory/constitution.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": ".specify/memory/constitution.md",
+      "sha256": "d80de6a3b91c4bdb72a6553c852ccde08de148c31e0665830a4769edf7203304"
+    },
+    ".agents/skills/anti-ai-slop/.specify/memory/glossary.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": ".specify/memory/glossary.md",
+      "sha256": "b80d1955b075d0a08ec52101bd48c3229180bf6036d2642bb83c48d52e25d128"
+    },
+    ".agents/skills/anti-ai-slop/.specify/memory/product-principles.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": ".specify/memory/product-principles.md",
+      "sha256": "d983d1a483680d3847982fe22f1ae28bf641aef37eb76914063f4044f17a550c"
+    },
+    ".agents/skills/anti-ai-slop/.specify/templates/overrides/checklist-template.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": ".specify/templates/overrides/checklist-template.md",
+      "sha256": "775f4182a92756c82d779f4daf61d8bcb2021659e0451d5d61000268bdbb4fdd"
+    },
+    ".agents/skills/anti-ai-slop/.specify/templates/overrides/plan-template.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": ".specify/templates/overrides/plan-template.md",
+      "sha256": "5f09ed4f96bf05c784438e30a43da2972b952cf5bc5de92ceeeb4cab6d8e1244"
+    },
+    ".agents/skills/anti-ai-slop/.specify/templates/overrides/spec-template.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": ".specify/templates/overrides/spec-template.md",
+      "sha256": "97befb9269535b88e855dccf6a4b65e253177d138fffd9b4c18b3871b3d0b72a"
+    },
+    ".agents/skills/anti-ai-slop/.specify/templates/overrides/tasks-template.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": ".specify/templates/overrides/tasks-template.md",
+      "sha256": "1b7982ec96a9ee5d319c4d84ba25a60e3432d54b69c08ed25766bb787587bcca"
+    },
+    ".agents/skills/anti-ai-slop/AGENTS.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "AGENTS.md",
+      "sha256": "a3971b2b6bbf5b8b3662946f439b73aea7d53408a07e70f8425e133f34c3fd3b"
+    },
+    ".agents/skills/anti-ai-slop/CHANGELOG.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "CHANGELOG.md",
+      "sha256": "87903df7c23df462bbd3c0f10fdbe0fdcd265de3de5f152c21d8b1628940c1e2"
+    },
+    ".agents/skills/anti-ai-slop/CLAUDE.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "CLAUDE.md",
+      "sha256": "8f83300b5f5dc6d149a69b3c1fd61c986aa4d43390cf36c21e811284edd64cd1"
+    },
+    ".agents/skills/anti-ai-slop/PROMPTS.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "PROMPTS.md",
+      "sha256": "06705f117c4cf846ac624cb379f1b06a9ffeeca7fd181a3be8358f0da40ae8f2"
+    },
+    ".agents/skills/anti-ai-slop/README.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "README.md",
+      "sha256": "c4df61ddcc573f31cfd33cd63c96699d143d07a67f1dd6962299cd22f57c00c6"
+    },
+    ".agents/skills/anti-ai-slop/VERSION": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "VERSION",
+      "sha256": "1f930dd1f133c1f97a94fe3acb8db34372cf4c01ffdb2b3ff4ca72f9494121e9"
+    },
+    ".agents/skills/anti-ai-slop/assets/workflow.svg": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "assets/workflow.svg",
+      "sha256": "8bef34bd36f0a4c6fb77091eb9b101cd7cc5522317bbc97badb90eb349a128c8"
+    },
+    ".agents/skills/anti-ai-slop/checklists/ai-slop.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "checklists/ai-slop.md",
+      "sha256": "0e535c4932ba2be313ddbff2b1ee7cae001d5975be8c3c3fe0cbfff84aeab104"
+    },
+    ".agents/skills/anti-ai-slop/checklists/coherence.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "checklists/coherence.md",
+      "sha256": "5c780d4dd7cbb3e26f45ec4b8e8590fabcbf4834f78b12c11188537326efd684"
+    },
+    ".agents/skills/anti-ai-slop/checklists/dependency.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "checklists/dependency.md",
+      "sha256": "f6d561c0cc78ea8d69f18152d18c67105429f5880a3891705461ae4d73cb1fa8"
+    },
+    ".agents/skills/anti-ai-slop/checklists/output_design_addendum.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "checklists/output_design_addendum.md",
+      "sha256": "5472cb3adb46669e4c8faaccce2835234911b10557117d822b4a1c1660c63d6c"
+    },
+    ".agents/skills/anti-ai-slop/checklists/pr-review.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "checklists/pr-review.md",
+      "sha256": "8ae6774ee64110de0848ecccc9a0d70ef54c4e3488863e66986d4bbbee092eb9"
+    },
+    ".agents/skills/anti-ai-slop/checklists/release.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "checklists/release.md",
+      "sha256": "f57fda4af4a69b18dced6f733e789b82830899faa592aeed01bef6c6d92f3081"
+    },
+    ".agents/skills/anti-ai-slop/checklists/requirements.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "checklists/requirements.md",
+      "sha256": "57a01412a507133f3a12169cae25b36d2050a5b56551209274fa8dfa3954bc8d"
+    },
+    ".agents/skills/anti-ai-slop/checklists/security.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "checklists/security.md",
+      "sha256": "90ed84e2fad54a34e8976ad5872bc09e995174e16cd6928d127946800b2ea101"
+    },
+    ".agents/skills/anti-ai-slop/codex/prompts/00-apply-pack-to-existing-repo.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "codex/prompts/00-apply-pack-to-existing-repo.md",
+      "sha256": "a2b93f8decebf1937f8d2f5d5acbc02524bd1996730d245d98c7d4c312c9b0aa"
+    },
+    ".agents/skills/anti-ai-slop/codex/prompts/01-run-coherence-check.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "codex/prompts/01-run-coherence-check.md",
+      "sha256": "b721b6450cc6b9a8a6778d3bf617c2fe79bb8daf2044c7c2fbf98a4e98f9f6e7"
+    },
+    ".agents/skills/anti-ai-slop/codex/prompts/02-pr-review.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "codex/prompts/02-pr-review.md",
+      "sha256": "edb5e7b2aba55211e3b5f9d14d064059be8ba6cb2ed4ac6d372daae6e559964a"
+    },
+    ".agents/skills/anti-ai-slop/dependency-baseline.json": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "dependency-baseline.json",
+      "sha256": "e0d02c265d5aed756067703a8ded6462aa450eb44d22d3cd19534c3b43ec46d9"
+    },
+    ".agents/skills/anti-ai-slop/dimensions/academic_reporting.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "dimensions/academic_reporting.md",
+      "sha256": "dfcf2ecc0bbfb07d03637d2535dbebd8acfcc0627ce995c9566e589f8ad42f09"
+    },
+    ".agents/skills/anti-ai-slop/dimensions/code_developer_outputs.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "dimensions/code_developer_outputs.md",
+      "sha256": "0dac5ee2120665dfd6b50c7b34f6444fc4fbe2d21006f0460665f82e6644b4ec"
+    },
+    ".agents/skills/anti-ai-slop/dimensions/data_charts_dashboards.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "dimensions/data_charts_dashboards.md",
+      "sha256": "2f318165d380c8790c216b1959726d285b671d5a3af9cc05c627804547f0a7dc"
+    },
+    ".agents/skills/anti-ai-slop/dimensions/emotional_social.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "dimensions/emotional_social.md",
+      "sha256": "02515ce48e9f97206e922cbe6895eae9908b090203f91ebc01fbadaa827851c8"
+    },
+    ".agents/skills/anti-ai-slop/dimensions/images_visuals.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "dimensions/images_visuals.md",
+      "sha256": "9307f9ab0ad4aba5adf5f63203be665c0d56ec845fe28b71824ac452ee959964"
+    },
+    ".agents/skills/anti-ai-slop/dimensions/localization_register.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "dimensions/localization_register.md",
+      "sha256": "0f568bf8115cd67e79075c685b8e311c1c6d5684677a8261a811212bb8612580"
+    },
+    ".agents/skills/anti-ai-slop/dimensions/marketing_brand.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "dimensions/marketing_brand.md",
+      "sha256": "758eed6ab9028b512a8395c1a105d53f1ea47c93245f751cb3bdfe5ecabd7996"
+    },
+    ".agents/skills/anti-ai-slop/dimensions/operational_plans.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "dimensions/operational_plans.md",
+      "sha256": "fcaf69ec30d018d5da9b9ddbbbb3f4c29b907cc99e20f09af03434b6e8a3e9a8"
+    },
+    ".agents/skills/anti-ai-slop/dimensions/presentation_decks.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "dimensions/presentation_decks.md",
+      "sha256": "abb9ee38e95c6a21059606d218ecabab1034f06c660b17f83a0c075d92b700e6"
+    },
+    ".agents/skills/anti-ai-slop/dimensions/web_ui_design.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "dimensions/web_ui_design.md",
+      "sha256": "d55c3f26537b15ed546dbfae65553725ff933ab2aebc8672e459347161d4ece7"
+    },
+    ".agents/skills/anti-ai-slop/docs/assets/readme-teaser.svg": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "docs/assets/readme-teaser.svg",
+      "sha256": "64fabf6cf15035600a0c7d904291b6fcdd2242321e7abbbd9b7a1d39f0540b47"
+    },
+    ".agents/skills/anti-ai-slop/docs/mdpr-readme/accessibility-review.json": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "docs/mdpr-readme/accessibility-review.json",
+      "sha256": "c22ef0d8f48889517a1000b7a6aab414e68d679a66671197499daba4eb2713a3"
+    },
+    ".agents/skills/anti-ai-slop/docs/mdpr-readme/citation-review.json": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "docs/mdpr-readme/citation-review.json",
+      "sha256": "c4d6dd198ff35f3bf58705a5a0813be64fa6355691ef56e8da2725176aeb7462"
+    },
+    ".agents/skills/anti-ai-slop/docs/mdpr-readme/evidence-ledger.json": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "docs/mdpr-readme/evidence-ledger.json",
+      "sha256": "b3c6f0392b170f130c41f2cb943019034b5f4c0f988cbef81ee5e7444573e6d7"
+    },
+    ".agents/skills/anti-ai-slop/docs/mdpr-readme/narrative-review.json": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "docs/mdpr-readme/narrative-review.json",
+      "sha256": "26b039a92cf2ceb9b2b8e23f01936aa9246b6a77cf4f536e79c3ebadea751ef3"
+    },
+    ".agents/skills/anti-ai-slop/docs/mdpr-teaser/accessibility-review.json": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "docs/mdpr-teaser/accessibility-review.json",
+      "sha256": "2464908d987f3f8eaf86feb4e468d4a44864252d46e5a5d1f718858d26bef5de"
+    },
+    ".agents/skills/anti-ai-slop/docs/mdpr-teaser/citation-review.json": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "docs/mdpr-teaser/citation-review.json",
+      "sha256": "c4d6dd198ff35f3bf58705a5a0813be64fa6355691ef56e8da2725176aeb7462"
+    },
+    ".agents/skills/anti-ai-slop/docs/mdpr-teaser/evidence-ledger.json": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "docs/mdpr-teaser/evidence-ledger.json",
+      "sha256": "b3c6f0392b170f130c41f2cb943019034b5f4c0f988cbef81ee5e7444573e6d7"
+    },
+    ".agents/skills/anti-ai-slop/docs/mdpr-teaser/narrative-review.json": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "docs/mdpr-teaser/narrative-review.json",
+      "sha256": "4bc4e56a933d16369420f139a5d1298afba0d9627301a84a4dd898149e28db23"
+    },
+    ".agents/skills/anti-ai-slop/docs/mdpr-teaser/teaser-spec.json": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "docs/mdpr-teaser/teaser-spec.json",
+      "sha256": "19237aced4945ef8043765c222b4826965c056b44246bfdef92ecd838f28c961"
+    },
+    ".agents/skills/anti-ai-slop/docs/mdpr-teaser/teaser.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "docs/mdpr-teaser/teaser.md",
+      "sha256": "663044e3e9e10f36d56e54bcd5ccc401660ec0309d686d919ec1d523f62cc26b"
+    },
+    ".agents/skills/anti-ai-slop/docs/process/codex-workflows.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "docs/process/codex-workflows.md",
+      "sha256": "8c5f750a9fa958db862dc065c6b44b8c96104e90c7bf00043e0e03b4bfe330e7"
+    },
+    ".agents/skills/anti-ai-slop/docs/process/implementation-stages.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "docs/process/implementation-stages.md",
+      "sha256": "02c319dfc66de20fb32be222dd1eb7ef20a71a03334287d4fdd18b54c578d2c0"
+    },
+    ".agents/skills/anti-ai-slop/docs/process/migration-guide.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "docs/process/migration-guide.md",
+      "sha256": "1ec941a15e08919a2eb7e99d15ac6535c0ee4f47dee37845b300f0b0bd94c399"
+    },
+    ".agents/skills/anti-ai-slop/docs/process/validation-ladder.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "docs/process/validation-ladder.md",
+      "sha256": "1e1b3d449b65da07b160cc1495b454721af282dd6f81b2a8608010ab01e3ef4b"
+    },
+    ".agents/skills/anti-ai-slop/docs/references/resource-catalog.yaml": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "docs/references/resource-catalog.yaml",
+      "sha256": "323ca5bdd3332f8520d3426ba16bc8fa58e8c62bb919c19a1fefb63f2722a3c6"
+    },
+    ".agents/skills/anti-ai-slop/docs/references/source-catalog.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "docs/references/source-catalog.md",
+      "sha256": "36af8cde1cbd37b6a8326c93091e2858849e813097982efe271e335a7c2d44c8"
+    },
+    ".agents/skills/anti-ai-slop/examples/before_after_patterns.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "examples/before_after_patterns.md",
+      "sha256": "607ef1e0a4ee8e629f71f3b937bfc5f35b8b3a1c7239978a6c8e46f01f5429a7"
+    },
+    ".agents/skills/anti-ai-slop/manifest.txt": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "manifest.txt",
+      "sha256": "0e6570da8dc5bbfa503c05e44cd4ed973ae0524fca3f3ed1ea46745bd13eeeea"
+    },
+    ".agents/skills/anti-ai-slop/research/field_reported_ai_smell_patterns.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "research/field_reported_ai_smell_patterns.md",
+      "sha256": "2957fc79cd8ed14ddb720ee05363af938771cd916d967dc067de6afd955ca018"
+    },
+    ".agents/skills/anti-ai-slop/specs/000-anti-ai-slop-control-plane/adrs/0001-stdlib-validator-control-plane.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "specs/000-anti-ai-slop-control-plane/adrs/0001-stdlib-validator-control-plane.md",
+      "sha256": "7c649e1df966e3c9738655798154c0b2fdec0d1e949471f3c5905c6c0f20a94d"
+    },
+    ".agents/skills/anti-ai-slop/specs/000-anti-ai-slop-control-plane/plan.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "specs/000-anti-ai-slop-control-plane/plan.md",
+      "sha256": "709cc435fbcd84094754d0e8ccfee8c14b95c1d18df13b21f85bbb61594397f7"
+    },
+    ".agents/skills/anti-ai-slop/specs/000-anti-ai-slop-control-plane/spec.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "specs/000-anti-ai-slop-control-plane/spec.md",
+      "sha256": "ddbbfc401631f0790e2af217e5f3ec0817526a94be812bc59385186d3b3c051f"
+    },
+    ".agents/skills/anti-ai-slop/specs/000-anti-ai-slop-control-plane/tasks.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "specs/000-anti-ai-slop-control-plane/tasks.md",
+      "sha256": "80a66eb2004e694e88f45a9b042ad7f1efa126afecefd9e0cb49ae05bd9c3584"
+    },
+    ".agents/skills/anti-ai-slop/specs/_meta/coherence-latest.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "specs/_meta/coherence-latest.md",
+      "sha256": "a3ef54b74999780d9336dc2c25f602e6a21e226f738e66ccd095d652c6557e3c"
+    },
+    ".agents/skills/anti-ai-slop/specs/_meta/evidence/existing-code-scan.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "specs/_meta/evidence/existing-code-scan.md",
+      "sha256": "af7c72714a246296b64e77b2fa49b34e3bca1287343b67d65072f0a7d5fa5e98"
+    },
+    ".agents/skills/anti-ai-slop/templates/design_review_addendum.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "templates/design_review_addendum.md",
+      "sha256": "9db80ef3efc967a772528484c584b814ca1b684e0bf7b055671b96539bb9d3be"
+    },
+    ".agents/skills/anti-ai-slop/templates/rewrite_brief_template.md": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "templates/rewrite_brief_template.md",
+      "sha256": "f718251d3c7350f74f5a477e43c3106371af1a21b9da30f21ec0cdaf9c6db6ea"
+    },
+    ".agents/skills/anti-ai-slop/tests/test_catalog_freshness.py": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "tests/test_catalog_freshness.py",
+      "sha256": "f31ab0fe0dd91374ce4c7ef4d10b0c244cf2d0c4c9abe4149307032988493c5f"
+    },
+    ".agents/skills/anti-ai-slop/tests/test_helper_tools.py": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "tests/test_helper_tools.py",
+      "sha256": "eb55aa7b8d854450c3b37529db5a3ac81d20bed638adf3de2e24623b929f08b5"
+    },
+    ".agents/skills/anti-ai-slop/tests/test_test_layout.py": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "tests/test_test_layout.py",
+      "sha256": "e0b3b04ba407607fabfaf23b8818b4f2765c9c05f42c9aede10f9d6a88be72b8"
+    },
+    ".agents/skills/anti-ai-slop/tests/test_validator_core.py": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "tests/test_validator_core.py",
+      "sha256": "92ddb1aa9cbf27d72d74619a08e40991580c57da4453a46ea3f09d1acaf2c930"
+    },
+    ".agents/skills/anti-ai-slop/tests/test_workflow_examples.py": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "tests/test_workflow_examples.py",
+      "sha256": "aeec7cfcf1b77024f21007b6915b24da9fbe6916a590f2e7e1e338083d003c98"
+    },
+    ".agents/skills/anti-ai-slop/tools/apply_guardrails.py": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "tools/apply_guardrails.py",
+      "sha256": "28b56fca82450890a8cc91bdfe934b8a1220bcd583c30a9a22dd8f2337edc68b"
+    },
+    ".agents/skills/anti-ai-slop/tools/bootstrap_feature.py": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "tools/bootstrap_feature.py",
+      "sha256": "71842df1d68b3a3623b8c5ec04f4dd68e8829514edb53ee6eaa4aa7503c31a2f"
+    },
+    ".agents/skills/anti-ai-slop/tools/repo_inventory.py": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "tools/repo_inventory.py",
+      "sha256": "873b3d3b0ffb43bb3fe31b19954db33820c63912935c230bd7508fc904dc51ab"
+    },
+    ".agents/skills/anti-ai-slop/tools/resource_catalog_freshness.py": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "tools/resource_catalog_freshness.py",
+      "sha256": "023f72bfdbf78fce290a93864afae808594a0f38f4bdd4e7d94442fcbd768279"
+    },
+    ".agents/skills/anti-ai-slop/tools/validators/check_all.py": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "tools/validators/check_all.py",
+      "sha256": "ab44bde51f0041f1b66597c0e395eed7591767d1f71d8e39a30d2bed20358506"
+    },
+    ".agents/skills/anti-ai-slop/tools/validators/check_architecture_boundaries.py": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "tools/validators/check_architecture_boundaries.py",
+      "sha256": "d26aa9c08020618d8185f52e6e114f80205978fc547f27f20cb15043641bc736"
+    },
+    ".agents/skills/anti-ai-slop/tools/validators/check_config_integrity.py": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "tools/validators/check_config_integrity.py",
+      "sha256": "753cb26999b9fe1cf67f0f31f7e3ed425697487d9ecbf1012ad7919b5abdd499"
+    },
+    ".agents/skills/anti-ai-slop/tools/validators/check_dependency_justification.py": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "tools/validators/check_dependency_justification.py",
+      "sha256": "4710674917c98cc7b51de272bb388e264a2782b8802481ef9a8d22659e9d1af9"
+    },
+    ".agents/skills/anti-ai-slop/tools/validators/check_evidence_links.py": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "tools/validators/check_evidence_links.py",
+      "sha256": "fd6570698e73d0fb1b3ce61a39f0196447ecad78a9797136e1e6d3fcb982fd1b"
+    },
+    ".agents/skills/anti-ai-slop/tools/validators/check_glossary_terms.py": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "tools/validators/check_glossary_terms.py",
+      "sha256": "49d673b1f8587c709489cda61915676884dc4a0e5ec6ffcdc299f85b64977407"
+    },
+    ".agents/skills/anti-ai-slop/tools/validators/check_manifest_integrity.py": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "tools/validators/check_manifest_integrity.py",
+      "sha256": "fcbb16bb1181ba30cd6d2bee5a7b5225866b145cb0b05c58d5d98f3534099a80"
+    },
+    ".agents/skills/anti-ai-slop/tools/validators/check_placeholders.py": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "tools/validators/check_placeholders.py",
+      "sha256": "4bf64c66e1fa966eef61d4257f411ba1886868b834776a30d72771b067314f8f"
+    },
+    ".agents/skills/anti-ai-slop/tools/validators/check_resource_catalog_freshness.py": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "tools/validators/check_resource_catalog_freshness.py",
+      "sha256": "694d6c123618cc8ae7f0fc350c7440cdb8c644068f28e671a045cbeab979456b"
+    },
+    ".agents/skills/anti-ai-slop/tools/validators/check_spec_coverage.py": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "tools/validators/check_spec_coverage.py",
+      "sha256": "3f0fad6ee6012afe431c3c0ddc45b67823ad72dd9461789560825616bea07ba5"
+    },
+    ".agents/skills/anti-ai-slop/tools/validators/check_task_traceability.py": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "tools/validators/check_task_traceability.py",
+      "sha256": "55e19cf45485d5fd9d0e998f280812304a3a3b8b688d353564efb8a36f165137"
+    },
+    ".agents/skills/anti-ai-slop/tools/validators/check_template_tokens.py": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "tools/validators/check_template_tokens.py",
+      "sha256": "39562566befc03258398179dfd713697292adfce5b136320fa737cf0cbe12a62"
+    },
+    ".agents/skills/anti-ai-slop/tools/validators/check_vague_language.py": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "tools/validators/check_vague_language.py",
+      "sha256": "9f013aa0db8c093fd3a30e6a1c32341c8a66fcec57cfa3bc923a118b9fe65562"
+    },
+    ".agents/skills/anti-ai-slop/tools/validators/check_workflow_integrity.py": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "tools/validators/check_workflow_integrity.py",
+      "sha256": "674d1219f9fd3617aa93f8b0a885c6bca74f116a8c6eb6c6abd42edad190e4e6"
+    },
+    ".agents/skills/anti-ai-slop/tools/validators/common.py": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": "tools/validators/common.py",
+      "sha256": "a42e32003f24ba80ff937dfd0bb0ab3950d104eaec3a208b15255d4cb3440456"
+    },
+    ".agents/skills/seo-technical/references/audit-template.md": {
+      "repository": "rampstackco/claude-skills",
+      "commit": "a67dd34c609f034c0cfd736a348659bbdf1605bf",
+      "source_path": "skills/seo-technical/references/audit-template.md",
+      "sha256": "1be66990a30a44f6cfac1f6cd89494d513954375571aba48782d110cabc587a6"
+    },
+    ".agents/skills/seo-technical/references/migration-checklist.md": {
+      "repository": "rampstackco/claude-skills",
+      "commit": "a67dd34c609f034c0cfd736a348659bbdf1605bf",
+      "source_path": "skills/seo-technical/references/migration-checklist.md",
+      "sha256": "7f9a4dbdd9653d4a2d8a9c8795376562ac26545568db6f493a21c3f5bc485bb9"
+    },
+    ".agents/licenses/rampstack-LICENSE": {
+      "repository": "rampstackco/claude-skills",
+      "commit": "a67dd34c609f034c0cfd736a348659bbdf1605bf",
+      "source_path": "LICENSE",
+      "sha256": "7957f4b291988f21be7cb75637d2efb6edd0369a95d3814cac7ef931f7f10b7c"
+    },
+    ".agents/skills/seo-drift/references/drift-thresholds.md": {
+      "repository": "seranking/seo-skills",
+      "commit": "fd6d1408f2e6a06454d81c07c29e0f04342eb9ba",
+      "source_path": "skills/seo-drift/references/drift-thresholds.md",
+      "sha256": "4b90fbb0e26162f4b1c06e7856f14a943e2a94a221d5bbbb30ceac9388cdaa1d"
+    },
+    ".agents/support/seranking/LICENSE": {
+      "repository": "seranking/seo-skills",
+      "commit": "fd6d1408f2e6a06454d81c07c29e0f04342eb9ba",
+      "source_path": "LICENSE",
+      "sha256": "be37f39e84329222181a6d75c84b73a514e691d52da9741db864e057ce8e3eee"
+    },
+    ".agents/support/seranking/scripts/crux_history.py": {
+      "repository": "seranking/seo-skills",
+      "commit": "fd6d1408f2e6a06454d81c07c29e0f04342eb9ba",
+      "source_path": "scripts/crux_history.py",
+      "sha256": "6f7246cc31394b67f31b8b96e6a0c761e72ba623de3557e656217f2b510fb5df"
+    },
+    ".agents/support/seranking/scripts/ga4_admin.py": {
+      "repository": "seranking/seo-skills",
+      "commit": "fd6d1408f2e6a06454d81c07c29e0f04342eb9ba",
+      "source_path": "scripts/ga4_admin.py",
+      "sha256": "7aba5e7e48ffae2bebf8c1be1cd28093e10842e3c63121f3f0e803a6e75a43c5"
+    },
+    ".agents/support/seranking/scripts/ga4_report.py": {
+      "repository": "seranking/seo-skills",
+      "commit": "fd6d1408f2e6a06454d81c07c29e0f04342eb9ba",
+      "source_path": "scripts/ga4_report.py",
+      "sha256": "9e965479a1c861510d6d35235a94fa95be13429189af5821d8d076c3e18d1cfa"
+    },
+    ".agents/support/seranking/scripts/google_auth.py": {
+      "repository": "seranking/seo-skills",
+      "commit": "fd6d1408f2e6a06454d81c07c29e0f04342eb9ba",
+      "source_path": "scripts/google_auth.py",
+      "sha256": "51a3ced3852a9232d5ac82e93c8aef1792363d3ae78757290bd1002e9de55bb7"
+    },
+    ".agents/support/seranking/scripts/google_report.py": {
+      "repository": "seranking/seo-skills",
+      "commit": "fd6d1408f2e6a06454d81c07c29e0f04342eb9ba",
+      "source_path": "scripts/google_report.py",
+      "sha256": "c8c3b2393a2e3d6e00717101b838d8a6cb9fb96a59c481b5b0e07c9e0270f146"
+    },
+    ".agents/support/seranking/scripts/gsc_inspect.py": {
+      "repository": "seranking/seo-skills",
+      "commit": "fd6d1408f2e6a06454d81c07c29e0f04342eb9ba",
+      "source_path": "scripts/gsc_inspect.py",
+      "sha256": "151e2401c6139b5b32283fed6f48b26f9794d0f6e04da7c50fe0ea4ee8302c0a"
+    },
+    ".agents/support/seranking/scripts/gsc_query.py": {
+      "repository": "seranking/seo-skills",
+      "commit": "fd6d1408f2e6a06454d81c07c29e0f04342eb9ba",
+      "source_path": "scripts/gsc_query.py",
+      "sha256": "4c1d565edaa72cada9082b97db7c288fa918c87b7eca5f703c94b61c397c4327"
+    },
+    ".agents/support/seranking/scripts/indexing_notify.py": {
+      "repository": "seranking/seo-skills",
+      "commit": "fd6d1408f2e6a06454d81c07c29e0f04342eb9ba",
+      "source_path": "scripts/indexing_notify.py",
+      "sha256": "48955eb9bd9422636e28665126ec81954244fb5e4f69adec75d3f886cca228ca"
+    },
+    ".agents/support/seranking/scripts/keyword_planner.py": {
+      "repository": "seranking/seo-skills",
+      "commit": "fd6d1408f2e6a06454d81c07c29e0f04342eb9ba",
+      "source_path": "scripts/keyword_planner.py",
+      "sha256": "9d55eff1f4d08b15aed05d102a52c994f68bbc0e4136e974a3ec35a0f3f7f7c3"
+    },
+    ".agents/support/seranking/scripts/nlp_analyze.py": {
+      "repository": "seranking/seo-skills",
+      "commit": "fd6d1408f2e6a06454d81c07c29e0f04342eb9ba",
+      "source_path": "scripts/nlp_analyze.py",
+      "sha256": "45d0026c4022c54be969dd63c58597dc0b55edbc9dd2f0c25e7431687eeb2bec"
+    },
+    ".agents/support/seranking/scripts/pagespeed_check.py": {
+      "repository": "seranking/seo-skills",
+      "commit": "fd6d1408f2e6a06454d81c07c29e0f04342eb9ba",
+      "source_path": "scripts/pagespeed_check.py",
+      "sha256": "24a7f080305503d0ff196fdc8b357dd5a3295fefbe3fdded6a20719ca52c2b67"
+    },
+    ".agents/support/seranking/scripts/validate_cursor_manifest.py": {
+      "repository": "seranking/seo-skills",
+      "commit": "fd6d1408f2e6a06454d81c07c29e0f04342eb9ba",
+      "source_path": "scripts/validate_cursor_manifest.py",
+      "sha256": "e6c3b2e4b26bf34ae9898fdc7e8985192b59f3bfc3cfb27eafa4618b93526d2b"
+    },
+    ".agents/support/seranking/scripts/validate_skill_frontmatter.py": {
+      "repository": "seranking/seo-skills",
+      "commit": "fd6d1408f2e6a06454d81c07c29e0f04342eb9ba",
+      "source_path": "scripts/validate_skill_frontmatter.py",
+      "sha256": "12478fb6ee6f96d2b253fcd50b00f5c398b52df532bb38e30dc7eb8b5586a09c"
+    },
+    ".agents/support/seranking/scripts/youtube_search.py": {
+      "repository": "seranking/seo-skills",
+      "commit": "fd6d1408f2e6a06454d81c07c29e0f04342eb9ba",
+      "source_path": "scripts/youtube_search.py",
+      "sha256": "9d0ab268928bf71ec908613b7f9dbc361a74484867dbfea8ef91eb20839229d4"
+    },
+    ".agents/support/seranking/skills/seo-firecrawl/SKILL.md": {
+      "repository": "seranking/seo-skills",
+      "commit": "fd6d1408f2e6a06454d81c07c29e0f04342eb9ba",
+      "source_path": "skills/seo-firecrawl/SKILL.md",
+      "sha256": "a59bdf93a808f0501761d25065ea5a4345f06ba8871d097a8bec9d85fefb91dd"
+    },
+    ".agents/support/seranking/skills/seo-firecrawl/references/preflight.md": {
+      "repository": "seranking/seo-skills",
+      "commit": "fd6d1408f2e6a06454d81c07c29e0f04342eb9ba",
+      "source_path": "skills/seo-firecrawl/references/preflight.md",
+      "sha256": "75770e2c1ba908f490472db2c9b0e62d5ceadfab5b0a23d6b27ae9a5035bad8a"
+    },
+    ".agents/support/seranking/skills/seo-google/SKILL.md": {
+      "repository": "seranking/seo-skills",
+      "commit": "fd6d1408f2e6a06454d81c07c29e0f04342eb9ba",
+      "source_path": "skills/seo-google/SKILL.md",
+      "sha256": "b094e9ae1314317209b6118a07f7b3e22b529e249fd3bf05f5c910b72dae99cd"
+    },
+    ".agents/support/seranking/skills/seo-google/assets/templates/cwv-audit-report.md": {
+      "repository": "seranking/seo-skills",
+      "commit": "fd6d1408f2e6a06454d81c07c29e0f04342eb9ba",
+      "source_path": "skills/seo-google/assets/templates/cwv-audit-report.md",
+      "sha256": "94e81dd051757c8fe588756206eb83cc2d1c3907a76610862f01a1bcd1c2ac5d"
+    },
+    ".agents/support/seranking/skills/seo-google/assets/templates/gsc-performance-report.md": {
+      "repository": "seranking/seo-skills",
+      "commit": "fd6d1408f2e6a06454d81c07c29e0f04342eb9ba",
+      "source_path": "skills/seo-google/assets/templates/gsc-performance-report.md",
+      "sha256": "7248f2e7e20d87a863ccbf8c31eaa7af3645aa6483646cdeb1385c953c2d6738"
+    },
+    ".agents/support/seranking/skills/seo-google/assets/templates/indexation-status-report.md": {
+      "repository": "seranking/seo-skills",
+      "commit": "fd6d1408f2e6a06454d81c07c29e0f04342eb9ba",
+      "source_path": "skills/seo-google/assets/templates/indexation-status-report.md",
+      "sha256": "afc337905d82f83659a229382432876edba9bd9af6e589b3e4de4786974f13b3"
+    },
+    ".agents/support/seranking/skills/seo-google/references/auth-setup.md": {
+      "repository": "seranking/seo-skills",
+      "commit": "fd6d1408f2e6a06454d81c07c29e0f04342eb9ba",
+      "source_path": "skills/seo-google/references/auth-setup.md",
+      "sha256": "74d90a5e9aa6b49093bc3a0aab9266736c9bc8edc80ca0ce0640cd6080b1d5a2"
+    },
+    ".agents/support/seranking/skills/seo-google/references/cross-skill-integration.md": {
+      "repository": "seranking/seo-skills",
+      "commit": "fd6d1408f2e6a06454d81c07c29e0f04342eb9ba",
+      "source_path": "skills/seo-google/references/cross-skill-integration.md",
+      "sha256": "10b8e8dc21d165141e35b419bef51c09ef2e10fdc625a6057ee60c448ce1f319"
+    },
+    ".agents/support/seranking/skills/seo-google/references/ga4-data-api.md": {
+      "repository": "seranking/seo-skills",
+      "commit": "fd6d1408f2e6a06454d81c07c29e0f04342eb9ba",
+      "source_path": "skills/seo-google/references/ga4-data-api.md",
+      "sha256": "b6c29f9d830df1a406339c5776a7aebd648c5d2fd33eb7a2689106c5b3c7bbb9"
+    },
+    ".agents/support/seranking/skills/seo-google/references/indexing-api.md": {
+      "repository": "seranking/seo-skills",
+      "commit": "fd6d1408f2e6a06454d81c07c29e0f04342eb9ba",
+      "source_path": "skills/seo-google/references/indexing-api.md",
+      "sha256": "2c05cd03ab4e8abe255d3fed38b2638d6d38002392fc8ce6e7cbd50ebc3ec03a"
+    },
+    ".agents/support/seranking/skills/seo-google/references/keyword-planner-api.md": {
+      "repository": "seranking/seo-skills",
+      "commit": "fd6d1408f2e6a06454d81c07c29e0f04342eb9ba",
+      "source_path": "skills/seo-google/references/keyword-planner-api.md",
+      "sha256": "43962273a47273ac5b43e4451cb3facac50bc330d65397be523560959e46626f"
+    },
+    ".agents/support/seranking/skills/seo-google/references/nlp-api.md": {
+      "repository": "seranking/seo-skills",
+      "commit": "fd6d1408f2e6a06454d81c07c29e0f04342eb9ba",
+      "source_path": "skills/seo-google/references/nlp-api.md",
+      "sha256": "a2b2796179b929425bfe184f761bebf180f6a4f5638bed03510b3f6b15a61d48"
+    },
+    ".agents/support/seranking/skills/seo-google/references/pagespeed-crux-api.md": {
+      "repository": "seranking/seo-skills",
+      "commit": "fd6d1408f2e6a06454d81c07c29e0f04342eb9ba",
+      "source_path": "skills/seo-google/references/pagespeed-crux-api.md",
+      "sha256": "14d3fa5cbe7d0a82b4c2c6dee45842cf5273cda3a6b79e076da752df4530e4fe"
+    },
+    ".agents/support/seranking/skills/seo-google/references/rate-limits-quotas.md": {
+      "repository": "seranking/seo-skills",
+      "commit": "fd6d1408f2e6a06454d81c07c29e0f04342eb9ba",
+      "source_path": "skills/seo-google/references/rate-limits-quotas.md",
+      "sha256": "ad1f7d096e229526c8fe9026a98124a05221f53636eb6023f362dfd5fd3c2f96"
+    },
+    ".agents/support/seranking/skills/seo-google/references/search-console-api.md": {
+      "repository": "seranking/seo-skills",
+      "commit": "fd6d1408f2e6a06454d81c07c29e0f04342eb9ba",
+      "source_path": "skills/seo-google/references/search-console-api.md",
+      "sha256": "be75b999840b60f0a0980269c31046070f0915030c638521a8df2072dfd83767"
+    },
+    ".agents/support/seranking/skills/seo-google/references/supplementary-apis.md": {
+      "repository": "seranking/seo-skills",
+      "commit": "fd6d1408f2e6a06454d81c07c29e0f04342eb9ba",
+      "source_path": "skills/seo-google/references/supplementary-apis.md",
+      "sha256": "b8937fb31fa09b2c2a09ad2573191183cad219cebafc09136a88eac133cddbc1"
+    },
+    ".agents/support/seranking/skills/seo-google/references/youtube-api.md": {
+      "repository": "seranking/seo-skills",
+      "commit": "fd6d1408f2e6a06454d81c07c29e0f04342eb9ba",
+      "source_path": "skills/seo-google/references/youtube-api.md",
+      "sha256": "d6c7c0ea2205ce533bfe63f277d5497bf25239c119bfea1cf093eef30a186a6a"
+    },
+    "scripts/internal_link_audit.py": {
+      "repository": "dageno-agents/internal-linking-audit",
+      "commit": "5cb949f5d1eb8210505b6d34ca943a6851f9c220",
+      "source_path": "scripts/internal_link_audit.py",
+      "sha256": "6a15525f8e126c8abe95042c2596719afe09cd8f04a4dfa67142e410bdb44e53"
+    },
+    ".agents/skills/anti-ai-slop/.gitattributes": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": ".gitattributes",
+      "sha256": "92bd0682487140d39a8f20afcfdb2aefc8243e51553f7e1ba105a2a2f476329f"
+    },
+    ".agents/skills/anti-ai-slop/.github/workflows/codeql.yml": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": ".github/workflows/codeql.yml",
+      "sha256": "d2deb40198402e50df02341720fe17b7ee6ce751a0b29c15432219b790a60fef"
+    },
+    ".agents/skills/anti-ai-slop/.github/workflows/gitleaks.yml": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": ".github/workflows/gitleaks.yml",
+      "sha256": "ba4b39fcc7a8348bec471bf05001e67f9db759b89a5a9eea03868ef7b325e204"
+    },
+    ".agents/skills/anti-ai-slop/.github/workflows/no-ai-slop.yml": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": ".github/workflows/no-ai-slop.yml",
+      "sha256": "3f4ee57ae684d93d1ce32e92984773ff48d392a52d6869c753aba406ebcdfc51"
+    },
+    ".agents/skills/anti-ai-slop/.github/workflows/osv-scanner.yml": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": ".github/workflows/osv-scanner.yml",
+      "sha256": "c29d430d962be283be951275b571898e0d0b4b69f14410d48faa492a03838eef"
+    },
+    ".agents/skills/anti-ai-slop/.github/workflows/semgrep.yml": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": ".github/workflows/semgrep.yml",
+      "sha256": "6692afa6d0565df6a806e0401c207466616a7f62159c09feb9215258acbe7b55"
+    },
+    ".agents/skills/anti-ai-slop/.github/workflows/spec-coherence.yml": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": ".github/workflows/spec-coherence.yml",
+      "sha256": "6fafa324660ce46f87a784b961f3f20f88363f53b02fe032844dd5e16290eef5"
+    },
+    ".agents/skills/anti-ai-slop/.gitignore": {
+      "repository": "ch040602/anti-ai-slop",
+      "commit": "171db9c7daa0e4507cd22f5ad4e8771343f79e72",
+      "source_path": ".gitignore",
+      "sha256": "45b36dc319bd3aa8b448c1e2c90235e343383bb10eb51d077554e9e484d7fb98"
+    },
+    ".agents/skills/writing-cadence/references/cadence-principles.md": {
+      "repository": "msimchowitz/writing-skills",
+      "commit": "214981fe02326f27b0fc8790d00eb4b731607073",
+      "source_path": "for-agents/writing-cadence/references/cadence-principles.md",
+      "sha256": "9ba532fc32e0b7090e7c4d1458cc05064f7befaddf24b962106496b0df374fe1"
+    },
+    ".agents/skills/better-usage/references/compatibility-examples.md": {
+      "repository": "msimchowitz/writing-skills",
+      "commit": "214981fe02326f27b0fc8790d00eb4b731607073",
+      "source_path": "for-agents/better-usage/references/compatibility-examples.md",
+      "sha256": "0b39d935f043fd126053425de63fd492b3c5154795ae01aeb857829274239a08"
+    },
+    ".agents/examples/seo-drift-wix-com-20260514/compare/DRIFT-REPORT.md": {
+      "repository": "seranking/seo-skills",
+      "commit": "fd6d1408f2e6a06454d81c07c29e0f04342eb9ba",
+      "source_path": "examples/seo-drift-wix-com-20260514/compare/DRIFT-REPORT.md",
+      "sha256": "787958606c51851ffc6d88749502a22516bff59afd4264901976cb8c0e7bb26b"
+    }
+  }
+}
