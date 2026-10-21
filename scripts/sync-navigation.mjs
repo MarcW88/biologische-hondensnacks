@@ -5,13 +5,26 @@ const root = path.resolve(import.meta.dirname, '..');
 
 const chevron = '<svg class="nav-chevron" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>';
 
+function isDraft(href) {
+  if (/^(?:https?:|#)/.test(href)) return false;
+  const file = path.join(root, href.replace(/^\//, ''), 'index.html');
+  if (!fs.existsSync(file)) return true;
+  return /Inhoud nog te schrijven|Nog geen items|Inhoud nog te valideren/.test(fs.readFileSync(file, 'utf8'));
+}
+function availableLinks(html) {
+  return html.replace(/<a\b([^>]*href="([^"]+)"[^>]*)>([\s\S]*?)<\/a\s*>/g,
+    (match, attrs, href) => isDraft(href) ? '' : match)
+    .split('<div class="nav-dropdown-separator"></div>')
+    .filter(section => section.includes('<a '))
+    .join('<div class="nav-dropdown-separator"></div>');
+}
 const navItem = (label, href, dropdown, ariaLabel = label) => `
 <div class="nav-item">
   <div class="nav-item-head">
     <a class="nav-link" href="${href}">${label}${chevron}</a>
     <button class="nav-submenu-toggle" type="button" data-submenu-toggle aria-label="Open ${ariaLabel}" aria-expanded="false">${chevron}</button>
   </div>
-  <div class="nav-dropdown">${dropdown}</div>
+  <div class="nav-dropdown">${availableLinks(dropdown)}</div>
 </div>`;
 
 const navigation = `<header class="header"><div class="container header-row">
@@ -69,10 +82,10 @@ ${navItem('Gidsen', '/gidsen/', `
 </nav>
 <a class="header-cta" href="/#snack-finder">Vind mijn snack</a>
 <button class="icon-btn menu" data-menu type="button" aria-label="Menu openen" aria-expanded="false" aria-controls="site-navigation">☰</button>
-</div></header>`;
+</div></header>`.replace(/[ \t]+$/gm, '');
 
 const headerPattern = /<header class="header">[\s\S]*?<\/header>(?:<div class="protein-bar">[\s\S]*?<\/div><\/div>)?/;
-const ignored = new Set(['.git', 'node_modules', '.agents', '.content']);
+const ignored = new Set(['.git', 'node_modules', '.agents', '.content', '.artifacts']);
 let updated = 0;
 let scanned = 0;
 
@@ -90,6 +103,23 @@ function walk(dir) {
     if (!original.includes('<header class="header">')) continue;
 
     let next = original.replace(headerPattern, navigation);
+    next = next.replace(/<div class="notice">[\s\S]*?<\/div>/,
+      '<div class="notice">Conceptsite · Inhoud wacht op menselijke validatie</div>');
+    // Keep authored article bodies intact. Only directory/protein navigation and
+    // the shared footer lose links to destinations that have no content yet.
+    next = next.replace(/(<div class="container directory">)([\s\S]*?)(<\/div>)/g,
+      (match, open, body, close) => open + body.replace(/<a\b[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a\s*>/g,
+        (anchor, href, label) => isDraft('/' + href.replace(/^\//, ''))
+          ? `<span class="draft-link">${label.replace(/<div class="protein-shape"><\/div>/g, '').replace(/<span>→<\/span>/g, '')}<small>In voorbereiding</small></span>` : anchor) + close);
+    next = next.replace(/<footer\b[\s\S]*?<\/footer>/, footer => footer.replace(/<a\b[^>]*href="([^"]+)"[^>]*>[\s\S]*?<\/a\s*>/g,
+      (anchor, href) => href !== '/' && isDraft('/' + href.replace(/^\//, '')) ? '' : anchor));
+    if (!next.includes('class="skip-link"')) {
+      next = next.replace('<main>', '<main id="main-content" tabindex="-1">');
+      next = next.replace('<body>', '<body><a class="skip-link" href="#main-content">Naar de inhoud</a>');
+    }
+    const pageRoute = '/' + path.relative(root, path.dirname(absolute)).split(path.sep).filter(Boolean).join('/') + '/';
+    next = next.replace(/(<a class="skip-link" href=")[^"]+/, '$1' + pageRoute.replace(/\/+/g, '/') + '#main-content');
+    next = next.replace(/class="hero-art"(?! role=)/g, 'class="hero-art" role="img"');
     next = next.replace('</header></div><main>', '</header><main>');
     if (!next.includes('/assets/navigation.css')) {
       next = next.replace('</head>', '<link rel="stylesheet" href="/assets/navigation.css"></head>');

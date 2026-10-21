@@ -1,1 +1,17 @@
-{"name":"biologische-hondensnacks","private":true,"version":"1.0.0","scripts":{"build":"node scripts/build-preserving-guides.mjs","check":"node scripts/check.mjs","check:snacks":"node scripts/check_snacks.mjs"},"devDependencies":{"@playwright/test":"^1.63.0"}}
+{
+  "name": "biologische-hondensnacks",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node scripts/build-preserving-guides.mjs",
+    "check": "node scripts/check.mjs",
+    "check:snacks": "node scripts/check_snacks.mjs",
+    "visual:install": "playwright install chromium",
+    "visual:site": "node scripts/visual-review.mjs",
+    "test:design": "node scripts/test-design.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "axe-core": "^4.14.0"
+  }
+}

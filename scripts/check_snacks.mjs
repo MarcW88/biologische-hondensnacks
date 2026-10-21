@@ -38,7 +38,7 @@ for (const slug of slugs) {
     ],
     [
       "bronverwijzingen ontbreken",
-      /<section[^>]+aria-labelledby="sources-title"/,
+      /<section\b(?=[^>]*(?:aria-labelledby="sources-title"|class="[^"]*\bsource-section\b[^"]*"))[^>]*>[\s\S]*?<a\b[^>]*href="https?:\/\//,
     ],
     [
       "placeholdertekst staat nog in de pagina",

@@ -21,7 +21,10 @@ document.querySelectorAll('[data-submenu-toggle]').forEach(button=>{
 
 document.addEventListener('keydown',event=>{
   if(event.key!=='Escape')return;
+  const wasOpen = siteNav?.classList.contains('open');
   siteNav?.classList.remove('open');
   siteMenu?.setAttribute('aria-expanded','false');
+  siteMenu?.setAttribute('aria-label','Menu openen');
+  if (wasOpen) siteMenu?.focus();
   closeSubmenus();
 });
