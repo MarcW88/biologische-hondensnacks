@@ -1,0 +1,127 @@
+{
+  "reference_lock": ".agents/shared-agents.lock.json",
+  "context": ".agents/site-context.md",
+  "routes": [
+    {
+      "prefix": "/gidsen/",
+      "skills": [
+        "guide-analysis-workflow",
+        "guide-content-workflow"
+      ],
+      "present": true
+    },
+    {
+      "prefix": "/soorten/",
+      "skills": [
+        "guide-analysis-workflow",
+        "guide-content-workflow"
+      ],
+      "present": true
+    },
+    {
+      "prefix": "/ingredienten/",
+      "skills": [
+        "guide-analysis-workflow",
+        "guide-content-workflow"
+      ],
+      "present": true
+    },
+    {
+      "prefix": "/eiwit/",
+      "skills": [
+        "guide-analysis-workflow",
+        "guide-content-workflow"
+      ],
+      "present": true
+    },
+    {
+      "prefix": "/voor-gevoelige-honden/",
+      "skills": [
+        "usage-analysis-workflow",
+        "usage-content-workflow"
+      ],
+      "present": true
+    },
+    {
+      "prefix": "/levensfase/",
+      "skills": [
+        "usage-analysis-workflow",
+        "usage-content-workflow"
+      ],
+      "present": true
+    },
+    {
+      "prefix": "/merken/",
+      "skills": [
+        "brand-analysis-workflow",
+        "brand-content-workflow"
+      ],
+      "present": true
+    },
+    {
+      "prefix": "/producten/",
+      "skills": [
+        "brand-analysis-workflow",
+        "brand-content-workflow"
+      ],
+      "present": true
+    },
+    {
+      "prefix": "/kauwsnacks/",
+      "skills": [
+        "brand-analysis-workflow",
+        "brand-content-workflow"
+      ],
+      "present": true
+    },
+    {
+      "prefix": "/over-ons/",
+      "skills": [
+        "trust-content-workflow"
+      ],
+      "present": true
+    },
+    {
+      "prefix": "/contact/",
+      "skills": [
+        "trust-content-workflow"
+      ],
+      "present": true
+    },
+    {
+      "prefix": "/transparantie-affiliatie/",
+      "skills": [
+        "trust-content-workflow"
+      ],
+      "present": true
+    },
+    {
+      "prefix": "/mentions-legales/",
+      "skills": [
+        "trust-content-workflow"
+      ],
+      "present": true
+    },
+    {
+      "prefix": "/comparatifs/",
+      "skills": [
+        "comparison-analysis-workflow",
+        "comparison-content-workflow"
+      ],
+      "present": false
+    },
+    {
+      "prefix": "/bons-plans/",
+      "skills": [
+        "deal-analysis-workflow",
+        "deal-content-workflow"
+      ],
+      "present": false
+    }
+  ],
+  "other_workflows": {
+    "design": [
+      "site-design-review"
+    ]
+  }
+}

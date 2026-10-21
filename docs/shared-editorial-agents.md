@@ -66,3 +66,24 @@ checks pass for the 10 guides. No guide article was rewritten in this migration,
 and no editorial PASS, search-performance improvement or successful execution
 of the full content workflow is claimed. Older terse audit records remain
 historical inputs; they are not substituted for new evidence and reviews.
+
+## Site-wide activation
+
+All content entry points now have local AGENTS instructions selecting the original
+Guide, Usage, Brand or Trust workflow, with Comparison and Deal available for
+those tasks even without a dedicated section. Snack-family explanations use Guide;
+product selection uses Comparison. No local snack/behoeften/vendor agent replaces
+the shared methodology. Design retains the original Site Design Review.
+
+The complete mapping is `.agents/workflow-routing.json`. Run
+`python scripts/check_shared_routing.py` to check all 66 original files, each
+mapped entry point and coverage of all existing top-level content directories.
+The dedicated shared-agent CI runs on every push and pull request.
+
+Validated here: identity, active entry-point coverage, site checks and build.
+Not validated by this migration: full editorial execution on each article or the
+legacy French generation/publication Actions. Several inherited Actions call
+absent Python scripts (brand/deal/trust/usage/indexation); these remain technical
+integration blockers, not successful editorial gates. Resolve them before using
+those commands for a publication review. No content or indexation change occurs
+as part of activating the shared agents.

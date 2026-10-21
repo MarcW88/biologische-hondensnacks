@@ -21,25 +21,13 @@ Pour toute création, modification ou revue de l’interface :
 - Conserver une hiérarchie HTML sémantique et une navigation accessible.
 - Respecter les commandes de build, lint et test définies par le projet lorsqu’elles seront disponibles.
 
-## Production éditoriale — Snacks
+## Production éditoriale — Familles de snacks
 
-Pour toute URL sous `/soorten/`, il n’existe que deux workflows à choisir :
-
-1. **Analyser / auditer** : `.agents/skills/snack-analysis-workflow/SKILL.md`.
-2. **Créer / réécrire** : `.agents/skills/snack-content-workflow/SKILL.md`.
-
-Ces fichiers sont uniquement des orchestrateurs. L’analyse et la rédaction doivent venir des skills GitHub spécialisés déjà présents dans `.agents/skills/`, notamment `seo-content-audit`, `seo-keyword`, `search-intent`, `jobs-to-be-done`, `content-refresh`, `fact-check`, `evidence-based-reviews` lorsque nécessaire, `affiliate-value`, `content-brief-authoring`, `content-and-copy`, `internal-linking-audit`, `humanizer`, `general-writing`, `anti-ai-slop`, `seo-onpage`, `seo-technical` et `editorial-qa`.
-
-### Règles obligatoires
-
-1. Une page existante passe d’abord par `snack-analysis-workflow` en mode `AUDIT`.
-2. `/soorten/` aide à choisir une famille de snacks et ses critères ; `/gidsen/` explique une notion ; `/kauwsnacks/` documente un produit à mâcher précis ; `/ingredienten/`, `/eiwit/`, `/levensfase/` et `/voor-gevoelige-honden/` gardent leurs angles propres.
-3. Une page Snacks ne devient pas automatiquement un classement de produits. Si une vraie sélection comparative est nécessaire, transmettre au workflow Comparatifs plutôt que fabriquer un podium.
-4. Le plan découle de l’intention, du job, des preuves et des différences réelles entre familles. Aucun squelette, quota de mots, H2, tableaux, FAQ, sources ou liens n’est imposé.
-5. Les claims nutritionnels, vétérinaires, dentaires, digestifs, allergiques, biologiques et réglementaires exigent une preuve proportionnée. Une information inconnue reste inconnue, est qualifiée ou est retirée.
-6. La page doit rester utile sans liens affiliés. Aucun produit n’est favorisé en raison de sa disponibilité ou de sa commission.
-7. Après rédaction, exécuter la chaîne du workflow de contenu puis `snack-analysis-workflow` en mode `PUBLISH_REVIEW`.
-8. Conserver `noindex,follow` jusqu’à validation humaine explicite et instruction séparée de rendre la page indexable.
+Pour `/soorten/`, utiliser les agents originaux `guide-analysis-workflow` et
+`guide-content-workflow` pour expliquer les familles et aider à arbitrer les
+critères. Si la tâche est une sélection comparative de produits, utiliser les
+agents originaux `comparison-analysis-workflow` et `comparison-content-workflow`.
+Lire `.agents/site-context.md` ; aucun agent snack local ne remplace ces chaînes.
 
 ## Production éditoriale — Guides
 
@@ -212,3 +200,28 @@ Pour `/gidsen/`, suivre `gidsen/AGENTS.md` et les agents originaux
 Le contexte local est dans `.agents/site-context.md` ; les agents restent identiques
 à la version de Bloc-notes verrouillée dans `.agents/shared-agents.lock.json`.
 Les anciens workflows vendor ne doivent pas détourner cette chaîne.
+
+## Tous les workflows — routage actif prioritaire
+
+La référence unique est Bloc-notes au commit de `.agents/shared-agents.lock.json`.
+Pour TOUTE rubrique, lire d’abord `.agents/site-context.md` et le routage exhaustif
+`.agents/workflow-routing.json`, puis l’`AGENTS.md` de la rubrique. Ce routage local
+prime sur les chemins français et exemples thématiques ci-dessus, sans changer
+la méthode ni les conditions des fichiers partagés. Les 66 fichiers originaux
+et tous leurs appels spécialisés doivent être préservés à l’identique.
+
+- Guides, familles, ingrédients et protéines : agents Guide originaux.
+- Besoins et phases de vie : agents Usage originaux.
+- Marques, produits et produits à mâcher précis : agents Brand originaux.
+- Comparaison de produits, quelle que soit l’URL : agents Comparison originaux.
+- Offres promotionnelles, si demandées : agents Deal originaux.
+- Présentation, contact, affiliation, mentions et méthodes : agent Trust original.
+- Interface, CSS et revue visuelle : agent Site Design Review original avec Playwright.
+
+Les anciennes copies snack, behoeften et vendor ne sont jamais des substituts.
+Lire intégralement le workflow choisi et les skills appelés ; une étape
+conditionnelle est exécutée si sa condition est remplie. Documenter les vrais
+résultats, les étapes non applicables et les blocages sans faux PASS.
+La copie, le routage, les contrôles machine et l’audit éditorial sont quatre
+vérifications distinctes. Ne pas déclarer une chaîne entièrement exécutée parce
+que les fichiers sont identiques ou que le build passe.

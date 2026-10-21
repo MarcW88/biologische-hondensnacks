@@ -30,8 +30,8 @@ jobs:
           node-version: '22'
           cache: npm
 
-      - name: Verify and materialize pinned upstream guide skills
-        run: python scripts/sync_guide_skills.py --sync --remote
+      - name: Verify original shared agents and routing
+        run: python scripts/check_shared_routing.py
 
       - name: Validate guide pages
         if: ${{ !inputs.publish_gate }}
@@ -51,4 +51,4 @@ jobs:
         run: npm run build
 
       - name: Show provenance lock
-        run: python scripts/sync_guide_skills.py
+        run: python scripts/sync_shared_agents.py --check

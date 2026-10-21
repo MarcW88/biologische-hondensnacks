@@ -1,0 +1,15 @@
+name: Validate all shared agents and routing
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  shared-agents:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check every original file and every content entry point
+        run: python scripts/check_shared_routing.py

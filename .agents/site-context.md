@@ -47,3 +47,28 @@ writing: use `--source /absolute/path/to/reference --check`. Do not update the
 pin, rewrite a shared file or switch reference repositories without an explicit
 request. A future site can reuse the same lock, script and shared files, then
 supply its own site context and routing instructions.
+
+## Routage complet de tous les types de contenus
+
+Le manifeste `.agents/workflow-routing.json` et les points d’entrée des rubriques
+activent les mêmes agents originaux pour tous les types de contenus.
+`/soorten/`, `/ingredienten/` et `/eiwit/` relèvent de Guide pour expliquer et
+arbitrer des critères ; une sélection comparative de produits relève toujours de
+Comparison. `/levensfase/` et `/voor-gevoelige-honden/` relèvent de Usage.
+`/merken/`, `/producten/` et `/kauwsnacks/` relèvent de Brand lorsqu’ils documentent
+un écosystème ou un produit précis. Un changement de tâche peut imposer le
+handoff prévu dans le workflow original, même dans une rubrique donnée.
+
+Trust : `/a-propos/` devient `/over-ons/` ; `/transparence-affiliation/` devient
+`/transparantie-affiliatie/` ; contact et mentions gardent leur chemin.
+Les méthodes d’évaluation et politiques de comparaison relèvent également de
+Trust, sans créer une page absente uniquement pour reproduire l’arborescence.
+Comparison et Deal restent disponibles avec leurs agents complets même si le
+site n’a pas encore de rubrique dédiée. Ne pas créer de contenus pour valider
+artificiellement le routage.
+
+Conserver les registres originaux `.content/usages/`, `.content/trust/`,
+`.content/deals/`, les briefs et preuves demandés par chaque workflow. Les anciens
+registres snack/behoeften servent d’entrée historique, pas de validation courante.
+Toute commande technique absente ou incompatible est un blocage à documenter et
+à résoudre avant PUBLISH_REVIEW, jamais un contrôle implicitement réussi.

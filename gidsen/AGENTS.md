@@ -1,23 +1,15 @@
-# Guides — shared agents from Bloc-notes numérique
+# Agents partagés — point d’entrée actif
 
-For every task under `/gidsen/`, read `.agents/site-context.md` from the
-repository root and run the original shared workflows, without rewriting them:
+Lire `.agents/site-context.md` et `.agents/workflow-routing.json`.
+Vérifier `python scripts/sync_shared_agents.py --check`.
+Lire intégralement les agents originaux suivants, puis les skills spécialisés
+qu’ils appellent selon leurs conditions :
 
-- Audit, cluster audit and publication review:
-  `.agents/skills/guide-analysis-workflow/SKILL.md`.
-- Creation or rewriting, after the audit decision for an existing page:
-  `.agents/skills/guide-content-workflow/SKILL.md`.
+- `.agents/skills/guide-analysis-workflow/SKILL.md`
+- `.agents/skills/guide-content-workflow/SKILL.md`
 
-Read these files in full, then read and execute the specialist skills they call
-from `.agents/skills/`. Their references are part of the copied agent package.
-Verify the package first with `python scripts/sync_shared_agents.py --check`.
-
-The only site adaptations are in `.agents/site-context.md`: Dutch language,
-dog-snack subject, URL/path mapping, source types and existing build commands.
-Do not create another method, shorten the chain or substitute vendor variants.
-The old `.agents/workflows/guide-*.md` files are compatibility pointers only;
-`.agents/guide-vendor/` is not the authoritative guide stack for this site.
-
-Persist the actual audit, evidence, brief, drafting and review outputs. Never
-claim that a skill ran or that a guide passed without its supporting outputs.
-Keep existing noindex until explicit human approval and an indexation instruction.
+Les fichiers partagés restent inchangés. Les chemins, la langue et la thématique
+sont adaptés exclusivement dans le contexte local. Aucun workflow snack,
+behoeften ou vendor ne remplace ces agents. Un contrôle machine ne prouve pas
+l’exécution éditoriale. Enregistrer les sorties réelles et les étapes bloquées.
+Préserver le contenu rédigé au build et l’état d’indexation existant.
