@@ -203,3 +203,12 @@ L'agent doit lire et appliquer les skills spécialisés déjà présents, tels q
 Ne plus utiliser `.agents/skills/behoeften-analysis-workflow/`, `.agents/skills/behoeften-content-workflow/` ni `.agents/workflows/behoeften-*.md` comme substituts. Les anciens documents restent de l'historique, pas la source d'autorité.
 
 **Important :** enregistrer les sorties réellement produites par chaque étape, et non un document récapitulatif reconstruit qui affirme sans preuve que des skills ont été exécutés. Conserver `noindex,follow` jusqu'à validation humaine explicite.
+
+
+## Guides — point d'entrée actif
+
+Pour `/gidsen/`, suivre `gidsen/AGENTS.md` et les agents originaux
+`guide-analysis-workflow` / `guide-content-workflow` sous `.agents/skills/`.
+Le contexte local est dans `.agents/site-context.md` ; les agents restent identiques
+à la version de Bloc-notes verrouillée dans `.agents/shared-agents.lock.json`.
+Les anciens workflows vendor ne doivent pas détourner cette chaîne.

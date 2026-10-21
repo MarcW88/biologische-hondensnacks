@@ -3,7 +3,12 @@ name: Validate guide workflow
 on:
   push:
     paths:
-      - '.agents/guide-skills.lock.json'
+      - '.agents/shared-agents.lock.json'
+      - '.agents/site-context.md'
+      - '.agents/skills/**'
+      - 'scripts/sync_shared_agents.py'
+      - 'validate_guide_quality.py'
+      - 'AGENTS.md'
       - '.agents/workflows/guide-analysis.md'
       - '.agents/workflows/guide-content.md'
       - '.agents/workflows/guides.md'
@@ -19,7 +24,12 @@ on:
       - 'package-lock.json'
   pull_request:
     paths:
-      - '.agents/guide-skills.lock.json'
+      - '.agents/shared-agents.lock.json'
+      - '.agents/site-context.md'
+      - '.agents/skills/**'
+      - 'scripts/sync_shared_agents.py'
+      - 'validate_guide_quality.py'
+      - 'AGENTS.md'
       - '.agents/workflows/guide-analysis.md'
       - '.agents/workflows/guide-content.md'
       - '.agents/workflows/guides.md'
@@ -53,8 +63,25 @@ jobs:
           node-version: '22'
           cache: npm
 
-      - name: Verify and materialize pinned upstream skills
-        run: python scripts/sync_guide_skills.py --sync --remote
+      - name: Read pinned shared-agent reference
+        id: agent-ref
+        run: echo "sha=$(python -c 'import json; print(json.load(open(".agents/shared-agents.lock.json"))["source_commit"])')" >> "$GITHUB_OUTPUT"
+
+      - name: Checkout the original agent files
+        uses: actions/checkout@v4
+        with:
+          repository: MarcW88/bloc-notes-numerique
+          ref: ${{ steps.agent-ref.outputs.sha }}
+          path: .agent-reference
+          sparse-checkout: .agents/skills
+          sparse-checkout-cone-mode: false
+          persist-credentials: false
+
+      - name: Verify exact shared-agent bytes
+        run: python scripts/sync_shared_agents.py --source .agent-reference --check
+
+      - name: Run the shared workflow's site command adapter
+        run: python validate_guide_quality.py
 
       - name: Validate guide HTML structure before build
         run: node scripts/check_guides.mjs
