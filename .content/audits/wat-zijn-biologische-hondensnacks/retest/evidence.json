@@ -1,0 +1,45 @@
+{
+  "mode": "AUDIT",
+  "date": "2026-10-21",
+  "source_commit": "cc318976bb40568d3dde44a0df3cf9f38b09478d",
+  "url": "https://biologische-hondensnacks.nl/gidsen/wat-zijn-biologische-hondensnacks/",
+  "live_status": 200,
+  "live_sha256": "54b2f489678033adeb957132859944a55139051d00ac1fed91a8967d904f94d5",
+  "same_as_checkout": true,
+  "robots": "noindex,follow",
+  "canonical": "https://biologische-hondensnacks.nl/gidsen/wat-zijn-biologische-hondensnacks/",
+  "resources": [
+    {
+      "route": "robots.txt",
+      "status": 404
+    },
+    {
+      "route": "sitemap.xml",
+      "status": 404
+    }
+  ],
+  "linking_summary": {
+    "checked_pages": 1,
+    "add_internal_link": 0,
+    "add_contextual_body_link": 1,
+    "no_action_needed": 3
+  },
+  "visual": [
+    {
+      "viewport": "desktop",
+      "http_status": 200,
+      "horizontal_overflow": false,
+      "console_errors": [],
+      "page_errors": []
+    },
+    {
+      "viewport": "mobile",
+      "http_status": 200,
+      "horizontal_overflow": false,
+      "console_errors": [],
+      "page_errors": []
+    }
+  ],
+  "decision": "LIGHT_UPDATE",
+  "publication_review_executed": false
+}

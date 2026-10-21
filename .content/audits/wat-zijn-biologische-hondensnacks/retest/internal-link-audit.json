@@ -1,0 +1,166 @@
+{
+  "brand": {
+    "name": "Biologische Hondensnacks",
+    "domain": "https://biologische-hondensnacks.nl",
+    "locale": "nl-NL"
+  },
+  "domain": "https://biologische-hondensnacks.nl",
+  "crawl_mode": "import",
+  "summary": {
+    "checked_pages": 1,
+    "add_internal_link": 0,
+    "add_contextual_body_link": 1,
+    "no_action_needed": 3
+  },
+  "pages": [
+    {
+      "url": "https://biologische-hondensnacks.nl/gidsen/wat-zijn-biologische-hondensnacks/",
+      "fetch": {
+        "fetcher": "import",
+        "status_code": null
+      },
+      "title": "Wat zijn biologische hondensnacks? Betekenis zonder marketing",
+      "h1": "Wat zijn biologische hondensnacks?",
+      "stats": {
+        "total_links": 41,
+        "unique_links": 26,
+        "breakdown": {
+          "navigation": 25,
+          "menu": 0,
+          "footer": 8,
+          "cta": 0,
+          "body": 8
+        },
+        "unique_breakdown": {
+          "navigation": 24,
+          "menu": 0,
+          "footer": 8,
+          "cta": 0,
+          "body": 6
+        }
+      },
+      "recommendations": [
+        {
+          "source": "https://biologische-hondensnacks.nl/gidsen/wat-zijn-biologische-hondensnacks/",
+          "target": "https://biologische-hondensnacks.nl/gidsen/biologische-of-natuurlijke-hondensnacks/",
+          "anchor": "biologisch of natuurlijk",
+          "placement": "biologisch of natuurlijk",
+          "reason": "Relevant next reader question",
+          "priority": "P1",
+          "target_normalized": "https://biologische-hondensnacks.nl/gidsen/biologische-of-natuurlijke-hondensnacks",
+          "action": "no_action_needed",
+          "recommendation": "Target URL already exists in body/contextual links.",
+          "target_instances": [
+            {
+              "url": "https://biologische-hondensnacks.nl/gidsen/biologische-of-natuurlijke-hondensnacks",
+              "region": "navigation",
+              "anchor": "Biologisch of natuurlijk?"
+            },
+            {
+              "url": "https://biologische-hondensnacks.nl/gidsen/biologische-of-natuurlijke-hondensnacks",
+              "region": "body",
+              "anchor": "biologische of natuurlijke hondensnacks"
+            },
+            {
+              "url": "https://biologische-hondensnacks.nl/gidsen/biologische-of-natuurlijke-hondensnacks",
+              "region": "footer",
+              "anchor": "Biologisch of natuurlijk?"
+            }
+          ],
+          "body_target_instances": [
+            {
+              "url": "https://biologische-hondensnacks.nl/gidsen/biologische-of-natuurlijke-hondensnacks",
+              "region": "body",
+              "anchor": "biologische of natuurlijke hondensnacks"
+            }
+          ]
+        },
+        {
+          "source": "https://biologische-hondensnacks.nl/gidsen/wat-zijn-biologische-hondensnacks/",
+          "target": "https://biologische-hondensnacks.nl/gidsen/biologisch-keurmerk-hondensnacks/",
+          "anchor": "keurmerk controleren",
+          "placement": "keurmerk controleren",
+          "reason": "Relevant next reader question",
+          "priority": "P1",
+          "target_normalized": "https://biologische-hondensnacks.nl/gidsen/biologisch-keurmerk-hondensnacks",
+          "action": "no_action_needed",
+          "recommendation": "Target URL already exists in body/contextual links.",
+          "target_instances": [
+            {
+              "url": "https://biologische-hondensnacks.nl/gidsen/biologisch-keurmerk-hondensnacks",
+              "region": "navigation",
+              "anchor": "Biologisch keurmerk herkennen"
+            },
+            {
+              "url": "https://biologische-hondensnacks.nl/gidsen/biologisch-keurmerk-hondensnacks",
+              "region": "body",
+              "anchor": "biologisch keurmerk op hondensnacks controleren"
+            }
+          ],
+          "body_target_instances": [
+            {
+              "url": "https://biologische-hondensnacks.nl/gidsen/biologisch-keurmerk-hondensnacks",
+              "region": "body",
+              "anchor": "biologisch keurmerk op hondensnacks controleren"
+            }
+          ]
+        },
+        {
+          "source": "https://biologische-hondensnacks.nl/gidsen/wat-zijn-biologische-hondensnacks/",
+          "target": "https://biologische-hondensnacks.nl/gidsen/hoeveel-snacks-mag-een-hond-per-dag/",
+          "anchor": "hoeveel snacks per dag",
+          "placement": "hoeveel snacks per dag",
+          "reason": "Relevant next reader question",
+          "priority": "P1",
+          "target_normalized": "https://biologische-hondensnacks.nl/gidsen/hoeveel-snacks-mag-een-hond-per-dag",
+          "action": "no_action_needed",
+          "recommendation": "Target URL already exists in body/contextual links.",
+          "target_instances": [
+            {
+              "url": "https://biologische-hondensnacks.nl/gidsen/hoeveel-snacks-mag-een-hond-per-dag",
+              "region": "navigation",
+              "anchor": "Hoeveel snacks per dag?"
+            },
+            {
+              "url": "https://biologische-hondensnacks.nl/gidsen/hoeveel-snacks-mag-een-hond-per-dag",
+              "region": "body",
+              "anchor": "hoeveel snacks per dag"
+            }
+          ],
+          "body_target_instances": [
+            {
+              "url": "https://biologische-hondensnacks.nl/gidsen/hoeveel-snacks-mag-een-hond-per-dag",
+              "region": "body",
+              "anchor": "hoeveel snacks per dag"
+            }
+          ]
+        },
+        {
+          "source": "https://biologische-hondensnacks.nl/gidsen/wat-zijn-biologische-hondensnacks/",
+          "target": "https://biologische-hondensnacks.nl/gidsen/ingredienten-hondensnacks-lezen/",
+          "anchor": "samenstelling",
+          "placement": "samenstelling",
+          "reason": "Relevant next reader question",
+          "priority": "P1",
+          "target_normalized": "https://biologische-hondensnacks.nl/gidsen/ingredienten-hondensnacks-lezen",
+          "action": "add_contextual_body_link",
+          "recommendation": "Target URL exists only in non-body regions (footer, navigation); add only if the suggested body placement is genuinely useful.",
+          "target_instances": [
+            {
+              "url": "https://biologische-hondensnacks.nl/gidsen/ingredienten-hondensnacks-lezen",
+              "region": "navigation",
+              "anchor": "Ingrediënten leren lezen"
+            },
+            {
+              "url": "https://biologische-hondensnacks.nl/gidsen/ingredienten-hondensnacks-lezen",
+              "region": "footer",
+              "anchor": "Ingrediënten lezen"
+            }
+          ],
+          "body_target_instances": []
+        }
+      ]
+    }
+  ],
+  "blocked_pages": []
+}
