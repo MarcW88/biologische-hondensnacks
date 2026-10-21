@@ -124,6 +124,9 @@ function walk(dir) {
     if (!next.includes('/assets/navigation.css')) {
       next = next.replace('</head>', '<link rel="stylesheet" href="/assets/navigation.css"></head>');
     }
+    if (!next.includes('/assets/editorial.css')) {
+      next = next.replace('</head>', '<link rel="stylesheet" href="/assets/editorial.css"></head>');
+    }
     if (!next.includes('/assets/navigation.js')) {
       next = next.replace('</body>', '<script src="/assets/navigation.js"></script></body>');
     }
