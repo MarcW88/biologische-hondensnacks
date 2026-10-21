@@ -1,0 +1,24 @@
+{
+  "gidsen/wat-zijn-biologische-hondensnacks/": {
+    "status": 200,
+    "url": "https://biologische-hondensnacks.nl/gidsen/wat-zijn-biologische-hondensnacks/"
+  },
+  "robots.txt": {
+    "error": "HTTP Error 404: Not Found"
+  },
+  "sitemap.xml": {
+    "error": "HTTP Error 404: Not Found"
+  },
+  "gidsen/biologische-of-natuurlijke-hondensnacks/": {
+    "status": 200,
+    "url": "https://biologische-hondensnacks.nl/gidsen/biologische-of-natuurlijke-hondensnacks/"
+  },
+  "gidsen/biologisch-keurmerk-hondensnacks/": {
+    "status": 200,
+    "url": "https://biologische-hondensnacks.nl/gidsen/biologisch-keurmerk-hondensnacks/"
+  },
+  "gidsen/hoeveel-snacks-mag-een-hond-per-dag/": {
+    "status": 200,
+    "url": "https://biologische-hondensnacks.nl/gidsen/hoeveel-snacks-mag-een-hond-per-dag/"
+  }
+}

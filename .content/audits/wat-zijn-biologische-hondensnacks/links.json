@@ -1,0 +1,68 @@
+[
+  {
+    "href": "/",
+    "text": "Home",
+    "resolved": "https://biologische-hondensnacks.nl/",
+    "region": "main (includes breadcrumbs)"
+  },
+  {
+    "href": "gidsen/",
+    "text": "Gidsen",
+    "resolved": "https://biologische-hondensnacks.nl/gidsen/",
+    "region": "main (includes breadcrumbs)"
+  },
+  {
+    "href": "https://eur-lex.europa.eu/eli/reg/2023/2419/oj",
+    "text": "Verordening (EU) 2023/2419",
+    "resolved": "https://eur-lex.europa.eu/eli/reg/2023/2419/oj",
+    "region": "main (includes breadcrumbs)"
+  },
+  {
+    "href": "gidsen/biologische-of-natuurlijke-hondensnacks/",
+    "text": "biologische of natuurlijke hondensnacks",
+    "resolved": "https://biologische-hondensnacks.nl/gidsen/biologische-of-natuurlijke-hondensnacks/",
+    "region": "main (includes breadcrumbs)"
+  },
+  {
+    "href": "gidsen/biologisch-keurmerk-hondensnacks/",
+    "text": "biologisch keurmerk op hondensnacks controleren",
+    "resolved": "https://biologische-hondensnacks.nl/gidsen/biologisch-keurmerk-hondensnacks/",
+    "region": "main (includes breadcrumbs)"
+  },
+  {
+    "href": "https://eur-lex.europa.eu/eli/reg/2023/2419/oj",
+    "text": "EU 2023/2419, art. 3, 4 en 6",
+    "resolved": "https://eur-lex.europa.eu/eli/reg/2023/2419/oj",
+    "region": "main (includes breadcrumbs)"
+  },
+  {
+    "href": "https://www.skal.nl/onderwerpen/import/aanduidingen/bio-checker/diervoeder",
+    "text": "Skal — biologisch diervoeder",
+    "resolved": "https://www.skal.nl/onderwerpen/import/aanduidingen/bio-checker/diervoeder",
+    "region": "main (includes breadcrumbs)"
+  },
+  {
+    "href": "gidsen/hoeveel-snacks-mag-een-hond-per-dag/",
+    "text": "hoeveel snacks per dag",
+    "resolved": "https://biologische-hondensnacks.nl/gidsen/hoeveel-snacks-mag-een-hond-per-dag/",
+    "region": "main (includes breadcrumbs)"
+  },
+  {
+    "href": "https://eur-lex.europa.eu/eli/reg/2023/2419/oj",
+    "text": "Verordening (EU) 2023/2419 — biologisch petfood",
+    "resolved": "https://eur-lex.europa.eu/eli/reg/2023/2419/oj",
+    "region": "main (includes breadcrumbs)"
+  },
+  {
+    "href": "https://www.skal.nl/onderwerpen/import/aanduidingen/bio-checker/diervoeder",
+    "text": "Skal Biocontrole — biologisch diervoeder",
+    "resolved": "https://www.skal.nl/onderwerpen/import/aanduidingen/bio-checker/diervoeder",
+    "region": "main (includes breadcrumbs)"
+  },
+  {
+    "href": "https://europeanpetfood.org/pet-food-facts/fact-sheets/quality-and-safety/chews-and-treats-for-dogs/",
+    "text": "FEDIAF — Chews and treats for dogs",
+    "resolved": "https://europeanpetfood.org/pet-food-facts/fact-sheets/quality-and-safety/chews-and-treats-for-dogs/",
+    "region": "main (includes breadcrumbs)"
+  }
+]
