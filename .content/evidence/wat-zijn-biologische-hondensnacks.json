@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-22",
+  "scope": "LIGHT_UPDATE",
+  "sources": {
+    "commission": "https://agriculture.ec.europa.eu/farming/organic-farming/organic-production-and-products_en",
+    "usda": "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=EU+Adopts+New+Rules+for+Organic+Pet+Food+_Brussels+USEU_European+Union_E42023-0049",
+    "defra": "https://assets.publishing.service.gov.uk/media/662a59cbe8c75df17da7e519/PE-CONS_33-23_REV_1.pdf",
+    "regulation": "https://eur-lex.europa.eu/eli/reg/2023/2419/oj",
+    "nvwa": "https://www.nvwa.nl/onderwerpen/diervoeder/claims-op-diervoeders-en-petfood/wat-is-een-claim",
+    "fediaf": "https://europeanpetfood.org/pet-food-facts/fact-sheets/quality-and-safety/chews-and-treats-for-dogs/"
+  },
+  "prewriting": [
+    {
+      "claim": "Restrictions and authorised inputs for plant cultivation; livestock conditions; separation and permitted processing aids",
+      "source": "commission",
+      "status": "CONFIRMED",
+      "scope": "General EU organic production principles; no species-specific husbandry thresholds"
+    },
+    {
+      "claim": "95% agricultural ingredients by weight AND production conditions; references under the threshold restricted to ingredient list under conditions",
+      "source": "usda",
+      "status": "CONFIRMED",
+      "scope": "EU 2023/2419 explanatory report, not a legal-compliance certificate"
+    },
+    {
+      "claim": "Prepacked qualifying petfood logo rule applies from 1 May 2024",
+      "source": "defra",
+      "corroboration": "usda",
+      "status": "CONFIRMED"
+    },
+    {
+      "claim": "76/80 agricultural parts \u00d7 100 = 95%, explicitly fictional teaching example",
+      "source": "explicitly fictional teaching example",
+      "status": "ILLUSTRATIVE",
+      "scope": "Not a product, recipe or calculation of total package weight; other conditions remain necessary"
+    }
+  ],
+  "postwriting": {
+    "status": "PASS for claims actually written",
+    "checks": [
+      "Commission source supports cultivation limits, crop rotation, livestock medicines under conditions, separation and permitted processing aids",
+      "USDA and Defra accessible official explanatory documents corroborate threshold, ingredient-list rule and logo date",
+      "NVWA supports natural as a product descriptor; FEDIAF supports typically complementary feeding role",
+      "Example arithmetic verified: 76/80*100 == 95; explicitly fictitious and not a product certificate",
+      "No factual additions in styling passes beyond recorded research; no claim of legal certification",
+      "Date updated means actual article update, not reconstruction of September verification history"
+    ]
+  }
+}

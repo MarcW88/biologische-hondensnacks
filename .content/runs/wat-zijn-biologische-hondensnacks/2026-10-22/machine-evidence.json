@@ -1,0 +1,29 @@
+{
+  "page_sha256": "b30196aad7d1a48ce94ac1aa050780a5101364bc5dc5864fe52750d712eb59e7",
+  "mode": "PUBLISH_REVIEW",
+  "machine_guide_validator": "PASS: 10 guides",
+  "repository_checks": "PASS: 52 HTML pages",
+  "linking": {
+    "checked_pages": 1,
+    "add_internal_link": 0,
+    "add_contextual_body_link": 0,
+    "no_action_needed": 4
+  },
+  "visual": [
+    {
+      "viewport": "desktop",
+      "http": 200,
+      "overflow": false,
+      "console_errors": [],
+      "page_errors": []
+    },
+    {
+      "viewport": "mobile",
+      "http": 200,
+      "overflow": false,
+      "console_errors": [],
+      "page_errors": []
+    }
+  ],
+  "article_noindex_preserved": true
+}
