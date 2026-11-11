@@ -29,8 +29,8 @@ for (const slug of slugs) {
   const checks = [
     ["Nederlandse taal ontbreekt", /<html lang="nl">/],
     [
-      "noindex,follow ontbreekt",
-      /<meta\s+name="robots"\s+content="noindex,follow"\s*\/?\s*>/,
+      "index,follow ontbreekt",
+      /<meta\s+name="robots"\s+content="index,follow"\s*\/?\s*>/,
     ],
     [
       "canonical ontbreekt",

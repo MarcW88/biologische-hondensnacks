@@ -12,7 +12,7 @@ for(const file of fs.readdirSync(records).filter(x=>x.endsWith(".json"))){
  const match=before.match(/<article>[\s\S]*?<\/article>/);
  if(!match)throw Error("Missing article "+target);
  const after=before.replace(match[0],"<article>"+data.article_html+"</article>");
- if(!after.includes('name="robots" content="noindex,follow"'))throw Error("Missing noindex");
+ if(!after.includes('name="robots" content="index,follow"'))throw Error("Missing index directive");
  if(before!==after){mismatches++;if(!check)fs.writeFileSync(target,after);}
 }
 console.log((check?"CHECK":"APPLY")+" Behoeften: "+mismatches+" unsynchronized pages");

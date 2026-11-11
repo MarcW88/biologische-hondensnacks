@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://biologische-hondensnacks.nl/sitemap.xml
